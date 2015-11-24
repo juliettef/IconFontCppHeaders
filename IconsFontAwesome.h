@@ -3,7 +3,7 @@
 #pragma once
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf280
+#define ICON_MAX_FA 0xf295
 #define ICON_FA_GLASS u8"\uf000"
 #define ICON_FA_MUSIC u8"\uf001"
 #define ICON_FA_SEARCH u8"\uf002"
@@ -589,3 +589,23 @@
 #define ICON_FA_VIMEO u8"\uf27d"
 #define ICON_FA_BLACK_TIE u8"\uf27e"
 #define ICON_FA_FONTICONS u8"\uf280"
+#define ICON_FA_REDDIT_ALIEN u8"\uf281"
+#define ICON_FA_EDGE u8"\uf282"
+#define ICON_FA_CREDIT_CARD_ALT u8"\uf283"
+#define ICON_FA_CODIEPIE u8"\uf284"
+#define ICON_FA_MODX u8"\uf285"
+#define ICON_FA_FORT_AWESOME u8"\uf286"
+#define ICON_FA_USB u8"\uf287"
+#define ICON_FA_PRODUCT_HUNT u8"\uf288"
+#define ICON_FA_MIXCLOUD u8"\uf289"
+#define ICON_FA_SCRIBD u8"\uf28a"
+#define ICON_FA_PAUSE_CIRCLE u8"\uf28b"
+#define ICON_FA_PAUSE_CIRCLE_O u8"\uf28c"
+#define ICON_FA_STOP_CIRCLE u8"\uf28d"
+#define ICON_FA_STOP_CIRCLE_O u8"\uf28e"
+#define ICON_FA_SHOPPING_BAG u8"\uf290"
+#define ICON_FA_SHOPPING_BASKET u8"\uf291"
+#define ICON_FA_HASHTAG u8"\uf292"
+#define ICON_FA_BLUETOOTH u8"\uf293"
+#define ICON_FA_BLUETOOTH_B u8"\uf294"
+#define ICON_FA_PERCENT u8"\uf295"

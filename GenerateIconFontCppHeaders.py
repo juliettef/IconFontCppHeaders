@@ -1,4 +1,4 @@
-# Convert Font Awesome and Material Design icons to a C++ 11 compatible format
+# Convert Font Awesome, Material Design and Kenney icons to a C++ 11 compatible format
 
 #   Font Awesome source:
 #       id:         file-o
@@ -10,6 +10,11 @@
 #       3d_rotation e84d
 #   output:
 #       #define ICON_MD_3D_ROTATION u8"\ue84d"
+
+#   Kenney Icon source:
+#       .ki.ki-arrow-top:before{ content: "\e900"; }
+#   output:
+#       #define ICON_KI_ARROW_TOP u8"\ue900"
 
 # Added min and max unicode fonts ICON_MIN and ICON_MAX
 #   output:
@@ -41,7 +46,7 @@ try:
 	if response.status_code == 200:
 		input = yaml.safe_load( response.content )
 		unicode_min = 'ffff'
-		unicode_max = '0000'
+		unicode_max = '0'
 		output = ''
 		for item in input[ 'icons' ]:
 			font = ''
@@ -73,7 +78,7 @@ try:
 	if response.status_code == 200:
 		input = str.split( response.content, '\n' )
 		unicode_min = 'ffff'
-		unicode_max = '0000'
+		unicode_max = '0'
 		output = ''
 		for line in input:
 			words = str.split( line )
@@ -96,3 +101,39 @@ try:
 		print( 'Material Design icons - conversion success: {!s}'.format( output_file ))
 except Exception as e:
 	print( 'Material Design icons - error \n\t{!s}'.format( e ))
+
+# Convert Kenney Icons
+url = 'https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css'
+icon_name = 'KI'
+output_file = 'IconsKenney.h'
+
+try:
+	response = requests.get( url, timeout = 2 )
+	if response.status_code == 200:
+		input = str.split( response.content, '\n' )
+		unicode_min = 'ffff'
+		unicode_max = '0'
+		output = ''
+		for line in input:
+			words = str.split( line )
+			if words:
+				if '.ki.ki-' in words[ 0 ]:
+					font = ''
+					word = words[ 0 ][( words[ 0 ].find( '.ki.ki-' ) + len( '.ki.ki-' )):( words[ 0 ].find( ':before' ))]
+					for char in word:
+						font += '_' if ( char == '-' ) else str.upper( char )
+					unicode = str( words[ 2 ][( words[ 2 ].find( '"\\' ) + len( '"\\' )):words[ 2 ].find( '";' )])
+					if unicode < unicode_min:
+						unicode_min = unicode
+					elif unicode >= unicode_max:
+						unicode_max = unicode
+			output += font_line_format.format( icon_name, font , unicode )
+		output_range = get_prelude( url ) + \
+						minmax_line_format.format( 'MIN', icon_name, unicode_min ) + \
+						minmax_line_format.format( 'MAX', icon_name, unicode_max ) + \
+						output
+		with open( output_file, 'w' ) as f:
+			f.write( output_range )
+		print( 'Kenney icons - conversion success: {!s}'.format( output_file ))
+except Exception as e:
+	print( 'Kenney icons - error \n\t{!s}'.format( e ))

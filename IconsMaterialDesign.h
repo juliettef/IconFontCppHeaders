@@ -895,4 +895,3 @@
 #define ICON_MD_ZOOM_IN u8"\ue8ff"
 #define ICON_MD_ZOOM_OUT u8"\ue900"
 #define ICON_MD_ZOOM_OUT_MAP u8"\ue56b"
-#define ICON_MD_ZOOM_OUT_MAP u8"\ue56b"

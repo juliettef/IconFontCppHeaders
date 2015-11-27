@@ -42,9 +42,11 @@ icon_name = 'FA'
 output_file = 'IconsFontAwesome.h'
 
 try:
+	input = ''
 	response = requests.get( url, timeout = 2 )
 	if response.status_code == 200:
 		input = yaml.safe_load( response.content )
+		unicode = ''
 		unicode_min = 'ffff'
 		unicode_max = '0'
 		output = ''
@@ -74,9 +76,13 @@ icon_name = 'MD'
 output_file = 'IconsMaterialDesign.h'
 
 try:
+	input = ''
 	response = requests.get( url, timeout = 2 )
 	if response.status_code == 200:
 		input = str.split( response.content, '\n' )
+		line = ''
+		words = ''
+		unicode = ''
 		unicode_min = 'ffff'
 		unicode_max = '0'
 		output = ''
@@ -91,7 +97,7 @@ try:
 					unicode_min = unicode
 				elif unicode >= unicode_max:
 					unicode_max = unicode
-			output += font_line_format.format( icon_name, font , unicode )
+				output += font_line_format.format( icon_name, font , unicode )
 		output_range = get_prelude( url ) + \
 						minmax_line_format.format( 'MIN', icon_name, unicode_min ) + \
 						minmax_line_format.format( 'MAX', icon_name, unicode_max ) + \
@@ -108,18 +114,22 @@ icon_name = 'KI'
 output_file = 'IconsKenney.h'
 
 try:
+	input = ''
 	response = requests.get( url, timeout = 2 )
 	if response.status_code == 200:
 		input = str.split( response.content, '\n' )
+		line = ''
+		words = ''
+		unicode = ''
 		unicode_min = 'ffff'
 		unicode_max = '0'
 		output = ''
 		for line in input:
 			words = str.split( line )
 			if words:
-				if '.ki.ki-' in words[ 0 ]:
+				if '.ki-' in words[ 0 ]:
 					font = ''
-					word = words[ 0 ][( words[ 0 ].find( '.ki.ki-' ) + len( '.ki.ki-' )):( words[ 0 ].find( ':before' ))]
+					word = words[ 0 ][( words[ 0 ].find( '.ki-' ) + len( '.ki-' )):( words[ 0 ].find( ':before' ))]
 					for char in word:
 						font += '_' if ( char == '-' ) else str.upper( char )
 					unicode = str( words[ 2 ][( words[ 2 ].find( '"\\' ) + len( '"\\' )):words[ 2 ].find( '";' )])
@@ -127,7 +137,7 @@ try:
 						unicode_min = unicode
 					elif unicode >= unicode_max:
 						unicode_max = unicode
-			output += font_line_format.format( icon_name, font , unicode )
+					output += font_line_format.format( icon_name, font , unicode )
 		output_range = get_prelude( url ) + \
 						minmax_line_format.format( 'MIN', icon_name, unicode_min ) + \
 						minmax_line_format.format( 'MAX', icon_name, unicode_max ) + \

@@ -20,11 +20,11 @@
 #                                 - sound
 #                               categories:
 #                                 - Web Application Icons
-#           - output:         define ICON_FA_GLASS u8"\uf000"
+#           - output:         #define ICON_FA_MUSIC u8"\uf001"
 #
 #   2.2 - Material Design
 #           - input:          3d_rotation e84d
-#           - output:         define ICON_MD_3D_ROTATION u8"\ue84d"
+#           - output:         #define ICON_MD_3D_ROTATION u8"\ue84d"
 #
 #   2.3 - Kenney icons
 #           - input:          .ki-home:before{ content: "\e900"; }

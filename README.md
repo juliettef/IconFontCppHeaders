@@ -1,9 +1,9 @@
 # IconFontCHeaders
-C++ 11 headers for icon fonts Font Awesome, Google Material Design icons and Kenney game icons.
+C++11 and C89 headers for icon fonts Font Awesome, Google Material Design icons and Kenney game icons.
 
-A set of header files for using icon fonts in C++, along with the python generator used to create the files.
+A set of header files for using icon fonts in C and C++, along with the python generator used to create the files.
 
-Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min and max code points for font loading purposes (for example ICON_MIN_FA and ICON_MAX_FA).
+Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min and max code points for font loading purposes.
 
 ## Fonts
 

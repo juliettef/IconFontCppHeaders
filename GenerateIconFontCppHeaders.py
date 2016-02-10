@@ -1,4 +1,5 @@
-# Convert Font Awesome, Material Design and Kenney icon fonts to a C++ 11 compatible format
+# Convert Font Awesome, Google Material Design and Kenney Game icon font
+# parameters to C++11 and C89 compatible formats.
 #
 #------------------------------------------------------------------------------
 # 1 - Source material
@@ -20,20 +21,23 @@
 #                                 - sound
 #                               categories:
 #                                 - Web Application Icons
-#           - output:         #define ICON_FA_MUSIC u8"\uf001"
+#           - output C++11:     #define ICON_FA_MUSIC u8"\uf001"
+#           - output C89:       #define ICON_FA_MUSIC "\xEF\x80\x81"
 #
-#   2.2 - Material Design
-#           - input:          3d_rotation e84d
-#           - output:         #define ICON_MD_3D_ROTATION u8"\ue84d"
+#   2.2 - Google Material Design icons
+#           - input:            3d_rotation e84d
+#           - output C++11:     #define ICON_MD_3D_ROTATION u8"\ue84d"
+#           - output C89:       #define ICON_MD_3D_ROTATION "\xEE\xA1\x8D"
 #
-#   2.3 - Kenney icons
-#           - input:          .ki-home:before{ content: "\e900"; }
-#           - output:         #define ICON_KI_HOME u8"\ue900"
+#   2.3 - Kenney Game icons
+#           - input:            .ki-home:before{ content: "\e900"; }
+#           - output C++11:     #define ICON_KI_HOME u8"\ue900"
+#           - output C89:       #define ICON_KI_HOME "\xEE\xA4\x80"
 #
 #   2.4 - All fonts
 #           - computed min and max unicode fonts ICON_MIN and ICON_MAX
-#           - output:         #define ICON_MIN_FA 0xf000
-#                             #define ICON_MAX_FA 0xf295
+#           - output:           #define ICON_MIN_FA 0xf000
+#                               #define ICON_MAX_FA 0xf295
 #
 #------------------------------------------------------------------------------
 # 3 - Script dependencies
@@ -50,7 +54,6 @@ import yaml
 
 
 LINE_FORMAT_MINMAX = '#define ICON_{!s}_{!s} 0x{!s}\n'
-LINE_FORMAT_FONT = '#define ICON_{!s}_{!s} u8"\u{!s}"\n'
 
 UNICODE_MIN = 'ffff'
 UNICODE_MAX = '0'
@@ -65,7 +68,17 @@ def get_prelude( url ):
 	return prelude
 
 
-def convert_font_awesome( font_name, font_abbr, source_url, output_file ):
+def line_format( font_abbr, font, unicode, cpp11 = True ):
+	if cpp11:
+		result = '#define ICON_{!s}_{!s} u8"\u{!s}"\n'.format( font_abbr, font, unicode )
+	else:
+		unicode_base = ''.join([ '{0:x}'.format( ord( x )) for x in unichr( int( unicode, 16 )).encode( 'utf-8' )]).upper()
+		unicode = '\\x' + unicode_base[ :2 ] + '\\x' + unicode_base[ 2:4 ] + '\\x' + unicode_base[ 4: ]
+		result = '#define ICON_{!s}_{!s} "{!s}"\n'.format( font_abbr, font, unicode )
+	return result
+
+
+def convert_font_awesome( font_name, font_abbr, source_url, output_file, cpp11 ):
 	try:
 		response = requests.get( source_url, timeout = TIMEOUT )
 		if response.status_code == 200:
@@ -82,7 +95,7 @@ def convert_font_awesome( font_name, font_abbr, source_url, output_file ):
 					min = unicode
 				elif unicode >= max:
 					max = unicode
-				output_fonts += LINE_FORMAT_FONT.format( font_abbr, font, unicode )
+				output_fonts += line_format( font_abbr, font, unicode, cpp11 )
 			output = get_prelude( source_url ) + \
 						LINE_FORMAT_MINMAX.format( 'MIN', font_abbr, min ) + \
 						LINE_FORMAT_MINMAX.format( 'MAX', font_abbr, max ) + \
@@ -94,7 +107,7 @@ def convert_font_awesome( font_name, font_abbr, source_url, output_file ):
 		print( MESSAGE_ERROR.format( font_name, e ))
 
 
-def convert_material_design( font_name, font_abbr, source_url, output_file ):
+def convert_material_design( font_name, font_abbr, source_url, output_file, cpp11 ):
 	try:
 		response = requests.get( source_url, timeout = TIMEOUT )
 		if response.status_code == 200:
@@ -113,7 +126,7 @@ def convert_material_design( font_name, font_abbr, source_url, output_file ):
 						min = unicode
 					elif unicode >= max:
 						max = unicode
-					output_fonts += LINE_FORMAT_FONT.format( font_abbr, font, unicode )
+					output_fonts += line_format( font_abbr, font, unicode, cpp11 )
 			output = get_prelude( source_url ) + \
 						LINE_FORMAT_MINMAX.format( 'MIN', font_abbr, min ) + \
 						LINE_FORMAT_MINMAX.format( 'MAX', font_abbr, max ) + \
@@ -125,7 +138,7 @@ def convert_material_design( font_name, font_abbr, source_url, output_file ):
 		print( MESSAGE_ERROR.format( font_name, e ))
 
 
-def convert_kenney( font_name, font_abbr, source_url, output_file ):
+def convert_kenney( font_name, font_abbr, source_url, output_file, cpp11 ):
 	try:
 		response = requests.get( source_url, timeout = TIMEOUT )
 		if response.status_code == 200:
@@ -150,7 +163,7 @@ def convert_kenney( font_name, font_abbr, source_url, output_file ):
 							min = unicode
 						elif unicode >= max:
 							max = unicode
-						output_fonts += LINE_FORMAT_FONT.format( font_abbr, font, unicode )
+						output_fonts += line_format( font_abbr, font, unicode, cpp11 )
 			output = get_prelude( source_url ) + \
 						LINE_FORMAT_MINMAX.format( 'MIN', font_abbr, min ) + \
 						LINE_FORMAT_MINMAX.format( 'MAX', font_abbr, max ) + \
@@ -163,6 +176,11 @@ def convert_kenney( font_name, font_abbr, source_url, output_file ):
 
 
 # Main
-convert_font_awesome( 'Font Awesome', 'FA', 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml', 'IconsFontAwesome.h' )
-convert_material_design( 'Material Design', 'MD', 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints', 'IconsMaterialDesign.h' )
-convert_kenney( 'Kenney', 'KI', 'https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css', 'IconsKenney.h' )
+
+convert_font_awesome( 'Font Awesome', 'FA', 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml', 'IconsFontAwesome.h', True )
+convert_material_design( 'Material Design', 'MD', 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints', 'IconsMaterialDesign.h', True )
+convert_kenney( 'Kenney', 'KI', 'https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css', 'IconsKenney.h', True )
+
+convert_font_awesome( 'Font Awesome', 'FA', 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml', 'IconsFontAwesome_c.h', False )
+convert_material_design( 'Material Design', 'MD', 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints', 'IconsMaterialDesign_c.h', False )
+convert_kenney( 'Kenney', 'KI', 'https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css', 'IconsKenney_c.h', False )

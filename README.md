@@ -1,5 +1,5 @@
 # IconFontCHeaders
-C++ 11 headers for icon fonts
+C++ 11 headers for icon fonts Font Awesome, Google Material Design icons and Kenney game icons.
 
 A set of header files for using icon fonts in C++, along with the python generator used to create the files.
 
@@ -8,12 +8,12 @@ Each header contains defines for one font, with each icon code point defined as 
 ## Fonts
 
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - [github repository](https://github.com/FortAwesome/Font-Awesome/)
-* [Material Design](https://www.google.com/design/icons/) - [github repository](https://github.com/google/material-design-icons/)
-* Kenney icons: [Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) - [github repository](https://github.com/SamBrishes/kenney-icon-font)
+* [Google Material Design icons](https://design.google.com/icons/) - [github repository](https://github.com/google/material-design-icons/)
+* [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) - [github repository](https://github.com/SamBrishes/kenney-icon-font)
 
 ## Usage
 
-Using [ImGui](https://github.com/ocornut/imgui) as an example UI library:
+Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 
     #include "IconsFontAwesome.h"
     

@@ -3,7 +3,7 @@
 #pragma once
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf295
+#define ICON_MAX_FA 0xf2ad
 #define ICON_FA_GLASS u8"\uf000"
 #define ICON_FA_MUSIC u8"\uf001"
 #define ICON_FA_SEARCH u8"\uf002"
@@ -609,3 +609,26 @@
 #define ICON_FA_BLUETOOTH u8"\uf293"
 #define ICON_FA_BLUETOOTH_B u8"\uf294"
 #define ICON_FA_PERCENT u8"\uf295"
+#define ICON_FA_GITLAB u8"\uf296"
+#define ICON_FA_WPBEGINNER u8"\uf297"
+#define ICON_FA_WPFORMS u8"\uf298"
+#define ICON_FA_ENVIRA u8"\uf299"
+#define ICON_FA_UNIVERSAL_ACCESS u8"\uf29a"
+#define ICON_FA_WHEELCHAIR_ALT u8"\uf29b"
+#define ICON_FA_QUESTION_CIRCLE_O u8"\uf29c"
+#define ICON_FA_BLIND u8"\uf29d"
+#define ICON_FA_AUDIO_DESCRIPTION u8"\uf29e"
+#define ICON_FA_VOLUME_CONTROL_PHONE u8"\uf2a0"
+#define ICON_FA_BRAILLE u8"\uf2a1"
+#define ICON_FA_ASSISTIVE_LISTENING_SYSTEMS u8"\uf2a2"
+#define ICON_FA_AMERICAN_SIGN_LANGUAGE_INTERPRETING u8"\uf2a3"
+#define ICON_FA_DEAF u8"\uf2a4"
+#define ICON_FA_GLIDE u8"\uf2a5"
+#define ICON_FA_GLIDE_G u8"\uf2a6"
+#define ICON_FA_SIGN_LANGUAGE u8"\uf2a7"
+#define ICON_FA_LOW_VISION u8"\uf2a8"
+#define ICON_FA_VIADEO u8"\uf2a9"
+#define ICON_FA_VIADEO_SQUARE u8"\uf2aa"
+#define ICON_FA_SNAPCHAT u8"\uf2ab"
+#define ICON_FA_SNAPCHAT_GHOST u8"\uf2ac"
+#define ICON_FA_SNAPCHAT_SQUARE u8"\uf2ad"

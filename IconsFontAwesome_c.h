@@ -3,7 +3,7 @@
 #pragma once
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf2ad
+#define ICON_MAX_FA 0xf2b2
 #define ICON_FA_GLASS "\xEF\x80\x80"
 #define ICON_FA_MUSIC "\xEF\x80\x81"
 #define ICON_FA_SEARCH "\xEF\x80\x82"
@@ -387,7 +387,7 @@
 #define ICON_FA_STUMBLEUPON "\xEF\x86\xA4"
 #define ICON_FA_DELICIOUS "\xEF\x86\xA5"
 #define ICON_FA_DIGG "\xEF\x86\xA6"
-#define ICON_FA_PIED_PIPER "\xEF\x86\xA7"
+#define ICON_FA_PIED_PIPER_PP "\xEF\x86\xA7"
 #define ICON_FA_PIED_PIPER_ALT "\xEF\x86\xA8"
 #define ICON_FA_DRUPAL "\xEF\x86\xA9"
 #define ICON_FA_JOOMLA "\xEF\x86\xAA"
@@ -632,3 +632,7 @@
 #define ICON_FA_SNAPCHAT "\xEF\x8A\xAB"
 #define ICON_FA_SNAPCHAT_GHOST "\xEF\x8A\xAC"
 #define ICON_FA_SNAPCHAT_SQUARE "\xEF\x8A\xAD"
+#define ICON_FA_PIED_PIPER "\xEF\x8A\xAE"
+#define ICON_FA_FIRST_ORDER "\xEF\x8A\xB0"
+#define ICON_FA_YOAST "\xEF\x8A\xB1"
+#define ICON_FA_THEMEISLE "\xEF\x8A\xB2"

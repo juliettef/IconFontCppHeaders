@@ -3,7 +3,7 @@
 #pragma once
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf2ad
+#define ICON_MAX_FA 0xf2b2
 #define ICON_FA_GLASS u8"\uf000"
 #define ICON_FA_MUSIC u8"\uf001"
 #define ICON_FA_SEARCH u8"\uf002"
@@ -387,7 +387,7 @@
 #define ICON_FA_STUMBLEUPON u8"\uf1a4"
 #define ICON_FA_DELICIOUS u8"\uf1a5"
 #define ICON_FA_DIGG u8"\uf1a6"
-#define ICON_FA_PIED_PIPER u8"\uf1a7"
+#define ICON_FA_PIED_PIPER_PP u8"\uf1a7"
 #define ICON_FA_PIED_PIPER_ALT u8"\uf1a8"
 #define ICON_FA_DRUPAL u8"\uf1a9"
 #define ICON_FA_JOOMLA u8"\uf1aa"
@@ -632,3 +632,7 @@
 #define ICON_FA_SNAPCHAT u8"\uf2ab"
 #define ICON_FA_SNAPCHAT_GHOST u8"\uf2ac"
 #define ICON_FA_SNAPCHAT_SQUARE u8"\uf2ad"
+#define ICON_FA_PIED_PIPER u8"\uf2ae"
+#define ICON_FA_FIRST_ORDER u8"\uf2b0"
+#define ICON_FA_YOAST u8"\uf2b1"
+#define ICON_FA_THEMEISLE u8"\uf2b2"

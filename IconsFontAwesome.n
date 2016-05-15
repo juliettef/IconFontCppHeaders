@@ -5,7 +5,7 @@ none
 
 $
     var icon-min-fa 0xf000
-    var icon-max-fa 0xf2b2
+    var icon-max-fa 0xf2b4
     var icon-fa-glass ""
     var icon-fa-music ""
     var icon-fa-search ""
@@ -638,3 +638,5 @@ $
     var icon-fa-first_order ""
     var icon-fa-yoast ""
     var icon-fa-themeisle ""
+    var icon-fa-google_plus_official ""
+    var icon-fa-font_awesome ""

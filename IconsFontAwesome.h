@@ -4,7 +4,7 @@
 #pragma once
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf2b2
+#define ICON_MAX_FA 0xf2b4
 #define ICON_FA_GLASS u8"\uf000"
 #define ICON_FA_MUSIC u8"\uf001"
 #define ICON_FA_SEARCH u8"\uf002"
@@ -637,3 +637,5 @@
 #define ICON_FA_FIRST_ORDER u8"\uf2b0"
 #define ICON_FA_YOAST u8"\uf2b1"
 #define ICON_FA_THEMEISLE u8"\uf2b2"
+#define ICON_FA_GOOGLE_PLUS_OFFICIAL u8"\uf2b3"
+#define ICON_FA_FONT_AWESOME u8"\uf2b4"

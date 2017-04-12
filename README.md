@@ -39,12 +39,13 @@ Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 
 ## Projects using the font icon header files
 
-### [bgfx](https://github.com/bkaradzic/bgfx) - Cross-platform rendering library
-
-### [Avoyd](http://www.avoyd.com) - Game
-The Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](http://fontawesome.io/) fonts.  
+## [Avoyd](https://www.avoyd.com)
+Avoyd is an abstract 6 degrees of freedom voxel game. The Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](http://fontawesome.io/) fonts.  
   
-![Avoyd Edit Tool with Font Awesome fonts](https://www.enkisoftware.com/images/2017-02-22_Avoyd_Editor_UI_ImGui_Font_Awesome.png)
+![Avoyd Edit Tool with Font Awesome fonts](https://storage.googleapis.com/enkisoftware-images/Avoyd_2017-02-22_Avoyd_Editor_User_Interface_ImGui_Font_Awesome.jpg)
+
+## [bgfx](https://github.com/bkaradzic/bgfx)
+Cross-platform rendering library.
 
 ## Credits
 

@@ -17,8 +17,8 @@ Each header contains defines for one font, with each icon code point defined as 
     * [github repository](https://github.com/google/material-design-icons/)
     * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
 * [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
-    * [github repository](https://github.com/SamBrishes/kenney-icon-font)
-    * [kenney-icon-font.ttf](https://github.com/SamBrishes/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
+    * [github repository](https://github.com/nicodinh/kenney-icon-font/)
+    * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
 
 ## Example Code
 

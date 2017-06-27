@@ -11,8 +11,8 @@
 #			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
 # 			https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
 #   1.3 - Kenney icons
-#			https://github.com/SamBrishes/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
-# 			https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css
+#			https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
+# 			https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
 #
 #------------------------------------------------------------------------------
 # 2 - Data samples
@@ -169,8 +169,8 @@ class FontMD( Font ):
 
 
 class FontKI( Font ):
-	font_tff = 'https://github.com/SamBrishes/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
-	font_url = 'https://raw.githubusercontent.com/SamBrishes/kenney-icon-font/master/css/kenney-icons.css'
+	font_tff = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
+	font_url = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
 	font_name = 'Kenney'
 	font_abbr = 'KI'
 

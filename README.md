@@ -24,8 +24,6 @@ Each header contains defines for one font, with each icon code point defined as 
 
 Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 
-{% highlight c++ %}
-    
     #include "IconsFontAwesome.h"
     
     ImGuiIO& io = ImGui::GetIO();
@@ -38,7 +36,6 @@ Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
     
     // in an imgui window somewhere...
     ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation, outputs a paint brush icon and 'Paint' as a string.
-{% endhighlight %}
 
 ## Projects using the font icon header files
 

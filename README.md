@@ -24,25 +24,28 @@ Each header contains defines for one font, with each icon code point defined as 
 
 Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 
+{% highlight c++ %}
+    
     #include "IconsFontAwesome.h"
     
     ImGuiIO& io = ImGui::GetIO();
-     io.Fonts->AddFontDefault();
+    io.Fonts->AddFontDefault();
      
-     // merge in icons from Font Awesome
+    // merge in icons from Font Awesome
     static const ImWchar icons_ranges[] = { ICON_MIN_FA, ICON_MAX_FA, 0 };
     ImFontConfig icons_config; icons_config.MergeMode = true; icons_config.PixelSnapH = true;
-    io.Fonts->AddFontFromFileTTF( fontFile.c_str(), 16.0f, &icons_config, icons_ranges);
+    io.Fonts->AddFontFromFileTTF( "fontawesome-webfont.ttf", 16.0f, &icons_config, icons_ranges );
     
     // in an imgui window somewhere...
-    ImGui::Text( ICON_FA_FILE "  File" ); // use string literal concatenation, ouputs a file icon and File as a string.
+    ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation, outputs a paint brush icon and 'Paint' as a string.
+{% endhighlight %}
 
 ## Projects using the font icon header files
 
 ## [Avoyd](https://www.avoyd.com)
-Avoyd is an abstract 6 degrees of freedom voxel game. The Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](http://fontawesome.io/) fonts.  
+Avoyd is an abstract 6 degrees of freedom voxel game. The voxel editor's Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](http://fontawesome.io/) icon fonts.  
   
-![Avoyd Edit Tool with Font Awesome fonts](https://storage.googleapis.com/enkisoftware-images/Avoyd_2017-02-22_Avoyd_Editor_User_Interface_ImGui_Font_Awesome.jpg)
+![Avoyd Edit Tool with Font Awesome fonts](https://storage.googleapis.com/enkisoftware-images/Avoyd_2017-11-18_v0.14.220_Dear_imGui_FontAwesome.jpg)
 
 ## [bgfx](https://github.com/bkaradzic/bgfx)
 Cross-platform rendering library.

@@ -261,7 +261,7 @@ class LanguageC89( Language ):
 					   '// from {url_data}\n' + \
 					   '// for use with {url_ttf}\n' + \
 					   '#pragma once\n\n' + \
-					   '#declare FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n\n'
+					   '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n\n'
 		result = tmpl_prelude.format(lang = cls.language_name,
 									 url_data = cls.intermediate.get( 'font_url_data' ),
 									 url_ttf = cls.intermediate.get( 'font_url_ttf' ),

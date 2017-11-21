@@ -3,6 +3,8 @@
 // for use with https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
 #pragma once
 
+#declare FONT_ICON_FILE_NAME_KI "kenney-icon-font.ttf"
+
 #define ICON_MIN_KI 0xe900
 #define ICON_MAX_KI 0xe9e3
 #define ICON_KI_HOME "\xEE\xA4\x80"

@@ -3,6 +3,8 @@
 // for use with https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
 #pragma once
 
+#declare FONT_ICON_FILE_NAME_MD "MaterialIcons-Regular.ttf"
+
 #define ICON_MIN_MD 0xe000
 #define ICON_MAX_MD 0xeb4c
 #define ICON_MD_3D_ROTATION u8"\ue84d"

@@ -24,6 +24,8 @@ Each header contains defines for one font, with each icon code point defined as 
 
 Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 
+```Cpp
+    
     #include "IconsFontAwesome.h"
     
     ImGuiIO& io = ImGui::GetIO();
@@ -32,10 +34,12 @@ Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
     // merge in icons from Font Awesome
     static const ImWchar icons_ranges[] = { ICON_MIN_FA, ICON_MAX_FA, 0 };
     ImFontConfig icons_config; icons_config.MergeMode = true; icons_config.PixelSnapH = true;
-    io.Fonts->AddFontFromFileTTF( "fontawesome-webfont.ttf", 16.0f, &icons_config, icons_ranges );
+    io.Fonts->AddFontFromFileTTF( FONT_ICON_FILE_NAME_FA, 16.0f, &icons_config, icons_ranges );
     
     // in an imgui window somewhere...
-    ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation, outputs a paint brush icon and 'Paint' as a string.
+    ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation
+    // outputs a paint brush icon and 'Paint' as a string.
+```
 
 ## Projects using the font icon header files
 

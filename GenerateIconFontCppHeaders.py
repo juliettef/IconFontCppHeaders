@@ -155,6 +155,7 @@ class FontFARegular( FontFA ):
 	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
 	font_file_name_ttf = 'fa-regular-400.ttf'
 	font_name = 'Font Awesome Regular'
+	font_abbr = 'FAR'
 	font_fa_style = 'regular'
 
 
@@ -163,6 +164,7 @@ class FontFASolid( FontFA ):
 	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
 	font_file_name_ttf = 'fa-solid-400.ttf'
 	font_name = 'Font Awesome Solid'
+	font_abbr = 'FAS'
 	font_fa_style = 'solid'
 
 
@@ -171,6 +173,7 @@ class FontFABrands( FontFA ):
 	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
 	font_file_name_ttf = 'fa-brands-400.ttf'
 	font_name = 'Font Awesome Brands'
+	font_abbr = 'FAB'
 	font_fa_style = 'brands'
 
 

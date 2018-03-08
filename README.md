@@ -12,7 +12,9 @@ Each header contains defines for one font, with each icon code point defined as 
 
 * [Font Awesome](http://fontawesome.io/)  
     * [github repository](https://github.com/FortAwesome/Font-Awesome/)
-    * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.ttf)
+    * [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf)
+    * [fa-solid-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-400.ttf)
+    * [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf)
 * [Google Material Design icons](https://design.google.com/icons/) 
     * [github repository](https://github.com/google/material-design-icons/)
     * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)

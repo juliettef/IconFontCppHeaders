@@ -5,8 +5,8 @@
 # 1 - Source material
 #
 #   1.1 - Font Awesome
-#			https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.ttf
-# 			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml
+#			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf
+# 			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
 #   1.2 - Material Design
 #			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
 # 			https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
@@ -18,15 +18,18 @@
 # 2 - Data samples
 #
 #   2.1 - Font Awesome
-#           - input:          - name:       Music
-#                               id:         music
-#                               unicode:    f001
-#                               created:    1.0
-#                               filter:
-#                                 - note
-#                                 - sound
-#                               categories:
-#                                 - Web Application Icons
+#           - input:          music:
+#                               changes:
+#                                 - '1'
+#                                 - 5.0.0
+#                               label: Music
+#                               search:
+#                                 terms:
+#                                   - note
+#                                   - sound
+#                               styles:
+#                                 - solid
+#                               unicode: f001
 #           - output C++11:     #define ICON_FA_MUSIC u8"\uf001"
 #           - output C89:       #define ICON_FA_MUSIC "\xEF\x80\x81"
 #			- output None:		    var icon-fa-music ""
@@ -117,11 +120,12 @@ class Font:
 
 
 class FontFA( Font ):
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml'
-	font_file_name_ttf = 'fontawesome-webfont.ttf'
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_file_name_ttf = 'fa-regular-400.ttf'
 	font_name = 'Font Awesome'
 	font_abbr = 'FA'
+	font_fa_style = '[ ERROR - missing FA style id ]'
 
 	@classmethod
 	def get_icons( self, input ):
@@ -131,16 +135,46 @@ class FontFA( Font ):
 			font_min = 'ffff'
 			font_max = '0'
 			icons = []
-			for item in data[ 'icons' ]:
+			for key in data:
+				item = data[ key ]
+				if self.font_fa_style not in item[ 'styles' ]:
+					continue
 				if item[ 'unicode' ] < font_min:
 					font_min = item[ 'unicode' ]
 				if item[ 'unicode' ] >= font_max:
 					font_max = item[ 'unicode' ]
-				icons.append([ item[ 'id' ], item[ 'unicode' ]])
+				icons.append([ key, item[ 'unicode' ]])
 			icons_data.update({ 'font_min' : font_min,
 								'font_max' : font_max,
 								'icons' : icons })
 		return icons_data
+
+
+class FontFARegular( FontFA ):
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_file_name_ttf = 'fa-regular-400.ttf'
+	font_name = 'Font Awesome Regular'
+	font_abbr = 'FAR'
+	font_fa_style = 'regular'
+
+
+class FontFASolid( FontFA ):
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-400.ttf'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_file_name_ttf = 'fa-solid-400.ttf'
+	font_name = 'Font Awesome Solid'
+	font_abbr = 'FAS'
+	font_fa_style = 'solid'
+
+
+class FontFABrands( FontFA ):
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_file_name_ttf = 'fa-brands-400.ttf'
+	font_name = 'Font Awesome Brands'
+	font_abbr = 'FAB'
+	font_fa_style = 'brands'
 
 
 class FontMD( Font ):
@@ -347,7 +381,7 @@ class LanguageNone( Language ):
 
 # Main
 
-fonts = [ FontKI, FontMD, FontFA ]
+fonts = [ FontKI, FontMD, FontFARegular, FontFASolid, FontFABrands ]
 languages = [ LanguageC89, LanguageCpp11, LanguageNone ]
 
 intermediates = []

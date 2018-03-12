@@ -1,12 +1,18 @@
 # Convert Font Awesome, Google Material Design and Kenney Game icon font
-# parameters to C++11, C89 and None compatible formats.
+# parameters to C89 and C++11 compatible formats.
 #
 #------------------------------------------------------------------------------
 # 1 - Source material
 #
 #   1.1 - Font Awesome
+#		1.1.1 - version 4
+#			https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf
+#			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml
+#		1.1.2 - version 5
+#			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf
-# 			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
+#			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf
+#			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
 #   1.2 - Material Design
 #			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
 # 			https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
@@ -32,38 +38,34 @@
 #                               unicode: f001
 #           - output C++11:     #define ICON_FA_MUSIC u8"\uf001"
 #           - output C89:       #define ICON_FA_MUSIC "\xEF\x80\x81"
-#			- output None:		    var icon-fa-music ""
 #
 #   2.2 - Google Material Design icons
 #           - input:            3d_rotation e84d
 #           - output C++11:     #define ICON_MD_3D_ROTATION u8"\ue84d"
 #           - output C89:       #define ICON_MD_3D_ROTATION "\xEE\xA1\x8D"
-#			- output None:		    var icon-md-3d_rotation ""
 #
 #   2.3 - Kenney Game icons
 #           - input:            .ki-home:before{ content: "\e900"; }
 #           - output C++11:     #define ICON_KI_HOME u8"\ue900"
 #           - output C89:       #define ICON_KI_HOME "\xEE\xA4\x80"
-#			- output None:		    var icon-ki-home ""
 #
 #   2.4 - All fonts
 #           - computed min and max unicode fonts ICON_MIN and ICON_MAX
 #           - output C89, C++11:	#define ICON_MIN_FA 0xf000
 #                               	#define ICON_MAX_FA 0xf295
-#			- output None:			    var icon-min-fa 0xf000
-#									    var icon-max-fa 0xf2b2
 #
 #------------------------------------------------------------------------------
 # 3 - Script dependencies
 #
-#   3.1 - Python 2.7 - https://www.python.org/download/releases/2.7/
-#   3.2 - Requests - http://docs.python-requests.org/
-#   3.3 - PyYAML - http://pyyaml.org/
+#   3.1 - Fonts source material online
+#   3.2 - Python 2.7 - https://www.python.org/download/releases/2.7/
+#   3.3 - Requests - http://docs.python-requests.org/
+#   3.4 - PyYAML - http://pyyaml.org/
 #
 #------------------------------------------------------------------------------
 # 4 - References
 #
-# None language: https://bitbucket.org/duangle/nonelang/src
+# 	GitHub repository: https://github.com/juliettef/IconFontCppHeaders/
 #
 #------------------------------------------------------------------------------
 
@@ -75,11 +77,11 @@ import yaml
 # Fonts
 
 class Font:
-	font_url_ttf = '[ ERROR - missing ttf file url ]'
-	font_url_data = '[ ERROR - missing font data url ]'
-	font_file_name_ttf = '[ ERROR - missing ttf file name ]'
 	font_name = '[ ERROR - missing font name ]'
 	font_abbr = '[ ERROR - missing font abbreviation ]'
+	font_url_data = '[ ERROR - missing font data url ]'
+	font_url_ttf = '[ ERROR - missing ttf file url ]'
+	font_file_name_ttf = '[ ERROR - missing ttf file name ]'
 
 	@classmethod
 	def get_icons( cls, input ):
@@ -119,70 +121,76 @@ class Font:
 		return font_ir
 
 
-class FontFA( Font ):
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
-	font_file_name_ttf = 'fa-regular-400.ttf'
-	font_name = 'Font Awesome'
+class FontFA4( Font ):	# legacy Font Awesome version 4
+	font_name = 'Font Awesome 4'
 	font_abbr = 'FA'
-	font_fa_style = '[ ERROR - missing FA style id ]'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml'
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
-		icons_data = {}
-		data = yaml.safe_load( input )
+		icons_data = { }
+		data = yaml.safe_load(input)
+		font_min = 'ffff'
+		font_max = '0'
+		icons = []
+		for item in data[ 'icons' ]:
+			if item[ 'unicode' ] < font_min:
+				font_min = item[ 'unicode' ]
+			if item[ 'unicode' ] >= font_max:
+				font_max = item[ 'unicode' ]
+			icons.append([ item[ 'id' ], item[ 'unicode' ]])
+		icons_data.update({ 'font_min' : font_min,
+						'font_max' : font_max,
+						'icons' : icons })
+		return icons_data
+
+
+class FontFA5( Font ):	# Font Awesome version 5. Solid and Regular styles (Regular is a subset of Solid).
+	font_name = 'Font Awesome 5'
+	font_abbr = 'FA'
+	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf, ' +\
+		'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf, '
+	font_file_name_ttf = [[ 'FAS', 'fa-solid-900.ttf' ], [ 'FAR', 'fa-regular-400.ttf' ]]
+	font_fa_style = [ 'solid', 'regular' ]
+
+	@classmethod
+	def get_icons( self, input ):
+		icons_data = { }
+		data = yaml.safe_load(input)
 		if data:
 			font_min = 'ffff'
 			font_max = '0'
 			icons = []
 			for key in data:
 				item = data[ key ]
-				if self.font_fa_style not in item[ 'styles' ]:
-					continue
-				if item[ 'unicode' ] < font_min:
-					font_min = item[ 'unicode' ]
-				if item[ 'unicode' ] >= font_max:
-					font_max = item[ 'unicode' ]
-				icons.append([ key, item[ 'unicode' ]])
-			icons_data.update({ 'font_min' : font_min,
-								'font_max' : font_max,
-								'icons' : icons })
+				for style in item[ 'styles' ]:
+					if style in self.font_fa_style:
+						if item[ 'unicode' ] < font_min:
+							font_min = item[ 'unicode' ]
+						if item[ 'unicode' ] >= font_max:
+							font_max = item[ 'unicode' ]
+						icons.append([ key, item[ 'unicode' ] ])
+			icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
 		return icons_data
 
 
-class FontFARegular( FontFA ):
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
-	font_file_name_ttf = 'fa-regular-400.ttf'
-	font_name = 'Font Awesome Regular'
-	font_abbr = 'FAR'
-	font_fa_style = 'regular'
-
-
-class FontFASolid( FontFA ):
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-400.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
-	font_file_name_ttf = 'fa-solid-400.ttf'
-	font_name = 'Font Awesome Solid'
-	font_abbr = 'FAS'
-	font_fa_style = 'solid'
-
-
-class FontFABrands( FontFA ):
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
-	font_file_name_ttf = 'fa-brands-400.ttf'
-	font_name = 'Font Awesome Brands'
+class FontFA5Brands( FontFA5 ):	# Font Awesome version 5, Brand styles.
+	font_name = 'Font Awesome 5 Brands'
 	font_abbr = 'FAB'
-	font_fa_style = 'brands'
+	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
+	font_fa_style = [ 'brands' ]
 
 
 class FontMD( Font ):
-	font_url_ttf = 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
-	font_file_name_ttf = 'MaterialIcons-Regular.ttf'
 	font_name = 'Material Design'
 	font_abbr = 'MD'
+	font_url_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
+	font_url_ttf = 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -207,11 +215,11 @@ class FontMD( Font ):
 
 
 class FontKI( Font ):
-	font_url_ttf = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
-	font_url_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
-	font_file_name_ttf = 'kenney-icon-font.ttf'
 	font_name = 'Kenney'
 	font_abbr = 'KI'
+	font_url_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
+	font_url_ttf = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -291,17 +299,18 @@ class LanguageC89( Language ):
 
 	@classmethod
 	def prelude( cls ):
-		tmpl_prelude = '// Generated by GenerateIconFontCppHeaders.py for language {lang}\n' + \
-					   '// from {url_data}\n' + \
-					   '// for use with {url_ttf}\n' + \
-					   '#pragma once\n\n' + \
-					   '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n\n'
+		tmpl_prelude = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for language {lang}\n' + \
+			'// from {url_data}\n' + \
+			'// for use with {url_ttf}\n' + \
+			'#pragma once\n\n'
 		result = tmpl_prelude.format(lang = cls.language_name,
 									 url_data = cls.intermediate.get( 'font_url_data' ),
-									 url_ttf = cls.intermediate.get( 'font_url_ttf' ),
-									 font_abbr = cls.intermediate.get( 'font_abbr' ),
-									 file_name_ttf = cls.intermediate.get( 'font_file_name_ttf' ))
-		return result
+									 url_ttf = cls.intermediate.get( 'font_url_ttf' ))
+		tmpl_prelude_define_file_name = '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n'
+		file_names_ttf = cls.intermediate.get( 'font_file_name_ttf' )
+		for file_name_ttf in file_names_ttf:
+			result += tmpl_prelude_define_file_name.format( font_abbr = file_name_ttf[ 0 ], file_name_ttf = file_name_ttf[ 1 ])
+		return result + '\n'
 
 	@classmethod
 	def lines_minmax( cls ):
@@ -341,48 +350,9 @@ class LanguageCpp11( LanguageC89 ):
 		return result
 
 
-class LanguageNone( Language ):
-	language_name = 'None'
-	file_name = 'Icons{name}.n'
-
-	@classmethod
-	def prelude( cls ):
-		tmpl_prelude = 'none\n' + \
-					   '; Generated by GenerateIconFontCppHeaders.py for language {lang}\n' + \
-					   '; from {url_data}\n' + \
-					   '; for use with {url_ttf}\n' + \
-					   '\n$\n'
-		result = tmpl_prelude.format( lang = cls.language_name,
-									  url_data = cls.intermediate.get( 'font_url_data' ),
-									  url_ttf = cls.intermediate.get( 'font_url_ttf' ))
-		return result
-
-	@classmethod
-	def lines_minmax( cls ):
-		tmpl_line_minmax = '    var icon-{minmax}-{abbr} 0x{val}\n'
-		result = tmpl_line_minmax.format( minmax = 'min',
-										  abbr = cls.intermediate.get( 'font_abbr' ).lower(),
-										  val = cls.intermediate.get( 'font_min' )) + \
-				 tmpl_line_minmax.format( minmax = 'max',
-										  abbr = cls.intermediate.get( 'font_abbr' ).lower(),
-										  val = cls.intermediate.get( 'font_max' ))
-		return result
-
-	@classmethod
-	def line_icon( cls, icon ):
-		tmpl_line_icon = '    var icon-{abbr}-{icon} "{code}"\n'
-		icon_name = str.upper( icon[ 0 ]).replace( '-', '_' ).lower()
-		icon_code = unichr( int( icon[ 1 ], 16 )).encode( 'utf-8' )
-		result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ).lower(),
-									    icon = icon_name,
-									    code = icon_code )
-		return result
-
-
 # Main
-
-fonts = [ FontKI, FontMD, FontFARegular, FontFASolid, FontFABrands ]
-languages = [ LanguageC89, LanguageCpp11, LanguageNone ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontMD, FontKI ]
+languages = [ LanguageC89, LanguageCpp11 ]
 
 intermediates = []
 for font in fonts:

@@ -168,11 +168,12 @@ class FontFA5( Font ):	# Font Awesome version 5. Solid and Regular styles (Regul
 				item = data[ key ]
 				for style in item[ 'styles' ]:
 					if style in self.font_fa_style:
-						if item[ 'unicode' ] < font_min:
-							font_min = item[ 'unicode' ]
-						if item[ 'unicode' ] >= font_max:
-							font_max = item[ 'unicode' ]
-						icons.append([ key, item[ 'unicode' ] ])
+						if [ key, item[ 'unicode' ]] not in icons:
+							if item[ 'unicode' ] < font_min:
+								font_min = item[ 'unicode' ]
+							if item[ 'unicode' ] >= font_max:
+								font_max = item[ 'unicode' ]
+							icons.append([ key, item[ 'unicode' ] ])
 			icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
 		return icons_data
 
@@ -183,6 +184,26 @@ class FontFA5Brands( FontFA5 ):	# Font Awesome version 5, Brand styles.
 	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
 	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
 	font_fa_style = [ 'brands' ]
+
+	@classmethod
+	def get_icons( self, input ):
+		icons_data = { }
+		data = yaml.safe_load(input)
+		if data:
+			font_min = 'ffff'
+			font_max = '0'
+			icons = [ ]
+			for key in data:
+				item = data[ key ]
+				for style in item[ 'styles' ]:
+					if style in self.font_fa_style:
+						if item[ 'unicode' ] < font_min:
+							font_min = item[ 'unicode' ]
+						if item[ 'unicode' ] >= font_max:
+							font_max = item[ 'unicode' ]
+						icons.append([ key, item[ 'unicode' ]])
+			icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
+		return icons_data
 
 
 class FontMD( Font ):

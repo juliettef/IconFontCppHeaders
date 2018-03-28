@@ -2,7 +2,7 @@
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11 and C89 headers for icon fonts Font Awesome, Google Material Design icons and Kenney game icons.
+C++11 and C89 headers for icon fonts Font Awesome, Fork Awesome, Google Material Design icons and Kenney game icons.
 
 A set of header files for using icon fonts in C and C++, along with the python generator used to create the files.
 
@@ -12,12 +12,15 @@ Each header contains defines for one font, with each icon code point defined as 
 
 * [Font Awesome](http://fontawesome.io/)  
     * [GitHub repository](https://github.com/FortAwesome/Font-Awesome/)
+    * Font Awesome 4 
+        * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
     * Font Awesome 5 
         * [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf)
         * [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf)
         * [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf)
-    * Font Awesome 4 
-        * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
+* [Fork Awesome](https://forkawesome.github.io/Fork-Awesome/)
+    * [GitHub repository](https://github.com/ForkAwesome/Fork-Awesome)
+    * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
 * [Google Material Design icons](https://design.google.com/icons/) 
     * [GitHub repository](https://github.com/google/material-design-icons/)
     * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)

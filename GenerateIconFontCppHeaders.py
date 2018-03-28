@@ -1,55 +1,63 @@
-# Convert Font Awesome, Google Material Design and Kenney Game icon font
-# parameters to C89 and C++11 compatible formats.
+# Convert Font Awesome, Fork Awesome, Google Material Design and Kenney Game
+# icon font parameters to C89 and C++11 compatible formats.
 #
 #------------------------------------------------------------------------------
 # 1 - Source material
 #
 #   1.1 - Font Awesome
 #		1.1.1 - version 4
-#			https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf
 #			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml
+#			https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf
 #		1.1.2 - version 5
+#			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf
-#			https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
-#   1.2 - Material Design
-#			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
+#	1.2 - Fork Awesome
+# 			https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml
+# 			https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
+#   1.3 - Google Material Design
 # 			https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
-#   1.3 - Kenney icons
-#			https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
+#			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
+#   1.4 - Kenney Game icons
 # 			https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
+#			https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
 #
 #------------------------------------------------------------------------------
 # 2 - Data samples
 #
 #   2.1 - Font Awesome
-#           - input:          music:
-#                               changes:
-#                                 - '1'
-#                                 - 5.0.0
-#                               label: Music
-#                               search:
-#                                 terms:
-#                                   - note
-#                                   - sound
-#                               styles:
-#                                 - solid
-#                               unicode: f001
+#           - input:            music:
+#                                 changes:
+#                                   - '1'
+#                                   - 5.0.0
+#                                 label: Music
+#                                 search:
+#                                   terms:
+#                                     - note
+#                                     - sound
+#                                 styles:
+#                                   - solid
+#                                 unicode: f001
 #           - output C++11:     #define ICON_FA_MUSIC u8"\uf001"
 #           - output C89:       #define ICON_FA_MUSIC "\xEF\x80\x81"
 #
-#   2.2 - Google Material Design icons
+#   2.2 - Fork Awesome
+#           - input: 			see Font Awesome
+#           - output C++11:     #define ICON_FK_MUSIC u8"\uf001"
+#           - output C89:       #define ICON_FK_MUSIC "\xEF\x80\x81"
+#
+#   2.3 - Google Material Design
 #           - input:            3d_rotation e84d
 #           - output C++11:     #define ICON_MD_3D_ROTATION u8"\ue84d"
 #           - output C89:       #define ICON_MD_3D_ROTATION "\xEE\xA1\x8D"
 #
-#   2.3 - Kenney Game icons
+#   2.4 - Kenney Game
 #           - input:            .ki-home:before{ content: "\e900"; }
 #           - output C++11:     #define ICON_KI_HOME u8"\ue900"
 #           - output C89:       #define ICON_KI_HOME "\xEE\xA4\x80"
 #
-#   2.4 - All fonts
+#   2.5 - All fonts
 #           - computed min and max unicode fonts ICON_MIN and ICON_MAX
 #           - output C89, C++11:	#define ICON_MIN_FA 0xf000
 #                               	#define ICON_MAX_FA 0xf295
@@ -147,6 +155,13 @@ class FontFA4( Font ):	# legacy Font Awesome version 4
 		return icons_data
 
 
+class FontFK( FontFA4 ):	# Fork Awesome, based on Font Awesome 4
+	font_name = 'Fork Awesome'
+	font_abbr = 'FK'
+	font_url_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
+	font_url_ttf = 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf'
+
+
 class FontFA5( Font ):	# Font Awesome version 5. Solid and Regular styles (Regular is a subset of Solid).
 	font_name = 'Font Awesome 5'
 	font_abbr = 'FA'
@@ -206,7 +221,7 @@ class FontFA5Brands( FontFA5 ):	# Font Awesome version 5, Brand styles.
 		return icons_data
 
 
-class FontMD( Font ):
+class FontMD( Font ):	# Material Design
 	font_name = 'Material Design'
 	font_abbr = 'MD'
 	font_url_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
@@ -235,7 +250,7 @@ class FontMD( Font ):
 		return icons_data
 
 
-class FontKI( Font ):
+class FontKI( Font ):	# Kenney Game icons
 	font_name = 'Kenney'
 	font_abbr = 'KI'
 	font_url_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
@@ -372,7 +387,7 @@ class LanguageCpp11( LanguageC89 ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontMD, FontKI ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontKI ]
 languages = [ LanguageC89, LanguageCpp11 ]
 
 intermediates = []

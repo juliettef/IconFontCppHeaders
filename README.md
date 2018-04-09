@@ -2,7 +2,7 @@
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11 and C89 headers for icon fonts Font Awesome, Fork Awesome, Google Material Design icons and Kenney game icons.
+C++11 and C89 headers for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Ionicons.
 
 A set of header files for using icon fonts in C and C++, along with the python generator used to create the files.
 
@@ -27,6 +27,9 @@ Each header contains defines for one font, with each icon code point defined as 
 * [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
     * [GitHub repository](https://github.com/nicodinh/kenney-icon-font/)
     * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
+* [Ionicons](http://ionicons.com/)
+    * [GitHub repository](https://github.com/ionic-team/ionicons)
+    * [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf)
 
 ### Font Awesome 5 notes
 
@@ -75,5 +78,8 @@ Cross-platform rendering library.
 
 Development - [Juliette Foucaut](http://www.enkisoftware.com/about.html#juliette) - [@juliettef](https://github.com/juliettef)  
 Requirements - [Doug Binks](http://www.enkisoftware.com/about.html#doug) - [@dougbinks](https://github.com/dougbinks)  
-[None language](https://bitbucket.org/duangle/nonelang/src) [format definition and refactoring](https://gist.github.com/paniq/4a734e9d8e86a2373b5bc4ca719855ec) - [Leonard Ritter](http://www.leonard-ritter.com/) - [@paniq](https://github.com/paniq)  
-Initial Font Awesome 5 implementation - [@codecat](https://github.com/codecat)
+[None](https://bitbucket.org/duangle/nonelang/src) language implementation and [refactoring](https://gist.github.com/paniq/4a734e9d8e86a2373b5bc4ca719855ec) - [Leonard Ritter](http://www.leonard-ritter.com/) - [@paniq](https://github.com/paniq)  
+Suggestion to add a define for the ttf file name - [Sean Barrett](https://nothings.org/) - [@nothings](https://github.com/nothings)  
+Initial Font Awesome 5 implementation - [Codecat](https://codecat.nl/) - [@codecat](https://github.com/codecat)  
+Suggestion to add Fork Awesome - [Julien Deswaef](http://xuv.be/) - [@xuv](https://github.com/xuv)  
+Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@ocornut](https://github.com/ocornut)  

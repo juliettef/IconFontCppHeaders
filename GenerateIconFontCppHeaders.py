@@ -1,4 +1,4 @@
-# Convert Font Awesome, Fork Awesome, Google Material Design and Kenney Game
+# Convert Font Awesome, Fork Awesome, Google Material Design, Kenney Game and Ionicons
 # icon font parameters to C89 and C++11 compatible formats.
 #
 #------------------------------------------------------------------------------
@@ -22,6 +22,9 @@
 #   1.4 - Kenney Game icons
 # 			https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
 #			https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
+#   1.4 - Ionicons
+# 			https://raw.githubusercontent.com/ionic-team/ionicons/master/css/ionicons.css
+#			https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf
 #
 #------------------------------------------------------------------------------
 # 2 - Data samples
@@ -56,6 +59,11 @@
 #           - input:            .ki-home:before{ content: "\e900"; }
 #           - output C++11:     #define ICON_KI_HOME u8"\ue900"
 #           - output C89:       #define ICON_KI_HOME "\xEE\xA4\x80"
+#
+#   2.4 - Ionicons
+#           - input:            .ion-alert:before { content: "\f101"; }
+#           - output C++11:     #define ICON_II_ALERT u8"\uf101"
+#           - output C89:       #define ICON_II_ALERT "\xEF\x84\x81"
 #
 #   2.5 - All fonts
 #           - computed min and max unicode fonts ICON_MIN and ICON_MAX
@@ -282,6 +290,38 @@ class FontKI( Font ):	# Kenney Game icons
 		return icons_data
 
 
+class FontII( Font ):	# Ionicons
+	font_name = 'Ionicons'
+	font_abbr = 'II'
+	font_url_data = 'https://raw.githubusercontent.com/ionic-team/ionicons/master/css/ionicons.css'
+	font_url_ttf = 'https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
+
+	@classmethod
+	def get_icons( self, input ):
+		icons_data = {}
+		lines = str.split( input, '\n' )
+		if lines:
+			font_min = 'ffff'
+			font_max = '0'
+			icons = []
+			for line in lines :
+				if ( '.ion-' and 'content:' ) in line:
+					words = str.split(line)
+					if words and '.ion-' in words[ 0 ]:
+						font_id = words[ 0 ].partition( '.ion-' )[2].partition( ':before' )[0]
+						font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0]
+						if font_code < font_min:
+							font_min = font_code
+						if font_code >= font_max:
+							font_max = font_code
+						icons.append([ font_id, font_code ])
+			icons_data.update({ 'font_min' : font_min,
+								'font_max' : font_max,
+								'icons' : icons  })
+		return icons_data
+
+
 # Languages
 
 
@@ -387,7 +427,7 @@ class LanguageCpp11( LanguageC89 ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontKI ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontKI, FontII ]
 languages = [ LanguageC89, LanguageCpp11 ]
 
 intermediates = []

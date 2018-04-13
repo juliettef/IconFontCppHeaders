@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf4d5
+#define ICON_MAX_FAB 0xf4e5
 #define ICON_FAB_REPLYD "\xEF\x8F\xA6"
 #define ICON_FAB_GG "\xEF\x89\xA0"
 #define ICON_FAB_PIED_PIPER_PP "\xEF\x86\xA7"
@@ -139,6 +139,7 @@
 #define ICON_FAB_HACKER_NEWS "\xEF\x87\x94"
 #define ICON_FAB_MIX "\xEF\x8F\x8B"
 #define ICON_FAB_YANDEX_INTERNATIONAL "\xEF\x90\x94"
+#define ICON_FAB_PIED_PIPER_HAT "\xEF\x93\xA5"
 #define ICON_FAB_CC_JCB "\xEF\x89\x8B"
 #define ICON_FAB_GOOGLE_PLUS_SQUARE "\xEF\x83\x94"
 #define ICON_FAB_VNV "\xEF\x90\x8B"
@@ -195,6 +196,7 @@
 #define ICON_FAB_BLUETOOTH_B "\xEF\x8A\x94"
 #define ICON_FAB_LINUX "\xEF\x85\xBC"
 #define ICON_FAB_SUPPLE "\xEF\x8F\xB9"
+#define ICON_FAB_JAVA "\xEF\x93\xA4"
 #define ICON_FAB_CONNECTDEVELOP "\xEF\x88\x8E"
 #define ICON_FAB_CHROME "\xEF\x89\xA8"
 #define ICON_FAB_MIZUNI "\xEF\x8F\x8C"

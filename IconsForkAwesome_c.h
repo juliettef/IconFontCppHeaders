@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf303
+#define ICON_MAX_FK 0xf305
 #define ICON_FK_GLASS "\xEF\x80\x80"
 #define ICON_FK_MUSIC "\xEF\x80\x81"
 #define ICON_FK_SEARCH "\xEF\x80\x82"
@@ -170,6 +170,8 @@
 #define ICON_FK_ARROW_CIRCLE_UP "\xEF\x82\xAA"
 #define ICON_FK_ARROW_CIRCLE_DOWN "\xEF\x82\xAB"
 #define ICON_FK_GLOBE "\xEF\x82\xAC"
+#define ICON_FK_GLOBE_E "\xEF\x8C\x84"
+#define ICON_FK_GLOBE_W "\xEF\x8C\x85"
 #define ICON_FK_WRENCH "\xEF\x82\xAD"
 #define ICON_FK_TASKS "\xEF\x82\xAE"
 #define ICON_FK_FILTER "\xEF\x82\xB0"

@@ -432,7 +432,7 @@ class LanguageCpp11( LanguageC89 ):
 
 
 class LanguageCSharp( Language ):
-	language_name = "CSharp"
+	language_name = "C#"
 	file_name = 'Icons{name}.cs'
 
 	@classmethod

@@ -29,7 +29,7 @@ Each header contains defines for one font, with each icon code point defined as 
     * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
 * [Ionicons](http://ionicons.com/)
     * [GitHub repository](https://github.com/ionic-team/ionicons)
-    * [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf)
+    * [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf)
 
 ### Font Awesome 5 notes
 

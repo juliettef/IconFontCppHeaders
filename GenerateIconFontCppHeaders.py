@@ -274,8 +274,8 @@ class FontKI( Font ):	# Kenney Game icons
 class FontII( Font ):	# Ionicons
 	font_name = 'Ionicons'
 	font_abbr = 'II'
-	font_url_data = 'https://raw.githubusercontent.com/ionic-team/ionicons/master/css/ionicons.css'
-	font_url_ttf = 'https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf'
+	font_url_data = 'https://raw.githubusercontent.com/ionic-team/ionicons/master/src/docs/archived/v2/css/ionicons.css'
+	font_url_ttf = 'https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf'
 	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
 
 	@classmethod

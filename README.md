@@ -2,9 +2,9 @@
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11 and C89 headers for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Ionicons.
+C++11 and C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Ionicons.
 
-A set of header files for using icon fonts in C and C++, along with the python generator used to create the files.
+A set of header files and classes for using icon fonts in C, C++ and C#, along with the python generator used to create the files.
 
 Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min and max code points for font loading purposes.
 
@@ -83,3 +83,4 @@ Suggestion to add a define for the ttf file name - [Sean Barrett](https://nothin
 Initial Font Awesome 5 implementation - [Codecat](https://codecat.nl/) - [@codecat](https://github.com/codecat)  
 Suggestion to add Fork Awesome - [Julien Deswaef](http://xuv.be/) - [@xuv](https://github.com/xuv)  
 Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@ocornut](https://github.com/ocornut)  
+C# language implementation - Rokas Kupstys - [@rokups](https://github.com/rokups)

@@ -27,9 +27,9 @@
 #			https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf
 #
 #------------------------------------------------------------------------------
-# 2 - Data samples
+# 2 - Data sample
 #
-#   2.1 - Font Awesome
+#   Font Awesome example:
 #           - input:            music:
 #                                 changes:
 #                                   - '1'
@@ -44,31 +44,13 @@
 #                                 unicode: f001
 #           - output C++11:     #define ICON_FA_MUSIC u8"\uf001"
 #           - output C89:       #define ICON_FA_MUSIC "\xEF\x80\x81"
+#			- output C#:		public const string Music = "\uf001";
 #
-#   2.2 - Fork Awesome
-#           - input: 			see Font Awesome
-#           - output C++11:     #define ICON_FK_MUSIC u8"\uf001"
-#           - output C89:       #define ICON_FK_MUSIC "\xEF\x80\x81"
-#
-#   2.3 - Google Material Design
-#           - input:            3d_rotation e84d
-#           - output C++11:     #define ICON_MD_3D_ROTATION u8"\ue84d"
-#           - output C89:       #define ICON_MD_3D_ROTATION "\xEE\xA1\x8D"
-#
-#   2.4 - Kenney Game
-#           - input:            .ki-home:before{ content: "\e900"; }
-#           - output C++11:     #define ICON_KI_HOME u8"\ue900"
-#           - output C89:       #define ICON_KI_HOME "\xEE\xA4\x80"
-#
-#   2.4 - Ionicons
-#           - input:            .ion-alert:before { content: "\f101"; }
-#           - output C++11:     #define ICON_II_ALERT u8"\uf101"
-#           - output C89:       #define ICON_II_ALERT "\xEF\x84\x81"
-#
-#   2.5 - All fonts
-#           - computed min and max unicode fonts ICON_MIN and ICON_MAX
+#   All fonts have computed min and max unicode fonts ICON_MIN and ICON_MAX
 #           - output C89, C++11:	#define ICON_MIN_FA 0xf000
-#                               	#define ICON_MAX_FA 0xf295
+#                               	#define ICON_MAX_FA 0xf2e0
+#			- output C#:			public const int IconMin = 0xf000;
+#									public const int IconMax = 0xf2e0;
 #
 #------------------------------------------------------------------------------
 # 3 - Script dependencies

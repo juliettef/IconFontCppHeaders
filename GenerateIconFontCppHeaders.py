@@ -1,4 +1,4 @@
-# Convert Font Awesome, Fork Awesome, Google Material Design, Kenney Game and Ionicons
+# Convert Font Awesome, Fork Awesome, Google Material Design, Material Design Icons, Kenney Game and Ionicons
 # icon font parameters to C89, C++11 and C# compatible formats.
 #
 #------------------------------------------------------------------------------
@@ -19,12 +19,15 @@
 #   1.3 - Google Material Design
 # 			https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
 #			https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
-#   1.4 - Kenney Game icons
-# 			https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
+#   1.4 - Material Design Icons
+#			https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css
+#			https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf
+#   1.5 - Kenney Game icons
+#           https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
 #			https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
-#   1.4 - Ionicons
-# 			https://raw.githubusercontent.com/ionic-team/ionicons/master/css/ionicons.css
-#			https://github.com/ionic-team/ionicons/blob/master/fonts/ionicons.ttf
+#   1.6 - Ionicons
+#			https://raw.githubusercontent.com/ionic-team/ionicons/master/src/docs/archived/v2/css/ionicons.css
+#			https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf
 #
 #------------------------------------------------------------------------------
 # 2 - Data sample
@@ -236,6 +239,39 @@ class FontMD( Font ):	# Material Design
 			icons_data.update({ 'font_min' : font_min,
 								'font_max' : font_max,
 								'icons' : icons })
+		return icons_data
+
+
+class FontMDI( Font ):	# Material Design Icons
+	font_name = 'Material Design Icons'
+	font_abbr = 'MDI'
+	font_url_data = 'https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css'
+	font_url_ttf = 'https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf'
+	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
+
+	@classmethod
+	def get_icons( self, input ):
+		icons_data = {}
+		input_trimmed = input[ input.find( '-moz-osx-font-smoothing: grayscale;\n}\n\n' ) + len( '-moz-osx-font-smoothing: grayscale;\n}\n\n' ) : input.find( '.mdi-18px.mdi-set,' )]
+		lines = str.split( input_trimmed, '}\n\n' )
+		if lines:
+			font_min = 'ffff'
+			font_max = '0'
+			icons = []
+			for line in lines :
+				if '.mdi-' in line:
+					words = str.split(line)
+					if words and '.mdi-' in words[ 0 ]:
+						font_id = words[ 0 ].partition( '.mdi-' )[2].partition( ':before' )[0]
+						font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0]
+						if font_code < font_min:
+							font_min = font_code
+						if font_code >= font_max:
+							font_max = font_code
+						icons.append([ font_id, font_code ])
+			icons_data.update({ 'font_min' : font_min,
+								'font_max' : font_max,
+								'icons' : icons  })
 		return icons_data
 
 
@@ -480,7 +516,7 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontKI, FontII ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontMDI, FontKI, FontII ]
 languages = [ LanguageC89, LanguageCpp11, LanguageCSharp ]
 
 intermediates = []

@@ -94,13 +94,12 @@ class Font:
 	@classmethod
 	def download( cls ):
 		input_raw = ''
-		try :
-			response = requests.get( cls.font_url_data, timeout = 2 )
-			if response.status_code == 200:
-				input_raw = response.content
-				print( 'Downloaded - ' + cls.font_name )
-		except Exception as e :
-			print( '[ ERROR - {!s}: {!s} ]'.format( cls.font_name, e ))
+		response = requests.get( cls.font_url_data, timeout = 2 )
+		if response.status_code == 200:
+			input_raw = response.content
+			print( 'Downloaded - ' + cls.font_name )
+		else:
+			raise Exception( 'Download failed - ' + cls.font_name )
 		return input_raw
 
 	@classmethod
@@ -486,7 +485,11 @@ languages = [ LanguageC89, LanguageCpp11, LanguageCSharp ]
 
 intermediates = []
 for font in fonts:
-	intermediates.append( font.get_intermediate_representation())
+	try:
+		font_intermediate = font.get_intermediate_representation()
+		intermediates.append( font_intermediate )
+	except Exception as e:
+		print( '[ ERROR: {!s} ]'.format( e ))
 for interm in intermediates:
 	Language.intermediate = interm
 	for lang in languages:

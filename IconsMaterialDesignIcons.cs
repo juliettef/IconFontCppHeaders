@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "materialdesignicons-webfont.ttf";
 
         public const int IconMin = 0xF001;
-        public const int IconMax = 0xF9B5;
+        public const int IconMax = 0xFA22;
         public const string AccessPoint = "\uF002";
         public const string AccessPointNetwork = "\uF003";
         public const string Account = "\uF004";
@@ -116,7 +116,11 @@ namespace IconFonts
         public const string ArrangeSendToBack = "\uF040";
         public const string ArrowAll = "\uF041";
         public const string ArrowBottomLeft = "\uF042";
+        public const string ArrowBottomLeftBoldOutline = "\uF9B6";
+        public const string ArrowBottomLeftThick = "\uF9B7";
         public const string ArrowBottomRight = "\uF043";
+        public const string ArrowBottomRightBoldOutline = "\uF9B8";
+        public const string ArrowBottomRightThick = "\uF9B9";
         public const string ArrowCollapse = "\uF615";
         public const string ArrowCollapseAll = "\uF044";
         public const string ArrowCollapseDown = "\uF791";
@@ -125,6 +129,10 @@ namespace IconFonts
         public const string ArrowCollapseRight = "\uF793";
         public const string ArrowCollapseUp = "\uF794";
         public const string ArrowCollapseVertical = "\uF84C";
+        public const string ArrowDecision = "\uF9BA";
+        public const string ArrowDecisionAuto = "\uF9BB";
+        public const string ArrowDecisionAutoOutline = "\uF9BC";
+        public const string ArrowDecisionOutline = "\uF9BD";
         public const string ArrowDown = "\uF045";
         public const string ArrowDownBold = "\uF72D";
         public const string ArrowDownBoldBox = "\uF72E";
@@ -132,6 +140,7 @@ namespace IconFonts
         public const string ArrowDownBoldCircle = "\uF047";
         public const string ArrowDownBoldCircleOutline = "\uF048";
         public const string ArrowDownBoldHexagonOutline = "\uF049";
+        public const string ArrowDownBoldOutline = "\uF9BE";
         public const string ArrowDownBox = "\uF6BF";
         public const string ArrowDownDropCircle = "\uF04A";
         public const string ArrowDownDropCircleOutline = "\uF04B";
@@ -151,9 +160,11 @@ namespace IconFonts
         public const string ArrowLeftBoldCircle = "\uF04F";
         public const string ArrowLeftBoldCircleOutline = "\uF050";
         public const string ArrowLeftBoldHexagonOutline = "\uF051";
+        public const string ArrowLeftBoldOutline = "\uF9BF";
         public const string ArrowLeftBox = "\uF6C0";
         public const string ArrowLeftDropCircle = "\uF052";
         public const string ArrowLeftDropCircleOutline = "\uF053";
+        public const string ArrowLeftRightBoldOutline = "\uF9C0";
         public const string ArrowLeftThick = "\uF04E";
         public const string ArrowRight = "\uF054";
         public const string ArrowRightBold = "\uF733";
@@ -162,6 +173,7 @@ namespace IconFonts
         public const string ArrowRightBoldCircle = "\uF056";
         public const string ArrowRightBoldCircleOutline = "\uF057";
         public const string ArrowRightBoldHexagonOutline = "\uF058";
+        public const string ArrowRightBoldOutline = "\uF9C1";
         public const string ArrowRightBox = "\uF6C1";
         public const string ArrowRightDropCircle = "\uF059";
         public const string ArrowRightDropCircleOutline = "\uF05A";
@@ -169,7 +181,11 @@ namespace IconFonts
         public const string ArrowSplitHorizontal = "\uF93A";
         public const string ArrowSplitVertical = "\uF93B";
         public const string ArrowTopLeft = "\uF05B";
+        public const string ArrowTopLeftBoldOutline = "\uF9C2";
+        public const string ArrowTopLeftThick = "\uF9C3";
         public const string ArrowTopRight = "\uF05C";
+        public const string ArrowTopRightBoldOutline = "\uF9C4";
+        public const string ArrowTopRightThick = "\uF9C5";
         public const string ArrowUp = "\uF05D";
         public const string ArrowUpBold = "\uF736";
         public const string ArrowUpBoldBox = "\uF737";
@@ -177,7 +193,9 @@ namespace IconFonts
         public const string ArrowUpBoldCircle = "\uF05F";
         public const string ArrowUpBoldCircleOutline = "\uF060";
         public const string ArrowUpBoldHexagonOutline = "\uF061";
+        public const string ArrowUpBoldOutline = "\uF9C6";
         public const string ArrowUpBox = "\uF6C2";
+        public const string ArrowUpDownBoldOutline = "\uF9C7";
         public const string ArrowUpDropCircle = "\uF062";
         public const string ArrowUpDropCircleOutline = "\uF063";
         public const string ArrowUpThick = "\uF05E";
@@ -203,6 +221,8 @@ namespace IconFonts
         public const string Backspace = "\uF06E";
         public const string BackupRestore = "\uF06F";
         public const string Badminton = "\uF850";
+        public const string Ballot = "\uF9C8";
+        public const string BallotOutline = "\uF9C9";
         public const string Bandcamp = "\uF674";
         public const string Bank = "\uF070";
         public const string Barcode = "\uF071";
@@ -284,6 +304,7 @@ namespace IconFonts
         public const string BellRingOutline = "\uF09F";
         public const string BellSleep = "\uF0A0";
         public const string Beta = "\uF0A1";
+        public const string Betamax = "\uF9CA";
         public const string Bible = "\uF0A2";
         public const string Bike = "\uF0A3";
         public const string Bing = "\uF0A4";
@@ -324,7 +345,11 @@ namespace IconFonts
         public const string BookVariant = "\uF0BF";
         public const string Bookmark = "\uF0C0";
         public const string BookmarkCheck = "\uF0C1";
+        public const string BookmarkMinus = "\uF9CB";
+        public const string BookmarkMinusOutline = "\uF9CC";
         public const string BookmarkMusic = "\uF0C2";
+        public const string BookmarkOff = "\uF9CD";
+        public const string BookmarkOffOutline = "\uF9CE";
         public const string BookmarkOutline = "\uF0C3";
         public const string BookmarkPlus = "\uF0C5";
         public const string BookmarkPlusOutline = "\uF0C4";
@@ -356,6 +381,8 @@ namespace IconFonts
         public const string Box = "\uF0D4";
         public const string BoxCutter = "\uF0D5";
         public const string BoxShadow = "\uF637";
+        public const string Braille = "\uF9CF";
+        public const string Brain = "\uF9D0";
         public const string Bridge = "\uF618";
         public const string Briefcase = "\uF0D6";
         public const string BriefcaseCheck = "\uF0D7";
@@ -396,6 +423,7 @@ namespace IconFonts
         public const string CalendarCheck = "\uF0EF";
         public const string CalendarClock = "\uF0F0";
         public const string CalendarEdit = "\uF8A6";
+        public const string CalendarHeart = "\uF9D1";
         public const string CalendarMultiple = "\uF0F1";
         public const string CalendarMultipleCheck = "\uF0F2";
         public const string CalendarPlus = "\uF0F3";
@@ -403,6 +431,7 @@ namespace IconFonts
         public const string CalendarRange = "\uF678";
         public const string CalendarRemove = "\uF0F4";
         public const string CalendarSearch = "\uF94B";
+        public const string CalendarStar = "\uF9D2";
         public const string CalendarText = "\uF0F5";
         public const string CalendarToday = "\uF0F6";
         public const string CallMade = "\uF0F7";
@@ -467,6 +496,7 @@ namespace IconFonts
         public const string Cash100 = "\uF115";
         public const string CashMultiple = "\uF116";
         public const string CashUsd = "\uF117";
+        public const string Cassette = "\uF9D3";
         public const string Cast = "\uF118";
         public const string CastConnected = "\uF119";
         public const string CastOff = "\uF789";
@@ -476,6 +506,7 @@ namespace IconFonts
         public const string CeilingLight = "\uF768";
         public const string Cellphone = "\uF11C";
         public const string CellphoneAndroid = "\uF11D";
+        public const string CellphoneArrowDown = "\uF9D4";
         public const string CellphoneBasic = "\uF11E";
         public const string CellphoneDock = "\uF11F";
         public const string CellphoneErase = "\uF94C";
@@ -544,18 +575,28 @@ namespace IconFonts
         public const string ChevronDoubleRight = "\uF13E";
         public const string ChevronDoubleUp = "\uF13F";
         public const string ChevronDown = "\uF140";
+        public const string ChevronDownBox = "\uF9D5";
+        public const string ChevronDownBoxOutline = "\uF9D6";
         public const string ChevronLeft = "\uF141";
+        public const string ChevronLeftBox = "\uF9D7";
+        public const string ChevronLeftBoxOutline = "\uF9D8";
         public const string ChevronRight = "\uF142";
+        public const string ChevronRightBox = "\uF9D9";
+        public const string ChevronRightBoxOutline = "\uF9DA";
         public const string ChevronUp = "\uF143";
+        public const string ChevronUpBox = "\uF9DB";
+        public const string ChevronUpBoxOutline = "\uF9DC";
         public const string ChiliHot = "\uF7B1";
         public const string ChiliMedium = "\uF7B2";
         public const string ChiliMild = "\uF7B3";
         public const string Chip = "\uF61A";
-        public const string Christiantiy = "\uF952";
+        public const string Christianity = "\uF952";
         public const string Church = "\uF144";
         public const string Circle = "\uF764";
         public const string CircleEditOutline = "\uF8D4";
+        public const string CircleMedium = "\uF9DD";
         public const string CircleOutline = "\uF765";
+        public const string CircleSmall = "\uF9DE";
         public const string CiscoWebex = "\uF145";
         public const string City = "\uF146";
         public const string Clipboard = "\uF147";
@@ -592,6 +633,7 @@ namespace IconFonts
         public const string CloseOutline = "\uF6C8";
         public const string ClosedCaption = "\uF15E";
         public const string Cloud = "\uF15F";
+        public const string CloudAlert = "\uF9DF";
         public const string CloudBraces = "\uF7B4";
         public const string CloudCheck = "\uF160";
         public const string CloudCircle = "\uF161";
@@ -634,11 +676,16 @@ namespace IconFonts
         public const string CommentAccountOutline = "\uF17C";
         public const string CommentAlert = "\uF17D";
         public const string CommentAlertOutline = "\uF17E";
+        public const string CommentArrowLeft = "\uF9E0";
+        public const string CommentArrowLeftOutline = "\uF9E1";
+        public const string CommentArrowRight = "\uF9E2";
+        public const string CommentArrowRightOutline = "\uF9E3";
         public const string CommentCheck = "\uF17F";
         public const string CommentCheckOutline = "\uF180";
         public const string CommentMultiple = "\uF85E";
         public const string CommentMultipleOutline = "\uF181";
         public const string CommentOutline = "\uF182";
+        public const string CommentPlus = "\uF9E4";
         public const string CommentPlusOutline = "\uF183";
         public const string CommentProcessing = "\uF184";
         public const string CommentProcessingOutline = "\uF185";
@@ -714,6 +761,7 @@ namespace IconFonts
         public const string CurrencyKrw = "\uF7BC";
         public const string CurrencyKzt = "\uF864";
         public const string CurrencyNgn = "\uF1B0";
+        public const string CurrencyPhp = "\uF9E5";
         public const string CurrencyRub = "\uF1B1";
         public const string CurrencySign = "\uF7BD";
         public const string CurrencyTry = "\uF1B2";
@@ -747,6 +795,7 @@ namespace IconFonts
         public const string DeleteCircle = "\uF682";
         public const string DeleteEmpty = "\uF6CB";
         public const string DeleteForever = "\uF5E8";
+        public const string DeleteOutline = "\uF9E6";
         public const string DeleteRestore = "\uF818";
         public const string DeleteSweep = "\uF5E9";
         public const string DeleteVariant = "\uF1C1";
@@ -755,6 +804,7 @@ namespace IconFonts
         public const string Deskphone = "\uF1C3";
         public const string DesktopClassic = "\uF7BF";
         public const string DesktopMac = "\uF1C4";
+        public const string DesktopMacDashboard = "\uF9E7";
         public const string DesktopTower = "\uF1C5";
         public const string Details = "\uF1C6";
         public const string DeveloperBoard = "\uF696";
@@ -778,10 +828,10 @@ namespace IconFonts
         public const string DipSwitch = "\uF7C0";
         public const string Directions = "\uF1D0";
         public const string DirectionsFork = "\uF641";
+        public const string Disc = "\uF5EE";
+        public const string DiscAlert = "\uF1D1";
+        public const string DiscPlayer = "\uF95F";
         public const string Discord = "\uF66F";
-        public const string Disk = "\uF5EE";
-        public const string DiskAlert = "\uF1D1";
-        public const string DiskPlayer = "\uF95F";
         public const string Disqus = "\uF1D2";
         public const string DisqusOutline = "\uF1D3";
         public const string Division = "\uF1D4";
@@ -804,6 +854,7 @@ namespace IconFonts
         public const string DotsVerticalCircle = "\uF7C3";
         public const string Douban = "\uF699";
         public const string Download = "\uF1DA";
+        public const string DownloadMultiple = "\uF9E8";
         public const string DownloadNetwork = "\uF6F3";
         public const string Drag = "\uF1DB";
         public const string DragHorizontal = "\uF1DC";
@@ -823,6 +874,7 @@ namespace IconFonts
         public const string EarthBoxOff = "\uF6CD";
         public const string EarthOff = "\uF1E8";
         public const string Edge = "\uF1E9";
+        public const string EightTrack = "\uF9E9";
         public const string Eject = "\uF1EA";
         public const string Elephant = "\uF7C5";
         public const string ElevationDecline = "\uF1EB";
@@ -833,6 +885,8 @@ namespace IconFonts
         public const string EmailOpen = "\uF1EF";
         public const string EmailOpenOutline = "\uF5EF";
         public const string EmailOutline = "\uF1F0";
+        public const string EmailPlus = "\uF9EA";
+        public const string EmailPlusOutline = "\uF9EB";
         public const string EmailSearch = "\uF960";
         public const string EmailSearchOutline = "\uF961";
         public const string EmailSecure = "\uF1F1";
@@ -901,6 +955,8 @@ namespace IconFonts
         public const string FileDelimited = "\uF218";
         public const string FileDocument = "\uF219";
         public const string FileDocumentBox = "\uF21A";
+        public const string FileDocumentBoxOutline = "\uF9EC";
+        public const string FileDocumentOutline = "\uF9ED";
         public const string FileDownload = "\uF964";
         public const string FileDownloadOutline = "\uF965";
         public const string FileExcel = "\uF21B";
@@ -970,7 +1026,11 @@ namespace IconFonts
         public const string FloorLamp = "\uF8DC";
         public const string FloorPlan = "\uF820";
         public const string Floppy = "\uF249";
+        public const string FloppyVariant = "\uF9EE";
         public const string Flower = "\uF24A";
+        public const string FlowerOutline = "\uF9EF";
+        public const string FlowerTulip = "\uF9F0";
+        public const string FlowerTulipOutline = "\uF9F1";
         public const string Folder = "\uF24B";
         public const string FolderAccount = "\uF24C";
         public const string FolderDownload = "\uF24D";
@@ -1023,6 +1083,8 @@ namespace IconFonts
         public const string FormatFloatNone = "\uF269";
         public const string FormatFloatRight = "\uF26A";
         public const string FormatFont = "\uF6D5";
+        public const string FormatFontSizeDecrease = "\uF9F2";
+        public const string FormatFontSizeIncrease = "\uF9F3";
         public const string FormatHeader1 = "\uF26B";
         public const string FormatHeader2 = "\uF26C";
         public const string FormatHeader3 = "\uF26D";
@@ -1122,6 +1184,7 @@ namespace IconFonts
         public const string GestureTwoDoubleTap = "\uF741";
         public const string GestureTwoTap = "\uF742";
         public const string Ghost = "\uF2A0";
+        public const string GhostOff = "\uF9F4";
         public const string Gift = "\uF2A1";
         public const string Git = "\uF2A2";
         public const string GithubBox = "\uF2A3";
@@ -1159,6 +1222,7 @@ namespace IconFonts
         public const string GoogleHangouts = "\uF2C9";
         public const string GoogleHome = "\uF823";
         public const string GoogleKeep = "\uF6DB";
+        public const string GoogleLens = "\uF9F5";
         public const string GoogleMaps = "\uF5F5";
         public const string GoogleNearby = "\uF2B9";
         public const string GooglePages = "\uF2BA";
@@ -1167,6 +1231,7 @@ namespace IconFonts
         public const string GooglePlay = "\uF2BC";
         public const string GooglePlus = "\uF2BD";
         public const string GooglePlusBox = "\uF2BE";
+        public const string GoogleSpreadsheet = "\uF9F6";
         public const string GoogleTranslate = "\uF2BF";
         public const string GoogleWallet = "\uF2C0";
         public const string Gpu = "\uF8AD";
@@ -1281,6 +1346,7 @@ namespace IconFonts
         public const string ImageFilterNone = "\uF2F6";
         public const string ImageFilterTiltShift = "\uF2F7";
         public const string ImageFilterVintage = "\uF2F8";
+        public const string ImageMove = "\uF9F7";
         public const string ImageMultiple = "\uF2F9";
         public const string ImageOff = "\uF82A";
         public const string ImageOutline = "\uF975";
@@ -1325,9 +1391,13 @@ namespace IconFonts
         public const string KeyboardOff = "\uF310";
         public const string KeyboardOutline = "\uF97A";
         public const string KeyboardReturn = "\uF311";
+        public const string KeyboardSettings = "\uF9F8";
+        public const string KeyboardSettingsOutline = "\uF9F9";
         public const string KeyboardTab = "\uF312";
         public const string KeyboardVariant = "\uF313";
         public const string Kickstarter = "\uF744";
+        public const string Knife = "\uF9FA";
+        public const string KnifeMilitary = "\uF9FB";
         public const string Kodi = "\uF314";
         public const string Label = "\uF315";
         public const string LabelOutline = "\uF316";
@@ -1363,6 +1433,8 @@ namespace IconFonts
         public const string LavaLamp = "\uF7D4";
         public const string Layers = "\uF328";
         public const string LayersOff = "\uF329";
+        public const string LayersOffOutline = "\uF9FC";
+        public const string LayersOutline = "\uF9FD";
         public const string LeadPencil = "\uF64F";
         public const string Leaf = "\uF32A";
         public const string LedOff = "\uF32B";
@@ -1384,6 +1456,8 @@ namespace IconFonts
         public const string LightbulbOn = "\uF6E7";
         public const string LightbulbOnOutline = "\uF6E8";
         public const string LightbulbOutline = "\uF336";
+        public const string Lighthouse = "\uF9FE";
+        public const string LighthouseOn = "\uF9FF";
         public const string Link = "\uF337";
         public const string LinkOff = "\uF338";
         public const string LinkVariant = "\uF339";
@@ -1425,6 +1499,7 @@ namespace IconFonts
         public const string MailRu = "\uF34C";
         public const string Mailbox = "\uF6ED";
         public const string Map = "\uF34D";
+        public const string MapLegend = "\uFA00";
         public const string MapMarker = "\uF34E";
         public const string MapMarkerCircle = "\uF34F";
         public const string MapMarkerDistance = "\uF8EF";
@@ -1456,11 +1531,14 @@ namespace IconFonts
         public const string MenuDown = "\uF35D";
         public const string MenuDownOutline = "\uF6B5";
         public const string MenuLeft = "\uF35E";
+        public const string MenuLeftOutline = "\uFA01";
         public const string MenuRight = "\uF35F";
+        public const string MenuRightOutline = "\uFA02";
         public const string MenuUp = "\uF360";
         public const string MenuUpOutline = "\uF6B6";
         public const string Message = "\uF361";
         public const string MessageAlert = "\uF362";
+        public const string MessageAlertOutline = "\uFA03";
         public const string MessageBulleted = "\uF6A1";
         public const string MessageBulletedOff = "\uF6A2";
         public const string MessageDraw = "\uF363";
@@ -1493,6 +1571,8 @@ namespace IconFonts
         public const string Midi = "\uF8F0";
         public const string MidiPort = "\uF8F1";
         public const string Minecraft = "\uF373";
+        public const string MiniSd = "\uFA04";
+        public const string Minidisc = "\uFA05";
         public const string Minus = "\uF374";
         public const string MinusBox = "\uF375";
         public const string MinusBoxOutline = "\uF6F1";
@@ -1505,6 +1585,7 @@ namespace IconFonts
         public const string Monitor = "\uF379";
         public const string MonitorCellphone = "\uF988";
         public const string MonitorCellphoneStar = "\uF989";
+        public const string MonitorDashboard = "\uFA06";
         public const string MonitorMultiple = "\uF37A";
         public const string More = "\uF37B";
         public const string Motorbike = "\uF37C";
@@ -1729,6 +1810,7 @@ namespace IconFonts
         public const string Pipe = "\uF7E4";
         public const string PipeDisconnected = "\uF7E5";
         public const string PipeLeak = "\uF888";
+        public const string Pirate = "\uFA07";
         public const string Pistol = "\uF702";
         public const string Piston = "\uF889";
         public const string Pizza = "\uF409";
@@ -1763,6 +1845,7 @@ namespace IconFonts
         public const string Pocket = "\uF41C";
         public const string Podcast = "\uF993";
         public const string Pokeball = "\uF41D";
+        public const string PokemonGo = "\uFA08";
         public const string PokerChip = "\uF82F";
         public const string Polaroid = "\uF41E";
         public const string Poll = "\uF41F";
@@ -1788,6 +1871,7 @@ namespace IconFonts
         public const string PowerSocketUk = "\uF7E7";
         public const string PowerSocketUs = "\uF7E8";
         public const string PowerStandby = "\uF905";
+        public const string Powershell = "\uFA09";
         public const string Prescription = "\uF705";
         public const string Presentation = "\uF428";
         public const string PresentationPlay = "\uF429";
@@ -1795,6 +1879,7 @@ namespace IconFonts
         public const string Printer3d = "\uF42B";
         public const string PrinterAlert = "\uF42C";
         public const string PrinterSettings = "\uF706";
+        public const string PrinterWireless = "\uFA0A";
         public const string PriorityHigh = "\uF603";
         public const string PriorityLow = "\uF604";
         public const string ProfessionalHexagon = "\uF42D";
@@ -1814,6 +1899,8 @@ namespace IconFonts
         public const string QrcodeScan = "\uF433";
         public const string Quadcopter = "\uF434";
         public const string QualityHigh = "\uF435";
+        public const string QualityLow = "\uFA0B";
+        public const string QualityMedium = "\uFA0C";
         public const string Quicktime = "\uF436";
         public const string Rabbit = "\uF906";
         public const string Radar = "\uF437";
@@ -1841,6 +1928,8 @@ namespace IconFonts
         public const string Reddit = "\uF44D";
         public const string Redo = "\uF44E";
         public const string RedoVariant = "\uF44F";
+        public const string ReflectHorizontal = "\uFA0D";
+        public const string ReflectVertical = "\uFA0E";
         public const string Refresh = "\uF450";
         public const string Regex = "\uF451";
         public const string RelativeScale = "\uF452";
@@ -1866,7 +1955,9 @@ namespace IconFonts
         public const string Rewind = "\uF45F";
         public const string RewindOutline = "\uF709";
         public const string Rhombus = "\uF70A";
+        public const string RhombusMedium = "\uFA0F";
         public const string RhombusOutline = "\uF70B";
+        public const string RhombusSplit = "\uFA10";
         public const string Ribbon = "\uF460";
         public const string Rice = "\uF7E9";
         public const string Ring = "\uF7EA";
@@ -1922,6 +2013,7 @@ namespace IconFonts
         public const string SeatReclineNormal = "\uF482";
         public const string Security = "\uF483";
         public const string SecurityAccount = "\uF88E";
+        public const string SecurityAccountOutline = "\uFA11";
         public const string SecurityClose = "\uF99B";
         public const string SecurityHome = "\uF689";
         public const string SecurityLock = "\uF99C";
@@ -2063,9 +2155,12 @@ namespace IconFonts
         public const string SquareEditOutline = "\uF90B";
         public const string SquareInc = "\uF4CA";
         public const string SquareIncCash = "\uF4CB";
+        public const string SquareMedium = "\uFA12";
+        public const string SquareMediumOutline = "\uFA13";
         public const string SquareOutline = "\uF762";
         public const string SquareRoot = "\uF783";
         public const string SquareRootBox = "\uF9A2";
+        public const string SquareSmall = "\uFA14";
         public const string Ssh = "\uF8BF";
         public const string StackExchange = "\uF60B";
         public const string StackOverflow = "\uF4CC";
@@ -2099,6 +2194,8 @@ namespace IconFonts
         public const string Stove = "\uF4DE";
         public const string SubdirectoryArrowLeft = "\uF60C";
         public const string SubdirectoryArrowRight = "\uF60D";
+        public const string Subtitles = "\uFA15";
+        public const string SubtitlesOutline = "\uFA16";
         public const string Subway = "\uF6AB";
         public const string SubwayVariant = "\uF4DF";
         public const string Summit = "\uF785";
@@ -2124,6 +2221,7 @@ namespace IconFonts
         public const string TabPlus = "\uF75B";
         public const string TabUnselected = "\uF4EA";
         public const string Table = "\uF4EB";
+        public const string TableBorder = "\uFA17";
         public const string TableColumn = "\uF834";
         public const string TableColumnPlusAfter = "\uF4EC";
         public const string TableColumnPlusBefore = "\uF4ED";
@@ -2214,6 +2312,8 @@ namespace IconFonts
         public const string Timetable = "\uF520";
         public const string ToggleSwitch = "\uF521";
         public const string ToggleSwitchOff = "\uF522";
+        public const string ToggleSwitchOffOutline = "\uFA18";
+        public const string ToggleSwitchOutline = "\uFA19";
         public const string Toilet = "\uF9AA";
         public const string Toolbox = "\uF9AB";
         public const string ToolboxOutline = "\uF9AC";
@@ -2324,6 +2424,7 @@ namespace IconFonts
         public const string VectorUnion = "\uF564";
         public const string Venmo = "\uF578";
         public const string Verified = "\uF565";
+        public const string Vhs = "\uFA1A";
         public const string Vibrate = "\uF566";
         public const string Video = "\uF567";
         public const string Video3d = "\uF7FC";
@@ -2339,11 +2440,13 @@ namespace IconFonts
         public const string VideoPlus = "\uF9B2";
         public const string VideoStabilization = "\uF91A";
         public const string VideoSwitch = "\uF569";
+        public const string VideoVintage = "\uFA1B";
         public const string ViewAgenda = "\uF56A";
         public const string ViewArray = "\uF56B";
         public const string ViewCarousel = "\uF56C";
         public const string ViewColumn = "\uF56D";
         public const string ViewDashboard = "\uF56E";
+        public const string ViewDashboardOutline = "\uFA1C";
         public const string ViewDashboardVariant = "\uF842";
         public const string ViewDay = "\uF56F";
         public const string ViewGrid = "\uF570";
@@ -2358,7 +2461,8 @@ namespace IconFonts
         public const string Vimeo = "\uF577";
         public const string Violin = "\uF60F";
         public const string VirtualReality = "\uF893";
-        public const string Visualstudio = "\uF610";
+        public const string VisualStudio = "\uF610";
+        public const string VisualStudioCode = "\uFA1D";
         public const string Vk = "\uF579";
         public const string VkBox = "\uF57A";
         public const string VkCircle = "\uF57B";
@@ -2373,6 +2477,8 @@ namespace IconFonts
         public const string VolumeMute = "\uF75E";
         public const string VolumeOff = "\uF581";
         public const string VolumePlus = "\uF75C";
+        public const string Vote = "\uFA1E";
+        public const string VoteOutline = "\uFA1F";
         public const string Vpn = "\uF582";
         public const string Vuejs = "\uF843";
         public const string Walk = "\uF583";
@@ -2462,6 +2568,7 @@ namespace IconFonts
         public const string WindowOpen = "\uF5B1";
         public const string WindowRestore = "\uF5B2";
         public const string Windows = "\uF5B3";
+        public const string WindowsClassic = "\uFA20";
         public const string Wordpress = "\uF5B4";
         public const string Worker = "\uF5B5";
         public const string Wrap = "\uF5B6";
@@ -2473,6 +2580,7 @@ namespace IconFonts
         public const string Xbox = "\uF5B9";
         public const string XboxController = "\uF5BA";
         public const string XboxControllerBatteryAlert = "\uF74A";
+        public const string XboxControllerBatteryCharging = "\uFA21";
         public const string XboxControllerBatteryEmpty = "\uF74B";
         public const string XboxControllerBatteryFull = "\uF74C";
         public const string XboxControllerBatteryLow = "\uF74D";
@@ -2494,6 +2602,7 @@ namespace IconFonts
         public const string YoutubeGaming = "\uF847";
         public const string YoutubeTv = "\uF448";
         public const string ZipBox = "\uF5C4";
+        public const string ZipDisk = "\uFA22";
         public const string Blank = "\uF68C";
     }
 }

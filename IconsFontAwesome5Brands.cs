@@ -248,6 +248,7 @@ namespace IconFonts
         public const string RedditAlien = "\uf281";
         public const string Bluetooth = "\uf293";
         public const string Cpanel = "\uf388";
+        public const string Rev = "\uf5b2";
         public const string Medapps = "\uf3c6";
         public const string Git = "\uf1d3";
         public const string Rebel = "\uf1d0";

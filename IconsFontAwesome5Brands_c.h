@@ -246,6 +246,7 @@
 #define ICON_FAB_REDDIT_ALIEN "\xEF\x8A\x81"
 #define ICON_FAB_BLUETOOTH "\xEF\x8A\x93"
 #define ICON_FAB_CPANEL "\xEF\x8E\x88"
+#define ICON_FAB_REV "\xEF\x96\xB2"
 #define ICON_FAB_MEDAPPS "\xEF\x8F\x86"
 #define ICON_FAB_GIT "\xEF\x87\x93"
 #define ICON_FAB_REBEL "\xEF\x87\x90"

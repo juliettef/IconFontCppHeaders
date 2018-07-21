@@ -246,6 +246,7 @@
 #define ICON_FAB_REDDIT_ALIEN u8"\uf281"
 #define ICON_FAB_BLUETOOTH u8"\uf293"
 #define ICON_FAB_CPANEL u8"\uf388"
+#define ICON_FAB_REV u8"\uf5b2"
 #define ICON_FAB_MEDAPPS u8"\uf3c6"
 #define ICON_FAB_GIT u8"\uf1d3"
 #define ICON_FAB_REBEL u8"\uf1d0"

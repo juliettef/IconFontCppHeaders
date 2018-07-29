@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf5cf;
+        public const int IconMax = 0xf63f;
         public const string LinkedinIn = "\uf0e1";
         public const string TelegramPlane = "\uf3fe";
         public const string Wpforms = "\uf298";
@@ -51,6 +51,7 @@ namespace IconFonts
         public const string InternetExplorer = "\uf26b";
         public const string CreativeCommonsBy = "\uf4e7";
         public const string FortAwesomeAlt = "\uf3a3";
+        public const string Ello = "\uf5f1";
         public const string Scribd = "\uf28a";
         public const string DAndD = "\uf38d";
         public const string Buromobelexperte = "\uf37f";
@@ -81,7 +82,7 @@ namespace IconFonts
         public const string CcJcb = "\uf24b";
         public const string GooglePlusSquare = "\uf0d4";
         public const string Vnv = "\uf40b";
-        public const string Docker = "\uf395";
+        public const string Themeco = "\uf5c6";
         public const string Pinterest = "\uf0d2";
         public const string FirstOrderAlt = "\uf50a";
         public const string CcDiscover = "\uf1f2";
@@ -104,6 +105,7 @@ namespace IconFonts
         public const string PinterestP = "\uf231";
         public const string Html5 = "\uf13b";
         public const string Viber = "\uf409";
+        public const string Hackerrank = "\uf5f7";
         public const string Periscope = "\uf3da";
         public const string TradeFederation = "\uf513";
         public const string Supple = "\uf3f9";
@@ -133,15 +135,15 @@ namespace IconFonts
         public const string Ioxhost = "\uf208";
         public const string Edge = "\uf282";
         public const string Etsy = "\uf2d7";
-        public const string Themeco = "\uf5c6";
+        public const string Docker = "\uf395";
         public const string Whmcs = "\uf40d";
-        public const string Empire = "\uf1d1";
         public const string Telegram = "\uf2c6";
         public const string CcApplePay = "\uf416";
         public const string Avianex = "\uf374";
         public const string GooglePlus = "\uf2b3";
         public const string Whatsapp = "\uf232";
         public const string NintendoSwitch = "\uf418";
+        public const string Leanpub = "\uf212";
         public const string Firstdraft = "\uf3a1";
         public const string Xbox = "\uf412";
         public const string Viadeo = "\uf2a9";
@@ -241,6 +243,7 @@ namespace IconFonts
         public const string FacebookSquare = "\uf082";
         public const string Staylinked = "\uf3f5";
         public const string Deviantart = "\uf1bd";
+        public const string Zhihu = "\uf63f";
         public const string Odnoklassniki = "\uf263";
         public const string Gripfire = "\uf3ac";
         public const string Snapchat = "\uf2ab";
@@ -250,6 +253,7 @@ namespace IconFonts
         public const string Cpanel = "\uf388";
         public const string Rev = "\uf5b2";
         public const string Medapps = "\uf3c6";
+        public const string Kaggle = "\uf5fa";
         public const string Git = "\uf1d3";
         public const string Rebel = "\uf1d0";
         public const string Laravel = "\uf3bd";
@@ -337,6 +341,8 @@ namespace IconFonts
         public const string Less = "\uf41d";
         public const string Modx = "\uf285";
         public const string VimeoV = "\uf27d";
+        public const string Neos = "\uf612";
+        public const string Markdown = "\uf60f";
         public const string Searchengin = "\uf3eb";
         public const string Css3 = "\uf13c";
         public const string Strava = "\uf428";
@@ -344,7 +350,6 @@ namespace IconFonts
         public const string Teamspeak = "\uf4f9";
         public const string Centercode = "\uf380";
         public const string GithubAlt = "\uf113";
-        public const string Leanpub = "\uf212";
         public const string Opera = "\uf26a";
         public const string Blackberry = "\uf37b";
         public const string BluetoothB = "\uf294";
@@ -354,6 +359,7 @@ namespace IconFonts
         public const string Linux = "\uf17c";
         public const string Envira = "\uf299";
         public const string LastfmSquare = "\uf203";
+        public const string Empire = "\uf1d1";
         public const string PiedPiperAlt = "\uf1a8";
         public const string Keycdn = "\uf3ba";
         public const string Dochub = "\uf394";

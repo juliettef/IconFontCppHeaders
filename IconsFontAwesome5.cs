@@ -9,7 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-regular-400.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf5ce;
+        public const int IconMax = 0xf63c;
         public const string ChevronCircleRight = "\uf138";
         public const string Crosshairs = "\uf05b";
         public const string BroadcastTower = "\uf519";
@@ -37,6 +37,7 @@ namespace IconFonts
         public const string ArrowDown = "\uf063";
         public const string Bicycle = "\uf206";
         public const string Tired = "\uf5c8";
+        public const string AirFreshener = "\uf5d0";
         public const string Sync = "\uf021";
         public const string PaperPlane = "\uf1d8";
         public const string VolleyballBall = "\uf45f";
@@ -52,6 +53,7 @@ namespace IconFonts
         public const string Tags = "\uf02c";
         public const string FileAlt = "\uf15c";
         public const string Equals = "\uf52c";
+        public const string Directions = "\uf5eb";
         public const string FileInvoice = "\uf570";
         public const string Search = "\uf002";
         public const string Flask = "\uf0c3";
@@ -60,9 +62,10 @@ namespace IconFonts
         public const string GreaterThanEqual = "\uf532";
         public const string SlidersH = "\uf1de";
         public const string EyeSlash = "\uf070";
+        public const string BirthdayCake = "\uf1fd";
         public const string Pallet = "\uf482";
         public const string FeatherAlt = "\uf56b";
-        public const string Eye = "\uf06e";
+        public const string Dna = "\uf471";
         public const string BaseballBall = "\uf433";
         public const string Hospital = "\uf0f8";
         public const string Coins = "\uf51e";
@@ -89,6 +92,7 @@ namespace IconFonts
         public const string BatteryThreeQuarters = "\uf241";
         public const string ObjectUngroup = "\uf248";
         public const string Briefcase = "\uf0b1";
+        public const string OilCan = "\uf613";
         public const string ThermometerFull = "\uf2c7";
         public const string Plane = "\uf072";
         public const string Unlink = "\uf127";
@@ -114,10 +118,12 @@ namespace IconFonts
         public const string GrinBeamSweat = "\uf583";
         public const string HandPointRight = "\uf0a4";
         public const string Magic = "\uf0d0";
+        public const string ChargingStation = "\uf5e7";
         public const string VolumeOff = "\uf026";
         public const string SadTear = "\uf5b4";
         public const string CaretRight = "\uf0da";
         public const string Bong = "\uf55c";
+        public const string Bone = "\uf5d7";
         public const string EllipsisV = "\uf142";
         public const string BalanceScale = "\uf24e";
         public const string Fish = "\uf578";
@@ -131,9 +137,11 @@ namespace IconFonts
         public const string SortNumericUp = "\uf163";
         public const string VideoSlash = "\uf4e2";
         public const string Subway = "\uf239";
+        public const string BookReader = "\uf5da";
         public const string Cookie = "\uf563";
         public const string MoneyBill = "\uf0d6";
         public const string ChevronDown = "\uf078";
+        public const string CarSide = "\uf5e4";
         public const string Filter = "\uf0b0";
         public const string Bookmark = "\uf02e";
         public const string FolderOpen = "\uf07c";
@@ -182,6 +190,7 @@ namespace IconFonts
         public const string Bullseye = "\uf140";
         public const string Lightbulb = "\uf0eb";
         public const string Bomb = "\uf1e2";
+        public const string TruckMonster = "\uf63b";
         public const string ArrowsAltH = "\uf337";
         public const string ChessRook = "\uf447";
         public const string FireExtinguisher = "\uf134";
@@ -207,9 +216,11 @@ namespace IconFonts
         public const string WineGlass = "\uf4e3";
         public const string UserAltSlash = "\uf4fa";
         public const string UserTag = "\uf507";
+        public const string Microscope = "\uf610";
         public const string Brush = "\uf55d";
         public const string Ban = "\uf05e";
         public const string Bars = "\uf0c9";
+        public const string CarCrash = "\uf5e1";
         public const string ArrowAltCircleDown = "\uf358";
         public const string MoneyBillAlt = "\uf3d1";
         public const string ChalkboardTeacher = "\uf51c";
@@ -229,6 +240,7 @@ namespace IconFonts
         public const string PencilRuler = "\uf5ae";
         public const string CreditCard = "\uf09d";
         public const string Archway = "\uf557";
+        public const string MapMarkerAlt = "\uf3c5";
         public const string Cog = "\uf013";
         public const string ShuttleVan = "\uf5b6";
         public const string MoneyCheck = "\uf53c";
@@ -293,6 +305,7 @@ namespace IconFonts
         public const string Gift = "\uf06b";
         public const string Cogs = "\uf085";
         public const string Signal = "\uf012";
+        public const string Shapes = "\uf61f";
         public const string LessThanEqual = "\uf537";
         public const string ChevronCircleLeft = "\uf137";
         public const string MortarPestle = "\uf5a7";
@@ -317,7 +330,7 @@ namespace IconFonts
         public const string Barcode = "\uf02a";
         public const string Bolt = "\uf0e7";
         public const string ThermometerQuarter = "\uf2ca";
-        public const string Dna = "\uf471";
+        public const string Eye = "\uf06e";
         public const string Trophy = "\uf091";
         public const string UserAlt = "\uf406";
         public const string Braille = "\uf2a1";
@@ -333,6 +346,7 @@ namespace IconFonts
         public const string ShareSquare = "\uf14d";
         public const string ThermometerHalf = "\uf2c9";
         public const string Question = "\uf128";
+        public const string CarBattery = "\uf5df";
         public const string DoorClosed = "\uf52a";
         public const string Leaf = "\uf06c";
         public const string UserMinus = "\uf503";
@@ -344,6 +358,7 @@ namespace IconFonts
         public const string Registered = "\uf25d";
         public const string WindowClose = "\uf410";
         public const string Link = "\uf0c1";
+        public const string Atom = "\uf5d2";
         public const string LessThan = "\uf536";
         public const string Info = "\uf129";
         public const string ClipboardCheck = "\uf46c";
@@ -360,7 +375,7 @@ namespace IconFonts
         public const string Splotch = "\uf5bc";
         public const string StarHalfAlt = "\uf5c0";
         public const string Ship = "\uf21a";
-        public const string Check = "\uf00c";
+        public const string Archive = "\uf187";
         public const string PowerOff = "\uf011";
         public const string Lemon = "\uf094";
         public const string GlobeAmericas = "\uf57d";
@@ -382,6 +397,7 @@ namespace IconFonts
         public const string SadCry = "\uf5b3";
         public const string DigitalTachograph = "\uf566";
         public const string FileExcel = "\uf1c3";
+        public const string Teeth = "\uf62e";
         public const string HandScissors = "\uf257";
         public const string FileInvoiceDollar = "\uf571";
         public const string Backward = "\uf04a";
@@ -422,6 +438,7 @@ namespace IconFonts
         public const string LongArrowAltUp = "\uf30c";
         public const string ChessKnight = "\uf441";
         public const string Burn = "\uf46a";
+        public const string DrawPolygon = "\uf5ee";
         public const string Pause = "\uf04c";
         public const string WineGlassAlt = "\uf5ce";
         public const string Box = "\uf466";
@@ -449,6 +466,7 @@ namespace IconFonts
         public const string Plug = "\uf1e6";
         public const string MousePointer = "\uf245";
         public const string Envelope = "\uf0e0";
+        public const string LayerGroup = "\uf5fd";
         public const string Train = "\uf238";
         public const string Bullhorn = "\uf0a1";
         public const string ConciergeBell = "\uf562";
@@ -519,6 +537,7 @@ namespace IconFonts
         public const string Indent = "\uf03c";
         public const string Language = "\uf1ab";
         public const string ArrowAltCircleUp = "\uf35b";
+        public const string Route = "\uf4d7";
         public const string Headphones = "\uf025";
         public const string Times = "\uf00d";
         public const string LevelUpAlt = "\uf3bf";
@@ -540,8 +559,9 @@ namespace IconFonts
         public const string Bed = "\uf236";
         public const string FileSignature = "\uf573";
         public const string ToggleOff = "\uf204";
-        public const string MapMarkerAlt = "\uf3c5";
+        public const string TrafficLight = "\uf637";
         public const string MehRollingEyes = "\uf5a5";
+        public const string CommentAlt = "\uf27a";
         public const string RulerHorizontal = "\uf547";
         public const string PaintRoller = "\uf5aa";
         public const string Calendar = "\uf133";
@@ -584,6 +604,7 @@ namespace IconFonts
         public const string Procedures = "\uf487";
         public const string Gem = "\uf3a5";
         public const string RulerCombined = "\uf546";
+        public const string Brain = "\uf5dc";
         public const string FighterJet = "\uf0fb";
         public const string SpaceShuttle = "\uf197";
         public const string MapPin = "\uf276";
@@ -612,13 +633,14 @@ namespace IconFonts
         public const string Poo = "\uf2fe";
         public const string Laugh = "\uf599";
         public const string Table = "\uf0ce";
+        public const string CarAlt = "\uf5de";
         public const string ThumbsUp = "\uf164";
         public const string Trademark = "\uf25c";
         public const string Vials = "\uf493";
         public const string FirstAid = "\uf479";
         public const string Eraser = "\uf12d";
         public const string Mars = "\uf222";
-        public const string Helicopter = "\uf533";
+        public const string StarOfLife = "\uf621";
         public const string Feather = "\uf52d";
         public const string SquareFull = "\uf45c";
         public const string HourglassStart = "\uf251";
@@ -639,7 +661,7 @@ namespace IconFonts
         public const string DiceFive = "\uf523";
         public const string Paw = "\uf1b0";
         public const string HandHoldingHeart = "\uf4be";
-        public const string Archive = "\uf187";
+        public const string Check = "\uf00c";
         public const string SolarPanel = "\uf5ba";
         public const string Infinity = "\uf534";
         public const string HandPointDown = "\uf0a7";
@@ -651,8 +673,9 @@ namespace IconFonts
         public const string PenNib = "\uf5ad";
         public const string MapMarked = "\uf59f";
         public const string Expand = "\uf065";
+        public const string TruckPickup = "\uf63c";
         public const string PrescriptionBottle = "\uf485";
-        public const string BirthdayCake = "\uf1fd";
+        public const string LaptopCode = "\uf5fc";
         public const string GolfBall = "\uf450";
         public const string ChartBar = "\uf080";
         public const string Taxi = "\uf1ba";
@@ -672,6 +695,7 @@ namespace IconFonts
         public const string Frown = "\uf119";
         public const string Ruler = "\uf545";
         public const string Grin = "\uf580";
+        public const string TheaterMasks = "\uf630";
         public const string ArrowCircleLeft = "\uf0a8";
         public const string Highlighter = "\uf591";
         public const string Server = "\uf233";
@@ -682,13 +706,14 @@ namespace IconFonts
         public const string WindowMinimize = "\uf2d1";
         public const string MarsDouble = "\uf227";
         public const string Home = "\uf015";
-        public const string CommentAlt = "\uf27a";
         public const string SearchMinus = "\uf010";
         public const string Quidditch = "\uf458";
+        public const string AppleAlt = "\uf5d1";
         public const string UmbrellaBeach = "\uf5ca";
         public const string Moon = "\uf186";
         public const string Cannabis = "\uf55f";
         public const string LaughBeam = "\uf59a";
+        public const string TeethOpen = "\uf62f";
         public const string ChartPie = "\uf200";
         public const string HandsHelping = "\uf4c4";
         public const string Paste = "\uf0ea";
@@ -717,6 +742,7 @@ namespace IconFonts
         public const string Bus = "\uf207";
         public const string AngleDown = "\uf107";
         public const string HandRock = "\uf255";
+        public const string Helicopter = "\uf533";
         public const string Podcast = "\uf2ce";
         public const string TruckMoving = "\uf4df";
         public const string Bug = "\uf188";
@@ -738,6 +764,7 @@ namespace IconFonts
         public const string Book = "\uf02d";
         public const string Trash = "\uf1f8";
         public const string FileAudio = "\uf1c7";
+        public const string Poop = "\uf619";
         public const string Star = "\uf005";
         public const string StepForward = "\uf051";
         public const string Building = "\uf1ad";

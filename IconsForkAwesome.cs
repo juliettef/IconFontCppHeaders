@@ -161,7 +161,7 @@ namespace IconFonts
         public const string Rss = "\uf09e";
         public const string HddO = "\uf0a0";
         public const string Bullhorn = "\uf0a1";
-        public const string Bell = "\uf0f3";
+        public const string BellO = "\uf0f3";
         public const string Certificate = "\uf0a3";
         public const string HandORight = "\uf0a4";
         public const string HandOLeft = "\uf0a5";
@@ -227,7 +227,7 @@ namespace IconFonts
         public const string UserMd = "\uf0f0";
         public const string Stethoscope = "\uf0f1";
         public const string Suitcase = "\uf0f2";
-        public const string BellO = "\uf0a2";
+        public const string Bell = "\uf0a2";
         public const string Coffee = "\uf0f4";
         public const string Cutlery = "\uf0f5";
         public const string FileTextO = "\uf0f6";

@@ -8,42 +8,63 @@ A set of header files and classes for using icon fonts in C, C++ and C#, along w
 
 Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min and max code points for font loading purposes.
 
-## Fonts
+## Icon Fonts
 
-* [Font Awesome](http://fontawesome.io/)  
-    * [GitHub repository](https://github.com/FortAwesome/Font-Awesome/)
-    * Font Awesome 4 
-        * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
-    * Font Awesome 5 
-        * [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf)
-        * [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf)
-        * [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf)
-* [Fork Awesome](https://forkawesome.github.io/Fork-Awesome/)
-    * [GitHub repository](https://github.com/ForkAwesome/Fork-Awesome)
-    * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
-* [Google Material Design icons](https://design.google.com/icons/) 
-    * [GitHub repository](https://github.com/google/material-design-icons/)
-    * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
-* [Material Design icons](https://materialdesignicons.com/) 
-    * [GitHub repository](https://github.com/Templarian/MaterialDesign-Webfont)
-    * [materialdesignicons-webfont.ttf](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf)  
-* [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
-    * [GitHub repository](https://github.com/nicodinh/kenney-icon-font/)
-    * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
-* [Ionicons](http://ionicons.com/)
-    * [GitHub repository](https://github.com/ionic-team/ionicons)
-    * [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf)
+### [Font Awesome](https://fontawesome.com)
 
-### Font Awesome 5 notes
+* [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
-Font Awesome 5 splits the different styles of icons into different font files: solid, regular and brands  
+#### Font Awesome 4 
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/src/icons.yml)
+* [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
 
-* identical font codepoints for styles *solid* and *regular* (regular is a subset of solid) icon font file; 
-* a different set of codepoints for style *brands* icon font file  
+#### Font Awesome 5 - see [notes below](#notes-about-font-awesome-5)
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/advanced-options/metadata/icons.yml)
+* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf)
+* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf)
+* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf)
 
-We have put the brands into a different header file, as the brands codepoints are mixed with the standard icons' so the fonts cannot easily be used without switching between the two fonts in your code.
+#### Font Awesome 5 Pro - this is a paid product, see [notes below](#notes-about-font-awesome-5)
+Files downloaded from [fontawesome.com](https://fontawesome.com)  
 
-The codepoints only cover the free fonts.
+* ..\fontawesome-pro-n.n.n-web\metadata\icons.yml  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf  
+
+### [Fork Awesome](https://forkawesome.github.io/Fork-Awesome)
+* [https://github.com/ForkAwesome/Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome)
+* [icons.yml](https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml)
+* [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
+
+### [Google Material Design icons](https://design.google.com/icons)
+* [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons)
+* [codepoints](https://github.com/google/material-design-icons/blob/master/iconfont/codepoints)
+* [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
+
+### [Material Design icons](https://materialdesignicons.com) 
+* [https://github.com/Templarian/MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
+* [materialdesignicons.css](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/css/materialdesignicons.css)
+* [materialdesignicons-webfont.ttf](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf)  
+
+### [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
+* [https://github.com/nicodinh/kenney-icon-font](https://github.com/nicodinh/kenney-icon-font)
+* [kenney-icons.css](https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css)
+* [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
+
+### [Ionicons](http://ionicons.com/) - version 2 archived  
+* [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons)  
+* [ionicons.css](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/css/ionicons.css)
+* [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf)  
+
+
+## Notes about Font Awesome 5
+### Codepoints grouping
+Font Awesome 5 splits the different styles of icons into different font files with identical codepoints for *light*, *regular* and *solid* styles, and a different set of codepoints for *brands*. We have put the brands into a separate header file.
+
+### Generating Pro header files
+Download the Font Awesome Pro Web package. To generate the headers, drop *icons.yml* in the same directory as *GenerateIconFontCppHeaders.py* before running the script. The file *icons.yml* is under *..\fontawesome-pro-n.n.n-web\metadata\icons.yml* where *n.n.n* is the version number.
 
 ## Example Code
 
@@ -70,7 +91,7 @@ Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
 ## Projects using the font icon header files
 
 ## [Avoyd](https://www.avoyd.com)
-Avoyd is an abstract 6 degrees of freedom voxel game. The voxel editor's Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](http://fontawesome.io/) icon fonts.  
+Avoyd is an abstract 6 degrees of freedom voxel game. The voxel editor's Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](https://fontawesome.com) icon fonts.  
 
 ## [bgfx](https://github.com/bkaradzic/bgfx)
 Cross-platform rendering library.

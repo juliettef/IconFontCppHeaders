@@ -13,6 +13,13 @@
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf
 #			https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf
+#		1.1.3 - version 5 Pro
+#			Download files from https://fontawesome.com
+#			..\fontawesome-pro-n.n.n-web\metadata\icons.yml
+#			..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf
+#			..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf
+#			..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf
+#			..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf
 #	1.2 - Fork Awesome
 # 			https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml
 # 			https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
@@ -73,6 +80,7 @@
 
 import requests
 import yaml
+import os
 
 
 # Fonts
@@ -80,8 +88,8 @@ import yaml
 class Font:
 	font_name = '[ ERROR - missing font name ]'
 	font_abbr = '[ ERROR - missing font abbreviation ]'
-	font_url_data = '[ ERROR - missing font data url ]'
-	font_url_ttf = '[ ERROR - missing ttf file url ]'
+	font_data = '[ ERROR - missing font data file or url ]'
+	font_ttf = '[ ERROR - missing ttf file or url ]'
 	font_file_name_ttf = '[ ERROR - missing ttf file name ]'
 
 	@classmethod
@@ -95,25 +103,28 @@ class Font:
 		return icons_data
 
 	@classmethod
-	def download( cls ):
-		input_raw = ''
-		response = requests.get( cls.font_url_data, timeout = 2 )
-		if response.status_code == 200:
-			input_raw = response.content
-			print( 'Downloaded - ' + cls.font_name )
-		else:
-			raise Exception( 'Download failed - ' + cls.font_name )
-		return input_raw
-
-	@classmethod
 	def get_intermediate_representation( cls ):
 		font_ir = {}
-		input_raw = cls.download()
+		input_raw = ''
+		if 'http' in cls.font_data:		# if url, download data
+			response = requests.get( cls.font_data, timeout = 2 )
+			if response.status_code == 200:
+				input_raw = response.content
+				print( 'Downloaded - ' + cls.font_name )
+			else:
+				raise Exception( 'Download failed - ' + cls.font_name )
+		else:	# read data from file if present
+			if os.path.isfile( cls.font_data ):
+				with open( cls.font_data, 'r' ) as f:
+					input_raw = f.read()
+					print( 'File read - ' + cls.font_name )
+			else:
+				raise Exception( 'File ' + cls.font_data + ' missing - ' +  cls.font_name )
 		if input_raw:
 			icons_data = cls.get_icons( input_raw )
 			font_ir.update( icons_data )
-			font_ir.update({ 'font_url_ttf' : cls.font_url_ttf,
-							 'font_url_data' : cls.font_url_data,
+			font_ir.update({ 'font_ttf' : cls.font_ttf,
+							 'font_data' : cls.font_data,
 							 'font_file_name_ttf' : cls.font_file_name_ttf,
 							 'font_name' : cls.font_name,
 							 'font_abbr' : cls.font_abbr })
@@ -124,9 +135,9 @@ class Font:
 class FontFA4( Font ):	# legacy Font Awesome version 4
 	font_name = 'Font Awesome 4'
 	font_abbr = 'FA'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml'
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
+	font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml'
+	font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf'
+	font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -150,18 +161,18 @@ class FontFA4( Font ):	# legacy Font Awesome version 4
 class FontFK( FontFA4 ):	# Fork Awesome, based on Font Awesome 4
 	font_name = 'Fork Awesome'
 	font_abbr = 'FK'
-	font_url_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
-	font_url_ttf = 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf'
+	font_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
+	font_ttf = 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf'
 
 
-class FontFA5( Font ):	# Font Awesome version 5. Solid and Regular styles (Regular is a subset of Solid).
+class FontFA5( Font ):	# Font Awesome version 5 - Regular and Solid styles
 	font_name = 'Font Awesome 5'
 	font_abbr = 'FA'
-	font_url_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf, ' +\
+	font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml'
+	font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf, ' +\
 		'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf, '
-	font_file_name_ttf = [[ 'FAS', 'fa-solid-900.ttf' ], [ 'FAR', 'fa-regular-400.ttf' ]]
-	font_fa_style = [ 'solid', 'regular' ]
+	font_file_name_ttf = [[ 'FAR', 'fa-regular-400.ttf' ], [ 'FAS', 'fa-solid-900.ttf' ]]
+	font_fa_style = [ 'regular', 'solid' ]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -185,40 +196,35 @@ class FontFA5( Font ):	# Font Awesome version 5. Solid and Regular styles (Regul
 		return icons_data
 
 
-class FontFA5Brands( FontFA5 ):	# Font Awesome version 5, Brand styles.
+class FontFA5Brands( FontFA5 ):	# Font Awesome version 5 - Brand style
 	font_name = 'Font Awesome 5 Brands'
-	font_abbr = 'FAB'
-	font_url_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
+	font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf'
+	font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
 	font_fa_style = [ 'brands' ]
 
-	@classmethod
-	def get_icons( self, input ):
-		icons_data = { }
-		data = yaml.safe_load(input)
-		if data:
-			font_min = 'ffff'
-			font_max = '0'
-			icons = [ ]
-			for key in data:
-				item = data[ key ]
-				for style in item[ 'styles' ]:
-					if style in self.font_fa_style:
-						if item[ 'unicode' ] < font_min:
-							font_min = item[ 'unicode' ]
-						if item[ 'unicode' ] >= font_max:
-							font_max = item[ 'unicode' ]
-						icons.append([ key, item[ 'unicode' ]])
-			icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
-		return icons_data
+
+class FontFA5Pro( FontFA5 ):	# Font Awesome version 5 Pro - Light, Regular and Solid styles
+	font_name = 'Font Awesome 5 Pro'
+	font_data = 'icons.yml'
+	font_ttf = 'fa-light-300.ttf, fa-regular-400.ttf, fa-solid-900.ttf'
+	font_file_name_ttf = [[ 'FAL', 'fa-light-300.ttf' ], [ 'FAR', 'fa-regular-400.ttf' ], [ 'FAS', 'fa-solid-900.ttf' ]]
+	font_fa_style = [ 'light', 'regular', 'solid' ]
+
+
+class FontFA5ProBrands( FontFA5 ):    # Font Awesome version 5 Pro - Brand style
+	font_name = 'Font Awesome 5 Pro Brands'
+	font_data = 'icons.yml'
+	font_ttf = 'fa-brands-400.ttf'
+	font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
+	font_fa_style = [ 'brands' ]
 
 
 class FontMD( Font ):	# Material Design
 	font_name = 'Material Design'
 	font_abbr = 'MD'
-	font_url_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
-	font_url_ttf = 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
+	font_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
+	font_ttf = 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf'
+	font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -245,9 +251,9 @@ class FontMD( Font ):	# Material Design
 class FontMDI( Font ):	# Material Design Icons
 	font_name = 'Material Design Icons'
 	font_abbr = 'MDI'
-	font_url_data = 'https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css'
-	font_url_ttf = 'https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
+	font_data = 'https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css'
+	font_ttf = 'https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf'
+	font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -278,9 +284,9 @@ class FontMDI( Font ):	# Material Design Icons
 class FontKI( Font ):	# Kenney Game icons
 	font_name = 'Kenney'
 	font_abbr = 'KI'
-	font_url_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
-	font_url_ttf = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/')+1: ]]]
+	font_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
+	font_ttf = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
+	font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -310,9 +316,9 @@ class FontKI( Font ):	# Kenney Game icons
 class FontII( Font ):	# Ionicons
 	font_name = 'Ionicons'
 	font_abbr = 'II'
-	font_url_data = 'https://raw.githubusercontent.com/ionic-team/ionicons/master/src/docs/archived/v2/css/ionicons.css'
-	font_url_ttf = 'https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf'
-	font_file_name_ttf = [[ font_abbr, font_url_ttf[ font_url_ttf.rfind('/') + 1: ]]]
+	font_data = 'https://raw.githubusercontent.com/ionic-team/ionicons/master/src/docs/archived/v2/css/ionicons.css'
+	font_ttf = 'https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf'
+	font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/') + 1: ]]]
 
 	@classmethod
 	def get_icons( self, input ):
@@ -398,12 +404,12 @@ class LanguageC89( Language ):
 	@classmethod
 	def prelude( cls ):
 		tmpl_prelude = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for language {lang}\n' + \
-			'// from {url_data}\n' + \
-			'// for use with {url_ttf}\n' + \
+			'// from {font_data}\n' + \
+			'// for use with {font_ttf}\n' + \
 			'#pragma once\n\n'
 		result = tmpl_prelude.format(lang = cls.language_name,
-									 url_data = cls.intermediate.get( 'font_url_data' ),
-									 url_ttf = cls.intermediate.get( 'font_url_ttf' ))
+									 font_data = cls.intermediate.get( 'font_data' ),
+									 font_ttf = cls.intermediate.get( 'font_ttf' ))
 		tmpl_prelude_define_file_name = '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n'
 		file_names_ttf = cls.intermediate.get( 'font_file_name_ttf' )
 		for file_name_ttf in file_names_ttf:
@@ -455,16 +461,16 @@ class LanguageCSharp( Language ):
 	@classmethod
 	def prelude( cls ):
 		tmpl_prelude = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for language {lang}\n' + \
-			'// from {url_data}\n' + \
-			'// for use with {url_ttf}\n' + \
+			'// from {font_data}\n' + \
+			'// for use with {font_ttf}\n' + \
 			'namespace IconFonts\n' + \
 			'{{\n' + \
 			'    public class {font_name}\n' + \
 			'    {{\n'
 
 		result = tmpl_prelude.format(lang = cls.language_name,
-									 url_data = cls.intermediate.get( 'font_url_data' ),
-									 url_ttf = cls.intermediate.get( 'font_url_ttf' ),
+									 font_data = cls.intermediate.get( 'font_data' ),
+									 font_ttf = cls.intermediate.get( 'font_ttf' ),
 									 font_name = cls.intermediate.get( 'font_name' ).replace( ' ', '' )
 									 )
 		tmpl_prelude_define_file_name = '        public const string FontIconFileName = "{file_name_ttf}";\n'
@@ -516,17 +522,20 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFK, FontMD, FontMDI, FontKI, FontII ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontMDI, FontKI, FontII ]
 languages = [ LanguageC89, LanguageCpp11, LanguageCSharp ]
 
 intermediates = []
 for font in fonts:
 	try:
 		font_intermediate = font.get_intermediate_representation()
-		intermediates.append( font_intermediate )
+		if font_intermediate:
+			intermediates.append( font_intermediate )
 	except Exception as e:
 		print( '[ ERROR: {!s} ]'.format( e ))
-for interm in intermediates:
-	Language.intermediate = interm
-	for lang in languages:
-		lang.save_to_file()
+if intermediates:
+	for interm in intermediates:
+		Language.intermediate = interm
+		for lang in languages:
+			if lang:
+				lang.save_to_file()

@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf310
+#define ICON_MAX_FK 0xf317
 #define ICON_FK_GLASS "\xEF\x80\x80"
 #define ICON_FK_MUSIC "\xEF\x80\x81"
 #define ICON_FK_SEARCH "\xEF\x80\x82"
@@ -725,3 +725,10 @@
 #define ICON_FK_PHP "\xEF\x8C\x8E"
 #define ICON_FK_FFMPEG "\xEF\x8C\x8F"
 #define ICON_FK_JOPLIN "\xEF\x8C\x90"
+#define ICON_FK_SYNCTHING "\xEF\x8C\x91"
+#define ICON_FK_INKSCAPE "\xEF\x8C\x92"
+#define ICON_FK_MATRIX_ORG "\xEF\x8C\x93"
+#define ICON_FK_PIXELFED "\xEF\x8C\x94"
+#define ICON_FK_BOOTSTRAP "\xEF\x8C\x95"
+#define ICON_FK_DEV_TO "\xEF\x8C\x96"
+#define ICON_FK_HASHNODE "\xEF\x8C\x97"

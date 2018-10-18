@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fontawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf317;
+        public const int IconMax = 0xf31f;
         public const string Glass = "\uf000";
         public const string Music = "\uf001";
         public const string Search = "\uf002";
@@ -734,5 +734,13 @@ namespace IconFonts
         public const string Bootstrap = "\uf315";
         public const string DevTo = "\uf316";
         public const string Hashnode = "\uf317";
+        public const string Jirafeau = "\uf318";
+        public const string Emby = "\uf319";
+        public const string Wikidata = "\uf31a";
+        public const string Gimp = "\uf31b";
+        public const string C = "\uf31c";
+        public const string Digitalocean = "\uf31d";
+        public const string Att = "\uf31e";
+        public const string Gitea = "\uf31f";
     }
 }

@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FA 0xf081
-#define ICON_MAX_FA 0xf730
+#define ICON_MAX_FA 0xf75d
 #define ICON_FA_WIZARDS_OF_THE_COAST u8"\uf730"
 #define ICON_FA_LINKEDIN_IN u8"\uf0e1"
 #define ICON_FA_TELEGRAM_PLANE u8"\uf3fe"
@@ -161,6 +161,7 @@
 #define ICON_FA_UNTAPPD u8"\uf405"
 #define ICON_FA_REACT u8"\uf41b"
 #define ICON_FA_FLIPBOARD u8"\uf44d"
+#define ICON_FA_WPRESSR u8"\uf3e4"
 #define ICON_FA_JOOMLA u8"\uf1aa"
 #define ICON_FA_TWITCH u8"\uf1e8"
 #define ICON_FA_EXPEDITEDSSL u8"\uf23e"
@@ -225,7 +226,6 @@
 #define ICON_FA_GULP u8"\uf3ae"
 #define ICON_FA_USB u8"\uf287"
 #define ICON_FA_WPEXPLORER u8"\uf2de"
-#define ICON_FA_RENDACT u8"\uf3e4"
 #define ICON_FA_AVIATO u8"\uf421"
 #define ICON_FA_APPER u8"\uf371"
 #define ICON_FA_CREATIVE_COMMONS_PD_ALT u8"\uf4ed"
@@ -233,7 +233,9 @@
 #define ICON_FA_STUMBLEUPON u8"\uf1a4"
 #define ICON_FA_FONT_AWESOME_ALT u8"\uf35c"
 #define ICON_FA_MEDRT u8"\uf3c8"
+#define ICON_FA_D_AND_D_BEYOND u8"\uf6ca"
 #define ICON_FA_Y_COMBINATOR u8"\uf23b"
+#define ICON_FA_REACTEUROPE u8"\uf75d"
 #define ICON_FA_SCHLIX u8"\uf3ea"
 #define ICON_FA_GIT_SQUARE u8"\uf1d2"
 #define ICON_FA_ODNOKLASSNIKI_SQUARE u8"\uf264"
@@ -372,6 +374,7 @@
 #define ICON_FA_DOCHUB u8"\uf394"
 #define ICON_FA_CSS3_ALT u8"\uf38b"
 #define ICON_FA_TUMBLR_SQUARE u8"\uf174"
+#define ICON_FA_THINK_PEAKS u8"\uf731"
 #define ICON_FA_GRAV u8"\uf2d6"
 #define ICON_FA_VIMEO_SQUARE u8"\uf194"
 #define ICON_FA_CHROME u8"\uf268"

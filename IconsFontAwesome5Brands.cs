@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf730;
+        public const int IconMax = 0xf75d;
         public const string WizardsOfTheCoast = "\uf730";
         public const string LinkedinIn = "\uf0e1";
         public const string TelegramPlane = "\uf3fe";
@@ -163,6 +163,7 @@ namespace IconFonts
         public const string Untappd = "\uf405";
         public const string React = "\uf41b";
         public const string Flipboard = "\uf44d";
+        public const string Wpressr = "\uf3e4";
         public const string Joomla = "\uf1aa";
         public const string Twitch = "\uf1e8";
         public const string Expeditedssl = "\uf23e";
@@ -227,7 +228,6 @@ namespace IconFonts
         public const string Gulp = "\uf3ae";
         public const string Usb = "\uf287";
         public const string Wpexplorer = "\uf2de";
-        public const string Rendact = "\uf3e4";
         public const string Aviato = "\uf421";
         public const string Apper = "\uf371";
         public const string CreativeCommonsPdAlt = "\uf4ed";
@@ -235,7 +235,9 @@ namespace IconFonts
         public const string Stumbleupon = "\uf1a4";
         public const string FontAwesomeAlt = "\uf35c";
         public const string Medrt = "\uf3c8";
+        public const string DAndDBeyond = "\uf6ca";
         public const string YCombinator = "\uf23b";
+        public const string Reacteurope = "\uf75d";
         public const string Schlix = "\uf3ea";
         public const string GitSquare = "\uf1d2";
         public const string OdnoklassnikiSquare = "\uf264";
@@ -374,6 +376,7 @@ namespace IconFonts
         public const string Dochub = "\uf394";
         public const string Css3Alt = "\uf38b";
         public const string TumblrSquare = "\uf174";
+        public const string ThinkPeaks = "\uf731";
         public const string Grav = "\uf2d6";
         public const string VimeoSquare = "\uf194";
         public const string Chrome = "\uf268";

@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf31f
+#define ICON_MAX_FK 0xf320
 #define ICON_FK_GLASS u8"\uf000"
 #define ICON_FK_MUSIC u8"\uf001"
 #define ICON_FK_SEARCH u8"\uf002"
@@ -740,3 +740,4 @@
 #define ICON_FK_DIGITALOCEAN u8"\uf31d"
 #define ICON_FK_ATT u8"\uf31e"
 #define ICON_FK_GITEA u8"\uf31f"
+#define ICON_FK_FILE_EPUB u8"\uf320"

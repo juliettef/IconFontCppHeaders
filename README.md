@@ -19,10 +19,10 @@ Each header contains defines for one font, with each icon code point defined as 
 * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
 
 #### Font Awesome 5 - see [notes below](#notes-about-font-awesome-5)
-* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/advanced-options/metadata/icons.yml)
-* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-brands-400.ttf)
-* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-regular-400.ttf)
-* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/web-fonts-with-css/webfonts/fa-solid-900.ttf)
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/metadata/icons.yml)
+* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf)
+* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf)
+* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf)
 
 #### Font Awesome 5 Pro - this is a paid product, see [notes below](#notes-about-font-awesome-5)
 Files downloaded from [fontawesome.com](https://fontawesome.com)  

@@ -39,8 +39,8 @@ namespace IconFonts
         public const string Pushed = "\uf3e1";
         public const string Magento = "\uf3c4";
         public const string Hubspot = "\uf3b2";
+        public const string Audible = "\uf373";
         public const string Lastfm = "\uf202";
-        public const string Goodreads = "\uf3a8";
         public const string CreativeCommonsPd = "\uf4ec";
         public const string Intercom = "\uf7af";
         public const string WordpressSimple = "\uf411";
@@ -50,6 +50,7 @@ namespace IconFonts
         public const string Mastodon = "\uf4f6";
         public const string Yoast = "\uf2b1";
         public const string YandexInternational = "\uf414";
+        public const string React = "\uf41b";
         public const string Yandex = "\uf413";
         public const string FacebookMessenger = "\uf39f";
         public const string Glide = "\uf2a5";
@@ -131,7 +132,6 @@ namespace IconFonts
         public const string FantasyFlightGames = "\uf6dc";
         public const string Mizuni = "\uf3cc";
         public const string NodeJs = "\uf3d3";
-        public const string Reacteurope = "\uf75d";
         public const string Codepen = "\uf1cb";
         public const string Gitter = "\uf426";
         public const string Superpowers = "\uf2dd";
@@ -147,6 +147,7 @@ namespace IconFonts
         public const string Fedora = "\uf798";
         public const string Sourcetree = "\uf7d3";
         public const string Meetup = "\uf2e0";
+        public const string Sellcast = "\uf2da";
         public const string CreativeCommonsSamplingPlus = "\uf4f1";
         public const string Ello = "\uf5f1";
         public const string Gratipay = "\uf184";
@@ -174,10 +175,9 @@ namespace IconFonts
         public const string Artstation = "\uf77a";
         public const string Dashcube = "\uf210";
         public const string Untappd = "\uf405";
-        public const string React = "\uf41b";
+        public const string Confluence = "\uf78d";
         public const string Themeisle = "\uf2b2";
         public const string Flipboard = "\uf44d";
-        public const string Audible = "\uf373";
         public const string Wpressr = "\uf3e4";
         public const string Joomla = "\uf1aa";
         public const string Expeditedssl = "\uf23e";
@@ -240,6 +240,7 @@ namespace IconFonts
         public const string Nutritionix = "\uf3d6";
         public const string Gulp = "\uf3ae";
         public const string Usb = "\uf287";
+        public const string Reacteurope = "\uf75d";
         public const string GooglePlay = "\uf3ab";
         public const string Wpexplorer = "\uf2de";
         public const string Aviato = "\uf421";
@@ -257,7 +258,6 @@ namespace IconFonts
         public const string Schlix = "\uf3ea";
         public const string GitSquare = "\uf1d2";
         public const string OdnoklassnikiSquare = "\uf264";
-        public const string Sellcast = "\uf2da";
         public const string Pagelines = "\uf18c";
         public const string Monero = "\uf3d0";
         public const string Npm = "\uf3d4";
@@ -278,6 +278,7 @@ namespace IconFonts
         public const string BlackTie = "\uf27e";
         public const string Docker = "\uf395";
         public const string Patreon = "\uf3d9";
+        public const string Goodreads = "\uf3a8";
         public const string RedditAlien = "\uf281";
         public const string Bluetooth = "\uf293";
         public const string Cpanel = "\uf388";
@@ -401,7 +402,6 @@ namespace IconFonts
         public const string Modx = "\uf285";
         public const string Connectdevelop = "\uf20e";
         public const string Ethereum = "\uf42e";
-        public const string Confluence = "\uf78d";
         public const string Phabricator = "\uf3db";
         public const string Snapchat = "\uf2ab";
         public const string Mendeley = "\uf7b3";

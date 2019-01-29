@@ -77,7 +77,6 @@ namespace IconFonts
         public const string Bitcoin = "\uf379";
         public const string Wpbeginner = "\uf297";
         public const string StickerMule = "\uf3f7";
-        public const string Digg = "\uf1a6";
         public const string Hotjar = "\uf3b1";
         public const string Ebay = "\uf4f4";
         public const string Asymmetrik = "\uf372";
@@ -171,7 +170,7 @@ namespace IconFonts
         public const string HackerNewsSquare = "\uf3af";
         public const string Speakap = "\uf3f3";
         public const string Aws = "\uf375";
-        public const string Opencart = "\uf23d";
+        public const string Digg = "\uf1a6";
         public const string Artstation = "\uf77a";
         public const string Untappd = "\uf405";
         public const string Confluence = "\uf78d";
@@ -227,6 +226,7 @@ namespace IconFonts
         public const string FontAwesome = "\uf2b4";
         public const string Gofore = "\uf3a7";
         public const string TumblrSquare = "\uf174";
+        public const string Opencart = "\uf23d";
         public const string Nimblr = "\uf5a8";
         public const string Ubuntu = "\uf7df";
         public const string GithubSquare = "\uf092";

@@ -2,7 +2,7 @@
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11 and C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Material Design Icons, Kenney game icons and Ionicons.
+C++11, C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Material Design Icons, Kenney game icons and Ionicons.
 
 A set of header files and classes for using icon fonts in C, C++ and C#, along with the python generator used to create the files.
 
@@ -68,33 +68,37 @@ Download the Font Awesome Pro Web package. To generate the headers, drop *icons.
 
 ## Example Code
 
-Using [dear imgui](https://github.com/ocornut/imgui) as an example UI library:
+Using [Dear ImGui](https://github.com/ocornut/imgui) as an example UI library:
 
 ```Cpp
-    
-    #include "IconsFontAwesome5.h"
-    
-    ImGuiIO& io = ImGui::GetIO();
-    io.Fonts->AddFontDefault();
-     
-    // merge in icons from Font Awesome
-    static const ImWchar icons_ranges[] = { ICON_MIN_FA, ICON_MAX_FA, 0 };
-    ImFontConfig icons_config; icons_config.MergeMode = true; icons_config.PixelSnapH = true;
-    io.Fonts->AddFontFromFileTTF( FONT_ICON_FILE_NAME_FAS, 16.0f, &icons_config, icons_ranges );
-    // use FONT_ICON_FILE_NAME_FAR if you want regular instead of solid
-    
-    // in an imgui window somewhere...
-    ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation
-    // outputs a paint brush icon and 'Paint' as a string.
+
+#include "IconsFontAwesome5.h"
+
+ImGuiIO& io = ImGui::GetIO();
+io.Fonts->AddFontDefault();
+ 
+// merge in icons from Font Awesome
+static const ImWchar icons_ranges[] = { ICON_MIN_FA, ICON_MAX_FA, 0 };
+ImFontConfig icons_config; icons_config.MergeMode = true; icons_config.PixelSnapH = true;
+io.Fonts->AddFontFromFileTTF( FONT_ICON_FILE_NAME_FAS, 16.0f, &icons_config, icons_ranges );
+// use FONT_ICON_FILE_NAME_FAR if you want regular instead of solid
+
+// in an imgui window somewhere...
+ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation
+// outputs a paint brush icon and 'Paint' as a string.
 ```
 
 ## Projects using the font icon header files
 
-## [Avoyd](https://www.avoyd.com)
-Avoyd is an abstract 6 degrees of freedom voxel game. The voxel editor's Edit Tool UI uses [dear imgui](https://github.com/ocornut/imgui) with [Font Awesome](https://fontawesome.com) icon fonts.  
+### [Avoyd](https://www.avoyd.com)
+Avoyd is an abstract 6 degrees of freedom voxel game that includes a voxel editor tool. The voxel editor's UI uses [Dear ImGui](https://github.com/ocornut/imgui) with [Font Awesome](https://fontawesome.com) icon fonts.
+![Avoyd voxel editor using an IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://github.com/juliettef/Media/blob/master/IconFontCppHeaders_Avoyd_voxel_editor.png)
 
-## [bgfx](https://github.com/bkaradzic/bgfx)
+### [bgfx](https://github.com/bkaradzic/bgfx)
 Cross-platform rendering library.
+
+### [glChAoS.P](https://github.com/BrutPitt/glChAoS.P)
+Real time 3D strange attractors scout
 
 ## Credits
 

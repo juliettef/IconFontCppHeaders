@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf320
+#define ICON_MAX_FK 0xf32b
 #define ICON_FK_GLASS "\xEF\x80\x80"
 #define ICON_FK_MUSIC "\xEF\x80\x81"
 #define ICON_FK_SEARCH "\xEF\x80\x82"
@@ -740,4 +740,14 @@
 #define ICON_FK_DIGITALOCEAN "\xEF\x8C\x9D"
 #define ICON_FK_ATT "\xEF\x8C\x9E"
 #define ICON_FK_GITEA "\xEF\x8C\x9F"
-#define ICON_FK_FILE_EPUB "\xEF\x8C\xA0"
+#define ICON_FK_FILE_EPUB "\xEF\x8C\xA1"
+#define ICON_FK_PYTHON "\xEF\x8C\xA2"
+#define ICON_FK_ARCHLINUX "\xEF\x8C\xA3"
+#define ICON_FK_PLEROMA "\xEF\x8C\xA4"
+#define ICON_FK_UNSPLASH "\xEF\x8C\xA5"
+#define ICON_FK_HACKSTER "\xEF\x8C\xA6"
+#define ICON_FK_SPELL_CHECK "\xEF\x8C\xA7"
+#define ICON_FK_MOON "\xEF\x8C\xA8"
+#define ICON_FK_SUN "\xEF\x8C\xA9"
+#define ICON_FK_F_DROID "\xEF\x8C\xAA"
+#define ICON_FK_BIOMETRIC "\xEF\x8C\xAB"

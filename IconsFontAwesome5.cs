@@ -9,7 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf82f;
+        public const int IconMax = 0xf83e;
         public const string NotesMedical = "\uf481";
         public const string CloudShowersHeavy = "\uf740";
         public const string Sms = "\uf7cd";
@@ -105,7 +105,6 @@ namespace IconFonts
         public const string LifeRing = "\uf1cd";
         public const string Share = "\uf064";
         public const string AlignJustify = "\uf039";
-        public const string ToiletPaper = "\uf71e";
         public const string BatteryThreeQuarters = "\uf241";
         public const string ObjectUngroup = "\uf248";
         public const string Briefcase = "\uf0b1";
@@ -223,6 +222,7 @@ namespace IconFonts
         public const string Headset = "\uf590";
         public const string SquareRootAlt = "\uf698";
         public const string ChartBar = "\uf080";
+        public const string WaveSquare = "\uf83e";
         public const string ChartArea = "\uf1fe";
         public const string EuroSign = "\uf153";
         public const string ChessKing = "\uf43f";
@@ -618,6 +618,7 @@ namespace IconFonts
         public const string Motorcycle = "\uf21c";
         public const string AngleUp = "\uf106";
         public const string Broom = "\uf51a";
+        public const string ToiletPaper = "\uf71e";
         public const string DiceD20 = "\uf6cf";
         public const string LevelDownAlt = "\uf3be";
         public const string Paperclip = "\uf0c6";

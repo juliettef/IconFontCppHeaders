@@ -10,7 +10,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf833;
+        public const int IconMax = 0xf83e;
         public const string CloudShowersHeavy = "\uf740";
         public const string Skeleton = "\uf620";
         public const string ChevronSquareRight = "\uf32b";
@@ -374,6 +374,7 @@ namespace IconFonts
         public const string TruckPlow = "\uf7de";
         public const string Raindrops = "\uf75c";
         public const string Tally = "\uf69c";
+        public const string WaveSquare = "\uf83e";
         public const string ChartArea = "\uf1fe";
         public const string CalendarStar = "\uf736";
         public const string EuroSign = "\uf153";
@@ -617,6 +618,7 @@ namespace IconFonts
         public const string CommentAltDollar = "\uf650";
         public const string MoonCloud = "\uf754";
         public const string HandReceiving = "\uf47c";
+        public const string Repeat1 = "\uf365";
         public const string ExclamationTriangle = "\uf071";
         public const string Gift = "\uf06b";
         public const string Cogs = "\uf085";
@@ -1223,7 +1225,6 @@ namespace IconFonts
         public const string AddressBook = "\uf2b9";
         public const string Procedures = "\uf487";
         public const string Gem = "\uf3a5";
-        public const string Repeat1 = "\uf365";
         public const string RulerCombined = "\uf546";
         public const string AlignLeft = "\uf036";
         public const string StarAndCrescent = "\uf699";
@@ -1282,8 +1283,7 @@ namespace IconFonts
         public const string Expand = "\uf065";
         public const string ArrowRight = "\uf061";
         public const string FileVideo = "\uf1c8";
-        public const string BirthdayCake = "\uf1fd";
-        public const string Comment = "\uf075";
+        public const string LaptopCode = "\uf5fc";
         public const string CaretCircleDown = "\uf32d";
         public const string Stretcher = "\uf825";
         public const string CalendarWeek = "\uf784";
@@ -1372,13 +1372,14 @@ namespace IconFonts
         public const string FolderTree = "\uf802";
         public const string HollyBerry = "\uf7aa";
         public const string PrescriptionBottle = "\uf485";
-        public const string LaptopCode = "\uf5fc";
+        public const string BirthdayCake = "\uf1fd";
         public const string SyncAlt = "\uf2f1";
         public const string TachometerSlowest = "\uf62d";
         public const string ArrowAltToTop = "\uf34d";
         public const string ChartBar = "\uf080";
         public const string Diploma = "\uf5ea";
         public const string Taxi = "\uf1ba";
+        public const string Comment = "\uf075";
         public const string ArrowAltSquareUp = "\uf353";
         public const string Kiss = "\uf596";
         public const string Hippo = "\uf6ed";

@@ -7,7 +7,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf82f
+#define ICON_MAX_FA 0xf83e
 #define ICON_FA_NOTES_MEDICAL u8"\uf481"
 #define ICON_FA_CLOUD_SHOWERS_HEAVY u8"\uf740"
 #define ICON_FA_SMS u8"\uf7cd"
@@ -103,7 +103,6 @@
 #define ICON_FA_LIFE_RING u8"\uf1cd"
 #define ICON_FA_SHARE u8"\uf064"
 #define ICON_FA_ALIGN_JUSTIFY u8"\uf039"
-#define ICON_FA_TOILET_PAPER u8"\uf71e"
 #define ICON_FA_BATTERY_THREE_QUARTERS u8"\uf241"
 #define ICON_FA_OBJECT_UNGROUP u8"\uf248"
 #define ICON_FA_BRIEFCASE u8"\uf0b1"
@@ -221,6 +220,7 @@
 #define ICON_FA_HEADSET u8"\uf590"
 #define ICON_FA_SQUARE_ROOT_ALT u8"\uf698"
 #define ICON_FA_CHART_BAR u8"\uf080"
+#define ICON_FA_WAVE_SQUARE u8"\uf83e"
 #define ICON_FA_CHART_AREA u8"\uf1fe"
 #define ICON_FA_EURO_SIGN u8"\uf153"
 #define ICON_FA_CHESS_KING u8"\uf43f"
@@ -616,6 +616,7 @@
 #define ICON_FA_MOTORCYCLE u8"\uf21c"
 #define ICON_FA_ANGLE_UP u8"\uf106"
 #define ICON_FA_BROOM u8"\uf51a"
+#define ICON_FA_TOILET_PAPER u8"\uf71e"
 #define ICON_FA_DICE_D20 u8"\uf6cf"
 #define ICON_FA_LEVEL_DOWN_ALT u8"\uf3be"
 #define ICON_FA_PAPERCLIP u8"\uf0c6"

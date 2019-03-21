@@ -7,7 +7,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf82f
+#define ICON_MAX_FA 0xf83e
 #define ICON_FA_NOTES_MEDICAL "\xEF\x92\x81"
 #define ICON_FA_CLOUD_SHOWERS_HEAVY "\xEF\x9D\x80"
 #define ICON_FA_SMS "\xEF\x9F\x8D"
@@ -103,7 +103,6 @@
 #define ICON_FA_LIFE_RING "\xEF\x87\x8D"
 #define ICON_FA_SHARE "\xEF\x81\xA4"
 #define ICON_FA_ALIGN_JUSTIFY "\xEF\x80\xB9"
-#define ICON_FA_TOILET_PAPER "\xEF\x9C\x9E"
 #define ICON_FA_BATTERY_THREE_QUARTERS "\xEF\x89\x81"
 #define ICON_FA_OBJECT_UNGROUP "\xEF\x89\x88"
 #define ICON_FA_BRIEFCASE "\xEF\x82\xB1"
@@ -221,6 +220,7 @@
 #define ICON_FA_HEADSET "\xEF\x96\x90"
 #define ICON_FA_SQUARE_ROOT_ALT "\xEF\x9A\x98"
 #define ICON_FA_CHART_BAR "\xEF\x82\x80"
+#define ICON_FA_WAVE_SQUARE "\xEF\xA0\xBE"
 #define ICON_FA_CHART_AREA "\xEF\x87\xBE"
 #define ICON_FA_EURO_SIGN "\xEF\x85\x93"
 #define ICON_FA_CHESS_KING "\xEF\x90\xBF"
@@ -616,6 +616,7 @@
 #define ICON_FA_MOTORCYCLE "\xEF\x88\x9C"
 #define ICON_FA_ANGLE_UP "\xEF\x84\x86"
 #define ICON_FA_BROOM "\xEF\x94\x9A"
+#define ICON_FA_TOILET_PAPER "\xEF\x9C\x9E"
 #define ICON_FA_DICE_D20 "\xEF\x9B\x8F"
 #define ICON_FA_LEVEL_DOWN_ALT "\xEF\x8E\xBE"
 #define ICON_FA_PAPERCLIP "\xEF\x83\x86"

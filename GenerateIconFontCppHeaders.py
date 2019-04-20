@@ -59,6 +59,9 @@
 #   All fonts have computed min and max unicode fonts ICON_MIN and ICON_MAX
 #           - output C89, C++11:    #define ICON_MIN_FA 0xf000
 #                                   #define ICON_MAX_FA 0xf2e0
+#               Exception for Font Awesome brands: we use ICON_MIN_FAB and ICON_MAX_FAB
+#               to differentiate between brand and non-brand icons so they can be used together
+#               (the defines must be unique in C and C++).
 #           - output C#:            public const int IconMin = 0xf000;
 #                                   public const int IconMax = 0xf2e0;
 #
@@ -88,6 +91,7 @@ import os
 class Font:
     font_name = '[ ERROR - missing font name ]'
     font_abbr = '[ ERROR - missing font abbreviation ]'
+    font_minmax_abbr = ''   # optional - use if min and max defines must be differentiated. See Font Awesome Brand for example.
     font_data = '[ ERROR - missing font data file or url ]'
     font_ttf = '[ ERROR - missing ttf file or url ]'
     font_file_name_ttf = '[ ERROR - missing ttf file name ]'
@@ -127,7 +131,8 @@ class Font:
                              'font_data' : cls.font_data,
                              'font_file_name_ttf' : cls.font_file_name_ttf,
                              'font_name' : cls.font_name,
-                             'font_abbr' : cls.font_abbr })
+                             'font_abbr' : cls.font_abbr,
+                             'font_minmax_abbr' : cls.font_minmax_abbr })
             print( 'Generated intermediate data - ' + cls.font_name )
         return font_ir
 
@@ -198,12 +203,13 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
 
 class FontFA5Brands( FontFA5 ):     # Font Awesome version 5 - Brand style
     font_name = 'Font Awesome 5 Brands'
+    font_minmax_abbr = 'FAB'
     font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf'
     font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
     font_fa_style = [ 'brands' ]
 
 
-class FontFA5Pro( FontFA5 ):    # Font Awesome version 5 Pro - Light, Regular and Solid styles
+class FontFA5Pro( FontFA5 ):        # Font Awesome version 5 Pro - Light, Regular and Solid styles
     font_name = 'Font Awesome 5 Pro'
     font_data = 'icons.yml'
     font_ttf = 'fa-light-300.ttf, fa-regular-400.ttf, fa-solid-900.ttf'
@@ -213,6 +219,7 @@ class FontFA5Pro( FontFA5 ):    # Font Awesome version 5 Pro - Light, Regular an
 
 class FontFA5ProBrands( FontFA5 ):  # Font Awesome version 5 Pro - Brand style
     font_name = 'Font Awesome 5 Pro Brands'
+    font_minmax_abbr = 'FAB'
     font_data = 'icons.yml'
     font_ttf = 'fa-brands-400.ttf'
     font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
@@ -419,12 +426,12 @@ class LanguageC89( Language ):
     @classmethod
     def lines_minmax( cls ):
         tmpl_line_minmax = '#define ICON_{minmax}_{abbr} 0x{val}\n'
-        result = tmpl_line_minmax.format(minmax = 'MIN',
-                                         abbr = cls.intermediate.get( 'font_abbr' ),
-                                         val = cls.intermediate.get( 'font_min' )) + \
-                 tmpl_line_minmax.format(minmax = 'MAX',
-                                         abbr = cls.intermediate.get( 'font_abbr' ),
-                                         val = cls.intermediate.get( 'font_max' ))
+        result = tmpl_line_minmax.format( minmax = 'MIN',
+                                          abbr = cls.intermediate.get( 'font_minmax_abbr' ) if cls.intermediate.get( 'font_minmax_abbr' ) else cls.intermediate.get('font_abbr'),
+                                          val = cls.intermediate.get( 'font_min' )) + \
+                 tmpl_line_minmax.format( minmax = 'MAX',
+                                          abbr = cls.intermediate.get( 'font_minmax_abbr' ) if cls.intermediate.get( 'font_minmax_abbr' ) else cls.intermediate.get('font_abbr'),
+                                          val = cls.intermediate.get( 'font_max' ))
         return result
 
     @classmethod

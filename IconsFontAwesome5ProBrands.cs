@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf840;
+        public const int IconMax = 0xf842;
         public const string Alipay = "\uf642";
         public const string WizardsOfTheCoast = "\uf730";
         public const string PhoenixFramework = "\uf3dc";
@@ -86,6 +86,7 @@ namespace IconFonts
         public const string Bitcoin = "\uf379";
         public const string Behance = "\uf1b4";
         public const string Wpbeginner = "\uf297";
+        public const string GitAlt = "\uf841";
         public const string StickerMule = "\uf3f7";
         public const string Digg = "\uf1a6";
         public const string Ebay = "\uf4f4";
@@ -209,6 +210,7 @@ namespace IconFonts
         public const string Envira = "\uf299";
         public const string Gg = "\uf260";
         public const string Hotjar = "\uf3b1";
+        public const string Stackpath = "\uf842";
         public const string Jenkins = "\uf3b6";
         public const string Palfed = "\uf3d8";
         public const string Node = "\uf419";

@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf840;
+        public const int IconMax = 0xf842;
         public const string WizardsOfTheCoast = "\uf730";
         public const string TelegramPlane = "\uf3fe";
         public const string Wpforms = "\uf298";
@@ -81,6 +81,7 @@ namespace IconFonts
         public const string HireAHelper = "\uf3b0";
         public const string Bitcoin = "\uf379";
         public const string Wpbeginner = "\uf297";
+        public const string GitAlt = "\uf841";
         public const string StickerMule = "\uf3f7";
         public const string Hotjar = "\uf3b1";
         public const string Ebay = "\uf4f4";
@@ -203,6 +204,7 @@ namespace IconFonts
         public const string Bimobject = "\uf378";
         public const string DribbbleSquare = "\uf397";
         public const string AcquisitionsIncorporated = "\uf6af";
+        public const string Stackpath = "\uf842";
         public const string Staylinked = "\uf3f5";
         public const string Jenkins = "\uf3b6";
         public const string Palfed = "\uf3d8";

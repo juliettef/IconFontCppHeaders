@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf840
+#define ICON_MAX_FAB 0xf842
 #define ICON_FA_ALIPAY u8"\uf642"
 #define ICON_FA_WIZARDS_OF_THE_COAST u8"\uf730"
 #define ICON_FA_PHOENIX_FRAMEWORK u8"\uf3dc"
@@ -84,6 +84,7 @@
 #define ICON_FA_BITCOIN u8"\uf379"
 #define ICON_FA_BEHANCE u8"\uf1b4"
 #define ICON_FA_WPBEGINNER u8"\uf297"
+#define ICON_FA_GIT_ALT u8"\uf841"
 #define ICON_FA_STICKER_MULE u8"\uf3f7"
 #define ICON_FA_DIGG u8"\uf1a6"
 #define ICON_FA_EBAY u8"\uf4f4"
@@ -207,6 +208,7 @@
 #define ICON_FA_ENVIRA u8"\uf299"
 #define ICON_FA_GG u8"\uf260"
 #define ICON_FA_HOTJAR u8"\uf3b1"
+#define ICON_FA_STACKPATH u8"\uf842"
 #define ICON_FA_JENKINS u8"\uf3b6"
 #define ICON_FA_PALFED u8"\uf3d8"
 #define ICON_FA_NODE u8"\uf419"

@@ -3,7 +3,7 @@
 // for use with https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
 #pragma once
 
-#define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
+#define FONT_ICON_FILE_NAME_FK "forkawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
 #define ICON_MAX_FK 0xf32d

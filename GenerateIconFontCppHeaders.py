@@ -168,6 +168,7 @@ class FontFK( FontFA4 ):            # Fork Awesome, based on Font Awesome 4
     font_abbr = 'FK'
     font_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
     font_ttf = 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf'
+    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
 
 
 class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid styles

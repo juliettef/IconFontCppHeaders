@@ -5,7 +5,7 @@
 
 #define FONT_ICON_FILE_NAME_MDI "materialdesignicons-webfont.ttf"
 
-#define ICON_MIN_MDI 0x30
+#define ICON_MIN_MDI 0x0030
 #define ICON_MAX_MDI 0xFF55
 #define ICON_MDI_ACCESS_POINT "\xEF\x80\x82"
 #define ICON_MDI_ACCESS_POINT_NETWORK "\xEF\x80\x83"

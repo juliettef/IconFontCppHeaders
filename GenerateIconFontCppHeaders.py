@@ -276,7 +276,7 @@ class FontMDI( Font ):              # Material Design Icons
                 if '.mdi-' in line:
                     words = str.split(line)
                     if words and '.mdi-' in words[ 0 ]:
-                        font_id = words[ 0 ].partition( '.mdi-' )[2].partition( ':before' )[0]
+                        font_id = words[ 0 ].partition( '.mdi-' )[2].partition( '::before' )[0]
                         font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0].zfill(4)
                         if font_code < font_min:
                             font_min = font_code

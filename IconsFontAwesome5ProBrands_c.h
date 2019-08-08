@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf842
+#define ICON_MAX_FAB 0xf89e
 #define ICON_FA_WIZARDS_OF_THE_COAST "\xEF\x9C\xB0"
 #define ICON_FA_CREATIVE_COMMONS "\xEF\x89\x9E"
 #define ICON_FA_USPS "\xEF\x9F\xA1"
@@ -277,6 +277,7 @@
 #define ICON_FA_SELLSY "\xEF\x88\x93"
 #define ICON_FA_THEMEISLE "\xEF\x8A\xB2"
 #define ICON_FA_RAVELRY "\xEF\x8B\x99"
+#define ICON_FA_COTTON_BUREAU "\xEF\xA2\x9E"
 #define ICON_FA_SKYPE "\xEF\x85\xBE"
 #define ICON_FA_VAADIN "\xEF\x90\x88"
 #define ICON_FA_FEDORA "\xEF\x9E\x98"

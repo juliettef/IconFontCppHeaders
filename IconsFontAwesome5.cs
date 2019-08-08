@@ -66,7 +66,6 @@ namespace IconFonts
         public const string FileInvoice = "\uf570";
         public const string Search = "\uf002";
         public const string Bible = "\uf647";
-        public const string Dumbbell = "\uf44b";
         public const string WeightHanging = "\uf5cd";
         public const string CalendarTimes = "\uf273";
         public const string GreaterThanEqual = "\uf532";
@@ -382,6 +381,7 @@ namespace IconFonts
         public const string LessThanEqual = "\uf537";
         public const string ChevronCircleLeft = "\uf137";
         public const string MortarPestle = "\uf5a7";
+        public const string Dumbbell = "\uf44b";
         public const string Sitemap = "\uf0e8";
         public const string BusAlt = "\uf55e";
         public const string FileCode = "\uf1c9";

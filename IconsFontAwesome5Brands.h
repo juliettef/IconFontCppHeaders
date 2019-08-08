@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf842
+#define ICON_MAX_FAB 0xf89e
 #define ICON_FA_ALIPAY u8"\uf642"
 #define ICON_FA_BUROMOBELEXPERTE u8"\uf37f"
 #define ICON_FA_WIZARDS_OF_THE_COAST u8"\uf730"
@@ -19,6 +19,7 @@
 #define ICON_FA_TUMBLR u8"\uf173"
 #define ICON_FA_ANGRYCREATIVE u8"\uf36e"
 #define ICON_FA_USPS u8"\uf7e1"
+#define ICON_FA_COTTON_BUREAU u8"\uf89e"
 #define ICON_FA_ITUNES u8"\uf3b4"
 #define ICON_FA_GOOGLE_PLUS u8"\uf2b3"
 #define ICON_FA_CC_STRIPE u8"\uf1f5"

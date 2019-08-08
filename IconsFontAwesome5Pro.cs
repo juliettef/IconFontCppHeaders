@@ -10,7 +10,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf89b;
+        public const int IconMax = 0xf89d;
         public const string CloudShowersHeavy = "\uf740";
         public const string ChevronSquareRight = "\uf32b";
         public const string BowArrow = "\uf6b9";
@@ -236,9 +236,11 @@ namespace IconFonts
         public const string Steak = "\uf824";
         public const string Duck = "\uf6d8";
         public const string CarCrash = "\uf5e1";
+        public const string BorderCenterV = "\uf89d";
         public const string LeafOak = "\uf6f7";
         public const string Analytics = "\uf643";
         public const string JournalWhills = "\uf66a";
+        public const string BorderCenterH = "\uf89c";
         public const string AlarmPlus = "\uf844";
         public const string Hammer = "\uf6e3";
         public const string Hourglass = "\uf254";

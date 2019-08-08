@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf842;
+        public const int IconMax = 0xf89e;
         public const string Alipay = "\uf642";
         public const string Buromobelexperte = "\uf37f";
         public const string WizardsOfTheCoast = "\uf730";
@@ -21,6 +21,7 @@ namespace IconFonts
         public const string Tumblr = "\uf173";
         public const string Angrycreative = "\uf36e";
         public const string Usps = "\uf7e1";
+        public const string CottonBureau = "\uf89e";
         public const string Itunes = "\uf3b4";
         public const string GooglePlus = "\uf2b3";
         public const string CcStripe = "\uf1f5";

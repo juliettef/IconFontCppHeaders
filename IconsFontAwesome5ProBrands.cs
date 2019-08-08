@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf842;
+        public const int IconMax = 0xf89e;
         public const string WizardsOfTheCoast = "\uf730";
         public const string CreativeCommons = "\uf25e";
         public const string Usps = "\uf7e1";
@@ -279,6 +279,7 @@ namespace IconFonts
         public const string Sellsy = "\uf213";
         public const string Themeisle = "\uf2b2";
         public const string Ravelry = "\uf2d9";
+        public const string CottonBureau = "\uf89e";
         public const string Skype = "\uf17e";
         public const string Vaadin = "\uf408";
         public const string Fedora = "\uf798";

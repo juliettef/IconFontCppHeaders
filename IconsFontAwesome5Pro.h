@@ -8,7 +8,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf89b
+#define ICON_MAX_FA 0xf89d
 #define ICON_FA_CLOUD_SHOWERS_HEAVY u8"\uf740"
 #define ICON_FA_CHEVRON_SQUARE_RIGHT u8"\uf32b"
 #define ICON_FA_BOW_ARROW u8"\uf6b9"
@@ -234,9 +234,11 @@
 #define ICON_FA_STEAK u8"\uf824"
 #define ICON_FA_DUCK u8"\uf6d8"
 #define ICON_FA_CAR_CRASH u8"\uf5e1"
+#define ICON_FA_BORDER_CENTER_V u8"\uf89d"
 #define ICON_FA_LEAF_OAK u8"\uf6f7"
 #define ICON_FA_ANALYTICS u8"\uf643"
 #define ICON_FA_JOURNAL_WHILLS u8"\uf66a"
+#define ICON_FA_BORDER_CENTER_H u8"\uf89c"
 #define ICON_FA_ALARM_PLUS u8"\uf844"
 #define ICON_FA_HAMMER u8"\uf6e3"
 #define ICON_FA_HOURGLASS u8"\uf254"

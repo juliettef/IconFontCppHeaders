@@ -564,7 +564,7 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontMDI, FontKI, FontII, FontFAD ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontKI, FontII, FontFAD ]
 languages = [ LanguageC89, LanguageCpp11, LanguageCSharp ]
 
 intermediates = []

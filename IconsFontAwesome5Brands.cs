@@ -8,13 +8,14 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf89e;
+        public const int IconMax = 0xf8e8;
         public const string Alipay = "\uf642";
         public const string Buromobelexperte = "\uf37f";
         public const string WizardsOfTheCoast = "\uf730";
         public const string TelegramPlane = "\uf3fe";
         public const string Wpforms = "\uf298";
         public const string Viber = "\uf409";
+        public const string Orcid = "\uf8d2";
         public const string Instagram = "\uf16d";
         public const string Pinterest = "\uf0d2";
         public const string CreativeCommons = "\uf25e";
@@ -57,15 +58,16 @@ namespace IconFonts
         public const string YandexInternational = "\uf414";
         public const string Joget = "\uf3b7";
         public const string Yandex = "\uf413";
-        public const string FacebookMessenger = "\uf39f";
         public const string Glide = "\uf2a5";
         public const string WhatsappSquare = "\uf40c";
+        public const string Umbraco = "\uf8e8";
         public const string Blogger = "\uf37c";
         public const string Erlang = "\uf39d";
         public const string InternetExplorer = "\uf26b";
         public const string CreativeCommonsBy = "\uf4e7";
         public const string FortAwesomeAlt = "\uf3a3";
         public const string Adobe = "\uf778";
+        public const string Mdb = "\uf8ca";
         public const string Ello = "\uf5f1";
         public const string Scribd = "\uf28a";
         public const string Vuejs = "\uf41f";
@@ -330,6 +332,7 @@ namespace IconFonts
         public const string Rocketchat = "\uf3e8";
         public const string RedditSquare = "\uf1a2";
         public const string SlackHash = "\uf3ef";
+        public const string BuyNLarge = "\uf8a6";
         public const string StumbleuponCircle = "\uf1a3";
         public const string Yammer = "\uf840";
         public const string Qq = "\uf1d6";
@@ -348,6 +351,8 @@ namespace IconFonts
         public const string Renren = "\uf18b";
         public const string Js = "\uf3b8";
         public const string Invision = "\uf7b0";
+        public const string FacebookMessenger = "\uf39f";
+        public const string Swift = "\uf8e1";
         public const string FortAwesome = "\uf286";
         public const string CreativeCommonsSampling = "\uf4f0";
         public const string CcPaypal = "\uf1f4";

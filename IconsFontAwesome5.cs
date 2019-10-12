@@ -9,7 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf897;
+        public const int IconMax = 0xf8d9;
         public const string CloudShowersHeavy = "\uf740";
         public const string ChevronCircleRight = "\uf138";
         public const string Dharmachakra = "\uf655";
@@ -100,6 +100,7 @@ namespace IconFonts
         public const string StepForward = "\uf051";
         public const string MousePointer = "\uf245";
         public const string AlignJustify = "\uf039";
+        public const string FileMedical = "\uf477";
         public const string ToiletPaper = "\uf71e";
         public const string BatteryThreeQuarters = "\uf241";
         public const string ObjectUngroup = "\uf248";
@@ -129,6 +130,7 @@ namespace IconFonts
         public const string HeadphonesAlt = "\uf58f";
         public const string BatteryHalf = "\uf242";
         public const string ProjectDiagram = "\uf542";
+        public const string RecordVinyl = "\uf8d9";
         public const string Pray = "\uf683";
         public const string PhoneAlt = "\uf879";
         public const string BabyCarriage = "\uf77d";
@@ -143,6 +145,7 @@ namespace IconFonts
         public const string ChargingStation = "\uf5e7";
         public const string VoteYea = "\uf772";
         public const string VolumeOff = "\uf026";
+        public const string HatCowboySide = "\uf8c1";
         public const string SadTear = "\uf5b4";
         public const string CaretRight = "\uf0da";
         public const string Bong = "\uf55c";
@@ -333,7 +336,7 @@ namespace IconFonts
         public const string Calculator = "\uf1ec";
         public const string Dizzy = "\uf567";
         public const string KissWinkHeart = "\uf598";
-        public const string FileMedical = "\uf477";
+        public const string Mouse = "\uf8cc";
         public const string SwimmingPool = "\uf5c5";
         public const string VrCardboard = "\uf729";
         public const string UserFriends = "\uf500";
@@ -399,6 +402,7 @@ namespace IconFonts
         public const string Backspace = "\uf55a";
         public const string Slash = "\uf715";
         public const string HotTub = "\uf593";
+        public const string HatCowboy = "\uf8c0";
         public const string SuitcaseRolling = "\uf5c1";
         public const string Bold = "\uf032";
         public const string HandsHelping = "\uf4c4";
@@ -497,6 +501,7 @@ namespace IconFonts
         public const string Skiing = "\uf7c9";
         public const string Chair = "\uf6c0";
         public const string HandLizard = "\uf258";
+        public const string AngleDoubleUp = "\uf102";
         public const string Quidditch = "\uf458";
         public const string AngleDoubleLeft = "\uf100";
         public const string Mosque = "\uf678";
@@ -636,7 +641,7 @@ namespace IconFonts
         public const string FileCsv = "\uf6dd";
         public const string FileDownload = "\uf56d";
         public const string SyncAlt = "\uf2f1";
-        public const string AngleDoubleUp = "\uf102";
+        public const string AngleDoubleRight = "\uf101";
         public const string Hands = "\uf4c2";
         public const string Republican = "\uf75e";
         public const string University = "\uf19c";
@@ -890,7 +895,6 @@ namespace IconFonts
         public const string LaughBeam = "\uf59a";
         public const string TeethOpen = "\uf62f";
         public const string ChartPie = "\uf200";
-        public const string Socks = "\uf696";
         public const string SdCard = "\uf7c2";
         public const string ArrowCircleRight = "\uf0a9";
         public const string Paste = "\uf0ea";
@@ -903,7 +907,7 @@ namespace IconFonts
         public const string Road = "\uf018";
         public const string Image = "\uf03e";
         public const string BalanceScaleRight = "\uf516";
-        public const string AngleDoubleRight = "\uf101";
+        public const string Socks = "\uf696";
         public const string CloudMoon = "\uf6c3";
         public const string DoorOpen = "\uf52b";
         public const string GrinTongueWink = "\uf58b";

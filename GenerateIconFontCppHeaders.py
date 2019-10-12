@@ -1,4 +1,4 @@
-# Convert Font Awesome, Fork Awesome, Google Material Design, Material Design Icons, Kenney Game and Ionicons
+# Convert Font Awesome, Fork Awesome, Google Material Design, Material Design Icons, Kenney Game, Ionicons and Fontaudio
 # icon font parameters to C89, C++11 and C# compatible formats.
 #
 #------------------------------------------------------------------------------
@@ -35,7 +35,9 @@
 #   1.6 - Ionicons
 #           https://raw.githubusercontent.com/ionic-team/ionicons/master/src/docs/archived/v2/css/ionicons.css
 #           https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf
-#
+#   1.7 - Fontaudio
+#           https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css
+#           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #------------------------------------------------------------------------------
 # 2 - Data sample
 #
@@ -353,6 +355,38 @@ class FontII( Font ):               # Ionicons
         return icons_data
 
 
+class FontFAD( Font ):               # Fontaudio
+    font_name = 'Fontaudio'
+    font_abbr = 'FAD'
+    font_data = 'https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css'
+    font_ttf = 'https://github.com/fefanto/fontaudio/raw/master/font/fontaudio.ttf'
+    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/') + 1: ]]]
+
+    @classmethod
+    def get_icons( self, input ):
+        icons_data = {}
+        lines = str.split( input, '}\n' )
+        if lines:
+            font_min = 'ffff'
+            font_max = '0'
+            icons = []
+            for line in lines :
+                if '.icon-fad-' in line:
+                    words = str.split( line )
+                    if words and '.icon-fad-' in words[ 0 ]:
+                        font_id = words[ 0 ].partition( '.icon-fad-' )[2].partition( ':before' )[0]
+                        font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0]
+                        if font_code < font_min:
+                            font_min = font_code
+                        if font_code >= font_max:
+                            font_max = font_code
+                        icons.append([ font_id, font_code ])
+            icons_data.update({ 'font_min' : font_min,
+                                'font_max' : font_max,
+                                'icons' : icons  })
+        return icons_data
+
+
 # Languages
 
 
@@ -530,7 +564,7 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontMDI, FontKI, FontII ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontMDI, FontKI, FontII, FontFAD ]
 languages = [ LanguageC89, LanguageCpp11, LanguageCSharp ]
 
 intermediates = []

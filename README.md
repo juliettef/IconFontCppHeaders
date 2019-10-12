@@ -7,7 +7,7 @@ Support development of IconFontCppHeaders through our [Patreon](https://www.patr
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11, C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Material Design Icons, Kenney game icons and Ionicons.
+C++11, C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Material Design Icons, Kenney game icons, Ionicons and Fontaudio.
 
 A set of header files and classes for using icon fonts in C, C++ and C#, along with the python generator used to create the files.
 
@@ -63,6 +63,10 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 * [ionicons.css](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/css/ionicons.css)
 * [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf)  
 
+### [Fontaudio](https://github.com/fefanto/fontaudio)
+* [https://github.com/fefanto/fontaudio](https://github.com/fefanto/fontaudio)
+* [fontaudio.css](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css)
+* [fontaudio.ttf](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf)
 
 ## Notes about Font Awesome 5
 ### Codepoints grouping
@@ -119,3 +123,4 @@ Suggestion to add Fork Awesome - [Julien Deswaef](http://xuv.be/) - [@xuv](https
 Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@ocornut](https://github.com/ocornut)  
 C# language implementation - Rokas Kupstys - [@rokups](https://github.com/rokups)  
 Suggestion to add Material Design Icons - Gustav Madeso - [@madeso](https://github.com/madeso)
+Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilarkin](https://github.com/olilarkin)

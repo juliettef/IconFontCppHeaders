@@ -122,5 +122,5 @@ Initial Font Awesome 5 implementation - [Codecat](https://codecat.nl/) - [@codec
 Suggestion to add Fork Awesome - [Julien Deswaef](http://xuv.be/) - [@xuv](https://github.com/xuv)  
 Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@ocornut](https://github.com/ocornut)  
 C# language implementation - Rokas Kupstys - [@rokups](https://github.com/rokups)  
-Suggestion to add Material Design Icons - Gustav Madeso - [@madeso](https://github.com/madeso)
+Suggestion to add Material Design Icons - Gustav Madeso - [@madeso](https://github.com/madeso)  
 Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilarkin](https://github.com/olilarkin)

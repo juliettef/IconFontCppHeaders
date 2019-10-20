@@ -112,6 +112,9 @@ Real time 3D strange attractors scout.
 
 ![Screenshot of glChAoS.P UI using IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://raw.githubusercontent.com/BrutPitt/glChAoS.P/master/imgsCapture/ssWGL_half.jpg)
 
+### [iPlug2](https://iplug2.github.io)
+Cross platform C++ audio plug-in framework
+
 ## Credits
 
 Development - [Juliette Foucaut](http://www.enkisoftware.com/about.html#juliette) - [@juliettef](https://github.com/juliettef)  

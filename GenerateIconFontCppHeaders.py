@@ -71,9 +71,9 @@
 # 3 - Script dependencies
 #
 #   3.1 - Fonts source material online
-#   3.2 - Python 2.7 - https://www.python.org/download/releases/2.7/
-#   3.3 - Requests - http://docs.python-requests.org/
-#   3.4 - PyYAML - http://pyyaml.org/
+#   3.2 - Python 3 - https://www.python.org/downloads/
+#   3.3 - Requests - https://pypi.org/project/requests/
+#   3.4 - PyYAML - https://pypi.org/project/PyYAML/
 #
 #------------------------------------------------------------------------------
 # 4 - References
@@ -86,7 +86,10 @@
 import requests
 import yaml
 import os
+import sys
 
+if sys.version_info[0] < 3:
+    raise Exception( "Python 3 or a more recent version is required." )
 
 # Fonts
 
@@ -115,7 +118,7 @@ class Font:
         if 'http' in cls.font_data:  # if url, download data
             response = requests.get( cls.font_data, timeout = 2 )
             if response.status_code == 200:
-                input_raw = response.content
+                input_raw = response.text
                 print( 'Downloaded - ' + cls.font_name )
             else:
                 raise Exception( 'Download failed - ' + cls.font_name )
@@ -400,19 +403,19 @@ class Language:
 
     @classmethod
     def prelude( cls ):
-        print('[ ERROR - missing implementation of class method prelude for {!s} ]'.format( cls.language_name ))
+        print( '[ ERROR - missing implementation of class method prelude for {!s} ]'.format( cls.language_name ))
         result = '[ ERROR - missing prelude ]'
         return result
 
     @classmethod
     def lines_minmax( cls ):
-        print('[ ERROR - missing implementation of class method lines_minmax for {!s} ]'.format( cls.language_name ))
+        print( '[ ERROR - missing implementation of class method lines_minmax for {!s} ]'.format( cls.language_name ))
         result = '[ ERROR - missing min and max ]'
         return result
 
     @classmethod
     def line_icon( cls, icon ):
-        print('[ ERROR - missing implementation of class method line_icon for {!s} ]'.format( cls.language_name ))
+        print( '[ ERROR - missing implementation of class method line_icon for {!s} ]'.format( cls.language_name ))
         result = '[ ERROR - missing icon line ]'
         return result
 
@@ -427,7 +430,7 @@ class Language:
             line_icon = cls.line_icon( icon )
             result += line_icon
         result += cls.epilogue()
-        print ( 'Converted - {!s} for {!s}' ).format( cls.intermediate.get( 'font_name' ), cls.language_name )
+        print(( 'Converted - {!s} for {!s}' ).format( cls.intermediate.get( 'font_name' ), cls.language_name ))
         return result
 
     @classmethod
@@ -436,7 +439,7 @@ class Language:
         converted = cls.convert()
         with open( filename, 'w' ) as f:
             f.write( converted )
-        print( 'Saved - {!s}' ).format( filename )
+        print(( 'Saved - {!s}' ).format( filename ))
 
 
 class LanguageC89( Language ):
@@ -473,8 +476,7 @@ class LanguageC89( Language ):
     def line_icon( cls, icon ):
         tmpl_line_icon = '#define ICON_{abbr}_{icon} "{code}"\n'
         icon_name = str.upper( icon[ 0 ]).replace( '-', '_' )
-        code_base = ''.join([ '{0:x}'.format( ord( x )) for x in unichr( int( icon[ 1 ], 16 )).encode( 'utf-8' )]).upper()
-        icon_code = '\\x' + code_base[ :2 ] + '\\x' + code_base[ 2:4 ] + '\\x' + code_base[ 4: ]
+        icon_code = repr( chr( int( icon[ 1 ], 16 )).encode( 'utf-8' ))[ 2:-1 ]
         result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ),
                                         icon = icon_name,
                                         code = icon_code )
@@ -487,7 +489,7 @@ class LanguageCpp11( LanguageC89 ):
 
     @classmethod
     def line_icon( cls, icon ):
-        tmpl_line_icon = '#define ICON_{abbr}_{icon} u8"\u{code}"\n'
+        tmpl_line_icon = '#define ICON_{abbr}_{icon} u8"\\u{code}"\n'
         icon_name = str.upper( icon[ 0 ]).replace( '-', '_' )
         icon_code = icon[ 1 ]
         result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ),
@@ -538,7 +540,7 @@ class LanguageCSharp( Language ):
     @classmethod
     def line_icon( cls, icon ):
 
-        tmpl_line_icon = '        public const string {icon} = "\u{code}";\n'
+        tmpl_line_icon = '        public const string {icon} = "\\u{code}";\n'
         icon_name = cls.to_camelcase(icon[ 0 ])
         icon_code = icon[ 1 ]
 

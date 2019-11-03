@@ -274,7 +274,7 @@ class FontMDI( Font ):              # Material Design Icons
         input_trimmed = input[ input.find( '-moz-osx-font-smoothing: grayscale;\n}\n\n' ) + len( '-moz-osx-font-smoothing: grayscale;\n}\n\n' ) : input.find( '.mdi-18px.mdi-set,' )]
         lines = str.split( input_trimmed, '}\n\n' )
         if lines:
-            font_min = 'ffff'
+            font_min = 'fffff'
             font_max = '0'
             icons = []
             for line in lines :
@@ -283,9 +283,9 @@ class FontMDI( Font ):              # Material Design Icons
                     if words and '.mdi-' in words[ 0 ]:
                         font_id = words[ 0 ].partition( '.mdi-' )[2].partition( '::before' )[0]
                         font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0].zfill(4)
-                        if font_code < font_min:
+                        if int( font_code, 16 ) < int( font_min, 16 ):
                             font_min = font_code
-                        if font_code >= font_max:
+                        if int( font_code, 16 ) >= int( font_max, 16 ):
                             font_max = font_code
                         icons.append([ font_id, font_code ])
             icons_data.update({ 'font_min' : font_min,

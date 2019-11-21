@@ -99,21 +99,31 @@ ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatena
 
 ## Projects using the font icon header files
 
-### [Avoyd](https://www.avoyd.com)
-Avoyd is an abstract 6 degrees of freedom voxel game that includes a voxel editor tool. The voxel editor's UI uses [Dear ImGui](https://github.com/ocornut/imgui) with [Font Awesome](https://fontawesome.com) icon fonts.
+### [Avoyd](https://www.enkisoftware.com/avoyd)
+Avoyd is a 6 degrees of freedom voxel game that includes a voxel editor tool.   
+[www.avoyd.com](https://www.avoyd.com)
 
-![Screenshot of the the game Avoyd's Voxel Editor UI using an IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://github.com/juliettef/Media/blob/master/IconFontCppHeaders_Avoyd_voxel_editor.png)
+The voxel editor's UI uses Dear ImGui with Font Awesome icon fonts.  
+
+![Screenshot of the the game Avoyd's Voxel Editor UI using an IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://github.com/juliettef/Media/blob/master/IconFontCppHeaders_Avoyd_voxel_editor.png?raw=true)
 
 ### [bgfx](https://github.com/bkaradzic/bgfx)
-Cross-platform rendering library.
+Cross-platform rendering library.  
+[bkaradzic.github.io/bgfx/overview](https://bkaradzic.github.io/bgfx/overview.html)
 
 ### [glChAoS.P](https://github.com/BrutPitt/glChAoS.P)
-Real time 3D strange attractors scout.
+Real time 3D strange attractors scout.  
+[www.michelemorrone.eu/glchaosp](https://www.michelemorrone.eu/glchaosp)
 
 ![Screenshot of glChAoS.P UI using IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://raw.githubusercontent.com/BrutPitt/glChAoS.P/master/imgsCapture/ssWGL_half.jpg)
 
-### [iPlug2](https://iplug2.github.io)
-Cross platform C++ audio plug-in framework
+### [iPlug2](https://github.com/iplug2/iplug2)
+Cross platform C++ audio plug-in framework  
+[iplug2.github.io](https://iplug2.github.io)
+
+### [Visual 6502 Remix](https://github.com/floooh/v6502r)
+Transistor level 6502 Hardware Simulation  
+[floooh.github.io/visual6502remix](https://floooh.github.io/visual6502remix)
 
 ## Credits
 

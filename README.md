@@ -121,6 +121,11 @@ Real time 3D strange attractors scout.
 Cross platform C++ audio plug-in framework  
 [iplug2.github.io](https://iplug2.github.io)
 
+### [Tracy Profiler](https://bitbucket.org/wolfpld/tracy/src/master/)
+Real time, nanosecond resolution, remote telemetry frame profiler for games and other applications.  
+
+[![New features in Tracy Profiler v0.6](https://img.youtube.com/vi/uJkrFgriuOo/0.jpg)](https://www.youtube.com/watch?v=uJkrFgriuOo)
+
 ### [Visual 6502 Remix](https://github.com/floooh/v6502r)
 Transistor level 6502 Hardware Simulation  
 [floooh.github.io/visual6502remix](https://floooh.github.io/visual6502remix)

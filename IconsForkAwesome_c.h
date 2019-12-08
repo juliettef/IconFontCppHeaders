@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FK "forkawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf330
+#define ICON_MAX_FK 0xf339
 #define ICON_FK_GLASS "\xef\x80\x80"
 #define ICON_FK_MUSIC "\xef\x80\x81"
 #define ICON_FK_SEARCH "\xef\x80\x82"
@@ -756,3 +756,12 @@
 #define ICON_FK_VOLUME_MUTE "\xef\x8c\xae"
 #define ICON_FK_BELL_RINGING "\xef\x8c\xad"
 #define ICON_FK_BELL_RINGING_O "\xef\x8c\xb0"
+#define ICON_FK_HAL "\xef\x8c\xb3"
+#define ICON_FK_JUPYTER "\xef\x8c\xb5"
+#define ICON_FK_JULIA "\xef\x8c\xb4"
+#define ICON_FK_CLASSICPRESS "\xef\x8c\xb1"
+#define ICON_FK_CLASSICPRESS_CIRCLE "\xef\x8c\xb2"
+#define ICON_FK_OPEN_COLLECTIVE "\xef\x8c\xb6"
+#define ICON_FK_ORCID "\xef\x8c\xb7"
+#define ICON_FK_RESEARCHGATE "\xef\x8c\xb8"
+#define ICON_FK_FUNKWHALE "\xef\x8c\xb9"

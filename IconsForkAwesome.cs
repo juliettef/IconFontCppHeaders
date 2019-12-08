@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "forkawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf330;
+        public const int IconMax = 0xf339;
         public const string Glass = "\uf000";
         public const string Music = "\uf001";
         public const string Search = "\uf002";
@@ -758,5 +758,14 @@ namespace IconFonts
         public const string VolumeMute = "\uf32e";
         public const string BellRinging = "\uf32d";
         public const string BellRingingO = "\uf330";
+        public const string Hal = "\uf333";
+        public const string Jupyter = "\uf335";
+        public const string Julia = "\uf334";
+        public const string Classicpress = "\uf331";
+        public const string ClassicpressCircle = "\uf332";
+        public const string OpenCollective = "\uf336";
+        public const string Orcid = "\uf337";
+        public const string Researchgate = "\uf338";
+        public const string Funkwhale = "\uf339";
     }
 }

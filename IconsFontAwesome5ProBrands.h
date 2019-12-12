@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf8e8
+#define ICON_MAX_FAB 0xf949
 #define ICON_FA_500PX u8"\uf26e"
 #define ICON_FA_ACCESSIBLE_ICON u8"\uf368"
 #define ICON_FA_ACCUSOFT u8"\uf369"
@@ -145,6 +145,7 @@
 #define ICON_FA_FEDORA u8"\uf798"
 #define ICON_FA_FIGMA u8"\uf799"
 #define ICON_FA_FIREFOX u8"\uf269"
+#define ICON_FA_FIREFOX_BROWSER u8"\uf907"
 #define ICON_FA_FIRST_ORDER u8"\uf2b0"
 #define ICON_FA_FIRST_ORDER_ALT u8"\uf50a"
 #define ICON_FA_FIRSTDRAFT u8"\uf3a1"
@@ -206,6 +207,7 @@
 #define ICON_FA_HOUZZ u8"\uf27c"
 #define ICON_FA_HTML5 u8"\uf13b"
 #define ICON_FA_HUBSPOT u8"\uf3b2"
+#define ICON_FA_IDEAL u8"\uf913"
 #define ICON_FA_IMDB u8"\uf2d8"
 #define ICON_FA_INSTAGRAM u8"\uf16d"
 #define ICON_FA_INTERCOM u8"\uf7af"
@@ -255,6 +257,7 @@
 #define ICON_FA_MEETUP u8"\uf2e0"
 #define ICON_FA_MEGAPORT u8"\uf5a3"
 #define ICON_FA_MENDELEY u8"\uf7b3"
+#define ICON_FA_MICROBLOG u8"\uf91a"
 #define ICON_FA_MICROSOFT u8"\uf3ca"
 #define ICON_FA_MIX u8"\uf3cb"
 #define ICON_FA_MIXCLOUD u8"\uf289"
@@ -293,6 +296,7 @@
 #define ICON_FA_PIED_PIPER_ALT u8"\uf1a8"
 #define ICON_FA_PIED_PIPER_HAT u8"\uf4e5"
 #define ICON_FA_PIED_PIPER_PP u8"\uf1a7"
+#define ICON_FA_PIED_PIPER_SQUARE u8"\uf91e"
 #define ICON_FA_PINTEREST u8"\uf0d2"
 #define ICON_FA_PINTEREST_P u8"\uf231"
 #define ICON_FA_PINTEREST_SQUARE u8"\uf0d3"
@@ -392,6 +396,7 @@
 #define ICON_FA_UIKIT u8"\uf403"
 #define ICON_FA_UMBRACO u8"\uf8e8"
 #define ICON_FA_UNIREGISTRY u8"\uf404"
+#define ICON_FA_UNITY u8"\uf949"
 #define ICON_FA_UNTAPPD u8"\uf405"
 #define ICON_FA_UPS u8"\uf7e0"
 #define ICON_FA_USB u8"\uf287"

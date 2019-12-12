@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf8e8;
+        public const int IconMax = 0xf949;
         public const string The500px = "\uf26e";
         public const string AccessibleIcon = "\uf368";
         public const string Accusoft = "\uf369";
@@ -147,6 +147,7 @@ namespace IconFonts
         public const string Fedora = "\uf798";
         public const string Figma = "\uf799";
         public const string Firefox = "\uf269";
+        public const string FirefoxBrowser = "\uf907";
         public const string FirstOrder = "\uf2b0";
         public const string FirstOrderAlt = "\uf50a";
         public const string Firstdraft = "\uf3a1";
@@ -208,6 +209,7 @@ namespace IconFonts
         public const string Houzz = "\uf27c";
         public const string Html5 = "\uf13b";
         public const string Hubspot = "\uf3b2";
+        public const string Ideal = "\uf913";
         public const string Imdb = "\uf2d8";
         public const string Instagram = "\uf16d";
         public const string Intercom = "\uf7af";
@@ -257,6 +259,7 @@ namespace IconFonts
         public const string Meetup = "\uf2e0";
         public const string Megaport = "\uf5a3";
         public const string Mendeley = "\uf7b3";
+        public const string Microblog = "\uf91a";
         public const string Microsoft = "\uf3ca";
         public const string Mix = "\uf3cb";
         public const string Mixcloud = "\uf289";
@@ -295,6 +298,7 @@ namespace IconFonts
         public const string PiedPiperAlt = "\uf1a8";
         public const string PiedPiperHat = "\uf4e5";
         public const string PiedPiperPp = "\uf1a7";
+        public const string PiedPiperSquare = "\uf91e";
         public const string Pinterest = "\uf0d2";
         public const string PinterestP = "\uf231";
         public const string PinterestSquare = "\uf0d3";
@@ -394,6 +398,7 @@ namespace IconFonts
         public const string Uikit = "\uf403";
         public const string Umbraco = "\uf8e8";
         public const string Uniregistry = "\uf404";
+        public const string Unity = "\uf949";
         public const string Untappd = "\uf405";
         public const string Ups = "\uf7e0";
         public const string Usb = "\uf287";

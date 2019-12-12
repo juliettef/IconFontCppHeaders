@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf8e8
+#define ICON_MAX_FAB 0xf949
 #define ICON_FA_500PX "\xef\x89\xae"
 #define ICON_FA_ACCESSIBLE_ICON "\xef\x8d\xa8"
 #define ICON_FA_ACCUSOFT "\xef\x8d\xa9"
@@ -145,6 +145,7 @@
 #define ICON_FA_FEDORA "\xef\x9e\x98"
 #define ICON_FA_FIGMA "\xef\x9e\x99"
 #define ICON_FA_FIREFOX "\xef\x89\xa9"
+#define ICON_FA_FIREFOX_BROWSER "\xef\xa4\x87"
 #define ICON_FA_FIRST_ORDER "\xef\x8a\xb0"
 #define ICON_FA_FIRST_ORDER_ALT "\xef\x94\x8a"
 #define ICON_FA_FIRSTDRAFT "\xef\x8e\xa1"
@@ -206,6 +207,7 @@
 #define ICON_FA_HOUZZ "\xef\x89\xbc"
 #define ICON_FA_HTML5 "\xef\x84\xbb"
 #define ICON_FA_HUBSPOT "\xef\x8e\xb2"
+#define ICON_FA_IDEAL "\xef\xa4\x93"
 #define ICON_FA_IMDB "\xef\x8b\x98"
 #define ICON_FA_INSTAGRAM "\xef\x85\xad"
 #define ICON_FA_INTERCOM "\xef\x9e\xaf"
@@ -255,6 +257,7 @@
 #define ICON_FA_MEETUP "\xef\x8b\xa0"
 #define ICON_FA_MEGAPORT "\xef\x96\xa3"
 #define ICON_FA_MENDELEY "\xef\x9e\xb3"
+#define ICON_FA_MICROBLOG "\xef\xa4\x9a"
 #define ICON_FA_MICROSOFT "\xef\x8f\x8a"
 #define ICON_FA_MIX "\xef\x8f\x8b"
 #define ICON_FA_MIXCLOUD "\xef\x8a\x89"
@@ -293,6 +296,7 @@
 #define ICON_FA_PIED_PIPER_ALT "\xef\x86\xa8"
 #define ICON_FA_PIED_PIPER_HAT "\xef\x93\xa5"
 #define ICON_FA_PIED_PIPER_PP "\xef\x86\xa7"
+#define ICON_FA_PIED_PIPER_SQUARE "\xef\xa4\x9e"
 #define ICON_FA_PINTEREST "\xef\x83\x92"
 #define ICON_FA_PINTEREST_P "\xef\x88\xb1"
 #define ICON_FA_PINTEREST_SQUARE "\xef\x83\x93"
@@ -392,6 +396,7 @@
 #define ICON_FA_UIKIT "\xef\x90\x83"
 #define ICON_FA_UMBRACO "\xef\xa3\xa8"
 #define ICON_FA_UNIREGISTRY "\xef\x90\x84"
+#define ICON_FA_UNITY "\xef\xa5\x89"
 #define ICON_FA_UNTAPPD "\xef\x90\x85"
 #define ICON_FA_UPS "\xef\x9f\xa0"
 #define ICON_FA_USB "\xef\x8a\x87"

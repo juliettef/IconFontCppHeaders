@@ -7,7 +7,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf8d9
+#define ICON_MAX_FA 0xf941
 #define ICON_FA_AD u8"\uf641"
 #define ICON_FA_ADDRESS_BOOK u8"\uf2b9"
 #define ICON_FA_ADDRESS_CARD u8"\uf2bb"
@@ -61,6 +61,7 @@
 #define ICON_FA_BACKSPACE u8"\uf55a"
 #define ICON_FA_BACKWARD u8"\uf04a"
 #define ICON_FA_BACON u8"\uf7e5"
+#define ICON_FA_BAHAI u8"\uf666"
 #define ICON_FA_BALANCE_SCALE u8"\uf24e"
 #define ICON_FA_BALANCE_SCALE_LEFT u8"\uf515"
 #define ICON_FA_BALANCE_SCALE_RIGHT u8"\uf516"
@@ -145,6 +146,7 @@
 #define ICON_FA_CAR_BATTERY u8"\uf5df"
 #define ICON_FA_CAR_CRASH u8"\uf5e1"
 #define ICON_FA_CAR_SIDE u8"\uf5e4"
+#define ICON_FA_CARAVAN u8"\uf8ff"
 #define ICON_FA_CARET_DOWN u8"\uf0d7"
 #define ICON_FA_CARET_LEFT u8"\uf0d9"
 #define ICON_FA_CARET_RIGHT u8"\uf0da"
@@ -229,6 +231,7 @@
 #define ICON_FA_COMPACT_DISC u8"\uf51f"
 #define ICON_FA_COMPASS u8"\uf14e"
 #define ICON_FA_COMPRESS u8"\uf066"
+#define ICON_FA_COMPRESS_ALT u8"\uf422"
 #define ICON_FA_COMPRESS_ARROWS_ALT u8"\uf78c"
 #define ICON_FA_CONCIERGE_BELL u8"\uf562"
 #define ICON_FA_COOKIE u8"\uf563"
@@ -305,6 +308,7 @@
 #define ICON_FA_EXCLAMATION_CIRCLE u8"\uf06a"
 #define ICON_FA_EXCLAMATION_TRIANGLE u8"\uf071"
 #define ICON_FA_EXPAND u8"\uf065"
+#define ICON_FA_EXPAND_ALT u8"\uf424"
 #define ICON_FA_EXPAND_ARROWS_ALT u8"\uf31e"
 #define ICON_FA_EXTERNAL_LINK_ALT u8"\uf35d"
 #define ICON_FA_EXTERNAL_LINK_SQUARE_ALT u8"\uf360"
@@ -441,7 +445,6 @@
 #define ICON_FA_HAT_COWBOY u8"\uf8c0"
 #define ICON_FA_HAT_COWBOY_SIDE u8"\uf8c1"
 #define ICON_FA_HAT_WIZARD u8"\uf6e8"
-#define ICON_FA_HAYKAL u8"\uf666"
 #define ICON_FA_HDD u8"\uf0a0"
 #define ICON_FA_HEADING u8"\uf1dc"
 #define ICON_FA_HEADPHONES u8"\uf025"
@@ -873,6 +876,7 @@
 #define ICON_FA_TRACTOR u8"\uf722"
 #define ICON_FA_TRADEMARK u8"\uf25c"
 #define ICON_FA_TRAFFIC_LIGHT u8"\uf637"
+#define ICON_FA_TRAILER u8"\uf941"
 #define ICON_FA_TRAIN u8"\uf238"
 #define ICON_FA_TRAM u8"\uf7da"
 #define ICON_FA_TRANSGENDER u8"\uf224"

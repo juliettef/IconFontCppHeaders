@@ -9,7 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf8d9;
+        public const int IconMax = 0xf941;
         public const string Ad = "\uf641";
         public const string AddressBook = "\uf2b9";
         public const string AddressCard = "\uf2bb";
@@ -63,6 +63,7 @@ namespace IconFonts
         public const string Backspace = "\uf55a";
         public const string Backward = "\uf04a";
         public const string Bacon = "\uf7e5";
+        public const string Bahai = "\uf666";
         public const string BalanceScale = "\uf24e";
         public const string BalanceScaleLeft = "\uf515";
         public const string BalanceScaleRight = "\uf516";
@@ -147,6 +148,7 @@ namespace IconFonts
         public const string CarBattery = "\uf5df";
         public const string CarCrash = "\uf5e1";
         public const string CarSide = "\uf5e4";
+        public const string Caravan = "\uf8ff";
         public const string CaretDown = "\uf0d7";
         public const string CaretLeft = "\uf0d9";
         public const string CaretRight = "\uf0da";
@@ -231,6 +233,7 @@ namespace IconFonts
         public const string CompactDisc = "\uf51f";
         public const string Compass = "\uf14e";
         public const string Compress = "\uf066";
+        public const string CompressAlt = "\uf422";
         public const string CompressArrowsAlt = "\uf78c";
         public const string ConciergeBell = "\uf562";
         public const string Cookie = "\uf563";
@@ -307,6 +310,7 @@ namespace IconFonts
         public const string ExclamationCircle = "\uf06a";
         public const string ExclamationTriangle = "\uf071";
         public const string Expand = "\uf065";
+        public const string ExpandAlt = "\uf424";
         public const string ExpandArrowsAlt = "\uf31e";
         public const string ExternalLinkAlt = "\uf35d";
         public const string ExternalLinkSquareAlt = "\uf360";
@@ -443,7 +447,6 @@ namespace IconFonts
         public const string HatCowboy = "\uf8c0";
         public const string HatCowboySide = "\uf8c1";
         public const string HatWizard = "\uf6e8";
-        public const string Haykal = "\uf666";
         public const string Hdd = "\uf0a0";
         public const string Heading = "\uf1dc";
         public const string Headphones = "\uf025";
@@ -875,6 +878,7 @@ namespace IconFonts
         public const string Tractor = "\uf722";
         public const string Trademark = "\uf25c";
         public const string TrafficLight = "\uf637";
+        public const string Trailer = "\uf941";
         public const string Train = "\uf238";
         public const string Tram = "\uf7da";
         public const string Transgender = "\uf224";

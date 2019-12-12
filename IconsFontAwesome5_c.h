@@ -7,7 +7,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf8d9
+#define ICON_MAX_FA 0xf941
 #define ICON_FA_AD "\xef\x99\x81"
 #define ICON_FA_ADDRESS_BOOK "\xef\x8a\xb9"
 #define ICON_FA_ADDRESS_CARD "\xef\x8a\xbb"
@@ -61,6 +61,7 @@
 #define ICON_FA_BACKSPACE "\xef\x95\x9a"
 #define ICON_FA_BACKWARD "\xef\x81\x8a"
 #define ICON_FA_BACON "\xef\x9f\xa5"
+#define ICON_FA_BAHAI "\xef\x99\xa6"
 #define ICON_FA_BALANCE_SCALE "\xef\x89\x8e"
 #define ICON_FA_BALANCE_SCALE_LEFT "\xef\x94\x95"
 #define ICON_FA_BALANCE_SCALE_RIGHT "\xef\x94\x96"
@@ -145,6 +146,7 @@
 #define ICON_FA_CAR_BATTERY "\xef\x97\x9f"
 #define ICON_FA_CAR_CRASH "\xef\x97\xa1"
 #define ICON_FA_CAR_SIDE "\xef\x97\xa4"
+#define ICON_FA_CARAVAN "\xef\xa3\xbf"
 #define ICON_FA_CARET_DOWN "\xef\x83\x97"
 #define ICON_FA_CARET_LEFT "\xef\x83\x99"
 #define ICON_FA_CARET_RIGHT "\xef\x83\x9a"
@@ -229,6 +231,7 @@
 #define ICON_FA_COMPACT_DISC "\xef\x94\x9f"
 #define ICON_FA_COMPASS "\xef\x85\x8e"
 #define ICON_FA_COMPRESS "\xef\x81\xa6"
+#define ICON_FA_COMPRESS_ALT "\xef\x90\xa2"
 #define ICON_FA_COMPRESS_ARROWS_ALT "\xef\x9e\x8c"
 #define ICON_FA_CONCIERGE_BELL "\xef\x95\xa2"
 #define ICON_FA_COOKIE "\xef\x95\xa3"
@@ -305,6 +308,7 @@
 #define ICON_FA_EXCLAMATION_CIRCLE "\xef\x81\xaa"
 #define ICON_FA_EXCLAMATION_TRIANGLE "\xef\x81\xb1"
 #define ICON_FA_EXPAND "\xef\x81\xa5"
+#define ICON_FA_EXPAND_ALT "\xef\x90\xa4"
 #define ICON_FA_EXPAND_ARROWS_ALT "\xef\x8c\x9e"
 #define ICON_FA_EXTERNAL_LINK_ALT "\xef\x8d\x9d"
 #define ICON_FA_EXTERNAL_LINK_SQUARE_ALT "\xef\x8d\xa0"
@@ -441,7 +445,6 @@
 #define ICON_FA_HAT_COWBOY "\xef\xa3\x80"
 #define ICON_FA_HAT_COWBOY_SIDE "\xef\xa3\x81"
 #define ICON_FA_HAT_WIZARD "\xef\x9b\xa8"
-#define ICON_FA_HAYKAL "\xef\x99\xa6"
 #define ICON_FA_HDD "\xef\x82\xa0"
 #define ICON_FA_HEADING "\xef\x87\x9c"
 #define ICON_FA_HEADPHONES "\xef\x80\xa5"
@@ -873,6 +876,7 @@
 #define ICON_FA_TRACTOR "\xef\x9c\xa2"
 #define ICON_FA_TRADEMARK "\xef\x89\x9c"
 #define ICON_FA_TRAFFIC_LIGHT "\xef\x98\xb7"
+#define ICON_FA_TRAILER "\xef\xa5\x81"
 #define ICON_FA_TRAIN "\xef\x88\xb8"
 #define ICON_FA_TRAM "\xef\x9f\x9a"
 #define ICON_FA_TRANSGENDER "\xef\x88\xa4"

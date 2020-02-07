@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf949
+#define ICON_MAX_FAB 0xf957
 #define ICON_FA_500PX "\xef\x89\xae"
 #define ICON_FA_ACCESSIBLE_ICON "\xef\x8d\xa8"
 #define ICON_FA_ACCUSOFT "\xef\x8d\xa9"
@@ -103,6 +103,7 @@
 #define ICON_FA_CUTTLEFISH "\xef\x8e\x8c"
 #define ICON_FA_D_AND_D "\xef\x8e\x8d"
 #define ICON_FA_D_AND_D_BEYOND "\xef\x9b\x8a"
+#define ICON_FA_DAILYMOTION "\xef\xa5\x92"
 #define ICON_FA_DASHCUBE "\xef\x88\x90"
 #define ICON_FA_DELICIOUS "\xef\x86\xa5"
 #define ICON_FA_DEPLOYDOG "\xef\x8e\x8e"
@@ -210,6 +211,7 @@
 #define ICON_FA_IDEAL "\xef\xa4\x93"
 #define ICON_FA_IMDB "\xef\x8b\x98"
 #define ICON_FA_INSTAGRAM "\xef\x85\xad"
+#define ICON_FA_INSTAGRAM_SQUARE "\xef\xa5\x95"
 #define ICON_FA_INTERCOM "\xef\x9e\xaf"
 #define ICON_FA_INTERNET_EXPLORER "\xef\x89\xab"
 #define ICON_FA_INVISION "\xef\x9e\xb0"
@@ -261,6 +263,7 @@
 #define ICON_FA_MICROSOFT "\xef\x8f\x8a"
 #define ICON_FA_MIX "\xef\x8f\x8b"
 #define ICON_FA_MIXCLOUD "\xef\x8a\x89"
+#define ICON_FA_MIXER "\xef\xa5\x96"
 #define ICON_FA_MIZUNI "\xef\x8f\x8c"
 #define ICON_FA_MODX "\xef\x8a\x85"
 #define ICON_FA_MONERO "\xef\x8f\x90"
@@ -336,6 +339,7 @@
 #define ICON_FA_SELLSY "\xef\x88\x93"
 #define ICON_FA_SERVICESTACK "\xef\x8f\xac"
 #define ICON_FA_SHIRTSINBULK "\xef\x88\x94"
+#define ICON_FA_SHOPIFY "\xef\xa5\x97"
 #define ICON_FA_SHOPWARE "\xef\x96\xb5"
 #define ICON_FA_SIMPLYBUILT "\xef\x88\x95"
 #define ICON_FA_SISTRIX "\xef\x8f\xae"

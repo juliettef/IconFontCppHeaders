@@ -10,7 +10,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf950;
+        public const int IconMax = 0xf958;
         public const string Abacus = "\uf640";
         public const string Acorn = "\uf6ae";
         public const string Ad = "\uf641";
@@ -426,6 +426,7 @@ namespace IconFonts
         public const string CoffeePot = "\uf902";
         public const string CoffeeTogo = "\uf6c5";
         public const string Coffin = "\uf6c6";
+        public const string CoffinCross = "\uf951";
         public const string Cog = "\uf013";
         public const string Cogs = "\uf085";
         public const string Coin = "\uf85c";
@@ -699,11 +700,13 @@ namespace IconFonts
         public const string FluxCapacitor = "\uf8ba";
         public const string Fog = "\uf74e";
         public const string Folder = "\uf07b";
+        public const string FolderDownload = "\uf953";
         public const string FolderMinus = "\uf65d";
         public const string FolderOpen = "\uf07c";
         public const string FolderPlus = "\uf65e";
         public const string FolderTimes = "\uf65f";
         public const string FolderTree = "\uf802";
+        public const string FolderUpload = "\uf954";
         public const string Folders = "\uf660";
         public const string Font = "\uf031";
         public const string FontAwesomeLogoFull = "\uf4e6";
@@ -1736,6 +1739,7 @@ namespace IconFonts
         public const string UserTag = "\uf507";
         public const string UserTie = "\uf508";
         public const string UserTimes = "\uf235";
+        public const string UserUnlock = "\uf958";
         public const string UserVisor = "\uf94c";
         public const string Users = "\uf0c0";
         public const string UsersClass = "\uf63d";

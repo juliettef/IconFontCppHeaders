@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf949;
+        public const int IconMax = 0xf957;
         public const string The500px = "\uf26e";
         public const string AccessibleIcon = "\uf368";
         public const string Accusoft = "\uf369";
@@ -105,6 +105,7 @@ namespace IconFonts
         public const string Cuttlefish = "\uf38c";
         public const string DAndD = "\uf38d";
         public const string DAndDBeyond = "\uf6ca";
+        public const string Dailymotion = "\uf952";
         public const string Dashcube = "\uf210";
         public const string Delicious = "\uf1a5";
         public const string Deploydog = "\uf38e";
@@ -212,6 +213,7 @@ namespace IconFonts
         public const string Ideal = "\uf913";
         public const string Imdb = "\uf2d8";
         public const string Instagram = "\uf16d";
+        public const string InstagramSquare = "\uf955";
         public const string Intercom = "\uf7af";
         public const string InternetExplorer = "\uf26b";
         public const string Invision = "\uf7b0";
@@ -263,6 +265,7 @@ namespace IconFonts
         public const string Microsoft = "\uf3ca";
         public const string Mix = "\uf3cb";
         public const string Mixcloud = "\uf289";
+        public const string Mixer = "\uf956";
         public const string Mizuni = "\uf3cc";
         public const string Modx = "\uf285";
         public const string Monero = "\uf3d0";
@@ -338,6 +341,7 @@ namespace IconFonts
         public const string Sellsy = "\uf213";
         public const string Servicestack = "\uf3ec";
         public const string Shirtsinbulk = "\uf214";
+        public const string Shopify = "\uf957";
         public const string Shopware = "\uf5b5";
         public const string Simplybuilt = "\uf215";
         public const string Sistrix = "\uf3ee";

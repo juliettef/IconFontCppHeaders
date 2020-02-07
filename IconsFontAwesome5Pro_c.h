@@ -8,7 +8,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xf000
-#define ICON_MAX_FA 0xf950
+#define ICON_MAX_FA 0xf958
 #define ICON_FA_ABACUS "\xef\x99\x80"
 #define ICON_FA_ACORN "\xef\x9a\xae"
 #define ICON_FA_AD "\xef\x99\x81"
@@ -424,6 +424,7 @@
 #define ICON_FA_COFFEE_POT "\xef\xa4\x82"
 #define ICON_FA_COFFEE_TOGO "\xef\x9b\x85"
 #define ICON_FA_COFFIN "\xef\x9b\x86"
+#define ICON_FA_COFFIN_CROSS "\xef\xa5\x91"
 #define ICON_FA_COG "\xef\x80\x93"
 #define ICON_FA_COGS "\xef\x82\x85"
 #define ICON_FA_COIN "\xef\xa1\x9c"
@@ -697,11 +698,13 @@
 #define ICON_FA_FLUX_CAPACITOR "\xef\xa2\xba"
 #define ICON_FA_FOG "\xef\x9d\x8e"
 #define ICON_FA_FOLDER "\xef\x81\xbb"
+#define ICON_FA_FOLDER_DOWNLOAD "\xef\xa5\x93"
 #define ICON_FA_FOLDER_MINUS "\xef\x99\x9d"
 #define ICON_FA_FOLDER_OPEN "\xef\x81\xbc"
 #define ICON_FA_FOLDER_PLUS "\xef\x99\x9e"
 #define ICON_FA_FOLDER_TIMES "\xef\x99\x9f"
 #define ICON_FA_FOLDER_TREE "\xef\xa0\x82"
+#define ICON_FA_FOLDER_UPLOAD "\xef\xa5\x94"
 #define ICON_FA_FOLDERS "\xef\x99\xa0"
 #define ICON_FA_FONT "\xef\x80\xb1"
 #define ICON_FA_FONT_AWESOME_LOGO_FULL "\xef\x93\xa6"
@@ -1734,6 +1737,7 @@
 #define ICON_FA_USER_TAG "\xef\x94\x87"
 #define ICON_FA_USER_TIE "\xef\x94\x88"
 #define ICON_FA_USER_TIMES "\xef\x88\xb5"
+#define ICON_FA_USER_UNLOCK "\xef\xa5\x98"
 #define ICON_FA_USER_VISOR "\xef\xa5\x8c"
 #define ICON_FA_USERS "\xef\x83\x80"
 #define ICON_FA_USERS_CLASS "\xef\x98\xbd"

@@ -9,7 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf941;
+        public const int IconMax = 0xf976;
         public const string Ad = "\uf641";
         public const string AddressBook = "\uf2b9";
         public const string AddressCard = "\uf2bb";
@@ -111,6 +111,7 @@ namespace IconFonts
         public const string BowlingBall = "\uf436";
         public const string Box = "\uf466";
         public const string BoxOpen = "\uf49e";
+        public const string BoxTissue = "\uf95b";
         public const string Boxes = "\uf468";
         public const string Braille = "\uf2a1";
         public const string Brain = "\uf5dc";
@@ -269,6 +270,7 @@ namespace IconFonts
         public const string DiceTwo = "\uf528";
         public const string DigitalTachograph = "\uf566";
         public const string Directions = "\uf5eb";
+        public const string Disease = "\uf7fa";
         public const string Divide = "\uf529";
         public const string Dizzy = "\uf567";
         public const string Dna = "\uf471";
@@ -320,6 +322,7 @@ namespace IconFonts
         public const string Fan = "\uf863";
         public const string FastBackward = "\uf049";
         public const string FastForward = "\uf050";
+        public const string Faucet = "\uf905";
         public const string Fax = "\uf1ac";
         public const string Feather = "\uf52d";
         public const string FeatherAlt = "\uf56b";
@@ -425,7 +428,9 @@ namespace IconFonts
         public const string Hamsa = "\uf665";
         public const string HandHolding = "\uf4bd";
         public const string HandHoldingHeart = "\uf4be";
+        public const string HandHoldingMedical = "\uf95c";
         public const string HandHoldingUsd = "\uf4c0";
+        public const string HandHoldingWater = "\uf4c1";
         public const string HandLizard = "\uf258";
         public const string HandMiddleFinger = "\uf806";
         public const string HandPaper = "\uf256";
@@ -437,10 +442,14 @@ namespace IconFonts
         public const string HandPointer = "\uf25a";
         public const string HandRock = "\uf255";
         public const string HandScissors = "\uf257";
+        public const string HandSparkles = "\uf95d";
         public const string HandSpock = "\uf259";
         public const string Hands = "\uf4c2";
         public const string HandsHelping = "\uf4c4";
+        public const string HandsWash = "\uf95e";
         public const string Handshake = "\uf2b5";
+        public const string HandshakeAltSlash = "\uf95f";
+        public const string HandshakeSlash = "\uf960";
         public const string Hanukiah = "\uf6e6";
         public const string HardHat = "\uf807";
         public const string Hashtag = "\uf292";
@@ -448,6 +457,10 @@ namespace IconFonts
         public const string HatCowboySide = "\uf8c1";
         public const string HatWizard = "\uf6e8";
         public const string Hdd = "\uf0a0";
+        public const string HeadSideCough = "\uf961";
+        public const string HeadSideCoughSlash = "\uf962";
+        public const string HeadSideMask = "\uf963";
+        public const string HeadSideVirus = "\uf964";
         public const string Heading = "\uf1dc";
         public const string Headphones = "\uf025";
         public const string HeadphonesAlt = "\uf58f";
@@ -468,6 +481,7 @@ namespace IconFonts
         public const string Hospital = "\uf0f8";
         public const string HospitalAlt = "\uf47d";
         public const string HospitalSymbol = "\uf47e";
+        public const string HospitalUser = "\uf80d";
         public const string HotTub = "\uf593";
         public const string Hotdog = "\uf80f";
         public const string Hotel = "\uf594";
@@ -476,6 +490,7 @@ namespace IconFonts
         public const string HourglassHalf = "\uf252";
         public const string HourglassStart = "\uf251";
         public const string HouseDamage = "\uf6f1";
+        public const string HouseUser = "\uf965";
         public const string Hryvnia = "\uf6f2";
         public const string ICursor = "\uf246";
         public const string IceCream = "\uf810";
@@ -509,6 +524,7 @@ namespace IconFonts
         public const string Language = "\uf1ab";
         public const string Laptop = "\uf109";
         public const string LaptopCode = "\uf5fc";
+        public const string LaptopHouse = "\uf966";
         public const string LaptopMedical = "\uf812";
         public const string Laugh = "\uf599";
         public const string LaughBeam = "\uf59a";
@@ -538,6 +554,8 @@ namespace IconFonts
         public const string LongArrowAltUp = "\uf30c";
         public const string LowVision = "\uf2a8";
         public const string LuggageCart = "\uf59d";
+        public const string Lungs = "\uf604";
+        public const string LungsVirus = "\uf967";
         public const string Magic = "\uf0d0";
         public const string Magnet = "\uf076";
         public const string MailBulk = "\uf674";
@@ -628,6 +646,7 @@ namespace IconFonts
         public const string PenSquare = "\uf14b";
         public const string PencilAlt = "\uf303";
         public const string PencilRuler = "\uf5ae";
+        public const string PeopleArrows = "\uf968";
         public const string PeopleCarry = "\uf4ce";
         public const string PepperHot = "\uf816";
         public const string Percent = "\uf295";
@@ -647,6 +666,7 @@ namespace IconFonts
         public const string Plane = "\uf072";
         public const string PlaneArrival = "\uf5af";
         public const string PlaneDeparture = "\uf5b0";
+        public const string PlaneSlash = "\uf969";
         public const string Play = "\uf04b";
         public const string PlayCircle = "\uf144";
         public const string Plug = "\uf1e6";
@@ -670,6 +690,8 @@ namespace IconFonts
         public const string Print = "\uf02f";
         public const string Procedures = "\uf487";
         public const string ProjectDiagram = "\uf542";
+        public const string PumpMedical = "\uf96a";
+        public const string PumpSoap = "\uf96b";
         public const string PuzzlePiece = "\uf12e";
         public const string Qrcode = "\uf029";
         public const string Question = "\uf128";
@@ -732,6 +754,7 @@ namespace IconFonts
         public const string ShareSquare = "\uf14d";
         public const string ShekelSign = "\uf20b";
         public const string ShieldAlt = "\uf3ed";
+        public const string ShieldVirus = "\uf96c";
         public const string Ship = "\uf21a";
         public const string ShippingFast = "\uf48b";
         public const string ShoePrints = "\uf54b";
@@ -767,6 +790,7 @@ namespace IconFonts
         public const string Snowflake = "\uf2dc";
         public const string Snowman = "\uf7d0";
         public const string Snowplow = "\uf7d2";
+        public const string Soap = "\uf96e";
         public const string Socks = "\uf696";
         public const string SolarPanel = "\uf5ba";
         public const string Sort = "\uf0dc";
@@ -808,8 +832,11 @@ namespace IconFonts
         public const string Stop = "\uf04d";
         public const string StopCircle = "\uf28d";
         public const string Stopwatch = "\uf2f2";
+        public const string Stopwatch20 = "\uf96f";
         public const string Store = "\uf54e";
         public const string StoreAlt = "\uf54f";
+        public const string StoreAltSlash = "\uf970";
+        public const string StoreSlash = "\uf971";
         public const string Stream = "\uf550";
         public const string StreetView = "\uf21d";
         public const string Strikethrough = "\uf0cc";
@@ -870,6 +897,7 @@ namespace IconFonts
         public const string ToggleOn = "\uf205";
         public const string Toilet = "\uf7d8";
         public const string ToiletPaper = "\uf71e";
+        public const string ToiletPaperSlash = "\uf972";
         public const string Toolbox = "\uf552";
         public const string Tools = "\uf7d9";
         public const string Tooth = "\uf5c9";
@@ -945,6 +973,9 @@ namespace IconFonts
         public const string Video = "\uf03d";
         public const string VideoSlash = "\uf4e2";
         public const string Vihara = "\uf6a7";
+        public const string Virus = "\uf974";
+        public const string VirusSlash = "\uf975";
+        public const string Viruses = "\uf976";
         public const string Voicemail = "\uf897";
         public const string VolleyballBall = "\uf45f";
         public const string VolumeDown = "\uf027";

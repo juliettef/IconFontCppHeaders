@@ -7,7 +7,7 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C++11, C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Material Design Icons, Kenney game icons, Ionicons and Fontaudio.
+C++11, C89 headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Fontaudio.
 
 A set of header files and classes for using icon fonts in C, C++ and C#, along with the python generator used to create the files.
 
@@ -48,20 +48,10 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 * [codepoints](https://github.com/google/material-design-icons/blob/master/iconfont/codepoints)
 * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
 
-### [Material Design icons](https://materialdesignicons.com) 
-* [https://github.com/Templarian/MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
-* [materialdesignicons.css](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/css/materialdesignicons.css)
-* [materialdesignicons-webfont.ttf](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf)  
-
 ### [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
 * [https://github.com/nicodinh/kenney-icon-font](https://github.com/nicodinh/kenney-icon-font)
 * [kenney-icons.css](https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css)
 * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
-
-### [Ionicons](http://ionicons.com/) - version 2 archived  
-* [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons)  
-* [ionicons.css](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/css/ionicons.css)
-* [ionicons.ttf](https://github.com/ionic-team/ionicons/blob/master/src/docs/archived/v2/fonts/ionicons.ttf)  
 
 ### [Fontaudio](https://github.com/fefanto/fontaudio)
 * [https://github.com/fefanto/fontaudio](https://github.com/fefanto/fontaudio)
@@ -74,6 +64,9 @@ Font Awesome 5 splits the different styles of icons into different font files wi
 
 ### Generating Pro header files
 Download the Font Awesome Pro Web package. To generate the headers, drop *icons.yml* in the same directory as *GenerateIconFontCppHeaders.py* before running the script. The file *icons.yml* is under *..\fontawesome-pro-n.n.n-web\metadata\icons.yml* where *n.n.n* is the version number.
+
+## Ionicons and webfont Material Design Icons
+Unsupported as of 29 Apr 2020. See [Issue #16](https://github.com/juliettef/IconFontCppHeaders/issues/16).
 
 ## Example Code
 

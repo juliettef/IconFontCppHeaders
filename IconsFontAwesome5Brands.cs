@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xf081;
-        public const int IconMax = 0xf957;
+        public const int IconMax = 0xf97c;
         public const string The500px = "\uf26e";
         public const string AccessibleIcon = "\uf368";
         public const string Accusoft = "\uf369";
@@ -107,6 +107,7 @@ namespace IconFonts
         public const string DAndDBeyond = "\uf6ca";
         public const string Dailymotion = "\uf952";
         public const string Dashcube = "\uf210";
+        public const string Deezer = "\uf977";
         public const string Delicious = "\uf1a5";
         public const string Deploydog = "\uf38e";
         public const string Deskpro = "\uf38f";
@@ -129,6 +130,7 @@ namespace IconFonts
         public const string Earlybirds = "\uf39a";
         public const string Ebay = "\uf4f4";
         public const string Edge = "\uf282";
+        public const string EdgeLegacy = "\uf978";
         public const string Elementor = "\uf430";
         public const string Ello = "\uf5f1";
         public const string Ember = "\uf423";
@@ -189,6 +191,7 @@ namespace IconFonts
         public const string GoodreadsG = "\uf3a9";
         public const string Google = "\uf1a0";
         public const string GoogleDrive = "\uf3aa";
+        public const string GooglePay = "\uf979";
         public const string GooglePlay = "\uf3ab";
         public const string GooglePlus = "\uf2b3";
         public const string GooglePlusG = "\uf0d5";
@@ -331,6 +334,7 @@ namespace IconFonts
         public const string Rev = "\uf5b2";
         public const string Rocketchat = "\uf3e8";
         public const string Rockrms = "\uf3e9";
+        public const string Rust = "\uf97a";
         public const string Safari = "\uf267";
         public const string Salesforce = "\uf83b";
         public const string Sass = "\uf41e";
@@ -388,6 +392,7 @@ namespace IconFonts
         public const string Themeco = "\uf5c6";
         public const string Themeisle = "\uf2b2";
         public const string ThinkPeaks = "\uf731";
+        public const string Tiktok = "\uf97b";
         public const string TradeFederation = "\uf513";
         public const string Trello = "\uf181";
         public const string Tripadvisor = "\uf262";
@@ -403,6 +408,7 @@ namespace IconFonts
         public const string Umbraco = "\uf8e8";
         public const string Uniregistry = "\uf404";
         public const string Unity = "\uf949";
+        public const string Unsplash = "\uf97c";
         public const string Untappd = "\uf405";
         public const string Ups = "\uf7e0";
         public const string Usb = "\uf287";

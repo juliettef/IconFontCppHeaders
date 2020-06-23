@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf957
+#define ICON_MAX_FAB 0xf97c
 #define ICON_FA_500PX u8"\uf26e"
 #define ICON_FA_ACCESSIBLE_ICON u8"\uf368"
 #define ICON_FA_ACCUSOFT u8"\uf369"
@@ -105,6 +105,7 @@
 #define ICON_FA_D_AND_D_BEYOND u8"\uf6ca"
 #define ICON_FA_DAILYMOTION u8"\uf952"
 #define ICON_FA_DASHCUBE u8"\uf210"
+#define ICON_FA_DEEZER u8"\uf977"
 #define ICON_FA_DELICIOUS u8"\uf1a5"
 #define ICON_FA_DEPLOYDOG u8"\uf38e"
 #define ICON_FA_DESKPRO u8"\uf38f"
@@ -127,6 +128,7 @@
 #define ICON_FA_EARLYBIRDS u8"\uf39a"
 #define ICON_FA_EBAY u8"\uf4f4"
 #define ICON_FA_EDGE u8"\uf282"
+#define ICON_FA_EDGE_LEGACY u8"\uf978"
 #define ICON_FA_ELEMENTOR u8"\uf430"
 #define ICON_FA_ELLO u8"\uf5f1"
 #define ICON_FA_EMBER u8"\uf423"
@@ -187,6 +189,7 @@
 #define ICON_FA_GOODREADS_G u8"\uf3a9"
 #define ICON_FA_GOOGLE u8"\uf1a0"
 #define ICON_FA_GOOGLE_DRIVE u8"\uf3aa"
+#define ICON_FA_GOOGLE_PAY u8"\uf979"
 #define ICON_FA_GOOGLE_PLAY u8"\uf3ab"
 #define ICON_FA_GOOGLE_PLUS u8"\uf2b3"
 #define ICON_FA_GOOGLE_PLUS_G u8"\uf0d5"
@@ -329,6 +332,7 @@
 #define ICON_FA_REV u8"\uf5b2"
 #define ICON_FA_ROCKETCHAT u8"\uf3e8"
 #define ICON_FA_ROCKRMS u8"\uf3e9"
+#define ICON_FA_RUST u8"\uf97a"
 #define ICON_FA_SAFARI u8"\uf267"
 #define ICON_FA_SALESFORCE u8"\uf83b"
 #define ICON_FA_SASS u8"\uf41e"
@@ -386,6 +390,7 @@
 #define ICON_FA_THEMECO u8"\uf5c6"
 #define ICON_FA_THEMEISLE u8"\uf2b2"
 #define ICON_FA_THINK_PEAKS u8"\uf731"
+#define ICON_FA_TIKTOK u8"\uf97b"
 #define ICON_FA_TRADE_FEDERATION u8"\uf513"
 #define ICON_FA_TRELLO u8"\uf181"
 #define ICON_FA_TRIPADVISOR u8"\uf262"
@@ -401,6 +406,7 @@
 #define ICON_FA_UMBRACO u8"\uf8e8"
 #define ICON_FA_UNIREGISTRY u8"\uf404"
 #define ICON_FA_UNITY u8"\uf949"
+#define ICON_FA_UNSPLASH u8"\uf97c"
 #define ICON_FA_UNTAPPD u8"\uf405"
 #define ICON_FA_UPS u8"\uf7e0"
 #define ICON_FA_USB u8"\uf287"

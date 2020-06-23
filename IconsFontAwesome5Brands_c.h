@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAB "fa-brands-400.ttf"
 
 #define ICON_MIN_FAB 0xf081
-#define ICON_MAX_FAB 0xf957
+#define ICON_MAX_FAB 0xf97c
 #define ICON_FA_500PX "\xef\x89\xae"
 #define ICON_FA_ACCESSIBLE_ICON "\xef\x8d\xa8"
 #define ICON_FA_ACCUSOFT "\xef\x8d\xa9"
@@ -105,6 +105,7 @@
 #define ICON_FA_D_AND_D_BEYOND "\xef\x9b\x8a"
 #define ICON_FA_DAILYMOTION "\xef\xa5\x92"
 #define ICON_FA_DASHCUBE "\xef\x88\x90"
+#define ICON_FA_DEEZER "\xef\xa5\xb7"
 #define ICON_FA_DELICIOUS "\xef\x86\xa5"
 #define ICON_FA_DEPLOYDOG "\xef\x8e\x8e"
 #define ICON_FA_DESKPRO "\xef\x8e\x8f"
@@ -127,6 +128,7 @@
 #define ICON_FA_EARLYBIRDS "\xef\x8e\x9a"
 #define ICON_FA_EBAY "\xef\x93\xb4"
 #define ICON_FA_EDGE "\xef\x8a\x82"
+#define ICON_FA_EDGE_LEGACY "\xef\xa5\xb8"
 #define ICON_FA_ELEMENTOR "\xef\x90\xb0"
 #define ICON_FA_ELLO "\xef\x97\xb1"
 #define ICON_FA_EMBER "\xef\x90\xa3"
@@ -187,6 +189,7 @@
 #define ICON_FA_GOODREADS_G "\xef\x8e\xa9"
 #define ICON_FA_GOOGLE "\xef\x86\xa0"
 #define ICON_FA_GOOGLE_DRIVE "\xef\x8e\xaa"
+#define ICON_FA_GOOGLE_PAY "\xef\xa5\xb9"
 #define ICON_FA_GOOGLE_PLAY "\xef\x8e\xab"
 #define ICON_FA_GOOGLE_PLUS "\xef\x8a\xb3"
 #define ICON_FA_GOOGLE_PLUS_G "\xef\x83\x95"
@@ -329,6 +332,7 @@
 #define ICON_FA_REV "\xef\x96\xb2"
 #define ICON_FA_ROCKETCHAT "\xef\x8f\xa8"
 #define ICON_FA_ROCKRMS "\xef\x8f\xa9"
+#define ICON_FA_RUST "\xef\xa5\xba"
 #define ICON_FA_SAFARI "\xef\x89\xa7"
 #define ICON_FA_SALESFORCE "\xef\xa0\xbb"
 #define ICON_FA_SASS "\xef\x90\x9e"
@@ -386,6 +390,7 @@
 #define ICON_FA_THEMECO "\xef\x97\x86"
 #define ICON_FA_THEMEISLE "\xef\x8a\xb2"
 #define ICON_FA_THINK_PEAKS "\xef\x9c\xb1"
+#define ICON_FA_TIKTOK "\xef\xa5\xbb"
 #define ICON_FA_TRADE_FEDERATION "\xef\x94\x93"
 #define ICON_FA_TRELLO "\xef\x86\x81"
 #define ICON_FA_TRIPADVISOR "\xef\x89\xa2"
@@ -401,6 +406,7 @@
 #define ICON_FA_UMBRACO "\xef\xa3\xa8"
 #define ICON_FA_UNIREGISTRY "\xef\x90\x84"
 #define ICON_FA_UNITY "\xef\xa5\x89"
+#define ICON_FA_UNSPLASH "\xef\xa5\xbc"
 #define ICON_FA_UNTAPPD "\xef\x90\x85"
 #define ICON_FA_UPS "\xef\x9f\xa0"
 #define ICON_FA_USB "\xef\x8a\x87"

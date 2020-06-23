@@ -63,6 +63,8 @@ namespace IconFonts
         public const string Backspace = "\uf55a";
         public const string Backward = "\uf04a";
         public const string Bacon = "\uf7e5";
+        public const string Bacteria = "\uf959";
+        public const string Bacterium = "\uf95a";
         public const string Bahai = "\uf666";
         public const string BalanceScale = "\uf24e";
         public const string BalanceScaleLeft = "\uf515";
@@ -770,6 +772,7 @@ namespace IconFonts
         public const string Signal = "\uf012";
         public const string Signature = "\uf5b7";
         public const string SimCard = "\uf7c4";
+        public const string Sink = "\uf96d";
         public const string Sitemap = "\uf0e8";
         public const string Skating = "\uf7c5";
         public const string Skiing = "\uf7c9";
@@ -962,6 +965,7 @@ namespace IconFonts
         public const string UserTimes = "\uf235";
         public const string Users = "\uf0c0";
         public const string UsersCog = "\uf509";
+        public const string UsersSlash = "\uf973";
         public const string UtensilSpoon = "\uf2e5";
         public const string Utensils = "\uf2e7";
         public const string VectorSquare = "\uf5cb";

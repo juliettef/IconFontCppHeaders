@@ -754,8 +754,8 @@ namespace IconFonts
         public const string FDroid = "\uf32a";
         public const string Biometric = "\uf32b";
         public const string Wire = "\uf32c";
-        public const string TorOnion = "\uf32d";
-        public const string VolumeMute = "\uf32e";
+        public const string TorOnion = "\uf32e";
+        public const string VolumeMute = "\uf32f";
         public const string BellRinging = "\uf32d";
         public const string BellRingingO = "\uf330";
         public const string Hal = "\uf333";

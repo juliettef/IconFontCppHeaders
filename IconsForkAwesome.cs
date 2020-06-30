@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "forkawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf339;
+        public const int IconMax = 0xf35f;
         public const string Glass = "\uf000";
         public const string Music = "\uf001";
         public const string Search = "\uf002";
@@ -767,5 +767,43 @@ namespace IconFonts
         public const string Orcid = "\uf337";
         public const string Researchgate = "\uf338";
         public const string Funkwhale = "\uf339";
+        public const string Askfm = "\uf33a";
+        public const string Blockstack = "\uf33b";
+        public const string Boardgamegeek = "\uf33c";
+        public const string Bunny = "\uf35f";
+        public const string Buymeacoffee = "\uf33d";
+        public const string CcBy = "\uf33e";
+        public const string CcCc = "\uf33f";
+        public const string CcNcEu = "\uf341";
+        public const string CcNcJp = "\uf342";
+        public const string CcNc = "\uf340";
+        public const string CcNd = "\uf343";
+        public const string CcPd = "\uf344";
+        public const string CcRemix = "\uf345";
+        public const string CcSa = "\uf346";
+        public const string CcShare = "\uf347";
+        public const string CcZero = "\uf348";
+        public const string ConwayGlider = "\uf349";
+        public const string Csharp = "\uf34a";
+        public const string EmailBulk = "\uf34b";
+        public const string EmailBulkO = "\uf34c";
+        public const string Gnu = "\uf34d";
+        public const string GooglePlay = "\uf34e";
+        public const string Heroku = "\uf34f";
+        public const string HomeAssistant = "\uf350";
+        public const string Java = "\uf351";
+        public const string Mariadb = "\uf352";
+        public const string Markdown = "\uf353";
+        public const string Mysql = "\uf354";
+        public const string Nordcast = "\uf355";
+        public const string Plume = "\uf356";
+        public const string Postgresql = "\uf357";
+        public const string SassAlt = "\uf359";
+        public const string Sass = "\uf358";
+        public const string Skate = "\uf35a";
+        public const string Sketchfab = "\uf35b";
+        public const string Tex = "\uf35c";
+        public const string Textpattern = "\uf35d";
+        public const string Unity = "\uf35e";
     }
 }

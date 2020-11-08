@@ -1783,6 +1783,8 @@
 #define ICON_FA_VENUS "\xef\x88\xa1"	// U+f221
 #define ICON_FA_VENUS_DOUBLE "\xef\x88\xa6"	// U+f226
 #define ICON_FA_VENUS_MARS "\xef\x88\xa8"	// U+f228
+#define ICON_FA_VEST "\xee\x82\x85"	// U+e085
+#define ICON_FA_VEST_PATCHES "\xee\x82\x86"	// U+e086
 #define ICON_FA_VHS "\xef\xa3\xac"	// U+f8ec
 #define ICON_FA_VIAL "\xef\x92\x92"	// U+f492
 #define ICON_FA_VIALS "\xef\x92\x93"	// U+f493

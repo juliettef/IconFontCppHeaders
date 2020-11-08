@@ -14,7 +14,6 @@ namespace IconFonts
         public const string Accusoft = "\uf369";
         public const string AcquisitionsIncorporated = "\uf6af";
         public const string Adn = "\uf170";
-        public const string Adobe = "\uf778";
         public const string Adversal = "\uf36a";
         public const string Affiliatetheme = "\uf36b";
         public const string Airbnb = "\uf834";
@@ -75,6 +74,7 @@ namespace IconFonts
         public const string Centos = "\uf789";
         public const string Chrome = "\uf268";
         public const string Chromecast = "\uf838";
+        public const string Cloudflare = "\ue07d";
         public const string Cloudscale = "\uf383";
         public const string Cloudsmith = "\uf384";
         public const string Cloudversify = "\uf385";
@@ -201,12 +201,14 @@ namespace IconFonts
         public const string Grav = "\uf2d6";
         public const string Gripfire = "\uf3ac";
         public const string Grunt = "\uf3ad";
+        public const string Guilded = "\ue07e";
         public const string Gulp = "\uf3ae";
         public const string HackerNews = "\uf1d4";
         public const string HackerNewsSquare = "\uf3af";
         public const string Hackerrank = "\uf5f7";
         public const string Hips = "\uf452";
         public const string HireAHelper = "\uf3b0";
+        public const string Hive = "\ue07f";
         public const string Hooli = "\uf427";
         public const string Hornbill = "\uf592";
         public const string Hotjar = "\uf3b1";
@@ -215,8 +217,10 @@ namespace IconFonts
         public const string Hubspot = "\uf3b2";
         public const string Ideal = "\ue013";
         public const string Imdb = "\uf2d8";
+        public const string Innosoft = "\ue080";
         public const string Instagram = "\uf16d";
         public const string InstagramSquare = "\ue055";
+        public const string Instalod = "\ue081";
         public const string Intercom = "\uf7af";
         public const string InternetExplorer = "\uf26b";
         public const string Invision = "\uf7b0";
@@ -280,6 +284,7 @@ namespace IconFonts
         public const string Npm = "\uf3d4";
         public const string Ns8 = "\uf3d5";
         public const string Nutritionix = "\uf3d6";
+        public const string OctopusDeploy = "\ue082";
         public const string Odnoklassniki = "\uf263";
         public const string OdnoklassnikiSquare = "\uf264";
         public const string OldRepublic = "\uf510";
@@ -295,6 +300,7 @@ namespace IconFonts
         public const string Patreon = "\uf3d9";
         public const string Paypal = "\uf1ed";
         public const string PennyArcade = "\uf704";
+        public const string Perbyte = "\ue083";
         public const string Periscope = "\uf3da";
         public const string Phabricator = "\uf3db";
         public const string PhoenixFramework = "\uf3dc";
@@ -406,6 +412,7 @@ namespace IconFonts
         public const string Ubuntu = "\uf7df";
         public const string Uikit = "\uf403";
         public const string Umbraco = "\uf8e8";
+        public const string Uncharted = "\ue084";
         public const string Uniregistry = "\uf404";
         public const string Unity = "\ue049";
         public const string Unsplash = "\ue07c";
@@ -426,6 +433,7 @@ namespace IconFonts
         public const string Vk = "\uf189";
         public const string Vnv = "\uf40b";
         public const string Vuejs = "\uf41f";
+        public const string WatchmanMonitoring = "\ue087";
         public const string Waze = "\uf83f";
         public const string Weebly = "\uf5cc";
         public const string Weibo = "\uf18a";
@@ -437,6 +445,7 @@ namespace IconFonts
         public const string Windows = "\uf17a";
         public const string Wix = "\uf5cf";
         public const string WizardsOfTheCoast = "\uf730";
+        public const string Wodu = "\ue088";
         public const string WolfPackBattalion = "\uf514";
         public const string Wordpress = "\uf19a";
         public const string WordpressSimple = "\uf411";

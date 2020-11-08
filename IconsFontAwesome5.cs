@@ -972,6 +972,8 @@ namespace IconFonts
         public const string Venus = "\uf221";
         public const string VenusDouble = "\uf226";
         public const string VenusMars = "\uf228";
+        public const string Vest = "\ue085";
+        public const string VestPatches = "\ue086";
         public const string Vial = "\uf492";
         public const string Vials = "\uf493";
         public const string Video = "\uf03d";

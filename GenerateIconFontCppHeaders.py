@@ -80,6 +80,7 @@ import requests
 import yaml
 import os
 import sys
+from io import BytesIO
 
 if sys.version_info[0] < 3:
     raise Exception( "Python 3 or a more recent version is required." )
@@ -410,7 +411,75 @@ class LanguageC( Language ):
                                         code = icon_code,
                                         unicode =icon[ 1 ] )
         return result
-
+        
+    @classmethod
+    def downloadTTF( cls, url, filename ):
+        font_name = cls.intermediate.get('font_name')
+        response = requests.get(url, timeout = 4)
+        if response.status_code == 200:
+            outF = open(filename, "wb")
+            outF.writelines(BytesIO(response.content))
+            outF.close()
+            print('    Downloaded - ' + filename + ' - ' + font_name)
+        else:
+            raise Exception('    Download failed - ' + font_name)
+            
+    @classmethod
+    def binarize_font( cls ):
+        font_name = cls.intermediate.get('font_name')
+        
+        i = 0
+        filenames = []
+        filesDownloaded = []
+        fileExists = False
+        ttfs = cls.intermediate.get('font_ttf').split(', ')
+        for ttf in ttfs:
+            filename = ''
+            if 'http' in ttf:  # if url, download data
+                tempFilename = cls.intermediate.get('font_file_name_ttf')[i][1]
+                cls.downloadTTF(ttf, tempFilename)
+                filename = tempFilename
+                filesDownloaded.append(True)
+            else:
+                filename = ttf
+                filesDownloaded.append(False)
+                
+            filenames.append(filename)
+            if fileExists == False:
+                fileExists = os.path.isfile(filename)
+            i = i + 1
+    
+        if fileExists == True:
+            outFilename = cls.file_name.format(name = str(font_name).replace(' ', '')).replace('.h', '.ttf.h')
+            outFile = open(outFilename, "w") 
+            
+            i = 0
+            for filename in filenames:
+                if len(filename) > 0: 
+                    inFile = open(filename, "rb")
+                    arrayName = filename[:-len('.ttf')].replace('-','_')
+                    arraySize = os.path.getsize(filename)
+                    outFile.write("static const uint8_t s_{name}[{size}] = \n".format( name = arrayName, size = arraySize) + "{")
+                    byte = inFile.read(1)
+                    bytesPerLine = 16
+                    n = 0
+                    while byte:
+                        currentByte = byte[0]
+                        if (n % bytesPerLine) == 0:
+                            outFile.write("\n    ")
+                        outFile.write("0x" + str(hex(int(currentByte / 16))[2:]) + str(hex(currentByte % 16)[2:]) + ", ")
+                        n = n + 1
+                        byte = inFile.read(1)
+                    outFile.write("\n};\n\n")
+                    inFile.close()
+                    if filesDownloaded[i] == True:
+                        os.remove(filename)
+                    i = i + 1
+                    print('    Binarized - ' + filename)
+    
+            outFile.close()
+            print('    Saved - ' + outFilename)
+        
 
 class LanguageCSharp( Language ):
     language_name = "C#"
@@ -482,6 +551,7 @@ class LanguageCSharp( Language ):
 # Main
 fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontKI, FontFAD ]
 languages = [ LanguageC, LanguageCSharp ]
+binarizeC = True
 
 intermediates = []
 for font in fonts:
@@ -497,3 +567,9 @@ if intermediates:
         for lang in languages:
             if lang:
                 lang.save_to_file()
+                if lang == LanguageC and binarizeC:
+                    try:
+                        lang.binarize_font()   
+                    except Exception as e:
+                        os.remove(lang.file_name.format( name = str(lang.intermediate.get( 'font_name' )).replace( ' ', '' )))
+                        print('    [ ERROR: {!s} ]'.format( e ))

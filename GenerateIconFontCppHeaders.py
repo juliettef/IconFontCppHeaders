@@ -437,6 +437,9 @@ class LanguageC( Language ):
             filename = ''
             if 'http' in ttf:  # if url, download data
                 tempFilename = cls.intermediate.get('font_file_name_ttf')[i][1]
+                if 'github.com' in ttf:
+                    ttf = ttf.replace('/github.com/', '/raw.githubusercontent.com/')
+                    ttf = ttf.replace('/blob/', '/')
                 cls.downloadTTF(ttf, tempFilename)
                 filename = tempFilename
                 filesDownloaded.append(True)

@@ -173,8 +173,8 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
     font_name = 'Font Awesome 5'
     font_abbr = 'FA'
     font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml'
-    font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf, ' +\
-        'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf, '
+    font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf, ' + \
+               'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf, '
     font_file_name_ttf = [[ 'FAR', 'fa-regular-400.ttf' ], [ 'FAS', 'fa-solid-900.ttf' ]]
     font_fa_style = [ 'regular', 'solid' ]
 
@@ -290,7 +290,7 @@ class FontFAD( Font ):               # Fontaudio
     font_name = 'Fontaudio'
     font_abbr = 'FAD'
     font_data = 'https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css'
-    font_ttf = 'https://github.com/fefanto/fontaudio/raw/master/font/fontaudio.ttf'
+    font_ttf = 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf'
     font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/') + 1: ]]]
 
     @classmethod

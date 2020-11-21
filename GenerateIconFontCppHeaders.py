@@ -176,7 +176,7 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
     font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml'
     font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf, ' +\
         'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf, '
-    font_file_name_ttf = [ 'FAS', 'fa-solid-900.ttf' ]], [[ 'FAR', 'fa-regular-400.ttf' ]
+    font_file_name_ttf = [[ 'FAS', 'fa-solid-900.ttf' ], [ 'FAR', 'fa-regular-400.ttf' ]]
     font_fa_style = [ 'regular', 'solid' ]
 
     @classmethod

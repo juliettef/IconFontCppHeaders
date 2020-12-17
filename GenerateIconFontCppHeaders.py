@@ -91,11 +91,10 @@ class Font:
     font_abbr = '[ ERROR - missing font abbreviation ]'
     font_minmax_abbr = ''   # optional - use if min and max defines must be differentiated. See Font Awesome Brand for example.
     font_data = '[ ERROR - missing font data file or url ]'
-    font_ttf = '[ ERROR - missing ttf file or url ]'
-    font_file_name_ttf = '[ ERROR - missing ttf file name ]'
+    ttfs = '[ ERROR - missing ttf ]'
 
     @classmethod
-    def get_icons( cls, input ):
+    def get_icons( cls, input_data ):
         # intermediate representation of the fonts data, identify the min and max
         print( '[ ERROR - missing implementation of class method get_icons for {!s} ]'.format( cls.font_name ))
         icons_data = {}
@@ -107,7 +106,6 @@ class Font:
     @classmethod
     def get_intermediate_representation( cls ):
         font_ir = {}
-        input_raw = ''
         if 'http' in cls.font_data:  # if url, download data
             response = requests.get( cls.font_data, timeout = 2 )
             if response.status_code == 200:
@@ -119,18 +117,18 @@ class Font:
             if os.path.isfile( cls.font_data ):
                 with open( cls.font_data, 'r' ) as f:
                     input_raw = f.read()
+                    f.close()
                     print( 'File read - ' + cls.font_name )
             else:
-                raise Exception( 'File ' + cls.font_data + ' missing - ' +  cls.font_name )
+                raise Exception( 'File ' + cls.font_name + ' missing - ' + cls.font_data )
         if input_raw:
             icons_data = cls.get_icons( input_raw )
             font_ir.update( icons_data )
-            font_ir.update({ 'font_ttf' : cls.font_ttf,
-                             'font_data' : cls.font_data,
-                             'font_file_name_ttf' : cls.font_file_name_ttf,
+            font_ir.update({ 'font_data' : cls.font_data,
                              'font_name' : cls.font_name,
                              'font_abbr' : cls.font_abbr,
-                             'font_minmax_abbr' : cls.font_minmax_abbr })
+                             'font_minmax_abbr' : cls.font_minmax_abbr,
+                             'ttfs' : cls.ttfs, })
             print( 'Generated intermediate data - ' + cls.font_name )
         return font_ir
 
@@ -139,13 +137,12 @@ class FontFA4( Font ):              # legacy Font Awesome version 4
     font_name = 'Font Awesome 4'
     font_abbr = 'FA'
     font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml'
-    font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf'
-    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
+    ttfs = [[ font_abbr, 'fontawesome-webfont.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf' ]]
 
     @classmethod
-    def get_icons( self, input ):
+    def get_icons( cls, input_data ):
         icons_data = { }
-        data = yaml.safe_load(input)
+        data = yaml.safe_load( input_data )
         font_min = 'ffff'
         font_max = '0'
         icons = []
@@ -165,23 +162,21 @@ class FontFK( FontFA4 ):            # Fork Awesome, based on Font Awesome 4
     font_name = 'Fork Awesome'
     font_abbr = 'FK'
     font_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
-    font_ttf = 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf'
-    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
+    ttfs = [[ font_abbr, 'forkawesome-webfont.ttf', 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf' ]]
 
 
 class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid styles
     font_name = 'Font Awesome 5'
     font_abbr = 'FA'
     font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml'
-    font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf, ' + \
-               'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf, '
-    font_file_name_ttf = [[ 'FAR', 'fa-regular-400.ttf' ], [ 'FAS', 'fa-solid-900.ttf' ]]
+    ttfs = [[ 'FAR', 'fa-regular-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf' ],
+            [ 'FAS', 'fa-solid-900.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf' ]]
     font_fa_style = [ 'regular', 'solid' ]
 
     @classmethod
-    def get_icons( self, input ):
+    def get_icons( cls, input_data ):
         icons_data = { }
-        data = yaml.safe_load(input)
+        data = yaml.safe_load( input_data )
         if data:
             font_min = 'ffff'
             font_max = '0'
@@ -189,13 +184,13 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
             for key in data:
                 item = data[ key ]
                 for style in item[ 'styles' ]:
-                    if style in self.font_fa_style:
+                    if style in cls.font_fa_style:
                         if [ key, item[ 'unicode' ]] not in icons:
                             if item[ 'unicode' ] < font_min:
                                 font_min = item[ 'unicode' ]
                             if item[ 'unicode' ] >= font_max:
                                 font_max = item[ 'unicode' ]
-                            icons.append([ key, item[ 'unicode' ] ])
+                            icons.append([ key, item[ 'unicode' ]])
             icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
         return icons_data
 
@@ -203,16 +198,16 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
 class FontFA5Brands( FontFA5 ):     # Font Awesome version 5 - Brand style
     font_name = 'Font Awesome 5 Brands'
     font_minmax_abbr = 'FAB'
-    font_ttf = 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf'
-    font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
+    ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf' ]]
     font_fa_style = [ 'brands' ]
 
 
 class FontFA5Pro( FontFA5 ):        # Font Awesome version 5 Pro - Light, Regular and Solid styles
     font_name = 'Font Awesome 5 Pro'
     font_data = 'icons.yml'
-    font_ttf = 'fa-light-300.ttf, fa-regular-400.ttf, fa-solid-900.ttf'
-    font_file_name_ttf = [[ 'FAL', 'fa-light-300.ttf' ], [ 'FAR', 'fa-regular-400.ttf' ], [ 'FAS', 'fa-solid-900.ttf' ]]
+    ttfs = [[ 'FAL', 'fa-light-300.ttf', 'fa-light-300.ttf' ],
+            [ 'FAR', 'fa-regular-400.ttf', 'fa-regular-400.ttf' ],
+            [ 'FAS', 'fa-solid-900.ttf', 'fa-solid-900.ttf' ]]
     font_fa_style = [ 'light', 'regular', 'solid' ]
 
 
@@ -220,8 +215,7 @@ class FontFA5ProBrands( FontFA5 ):  # Font Awesome version 5 Pro - Brand style
     font_name = 'Font Awesome 5 Pro Brands'
     font_minmax_abbr = 'FAB'
     font_data = 'icons.yml'
-    font_ttf = 'fa-brands-400.ttf'
-    font_file_name_ttf = [[ 'FAB', 'fa-brands-400.ttf' ]]
+    ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'fa-brands-400.ttf' ]]
     font_fa_style = [ 'brands' ]
 
 
@@ -229,13 +223,12 @@ class FontMD( Font ):               # Material Design
     font_name = 'Material Design'
     font_abbr = 'MD'
     font_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
-    font_ttf = 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf'
-    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
+    ttfs = [[ font_abbr, 'MaterialIcons-Regular.ttf', 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf' ]]
 
     @classmethod
-    def get_icons( self, input ):
+    def get_icons( cls, input_data ):
         icons_data = {}
-        lines = str.split( input, '\n' )
+        lines = str.split( input_data, '\n' )
         if lines:
             font_min = 'ffff'
             font_max = '0'
@@ -258,13 +251,12 @@ class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'
     font_abbr = 'KI'
     font_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
-    font_ttf = 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf'
-    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/')+1: ]]]
+    ttfs = [[ font_abbr, 'kenney-icon-font.ttf', 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf' ]]
 
     @classmethod
-    def get_icons( self, input ):
+    def get_icons( cls, input_data ):
         icons_data = {}
-        lines = str.split( input, '\n' )
+        lines = str.split( input_data, '\n' )
         if lines:
             font_min = 'ffff'
             font_max = '0'
@@ -273,8 +265,8 @@ class FontKI( Font ):               # Kenney Game icons
                 if '.ki-' in line:
                     words = str.split(line)
                     if words and '.ki-' in words[ 0 ]:
-                        font_id = words[ 0 ].partition( '.ki-' )[2].partition( ':before' )[0]
-                        font_code = words[ 2 ].partition( '"\\' )[2].partition( '";' )[0]
+                        font_id = words[ 0 ].partition( '.ki-' )[ 2 ].partition( ':before' )[ 0 ]
+                        font_code = words[ 2 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
                         if font_code < font_min:
                             font_min = font_code
                         if font_code >= font_max:
@@ -290,13 +282,12 @@ class FontFAD( Font ):               # Fontaudio
     font_name = 'Fontaudio'
     font_abbr = 'FAD'
     font_data = 'https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css'
-    font_ttf = 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf'
-    font_file_name_ttf = [[ font_abbr, font_ttf[ font_ttf.rfind('/') + 1: ]]]
+    ttfs = [[ font_abbr, 'fontaudio.ttf', 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf' ]]
 
     @classmethod
-    def get_icons( self, input ):
+    def get_icons( cls, input_data ):
         icons_data = {}
-        lines = str.split( input, '}\n' )
+        lines = str.split( input_data, '}\n' )
         if lines:
             font_min = 'ffff'
             font_max = '0'
@@ -305,8 +296,8 @@ class FontFAD( Font ):               # Fontaudio
                 if '.icon-fad-' in line:
                     words = str.split( line )
                     if words and '.icon-fad-' in words[ 0 ]:
-                        font_id = words[ 0 ].partition( '.icon-fad-' )[2].partition( ':before' )[0]
-                        font_code = words[ 3 ].partition( '"\\' )[2].partition( '";' )[0]
+                        font_id = words[ 0 ].partition( '.icon-fad-' )[ 2 ].partition( ':before' )[ 0 ]
+                        font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
                         if font_code < font_min:
                             font_min = font_code
                         if font_code >= font_max:
@@ -358,16 +349,17 @@ class Language:
             line_icon = cls.line_icon( icon )
             result += line_icon
         result += cls.epilogue()
-        print(( 'Converted - {!s} for {!s}' ).format( cls.intermediate.get( 'font_name' ), cls.language_name ))
+        print( 'Converted - {!s} for {!s}'.format( cls.intermediate.get( 'font_name' ), cls.language_name ))
         return result
 
     @classmethod
     def save_to_file( cls ):
-        filename = cls.file_name.format( name = str(cls.intermediate.get( 'font_name' )).replace( ' ', '' ))
+        filename = cls.file_name.format( name = str( cls.intermediate.get( 'font_name' )).replace( ' ', '' ))
         converted = cls.convert()
         with open( filename, 'w' ) as f:
             f.write( converted )
-        print(( 'Saved - {!s}' ).format( filename ))
+            f.close()
+        print( 'Saved - {!s}'.format( filename ))
 
 
 class LanguageC( Language ):
@@ -378,15 +370,17 @@ class LanguageC( Language ):
     def prelude( cls ):
         tmpl_prelude = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for languages {lang}\n' + \
             '// from {font_data}\n' + \
-            '// for use with {font_ttf}\n' + \
+            '// for use with {ttf_files}\n' + \
             '#pragma once\n\n'
-        result = tmpl_prelude.format(lang = cls.language_name,
-                                     font_data = cls.intermediate.get( 'font_data' ),
-                                     font_ttf = cls.intermediate.get( 'font_ttf' ))
+        ttf_files = []
+        for ttf in cls.intermediate.get( 'ttfs' ):
+            ttf_files.append( ttf[ 2 ])
+        result = tmpl_prelude.format( lang = cls.language_name,
+                                      font_data = cls.intermediate.get( 'font_data' ),
+                                      ttf_files = ', '.join( ttf_files ))
         tmpl_prelude_define_file_name = '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n'
-        file_names_ttf = cls.intermediate.get( 'font_file_name_ttf' )
-        for file_name_ttf in file_names_ttf:
-            result += tmpl_prelude_define_file_name.format( font_abbr = file_name_ttf[ 0 ], file_name_ttf = file_name_ttf[ 1 ])
+        for ttf in cls.intermediate.get( 'ttfs' ):
+            result += tmpl_prelude_define_file_name.format( font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ])
         return result + '\n'
 
     @classmethod
@@ -411,6 +405,55 @@ class LanguageC( Language ):
                                         unicode =icon[ 1 ] )
         return result
 
+    @classmethod
+    def convert_ttf_to_header( cls ):
+        for ttf in cls.intermediate.get( 'ttfs' ):
+            # retrieve and read ttf file
+            if 'http' in ttf[ 2 ]:
+                # download and read (if file is on GitHub, add '?raw=true')
+                response = requests.get( ttf[ 2 ] + '?raw=true' if 'github.com' in ttf[ 2 ] else ttf[ 2 ], timeout = 2 )
+                if response.status_code == 200:
+                    ttf_data = response.content
+                    print( 'ttf file downloaded - ' + ttf[ 1 ] )
+                else:
+                    raise Exception( 'ttf file missing - ' + ttf[ 2 ])
+            else:
+                # open from disk and read
+                if os.path.isfile( ttf[ 2 ] ):
+                    with open( ttf[ 2 ], 'rb' ) as f:
+                        ttf_data = f.read()
+                        f.close()
+                        print( 'ttf file read - ' + ttf[ 1 ])
+                else:
+                    raise Exception( 'ttf file missing - ' + ttf[ 2 ])
+            # convert to header and save to disk
+            if ttf_data:
+                # convert ttf to header
+                tmpl_prelude_ttf = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for languages {lang}\n' + \
+                                   '// from {ttf_file}\n' + \
+                                   '// Requires #include <stdint.h>\n' + \
+                                   '#pragma once\n\n' + \
+                                   'static const uint8_t s_{name}_ttf[{size}] = \n{{'
+                result = tmpl_prelude_ttf.format( lang = cls.language_name,
+                                                  ttf_file = ttf[ 2 ],
+                                                  name = str( ttf[ 1 ][ :-len('.ttf') ].replace( '-', '_' ).replace( ' ', '' )),
+                                                  size = str( len( ttf_data )))
+                n = 0
+                for byte in ttf_data:
+                    if (n % 16) == 0:
+                        result += '\n\t'
+                    result += "0x" + str( hex( int( byte / 16 ))[ 2: ]) + str( hex( byte % 16 )[ 2: ]) + ", "
+                    n += 1
+                result += '\n};\n\n'
+                # save to disk
+                ttf_header_file_name = cls.file_name.format( name = str( cls.intermediate.get( 'font_name' )).replace( ' ', '' )) + '_' + ttf[ 1 ] + '.h'
+                with open( ttf_header_file_name, 'w' ) as f:
+                    f.write( result )
+                    f.close()
+                print( 'ttf File Saved - {!s}'.format( ttf_header_file_name ))
+            else:
+                raise Exception( 'Failed ttf to header conversion' + ttf[ 1 ] )
+
 
 class LanguageCSharp( Language ):
     language_name = "C#"
@@ -420,21 +463,22 @@ class LanguageCSharp( Language ):
     def prelude( cls ):
         tmpl_prelude = '// Generated by https://github.com/juliettef/IconFontCppHeaders script GenerateIconFontCppHeaders.py for language {lang}\n' + \
             '// from {font_data}\n' + \
-            '// for use with {font_ttf}\n' + \
+            '// for use with {ttf_files}\n' + \
             'namespace IconFonts\n' + \
             '{{\n' + \
             '    public class {font_name}\n' + \
             '    {{\n'
-
+        ttf_files = []
+        for ttf in cls.intermediate.get( 'ttfs' ):
+            ttf_files.append(ttf[ 2])
         result = tmpl_prelude.format(lang = cls.language_name,
                                      font_data = cls.intermediate.get( 'font_data' ),
-                                     font_ttf = cls.intermediate.get( 'font_ttf' ),
+                                     ttf_files = ', '.join( ttf_files ),
                                      font_name = cls.intermediate.get( 'font_name' ).replace( ' ', '' )
                                      )
         tmpl_prelude_define_file_name = '        public const string FontIconFileName = "{file_name_ttf}";\n'
-        file_names_ttf = cls.intermediate.get( 'font_file_name_ttf' )
-        for file_name_ttf in file_names_ttf:
-            result += tmpl_prelude_define_file_name.format( file_name_ttf = file_name_ttf[ 1 ])
+        for ttf in cls.intermediate.get( 'ttfs' ):
+            result += tmpl_prelude_define_file_name.format( file_name_ttf = ttf[ 1 ])
         return result + '\n'
 
     @classmethod
@@ -480,8 +524,9 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontKI, FontFAD ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontKI, FontFAD ] # FontMD - Issue #19
 languages = [ LanguageC, LanguageCSharp ]
+ttf2headerC = False # convert ttf files to C and C++ headers
 
 intermediates = []
 for font in fonts:
@@ -497,3 +542,8 @@ if intermediates:
         for lang in languages:
             if lang:
                 lang.save_to_file()
+                if ttf2headerC and lang == LanguageC:
+                    try:
+                        lang.convert_ttf_to_header()
+                    except Exception as e:
+                        print( '[ ERROR: {!s} ]'.format( e ))

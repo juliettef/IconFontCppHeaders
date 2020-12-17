@@ -6,3 +6,5 @@
 
 venv/
 icons.yml
+*.ttf
+*.ttf.h

@@ -13,6 +13,10 @@ A set of header files and classes for using icon fonts in C, C++ and C#, along w
 
 Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min and max code points for font loading purposes.
 
+In addition the python script can be used to convert ttf font files to C and C++ headers. 
+Each ttf icon font file is converted to a C and C++ header file containing a single array of bytes. 
+To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2headerC = True'. 
+
 ## Icon Fonts
 
 ### [Font Awesome](https://fontawesome.com)
@@ -43,7 +47,7 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 * [icons.yml](https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml)
 * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
 
-### [Google Material Design icons](https://design.google.com/icons)
+### [Google Material Design icons](https://design.google.com/icons) - see [Issue #19](https://github.com/juliettef/IconFontCppHeaders/issues/19)
 * [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons)
 * [codepoints](https://github.com/google/material-design-icons/blob/master/iconfont/codepoints)
 * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
@@ -134,4 +138,5 @@ Suggestion to add Fork Awesome - [Julien Deswaef](http://xuv.be/) - [@xuv](https
 Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@ocornut](https://github.com/ocornut)  
 C# language implementation - Rokas Kupstys - [@rokups](https://github.com/rokups)  
 Suggestion to add Material Design Icons - Gustav Madeso - [@madeso](https://github.com/madeso)  
-Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilarkin](https://github.com/olilarkin)
+Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilarkin](https://github.com/olilarkin)  
+Initial ttf to C and C++ headers conversion implementation - Charles Mailly - [@Caerind](https://github.com/Caerind)

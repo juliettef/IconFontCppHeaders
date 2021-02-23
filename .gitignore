@@ -1,7 +1,6 @@
-# don't commit pyhton compiled files
 *.pyc
 
-# Pycharm ignore
+.vscode/
 .idea/
 
 venv/

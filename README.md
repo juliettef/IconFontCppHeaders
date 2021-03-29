@@ -118,6 +118,11 @@ Real time 3D strange attractors scout.
 Cross platform C++ audio plug-in framework  
 [iplug2.github.io](https://iplug2.github.io)
 
+### [Lumix Engine](https://github.com/nem0/LumixEngine)
+3D C++ open source game engine  
+
+![Screenshot of Lumix Engine editor using IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://raw.githubusercontent.com/wiki/nem0/LumixEngine/files/features/editor.jpg)
+
 ### [Tracy Profiler](https://bitbucket.org/wolfpld/tracy/src/master/)
 Real time, nanosecond resolution, remote telemetry frame profiler for games and other applications.  
 

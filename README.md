@@ -102,7 +102,7 @@ Avoyd is a 6 degrees of freedom voxel game that includes a voxel editor tool.
 
 The voxel editor's UI uses Dear ImGui with Font Awesome icon fonts.  
 
-![Screenshot of the the game Avoyd's Voxel Editor UI using an IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://github.com/juliettef/Media/blob/master/IconFontCppHeaders_Avoyd_voxel_editor.png?raw=true)
+![Screenshot of the the game Avoyd's Voxel Editor UI using an IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://github.com/juliettef/Media/blob/main/IconFontCppHeaders_Avoyd_voxel_editor.png?raw=true)
 
 ### [bgfx](https://github.com/bkaradzic/bgfx)
 Cross-platform rendering library.  
@@ -123,7 +123,7 @@ Cross platform C++ audio plug-in framework
 
 ![Screenshot of Lumix Engine editor using IconFontCppHeaders header file for Font Awesome with Dear ImGui](https://raw.githubusercontent.com/wiki/nem0/LumixEngine/files/features/editor.jpg)
 
-### [Tracy Profiler](https://bitbucket.org/wolfpld/tracy/src/master/)
+### [Tracy Profiler](https://bitbucket.org/wolfpld/tracy)
 Real time, nanosecond resolution, remote telemetry frame profiler for games and other applications.  
 
 [![New features in Tracy Profiler v0.6](https://img.youtube.com/vi/uJkrFgriuOo/0.jpg)](https://www.youtube.com/watch?v=uJkrFgriuOo)

@@ -8,7 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "forkawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
-        public const int IconMax = 0xf35f;
+        public const int IconMax = 0xf372;
         public const string Glass = "\uf000";
         public const string Music = "\uf001";
         public const string Search = "\uf002";
@@ -805,5 +805,20 @@ namespace IconFonts
         public const string Tex = "\uf35c";
         public const string Textpattern = "\uf35d";
         public const string Unity = "\uf35e";
+        public const string Hedgedoc = "\uf360";
+        public const string Fediverse = "\uf361";
+        public const string Proftpd = "\uf362";
+        public const string Osi = "\uf363";
+        public const string Eyeem = "\uf364";
+        public const string EyeemO = "\uf365";
+        public const string Codeberg = "\uf366";
+        public const string Discourse = "\uf367";
+        public const string Mumble = "\uf368";
+        public const string Freedesktop = "\uf369";
+        public const string Javascript = "\uf370";
+        public const string Lemmy = "\uf371";
+        public const string Ipfs = "\uf372";
+        public const string Canonical = "\uf36a";
+        public const string Ubuntu = "\uf36b";
     }
 }

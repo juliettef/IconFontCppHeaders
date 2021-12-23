@@ -6,7 +6,7 @@
 #define FONT_ICON_FILE_NAME_FK "forkawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
-#define ICON_MAX_FK 0xf35f
+#define ICON_MAX_FK 0xf372
 #define ICON_FK_GLASS "\xef\x80\x80"	// U+f000
 #define ICON_FK_MUSIC "\xef\x80\x81"	// U+f001
 #define ICON_FK_SEARCH "\xef\x80\x82"	// U+f002
@@ -803,3 +803,18 @@
 #define ICON_FK_TEX "\xef\x8d\x9c"	// U+f35c
 #define ICON_FK_TEXTPATTERN "\xef\x8d\x9d"	// U+f35d
 #define ICON_FK_UNITY "\xef\x8d\x9e"	// U+f35e
+#define ICON_FK_HEDGEDOC "\xef\x8d\xa0"	// U+f360
+#define ICON_FK_FEDIVERSE "\xef\x8d\xa1"	// U+f361
+#define ICON_FK_PROFTPD "\xef\x8d\xa2"	// U+f362
+#define ICON_FK_OSI "\xef\x8d\xa3"	// U+f363
+#define ICON_FK_EYEEM "\xef\x8d\xa4"	// U+f364
+#define ICON_FK_EYEEM_O "\xef\x8d\xa5"	// U+f365
+#define ICON_FK_CODEBERG "\xef\x8d\xa6"	// U+f366
+#define ICON_FK_DISCOURSE "\xef\x8d\xa7"	// U+f367
+#define ICON_FK_MUMBLE "\xef\x8d\xa8"	// U+f368
+#define ICON_FK_FREEDESKTOP "\xef\x8d\xa9"	// U+f369
+#define ICON_FK_JAVASCRIPT "\xef\x8d\xb0"	// U+f370
+#define ICON_FK_LEMMY "\xef\x8d\xb1"	// U+f371
+#define ICON_FK_IPFS "\xef\x8d\xb2"	// U+f372
+#define ICON_FK_CANONICAL "\xef\x8d\xaa"	// U+f36a
+#define ICON_FK_UBUNTU "\xef\x8d\xab"	// U+f36b

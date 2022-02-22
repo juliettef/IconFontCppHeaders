@@ -24,8 +24,8 @@
 #           https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml
 #           https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
 #   1.3 - Google Material Design
-#           https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
-#           https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
+#           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints
+#           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf
 #   1.4 - Kenney Game icons
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
@@ -222,8 +222,8 @@ class FontFA5ProBrands( FontFA5 ):  # Font Awesome version 5 Pro - Brand style
 class FontMD( Font ):               # Material Design
     font_name = 'Material Design'
     font_abbr = 'MD'
-    font_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints'
-    ttfs = [[ font_abbr, 'MaterialIcons-Regular.ttf', 'https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf' ]]
+    font_data = 'https://github.com/google/material-design-icons/raw/master/font/MaterialIcons-Regular.codepoints'
+    ttfs = [[ font_abbr, 'MaterialIcons-Regular.ttf', 'https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf' ]]
 
     @classmethod
     def get_icons( cls, input_data ):

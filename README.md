@@ -49,8 +49,8 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 
 ### [Google Material Design icons](https://design.google.com/icons) - see [Issue #19](https://github.com/juliettef/IconFontCppHeaders/issues/19)
 * [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons)
-* [codepoints](https://github.com/google/material-design-icons/blob/master/iconfont/codepoints)
-* [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf)
+* [codepoints](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints)
+* [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf)
 
 ### [Kenney Game icons](http://kenney.nl/assets/game-icons) and [Game icons expansion](http://kenney.nl/assets/game-icons-expansion) 
 * [https://github.com/nicodinh/kenney-icon-font](https://github.com/nicodinh/kenney-icon-font)

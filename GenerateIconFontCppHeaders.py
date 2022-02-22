@@ -27,10 +27,10 @@
 #           https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
 #           https://github.com/google/material-design-icons/blob/master/iconfont/MaterialIcons-Regular.ttf
 #   1.4 - Kenney Game icons
-#           https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css
+#           https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
 #   1.5 - Fontaudio
-#           https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css
+#           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #------------------------------------------------------------------------------
 # 2 - Data sample
@@ -250,7 +250,7 @@ class FontMD( Font ):               # Material Design
 class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'
     font_abbr = 'KI'
-    font_data = 'https://raw.githubusercontent.com/nicodinh/kenney-icon-font/master/css/kenney-icons.css'
+    font_data = 'https://github.com/nicodinh/kenney-icon-font/raw/master/css/kenney-icons.css'
     ttfs = [[ font_abbr, 'kenney-icon-font.ttf', 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf' ]]
 
     @classmethod
@@ -281,7 +281,7 @@ class FontKI( Font ):               # Kenney Game icons
 class FontFAD( Font ):               # Fontaudio
     font_name = 'Fontaudio'
     font_abbr = 'FAD'
-    font_data = 'https://raw.githubusercontent.com/fefanto/fontaudio/master/font/fontaudio.css'
+    font_data = 'https://github.com/fefanto/fontaudio/raw/master/font/fontaudio.css'
     ttfs = [[ font_abbr, 'fontaudio.ttf', 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf' ]]
 
     @classmethod

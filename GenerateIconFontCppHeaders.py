@@ -21,7 +21,7 @@
 #           \fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf
 #           \fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf
 #   1.2 - Fork Awesome
-#           https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml
+#           https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml
 #           https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
 #   1.3 - Google Material Design
 #           https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/codepoints
@@ -161,7 +161,7 @@ class FontFA4( Font ):              # legacy Font Awesome version 4
 class FontFK( FontFA4 ):            # Fork Awesome, based on Font Awesome 4
     font_name = 'Fork Awesome'
     font_abbr = 'FK'
-    font_data = 'https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/icons.yml'
+    font_data = 'https://github.com/ForkAwesome/Fork-Awesome/raw/master/src/icons/icons.yml'
     ttfs = [[ font_abbr, 'forkawesome-webfont.ttf', 'https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf' ]]
 
 

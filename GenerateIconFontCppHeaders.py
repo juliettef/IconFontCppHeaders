@@ -6,13 +6,13 @@
 #
 #   1.1 - Font Awesome
 #       1.1.1 - version 4
-#           https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml
-#           https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/4.x/src/icons.yml
+#           https://github.com/FortAwesome/Font-Awesome/blob/4.x/fonts/fontawesome-webfont.ttf
 #       1.1.2 - version 5
-#           https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml
-#           https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/metadata/icons.yml
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf
 #       1.1.3 - version 5 Pro
 #           Download files from https://fontawesome.com
 #           \fontawesome-pro-n.n.n-web\metadata\icons.yml
@@ -136,8 +136,8 @@ class Font:
 class FontFA4( Font ):              # legacy Font Awesome version 4
     font_name = 'Font Awesome 4'
     font_abbr = 'FA'
-    font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/fa-4/src/icons.yml'
-    ttfs = [[ font_abbr, 'fontawesome-webfont.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf' ]]
+    font_data = 'https://github.com/FortAwesome/Font-Awesome/raw/4.x/src/icons.yml'
+    ttfs = [[ font_abbr, 'fontawesome-webfont.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/4.x/fonts/fontawesome-webfont.ttf' ]]
 
     @classmethod
     def get_icons( cls, input_data ):
@@ -168,9 +168,9 @@ class FontFK( FontFA4 ):            # Fork Awesome, based on Font Awesome 4
 class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid styles
     font_name = 'Font Awesome 5'
     font_abbr = 'FA'
-    font_data = 'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml'
-    ttfs = [[ 'FAR', 'fa-regular-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf' ],
-            [ 'FAS', 'fa-solid-900.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf' ]]
+    font_data = 'https://github.com/FortAwesome/Font-Awesome/raw/5.x/metadata/icons.yml'
+    ttfs = [[ 'FAR', 'fa-regular-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf' ],
+            [ 'FAS', 'fa-solid-900.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf' ]]
     font_fa_style = [ 'regular', 'solid' ]
 
     @classmethod
@@ -198,7 +198,7 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
 class FontFA5Brands( FontFA5 ):     # Font Awesome version 5 - Brand style
     font_name = 'Font Awesome 5 Brands'
     font_minmax_abbr = 'FAB'
-    ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf' ]]
+    ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf' ]]
     font_fa_style = [ 'brands' ]
 
 

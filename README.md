@@ -24,14 +24,14 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 #### Font Awesome 4 
-* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/src/icons.yml)
-* [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/fa-4/fonts/fontawesome-webfont.ttf)
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/4.x/src/icons.yml)
+* [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/4.x/fonts/fontawesome-webfont.ttf)
 
 #### Font Awesome 5 - see [notes below](#notes-about-font-awesome-5)
-* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/metadata/icons.yml)
-* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-brands-400.ttf)
-* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-regular-400.ttf)
-* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf)
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/5.x/metadata/icons.yml)
+* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf)
+* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf)
+* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf)
 
 #### Font Awesome 5 Pro - this is a paid product, see [notes below](#notes-about-font-awesome-5)
 Files downloaded from [fontawesome.com](https://fontawesome.com)  

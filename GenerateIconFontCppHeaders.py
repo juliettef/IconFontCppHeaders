@@ -143,14 +143,19 @@ class FontFA4( Font ):              # legacy Font Awesome version 4
     def get_icons( cls, input_data ):
         icons_data = { }
         data = yaml.safe_load( input_data )
-        font_min = 'ffff'
-        font_max = '0'
+        font_min = '0x10ffff'
+        font_min_int = int( font_min, 16 )
+        font_max = '0x0'
+        font_max_int = int( font_max, 16 )
         icons = []
         for item in data[ 'icons' ]:
-            if item[ 'unicode' ] < font_min:
+            item_int = int( item[ 'unicode' ], 16 )
+            if item_int < font_min_int:
                 font_min = item[ 'unicode' ]
-            if item[ 'unicode' ] >= font_max:
+                font_min_int = item_int
+            if item_int > font_max_int:
                 font_max = item[ 'unicode' ]
+                font_max_int = item_int
             icons.append([ item[ 'id' ], item[ 'unicode' ]])
         icons_data.update({ 'font_min' : font_min,
                         'font_max' : font_max,
@@ -178,18 +183,23 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
         icons_data = { }
         data = yaml.safe_load( input_data )
         if data:
-            font_min = 'ffff'
-            font_max = '0'
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
             icons = []
             for key in data:
                 item = data[ key ]
                 for style in item[ 'styles' ]:
                     if style in cls.font_fa_style:
                         if [ key, item[ 'unicode' ]] not in icons:
-                            if item[ 'unicode' ] < font_min:
+                            item_int = int( item[ 'unicode' ], 16 )
+                            if item_int < font_min_int:
                                 font_min = item[ 'unicode' ]
-                            if item[ 'unicode' ] >= font_max:
+                                font_min_int = item_int
+                            if item_int > font_max_int:
                                 font_max = item[ 'unicode' ]
+                                font_max_int = item_int
                             icons.append([ key, item[ 'unicode' ]])
             icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
         return icons_data
@@ -230,16 +240,21 @@ class FontMD( Font ):               # Material Design
         icons_data = {}
         lines = str.split( input_data, '\n' )
         if lines:
-            font_min = 'ffff'
-            font_max = '0'
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
                 words = str.split(line)
                 if words and len( words ) >= 2:
-                    if words[ 1 ] < font_min:
+                    word_int = int( words[ 1 ], 16 )
+                    if word_int < font_min_int:
                         font_min = words[ 1 ]
-                    if words[ 1 ] >= font_max:
+                        font_min_int = word_int
+                    if word_int > font_max_int:
                         font_max = words[ 1 ]
+                        font_max_int = word_int
                     icons.append( words )
             icons_data.update({ 'font_min' : font_min,
                                 'font_max' : font_max,
@@ -258,8 +273,10 @@ class FontKI( Font ):               # Kenney Game icons
         icons_data = {}
         lines = str.split( input_data, '\n' )
         if lines:
-            font_min = 'ffff'
-            font_max = '0'
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
                 if '.ki-' in line:
@@ -267,10 +284,13 @@ class FontKI( Font ):               # Kenney Game icons
                     if words and '.ki-' in words[ 0 ]:
                         font_id = words[ 0 ].partition( '.ki-' )[ 2 ].partition( ':before' )[ 0 ]
                         font_code = words[ 2 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
-                        if font_code < font_min:
-                            font_min = font_code
-                        if font_code >= font_max:
+                        font_code_int = int( font_code, 16 )
+                        if font_code_int < font_min_int:
+                            font_min = font_code                            
+                            font_min_int = font_code_int
+                        if font_code_int > font_max_int:
                             font_max = font_code
+                            font_max_int = font_code_int
                         icons.append([ font_id, font_code ])
             icons_data.update({ 'font_min' : font_min,
                                 'font_max' : font_max,
@@ -289,8 +309,10 @@ class FontFAD( Font ):               # Fontaudio
         icons_data = {}
         lines = str.split( input_data, '}\n' )
         if lines:
-            font_min = 'ffff'
-            font_max = '0'
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
                 if '.icon-fad-' in line:
@@ -298,10 +320,13 @@ class FontFAD( Font ):               # Fontaudio
                     if words and '.icon-fad-' in words[ 0 ]:
                         font_id = words[ 0 ].partition( '.icon-fad-' )[ 2 ].partition( ':before' )[ 0 ]
                         font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
-                        if font_code < font_min:
+                        font_code_int = int( font_code, 16 )
+                        if font_code_int < font_min_int:
                             font_min = font_code
-                        if font_code >= font_max:
+                            font_min_int = font_code_int
+                        if font_code_int > font_max_int:
                             font_max = font_code
+                            font_max_int = font_code_int
                         icons.append([ font_id, font_code ])
             icons_data.update({ 'font_min' : font_min,
                                 'font_max' : font_max,
@@ -524,7 +549,7 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontKI, FontFAD ] # FontMD - Issue #19
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontKI, FontFAD ]
 languages = [ LanguageC, LanguageCSharp ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

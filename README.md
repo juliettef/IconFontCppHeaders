@@ -47,7 +47,7 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 * [icons.yml](https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml)
 * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
 
-### [Google Material Design icons](https://design.google.com/icons) - see [Issue #19](https://github.com/juliettef/IconFontCppHeaders/issues/19)
+### [Google Material Design icons](https://design.google.com/icons)
 * [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons)
 * [codepoints](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints)
 * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf)

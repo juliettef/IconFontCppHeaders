@@ -218,6 +218,7 @@ namespace IconFonts
         public const string Auto_fix_normal = "\ue664";
         public const string Auto_fix_off = "\ue665";
         public const string Auto_graph = "\ue4fb";
+        public const string Auto_mode = "\uec20";
         public const string Auto_stories = "\ue666";
         public const string Autofps_select = "\uefdc";
         public const string Autorenew = "\ue863";
@@ -262,6 +263,8 @@ namespace IconFonts
         public const string Bike_scooter = "\uef45";
         public const string Biotech = "\uea3a";
         public const string Blender = "\uefe3";
+        public const string Blinds = "\ue286";
+        public const string Blinds_closed = "\uec1f";
         public const string Block = "\ue14b";
         public const string Block_flipped = "\uef46";
         public const string Bloodtype = "\uefe4";
@@ -503,6 +506,8 @@ namespace IconFonts
         public const string Currency_rupee = "\ueaf7";
         public const string Currency_yen = "\ueafb";
         public const string Currency_yuan = "\ueaf9";
+        public const string Curtains = "\uec1e";
+        public const string Curtains_closed = "\uec1d";
         public const string Cyclone = "\uebd5";
         public const string Dangerous = "\ue99a";
         public const string Dark_mode = "\ue51c";
@@ -648,7 +653,9 @@ namespace IconFonts
         public const string Elderly = "\uf21a";
         public const string Elderly_woman = "\ueb69";
         public const string Electric_bike = "\ueb1b";
+        public const string Electric_bolt = "\uec1c";
         public const string Electric_car = "\ueb1c";
+        public const string Electric_meter = "\uec1b";
         public const string Electric_moped = "\ueb1d";
         public const string Electric_rickshaw = "\ueb1e";
         public const string Electric_scooter = "\ueb1f";
@@ -667,6 +674,7 @@ namespace IconFonts
         public const string Emoji_people = "\uea1d";
         public const string Emoji_symbols = "\uea1e";
         public const string Emoji_transportation = "\uea1f";
+        public const string Energy_savings_leaf = "\uec1a";
         public const string Engineering = "\uea3d";
         public const string Enhance_photo_translate = "\ue8fc";
         public const string Enhanced_encryption = "\ue63f";
@@ -854,6 +862,7 @@ namespace IconFonts
         public const string Gamepad = "\ue30f";
         public const string Games = "\ue021";
         public const string Garage = "\uf011";
+        public const string Gas_meter = "\uec19";
         public const string Gavel = "\ue90e";
         public const string Generating_tokens = "\ue749";
         public const string Gesture = "\ue155";
@@ -915,6 +924,7 @@ namespace IconFonts
         public const string Hearing = "\ue023";
         public const string Hearing_disabled = "\uf104";
         public const string Heart_broken = "\ueac2";
+        public const string Heat_pump = "\uec18";
         public const string Height = "\uea16";
         public const string Help = "\ue887";
         public const string Help_center = "\uf1c0";
@@ -1067,6 +1077,7 @@ namespace IconFonts
         public const string Light = "\uf02a";
         public const string Light_mode = "\ue518";
         public const string Lightbulb = "\ue0f0";
+        public const string Lightbulb_circle = "\uebfe";
         public const string Lightbulb_outline = "\ue90f";
         public const string Line_axis = "\uea9a";
         public const string Line_style = "\ue919";
@@ -1145,7 +1156,9 @@ namespace IconFonts
         public const string Lte_plus_mobiledata = "\uf02d";
         public const string Luggage = "\uf235";
         public const string Lunch_dining = "\uea61";
+        public const string Lyrics = "\uec0b";
         public const string Mail = "\ue158";
+        public const string Mail_lock = "\uec0a";
         public const string Mail_outline = "\ue0e1";
         public const string Male = "\ue58e";
         public const string Man = "\ue4eb";
@@ -1203,6 +1216,7 @@ namespace IconFonts
         public const string Mode_comment = "\ue253";
         public const string Mode_edit = "\ue254";
         public const string Mode_edit_outline = "\uf035";
+        public const string Mode_fan_off = "\uec17";
         public const string Mode_night = "\uf036";
         public const string Mode_of_travel = "\ue7ce";
         public const string Mode_standby = "\uf037";
@@ -1259,6 +1273,7 @@ namespace IconFonts
         public const string Near_me_disabled = "\uf1ef";
         public const string Nearby_error = "\uf03b";
         public const string Nearby_off = "\uf03c";
+        public const string Nest_cam_wired_stand = "\uec16";
         public const string Network_cell = "\ue1b9";
         public const string Network_check = "\ue640";
         public const string Network_locked = "\ue61a";
@@ -1323,6 +1338,8 @@ namespace IconFonts
         public const string Offline_bolt = "\ue932";
         public const string Offline_pin = "\ue90a";
         public const string Offline_share = "\ue9c5";
+        public const string Oil_barrel = "\uec15";
+        public const string On_device_training = "\uebfd";
         public const string Ondemand_video = "\ue63a";
         public const string Online_prediction = "\uf0eb";
         public const string Opacity = "\ue91c";
@@ -1495,6 +1512,8 @@ namespace IconFonts
         public const string Privacy_tip = "\uf0dc";
         public const string Private_connectivity = "\ue744";
         public const string Production_quantity_limits = "\ue1d1";
+        public const string Propane = "\uec14";
+        public const string Propane_tank = "\uec13";
         public const string Psychology = "\uea4a";
         public const string Public = "\ue80b";
         public const string Public_off = "\uf1ca";
@@ -1553,6 +1572,7 @@ namespace IconFonts
         public const string Remove_from_queue = "\ue067";
         public const string Remove_moderator = "\ue9d4";
         public const string Remove_red_eye = "\ue417";
+        public const string Remove_road = "\uebfc";
         public const string Remove_shopping_cart = "\ue928";
         public const string Reorder = "\ue8fe";
         public const string Repeat = "\ue040";
@@ -1584,6 +1604,8 @@ namespace IconFonts
         public const string Ring_volume = "\ue0d1";
         public const string Rocket = "\ueba5";
         public const string Rocket_launch = "\ueb9b";
+        public const string Roller_shades = "\uec12";
+        public const string Roller_shades_closed = "\uec11";
         public const string Roller_skating = "\uebcd";
         public const string Roofing = "\uf201";
         public const string Room = "\ue8b4";
@@ -1636,6 +1658,7 @@ namespace IconFonts
         public const string Screen_search_desktop = "\uef70";
         public const string Screen_share = "\ue0e2";
         public const string Screenshot = "\uf056";
+        public const string Screenshot_monitor = "\uec08";
         public const string Scuba_diving = "\uebce";
         public const string Sd = "\ue9dd";
         public const string Sd_card = "\ue623";
@@ -1656,6 +1679,7 @@ namespace IconFonts
         public const string Send_time_extension = "\ueadb";
         public const string Send_to_mobile = "\uf05c";
         public const string Sensor_door = "\uf1b5";
+        public const string Sensor_occupied = "\uec10";
         public const string Sensor_window = "\uf1b4";
         public const string Sensors = "\ue51e";
         public const string Sensors_off = "\ue51f";
@@ -1760,6 +1784,7 @@ namespace IconFonts
         public const string Snowshoeing = "\ue514";
         public const string Soap = "\uf1b2";
         public const string Social_distance = "\ue1cb";
+        public const string Solar_power = "\uec0f";
         public const string Sort = "\ue164";
         public const string Sort_by_alpha = "\ue053";
         public const string Sos = "\uebf7";
@@ -1962,6 +1987,7 @@ namespace IconFonts
         public const string Toll = "\ue8e0";
         public const string Tonality = "\ue427";
         public const string Topic = "\uf1c8";
+        public const string Tornado = "\ue199";
         public const string Touch_app = "\ue913";
         public const string Tour = "\uef75";
         public const string Toys = "\ue332";
@@ -1980,6 +2006,7 @@ namespace IconFonts
         public const string Trending_neutral = "\ue8e4";
         public const string Trending_up = "\ue8e5";
         public const string Trip_origin = "\ue57b";
+        public const string Troubleshoot = "\ue1d2";
         public const string Try = "\uf07c";
         public const string Tsunami = "\uebd8";
         public const string Tty = "\uf1aa";
@@ -2022,6 +2049,8 @@ namespace IconFonts
         public const string Vertical_align_center = "\ue259";
         public const string Vertical_align_top = "\ue25a";
         public const string Vertical_distribute = "\ue076";
+        public const string Vertical_shades = "\uec0e";
+        public const string Vertical_shades_closed = "\uec0d";
         public const string Vertical_split = "\ue949";
         public const string Vibration = "\ue62d";
         public const string Video_call = "\ue070";
@@ -2130,12 +2159,14 @@ namespace IconFonts
         public const string Wifi_tethering_error = "\uead9";
         public const string Wifi_tethering_error_rounded = "\uf086";
         public const string Wifi_tethering_off = "\uf087";
+        public const string Wind_power = "\uec0c";
         public const string Window = "\uf088";
         public const string Wine_bar = "\uf1e8";
         public const string Woman = "\ue13e";
         public const string Woo_commerce = "\uea6d";
         public const string Wordpress = "\uea9f";
         public const string Work = "\ue8f9";
+        public const string Work_history = "\uec09";
         public const string Work_off = "\ue942";
         public const string Work_outline = "\ue943";
         public const string Workspace_premium = "\ue7af";

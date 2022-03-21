@@ -221,12 +221,23 @@ class FontFA5Pro( FontFA5 ):        # Font Awesome version 5 Pro - Light, Regula
     font_fa_style = [ 'light', 'regular', 'solid' ]
 
 
-class FontFA5ProBrands( FontFA5 ):  # Font Awesome version 5 Pro - Brand style
+class FontFA5ProBrands( FontFA5Brands ):  # Font Awesome version 5 Pro - Brand style
     font_name = 'Font Awesome 5 Pro Brands'
-    font_minmax_abbr = 'FAB'
     font_data = 'icons.yml'
     ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'fa-brands-400.ttf' ]]
-    font_fa_style = [ 'brands' ]
+
+
+class FontFA6( FontFA5 ):           # Font Awesome version 6 - Regular and Solid styles
+    font_name = 'Font Awesome 6'
+    font_data = 'https://github.com/FortAwesome/Font-Awesome/raw/6.x/metadata/icons.yml'
+    ttfs = [[ 'FAR', 'fa-regular-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-regular-400.ttf' ],
+            [ 'FAS', 'fa-solid-900.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-solid-900.ttf' ]]
+
+
+class FontFA6Brands( FontFA5Brands ):     # Font Awesome version 6 - Brand style
+    font_name = 'Font Awesome 6 Brands'    
+    font_data = 'https://github.com/FortAwesome/Font-Awesome/raw/6.x/metadata/icons.yml'
+    ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf' ]]
 
 
 class FontMD( Font ):               # Material Design
@@ -549,7 +560,7 @@ class LanguageCSharp( Language ):
 
 
 # Main
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFK, FontMD, FontKI, FontFAD ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontKI, FontFAD ]
 languages = [ LanguageC, LanguageCSharp ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

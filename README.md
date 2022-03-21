@@ -23,24 +23,27 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 
 * [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
-#### Font Awesome 4 
+#### Font Awesome 4
 * [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/4.x/src/icons.yml)
 * [fontawesome-webfont.ttf](https://github.com/FortAwesome/Font-Awesome/blob/4.x/fonts/fontawesome-webfont.ttf)
 
-#### Font Awesome 5 - see [notes below](#notes-about-font-awesome-5)
+#### Font Awesome 5 free
 * [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/5.x/metadata/icons.yml)
 * [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf)
 * [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf)
 * [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf)
 
-#### Font Awesome 5 Pro - this is a paid product, see [notes below](#notes-about-font-awesome-5)
-Files downloaded from [fontawesome.com](https://fontawesome.com)  
+#### Font Awesome 5 pro
+Paid product, see [notes about generating the header files](#notes-about-font-awesome-5-and-6)
 
-* ..\fontawesome-pro-n.n.n-web\metadata\icons.yml  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf  
+#### Font Awesome 6 free
+* [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/6.x/metadata/icons.yml)
+* [fa-brands-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf)
+* [fa-regular-400.ttf](https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-regular-400.ttf)
+* [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-solid-900.ttf)
+
+#### Font Awesome 6 pro
+Paid product, not supported but [generation should be similar to FA5 Pro](#notes-about-font-awesome-5-and-6)
 
 ### [Fork Awesome](https://forkawesome.github.io/Fork-Awesome)
 * [https://github.com/ForkAwesome/Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome)
@@ -62,12 +65,19 @@ Files downloaded from [fontawesome.com](https://fontawesome.com)
 * [fontaudio.css](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css)
 * [fontaudio.ttf](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf)
 
-## Notes about Font Awesome 5
+## Notes about Font Awesome 5 and 6
 ### Codepoints grouping
-Font Awesome 5 splits the different styles of icons into different font files with identical codepoints for *light*, *regular* and *solid* styles, and a different set of codepoints for *brands*. We have put the brands into a separate header file.
+Font Awesome 5 and 6 split the different styles of icons into different font files with identical codepoints for *light*, *regular* and *solid* styles, and a different set of codepoints for *brands*. We have put the brands into a separate header file.
+### Generating Pro header files (Font Awesome 5)
+Download the Font Awesome Pro Web package from [fontawesome.com](https://fontawesome.com). To generate the headers, drop *icons.yml* in the same directory as *GenerateIconFontCppHeaders.py* before running the script. The file *icons.yml* is under *..\fontawesome-pro-n.n.n-web\metadata\icons.yml* where *n.n.n* is the version number.
 
-### Generating Pro header files
-Download the Font Awesome Pro Web package. To generate the headers, drop *icons.yml* in the same directory as *GenerateIconFontCppHeaders.py* before running the script. The file *icons.yml* is under *..\fontawesome-pro-n.n.n-web\metadata\icons.yml* where *n.n.n* is the version number.
+Icon files: 
+
+* ..\fontawesome-pro-n.n.n-web\metadata\icons.yml  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf  
+* ..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf
 
 ## Ionicons and webfont Material Design Icons
 Unsupported as of 29 Apr 2020. See [Issue #16](https://github.com/juliettef/IconFontCppHeaders/issues/16).

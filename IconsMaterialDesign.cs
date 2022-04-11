@@ -19,6 +19,7 @@ namespace IconFonts
         public const string The15mp = "\ue957";
         public const string The16mp = "\ue958";
         public const string The17mp = "\ue959";
+        public const string The18_up_rating = "\uf8fd";
         public const string The18mp = "\ue95a";
         public const string The19mp = "\ue95b";
         public const string The1k = "\ue95c";
@@ -314,6 +315,8 @@ namespace IconFonts
         public const string Brightness_high = "\ue1ac";
         public const string Brightness_low = "\ue1ad";
         public const string Brightness_medium = "\ue1ae";
+        public const string Broadcast_on_home = "\uf8f8";
+        public const string Broadcast_on_personal = "\uf8f9";
         public const string Broken_image = "\ue3ad";
         public const string Browse_gallery = "\uebd1";
         public const string Browser_not_supported = "\uef47";
@@ -536,6 +539,7 @@ namespace IconFonts
         public const string Description = "\ue873";
         public const string Deselect = "\uebb6";
         public const string Design_services = "\uf10a";
+        public const string Desk = "\uf8f4";
         public const string Desktop_access_disabled = "\ue99d";
         public const string Desktop_mac = "\ue30b";
         public const string Desktop_windows = "\ue30c";
@@ -1137,6 +1141,7 @@ namespace IconFonts
         public const string Lock_clock = "\uef57";
         public const string Lock_open = "\ue898";
         public const string Lock_outline = "\ue899";
+        public const string Lock_person = "\uf8f3";
         public const string Lock_reset = "\ueade";
         public const string Login = "\uea77";
         public const string Logo_dev = "\uead6";
@@ -1294,6 +1299,7 @@ namespace IconFonts
         public const string Nightlight_round = "\uef5e";
         public const string Nights_stay = "\uea46";
         public const string No_accounts = "\uf03e";
+        public const string No_adult_content = "\uf8fe";
         public const string No_backpack = "\uf237";
         public const string No_cell = "\uf1a4";
         public const string No_crash = "\uebf0";
@@ -2105,6 +2111,7 @@ namespace IconFonts
         public const string Vpn_key_off = "\ueb7a";
         public const string Vpn_lock = "\ue62f";
         public const string Vrpano = "\uf082";
+        public const string Wallet = "\uf8ff";
         public const string Wallet_giftcard = "\ue8f6";
         public const string Wallet_membership = "\ue8f7";
         public const string Wallet_travel = "\ue8f8";
@@ -2144,6 +2151,9 @@ namespace IconFonts
         public const string Wheelchair_pickup = "\uf1ab";
         public const string Where_to_vote = "\ue177";
         public const string Widgets = "\ue1bd";
+        public const string Width_full = "\uf8f5";
+        public const string Width_normal = "\uf8f6";
+        public const string Width_wide = "\uf8f7";
         public const string Wifi = "\ue63e";
         public const string Wifi_1_bar = "\ue4ca";
         public const string Wifi_2_bar = "\ue4d9";

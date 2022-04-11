@@ -286,6 +286,8 @@ namespace IconFonts
         public const string ChevronRight = "\uf054";
         public const string ChevronUp = "\uf077";
         public const string Child = "\uf1ae";
+        public const string ChildDress = "\ue59c";
+        public const string ChildReaching = "\ue59d";
         public const string ChildRifle = "\ue4e0";
         public const string Children = "\ue4e1";
         public const string Church = "\uf51d";

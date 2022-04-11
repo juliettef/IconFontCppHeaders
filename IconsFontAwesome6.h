@@ -284,6 +284,8 @@
 #define ICON_FA_CHEVRON_RIGHT "\xef\x81\x94"	// U+f054
 #define ICON_FA_CHEVRON_UP "\xef\x81\xb7"	// U+f077
 #define ICON_FA_CHILD "\xef\x86\xae"	// U+f1ae
+#define ICON_FA_CHILD_DRESS "\xee\x96\x9c"	// U+e59c
+#define ICON_FA_CHILD_REACHING "\xee\x96\x9d"	// U+e59d
 #define ICON_FA_CHILD_RIFLE "\xee\x93\xa0"	// U+e4e0
 #define ICON_FA_CHILDREN "\xee\x93\xa1"	// U+e4e1
 #define ICON_FA_CHURCH "\xef\x94\x9d"	// U+f51d

@@ -149,14 +149,15 @@ class FontFA4( Font ):              # legacy Font Awesome version 4
         font_max_int = int( font_max, 16 )
         icons = []
         for item in data[ 'icons' ]:
-            item_int = int( item[ 'unicode' ], 16 )
+            item_unicode = item[ 'unicode' ].zfill( 4 )
+            item_int = int( item_unicode, 16 )
             if item_int < font_min_int:
-                font_min = item[ 'unicode' ]
+                font_min = item_unicode
                 font_min_int = item_int
             if item_int > font_max_int:
-                font_max = item[ 'unicode' ]
+                font_max = item_unicode
                 font_max_int = item_int
-            icons.append([ item[ 'id' ], item[ 'unicode' ]])
+            icons.append([ item[ 'id' ], item_unicode ])
         icons_data.update({ 'font_min' : font_min,
                         'font_max' : font_max,
                         'icons' : icons })
@@ -192,15 +193,16 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
                 item = data[ key ]
                 for style in item[ 'styles' ]:
                     if style in cls.font_fa_style:
-                        if [ key, item[ 'unicode' ]] not in icons:
-                            item_int = int( item[ 'unicode' ], 16 )
+                        item_unicode = item[ 'unicode' ].zfill( 4 )
+                        if [ key, item_unicode ] not in icons:
+                            item_int = int( item_unicode, 16 )
                             if item_int < font_min_int:
-                                font_min = item[ 'unicode' ]
+                                font_min = item_unicode
                                 font_min_int = item_int
                             if item_int > font_max_int:
-                                font_max = item[ 'unicode' ]
+                                font_max = item_unicode
                                 font_max_int = item_int
-                            icons.append([ key, item[ 'unicode' ]])
+                            icons.append([ key, item_unicode ])
             icons_data.update({ 'font_min':font_min, 'font_max':font_max, 'icons':icons })
         return icons_data
 
@@ -259,12 +261,13 @@ class FontMD( Font ):               # Material Design
             for line in lines :
                 words = str.split(line)
                 if words and len( words ) >= 2:
-                    word_int = int( words[ 1 ], 16 )
+                    word_unicode = words[ 1 ].zfill( 4 )
+                    word_int = int( word_unicode, 16 )
                     if word_int < font_min_int:
-                        font_min = words[ 1 ]
+                        font_min = word_unicode
                         font_min_int = word_int
                     if word_int > font_max_int:
-                        font_max = words[ 1 ]
+                        font_max = word_unicode
                         font_max_int = word_int
                     icons.append( words )
             icons_data.update({ 'font_min' : font_min,
@@ -294,7 +297,7 @@ class FontKI( Font ):               # Kenney Game icons
                     words = str.split(line)
                     if words and '.ki-' in words[ 0 ]:
                         font_id = words[ 0 ].partition( '.ki-' )[ 2 ].partition( ':before' )[ 0 ]
-                        font_code = words[ 2 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
+                        font_code = words[ 2 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ].zfill( 4 )
                         font_code_int = int( font_code, 16 )
                         if font_code_int < font_min_int:
                             font_min = font_code                            
@@ -330,7 +333,7 @@ class FontFAD( Font ):               # Fontaudio
                     words = str.split( line )
                     if words and '.icon-fad-' in words[ 0 ]:
                         font_id = words[ 0 ].partition( '.icon-fad-' )[ 2 ].partition( ':before' )[ 0 ]
-                        font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ]
+                        font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ].zfill( 4 )
                         font_code_int = int( font_code, 16 )
                         if font_code_int < font_min_int:
                             font_min = font_code

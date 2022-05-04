@@ -6,19 +6,19 @@
 #define FONT_ICON_FILE_NAME_FAR "fa-regular-400.ttf"
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
-#define ICON_MIN_FA 0x21
+#define ICON_MIN_FA 0x0021
 #define ICON_MAX_FA 0xf8ff
-#define ICON_FA_0 "0"	// U+30
-#define ICON_FA_1 "1"	// U+31
-#define ICON_FA_2 "2"	// U+32
-#define ICON_FA_3 "3"	// U+33
-#define ICON_FA_4 "4"	// U+34
-#define ICON_FA_5 "5"	// U+35
-#define ICON_FA_6 "6"	// U+36
-#define ICON_FA_7 "7"	// U+37
-#define ICON_FA_8 "8"	// U+38
-#define ICON_FA_9 "9"	// U+39
-#define ICON_FA_A "A"	// U+41
+#define ICON_FA_0 "0"	// U+0030
+#define ICON_FA_1 "1"	// U+0031
+#define ICON_FA_2 "2"	// U+0032
+#define ICON_FA_3 "3"	// U+0033
+#define ICON_FA_4 "4"	// U+0034
+#define ICON_FA_5 "5"	// U+0035
+#define ICON_FA_6 "6"	// U+0036
+#define ICON_FA_7 "7"	// U+0037
+#define ICON_FA_8 "8"	// U+0038
+#define ICON_FA_9 "9"	// U+0039
+#define ICON_FA_A "A"	// U+0041
 #define ICON_FA_ADDRESS_BOOK "\xef\x8a\xb9"	// U+f2b9
 #define ICON_FA_ADDRESS_CARD "\xef\x8a\xbb"	// U+f2bb
 #define ICON_FA_ALIGN_CENTER "\xef\x80\xb7"	// U+f037
@@ -94,13 +94,13 @@
 #define ICON_FA_ARROWS_UP_DOWN "\xef\x81\xbd"	// U+f07d
 #define ICON_FA_ARROWS_UP_DOWN_LEFT_RIGHT "\xef\x81\x87"	// U+f047
 #define ICON_FA_ARROWS_UP_TO_LINE "\xee\x93\x82"	// U+e4c2
-#define ICON_FA_ASTERISK "*"	// U+2a
-#define ICON_FA_AT "@"	// U+40
+#define ICON_FA_ASTERISK "*"	// U+002a
+#define ICON_FA_AT "@"	// U+0040
 #define ICON_FA_ATOM "\xef\x97\x92"	// U+f5d2
 #define ICON_FA_AUDIO_DESCRIPTION "\xef\x8a\x9e"	// U+f29e
 #define ICON_FA_AUSTRAL_SIGN "\xee\x82\xa9"	// U+e0a9
 #define ICON_FA_AWARD "\xef\x95\x99"	// U+f559
-#define ICON_FA_B "B"	// U+42
+#define ICON_FA_B "B"	// U+0042
 #define ICON_FA_BABY "\xef\x9d\xbc"	// U+f77c
 #define ICON_FA_BABY_CARRIAGE "\xef\x9d\xbd"	// U+f77d
 #define ICON_FA_BACKWARD "\xef\x81\x8a"	// U+f04a
@@ -214,7 +214,7 @@
 #define ICON_FA_BUS "\xef\x88\x87"	// U+f207
 #define ICON_FA_BUS_SIMPLE "\xef\x95\x9e"	// U+f55e
 #define ICON_FA_BUSINESS_TIME "\xef\x99\x8a"	// U+f64a
-#define ICON_FA_C "C"	// U+43
+#define ICON_FA_C "C"	// U+0043
 #define ICON_FA_CAKE_CANDLES "\xef\x87\xbd"	// U+f1fd
 #define ICON_FA_CALCULATOR "\xef\x87\xac"	// U+f1ec
 #define ICON_FA_CALENDAR "\xef\x84\xb3"	// U+f133
@@ -385,7 +385,7 @@
 #define ICON_FA_CUBE "\xef\x86\xb2"	// U+f1b2
 #define ICON_FA_CUBES "\xef\x86\xb3"	// U+f1b3
 #define ICON_FA_CUBES_STACKED "\xee\x93\xa6"	// U+e4e6
-#define ICON_FA_D "D"	// U+44
+#define ICON_FA_D "D"	// U+0044
 #define ICON_FA_DATABASE "\xef\x87\x80"	// U+f1c0
 #define ICON_FA_DELETE_LEFT "\xef\x95\x9a"	// U+f55a
 #define ICON_FA_DEMOCRAT "\xef\x9d\x87"	// U+f747
@@ -411,7 +411,7 @@
 #define ICON_FA_DIVIDE "\xef\x94\xa9"	// U+f529
 #define ICON_FA_DNA "\xef\x91\xb1"	// U+f471
 #define ICON_FA_DOG "\xef\x9b\x93"	// U+f6d3
-#define ICON_FA_DOLLAR_SIGN "$"	// U+24
+#define ICON_FA_DOLLAR_SIGN "$"	// U+0024
 #define ICON_FA_DOLLY "\xef\x91\xb2"	// U+f472
 #define ICON_FA_DONG_SIGN "\xee\x85\xa9"	// U+e169
 #define ICON_FA_DOOR_CLOSED "\xef\x94\xaa"	// U+f52a
@@ -431,7 +431,7 @@
 #define ICON_FA_DUMPSTER "\xef\x9e\x93"	// U+f793
 #define ICON_FA_DUMPSTER_FIRE "\xef\x9e\x94"	// U+f794
 #define ICON_FA_DUNGEON "\xef\x9b\x99"	// U+f6d9
-#define ICON_FA_E "E"	// U+45
+#define ICON_FA_E "E"	// U+0045
 #define ICON_FA_EAR_DEAF "\xef\x8a\xa4"	// U+f2a4
 #define ICON_FA_EAR_LISTEN "\xef\x8a\xa2"	// U+f2a2
 #define ICON_FA_EARTH_AFRICA "\xef\x95\xbc"	// U+f57c
@@ -449,18 +449,18 @@
 #define ICON_FA_ENVELOPE_OPEN "\xef\x8a\xb6"	// U+f2b6
 #define ICON_FA_ENVELOPE_OPEN_TEXT "\xef\x99\x98"	// U+f658
 #define ICON_FA_ENVELOPES_BULK "\xef\x99\xb4"	// U+f674
-#define ICON_FA_EQUALS "="	// U+3d
+#define ICON_FA_EQUALS "="	// U+003d
 #define ICON_FA_ERASER "\xef\x84\xad"	// U+f12d
 #define ICON_FA_ETHERNET "\xef\x9e\x96"	// U+f796
 #define ICON_FA_EURO_SIGN "\xef\x85\x93"	// U+f153
-#define ICON_FA_EXCLAMATION "!"	// U+21
+#define ICON_FA_EXCLAMATION "!"	// U+0021
 #define ICON_FA_EXPAND "\xef\x81\xa5"	// U+f065
 #define ICON_FA_EXPLOSION "\xee\x93\xa9"	// U+e4e9
 #define ICON_FA_EYE "\xef\x81\xae"	// U+f06e
 #define ICON_FA_EYE_DROPPER "\xef\x87\xbb"	// U+f1fb
 #define ICON_FA_EYE_LOW_VISION "\xef\x8a\xa8"	// U+f2a8
 #define ICON_FA_EYE_SLASH "\xef\x81\xb0"	// U+f070
-#define ICON_FA_F "F"	// U+46
+#define ICON_FA_F "F"	// U+0046
 #define ICON_FA_FACE_ANGRY "\xef\x95\x96"	// U+f556
 #define ICON_FA_FACE_DIZZY "\xef\x95\xa7"	// U+f567
 #define ICON_FA_FACE_FLUSHED "\xef\x95\xb9"	// U+f579
@@ -571,7 +571,7 @@
 #define ICON_FA_FRANC_SIGN "\xee\x86\x8f"	// U+e18f
 #define ICON_FA_FROG "\xef\x94\xae"	// U+f52e
 #define ICON_FA_FUTBOL "\xef\x87\xa3"	// U+f1e3
-#define ICON_FA_G "G"	// U+47
+#define ICON_FA_G "G"	// U+0047
 #define ICON_FA_GAMEPAD "\xef\x84\x9b"	// U+f11b
 #define ICON_FA_GAS_PUMP "\xef\x94\xaf"	// U+f52f
 #define ICON_FA_GAUGE "\xef\x98\xa4"	// U+f624
@@ -593,7 +593,7 @@
 #define ICON_FA_GOLF_BALL_TEE "\xef\x91\x90"	// U+f450
 #define ICON_FA_GOPURAM "\xef\x99\xa4"	// U+f664
 #define ICON_FA_GRADUATION_CAP "\xef\x86\x9d"	// U+f19d
-#define ICON_FA_GREATER_THAN ">"	// U+3e
+#define ICON_FA_GREATER_THAN ">"	// U+003e
 #define ICON_FA_GREATER_THAN_EQUAL "\xef\x94\xb2"	// U+f532
 #define ICON_FA_GRIP "\xef\x96\x8d"	// U+f58d
 #define ICON_FA_GRIP_LINES "\xef\x9e\xa4"	// U+f7a4
@@ -603,7 +603,7 @@
 #define ICON_FA_GUARANI_SIGN "\xee\x86\x9a"	// U+e19a
 #define ICON_FA_GUITAR "\xef\x9e\xa6"	// U+f7a6
 #define ICON_FA_GUN "\xee\x86\x9b"	// U+e19b
-#define ICON_FA_H "H"	// U+48
+#define ICON_FA_H "H"	// U+0048
 #define ICON_FA_HAMMER "\xef\x9b\xa3"	// U+f6e3
 #define ICON_FA_HAMSA "\xef\x99\xa5"	// U+f665
 #define ICON_FA_HAND "\xef\x89\x96"	// U+f256
@@ -644,7 +644,7 @@
 #define ICON_FA_HANDSHAKE_SLASH "\xee\x81\xa0"	// U+e060
 #define ICON_FA_HANUKIAH "\xef\x9b\xa6"	// U+f6e6
 #define ICON_FA_HARD_DRIVE "\xef\x82\xa0"	// U+f0a0
-#define ICON_FA_HASHTAG "#"	// U+23
+#define ICON_FA_HASHTAG "#"	// U+0023
 #define ICON_FA_HAT_COWBOY "\xef\xa3\x80"	// U+f8c0
 #define ICON_FA_HAT_COWBOY_SIDE "\xef\xa3\x81"	// U+f8c1
 #define ICON_FA_HAT_WIZARD "\xef\x9b\xa8"	// U+f6e8
@@ -712,7 +712,7 @@
 #define ICON_FA_HOUSE_USER "\xee\x86\xb0"	// U+e1b0
 #define ICON_FA_HRYVNIA_SIGN "\xef\x9b\xb2"	// U+f6f2
 #define ICON_FA_HURRICANE "\xef\x9d\x91"	// U+f751
-#define ICON_FA_I "I"	// U+49
+#define ICON_FA_I "I"	// U+0049
 #define ICON_FA_I_CURSOR "\xef\x89\x86"	// U+f246
 #define ICON_FA_ICE_CREAM "\xef\xa0\x90"	// U+f810
 #define ICON_FA_ICICLES "\xef\x9e\xad"	// U+f7ad
@@ -731,7 +731,7 @@
 #define ICON_FA_INFINITY "\xef\x94\xb4"	// U+f534
 #define ICON_FA_INFO "\xef\x84\xa9"	// U+f129
 #define ICON_FA_ITALIC "\xef\x80\xb3"	// U+f033
-#define ICON_FA_J "J"	// U+4a
+#define ICON_FA_J "J"	// U+004a
 #define ICON_FA_JAR "\xee\x94\x96"	// U+e516
 #define ICON_FA_JAR_WHEAT "\xee\x94\x97"	// U+e517
 #define ICON_FA_JEDI "\xef\x99\xa9"	// U+f669
@@ -739,7 +739,7 @@
 #define ICON_FA_JET_FIGHTER_UP "\xee\x94\x98"	// U+e518
 #define ICON_FA_JOINT "\xef\x96\x95"	// U+f595
 #define ICON_FA_JUG_DETERGENT "\xee\x94\x99"	// U+e519
-#define ICON_FA_K "K"	// U+4b
+#define ICON_FA_K "K"	// U+004b
 #define ICON_FA_KAABA "\xef\x99\xab"	// U+f66b
 #define ICON_FA_KEY "\xef\x82\x84"	// U+f084
 #define ICON_FA_KEYBOARD "\xef\x84\x9c"	// U+f11c
@@ -748,7 +748,7 @@
 #define ICON_FA_KIT_MEDICAL "\xef\x91\xb9"	// U+f479
 #define ICON_FA_KITCHEN_SET "\xee\x94\x9a"	// U+e51a
 #define ICON_FA_KIWI_BIRD "\xef\x94\xb5"	// U+f535
-#define ICON_FA_L "L"	// U+4c
+#define ICON_FA_L "L"	// U+004c
 #define ICON_FA_LAND_MINE_ON "\xee\x94\x9b"	// U+e51b
 #define ICON_FA_LANDMARK "\xef\x99\xaf"	// U+f66f
 #define ICON_FA_LANDMARK_DOME "\xef\x9d\x92"	// U+f752
@@ -764,7 +764,7 @@
 #define ICON_FA_LEFT_LONG "\xef\x8c\x8a"	// U+f30a
 #define ICON_FA_LEFT_RIGHT "\xef\x8c\xb7"	// U+f337
 #define ICON_FA_LEMON "\xef\x82\x94"	// U+f094
-#define ICON_FA_LESS_THAN "<"	// U+3c
+#define ICON_FA_LESS_THAN "<"	// U+003c
 #define ICON_FA_LESS_THAN_EQUAL "\xef\x94\xb7"	// U+f537
 #define ICON_FA_LIFE_RING "\xef\x87\x8d"	// U+f1cd
 #define ICON_FA_LIGHTBULB "\xef\x83\xab"	// U+f0eb
@@ -787,7 +787,7 @@
 #define ICON_FA_LOCUST "\xee\x94\xa0"	// U+e520
 #define ICON_FA_LUNGS "\xef\x98\x84"	// U+f604
 #define ICON_FA_LUNGS_VIRUS "\xee\x81\xa7"	// U+e067
-#define ICON_FA_M "M"	// U+4d
+#define ICON_FA_M "M"	// U+004d
 #define ICON_FA_MAGNET "\xef\x81\xb6"	// U+f076
 #define ICON_FA_MAGNIFYING_GLASS "\xef\x80\x82"	// U+f002
 #define ICON_FA_MAGNIFYING_GLASS_ARROW_RIGHT "\xee\x94\xa1"	// U+e521
@@ -863,7 +863,7 @@
 #define ICON_FA_MUG_HOT "\xef\x9e\xb6"	// U+f7b6
 #define ICON_FA_MUG_SAUCER "\xef\x83\xb4"	// U+f0f4
 #define ICON_FA_MUSIC "\xef\x80\x81"	// U+f001
-#define ICON_FA_N "N"	// U+4e
+#define ICON_FA_N "N"	// U+004e
 #define ICON_FA_NAIRA_SIGN "\xee\x87\xb6"	// U+e1f6
 #define ICON_FA_NETWORK_WIRED "\xef\x9b\xbf"	// U+f6ff
 #define ICON_FA_NEUTER "\xef\x88\xac"	// U+f22c
@@ -871,7 +871,7 @@
 #define ICON_FA_NOT_EQUAL "\xef\x94\xbe"	// U+f53e
 #define ICON_FA_NOTE_STICKY "\xef\x89\x89"	// U+f249
 #define ICON_FA_NOTES_MEDICAL "\xef\x92\x81"	// U+f481
-#define ICON_FA_O "O"	// U+4f
+#define ICON_FA_O "O"	// U+004f
 #define ICON_FA_OBJECT_GROUP "\xef\x89\x87"	// U+f247
 #define ICON_FA_OBJECT_UNGROUP "\xef\x89\x88"	// U+f248
 #define ICON_FA_OIL_CAN "\xef\x98\x93"	// U+f613
@@ -879,7 +879,7 @@
 #define ICON_FA_OM "\xef\x99\xb9"	// U+f679
 #define ICON_FA_OTTER "\xef\x9c\x80"	// U+f700
 #define ICON_FA_OUTDENT "\xef\x80\xbb"	// U+f03b
-#define ICON_FA_P "P"	// U+50
+#define ICON_FA_P "P"	// U+0050
 #define ICON_FA_PAGER "\xef\xa0\x95"	// U+f815
 #define ICON_FA_PAINT_ROLLER "\xef\x96\xaa"	// U+f5aa
 #define ICON_FA_PAINTBRUSH "\xef\x87\xbc"	// U+f1fc
@@ -910,7 +910,7 @@
 #define ICON_FA_PEOPLE_ROBBERY "\xee\x94\xb6"	// U+e536
 #define ICON_FA_PEOPLE_ROOF "\xee\x94\xb7"	// U+e537
 #define ICON_FA_PEPPER_HOT "\xef\xa0\x96"	// U+f816
-#define ICON_FA_PERCENT "%"	// U+25
+#define ICON_FA_PERCENT "%"	// U+0025
 #define ICON_FA_PERSON "\xef\x86\x83"	// U+f183
 #define ICON_FA_PERSON_ARROW_DOWN_TO_LINE "\xee\x94\xb8"	// U+e538
 #define ICON_FA_PERSON_ARROW_UP_FROM_LINE "\xee\x94\xb9"	// U+e539
@@ -987,7 +987,7 @@
 #define ICON_FA_PLUG_CIRCLE_MINUS "\xee\x95\x9e"	// U+e55e
 #define ICON_FA_PLUG_CIRCLE_PLUS "\xee\x95\x9f"	// U+e55f
 #define ICON_FA_PLUG_CIRCLE_XMARK "\xee\x95\xa0"	// U+e560
-#define ICON_FA_PLUS "+"	// U+2b
+#define ICON_FA_PLUS "+"	// U+002b
 #define ICON_FA_PLUS_MINUS "\xee\x90\xbc"	// U+e43c
 #define ICON_FA_PODCAST "\xef\x8b\x8e"	// U+f2ce
 #define ICON_FA_POO "\xef\x8b\xbe"	// U+f2fe
@@ -1001,12 +1001,12 @@
 #define ICON_FA_PUMP_MEDICAL "\xee\x81\xaa"	// U+e06a
 #define ICON_FA_PUMP_SOAP "\xee\x81\xab"	// U+e06b
 #define ICON_FA_PUZZLE_PIECE "\xef\x84\xae"	// U+f12e
-#define ICON_FA_Q "Q"	// U+51
+#define ICON_FA_Q "Q"	// U+0051
 #define ICON_FA_QRCODE "\xef\x80\xa9"	// U+f029
-#define ICON_FA_QUESTION "?"	// U+3f
+#define ICON_FA_QUESTION "?"	// U+003f
 #define ICON_FA_QUOTE_LEFT "\xef\x84\x8d"	// U+f10d
 #define ICON_FA_QUOTE_RIGHT "\xef\x84\x8e"	// U+f10e
-#define ICON_FA_R "R"	// U+52
+#define ICON_FA_R "R"	// U+0052
 #define ICON_FA_RADIATION "\xef\x9e\xb9"	// U+f7b9
 #define ICON_FA_RADIO "\xef\xa3\x97"	// U+f8d7
 #define ICON_FA_RAINBOW "\xef\x9d\x9b"	// U+f75b
@@ -1053,7 +1053,7 @@
 #define ICON_FA_RULER_VERTICAL "\xef\x95\x88"	// U+f548
 #define ICON_FA_RUPEE_SIGN "\xef\x85\x96"	// U+f156
 #define ICON_FA_RUPIAH_SIGN "\xee\x88\xbd"	// U+e23d
-#define ICON_FA_S "S"	// U+53
+#define ICON_FA_S "S"	// U+0053
 #define ICON_FA_SACK_DOLLAR "\xef\xa0\x9d"	// U+f81d
 #define ICON_FA_SACK_XMARK "\xee\x95\xaa"	// U+e56a
 #define ICON_FA_SAILBOAT "\xee\x91\x85"	// U+e445
@@ -1186,7 +1186,7 @@
 #define ICON_FA_SWATCHBOOK "\xef\x97\x83"	// U+f5c3
 #define ICON_FA_SYNAGOGUE "\xef\x9a\x9b"	// U+f69b
 #define ICON_FA_SYRINGE "\xef\x92\x8e"	// U+f48e
-#define ICON_FA_T "T"	// U+54
+#define ICON_FA_T "T"	// U+0054
 #define ICON_FA_TABLE "\xef\x83\x8e"	// U+f0ce
 #define ICON_FA_TABLE_CELLS "\xef\x80\x8a"	// U+f00a
 #define ICON_FA_TABLE_CELLS_LARGE "\xef\x80\x89"	// U+f009
@@ -1283,7 +1283,7 @@
 #define ICON_FA_TURN_DOWN "\xef\x8e\xbe"	// U+f3be
 #define ICON_FA_TURN_UP "\xef\x8e\xbf"	// U+f3bf
 #define ICON_FA_TV "\xef\x89\xac"	// U+f26c
-#define ICON_FA_U "U"	// U+55
+#define ICON_FA_U "U"	// U+0055
 #define ICON_FA_UMBRELLA "\xef\x83\xa9"	// U+f0e9
 #define ICON_FA_UMBRELLA_BEACH "\xef\x97\x8a"	// U+f5ca
 #define ICON_FA_UNDERLINE "\xef\x83\x8d"	// U+f0cd
@@ -1328,7 +1328,7 @@
 #define ICON_FA_USERS_SLASH "\xee\x81\xb3"	// U+e073
 #define ICON_FA_USERS_VIEWFINDER "\xee\x96\x95"	// U+e595
 #define ICON_FA_UTENSILS "\xef\x8b\xa7"	// U+f2e7
-#define ICON_FA_V "V"	// U+56
+#define ICON_FA_V "V"	// U+0056
 #define ICON_FA_VAN_SHUTTLE "\xef\x96\xb6"	// U+f5b6
 #define ICON_FA_VAULT "\xee\x8b\x85"	// U+e2c5
 #define ICON_FA_VECTOR_SQUARE "\xef\x97\x8b"	// U+f5cb
@@ -1357,7 +1357,7 @@
 #define ICON_FA_VOLUME_OFF "\xef\x80\xa6"	// U+f026
 #define ICON_FA_VOLUME_XMARK "\xef\x9a\xa9"	// U+f6a9
 #define ICON_FA_VR_CARDBOARD "\xef\x9c\xa9"	// U+f729
-#define ICON_FA_W "W"	// U+57
+#define ICON_FA_W "W"	// U+0057
 #define ICON_FA_WALKIE_TALKIE "\xef\xa3\xaf"	// U+f8ef
 #define ICON_FA_WALLET "\xef\x95\x95"	// U+f555
 #define ICON_FA_WAND_MAGIC "\xef\x83\x90"	// U+f0d0
@@ -1385,11 +1385,11 @@
 #define ICON_FA_WON_SIGN "\xef\x85\x99"	// U+f159
 #define ICON_FA_WORM "\xee\x96\x99"	// U+e599
 #define ICON_FA_WRENCH "\xef\x82\xad"	// U+f0ad
-#define ICON_FA_X "X"	// U+58
+#define ICON_FA_X "X"	// U+0058
 #define ICON_FA_X_RAY "\xef\x92\x97"	// U+f497
 #define ICON_FA_XMARK "\xef\x80\x8d"	// U+f00d
 #define ICON_FA_XMARKS_LINES "\xee\x96\x9a"	// U+e59a
-#define ICON_FA_Y "Y"	// U+59
+#define ICON_FA_Y "Y"	// U+0059
 #define ICON_FA_YEN_SIGN "\xef\x85\x97"	// U+f157
 #define ICON_FA_YIN_YANG "\xef\x9a\xad"	// U+f6ad
-#define ICON_FA_Z "Z"	// U+5a
+#define ICON_FA_Z "Z"	// U+005a

@@ -9,7 +9,7 @@ namespace IconFonts
 
         public const int IconMin = 0xe007;
         public const int IconMax = 0xf8e8;
-        public const string The500px = "\uf26e";
+        public const string Num500px = "\uf26e";
         public const string AccessibleIcon = "\uf368";
         public const string Accusoft = "\uf369";
         public const string AcquisitionsIncorporated = "\uf6af";

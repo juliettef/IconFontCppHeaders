@@ -10,16 +10,16 @@ namespace IconFonts
 
         public const int IconMin = 0x0021;
         public const int IconMax = 0xf8ff;
-        public const string The0 = "\u0030";
-        public const string The1 = "\u0031";
-        public const string The2 = "\u0032";
-        public const string The3 = "\u0033";
-        public const string The4 = "\u0034";
-        public const string The5 = "\u0035";
-        public const string The6 = "\u0036";
-        public const string The7 = "\u0037";
-        public const string The8 = "\u0038";
-        public const string The9 = "\u0039";
+        public const string Num0 = "\u0030";
+        public const string Num1 = "\u0031";
+        public const string Num2 = "\u0032";
+        public const string Num3 = "\u0033";
+        public const string Num4 = "\u0034";
+        public const string Num5 = "\u0035";
+        public const string Num6 = "\u0036";
+        public const string Num7 = "\u0037";
+        public const string Num8 = "\u0038";
+        public const string Num9 = "\u0039";
         public const string A = "\u0041";
         public const string AddressBook = "\uf2b9";
         public const string AddressCard = "\uf2bb";

@@ -577,7 +577,7 @@ namespace IconFonts
         public const string InternetExplorer = "\uf26b";
         public const string Television = "\uf26c";
         public const string Contao = "\uf26d";
-        public const string The500px = "\uf26e";
+        public const string Num500px = "\uf26e";
         public const string Amazon = "\uf270";
         public const string CalendarPlusO = "\uf271";
         public const string CalendarMinusO = "\uf272";

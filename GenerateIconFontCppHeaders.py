@@ -543,7 +543,7 @@ class LanguageCSharp( Language ):
 
         if icon_name[ 0 ].isdigit():
             # Variable may not start with a digit
-            icon_name = 'The' + icon_name
+            icon_name = 'Num' + icon_name
 
         if icon_name == cls.intermediate.get( 'font_name' ).replace( ' ', '' ):
             # Member may not have same name as enclosing class

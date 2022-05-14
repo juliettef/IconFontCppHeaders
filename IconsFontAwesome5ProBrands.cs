@@ -8,6 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-brands-400.ttf";
 
         public const int IconMin = 0xe007;
+        public const int IconMax16 = 0xf8e8;
         public const int IconMax = 0xf8e8;
         public const string Num500px = "\uf26e";
         public const string AccessibleIcon = "\uf368";

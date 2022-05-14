@@ -6,6 +6,7 @@
 #define FONT_ICON_FILE_NAME_FK "forkawesome-webfont.ttf"
 
 #define ICON_MIN_FK 0xf000
+#define ICON_MAX_16_FK 0xf372
 #define ICON_MAX_FK 0xf372
 #define ICON_FK_GLASS "\xef\x80\x80"	// U+f000
 #define ICON_FK_MUSIC "\xef\x80\x81"	// U+f001

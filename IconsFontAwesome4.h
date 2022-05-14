@@ -6,6 +6,7 @@
 #define FONT_ICON_FILE_NAME_FA "fontawesome-webfont.ttf"
 
 #define ICON_MIN_FA 0xf000
+#define ICON_MAX_16_FA 0xf2e0
 #define ICON_MAX_FA 0xf2e0
 #define ICON_FA_GLASS "\xef\x80\x80"	// U+f000
 #define ICON_FA_MUSIC "\xef\x80\x81"	// U+f001

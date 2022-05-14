@@ -10,6 +10,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xe000;
+        public const int IconMax16 = 0xf8ff;
         public const int IconMax = 0xf8ff;
         public const string Abacus = "\uf640";
         public const string Acorn = "\uf6ae";

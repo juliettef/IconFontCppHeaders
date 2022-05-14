@@ -8,7 +8,8 @@ namespace IconFonts
         public const string FontIconFileName = "fa-regular-400.ttf";
         public const string FontIconFileName = "fa-solid-900.ttf";
 
-        public const int IconMin = 0x0021;
+        public const int IconMin = 0xe005;
+        public const int IconMax16 = 0xf8ff;
         public const int IconMax = 0xf8ff;
         public const string Num0 = "\u0030";
         public const string Num1 = "\u0031";

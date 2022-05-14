@@ -8,6 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fontawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
+        public const int IconMax16 = 0xf2e0;
         public const int IconMax = 0xf2e0;
         public const string Glass = "\uf000";
         public const string Music = "\uf001";

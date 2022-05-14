@@ -8,6 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "kenney-icon-font.ttf";
 
         public const int IconMin = 0xe900;
+        public const int IconMax16 = 0xe9e3;
         public const int IconMax = 0xe9e3;
         public const string Home = "\ue900";
         public const string Adjust = "\ue901";

@@ -6,6 +6,7 @@
 #define FONT_ICON_FILE_NAME_FAD "fontaudio.ttf"
 
 #define ICON_MIN_FAD 0xf101
+#define ICON_MAX_16_FAD 0xf19b
 #define ICON_MAX_FAD 0xf19b
 #define ICON_FAD_ADR "\xef\x84\x81"	// U+f101
 #define ICON_FAD_ADSR "\xef\x84\x82"	// U+f102

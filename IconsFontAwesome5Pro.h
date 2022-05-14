@@ -8,6 +8,7 @@
 #define FONT_ICON_FILE_NAME_FAS "fa-solid-900.ttf"
 
 #define ICON_MIN_FA 0xe000
+#define ICON_MAX_16_FA 0xf8ff
 #define ICON_MAX_FA 0xf8ff
 #define ICON_FA_ABACUS "\xef\x99\x80"	// U+f640
 #define ICON_FA_ACORN "\xef\x9a\xae"	// U+f6ae

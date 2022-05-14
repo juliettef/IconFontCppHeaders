@@ -6,6 +6,7 @@
 #define FONT_ICON_FILE_NAME_MD "MaterialIcons-Regular.ttf"
 
 #define ICON_MIN_MD 0xe000
+#define ICON_MAX_16_MD 0xf8ff
 #define ICON_MAX_MD 0x10fffd
 #define ICON_MD_10K "\xee\xa5\x91"	// U+e951
 #define ICON_MD_10MP "\xee\xa5\x92"	// U+e952

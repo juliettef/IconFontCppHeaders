@@ -6,6 +6,7 @@
 #define FONT_ICON_FILE_NAME_KI "kenney-icon-font.ttf"
 
 #define ICON_MIN_KI 0xe900
+#define ICON_MAX_16_KI 0xe9e3
 #define ICON_MAX_KI 0xe9e3
 #define ICON_KI_HOME "\xee\xa4\x80"	// U+e900
 #define ICON_KI_ADJUST "\xee\xa4\x81"	// U+e901

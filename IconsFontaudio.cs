@@ -8,6 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "fontaudio.ttf";
 
         public const int IconMin = 0xf101;
+        public const int IconMax16 = 0xf19b;
         public const int IconMax = 0xf19b;
         public const string Adr = "\uf101";
         public const string Adsr = "\uf102";

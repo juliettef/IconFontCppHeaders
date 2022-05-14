@@ -9,6 +9,7 @@ namespace IconFonts
         public const string FontIconFileName = "fa-solid-900.ttf";
 
         public const int IconMin = 0xe005;
+        public const int IconMax16 = 0xf8ff;
         public const int IconMax = 0xf8ff;
         public const string Ad = "\uf641";
         public const string AddressBook = "\uf2b9";

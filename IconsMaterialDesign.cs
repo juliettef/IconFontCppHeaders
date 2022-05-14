@@ -8,6 +8,7 @@ namespace IconFonts
         public const string FontIconFileName = "MaterialIcons-Regular.ttf";
 
         public const int IconMin = 0xe000;
+        public const int IconMax16 = 0xf8ff;
         public const int IconMax = 0x10fffd;
         public const string Num10k = "\ue951";
         public const string Num10mp = "\ue952";

@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class Fontaudio
     {
-        public const string FontIconFileName = "fontaudio.ttf";
+        public const string FontIconFileNameFAD  = "fontaudio.ttf";
 
         public const int IconMin = 0xf101;
         public const int IconMax16 = 0xf19b;

@@ -818,7 +818,9 @@
 #define ICON_MD_FLIP_TO_BACK "\xee\xa2\x82"	// U+e882
 #define ICON_MD_FLIP_TO_FRONT "\xee\xa2\x83"	// U+e883
 #define ICON_MD_FLOOD "\xee\xaf\xa6"	// U+ebe6
+#define ICON_MD_FLOURESCENT "\xee\xb0\xb1"	// U+ec31
 #define ICON_MD_FLOURESCENT "\xef\x80\x8d"	// U+f00d
+#define ICON_MD_FLUORESCENT "\xee\xb0\xb1"	// U+ec31
 #define ICON_MD_FLUTTER_DASH "\xee\x80\x8b"	// U+e00b
 #define ICON_MD_FMD_BAD "\xef\x80\x8e"	// U+f00e
 #define ICON_MD_FMD_GOOD "\xef\x80\x8f"	// U+f00f
@@ -2095,6 +2097,7 @@
 #define ICON_MD_VIDEO_CALL "\xee\x81\xb0"	// U+e070
 #define ICON_MD_VIDEO_CAMERA_BACK "\xef\x81\xbf"	// U+f07f
 #define ICON_MD_VIDEO_CAMERA_FRONT "\xef\x82\x80"	// U+f080
+#define ICON_MD_VIDEO_CHAT "\xef\xa2\xa0"	// U+f8a0
 #define ICON_MD_VIDEO_COLLECTION "\xee\x81\x8a"	// U+e04a
 #define ICON_MD_VIDEO_FILE "\xee\xae\x87"	// U+eb87
 #define ICON_MD_VIDEO_LABEL "\xee\x81\xb1"	// U+e071

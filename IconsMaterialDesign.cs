@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class MaterialDesign
     {
-        public const string FontIconFileName = "MaterialIcons-Regular.ttf";
+        public const string FontIconFileNameMD  = "MaterialIcons-Regular.ttf";
 
         public const int IconMin = 0xe000;
         public const int IconMax16 = 0xf8ff;
@@ -820,7 +820,9 @@ namespace IconFonts
         public const string Flip_to_back = "\ue882";
         public const string Flip_to_front = "\ue883";
         public const string Flood = "\uebe6";
+        public const string Flourescent = "\uec31";
         public const string Flourescent = "\uf00d";
+        public const string Fluorescent = "\uec31";
         public const string Flutter_dash = "\ue00b";
         public const string Fmd_bad = "\uf00e";
         public const string Fmd_good = "\uf00f";
@@ -2097,6 +2099,7 @@ namespace IconFonts
         public const string Video_call = "\ue070";
         public const string Video_camera_back = "\uf07f";
         public const string Video_camera_front = "\uf080";
+        public const string Video_chat = "\uf8a0";
         public const string Video_collection = "\ue04a";
         public const string Video_file = "\ueb87";
         public const string Video_label = "\ue071";

@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class FontAwesome4
     {
-        public const string FontIconFileName = "fontawesome-webfont.ttf";
+        public const string FontIconFileNameFA  = "fontawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
         public const int IconMax16 = 0xf2e0;

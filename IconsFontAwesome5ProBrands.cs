@@ -402,7 +402,6 @@ namespace IconFonts
         public const string Tiktok = "\ue07b";
         public const string TradeFederation = "\uf513";
         public const string Trello = "\uf181";
-        public const string Tripadvisor = "\uf262";
         public const string Tumblr = "\uf173";
         public const string TumblrSquare = "\uf174";
         public const string Twitch = "\uf1e8";

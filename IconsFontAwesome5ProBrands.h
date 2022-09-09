@@ -400,7 +400,6 @@
 #define ICON_FA_TIKTOK "\xee\x81\xbb"	// U+e07b
 #define ICON_FA_TRADE_FEDERATION "\xef\x94\x93"	// U+f513
 #define ICON_FA_TRELLO "\xef\x86\x81"	// U+f181
-#define ICON_FA_TRIPADVISOR "\xef\x89\xa2"	// U+f262
 #define ICON_FA_TUMBLR "\xef\x85\xb3"	// U+f173
 #define ICON_FA_TUMBLR_SQUARE "\xef\x85\xb4"	// U+f174
 #define ICON_FA_TWITCH "\xef\x87\xa8"	// U+f1e8

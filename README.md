@@ -46,7 +46,7 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [fa-solid-900.ttf](https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-solid-900.ttf)
 
 #### Font Awesome 6 pro
-* Paid product, not supported but [generation should be similar to FA5 Pro](#notes-about-font-awesome-5-and-6)
+* Commercial product, not supported but [generation should be similar to FA5 Pro](#notes-about-font-awesome-5-and-6), or see [@jakerieger's fork](https://github.com/jakerieger/IconFontCppHeaders)
 
 ### Fork Awesome
 * [forkawesome.github.io/Fork-Awesome](https://forkawesome.github.io/Fork-Awesome)

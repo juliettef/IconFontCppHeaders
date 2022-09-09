@@ -239,6 +239,7 @@
 #define ICON_MD_BALCONY "\xee\x96\x8f"	// U+e58f
 #define ICON_MD_BALLOT "\xee\x85\xb2"	// U+e172
 #define ICON_MD_BAR_CHART "\xee\x89\xab"	// U+e26b
+#define ICON_MD_BARCODE_READER "\xef\xa1\x9c"	// U+f85c
 #define ICON_MD_BATCH_PREDICTION "\xef\x83\xb5"	// U+f0f5
 #define ICON_MD_BATHROOM "\xee\xbf\x9d"	// U+efdd
 #define ICON_MD_BATHTUB "\xee\xa9\x81"	// U+ea41
@@ -477,6 +478,7 @@
 #define ICON_MD_CONTROL_CAMERA "\xee\x81\xb4"	// U+e074
 #define ICON_MD_CONTROL_POINT "\xee\x8e\xba"	// U+e3ba
 #define ICON_MD_CONTROL_POINT_DUPLICATE "\xee\x8e\xbb"	// U+e3bb
+#define ICON_MD_CONVEYOR_BELT "\xef\xa1\xa7"	// U+f867
 #define ICON_MD_COOKIE "\xee\xaa\xac"	// U+eaac
 #define ICON_MD_COPY_ALL "\xee\x8b\xac"	// U+e2ec
 #define ICON_MD_COPYRIGHT "\xee\xa4\x8c"	// U+e90c
@@ -560,6 +562,7 @@
 #define ICON_MD_DEVICES "\xee\x86\xb1"	// U+e1b1
 #define ICON_MD_DEVICES_FOLD "\xee\xaf\x9e"	// U+ebde
 #define ICON_MD_DEVICES_OTHER "\xee\x8c\xb7"	// U+e337
+#define ICON_MD_DEW_POINT "\xef\xa1\xb9"	// U+f879
 #define ICON_MD_DIALER_SIP "\xee\x82\xbb"	// U+e0bb
 #define ICON_MD_DIALPAD "\xee\x82\xbc"	// U+e0bc
 #define ICON_MD_DIAMOND "\xee\xab\x95"	// U+ead5
@@ -655,12 +658,14 @@
 #define ICON_MD_EDIT "\xee\x8f\x89"	// U+e3c9
 #define ICON_MD_EDIT_ATTRIBUTES "\xee\x95\xb8"	// U+e578
 #define ICON_MD_EDIT_CALENDAR "\xee\x9d\x82"	// U+e742
+#define ICON_MD_EDIT_DOCUMENT "\xef\xa2\x8c"	// U+f88c
 #define ICON_MD_EDIT_LOCATION "\xee\x95\xa8"	// U+e568
 #define ICON_MD_EDIT_LOCATION_ALT "\xee\x87\x85"	// U+e1c5
 #define ICON_MD_EDIT_NOTE "\xee\x9d\x85"	// U+e745
 #define ICON_MD_EDIT_NOTIFICATIONS "\xee\x94\xa5"	// U+e525
 #define ICON_MD_EDIT_OFF "\xee\xa5\x90"	// U+e950
 #define ICON_MD_EDIT_ROAD "\xee\xbd\x8d"	// U+ef4d
+#define ICON_MD_EDIT_SQUARE "\xef\xa2\x8d"	// U+f88d
 #define ICON_MD_EGG "\xee\xab\x8c"	// U+eacc
 #define ICON_MD_EGG_ALT "\xee\xab\x88"	// U+eac8
 #define ICON_MD_EJECT "\xee\xa3\xbb"	// U+e8fb
@@ -762,6 +767,7 @@
 #define ICON_MD_FILE_OPEN "\xee\xab\xb3"	// U+eaf3
 #define ICON_MD_FILE_PRESENT "\xee\xa8\x8e"	// U+ea0e
 #define ICON_MD_FILE_UPLOAD "\xee\x8b\x86"	// U+e2c6
+#define ICON_MD_FILE_UPLOAD_OFF "\xef\xa2\x86"	// U+f886
 #define ICON_MD_FILTER "\xee\x8f\x93"	// U+e3d3
 #define ICON_MD_FILTER_1 "\xee\x8f\x90"	// U+e3d0
 #define ICON_MD_FILTER_2 "\xee\x8f\x91"	// U+e3d1
@@ -818,7 +824,9 @@
 #define ICON_MD_FLIP_TO_BACK "\xee\xa2\x82"	// U+e882
 #define ICON_MD_FLIP_TO_FRONT "\xee\xa2\x83"	// U+e883
 #define ICON_MD_FLOOD "\xee\xaf\xa6"	// U+ebe6
+#define ICON_MD_FLOURESCENT "\xee\xb0\xb1"	// U+ec31
 #define ICON_MD_FLOURESCENT "\xef\x80\x8d"	// U+f00d
+#define ICON_MD_FLUORESCENT "\xee\xb0\xb1"	// U+ec31
 #define ICON_MD_FLUTTER_DASH "\xee\x80\x8b"	// U+e00b
 #define ICON_MD_FMD_BAD "\xef\x80\x8e"	// U+f00e
 #define ICON_MD_FMD_GOOD "\xef\x80\x8f"	// U+f00f
@@ -838,6 +846,7 @@
 #define ICON_MD_FOREST "\xee\xaa\x99"	// U+ea99
 #define ICON_MD_FORK_LEFT "\xee\xae\xa0"	// U+eba0
 #define ICON_MD_FORK_RIGHT "\xee\xae\xac"	// U+ebac
+#define ICON_MD_FORKLIFT "\xef\xa1\xa8"	// U+f868
 #define ICON_MD_FORMAT_ALIGN_CENTER "\xee\x88\xb4"	// U+e234
 #define ICON_MD_FORMAT_ALIGN_JUSTIFY "\xee\x88\xb5"	// U+e235
 #define ICON_MD_FORMAT_ALIGN_LEFT "\xee\x88\xb6"	// U+e236
@@ -875,6 +884,7 @@
 #define ICON_MD_FREE_BREAKFAST "\xee\xad\x84"	// U+eb44
 #define ICON_MD_FREE_CANCELLATION "\xee\x9d\x88"	// U+e748
 #define ICON_MD_FRONT_HAND "\xee\x9d\xa9"	// U+e769
+#define ICON_MD_FRONT_LOADER "\xef\xa1\xa9"	// U+f869
 #define ICON_MD_FULLSCREEN "\xee\x97\x90"	// U+e5d0
 #define ICON_MD_FULLSCREEN_EXIT "\xee\x97\x91"	// U+e5d1
 #define ICON_MD_FUNCTIONS "\xee\x89\x8a"	// U+e24a
@@ -1391,6 +1401,7 @@
 #define ICON_MD_PAGEVIEW "\xee\xa2\xa0"	// U+e8a0
 #define ICON_MD_PAID "\xef\x81\x81"	// U+f041
 #define ICON_MD_PALETTE "\xee\x90\x8a"	// U+e40a
+#define ICON_MD_PALLET "\xef\xa1\xaa"	// U+f86a
 #define ICON_MD_PAN_TOOL "\xee\xa4\xa5"	// U+e925
 #define ICON_MD_PAN_TOOL_ALT "\xee\xae\xb9"	// U+ebb9
 #define ICON_MD_PANORAMA "\xee\x90\x8b"	// U+e40b
@@ -1750,6 +1761,7 @@
 #define ICON_MD_SHARE "\xee\xa0\x8d"	// U+e80d
 #define ICON_MD_SHARE_ARRIVAL_TIME "\xee\x94\xa4"	// U+e524
 #define ICON_MD_SHARE_LOCATION "\xef\x81\x9f"	// U+f05f
+#define ICON_MD_SHELVES "\xef\xa1\xae"	// U+f86e
 #define ICON_MD_SHIELD "\xee\xa7\xa0"	// U+e9e0
 #define ICON_MD_SHIELD_MOON "\xee\xaa\xa9"	// U+eaa9
 #define ICON_MD_SHOP "\xee\xa3\x89"	// U+e8c9
@@ -2042,6 +2054,7 @@
 #define ICON_MD_TRENDING_NEUTRAL "\xee\xa3\xa4"	// U+e8e4
 #define ICON_MD_TRENDING_UP "\xee\xa3\xa5"	// U+e8e5
 #define ICON_MD_TRIP_ORIGIN "\xee\x95\xbb"	// U+e57b
+#define ICON_MD_TROLLEY "\xef\xa1\xab"	// U+f86b
 #define ICON_MD_TROUBLESHOOT "\xee\x87\x92"	// U+e1d2
 #define ICON_MD_TRY "\xef\x81\xbc"	// U+f07c
 #define ICON_MD_TSUNAMI "\xee\xaf\x98"	// U+ebd8
@@ -2095,6 +2108,7 @@
 #define ICON_MD_VIDEO_CALL "\xee\x81\xb0"	// U+e070
 #define ICON_MD_VIDEO_CAMERA_BACK "\xef\x81\xbf"	// U+f07f
 #define ICON_MD_VIDEO_CAMERA_FRONT "\xef\x82\x80"	// U+f080
+#define ICON_MD_VIDEO_CHAT "\xef\xa2\xa0"	// U+f8a0
 #define ICON_MD_VIDEO_COLLECTION "\xee\x81\x8a"	// U+e04a
 #define ICON_MD_VIDEO_FILE "\xee\xae\x87"	// U+eb87
 #define ICON_MD_VIDEO_LABEL "\xee\x81\xb1"	// U+e071

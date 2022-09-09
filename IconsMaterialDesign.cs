@@ -241,6 +241,7 @@ namespace IconFonts
         public const string Balcony = "\ue58f";
         public const string Ballot = "\ue172";
         public const string Bar_chart = "\ue26b";
+        public const string Barcode_reader = "\uf85c";
         public const string Batch_prediction = "\uf0f5";
         public const string Bathroom = "\uefdd";
         public const string Bathtub = "\uea41";
@@ -479,6 +480,7 @@ namespace IconFonts
         public const string Control_camera = "\ue074";
         public const string Control_point = "\ue3ba";
         public const string Control_point_duplicate = "\ue3bb";
+        public const string Conveyor_belt = "\uf867";
         public const string Cookie = "\ueaac";
         public const string Copy_all = "\ue2ec";
         public const string Copyright = "\ue90c";
@@ -562,6 +564,7 @@ namespace IconFonts
         public const string Devices = "\ue1b1";
         public const string Devices_fold = "\uebde";
         public const string Devices_other = "\ue337";
+        public const string Dew_point = "\uf879";
         public const string Dialer_sip = "\ue0bb";
         public const string Dialpad = "\ue0bc";
         public const string Diamond = "\uead5";
@@ -657,12 +660,14 @@ namespace IconFonts
         public const string Edit = "\ue3c9";
         public const string Edit_attributes = "\ue578";
         public const string Edit_calendar = "\ue742";
+        public const string Edit_document = "\uf88c";
         public const string Edit_location = "\ue568";
         public const string Edit_location_alt = "\ue1c5";
         public const string Edit_note = "\ue745";
         public const string Edit_notifications = "\ue525";
         public const string Edit_off = "\ue950";
         public const string Edit_road = "\uef4d";
+        public const string Edit_square = "\uf88d";
         public const string Egg = "\ueacc";
         public const string Egg_alt = "\ueac8";
         public const string Eject = "\ue8fb";
@@ -764,6 +769,7 @@ namespace IconFonts
         public const string File_open = "\ueaf3";
         public const string File_present = "\uea0e";
         public const string File_upload = "\ue2c6";
+        public const string File_upload_off = "\uf886";
         public const string Filter = "\ue3d3";
         public const string Filter_1 = "\ue3d0";
         public const string Filter_2 = "\ue3d1";
@@ -820,7 +826,9 @@ namespace IconFonts
         public const string Flip_to_back = "\ue882";
         public const string Flip_to_front = "\ue883";
         public const string Flood = "\uebe6";
+        public const string Flourescent = "\uec31";
         public const string Flourescent = "\uf00d";
+        public const string Fluorescent = "\uec31";
         public const string Flutter_dash = "\ue00b";
         public const string Fmd_bad = "\uf00e";
         public const string Fmd_good = "\uf00f";
@@ -840,6 +848,7 @@ namespace IconFonts
         public const string Forest = "\uea99";
         public const string Fork_left = "\ueba0";
         public const string Fork_right = "\uebac";
+        public const string Forklift = "\uf868";
         public const string Format_align_center = "\ue234";
         public const string Format_align_justify = "\ue235";
         public const string Format_align_left = "\ue236";
@@ -877,6 +886,7 @@ namespace IconFonts
         public const string Free_breakfast = "\ueb44";
         public const string Free_cancellation = "\ue748";
         public const string Front_hand = "\ue769";
+        public const string Front_loader = "\uf869";
         public const string Fullscreen = "\ue5d0";
         public const string Fullscreen_exit = "\ue5d1";
         public const string Functions = "\ue24a";
@@ -1393,6 +1403,7 @@ namespace IconFonts
         public const string Pageview = "\ue8a0";
         public const string Paid = "\uf041";
         public const string Palette = "\ue40a";
+        public const string Pallet = "\uf86a";
         public const string Pan_tool = "\ue925";
         public const string Pan_tool_alt = "\uebb9";
         public const string Panorama = "\ue40b";
@@ -1752,6 +1763,7 @@ namespace IconFonts
         public const string Share = "\ue80d";
         public const string Share_arrival_time = "\ue524";
         public const string Share_location = "\uf05f";
+        public const string Shelves = "\uf86e";
         public const string Shield = "\ue9e0";
         public const string Shield_moon = "\ueaa9";
         public const string Shop = "\ue8c9";
@@ -2044,6 +2056,7 @@ namespace IconFonts
         public const string Trending_neutral = "\ue8e4";
         public const string Trending_up = "\ue8e5";
         public const string Trip_origin = "\ue57b";
+        public const string Trolley = "\uf86b";
         public const string Troubleshoot = "\ue1d2";
         public const string Try = "\uf07c";
         public const string Tsunami = "\uebd8";
@@ -2097,6 +2110,7 @@ namespace IconFonts
         public const string Video_call = "\ue070";
         public const string Video_camera_back = "\uf07f";
         public const string Video_camera_front = "\uf080";
+        public const string Video_chat = "\uf8a0";
         public const string Video_collection = "\ue04a";
         public const string Video_file = "\ueb87";
         public const string Video_label = "\ue071";

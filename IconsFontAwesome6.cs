@@ -162,6 +162,7 @@ namespace IconFonts
         public const string BookOpenReader = "\uf5da";
         public const string BookQuran = "\uf687";
         public const string BookSkull = "\uf6b7";
+        public const string BookTanakh = "\uf827";
         public const string Bookmark = "\uf02e";
         public const string BorderAll = "\uf84c";
         public const string BorderNone = "\uf850";
@@ -218,6 +219,7 @@ namespace IconFonts
         public const string BusSimple = "\uf55e";
         public const string BusinessTime = "\uf64a";
         public const string C = "\u0043";
+        public const string CableCar = "\uf7da";
         public const string CakeCandles = "\uf1fd";
         public const string Calculator = "\uf1ec";
         public const string Calendar = "\uf133";
@@ -511,12 +513,12 @@ namespace IconFonts
         public const string FileArrowDown = "\uf56d";
         public const string FileArrowUp = "\uf574";
         public const string FileAudio = "\uf1c7";
-        public const string FileCircleCheck = "\ue493";
+        public const string FileCircleCheck = "\ue5a0";
         public const string FileCircleExclamation = "\ue4eb";
         public const string FileCircleMinus = "\ue4ed";
-        public const string FileCirclePlus = "\ue4ee";
+        public const string FileCirclePlus = "\ue494";
         public const string FileCircleQuestion = "\ue4ef";
-        public const string FileCircleXmark = "\ue494";
+        public const string FileCircleXmark = "\ue5a1";
         public const string FileCode = "\uf1c9";
         public const string FileContract = "\uf56c";
         public const string FileCsv = "\uf6dd";
@@ -686,8 +688,8 @@ namespace IconFonts
         public const string Hotdog = "\uf80f";
         public const string Hotel = "\uf594";
         public const string Hourglass = "\uf254";
-        public const string HourglassEmpty = "\uf252";
         public const string HourglassEnd = "\uf253";
+        public const string HourglassHalf = "\uf252";
         public const string HourglassStart = "\uf251";
         public const string House = "\uf015";
         public const string HouseChimney = "\ue3af";
@@ -905,7 +907,7 @@ namespace IconFonts
         public const string PenRuler = "\uf5ae";
         public const string PenToSquare = "\uf044";
         public const string Pencil = "\uf303";
-        public const string PeopleArrowsLeftRight = "\ue068";
+        public const string PeopleArrows = "\ue068";
         public const string PeopleCarryBox = "\uf4ce";
         public const string PeopleGroup = "\ue533";
         public const string PeopleLine = "\ue534";
@@ -953,7 +955,7 @@ namespace IconFonts
         public const string PersonSkiingNordic = "\uf7ca";
         public const string PersonSnowboarding = "\uf7ce";
         public const string PersonSwimming = "\uf5c4";
-        public const string PersonThroughWindow = "\ue433";
+        public const string PersonThroughWindow = "\ue5a9";
         public const string PersonWalking = "\uf554";
         public const string PersonWalkingArrowLoopLeft = "\ue551";
         public const string PersonWalkingArrowRight = "\ue552";
@@ -980,7 +982,7 @@ namespace IconFonts
         public const string PlaneLock = "\ue558";
         public const string PlaneSlash = "\ue069";
         public const string PlaneUp = "\ue22d";
-        public const string PlantWilt = "\ue43b";
+        public const string PlantWilt = "\ue5aa";
         public const string PlateWheat = "\ue55a";
         public const string Play = "\uf04b";
         public const string Plug = "\uf1e6";
@@ -1160,9 +1162,10 @@ namespace IconFonts
         public const string SquareUpRight = "\uf360";
         public const string SquareVirus = "\ue578";
         public const string SquareXmark = "\uf2d3";
-        public const string StaffAesculapius = "\ue579";
+        public const string StaffSnake = "\ue579";
         public const string Stairs = "\ue289";
         public const string Stamp = "\uf5bf";
+        public const string Stapler = "\ue5af";
         public const string Star = "\uf005";
         public const string StarAndCrescent = "\uf699";
         public const string StarHalf = "\uf089";
@@ -1256,7 +1259,7 @@ namespace IconFonts
         public const string Trailer = "\ue041";
         public const string Train = "\uf238";
         public const string TrainSubway = "\uf239";
-        public const string TrainTram = "\uf7da";
+        public const string TrainTram = "\ue5b4";
         public const string Transgender = "\uf225";
         public const string Trash = "\uf1f8";
         public const string TrashArrowUp = "\uf829";

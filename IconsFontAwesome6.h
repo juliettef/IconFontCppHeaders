@@ -160,6 +160,7 @@
 #define ICON_FA_BOOK_OPEN_READER "\xef\x97\x9a"	// U+f5da
 #define ICON_FA_BOOK_QURAN "\xef\x9a\x87"	// U+f687
 #define ICON_FA_BOOK_SKULL "\xef\x9a\xb7"	// U+f6b7
+#define ICON_FA_BOOK_TANAKH "\xef\xa0\xa7"	// U+f827
 #define ICON_FA_BOOKMARK "\xef\x80\xae"	// U+f02e
 #define ICON_FA_BORDER_ALL "\xef\xa1\x8c"	// U+f84c
 #define ICON_FA_BORDER_NONE "\xef\xa1\x90"	// U+f850
@@ -216,6 +217,7 @@
 #define ICON_FA_BUS_SIMPLE "\xef\x95\x9e"	// U+f55e
 #define ICON_FA_BUSINESS_TIME "\xef\x99\x8a"	// U+f64a
 #define ICON_FA_C "C"	// U+0043
+#define ICON_FA_CABLE_CAR "\xef\x9f\x9a"	// U+f7da
 #define ICON_FA_CAKE_CANDLES "\xef\x87\xbd"	// U+f1fd
 #define ICON_FA_CALCULATOR "\xef\x87\xac"	// U+f1ec
 #define ICON_FA_CALENDAR "\xef\x84\xb3"	// U+f133
@@ -509,12 +511,12 @@
 #define ICON_FA_FILE_ARROW_DOWN "\xef\x95\xad"	// U+f56d
 #define ICON_FA_FILE_ARROW_UP "\xef\x95\xb4"	// U+f574
 #define ICON_FA_FILE_AUDIO "\xef\x87\x87"	// U+f1c7
-#define ICON_FA_FILE_CIRCLE_CHECK "\xee\x92\x93"	// U+e493
+#define ICON_FA_FILE_CIRCLE_CHECK "\xee\x96\xa0"	// U+e5a0
 #define ICON_FA_FILE_CIRCLE_EXCLAMATION "\xee\x93\xab"	// U+e4eb
 #define ICON_FA_FILE_CIRCLE_MINUS "\xee\x93\xad"	// U+e4ed
-#define ICON_FA_FILE_CIRCLE_PLUS "\xee\x93\xae"	// U+e4ee
+#define ICON_FA_FILE_CIRCLE_PLUS "\xee\x92\x94"	// U+e494
 #define ICON_FA_FILE_CIRCLE_QUESTION "\xee\x93\xaf"	// U+e4ef
-#define ICON_FA_FILE_CIRCLE_XMARK "\xee\x92\x94"	// U+e494
+#define ICON_FA_FILE_CIRCLE_XMARK "\xee\x96\xa1"	// U+e5a1
 #define ICON_FA_FILE_CODE "\xef\x87\x89"	// U+f1c9
 #define ICON_FA_FILE_CONTRACT "\xef\x95\xac"	// U+f56c
 #define ICON_FA_FILE_CSV "\xef\x9b\x9d"	// U+f6dd
@@ -684,8 +686,8 @@
 #define ICON_FA_HOTDOG "\xef\xa0\x8f"	// U+f80f
 #define ICON_FA_HOTEL "\xef\x96\x94"	// U+f594
 #define ICON_FA_HOURGLASS "\xef\x89\x94"	// U+f254
-#define ICON_FA_HOURGLASS_EMPTY "\xef\x89\x92"	// U+f252
 #define ICON_FA_HOURGLASS_END "\xef\x89\x93"	// U+f253
+#define ICON_FA_HOURGLASS_HALF "\xef\x89\x92"	// U+f252
 #define ICON_FA_HOURGLASS_START "\xef\x89\x91"	// U+f251
 #define ICON_FA_HOUSE "\xef\x80\x95"	// U+f015
 #define ICON_FA_HOUSE_CHIMNEY "\xee\x8e\xaf"	// U+e3af
@@ -903,7 +905,7 @@
 #define ICON_FA_PEN_RULER "\xef\x96\xae"	// U+f5ae
 #define ICON_FA_PEN_TO_SQUARE "\xef\x81\x84"	// U+f044
 #define ICON_FA_PENCIL "\xef\x8c\x83"	// U+f303
-#define ICON_FA_PEOPLE_ARROWS_LEFT_RIGHT "\xee\x81\xa8"	// U+e068
+#define ICON_FA_PEOPLE_ARROWS "\xee\x81\xa8"	// U+e068
 #define ICON_FA_PEOPLE_CARRY_BOX "\xef\x93\x8e"	// U+f4ce
 #define ICON_FA_PEOPLE_GROUP "\xee\x94\xb3"	// U+e533
 #define ICON_FA_PEOPLE_LINE "\xee\x94\xb4"	// U+e534
@@ -951,7 +953,7 @@
 #define ICON_FA_PERSON_SKIING_NORDIC "\xef\x9f\x8a"	// U+f7ca
 #define ICON_FA_PERSON_SNOWBOARDING "\xef\x9f\x8e"	// U+f7ce
 #define ICON_FA_PERSON_SWIMMING "\xef\x97\x84"	// U+f5c4
-#define ICON_FA_PERSON_THROUGH_WINDOW "\xee\x90\xb3"	// U+e433
+#define ICON_FA_PERSON_THROUGH_WINDOW "\xee\x96\xa9"	// U+e5a9
 #define ICON_FA_PERSON_WALKING "\xef\x95\x94"	// U+f554
 #define ICON_FA_PERSON_WALKING_ARROW_LOOP_LEFT "\xee\x95\x91"	// U+e551
 #define ICON_FA_PERSON_WALKING_ARROW_RIGHT "\xee\x95\x92"	// U+e552
@@ -978,7 +980,7 @@
 #define ICON_FA_PLANE_LOCK "\xee\x95\x98"	// U+e558
 #define ICON_FA_PLANE_SLASH "\xee\x81\xa9"	// U+e069
 #define ICON_FA_PLANE_UP "\xee\x88\xad"	// U+e22d
-#define ICON_FA_PLANT_WILT "\xee\x90\xbb"	// U+e43b
+#define ICON_FA_PLANT_WILT "\xee\x96\xaa"	// U+e5aa
 #define ICON_FA_PLATE_WHEAT "\xee\x95\x9a"	// U+e55a
 #define ICON_FA_PLAY "\xef\x81\x8b"	// U+f04b
 #define ICON_FA_PLUG "\xef\x87\xa6"	// U+f1e6
@@ -1158,9 +1160,10 @@
 #define ICON_FA_SQUARE_UP_RIGHT "\xef\x8d\xa0"	// U+f360
 #define ICON_FA_SQUARE_VIRUS "\xee\x95\xb8"	// U+e578
 #define ICON_FA_SQUARE_XMARK "\xef\x8b\x93"	// U+f2d3
-#define ICON_FA_STAFF_AESCULAPIUS "\xee\x95\xb9"	// U+e579
+#define ICON_FA_STAFF_SNAKE "\xee\x95\xb9"	// U+e579
 #define ICON_FA_STAIRS "\xee\x8a\x89"	// U+e289
 #define ICON_FA_STAMP "\xef\x96\xbf"	// U+f5bf
+#define ICON_FA_STAPLER "\xee\x96\xaf"	// U+e5af
 #define ICON_FA_STAR "\xef\x80\x85"	// U+f005
 #define ICON_FA_STAR_AND_CRESCENT "\xef\x9a\x99"	// U+f699
 #define ICON_FA_STAR_HALF "\xef\x82\x89"	// U+f089
@@ -1254,7 +1257,7 @@
 #define ICON_FA_TRAILER "\xee\x81\x81"	// U+e041
 #define ICON_FA_TRAIN "\xef\x88\xb8"	// U+f238
 #define ICON_FA_TRAIN_SUBWAY "\xef\x88\xb9"	// U+f239
-#define ICON_FA_TRAIN_TRAM "\xef\x9f\x9a"	// U+f7da
+#define ICON_FA_TRAIN_TRAM "\xee\x96\xb4"	// U+e5b4
 #define ICON_FA_TRANSGENDER "\xef\x88\xa5"	// U+f225
 #define ICON_FA_TRASH "\xef\x87\xb8"	// U+f1f8
 #define ICON_FA_TRASH_ARROW_UP "\xef\xa0\xa9"	// U+f829

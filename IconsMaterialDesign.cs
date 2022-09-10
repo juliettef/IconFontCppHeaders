@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class MaterialDesign
     {
-        public const string FontIconFileName = "MaterialIcons-Regular.ttf";
+        public const string FontIconFileNameMD = "MaterialIcons-Regular.ttf";
 
         public const int IconMin = 0xe000;
         public const int IconMax16 = 0xf8ff;

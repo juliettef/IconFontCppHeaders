@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class ForkAwesome
     {
-        public const string FontIconFileName = "forkawesome-webfont.ttf";
+        public const string FontIconFileNameFK = "forkawesome-webfont.ttf";
 
         public const int IconMin = 0xf000;
         public const int IconMax16 = 0xf372;

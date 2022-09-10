@@ -5,9 +5,9 @@ namespace IconFonts
 {
     public class FontAwesome5Pro
     {
-        public const string FontIconFileName = "fa-light-300.ttf";
-        public const string FontIconFileName = "fa-regular-400.ttf";
-        public const string FontIconFileName = "fa-solid-900.ttf";
+        public const string FontIconFileNameFAL = "fa-light-300.ttf";
+        public const string FontIconFileNameFAR = "fa-regular-400.ttf";
+        public const string FontIconFileNameFAS = "fa-solid-900.ttf";
 
         public const int IconMin = 0xe000;
         public const int IconMax16 = 0xf8ff;

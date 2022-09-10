@@ -5,7 +5,7 @@ namespace IconFonts
 {
     public class Kenney
     {
-        public const string FontIconFileName = "kenney-icon-font.ttf";
+        public const string FontIconFileNameKI = "kenney-icon-font.ttf";
 
         public const int IconMin = 0xe900;
         public const int IconMax16 = 0xe9e3;

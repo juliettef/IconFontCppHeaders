@@ -7,9 +7,9 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C, C++ headers and C# classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Fontaudio.
+C and C++ headers, C# and Python classes for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Fontaudio.
 
-A set of header files and classes for using icon fonts in C, C++ and C#, along with the python generator used to create the files.
+A set of header files and classes for using icon fonts in C, C++, C# and Python, along with the python generator used to create the files.
 
 Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min, max and max 16 bit code points for font loading purposes. The min excludes the ASCII characters code points. The max 16 bit is for use with libraries that only support 16 bit code points, for example Dear ImGui.
 
@@ -171,4 +171,5 @@ Suggestion to add Ionicons - [Omar Cornut](http://www.miracleworld.net/) - [@oco
 C# language implementation - Rokas Kupstys - [@rokups](https://github.com/rokups)  
 Suggestion to add Material Design Icons - Gustav Madeso - [@madeso](https://github.com/madeso)  
 Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilarkin](https://github.com/olilarkin)  
-Initial ttf to C and C++ headers conversion implementation - Charles Mailly - [@Caerind](https://github.com/Caerind)
+Initial ttf to C and C++ headers conversion implementation - Charles Mailly - [@Caerind](https://github.com/Caerind)  
+Python language implementation - Hang Yu - [@yhyu13](https://github.com/yhyu13)  

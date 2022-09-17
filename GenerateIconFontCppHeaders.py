@@ -69,6 +69,7 @@
 #           - output C and C++:     #define ICON_FA_MUSIC "\xef\x80\x81"	// U+f001
 #           - output C#:            public const string Music = "\uf001";
 #           - output Python:        ICON_MUSIC = '\uf001'
+#           - output Go:            "Music":	"\xef\x80\x81", 	// U+f001
 #
 #   All fonts have computed min, max_16 and max unicode fonts.
 #   The min excludes the ASCII characters code points.
@@ -88,6 +89,10 @@
 #           - output Python:        ICON_MIN = 0xf000
 #                                   ICON_MAX_16 = 0xf2e0
 #                                   ICON_MAX = 0xf2e0
+#
+#           - output Go:            Min: 0xf000,
+#                                   Max16: 0xf2e0,
+#                                   Max: 0xf2e0,
 #
 #------------------------------------------------------------------------------
 #

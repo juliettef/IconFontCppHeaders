@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var Fontaudio = Font{
+var IconsFontaudio = Font{
 	Filenames: [][2]string{
 		{"FAD", "fontaudio.ttf"},
 	},

@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var ForkAwesome = Font{
+var IconsForkAwesome = Font{
 	Filenames: [][2]string{
 		{"FK", "forkawesome-webfont.ttf"},
 	},

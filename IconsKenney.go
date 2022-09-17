@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var Kenney = Font{
+var IconsKenney = Font{
 	Filenames: [][2]string{
 		{"KI", "kenney-icon-font.ttf"},
 	},

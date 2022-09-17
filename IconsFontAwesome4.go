@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var FontAwesome4 = Font{
+var IconsFontAwesome4 = Font{
 	Filenames: [][2]string{
 		{"FA", "fontawesome-webfont.ttf"},
 	},

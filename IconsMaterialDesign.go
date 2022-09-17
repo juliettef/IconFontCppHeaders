@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var MaterialDesign = Font{
+var IconsMaterialDesign = Font{
 	Filenames: [][2]string{
 		{"MD", "MaterialIcons-Regular.ttf"},
 	},

@@ -667,7 +667,7 @@ class LanguagePython( Language ):
 
 class LanguageGo( Language ):
     language_name = 'Go'
-    file_name = '{name}.go'
+    file_name = 'Icons{name}.go'
 
     @classmethod
     def prelude( cls ):
@@ -684,7 +684,7 @@ class LanguageGo( Language ):
                                       font_data = cls.intermediate.get( 'font_data' ),
                                       ttf_files = ', '.join( ttf_files ),
                                       package_name = str( cls.intermediate.get( 'font_name' )).replace( ' ', '' ) )
-        result += 'var {name} = Font'.format( name = str( cls.intermediate.get( 'font_name' )).replace( ' ', '' ) )
+        result += 'var Icons{name} = Font'.format( name = str( cls.intermediate.get( 'font_name' )).replace( ' ', '' ) )
         result += '{\n'
         result += '\tFilenames: [][2]string{\n'
         for ttf in cls.intermediate.get( 'ttfs' ): 

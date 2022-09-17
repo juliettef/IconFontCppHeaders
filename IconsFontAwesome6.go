@@ -4,7 +4,7 @@
 
 package IconFontCppHeaders
 
-var FontAwesome6 = Font{
+var IconsFontAwesome6 = Font{
 	Filenames: [][2]string{
 		{"FAR", "fa-regular-400.ttf"},
 		{"FAS", "fa-solid-900.ttf"},

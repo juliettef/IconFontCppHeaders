@@ -429,12 +429,6 @@ class Language:
         return result
 
     @classmethod
-    def lines_minmax( cls ):
-        print( '[ ERROR - missing implementation of class method lines_minmax for {!s} ]'.format( cls.language_name ))
-        result = '[ ERROR - missing min and max ]'
-        return result
-
-    @classmethod
     def line_icon( cls, icon ):
         print( '[ ERROR - missing implementation of class method line_icon for {!s} ]'.format( cls.language_name ))
         result = '[ ERROR - missing icon line ]'
@@ -446,7 +440,7 @@ class Language:
 
     @classmethod
     def convert( cls ):
-        result = cls.prelude() + cls.lines_minmax()
+        result = cls.prelude()
         for icon in cls.intermediate.get( 'icons' ):
             line_icon = cls.line_icon( icon )
             result += line_icon
@@ -483,21 +477,19 @@ class LanguageC( Language ):
         tmpl_prelude_define_file_name = '#define FONT_ICON_FILE_NAME_{font_abbr} "{file_name_ttf}"\n'
         for ttf in cls.intermediate.get( 'ttfs' ):
             result += tmpl_prelude_define_file_name.format( font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ])
-        return result + '\n'
-
-    @classmethod
-    def lines_minmax( cls ):
+        result += '\n'
+        # min/max
         tmpl_line_minmax = '#define ICON_{minmax}_{abbr} 0x{val}\n'
         abbreviation = cls.intermediate.get( 'font_minmax_abbr' ) if cls.intermediate.get( 'font_minmax_abbr' ) else cls.intermediate.get('font_abbr')
-        result = tmpl_line_minmax.format( minmax = 'MIN',
-                                          abbr = abbreviation,
-                                          val = cls.intermediate.get( 'font_min' )) + \
-                 tmpl_line_minmax.format( minmax = 'MAX_16',
-                                          abbr = abbreviation,
-                                          val = cls.intermediate.get( 'font_max_16' )) + \
-                 tmpl_line_minmax.format( minmax = 'MAX',
-                                          abbr = abbreviation,
-                                          val = cls.intermediate.get( 'font_max' ))
+        result += tmpl_line_minmax.format( minmax = 'MIN',
+                                           abbr = abbreviation,
+                                           val = cls.intermediate.get( 'font_min' )) + \
+                  tmpl_line_minmax.format( minmax = 'MAX_16',
+                                           abbr = abbreviation,
+                                           val = cls.intermediate.get( 'font_max_16' )) + \
+                  tmpl_line_minmax.format( minmax = 'MAX',
+                                           abbr = abbreviation,
+                                           val = cls.intermediate.get( 'font_max' ))
         return result
 
     @classmethod
@@ -560,6 +552,7 @@ class LanguageC( Language ):
             else:
                 raise Exception( 'Failed ttf to header conversion' + ttf[ 1 ] )
 
+
 class LanguageCSharp( Language ):
     language_name = "C#"
     file_name = 'Icons{name}.cs'
@@ -583,23 +576,21 @@ class LanguageCSharp( Language ):
         tmpl_prelude_define_file_name = '        public const string FontIconFileName{font_abbr} = "{file_name_ttf}";\n'
         for ttf in cls.intermediate.get( 'ttfs' ):
             result += tmpl_prelude_define_file_name.format( font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ])
-        return result + '\n'
+        result += '\n'
+        # min/max
+        tmpl_line_minmax = '        public const int Icon{minmax} = 0x{val};\n'
+        result += tmpl_line_minmax.format( minmax = 'Min',
+                                           val = cls.intermediate.get( 'font_min' )) + \
+                  tmpl_line_minmax.format( minmax = 'Max16',
+                                           val = cls.intermediate.get( 'font_max_16' )) + \
+                  tmpl_line_minmax.format( minmax = 'Max',
+                                          val = cls.intermediate.get( 'font_max' ))
+        return result
 
     @classmethod
     def epilogue( cls ):
         return '    }\n' + \
             '}\n'
-
-    @classmethod
-    def lines_minmax( cls ):
-        tmpl_line_minmax = '        public const int Icon{minmax} = 0x{val};\n'
-        result = tmpl_line_minmax.format( minmax = 'Min',
-                                          val = cls.intermediate.get( 'font_min' )) + \
-                 tmpl_line_minmax.format( minmax = 'Max16',
-                                          val = cls.intermediate.get( 'font_max_16' )) + \
-                 tmpl_line_minmax.format( minmax = 'Max',
-                                          val = cls.intermediate.get( 'font_max' ))
-        return result
 
     @classmethod
     def line_icon( cls, icon ):
@@ -624,6 +615,7 @@ class LanguageCSharp( Language ):
             parts[ i ] = p[ 0 ].upper() + p[ 1: ].lower()
         return ''.join( parts )
 
+
 class LanguagePython( Language ):
     language_name = "Python"
     file_name = 'Icons{name}.py'
@@ -644,17 +636,15 @@ class LanguagePython( Language ):
         tmpl_prelude_define_file_name = "    FONT_ICON_FILE_NAME_{font_abbr} = '{file_name_ttf}'\n"
         for ttf in cls.intermediate.get( 'ttfs' ):
             result += tmpl_prelude_define_file_name.format(font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ])
-        return result + '\n'
-
-    @classmethod
-    def lines_minmax( cls ):
+        result += '\n'
+        # min/max
         tmpl_line_minmax = '    ICON_{minmax} = 0x{val}\n'
-        result = tmpl_line_minmax.format( minmax = 'MIN',
-                                          val = cls.intermediate.get( 'font_min' )) + \
-                 tmpl_line_minmax.format( minmax = 'MAX_16',
-                                          val = cls.intermediate.get( 'font_max_16' )) + \
-                 tmpl_line_minmax.format( minmax = 'MAX',
-                                          val = cls.intermediate.get( 'font_max' ))
+        result += tmpl_line_minmax.format( minmax = 'MIN',
+                                           val = cls.intermediate.get( 'font_min' )) + \
+                  tmpl_line_minmax.format( minmax = 'MAX_16',
+                                           val = cls.intermediate.get( 'font_max_16' )) + \
+                  tmpl_line_minmax.format( minmax = 'MAX',
+                                           val = cls.intermediate.get( 'font_max' ))
         return result
 
     @classmethod
@@ -664,6 +654,7 @@ class LanguagePython( Language ):
         icon_code = icon[ 1 ]
         result = tmpl_line_icon.format( icon = icon_name, code = icon_code )
         return result
+
 
 class LanguageGo( Language ):
     language_name = 'Go'
@@ -675,7 +666,6 @@ class LanguageGo( Language ):
             '// from {font_data}\n' + \
             '// for use with {ttf_files}\n\n' + \
             'package IconFontCppHeaders\n\n'
-
         cls.seen = set()
         ttf_files = []
         for ttf in cls.intermediate.get( 'ttfs' ):
@@ -691,8 +681,7 @@ class LanguageGo( Language ):
             entry = '"{font_abbr}", "{file_name_ttf}"'
             result += '\t\t{' + entry.format( font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ]) + '},\n'
         result += '\t},\n'
-
-        # min / max
+        # min/max
         tmpl_line_minmax = '\t{minmax}: 0x{val},\n'
         abbreviation = cls.intermediate.get( 'font_minmax_abbr' ) if cls.intermediate.get( 'font_minmax_abbr' ) else cls.intermediate.get('font_abbr')
         result += tmpl_line_minmax.format( minmax = 'Min',
@@ -707,10 +696,6 @@ class LanguageGo( Language ):
 
         result += '\tIcons: map[string]string{\n'
         return result
-
-    @classmethod
-    def lines_minmax( cls ):
-        return ''  # this is handled in prelude()...
 
     @classmethod
     def line_icon( cls, icon ):

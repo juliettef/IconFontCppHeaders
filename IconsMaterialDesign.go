@@ -198,6 +198,7 @@ var IconsMaterialDesign = Font{
 		"Aspect_ratio":	"\xee\xa1\x9b", 	// U+e85b
 		"Assessment":	"\xee\xa1\x9c", 	// U+e85c
 		"Assignment":	"\xee\xa1\x9d", 	// U+e85d
+		"Assignment_add":	"\xef\xa1\x88", 	// U+f848
 		"Assignment_ind":	"\xee\xa1\x9e", 	// U+e85e
 		"Assignment_late":	"\xee\xa1\x9f", 	// U+e85f
 		"Assignment_return":	"\xee\xa1\xa0", 	// U+e860
@@ -864,6 +865,7 @@ var IconsMaterialDesign = Font{
 		"Format_italic":	"\xee\x88\xbf", 	// U+e23f
 		"Format_line_spacing":	"\xee\x89\x80", 	// U+e240
 		"Format_list_bulleted":	"\xee\x89\x81", 	// U+e241
+		"Format_list_bulleted_add":	"\xef\xa1\x89", 	// U+f849
 		"Format_list_numbered":	"\xee\x89\x82", 	// U+e242
 		"Format_list_numbered_rtl":	"\xee\x89\xa7", 	// U+e267
 		"Format_overline":	"\xee\xad\xa5", 	// U+eb65
@@ -1290,6 +1292,7 @@ var IconsMaterialDesign = Font{
 		"Move_up":	"\xee\xad\xa4", 	// U+eb64
 		"Movie":	"\xee\x80\xac", 	// U+e02c
 		"Movie_creation":	"\xee\x90\x84", 	// U+e404
+		"Movie_edit":	"\xef\xa1\x80", 	// U+f840
 		"Movie_filter":	"\xee\x90\xba", 	// U+e43a
 		"Moving":	"\xee\x94\x81", 	// U+e501
 		"Mp":	"\xee\xa7\x83", 	// U+e9c3
@@ -1599,6 +1602,7 @@ var IconsMaterialDesign = Font{
 		"Raw_on":	"\xef\x81\x90", 	// U+f050
 		"Read_more":	"\xee\xbd\xad", 	// U+ef6d
 		"Real_estate_agent":	"\xee\x9c\xba", 	// U+e73a
+		"Rebase_edit":	"\xef\xa1\x86", 	// U+f846
 		"Receipt":	"\xee\xa2\xb0", 	// U+e8b0
 		"Receipt_long":	"\xee\xbd\xae", 	// U+ef6e
 		"Recent_actors":	"\xee\x80\xbf", 	// U+e03f
@@ -2196,7 +2200,6 @@ var IconsMaterialDesign = Font{
 		"Wechat":	"\xee\xaa\x81", 	// U+ea81
 		"Weekend":	"\xee\x85\xab", 	// U+e16b
 		"West":	"\xef\x87\xa6", 	// U+f1e6
-		"Whatsapp":	"\xee\xaa\x9c", 	// U+ea9c
 		"Whatshot":	"\xee\xa0\x8e", 	// U+e80e
 		"Wheelchair_pickup":	"\xef\x86\xab", 	// U+f1ab
 		"Where_to_vote":	"\xee\x85\xb7", 	// U+e177

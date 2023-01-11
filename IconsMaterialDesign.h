@@ -194,6 +194,7 @@
 #define ICON_MD_ASPECT_RATIO "\xee\xa1\x9b"	// U+e85b
 #define ICON_MD_ASSESSMENT "\xee\xa1\x9c"	// U+e85c
 #define ICON_MD_ASSIGNMENT "\xee\xa1\x9d"	// U+e85d
+#define ICON_MD_ASSIGNMENT_ADD "\xef\xa1\x88"	// U+f848
 #define ICON_MD_ASSIGNMENT_IND "\xee\xa1\x9e"	// U+e85e
 #define ICON_MD_ASSIGNMENT_LATE "\xee\xa1\x9f"	// U+e85f
 #define ICON_MD_ASSIGNMENT_RETURN "\xee\xa1\xa0"	// U+e860
@@ -860,6 +861,7 @@
 #define ICON_MD_FORMAT_ITALIC "\xee\x88\xbf"	// U+e23f
 #define ICON_MD_FORMAT_LINE_SPACING "\xee\x89\x80"	// U+e240
 #define ICON_MD_FORMAT_LIST_BULLETED "\xee\x89\x81"	// U+e241
+#define ICON_MD_FORMAT_LIST_BULLETED_ADD "\xef\xa1\x89"	// U+f849
 #define ICON_MD_FORMAT_LIST_NUMBERED "\xee\x89\x82"	// U+e242
 #define ICON_MD_FORMAT_LIST_NUMBERED_RTL "\xee\x89\xa7"	// U+e267
 #define ICON_MD_FORMAT_OVERLINE "\xee\xad\xa5"	// U+eb65
@@ -1286,6 +1288,7 @@
 #define ICON_MD_MOVE_UP "\xee\xad\xa4"	// U+eb64
 #define ICON_MD_MOVIE "\xee\x80\xac"	// U+e02c
 #define ICON_MD_MOVIE_CREATION "\xee\x90\x84"	// U+e404
+#define ICON_MD_MOVIE_EDIT "\xef\xa1\x80"	// U+f840
 #define ICON_MD_MOVIE_FILTER "\xee\x90\xba"	// U+e43a
 #define ICON_MD_MOVING "\xee\x94\x81"	// U+e501
 #define ICON_MD_MP "\xee\xa7\x83"	// U+e9c3
@@ -1595,6 +1598,7 @@
 #define ICON_MD_RAW_ON "\xef\x81\x90"	// U+f050
 #define ICON_MD_READ_MORE "\xee\xbd\xad"	// U+ef6d
 #define ICON_MD_REAL_ESTATE_AGENT "\xee\x9c\xba"	// U+e73a
+#define ICON_MD_REBASE_EDIT "\xef\xa1\x86"	// U+f846
 #define ICON_MD_RECEIPT "\xee\xa2\xb0"	// U+e8b0
 #define ICON_MD_RECEIPT_LONG "\xee\xbd\xae"	// U+ef6e
 #define ICON_MD_RECENT_ACTORS "\xee\x80\xbf"	// U+e03f
@@ -2192,7 +2196,6 @@
 #define ICON_MD_WECHAT "\xee\xaa\x81"	// U+ea81
 #define ICON_MD_WEEKEND "\xee\x85\xab"	// U+e16b
 #define ICON_MD_WEST "\xef\x87\xa6"	// U+f1e6
-#define ICON_MD_WHATSAPP "\xee\xaa\x9c"	// U+ea9c
 #define ICON_MD_WHATSHOT "\xee\xa0\x8e"	// U+e80e
 #define ICON_MD_WHEELCHAIR_PICKUP "\xef\x86\xab"	// U+f1ab
 #define ICON_MD_WHERE_TO_VOTE "\xee\x85\xb7"	// U+e177

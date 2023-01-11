@@ -196,6 +196,7 @@ namespace IconFonts
         public const string Aspect_ratio = "\ue85b";
         public const string Assessment = "\ue85c";
         public const string Assignment = "\ue85d";
+        public const string Assignment_add = "\uf848";
         public const string Assignment_ind = "\ue85e";
         public const string Assignment_late = "\ue85f";
         public const string Assignment_return = "\ue860";
@@ -862,6 +863,7 @@ namespace IconFonts
         public const string Format_italic = "\ue23f";
         public const string Format_line_spacing = "\ue240";
         public const string Format_list_bulleted = "\ue241";
+        public const string Format_list_bulleted_add = "\uf849";
         public const string Format_list_numbered = "\ue242";
         public const string Format_list_numbered_rtl = "\ue267";
         public const string Format_overline = "\ueb65";
@@ -1288,6 +1290,7 @@ namespace IconFonts
         public const string Move_up = "\ueb64";
         public const string Movie = "\ue02c";
         public const string Movie_creation = "\ue404";
+        public const string Movie_edit = "\uf840";
         public const string Movie_filter = "\ue43a";
         public const string Moving = "\ue501";
         public const string Mp = "\ue9c3";
@@ -1597,6 +1600,7 @@ namespace IconFonts
         public const string Raw_on = "\uf050";
         public const string Read_more = "\uef6d";
         public const string Real_estate_agent = "\ue73a";
+        public const string Rebase_edit = "\uf846";
         public const string Receipt = "\ue8b0";
         public const string Receipt_long = "\uef6e";
         public const string Recent_actors = "\ue03f";
@@ -2194,7 +2198,6 @@ namespace IconFonts
         public const string Wechat = "\uea81";
         public const string Weekend = "\ue16b";
         public const string West = "\uf1e6";
-        public const string Whatsapp = "\uea9c";
         public const string Whatshot = "\ue80e";
         public const string Wheelchair_pickup = "\uf1ab";
         public const string Where_to_vote = "\ue177";

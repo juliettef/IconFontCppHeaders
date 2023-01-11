@@ -826,7 +826,6 @@ namespace IconFonts
         public const string Flip_to_back = "\ue882";
         public const string Flip_to_front = "\ue883";
         public const string Flood = "\uebe6";
-        public const string Flourescent = "\uec31";
         public const string Flourescent = "\uf00d";
         public const string Fluorescent = "\uec31";
         public const string Flutter_dash = "\ue00b";

@@ -311,20 +311,23 @@ class FontMD( Font ):               # Material Design
             font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
-                words = str.split(line)
-                if words and len( words ) >= 2:
-                    word_unicode = words[ 1 ].zfill( 4 )
-                    word_int = int( word_unicode, 16 )
-                    if word_int < font_min_int and word_int > 0x0127 :  # exclude ASCII characters code points
-                        font_min = word_unicode
-                        font_min_int = word_int
-                    if word_int > font_max_16_int and word_int <= 0xffff:   # exclude code points > 16 bits
-                        font_max_16 = word_unicode
-                        font_max_16_int = word_int
-                    if word_int > font_max_int:
-                        font_max = word_unicode
-                        font_max_int = word_int
-                    icons.append( words )
+                if line != 'flourescent ec31': # Excluding duplicate Material Design 'flourescent ec31' as a workaround for issue #27 https://github.com/juliettef/IconFontCppHeaders/issues/27
+                    words = str.split(line)
+                    if words and len( words ) >= 2:
+                        word_unicode = words[ 1 ].zfill( 4 )
+                        word_int = int( word_unicode, 16 )
+                        if word_int < font_min_int and word_int > 0x0127 :  # exclude ASCII characters code points
+                            font_min = word_unicode
+                            font_min_int = word_int
+                        if word_int > font_max_16_int and word_int <= 0xffff:   # exclude code points > 16 bits
+                            font_max_16 = word_unicode
+                            font_max_16_int = word_int
+                        if word_int > font_max_int:
+                            font_max = word_unicode
+                            font_max_int = word_int
+                        icons.append( words )
+                else: 
+                    print( "[ WARNING - Excluding duplicate Material Design 'flourescent ec31' as a workaround for issue #27 https://github.com/juliettef/IconFontCppHeaders/issues/27 ]" )
             icons_data.update({ 'font_min' : font_min,
                                 'font_max_16' : font_max_16,
                                 'font_max' : font_max,
@@ -599,7 +602,6 @@ class LanguageCSharp( Language ):
 
     @classmethod
     def line_icon( cls, icon ):
-
         tmpl_line_icon = '        public const string {icon} = "\\u{code}";\n'
         icon_name = cls.to_camelcase( icon[ 0 ])
         icon_code = icon[ 1 ]
@@ -671,7 +673,6 @@ class LanguageGo( Language ):
             '// from {font_data}\n' + \
             '// for use with {ttf_files}\n\n' + \
             'package IconFontCppHeaders\n\n'
-        cls.seen = set()
         ttf_files = []
         for ttf in cls.intermediate.get( 'ttfs' ):
             ttf_files.append( ttf[ 2 ])
@@ -704,14 +705,7 @@ class LanguageGo( Language ):
 
     @classmethod
     def line_icon( cls, icon ):
-        icon_name = cls.to_camelcase(icon[ 0 ])
-        # Material Design has multiple "Flourescent" entries; should we be prefixing them
-        # with something to disambiguate them? For now just keep the first one of any
-        # such repeats
-        if icon_name in cls.seen:
-            print( ' [ WARNING: ignoring duplicate {icon} in {name} ]'.format( icon = icon_name, name = cls.file_name ) )
-            return ""
-        cls.seen.add(icon_name)
+        icon_name = cls.to_camelcase( icon[ 0 ])
         tmpl_line_icon = '\t\t"{icon}":\t"{code}", \t// U+{unicode}\n'
         icon_code = repr( chr( int( icon[ 1 ], 16 )).encode( 'utf-8' ))[ 2:-1 ]
         result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ),

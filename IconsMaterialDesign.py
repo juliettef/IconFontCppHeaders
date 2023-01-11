@@ -823,7 +823,6 @@ class IconsMaterialDesign:
     ICON_FLIP_TO_BACK = '\ue882'
     ICON_FLIP_TO_FRONT = '\ue883'
     ICON_FLOOD = '\uebe6'
-    ICON_FLOURESCENT = '\uec31'
     ICON_FLOURESCENT = '\uf00d'
     ICON_FLUORESCENT = '\uec31'
     ICON_FLUTTER_DASH = '\ue00b'

@@ -828,7 +828,7 @@ var IconsMaterialDesign = Font{
 		"Flip_to_back":	"\xee\xa2\x82", 	// U+e882
 		"Flip_to_front":	"\xee\xa2\x83", 	// U+e883
 		"Flood":	"\xee\xaf\xa6", 	// U+ebe6
-		"Flourescent":	"\xee\xb0\xb1", 	// U+ec31
+		"Flourescent":	"\xef\x80\x8d", 	// U+f00d
 		"Fluorescent":	"\xee\xb0\xb1", 	// U+ec31
 		"Flutter_dash":	"\xee\x80\x8b", 	// U+e00b
 		"Fmd_bad":	"\xef\x80\x8e", 	// U+f00e

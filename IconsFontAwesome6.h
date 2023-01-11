@@ -116,6 +116,7 @@
 #define ICON_FA_BAN "\xef\x81\x9e"	// U+f05e
 #define ICON_FA_BAN_SMOKING "\xef\x95\x8d"	// U+f54d
 #define ICON_FA_BANDAGE "\xef\x91\xa2"	// U+f462
+#define ICON_FA_BANGLADESHI_TAKA_SIGN "\xee\x8b\xa6"	// U+e2e6
 #define ICON_FA_BARCODE "\xef\x80\xaa"	// U+f02a
 #define ICON_FA_BARS "\xef\x83\x89"	// U+f0c9
 #define ICON_FA_BARS_PROGRESS "\xef\xa0\xa8"	// U+f828
@@ -287,9 +288,9 @@
 #define ICON_FA_CHEVRON_RIGHT "\xef\x81\x94"	// U+f054
 #define ICON_FA_CHEVRON_UP "\xef\x81\xb7"	// U+f077
 #define ICON_FA_CHILD "\xef\x86\xae"	// U+f1ae
+#define ICON_FA_CHILD_COMBATANT "\xee\x93\xa0"	// U+e4e0
 #define ICON_FA_CHILD_DRESS "\xee\x96\x9c"	// U+e59c
 #define ICON_FA_CHILD_REACHING "\xee\x96\x9d"	// U+e59d
-#define ICON_FA_CHILD_RIFLE "\xee\x93\xa0"	// U+e4e0
 #define ICON_FA_CHILDREN "\xee\x93\xa1"	// U+e4e1
 #define ICON_FA_CHURCH "\xef\x94\x9d"	// U+f51d
 #define ICON_FA_CIRCLE "\xef\x84\x91"	// U+f111
@@ -872,6 +873,7 @@
 #define ICON_FA_NEUTER "\xef\x88\xac"	// U+f22c
 #define ICON_FA_NEWSPAPER "\xef\x87\xaa"	// U+f1ea
 #define ICON_FA_NOT_EQUAL "\xef\x94\xbe"	// U+f53e
+#define ICON_FA_NOTDEF "\xee\x87\xbe"	// U+e1fe
 #define ICON_FA_NOTE_STICKY "\xef\x89\x89"	// U+f249
 #define ICON_FA_NOTES_MEDICAL "\xef\x92\x81"	// U+f481
 #define ICON_FA_O "O"	// U+004f

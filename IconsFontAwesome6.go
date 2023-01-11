@@ -120,6 +120,7 @@ var IconsFontAwesome6 = Font{
 		"Ban":	"\xef\x81\x9e", 	// U+f05e
 		"BanSmoking":	"\xef\x95\x8d", 	// U+f54d
 		"Bandage":	"\xef\x91\xa2", 	// U+f462
+		"BangladeshiTakaSign":	"\xee\x8b\xa6", 	// U+e2e6
 		"Barcode":	"\xef\x80\xaa", 	// U+f02a
 		"Bars":	"\xef\x83\x89", 	// U+f0c9
 		"BarsProgress":	"\xef\xa0\xa8", 	// U+f828
@@ -291,9 +292,9 @@ var IconsFontAwesome6 = Font{
 		"ChevronRight":	"\xef\x81\x94", 	// U+f054
 		"ChevronUp":	"\xef\x81\xb7", 	// U+f077
 		"Child":	"\xef\x86\xae", 	// U+f1ae
+		"ChildCombatant":	"\xee\x93\xa0", 	// U+e4e0
 		"ChildDress":	"\xee\x96\x9c", 	// U+e59c
 		"ChildReaching":	"\xee\x96\x9d", 	// U+e59d
-		"ChildRifle":	"\xee\x93\xa0", 	// U+e4e0
 		"Children":	"\xee\x93\xa1", 	// U+e4e1
 		"Church":	"\xef\x94\x9d", 	// U+f51d
 		"Circle":	"\xef\x84\x91", 	// U+f111
@@ -876,6 +877,7 @@ var IconsFontAwesome6 = Font{
 		"Neuter":	"\xef\x88\xac", 	// U+f22c
 		"Newspaper":	"\xef\x87\xaa", 	// U+f1ea
 		"NotEqual":	"\xef\x94\xbe", 	// U+f53e
+		"Notdef":	"\xee\x87\xbe", 	// U+e1fe
 		"NoteSticky":	"\xef\x89\x89", 	// U+f249
 		"NotesMedical":	"\xef\x92\x81", 	// U+f481
 		"O":	"O", 	// U+004f

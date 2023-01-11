@@ -118,6 +118,7 @@ namespace IconFonts
         public const string Ban = "\uf05e";
         public const string BanSmoking = "\uf54d";
         public const string Bandage = "\uf462";
+        public const string BangladeshiTakaSign = "\ue2e6";
         public const string Barcode = "\uf02a";
         public const string Bars = "\uf0c9";
         public const string BarsProgress = "\uf828";
@@ -289,9 +290,9 @@ namespace IconFonts
         public const string ChevronRight = "\uf054";
         public const string ChevronUp = "\uf077";
         public const string Child = "\uf1ae";
+        public const string ChildCombatant = "\ue4e0";
         public const string ChildDress = "\ue59c";
         public const string ChildReaching = "\ue59d";
-        public const string ChildRifle = "\ue4e0";
         public const string Children = "\ue4e1";
         public const string Church = "\uf51d";
         public const string Circle = "\uf111";
@@ -874,6 +875,7 @@ namespace IconFonts
         public const string Neuter = "\uf22c";
         public const string Newspaper = "\uf1ea";
         public const string NotEqual = "\uf53e";
+        public const string Notdef = "\ue1fe";
         public const string NoteSticky = "\uf249";
         public const string NotesMedical = "\uf481";
         public const string O = "\u004f";

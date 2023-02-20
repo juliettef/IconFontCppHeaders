@@ -99,15 +99,20 @@ Using [Dear ImGui](https://github.com/ocornut/imgui) as an example UI library:
 
 ImGuiIO& io = ImGui::GetIO();
 io.Fonts->AddFontDefault();
- 
+float baseFontSize = 13.0f; // 13.0f is the size of the default font. Change to the font size you use.
+float iconFontSize = baseFontSize * 2.0f / 3.0f; // FontAwesome fonts need to have their sizes reduced by 2.0f/3.0f in order to align correctly
+
 // merge in icons from Font Awesome
 static const ImWchar icons_ranges[] = { ICON_MIN_FA, ICON_MAX_16_FA, 0 };
-ImFontConfig icons_config; icons_config.MergeMode = true; icons_config.PixelSnapH = true;
-io.Fonts->AddFontFromFileTTF( FONT_ICON_FILE_NAME_FAS, 16.0f, &icons_config, icons_ranges );
+ImFontConfig icons_config; 
+icons_config.MergeMode = true; 
+icons_config.PixelSnapH = true; 
+icons_config.GlyphMinAdvanceX = iconFontSize;
+io.Fonts->AddFontFromFileTTF( FONT_ICON_FILE_NAME_FAS, iconFontSize, &icons_config, icons_ranges );
 // use FONT_ICON_FILE_NAME_FAR if you want regular instead of solid
 
 // in an imgui window somewhere...
-ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" );    // use string literal concatenation
+ImGui::Text( ICON_FA_PAINT_BRUSH "  Paint" ); // use string literal concatenation
 // outputs a paint brush icon and 'Paint' as a string.
 ```
 

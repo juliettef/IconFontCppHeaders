@@ -7,7 +7,7 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C and C++ headers, C# and Python classes and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons and Fontaudio.
+C and C++ headers, C# and Python classes and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons, Fontaudio and Codicons.
 
 A set of header files and classes for using icon fonts in C, C++, C#, Python and Go, along with the python generator used to create the files.
 
@@ -70,6 +70,11 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [github.com/fefanto/fontaudio](https://github.com/fefanto/fontaudio)
 * [fontaudio.css](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css)
 * [fontaudio.ttf](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf)
+
+### Codicons
+* [github.com/microsoft/vscode-codicons](https://github.com/microsoft/vscode-codicons)
+* [codicon.css](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css)
+* [codicon.ttf](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf)
 
 ### Ionicons and webfont Material Design Icons
 * Unsupported as of 29 Apr 2020. See [Issue #16](https://github.com/juliettef/IconFontCppHeaders/issues/16).
@@ -179,3 +184,4 @@ Fontaudio implementation - [Oli Larkin](https://www.olilarkin.co.uk/) - [@olilar
 Initial ttf to C and C++ headers conversion implementation - Charles Mailly - [@Caerind](https://github.com/Caerind)  
 Python language implementation - Hang Yu - [@yhyu13](https://github.com/yhyu13)  
 Go language implementation - Matt Pharr - [@mpp](https://github.com/mmp)  
+Codicons implementation - Robert Ryan - [@rtryan98](https://github.com/rtryan98)  

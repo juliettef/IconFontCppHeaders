@@ -47,6 +47,10 @@
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #
+#   1.6 - Codicons
+#           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css
+#           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf
+#
 #------------------------------------------------------------------------------
 #
 # 2 - Data sample
@@ -419,6 +423,48 @@ class FontFAD( Font ):               # Fontaudio
         return icons_data
 
 
+class FontCodicons( Font ):               # Fontaudio
+    font_name = 'Codicons'
+    font_abbr = 'COD'
+    font_data = 'https://raw.githubusercontent.com/microsoft/vscode-codicons/main/dist/codicon.css'
+    ttfs = [[ font_abbr, 'codicon.ttf', 'https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf' ]]
+
+    @classmethod
+    def get_icons( cls, input_data ):
+        icons_data = {}
+        lines = str.split( input_data, '}\n' )
+        if lines:
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max_16 = '0x0'   # 16 bit max 
+            font_max_16_int = int( font_max_16, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
+            icons = []
+            for line in lines :
+                if '.codicon-' in line:
+                    words = str.split( line )
+                    font_id = words[ 0 ].partition( '.codicon-' )[ 2 ].partition( ':before' )[ 0 ]
+                    font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
+                    if(font_code == '0000'): # some codepoints are invalid here
+                        continue
+                    font_code_int = int( font_code, 16 )
+                    if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
+                        font_min = font_code
+                        font_min_int = font_code_int
+                    if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
+                        font_max_16 = font_code
+                        font_max_16_int = font_code_int
+                    if font_code_int > font_max_int:
+                        font_max = font_code
+                        font_max_int = font_code_int
+                    icons.append([ font_id, font_code ])
+        icons_data.update({ 'font_min' : font_min,
+                            'font_max_16' : font_max_16,
+                            'font_max' : font_max,
+                            'icons' : icons  })
+        return icons_data
+
 # Languages
 
 
@@ -730,7 +776,7 @@ class LanguageGo( Language ):
 # Main
 
 
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontKI, FontFAD ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontKI, FontFAD, FontCodicons ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

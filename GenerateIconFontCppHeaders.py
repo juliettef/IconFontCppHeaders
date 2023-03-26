@@ -120,6 +120,7 @@ import requests
 import yaml
 import os
 import sys
+import logging
 
 if sys.version_info[0] < 3:
     raise Exception( "Python 3 or a more recent version is required." )
@@ -127,20 +128,20 @@ if sys.version_info[0] < 3:
 # Fonts
 
 class Font:
-    font_name = '[ ERROR - missing font name ]'
-    font_abbr = '[ ERROR - missing font abbreviation ]'
+    font_name = '[ ERROR - Missing font name ]'
+    font_abbr = '[ ERROR - Mssing font abbreviation ]'
     font_minmax_abbr = ''   # optional - use if min and max defines must be differentiated. See Font Awesome Brand for example.
-    font_data = '[ ERROR - missing font data file or url ]'
-    ttfs = '[ ERROR - missing ttf ]'
+    font_data = '[ ERROR - Missing font data file or url ]'
+    ttfs = '[ ERROR - Missing ttf ]'
 
     @classmethod
     def get_icons( cls, input_data ):
         # intermediate representation of the fonts data, identify the min and max
-        print( '[ ERROR - missing implementation of class method get_icons for {!s} ]'.format( cls.font_name ))
+        logging.error( 'Missing implementation of class method get_icons for {!s} ]'.format( cls.font_name ))
         icons_data = {}
-        icons_data.update({ 'font_min' : '[ ERROR - missing font min ]',
-                            'font_max' : '[ ERROR - missing font max ]',
-                            'icons' : '[ ERROR - missing list of pairs [ font icon name, code ]]' })
+        icons_data.update({ 'font_min' : '[ ERROR - Missing font min ]',
+                            'font_max' : '[ ERROR - Missing font max ]',
+                            'icons' : '[ ERROR - Missing list of pairs [ font icon name, code ]]' })
         return icons_data
 
     @classmethod
@@ -150,7 +151,7 @@ class Font:
             response = requests.get( cls.font_data, timeout = 2 )
             if response.status_code == 200:
                 input_raw = response.text
-                print( 'Downloaded - ' + cls.font_name )
+                logging.info( 'Downloaded - ' + cls.font_name )
             else:
                 raise Exception( 'Download failed - ' + cls.font_name )
         else:   # read data from file if present
@@ -158,7 +159,7 @@ class Font:
                 with open( cls.font_data, 'r' ) as f:
                     input_raw = f.read()
                     f.close()
-                    print( 'File read - ' + cls.font_name )
+                    logging.info( 'File read - ' + cls.font_name )
             else:
                 raise Exception( 'File ' + cls.font_name + ' missing - ' + cls.font_data )
         if input_raw:
@@ -169,7 +170,7 @@ class Font:
                              'font_abbr' : cls.font_abbr,
                              'font_minmax_abbr' : cls.font_minmax_abbr,
                              'ttfs' : cls.ttfs, })
-            print( 'Generated intermediate data - ' + cls.font_name )
+            logging.info( 'Generated intermediate data - ' + cls.font_name )
         return font_ir
 
 
@@ -315,7 +316,9 @@ class FontMD( Font ):               # Material Design
             font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
-                if line != 'flourescent ec31': # Excluding duplicate Material Design 'flourescent ec31' as a workaround for issue #27 https://github.com/juliettef/IconFontCppHeaders/issues/27
+                if line == 'flourescent ec31': # Issue #27 workaround: exclude duplicate Material Design 'flourescent ec31'. https://github.com/juliettef/IconFontCppHeaders/issues/27
+                    logging.warning( "Issue #27 workaround: exclude duplicate Material Design 'flourescent ec31'. https://github.com/juliettef/IconFontCppHeaders/issues/27" )
+                else:
                     words = str.split(line)
                     if words and len( words ) >= 2:
                         word_unicode = words[ 1 ].zfill( 4 )
@@ -330,8 +333,6 @@ class FontMD( Font ):               # Material Design
                             font_max = word_unicode
                             font_max_int = word_int
                         icons.append( words )
-                else: 
-                    print( "[ WARNING - Excluding duplicate Material Design 'flourescent ec31' as a workaround for issue #27 https://github.com/juliettef/IconFontCppHeaders/issues/27 ]" )
             icons_data.update({ 'font_min' : font_min,
                                 'font_max_16' : font_max_16,
                                 'font_max' : font_max,
@@ -342,54 +343,13 @@ class FontMD( Font ):               # Material Design
 class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'
     font_abbr = 'KI'
+    font_data_prefix = '.ki-'
     font_data = 'https://github.com/nicodinh/kenney-icon-font/raw/master/css/kenney-icons.css'
     ttfs = [[ font_abbr, 'kenney-icon-font.ttf', 'https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf' ]]
 
     @classmethod
     def get_icons( cls, input_data ):
         icons_data = {}
-        lines = str.split( input_data, '\n' )
-        if lines:
-            font_min = '0x10ffff'
-            font_min_int = int( font_min, 16 )
-            font_max_16 = '0x0'   # 16 bit max 
-            font_max_16_int = int( font_max_16, 16 )
-            font_max = '0x0'
-            font_max_int = int( font_max, 16 )
-            icons = []
-            for line in lines :
-                if '.ki-' in line:
-                    words = str.split(line)
-                    if words and '.ki-' in words[ 0 ]:
-                        font_id = words[ 0 ].partition( '.ki-' )[ 2 ].partition( ':before' )[ 0 ]
-                        font_code = words[ 2 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ].zfill( 4 )
-                        font_code_int = int( font_code, 16 )
-                        if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
-                            font_min = font_code
-                            font_min_int = font_code_int
-                        if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
-                            font_max_16 = font_code
-                            font_max_16_int = font_code_int
-                        if font_code_int > font_max_int:
-                            font_max = font_code
-                            font_max_int = font_code_int
-                        icons.append([ font_id, font_code ])
-            icons_data.update({ 'font_min' : font_min,
-                                'font_max_16' : font_max_16,
-                                'font_max' : font_max,
-                                'icons' : icons  })
-        return icons_data
-
-
-class FontFAD( Font ):               # Fontaudio
-    font_name = 'Fontaudio'
-    font_abbr = 'FAD'
-    font_data = 'https://github.com/fefanto/fontaudio/raw/master/font/fontaudio.css'
-    ttfs = [[ font_abbr, 'fontaudio.ttf', 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf' ]]
-
-    @classmethod
-    def get_icons( cls, input_data ):
-        icons_data = {}
         lines = str.split( input_data, '}\n' )
         if lines:
             font_min = '0x10ffff'
@@ -400,52 +360,9 @@ class FontFAD( Font ):               # Fontaudio
             font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
-                if '.icon-fad-' in line:
-                    words = str.split( line )
-                    if words and '.icon-fad-' in words[ 0 ]:
-                        font_id = words[ 0 ].partition( '.icon-fad-' )[ 2 ].partition( ':before' )[ 0 ]
-                        font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '";' )[ 0 ].zfill( 4 )
-                        font_code_int = int( font_code, 16 )
-                        if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
-                            font_min = font_code
-                            font_min_int = font_code_int
-                        if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
-                            font_max_16 = font_code
-                            font_max_16_int = font_code_int
-                        if font_code_int > font_max_int:
-                            font_max = font_code
-                            font_max_int = font_code_int
-                        icons.append([ font_id, font_code ])
-            icons_data.update({ 'font_min' : font_min,
-                                'font_max_16' : font_max_16,
-                                'font_max' : font_max,
-                                'icons' : icons  })
-        return icons_data
-
-
-class FontCI( Font ):               # Codicons
-    font_name = 'Codicons'
-    font_abbr = 'CI'
-    font_data = 'https://raw.githubusercontent.com/microsoft/vscode-codicons/main/dist/codicon.css'
-    ttfs = [[ font_abbr, 'codicon.ttf', 'https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf' ]]
-
-    @classmethod
-    def get_icons( cls, input_data ):
-        icons_data = {}
-        lines = str.split( input_data, '}\n' )
-        if lines:
-            font_min = '0x10ffff'
-            font_min_int = int( font_min, 16 )
-            font_max_16 = '0x0'   # 16 bit max 
-            font_max_16_int = int( font_max_16, 16 )
-            font_max = '0x0'
-            font_max_int = int( font_max, 16 )
-            icons = []
-            for line in lines :
-                words = str.split( line )
-                if words and '.codicon-' and ':before' in words[ 0 ]:
-                    font_id = words[ 0 ].partition( '.codicon-' )[ 2 ].partition( ':before' )[ 0 ]
-                    font_code = words[ 3 ].partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
+                if cls.font_data_prefix in line and ':before' in line:
+                    font_id = line.partition( cls.font_data_prefix )[ 2 ].partition( ':before' )[ 0 ]
+                    font_code = line.partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
                     font_code_int = int( font_code, 16 )
                     if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
                         font_min = font_code
@@ -457,19 +374,35 @@ class FontCI( Font ):               # Codicons
                         font_max = font_code
                         font_max_int = font_code_int
                     icons.append([ font_id, font_code ])
-        icons_data.update({ 'font_min' : font_min,
-                            'font_max_16' : font_max_16,
-                            'font_max' : font_max,
-                            'icons' : icons  })
+            icons_data.update({ 'font_min' : font_min,
+                                'font_max_16' : font_max_16,
+                                'font_max' : font_max,
+                                'icons' : icons  })
         return icons_data
+
+
+class FontFAD( FontKI ):               # Fontaudio
+    font_name = 'Fontaudio'
+    font_abbr = 'FAD'
+    font_data_prefix = '.icon-fad-'
+    font_data = 'https://github.com/fefanto/fontaudio/raw/master/font/fontaudio.css'
+    ttfs = [[ font_abbr, 'fontaudio.ttf', 'https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf' ]]
+
+
+class FontCI( FontKI ):               # Codicons
+    font_name = 'Codicons'
+    font_abbr = 'CI'
+    font_data_prefix = '.codicon-'
+    font_data = 'https://raw.githubusercontent.com/microsoft/vscode-codicons/main/dist/codicon.css'
+    ttfs = [[ font_abbr, 'codicon.ttf', 'https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf' ]]
 
 
 # Languages
 
 
 class Language:
-    language_name = '[ ERROR - missing language name ]'
-    file_name = '[ ERROR - missing file name ]'
+    language_name = '[ ERROR - Missing language name ]'
+    file_name = '[ ERROR - Missing file name ]'
     intermediate = {}
 
     def __init__( self, intermediate ):
@@ -477,15 +410,13 @@ class Language:
 
     @classmethod
     def prelude( cls ):
-        print( '[ ERROR - missing implementation of class method prelude for {!s} ]'.format( cls.language_name ))
-        result = '[ ERROR - missing prelude ]'
-        return result
+        logging.error( 'Missing implementation of class method prelude for {!s}'.format( cls.language_name ))
+        return ''
 
     @classmethod
     def line_icon( cls, icon ):
-        print( '[ ERROR - missing implementation of class method line_icon for {!s} ]'.format( cls.language_name ))
-        result = '[ ERROR - missing icon line ]'
-        return result
+        logging.error( 'Missing implementation of class method line_icon for {!s}'.format( cls.language_name ))
+        return ''
 
     @classmethod
     def epilogue( cls ):
@@ -498,7 +429,7 @@ class Language:
             line_icon = cls.line_icon( icon )
             result += line_icon
         result += cls.epilogue()
-        print( 'Converted - {!s} for {!s}'.format( cls.intermediate.get( 'font_name' ), cls.language_name ))
+        logging.info( 'Converted - {!s} for {!s}'.format( cls.intermediate.get( 'font_name' ), cls.language_name ))
         return result
 
     @classmethod
@@ -508,7 +439,7 @@ class Language:
         with open( filename, 'w' ) as f:
             f.write( converted )
             f.close()
-        print( 'Saved - {!s}'.format( filename ))
+        logging.info( 'Saved - {!s}'.format( filename ))
 
 
 class LanguageC( Language ):
@@ -565,7 +496,7 @@ class LanguageC( Language ):
                 response = requests.get( ttf[ 2 ] + '?raw=true' if 'github.com' in ttf[ 2 ] else ttf[ 2 ], timeout = 2 )
                 if response.status_code == 200:
                     ttf_data = response.content
-                    print( 'ttf file downloaded - ' + ttf[ 1 ] )
+                    logging.info( 'ttf file downloaded - ' + ttf[ 1 ] )
                 else:
                     raise Exception( 'ttf file missing - ' + ttf[ 2 ])
             else:
@@ -574,7 +505,7 @@ class LanguageC( Language ):
                     with open( ttf[ 2 ], 'rb' ) as f:
                         ttf_data = f.read()
                         f.close()
-                        print( 'ttf file read - ' + ttf[ 1 ])
+                        logging.info( 'ttf file read - ' + ttf[ 1 ])
                 else:
                     raise Exception( 'ttf file missing - ' + ttf[ 2 ])
             # convert to header and save to disk
@@ -601,7 +532,7 @@ class LanguageC( Language ):
                 with open( ttf_header_file_name, 'w' ) as f:
                     f.write( result )
                     f.close()
-                print( 'ttf File Saved - {!s}'.format( ttf_header_file_name ))
+                logging.info( 'ttf File Saved - {!s}'.format( ttf_header_file_name ))
             else:
                 raise Exception( 'Failed ttf to header conversion' + ttf[ 1 ] )
 
@@ -779,6 +710,8 @@ fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 
+logging.basicConfig( format='%(levelname)s : %(message)s', level = logging.INFO )
+
 intermediates = []
 for font in fonts:
     try:
@@ -786,7 +719,7 @@ for font in fonts:
         if font_intermediate:
             intermediates.append( font_intermediate )
     except Exception as e:
-        print( '[ ERROR: {!s} ]'.format( e ))
+        logging.error( e )
 if intermediates:
     for interm in intermediates:
         Language.intermediate = interm
@@ -797,4 +730,4 @@ if intermediates:
                     try:
                         lang.convert_ttf_to_header()
                     except Exception as e:
-                        print( '[ ERROR: {!s} ]'.format( e ))
+                        logging.error( e )

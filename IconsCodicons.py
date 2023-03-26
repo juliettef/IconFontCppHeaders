@@ -7,6 +7,7 @@ class IconsCodicons:
     ICON_MIN = 0xea60
     ICON_MAX_16 = 0xec11
     ICON_MAX = 0xec11
+    ICON_ADD = '\uea60'
     ICON_PLUS = '\uea60'
     ICON_GIST_NEW = '\uea60'
     ICON_REPO_CREATE = '\uea60'

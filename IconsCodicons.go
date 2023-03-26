@@ -12,6 +12,7 @@ var IconsCodicons = Font{
 	Max16: 0xec11,
 	Max: 0xec11,
 	Icons: map[string]string{
+		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
 		"GistNew":	"\xee\xa9\xa0", 	// U+ea60
 		"RepoCreate":	"\xee\xa9\xa0", 	// U+ea60

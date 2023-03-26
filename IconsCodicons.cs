@@ -10,6 +10,7 @@ namespace IconFonts
         public const int IconMin = 0xea60;
         public const int IconMax16 = 0xec11;
         public const int IconMax = 0xec11;
+        public const string Add = "\uea60";
         public const string Plus = "\uea60";
         public const string GistNew = "\uea60";
         public const string RepoCreate = "\uea60";

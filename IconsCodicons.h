@@ -8,6 +8,7 @@
 #define ICON_MIN_CI 0xea60
 #define ICON_MAX_16_CI 0xec11
 #define ICON_MAX_CI 0xec11
+#define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_GIST_NEW "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_REPO_CREATE "\xee\xa9\xa0"	// U+ea60

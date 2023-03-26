@@ -280,6 +280,7 @@ namespace IconFonts
         public const string Nutritionix = "\uf3d6";
         public const string OctopusDeploy = "\ue082";
         public const string Odnoklassniki = "\uf263";
+        public const string Odysee = "\ue5c6";
         public const string OldRepublic = "\uf510";
         public const string Opencart = "\uf23d";
         public const string Openid = "\uf19b";
@@ -398,6 +399,7 @@ namespace IconFonts
         public const string Strava = "\uf428";
         public const string Stripe = "\uf429";
         public const string StripeS = "\uf42a";
+        public const string Stubber = "\ue5c7";
         public const string Studiovinari = "\uf3f8";
         public const string Stumbleupon = "\uf1a4";
         public const string StumbleuponCircle = "\uf1a3";

@@ -282,6 +282,7 @@ var IconsFontAwesome6Brands = Font{
 		"Nutritionix":	"\xef\x8f\x96", 	// U+f3d6
 		"OctopusDeploy":	"\xee\x82\x82", 	// U+e082
 		"Odnoklassniki":	"\xef\x89\xa3", 	// U+f263
+		"Odysee":	"\xee\x97\x86", 	// U+e5c6
 		"OldRepublic":	"\xef\x94\x90", 	// U+f510
 		"Opencart":	"\xef\x88\xbd", 	// U+f23d
 		"Openid":	"\xef\x86\x9b", 	// U+f19b
@@ -400,6 +401,7 @@ var IconsFontAwesome6Brands = Font{
 		"Strava":	"\xef\x90\xa8", 	// U+f428
 		"Stripe":	"\xef\x90\xa9", 	// U+f429
 		"StripeS":	"\xef\x90\xaa", 	// U+f42a
+		"Stubber":	"\xee\x97\x87", 	// U+e5c7
 		"Studiovinari":	"\xef\x8f\xb8", 	// U+f3f8
 		"Stumbleupon":	"\xef\x86\xa4", 	// U+f1a4
 		"StumbleuponCircle":	"\xef\x86\xa3", 	// U+f1a3

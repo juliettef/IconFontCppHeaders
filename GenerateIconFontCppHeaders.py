@@ -1,5 +1,5 @@
 # Convert Font Awesome, Fork Awesome, Google Material Design, Kenney Game, Fontaudio and Codicons
-# icon font parameters to C, C++, C#, Python and Go compatible formats.
+# icon font parameters to C, C++, C#, Python, Rust and Go compatible formats.
 #
 #------------------------------------------------------------------------------
 #
@@ -73,6 +73,7 @@
 #           - output C and C++:     #define ICON_FA_MUSIC "\xef\x80\x81"	// U+f001
 #           - output C#:            public const string Music = "\uf001";
 #           - output Python:        ICON_MUSIC = '\uf001'
+#           - output Rust:          pub const ICON_MUSIC: char = '\u{f001}';
 #           - output Go:            "Music":	"\xef\x80\x81", 	// U+f001
 #
 #   All fonts have computed min, max_16 and max unicode fonts.
@@ -93,6 +94,10 @@
 #           - output Python:        ICON_MIN = 0xf000
 #                                   ICON_MAX_16 = 0xf2e0
 #                                   ICON_MAX = 0xf2e0
+#
+#           - output Rust:          pub const ICON_MIN: char = '\u{f000}';
+#                                   pub const ICON_MAX_16: char = '\u{f2e0}';
+#                                   pub const ICON_MAX: char = '\u{f2e0}';
 #
 #           - output Go:            Min: 0xf000,
 #                                   Max16: 0xf2e0,

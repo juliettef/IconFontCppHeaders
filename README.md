@@ -7,9 +7,9 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C and C++ headers, C# and Python classes and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons, Fontaudio and Codicons.
+C and C++ headers, C# and Python classes, Rust files and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons, Fontaudio and Codicons.
 
-A set of header files and classes for using icon fonts in C, C++, C#, Python and Go, along with the python generator used to create the files.
+A set of header files and classes for using icon fonts in C, C++, C#, Python, Rust and Go, along with the python generator used to create the files.
 
 Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min, max and max 16 bit code points for font loading purposes. The min excludes the ASCII characters code points. The max 16 bit is for use with libraries that only support 16 bit code points, for example Dear ImGui.
 
@@ -185,3 +185,4 @@ Initial ttf to C and C++ headers conversion implementation - Charles Mailly - [@
 Python language implementation - Hang Yu - [@yhyu13](https://github.com/yhyu13)  
 Go language implementation - Matt Pharr - [@mpp](https://github.com/mmp)  
 Codicons implementation - Robert Ryan - [@rtryan98](https://github.com/rtryan98)  
+Rust language implementation - Gaeel Bradshaw-Rodriguez - [@Bradshaw](https://github.com/Bradshaw)  

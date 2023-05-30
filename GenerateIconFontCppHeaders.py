@@ -344,6 +344,45 @@ class FontMD( Font ):               # Material Design
                                 'icons' : icons })
         return icons_data
 
+class FontMDI( Font ):               # Material Design
+    font_name = 'Material Design Icons'
+    font_abbr = 'MDI'
+    font_data_prefix = '.mdi-'
+    font_data = 'https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css'
+    ttfs = [[ font_abbr, 'materialdesignicons-webfont.ttf', 'https://github.com/Templarian/MaterialDesign-Webfont/raw/master/fonts/materialdesignicons-webfont.ttf' ]]
+
+    @classmethod
+    def get_icons( cls, input_data ):
+        icons_data = {}
+        lines = str.split( input_data, '}\n' )
+        if lines:
+            font_min = '0xF01C9'
+            font_min_int = int( font_min, 16 )
+            font_max_16 = '0x0'   # 16 bit max 
+            font_max_16_int = int( font_max_16, 16 )
+            font_max = '0xF0A88'
+            font_max_int = int( font_max, 16 )
+            icons = []
+            for line in lines :
+                if cls.font_data_prefix in line and '::before' in line:
+                    font_id = line.partition( cls.font_data_prefix )[ 2 ].partition( '::before' )[ 0 ]
+                    font_code = line.partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
+                    font_code_int = int( font_code, 16 )
+                    if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
+                        font_min = font_code
+                        font_min_int = font_code_int
+                    if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
+                        font_max_16 = font_code
+                        font_max_16_int = font_code_int
+                    if font_code_int > font_max_int:
+                        font_max = font_code
+                        font_max_int = font_code_int
+                    icons.append([ font_id, font_code ])
+            icons_data.update({ 'font_min' : font_min,
+                                'font_max_16' : font_max_16,
+                                'font_max' : font_max,
+                                'icons' : icons  })
+        return icons_data
 
 class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'

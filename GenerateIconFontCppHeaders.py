@@ -1,4 +1,4 @@
-# Convert Font Awesome, Fork Awesome, Google Material Design, Kenney Game, Fontaudio and Codicons
+# Convert Font Awesome, Fork Awesome, Google Material Design, Pictogrammers Material Design Icons, Kenney Game, Fontaudio and Codicons
 # icon font parameters to C, C++, C#, Python, Rust and Go compatible formats.
 #
 #------------------------------------------------------------------------------
@@ -39,17 +39,22 @@
 #           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints
 #           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf
 #
-#   1.4 - Kenney Game icons
+#   1.4 - Pictogrammers Material Design Icons
+#           https://raw.githubusercontent.com/Templarian/MaterialDesign-Webfont/master/css/materialdesignicons.css
+#           https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf
+#
+#   1.5 - Kenney Game icons
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
 #
-#   1.5 - Fontaudio
+#   1.6 - Fontaudio
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #
-#   1.6 - Codicons
+#   1.7 - Codicons
 #           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css
 #           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf
+#
 #
 #------------------------------------------------------------------------------
 #
@@ -302,7 +307,7 @@ class FontFA6Brands( FontFA5Brands ):     # Font Awesome version 6 - Brand style
     ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf' ]]
 
 
-class FontMD( Font ):               # Material Design
+class FontMD( Font ):               # Google Material Design
     font_name = 'Material Design'
     font_abbr = 'MD'
     font_data = 'https://github.com/google/material-design-icons/raw/master/font/MaterialIcons-Regular.codepoints'
@@ -344,7 +349,8 @@ class FontMD( Font ):               # Material Design
                                 'icons' : icons })
         return icons_data
 
-class FontMDI( Font ):               # Material Design
+
+class FontMDI( Font ):               # Pictogrammers Material Design Icons
     font_name = 'Material Design Icons'
     font_abbr = 'MDI'
     font_data_prefix = '.mdi-'
@@ -356,11 +362,11 @@ class FontMDI( Font ):               # Material Design
         icons_data = {}
         lines = str.split( input_data, '}\n' )
         if lines:
-            font_min = '0xF01C9'
+            font_min = '0x10ffff'
             font_min_int = int( font_min, 16 )
             font_max_16 = '0x0'   # 16 bit max 
             font_max_16_int = int( font_max_16, 16 )
-            font_max = '0xF0A88'
+            font_max = '0x0'
             font_max_int = int( font_max, 16 )
             icons = []
             for line in lines :
@@ -383,6 +389,7 @@ class FontMDI( Font ):               # Material Design
                                 'font_max' : font_max,
                                 'icons' : icons  })
         return icons_data
+
 
 class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'
@@ -682,6 +689,7 @@ class LanguagePython( Language ):
         result = tmpl_line_icon.format( icon = icon_name, code = icon_code )
         return result
 
+
 class LanguageRust( Language ):
     language_name = "Rust"
     file_name = 'Icons{name}.rs'
@@ -788,7 +796,7 @@ class LanguageGo( Language ):
 # Main
 
 
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontKI, FontFAD, FontCI ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMDI, FontKI, FontFAD, FontCI ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

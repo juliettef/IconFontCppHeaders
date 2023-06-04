@@ -7,7 +7,7 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C and C++ headers, C# and Python classes, Rust files and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design icons, Kenney game icons, Fontaudio and Codicons.
+C and C++ headers, C# and Python classes, Rust files and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design, Kenney game icons, Fontaudio, Codicons, Pictogrammers Material Design icons.
 
 A set of header files and classes for using icon fonts in C, C++, C#, Python, Rust and Go, along with the python generator used to create the files.
 
@@ -54,11 +54,17 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [icons.yml](https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml)
 * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
 
-### Google Material Design icons
+### Google Material Design
 * [design.google.com/icon](https://design.google.com/icons)
 * [github.com/google/material-design-icons](https://github.com/google/material-design-icons)
 * [codepoints](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints)
 * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf)
+
+### Pictogrammers Material Design icons
+* [pictogrammers.com/library/mdi](https://pictogrammers.com/library/mdi/)
+* [github.com/Templarian/MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
+* [materialdesignicons.css](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/css/materialdesignicons.css)
+* [materialdesignicons-webfont.ttf](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf)  
 
 ### Kenney Game icons and expansion 
 * [kenney.nl/assets/game-icons](http://kenney.nl/assets/game-icons) and [kenney.nl/assets/game-icons-expansion](http://kenney.nl/assets/game-icons-expansion) 
@@ -76,7 +82,7 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [codicon.css](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css)
 * [codicon.ttf](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf)
 
-### Ionicons and webfont Material Design Icons
+### Ionicons
 * Unsupported as of 29 Apr 2020. See [Issue #16](https://github.com/juliettef/IconFontCppHeaders/issues/16).
 
 ### Notes about Font Awesome 5 and 6
@@ -186,3 +192,4 @@ Python language implementation - Hang Yu - [@yhyu13](https://github.com/yhyu13)
 Go language implementation - Matt Pharr - [@mpp](https://github.com/mmp)  
 Codicons implementation - Robert Ryan - [@rtryan98](https://github.com/rtryan98)  
 Rust language implementation - Gaeel Bradshaw-Rodriguez - [@Bradshaw](https://github.com/Bradshaw)  
+Pictogrammers Material Design icons implementation - Bobby Anguelov - [@BobbyAnguelov](https://github.com/BobbyAnguelov)  

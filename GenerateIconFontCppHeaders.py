@@ -632,7 +632,7 @@ class LanguageCSharp( Language ):
 
     @classmethod
     def line_icon( cls, icon ):
-        tmpl_line_icon = '        public const string {icon} = "\\u{code}";\n'
+        tmpl_line_icon = '        public const string {icon} = {literal};\n'
         icon_name = cls.to_camelcase( icon[ 0 ])
         icon_code = icon[ 1 ]
         if icon_name[ 0 ].isdigit():
@@ -641,7 +641,14 @@ class LanguageCSharp( Language ):
         if icon_name == cls.intermediate.get( 'font_name' ).replace( ' ', '' ):
             # Member may not have same name as enclosing class
             icon_name += 'Icon'
-        result = tmpl_line_icon.format( icon = icon_name, code = icon_code )
+
+        # "\u1234"
+        if len(icon_code) <= 4:
+            literal = '"\\u{code}"'.format(code = icon_code.rjust(4, '0'))
+        # "\U12345678"
+        else:
+            literal = '"\\U{code}"'.format(code = icon_code.rjust(8, '0'))
+        result = tmpl_line_icon.format( icon = icon_name, literal = literal )
         return result
 
     @classmethod

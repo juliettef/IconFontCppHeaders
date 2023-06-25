@@ -670,7 +670,7 @@ class LanguageCSharp( Language ):
 
     @classmethod
     def line_icon( cls, icon ):
-        tmpl_line_icon = '        public const string {icon} = {literal};\n'
+        tmpl_line_icon = '        public const string {icon} = "\\u{code}";\n'
         icon_name = cls.to_camelcase( icon[ 0 ])
         icon_code = icon[ 1 ]
         if icon_name[ 0 ].isdigit():

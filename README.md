@@ -82,6 +82,12 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 * [codicon.css](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css)
 * [codicon.ttf](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf)
 
+### Lucide
+* [lucide.dev](https://lucide.dev)
+* [github.com/lucide-icons/lucide](https://github.com/lucide-icons/lucide)
+* [lucide.css](https://unpkg.com/lucide-static@latest/font/lucide.css)
+* [lucide.ttf](https://unpkg.com/lucide-static@latest/font/lucide.ttf)
+
 ### Ionicons
 * Unsupported as of 29 Apr 2020. See [Issue #16](https://github.com/juliettef/IconFontCppHeaders/issues/16).
 

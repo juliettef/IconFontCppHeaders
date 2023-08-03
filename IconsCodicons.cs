@@ -25,6 +25,7 @@ namespace IconFonts
         public const string RecordKeys = "\uea65";
         public const string Keyboard = "\uea65";
         public const string Tag = "\uea66";
+        public const string GitPullRequestLabel = "\uea66";
         public const string TagAdd = "\uea66";
         public const string TagRemove = "\uea66";
         public const string Person = "\uea67";
@@ -280,6 +281,7 @@ namespace IconFonts
         public const string Megaphone = "\ueb1e";
         public const string Mention = "\ueb1f";
         public const string Milestone = "\ueb20";
+        public const string GitPullRequestMilestone = "\ueb20";
         public const string MortarBoard = "\ueb21";
         public const string Move = "\ueb22";
         public const string MultipleWindows = "\ueb23";
@@ -405,9 +407,11 @@ namespace IconFonts
         public const string Menu = "\ueb94";
         public const string ExpandAll = "\ueb95";
         public const string Feedback = "\ueb96";
+        public const string GitPullRequestReviewer = "\ueb96";
         public const string GroupByRefType = "\ueb97";
         public const string UngroupByRefType = "\ueb98";
         public const string Account = "\ueb99";
+        public const string GitPullRequestAssignee = "\ueb99";
         public const string BellDot = "\ueb9a";
         public const string DebugConsole = "\ueb9b";
         public const string Library = "\ueb9c";

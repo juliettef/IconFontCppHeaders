@@ -23,6 +23,7 @@
 #define ICON_CI_RECORD_KEYS "\xee\xa9\xa5"	// U+ea65
 #define ICON_CI_KEYBOARD "\xee\xa9\xa5"	// U+ea65
 #define ICON_CI_TAG "\xee\xa9\xa6"	// U+ea66
+#define ICON_CI_GIT_PULL_REQUEST_LABEL "\xee\xa9\xa6"	// U+ea66
 #define ICON_CI_TAG_ADD "\xee\xa9\xa6"	// U+ea66
 #define ICON_CI_TAG_REMOVE "\xee\xa9\xa6"	// U+ea66
 #define ICON_CI_PERSON "\xee\xa9\xa7"	// U+ea67
@@ -278,6 +279,7 @@
 #define ICON_CI_MEGAPHONE "\xee\xac\x9e"	// U+eb1e
 #define ICON_CI_MENTION "\xee\xac\x9f"	// U+eb1f
 #define ICON_CI_MILESTONE "\xee\xac\xa0"	// U+eb20
+#define ICON_CI_GIT_PULL_REQUEST_MILESTONE "\xee\xac\xa0"	// U+eb20
 #define ICON_CI_MORTAR_BOARD "\xee\xac\xa1"	// U+eb21
 #define ICON_CI_MOVE "\xee\xac\xa2"	// U+eb22
 #define ICON_CI_MULTIPLE_WINDOWS "\xee\xac\xa3"	// U+eb23
@@ -403,9 +405,11 @@
 #define ICON_CI_MENU "\xee\xae\x94"	// U+eb94
 #define ICON_CI_EXPAND_ALL "\xee\xae\x95"	// U+eb95
 #define ICON_CI_FEEDBACK "\xee\xae\x96"	// U+eb96
+#define ICON_CI_GIT_PULL_REQUEST_REVIEWER "\xee\xae\x96"	// U+eb96
 #define ICON_CI_GROUP_BY_REF_TYPE "\xee\xae\x97"	// U+eb97
 #define ICON_CI_UNGROUP_BY_REF_TYPE "\xee\xae\x98"	// U+eb98
 #define ICON_CI_ACCOUNT "\xee\xae\x99"	// U+eb99
+#define ICON_CI_GIT_PULL_REQUEST_ASSIGNEE "\xee\xae\x99"	// U+eb99
 #define ICON_CI_BELL_DOT "\xee\xae\x9a"	// U+eb9a
 #define ICON_CI_DEBUG_CONSOLE "\xee\xae\x9b"	// U+eb9b
 #define ICON_CI_LIBRARY "\xee\xae\x9c"	// U+eb9c

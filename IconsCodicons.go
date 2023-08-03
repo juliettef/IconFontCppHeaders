@@ -27,6 +27,7 @@ var IconsCodicons = Font{
 		"RecordKeys":	"\xee\xa9\xa5", 	// U+ea65
 		"Keyboard":	"\xee\xa9\xa5", 	// U+ea65
 		"Tag":	"\xee\xa9\xa6", 	// U+ea66
+		"GitPullRequestLabel":	"\xee\xa9\xa6", 	// U+ea66
 		"TagAdd":	"\xee\xa9\xa6", 	// U+ea66
 		"TagRemove":	"\xee\xa9\xa6", 	// U+ea66
 		"Person":	"\xee\xa9\xa7", 	// U+ea67
@@ -282,6 +283,7 @@ var IconsCodicons = Font{
 		"Megaphone":	"\xee\xac\x9e", 	// U+eb1e
 		"Mention":	"\xee\xac\x9f", 	// U+eb1f
 		"Milestone":	"\xee\xac\xa0", 	// U+eb20
+		"GitPullRequestMilestone":	"\xee\xac\xa0", 	// U+eb20
 		"MortarBoard":	"\xee\xac\xa1", 	// U+eb21
 		"Move":	"\xee\xac\xa2", 	// U+eb22
 		"MultipleWindows":	"\xee\xac\xa3", 	// U+eb23
@@ -407,9 +409,11 @@ var IconsCodicons = Font{
 		"Menu":	"\xee\xae\x94", 	// U+eb94
 		"ExpandAll":	"\xee\xae\x95", 	// U+eb95
 		"Feedback":	"\xee\xae\x96", 	// U+eb96
+		"GitPullRequestReviewer":	"\xee\xae\x96", 	// U+eb96
 		"GroupByRefType":	"\xee\xae\x97", 	// U+eb97
 		"UngroupByRefType":	"\xee\xae\x98", 	// U+eb98
 		"Account":	"\xee\xae\x99", 	// U+eb99
+		"GitPullRequestAssignee":	"\xee\xae\x99", 	// U+eb99
 		"BellDot":	"\xee\xae\x9a", 	// U+eb9a
 		"DebugConsole":	"\xee\xae\x9b", 	// U+eb9b
 		"Library":	"\xee\xae\x9c", 	// U+eb9c

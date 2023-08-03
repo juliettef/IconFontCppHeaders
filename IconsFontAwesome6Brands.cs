@@ -110,6 +110,7 @@ namespace IconFonts
         public const string DAndDBeyond = "\uf6ca";
         public const string Dailymotion = "\ue052";
         public const string Dashcube = "\uf210";
+        public const string Debian = "\ue60b";
         public const string Deezer = "\ue077";
         public const string Delicious = "\uf1a5";
         public const string Deploydog = "\uf38e";
@@ -381,11 +382,13 @@ namespace IconFonts
         public const string SquareReddit = "\uf1a2";
         public const string SquareSnapchat = "\uf2ad";
         public const string SquareSteam = "\uf1b7";
+        public const string SquareThreads = "\ue619";
         public const string SquareTumblr = "\uf174";
         public const string SquareTwitter = "\uf081";
         public const string SquareViadeo = "\uf2aa";
         public const string SquareVimeo = "\uf194";
         public const string SquareWhatsapp = "\uf40c";
+        public const string SquareXTwitter = "\ue61a";
         public const string SquareXing = "\uf169";
         public const string SquareYoutube = "\uf431";
         public const string Squarespace = "\uf5be";
@@ -415,6 +418,7 @@ namespace IconFonts
         public const string Themeco = "\uf5c6";
         public const string Themeisle = "\uf2b2";
         public const string ThinkPeaks = "\uf731";
+        public const string Threads = "\ue618";
         public const string Tiktok = "\ue07b";
         public const string TradeFederation = "\uf513";
         public const string Trello = "\uf181";
@@ -465,6 +469,7 @@ namespace IconFonts
         public const string Wpexplorer = "\uf2de";
         public const string Wpforms = "\uf298";
         public const string Wpressr = "\uf3e4";
+        public const string XTwitter = "\ue61b";
         public const string Xbox = "\uf412";
         public const string Xing = "\uf168";
         public const string YCombinator = "\uf23b";

@@ -108,6 +108,7 @@
 #define ICON_FA_D_AND_D_BEYOND "\xef\x9b\x8a"	// U+f6ca
 #define ICON_FA_DAILYMOTION "\xee\x81\x92"	// U+e052
 #define ICON_FA_DASHCUBE "\xef\x88\x90"	// U+f210
+#define ICON_FA_DEBIAN "\xee\x98\x8b"	// U+e60b
 #define ICON_FA_DEEZER "\xee\x81\xb7"	// U+e077
 #define ICON_FA_DELICIOUS "\xef\x86\xa5"	// U+f1a5
 #define ICON_FA_DEPLOYDOG "\xef\x8e\x8e"	// U+f38e
@@ -379,11 +380,13 @@
 #define ICON_FA_SQUARE_REDDIT "\xef\x86\xa2"	// U+f1a2
 #define ICON_FA_SQUARE_SNAPCHAT "\xef\x8a\xad"	// U+f2ad
 #define ICON_FA_SQUARE_STEAM "\xef\x86\xb7"	// U+f1b7
+#define ICON_FA_SQUARE_THREADS "\xee\x98\x99"	// U+e619
 #define ICON_FA_SQUARE_TUMBLR "\xef\x85\xb4"	// U+f174
 #define ICON_FA_SQUARE_TWITTER "\xef\x82\x81"	// U+f081
 #define ICON_FA_SQUARE_VIADEO "\xef\x8a\xaa"	// U+f2aa
 #define ICON_FA_SQUARE_VIMEO "\xef\x86\x94"	// U+f194
 #define ICON_FA_SQUARE_WHATSAPP "\xef\x90\x8c"	// U+f40c
+#define ICON_FA_SQUARE_X_TWITTER "\xee\x98\x9a"	// U+e61a
 #define ICON_FA_SQUARE_XING "\xef\x85\xa9"	// U+f169
 #define ICON_FA_SQUARE_YOUTUBE "\xef\x90\xb1"	// U+f431
 #define ICON_FA_SQUARESPACE "\xef\x96\xbe"	// U+f5be
@@ -413,6 +416,7 @@
 #define ICON_FA_THEMECO "\xef\x97\x86"	// U+f5c6
 #define ICON_FA_THEMEISLE "\xef\x8a\xb2"	// U+f2b2
 #define ICON_FA_THINK_PEAKS "\xef\x9c\xb1"	// U+f731
+#define ICON_FA_THREADS "\xee\x98\x98"	// U+e618
 #define ICON_FA_TIKTOK "\xee\x81\xbb"	// U+e07b
 #define ICON_FA_TRADE_FEDERATION "\xef\x94\x93"	// U+f513
 #define ICON_FA_TRELLO "\xef\x86\x81"	// U+f181
@@ -463,6 +467,7 @@
 #define ICON_FA_WPEXPLORER "\xef\x8b\x9e"	// U+f2de
 #define ICON_FA_WPFORMS "\xef\x8a\x98"	// U+f298
 #define ICON_FA_WPRESSR "\xef\x8f\xa4"	// U+f3e4
+#define ICON_FA_X_TWITTER "\xee\x98\x9b"	// U+e61b
 #define ICON_FA_XBOX "\xef\x90\x92"	// U+f412
 #define ICON_FA_XING "\xef\x85\xa8"	// U+f168
 #define ICON_FA_Y_COMBINATOR "\xef\x88\xbb"	// U+f23b

@@ -112,6 +112,7 @@ var IconsFontAwesome6Brands = Font{
 		"DAndDBeyond":	"\xef\x9b\x8a", 	// U+f6ca
 		"Dailymotion":	"\xee\x81\x92", 	// U+e052
 		"Dashcube":	"\xef\x88\x90", 	// U+f210
+		"Debian":	"\xee\x98\x8b", 	// U+e60b
 		"Deezer":	"\xee\x81\xb7", 	// U+e077
 		"Delicious":	"\xef\x86\xa5", 	// U+f1a5
 		"Deploydog":	"\xef\x8e\x8e", 	// U+f38e
@@ -383,11 +384,13 @@ var IconsFontAwesome6Brands = Font{
 		"SquareReddit":	"\xef\x86\xa2", 	// U+f1a2
 		"SquareSnapchat":	"\xef\x8a\xad", 	// U+f2ad
 		"SquareSteam":	"\xef\x86\xb7", 	// U+f1b7
+		"SquareThreads":	"\xee\x98\x99", 	// U+e619
 		"SquareTumblr":	"\xef\x85\xb4", 	// U+f174
 		"SquareTwitter":	"\xef\x82\x81", 	// U+f081
 		"SquareViadeo":	"\xef\x8a\xaa", 	// U+f2aa
 		"SquareVimeo":	"\xef\x86\x94", 	// U+f194
 		"SquareWhatsapp":	"\xef\x90\x8c", 	// U+f40c
+		"SquareXTwitter":	"\xee\x98\x9a", 	// U+e61a
 		"SquareXing":	"\xef\x85\xa9", 	// U+f169
 		"SquareYoutube":	"\xef\x90\xb1", 	// U+f431
 		"Squarespace":	"\xef\x96\xbe", 	// U+f5be
@@ -417,6 +420,7 @@ var IconsFontAwesome6Brands = Font{
 		"Themeco":	"\xef\x97\x86", 	// U+f5c6
 		"Themeisle":	"\xef\x8a\xb2", 	// U+f2b2
 		"ThinkPeaks":	"\xef\x9c\xb1", 	// U+f731
+		"Threads":	"\xee\x98\x98", 	// U+e618
 		"Tiktok":	"\xee\x81\xbb", 	// U+e07b
 		"TradeFederation":	"\xef\x94\x93", 	// U+f513
 		"Trello":	"\xef\x86\x81", 	// U+f181
@@ -467,6 +471,7 @@ var IconsFontAwesome6Brands = Font{
 		"Wpexplorer":	"\xef\x8b\x9e", 	// U+f2de
 		"Wpforms":	"\xef\x8a\x98", 	// U+f298
 		"Wpressr":	"\xef\x8f\xa4", 	// U+f3e4
+		"XTwitter":	"\xee\x98\x9b", 	// U+e61b
 		"Xbox":	"\xef\x90\x92", 	// U+f412
 		"Xing":	"\xef\x85\xa8", 	// U+f168
 		"YCombinator":	"\xef\x88\xbb", 	// U+f23b

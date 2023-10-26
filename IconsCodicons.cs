@@ -8,8 +8,8 @@ namespace IconFonts
         public const string FontIconFileNameCI = "codicon.ttf";
 
         public const int IconMin = 0xea60;
-        public const int IconMax16 = 0xec11;
-        public const int IconMax = 0xec11;
+        public const int IconMax16 = 0xec1e;
+        public const int IconMax = 0xec1e;
         public const string Add = "\uea60";
         public const string Plus = "\uea60";
         public const string GistNew = "\uea60";
@@ -537,5 +537,18 @@ namespace IconFonts
         public const string Send = "\uec0f";
         public const string Sparkle = "\uec10";
         public const string Insert = "\uec11";
+        public const string Mic = "\uec12";
+        public const string ThumbsdownFilled = "\uec13";
+        public const string ThumbsupFilled = "\uec14";
+        public const string Coffee = "\uec15";
+        public const string Snake = "\uec16";
+        public const string Game = "\uec17";
+        public const string Vr = "\uec18";
+        public const string Chip = "\uec19";
+        public const string Piano = "\uec1a";
+        public const string Music = "\uec1b";
+        public const string MicFilled = "\uec1c";
+        public const string GitFetch = "\uec1d";
+        public const string Copilot = "\uec1e";
     }
 }

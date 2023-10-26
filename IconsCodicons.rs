@@ -4,8 +4,8 @@
 pub const FONT_ICON_FILE_NAME_CI: &str = "codicon.ttf";
 
 pub const ICON_MIN: char = '\u{ea60}';
-pub const ICON_MAX_16: char = '\u{ec11}';
-pub const ICON_MAX: char = '\u{ec11}';
+pub const ICON_MAX_16: char = '\u{ec1e}';
+pub const ICON_MAX: char = '\u{ec1e}';
 pub const ICON_ADD: char = '\u{ea60}';
 pub const ICON_PLUS: char = '\u{ea60}';
 pub const ICON_GIST_NEW: char = '\u{ea60}';
@@ -533,3 +533,16 @@ pub const ICON_COMMENT_DRAFT: char = '\u{ec0e}';
 pub const ICON_SEND: char = '\u{ec0f}';
 pub const ICON_SPARKLE: char = '\u{ec10}';
 pub const ICON_INSERT: char = '\u{ec11}';
+pub const ICON_MIC: char = '\u{ec12}';
+pub const ICON_THUMBSDOWN_FILLED: char = '\u{ec13}';
+pub const ICON_THUMBSUP_FILLED: char = '\u{ec14}';
+pub const ICON_COFFEE: char = '\u{ec15}';
+pub const ICON_SNAKE: char = '\u{ec16}';
+pub const ICON_GAME: char = '\u{ec17}';
+pub const ICON_VR: char = '\u{ec18}';
+pub const ICON_CHIP: char = '\u{ec19}';
+pub const ICON_PIANO: char = '\u{ec1a}';
+pub const ICON_MUSIC: char = '\u{ec1b}';
+pub const ICON_MIC_FILLED: char = '\u{ec1c}';
+pub const ICON_GIT_FETCH: char = '\u{ec1d}';
+pub const ICON_COPILOT: char = '\u{ec1e}';

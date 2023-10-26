@@ -9,8 +9,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xec11,
-	Max: 0xec11,
+	Max16: 0xec1e,
+	Max: 0xec1e,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -539,5 +539,18 @@ var IconsCodicons = Font{
 		"Send":	"\xee\xb0\x8f", 	// U+ec0f
 		"Sparkle":	"\xee\xb0\x90", 	// U+ec10
 		"Insert":	"\xee\xb0\x91", 	// U+ec11
+		"Mic":	"\xee\xb0\x92", 	// U+ec12
+		"ThumbsdownFilled":	"\xee\xb0\x93", 	// U+ec13
+		"ThumbsupFilled":	"\xee\xb0\x94", 	// U+ec14
+		"Coffee":	"\xee\xb0\x95", 	// U+ec15
+		"Snake":	"\xee\xb0\x96", 	// U+ec16
+		"Game":	"\xee\xb0\x97", 	// U+ec17
+		"Vr":	"\xee\xb0\x98", 	// U+ec18
+		"Chip":	"\xee\xb0\x99", 	// U+ec19
+		"Piano":	"\xee\xb0\x9a", 	// U+ec1a
+		"Music":	"\xee\xb0\x9b", 	// U+ec1b
+		"MicFilled":	"\xee\xb0\x9c", 	// U+ec1c
+		"GitFetch":	"\xee\xb0\x9d", 	// U+ec1d
+		"Copilot":	"\xee\xb0\x9e", 	// U+ec1e
 	},
 }

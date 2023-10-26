@@ -6,8 +6,8 @@
 #define FONT_ICON_FILE_NAME_CI "codicon.ttf"
 
 #define ICON_MIN_CI 0xea60
-#define ICON_MAX_16_CI 0xec11
-#define ICON_MAX_CI 0xec11
+#define ICON_MAX_16_CI 0xec1e
+#define ICON_MAX_CI 0xec1e
 #define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_GIST_NEW "\xee\xa9\xa0"	// U+ea60
@@ -535,3 +535,16 @@
 #define ICON_CI_SEND "\xee\xb0\x8f"	// U+ec0f
 #define ICON_CI_SPARKLE "\xee\xb0\x90"	// U+ec10
 #define ICON_CI_INSERT "\xee\xb0\x91"	// U+ec11
+#define ICON_CI_MIC "\xee\xb0\x92"	// U+ec12
+#define ICON_CI_THUMBSDOWN_FILLED "\xee\xb0\x93"	// U+ec13
+#define ICON_CI_THUMBSUP_FILLED "\xee\xb0\x94"	// U+ec14
+#define ICON_CI_COFFEE "\xee\xb0\x95"	// U+ec15
+#define ICON_CI_SNAKE "\xee\xb0\x96"	// U+ec16
+#define ICON_CI_GAME "\xee\xb0\x97"	// U+ec17
+#define ICON_CI_VR "\xee\xb0\x98"	// U+ec18
+#define ICON_CI_CHIP "\xee\xb0\x99"	// U+ec19
+#define ICON_CI_PIANO "\xee\xb0\x9a"	// U+ec1a
+#define ICON_CI_MUSIC "\xee\xb0\x9b"	// U+ec1b
+#define ICON_CI_MIC_FILLED "\xee\xb0\x9c"	// U+ec1c
+#define ICON_CI_GIT_FETCH "\xee\xb0\x9d"	// U+ec1d
+#define ICON_CI_COPILOT "\xee\xb0\x9e"	// U+ec1e

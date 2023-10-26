@@ -7,7 +7,7 @@
 
 #define ICON_MIN_MDI 0xF68C
 #define ICON_MAX_16_MDI 0xF68C
-#define ICON_MAX_MDI 0xF1C80
+#define ICON_MAX_MDI 0xF1CC7
 #define ICON_MDI_AB_TESTING "\xf3\xb0\x87\x89"	// U+F01C9
 #define ICON_MDI_ABACUS "\xf3\xb1\x9b\xa0"	// U+F16E0
 #define ICON_MDI_ABJAD_ARABIC "\xf3\xb1\x8c\xa8"	// U+F1328
@@ -68,6 +68,10 @@
 #define ICON_MDI_ACCOUNT_EDIT_OUTLINE "\xf3\xb0\xbf\xbb"	// U+F0FFB
 #define ICON_MDI_ACCOUNT_EYE "\xf3\xb0\x90\xa0"	// U+F0420
 #define ICON_MDI_ACCOUNT_EYE_OUTLINE "\xf3\xb1\x89\xbb"	// U+F127B
+#define ICON_MDI_ACCOUNT_FILE "\xf3\xb1\xb2\xa7"	// U+F1CA7
+#define ICON_MDI_ACCOUNT_FILE_OUTLINE "\xf3\xb1\xb2\xa8"	// U+F1CA8
+#define ICON_MDI_ACCOUNT_FILE_TEXT "\xf3\xb1\xb2\xa9"	// U+F1CA9
+#define ICON_MDI_ACCOUNT_FILE_TEXT_OUTLINE "\xf3\xb1\xb2\xaa"	// U+F1CAA
 #define ICON_MDI_ACCOUNT_FILTER "\xf3\xb0\xa4\xb6"	// U+F0936
 #define ICON_MDI_ACCOUNT_FILTER_OUTLINE "\xf3\xb0\xbe\x9d"	// U+F0F9D
 #define ICON_MDI_ACCOUNT_GROUP "\xf3\xb0\xa1\x89"	// U+F0849
@@ -556,6 +560,8 @@
 #define ICON_MDI_ARROW_LEFT_THIN_CIRCLE_OUTLINE "\xf3\xb1\x96\x9a"	// U+F159A
 #define ICON_MDI_ARROW_LEFT_TOP "\xf3\xb1\x9e\xa7"	// U+F17A7
 #define ICON_MDI_ARROW_LEFT_TOP_BOLD "\xf3\xb1\x9e\xa8"	// U+F17A8
+#define ICON_MDI_ARROW_OSCILLATING "\xf3\xb1\xb2\x91"	// U+F1C91
+#define ICON_MDI_ARROW_OSCILLATING_OFF "\xf3\xb1\xb2\x92"	// U+F1C92
 #define ICON_MDI_ARROW_PROJECTILE "\xf3\xb1\xa1\x80"	// U+F1840
 #define ICON_MDI_ARROW_PROJECTILE_MULTIPLE "\xf3\xb1\xa0\xbf"	// U+F183F
 #define ICON_MDI_ARROW_RIGHT "\xf3\xb0\x81\x94"	// U+F0054
@@ -727,6 +733,8 @@
 #define ICON_MDI_BAG_PERSONAL_OFF "\xf3\xb0\xb8\x91"	// U+F0E11
 #define ICON_MDI_BAG_PERSONAL_OFF_OUTLINE "\xf3\xb0\xb8\x92"	// U+F0E12
 #define ICON_MDI_BAG_PERSONAL_OUTLINE "\xf3\xb0\xb8\x93"	// U+F0E13
+#define ICON_MDI_BAG_PERSONAL_PLUS "\xf3\xb1\xb2\xa4"	// U+F1CA4
+#define ICON_MDI_BAG_PERSONAL_PLUS_OUTLINE "\xf3\xb1\xb2\xa5"	// U+F1CA5
 #define ICON_MDI_BAG_PERSONAL_TAG "\xf3\xb1\xac\x8c"	// U+F1B0C
 #define ICON_MDI_BAG_PERSONAL_TAG_OUTLINE "\xf3\xb1\xac\x8d"	// U+F1B0D
 #define ICON_MDI_BAG_SUITCASE "\xf3\xb1\x96\x8b"	// U+F158B
@@ -1226,9 +1234,11 @@
 #define ICON_MDI_BUS_MULTIPLE "\xf3\xb0\xbc\xbf"	// U+F0F3F
 #define ICON_MDI_BUS_SCHOOL "\xf3\xb0\x9e\x9f"	// U+F079F
 #define ICON_MDI_BUS_SIDE "\xf3\xb0\x9e\xa0"	// U+F07A0
+#define ICON_MDI_BUS_SIGN "\xf3\xb1\xb3\x81"	// U+F1CC1
 #define ICON_MDI_BUS_STOP "\xf3\xb1\x80\x92"	// U+F1012
 #define ICON_MDI_BUS_STOP_COVERED "\xf3\xb1\x80\x93"	// U+F1013
 #define ICON_MDI_BUS_STOP_UNCOVERED "\xf3\xb1\x80\x94"	// U+F1014
+#define ICON_MDI_BUS_WRENCH "\xf3\xb1\xb3\x82"	// U+F1CC2
 #define ICON_MDI_BUTTERFLY "\xf3\xb1\x96\x89"	// U+F1589
 #define ICON_MDI_BUTTERFLY_OUTLINE "\xf3\xb1\x96\x8a"	// U+F158A
 #define ICON_MDI_BUTTON_CURSOR "\xf3\xb1\xad\x8f"	// U+F1B4F
@@ -1408,6 +1418,7 @@
 #define ICON_MDI_CAR_DEFROST_REAR "\xf3\xb0\xb5\xa2"	// U+F0D62
 #define ICON_MDI_CAR_DOOR "\xf3\xb0\xad\xab"	// U+F0B6B
 #define ICON_MDI_CAR_DOOR_LOCK "\xf3\xb1\x82\x9d"	// U+F109D
+#define ICON_MDI_CAR_DOOR_LOCK_OPEN "\xf3\xb1\xb2\x81"	// U+F1C81
 #define ICON_MDI_CAR_ELECTRIC "\xf3\xb0\xad\xac"	// U+F0B6C
 #define ICON_MDI_CAR_ELECTRIC_OUTLINE "\xf3\xb1\x96\xb5"	// U+F15B5
 #define ICON_MDI_CAR_EMERGENCY "\xf3\xb1\x98\x8f"	// U+F160F
@@ -1526,6 +1537,7 @@
 #define ICON_MDI_CASH_100 "\xf3\xb0\x84\x95"	// U+F0115
 #define ICON_MDI_CASH_CHECK "\xf3\xb1\x93\xae"	// U+F14EE
 #define ICON_MDI_CASH_CLOCK "\xf3\xb1\xaa\x91"	// U+F1A91
+#define ICON_MDI_CASH_EDIT "\xf3\xb1\xb2\xab"	// U+F1CAB
 #define ICON_MDI_CASH_FAST "\xf3\xb1\xa1\x9c"	// U+F185C
 #define ICON_MDI_CASH_LOCK "\xf3\xb1\x93\xaa"	// U+F14EA
 #define ICON_MDI_CASH_LOCK_OPEN "\xf3\xb1\x93\xab"	// U+F14EB
@@ -1589,6 +1601,7 @@
 #define ICON_MDI_CHAIR_SCHOOL "\xf3\xb0\x84\xa5"	// U+F0125
 #define ICON_MDI_CHANDELIER "\xf3\xb1\x9e\x93"	// U+F1793
 #define ICON_MDI_CHARITY "\xf3\xb0\xb1\x8f"	// U+F0C4F
+#define ICON_MDI_CHARITY_SEARCH "\xf3\xb1\xb2\x82"	// U+F1C82
 #define ICON_MDI_CHART_ARC "\xf3\xb0\x84\xa6"	// U+F0126
 #define ICON_MDI_CHART_AREASPLINE "\xf3\xb0\x84\xa7"	// U+F0127
 #define ICON_MDI_CHART_AREASPLINE_VARIANT "\xf3\xb0\xba\x91"	// U+F0E91
@@ -1913,6 +1926,8 @@
 #define ICON_MDI_CLOUD_COG_OUTLINE "\xf3\xb1\xaf\xb1"	// U+F1BF1
 #define ICON_MDI_CLOUD_DOWNLOAD "\xf3\xb0\x85\xa2"	// U+F0162
 #define ICON_MDI_CLOUD_DOWNLOAD_OUTLINE "\xf3\xb0\xad\xbd"	// U+F0B7D
+#define ICON_MDI_CLOUD_KEY "\xf3\xb1\xb2\xa1"	// U+F1CA1
+#define ICON_MDI_CLOUD_KEY_OUTLINE "\xf3\xb1\xb2\xa2"	// U+F1CA2
 #define ICON_MDI_CLOUD_LOCK "\xf3\xb1\x87\xb1"	// U+F11F1
 #define ICON_MDI_CLOUD_LOCK_OPEN "\xf3\xb1\xaf\xb2"	// U+F1BF2
 #define ICON_MDI_CLOUD_LOCK_OPEN_OUTLINE "\xf3\xb1\xaf\xb3"	// U+F1BF3
@@ -1950,6 +1965,10 @@
 #define ICON_MDI_COACH_LAMP_VARIANT "\xf3\xb1\xa8\xb7"	// U+F1A37
 #define ICON_MDI_COAT_RACK "\xf3\xb1\x82\x9e"	// U+F109E
 #define ICON_MDI_CODE_ARRAY "\xf3\xb0\x85\xa8"	// U+F0168
+#define ICON_MDI_CODE_BLOCK_BRACES "\xf3\xb1\xb2\x83"	// U+F1C83
+#define ICON_MDI_CODE_BLOCK_BRACKETS "\xf3\xb1\xb2\x84"	// U+F1C84
+#define ICON_MDI_CODE_BLOCK_PARENTHESES "\xf3\xb1\xb2\x85"	// U+F1C85
+#define ICON_MDI_CODE_BLOCK_TAGS "\xf3\xb1\xb2\x86"	// U+F1C86
 #define ICON_MDI_CODE_BRACES "\xf3\xb0\x85\xa9"	// U+F0169
 #define ICON_MDI_CODE_BRACES_BOX "\xf3\xb1\x83\x96"	// U+F10D6
 #define ICON_MDI_CODE_BRACKETS "\xf3\xb0\x85\xaa"	// U+F016A
@@ -2471,6 +2490,7 @@
 #define ICON_MDI_DONKEY "\xf3\xb0\x9f\x82"	// U+F07C2
 #define ICON_MDI_DOOR "\xf3\xb0\xa0\x9a"	// U+F081A
 #define ICON_MDI_DOOR_CLOSED "\xf3\xb0\xa0\x9b"	// U+F081B
+#define ICON_MDI_DOOR_CLOSED_CANCEL "\xf3\xb1\xb2\x93"	// U+F1C93
 #define ICON_MDI_DOOR_CLOSED_LOCK "\xf3\xb1\x82\xaf"	// U+F10AF
 #define ICON_MDI_DOOR_OPEN "\xf3\xb0\xa0\x9c"	// U+F081C
 #define ICON_MDI_DOOR_SLIDING "\xf3\xb1\xa0\x9e"	// U+F181E
@@ -2530,7 +2550,10 @@
 #define ICON_MDI_EARBUDS_OFF_OUTLINE "\xf3\xb1\xa1\x91"	// U+F1851
 #define ICON_MDI_EARBUDS_OUTLINE "\xf3\xb1\xa1\x92"	// U+F1852
 #define ICON_MDI_EARTH "\xf3\xb0\x87\xa7"	// U+F01E7
+#define ICON_MDI_EARTH_ARROW_DOWN "\xf3\xb1\xb2\x87"	// U+F1C87
+#define ICON_MDI_EARTH_ARROW_LEFT "\xf3\xb1\xb2\x88"	// U+F1C88
 #define ICON_MDI_EARTH_ARROW_RIGHT "\xf3\xb1\x8c\x91"	// U+F1311
+#define ICON_MDI_EARTH_ARROW_UP "\xf3\xb1\xb2\x89"	// U+F1C89
 #define ICON_MDI_EARTH_BOX "\xf3\xb0\x9b\x8d"	// U+F06CD
 #define ICON_MDI_EARTH_BOX_MINUS "\xf3\xb1\x90\x87"	// U+F1407
 #define ICON_MDI_EARTH_BOX_OFF "\xf3\xb0\x9b\x8e"	// U+F06CE
@@ -2634,11 +2657,17 @@
 #define ICON_MDI_EMOTICON_KISS_OUTLINE "\xf3\xb0\xb1\xb3"	// U+F0C73
 #define ICON_MDI_EMOTICON_LOL "\xf3\xb1\x88\x94"	// U+F1214
 #define ICON_MDI_EMOTICON_LOL_OUTLINE "\xf3\xb1\x88\x95"	// U+F1215
+#define ICON_MDI_EMOTICON_MINUS "\xf3\xb1\xb2\xb2"	// U+F1CB2
+#define ICON_MDI_EMOTICON_MINUS_OUTLINE "\xf3\xb1\xb2\xb3"	// U+F1CB3
 #define ICON_MDI_EMOTICON_NEUTRAL "\xf3\xb0\xb1\xb4"	// U+F0C74
 #define ICON_MDI_EMOTICON_NEUTRAL_OUTLINE "\xf3\xb0\x87\xb6"	// U+F01F6
 #define ICON_MDI_EMOTICON_OUTLINE "\xf3\xb0\x87\xb2"	// U+F01F2
+#define ICON_MDI_EMOTICON_PLUS "\xf3\xb1\xb2\xb4"	// U+F1CB4
+#define ICON_MDI_EMOTICON_PLUS_OUTLINE "\xf3\xb1\xb2\xb5"	// U+F1CB5
 #define ICON_MDI_EMOTICON_POOP "\xf3\xb0\x87\xb7"	// U+F01F7
 #define ICON_MDI_EMOTICON_POOP_OUTLINE "\xf3\xb0\xb1\xb5"	// U+F0C75
+#define ICON_MDI_EMOTICON_REMOVE "\xf3\xb1\xb2\xb6"	// U+F1CB6
+#define ICON_MDI_EMOTICON_REMOVE_OUTLINE "\xf3\xb1\xb2\xb7"	// U+F1CB7
 #define ICON_MDI_EMOTICON_SAD "\xf3\xb0\xb1\xb6"	// U+F0C76
 #define ICON_MDI_EMOTICON_SAD_OUTLINE "\xf3\xb0\x87\xb8"	// U+F01F8
 #define ICON_MDI_EMOTICON_SICK "\xf3\xb1\x95\xbc"	// U+F157C
@@ -2698,6 +2727,7 @@
 #define ICON_MDI_EYE_CHECK_OUTLINE "\xf3\xb0\xb4\x85"	// U+F0D05
 #define ICON_MDI_EYE_CIRCLE "\xf3\xb0\xae\x94"	// U+F0B94
 #define ICON_MDI_EYE_CIRCLE_OUTLINE "\xf3\xb0\xae\x95"	// U+F0B95
+#define ICON_MDI_EYE_CLOSED "\xf3\xb1\xb2\xa3"	// U+F1CA3
 #define ICON_MDI_EYE_LOCK "\xf3\xb1\xb0\x86"	// U+F1C06
 #define ICON_MDI_EYE_LOCK_OPEN "\xf3\xb1\xb0\x87"	// U+F1C07
 #define ICON_MDI_EYE_LOCK_OPEN_OUTLINE "\xf3\xb1\xb0\x88"	// U+F1C08
@@ -2977,6 +3007,7 @@
 #define ICON_MDI_FIRE_HYDRANT_ALERT "\xf3\xb1\x84\xb8"	// U+F1138
 #define ICON_MDI_FIRE_HYDRANT_OFF "\xf3\xb1\x84\xb9"	// U+F1139
 #define ICON_MDI_FIRE_OFF "\xf3\xb1\x9c\xa2"	// U+F1722
+#define ICON_MDI_FIRE_STATION "\xf3\xb1\xb3\x83"	// U+F1CC3
 #define ICON_MDI_FIRE_TRUCK "\xf3\xb0\xa2\xab"	// U+F08AB
 #define ICON_MDI_FIREBASE "\xf3\xb0\xa5\xa7"	// U+F0967
 #define ICON_MDI_FIREFOX "\xf3\xb0\x88\xb9"	// U+F0239
@@ -3418,6 +3449,8 @@
 #define ICON_MDI_GAS_BURNER "\xf3\xb1\xa8\x9b"	// U+F1A1B
 #define ICON_MDI_GAS_CYLINDER "\xf3\xb0\x99\x87"	// U+F0647
 #define ICON_MDI_GAS_STATION "\xf3\xb0\x8a\x98"	// U+F0298
+#define ICON_MDI_GAS_STATION_IN_USE "\xf3\xb1\xb3\x84"	// U+F1CC4
+#define ICON_MDI_GAS_STATION_IN_USE_OUTLINE "\xf3\xb1\xb3\x85"	// U+F1CC5
 #define ICON_MDI_GAS_STATION_OFF "\xf3\xb1\x90\x89"	// U+F1409
 #define ICON_MDI_GAS_STATION_OFF_OUTLINE "\xf3\xb1\x90\x8a"	// U+F140A
 #define ICON_MDI_GAS_STATION_OUTLINE "\xf3\xb0\xba\xb8"	// U+F0EB8
@@ -3446,6 +3479,9 @@
 #define ICON_MDI_GENDER_MALE_FEMALE_VARIANT "\xf3\xb1\x84\xbf"	// U+F113F
 #define ICON_MDI_GENDER_NON_BINARY "\xf3\xb1\x85\x80"	// U+F1140
 #define ICON_MDI_GENDER_TRANSGENDER "\xf3\xb0\x8a\x9f"	// U+F029F
+#define ICON_MDI_GENERATOR_MOBILE "\xf3\xb1\xb2\x8a"	// U+F1C8A
+#define ICON_MDI_GENERATOR_PORTABLE "\xf3\xb1\xb2\x8b"	// U+F1C8B
+#define ICON_MDI_GENERATOR_STATIONARY "\xf3\xb1\xb2\x8c"	// U+F1C8C
 #define ICON_MDI_GENTOO "\xf3\xb0\xa3\xa8"	// U+F08E8
 #define ICON_MDI_GESTURE "\xf3\xb0\x9f\x8b"	// U+F07CB
 #define ICON_MDI_GESTURE_DOUBLE_TAP "\xf3\xb0\x9c\xbc"	// U+F073C
@@ -3681,6 +3717,7 @@
 #define ICON_MDI_HEART_PULSE "\xf3\xb0\x97\xb6"	// U+F05F6
 #define ICON_MDI_HEART_REMOVE "\xf3\xb1\x90\xb0"	// U+F1430
 #define ICON_MDI_HEART_REMOVE_OUTLINE "\xf3\xb1\x90\xb3"	// U+F1433
+#define ICON_MDI_HEART_SEARCH "\xf3\xb1\xb2\x8d"	// U+F1C8D
 #define ICON_MDI_HEART_SETTINGS "\xf3\xb1\x99\xa5"	// U+F1665
 #define ICON_MDI_HEART_SETTINGS_OUTLINE "\xf3\xb1\x99\xa6"	// U+F1666
 #define ICON_MDI_HEAT_PUMP "\xf3\xb1\xa9\x83"	// U+F1A43
@@ -3805,7 +3842,10 @@
 #define ICON_MDI_HOSPITAL_BUILDING "\xf3\xb0\x8b\xa1"	// U+F02E1
 #define ICON_MDI_HOSPITAL_MARKER "\xf3\xb0\x8b\xa2"	// U+F02E2
 #define ICON_MDI_HOT_TUB "\xf3\xb0\xa0\xa8"	// U+F0828
+#define ICON_MDI_HOURS_12 "\xf3\xb1\xb2\x94"	// U+F1C94
 #define ICON_MDI_HOURS_24 "\xf3\xb1\x91\xb8"	// U+F1478
+#define ICON_MDI_HUB "\xf3\xb1\xb2\x95"	// U+F1C95
+#define ICON_MDI_HUB_OUTLINE "\xf3\xb1\xb2\x96"	// U+F1C96
 #define ICON_MDI_HUBSPOT "\xf3\xb0\xb4\x97"	// U+F0D17
 #define ICON_MDI_HULU "\xf3\xb0\xa0\xa9"	// U+F0829
 #define ICON_MDI_HUMAN "\xf3\xb0\x8b\xa6"	// U+F02E6
@@ -3820,6 +3860,7 @@
 #define ICON_MDI_HUMAN_FEMALE_BOY "\xf3\xb0\xa9\x99"	// U+F0A59
 #define ICON_MDI_HUMAN_FEMALE_DANCE "\xf3\xb1\x97\x89"	// U+F15C9
 #define ICON_MDI_HUMAN_FEMALE_FEMALE "\xf3\xb0\xa9\x9a"	// U+F0A5A
+#define ICON_MDI_HUMAN_FEMALE_FEMALE_CHILD "\xf3\xb1\xb2\x8e"	// U+F1C8E
 #define ICON_MDI_HUMAN_FEMALE_GIRL "\xf3\xb0\xa9\x9b"	// U+F0A5B
 #define ICON_MDI_HUMAN_GREETING "\xf3\xb1\x9f\x84"	// U+F17C4
 #define ICON_MDI_HUMAN_GREETING_PROXIMITY "\xf3\xb1\x96\x9d"	// U+F159D
@@ -3837,6 +3878,7 @@
 #define ICON_MDI_HUMAN_MALE_HEIGHT "\xf3\xb0\xbb\xbb"	// U+F0EFB
 #define ICON_MDI_HUMAN_MALE_HEIGHT_VARIANT "\xf3\xb0\xbb\xbc"	// U+F0EFC
 #define ICON_MDI_HUMAN_MALE_MALE "\xf3\xb0\xa9\x9e"	// U+F0A5E
+#define ICON_MDI_HUMAN_MALE_MALE_CHILD "\xf3\xb1\xb2\x8f"	// U+F1C8F
 #define ICON_MDI_HUMAN_NON_BINARY "\xf3\xb1\xa1\x88"	// U+F1848
 #define ICON_MDI_HUMAN_PREGNANT "\xf3\xb0\x97\x8f"	// U+F05CF
 #define ICON_MDI_HUMAN_QUEUE "\xf3\xb1\x95\xb1"	// U+F1571
@@ -3960,6 +4002,7 @@
 #define ICON_MDI_IRON_BOARD "\xf3\xb1\xa0\xb8"	// U+F1838
 #define ICON_MDI_IRON_OUTLINE "\xf3\xb1\xa0\xa5"	// U+F1825
 #define ICON_MDI_ISLAND "\xf3\xb1\x81\x8f"	// U+F104F
+#define ICON_MDI_ISLAND_VARIANT "\xf3\xb1\xb3\x86"	// U+F1CC6
 #define ICON_MDI_IV_BAG "\xf3\xb1\x82\xb9"	// U+F10B9
 #define ICON_MDI_JABBER "\xf3\xb0\xb7\x95"	// U+F0DD5
 #define ICON_MDI_JEEPNEY "\xf3\xb0\x8c\x82"	// U+F0302
@@ -4200,6 +4243,9 @@
 #define ICON_MDI_LINK_BOX_OUTLINE "\xf3\xb0\xb4\x9b"	// U+F0D1B
 #define ICON_MDI_LINK_BOX_VARIANT "\xf3\xb0\xb4\x9c"	// U+F0D1C
 #define ICON_MDI_LINK_BOX_VARIANT_OUTLINE "\xf3\xb0\xb4\x9d"	// U+F0D1D
+#define ICON_MDI_LINK_CIRCLE "\xf3\xb1\xb2\xac"	// U+F1CAC
+#define ICON_MDI_LINK_CIRCLE_OUTLINE "\xf3\xb1\xb2\xad"	// U+F1CAD
+#define ICON_MDI_LINK_EDIT "\xf3\xb1\xb2\xae"	// U+F1CAE
 #define ICON_MDI_LINK_LOCK "\xf3\xb1\x82\xba"	// U+F10BA
 #define ICON_MDI_LINK_OFF "\xf3\xb0\x8c\xb8"	// U+F0338
 #define ICON_MDI_LINK_PLUS "\xf3\xb0\xb2\x94"	// U+F0C94
@@ -4374,9 +4420,11 @@
 #define ICON_MDI_MEDICATION_OUTLINE "\xf3\xb1\xac\x95"	// U+F1B15
 #define ICON_MDI_MEDITATION "\xf3\xb1\x85\xbb"	// U+F117B
 #define ICON_MDI_MEMORY "\xf3\xb0\x8d\x9b"	// U+F035B
+#define ICON_MDI_MEMORY_ARROW_DOWN "\xf3\xb1\xb2\xa6"	// U+F1CA6
 #define ICON_MDI_MENORAH "\xf3\xb1\x9f\x94"	// U+F17D4
 #define ICON_MDI_MENORAH_FIRE "\xf3\xb1\x9f\x95"	// U+F17D5
 #define ICON_MDI_MENU "\xf3\xb0\x8d\x9c"	// U+F035C
+#define ICON_MDI_MENU_CLOSE "\xf3\xb1\xb2\x90"	// U+F1C90
 #define ICON_MDI_MENU_DOWN "\xf3\xb0\x8d\x9d"	// U+F035D
 #define ICON_MDI_MENU_DOWN_OUTLINE "\xf3\xb0\x9a\xb6"	// U+F06B6
 #define ICON_MDI_MENU_LEFT "\xf3\xb0\x8d\x9e"	// U+F035E
@@ -5026,7 +5074,13 @@
 #define ICON_MDI_PARKING "\xf3\xb0\x8f\xa3"	// U+F03E3
 #define ICON_MDI_PARTY_POPPER "\xf3\xb1\x81\x96"	// U+F1056
 #define ICON_MDI_PASSPORT "\xf3\xb0\x9f\xa3"	// U+F07E3
+#define ICON_MDI_PASSPORT_ALERT "\xf3\xb1\xb2\xb8"	// U+F1CB8
 #define ICON_MDI_PASSPORT_BIOMETRIC "\xf3\xb0\xb7\xa1"	// U+F0DE1
+#define ICON_MDI_PASSPORT_CANCEL "\xf3\xb1\xb2\xb9"	// U+F1CB9
+#define ICON_MDI_PASSPORT_CHECK "\xf3\xb1\xb2\xba"	// U+F1CBA
+#define ICON_MDI_PASSPORT_MINUS "\xf3\xb1\xb2\xbb"	// U+F1CBB
+#define ICON_MDI_PASSPORT_PLUS "\xf3\xb1\xb2\xbc"	// U+F1CBC
+#define ICON_MDI_PASSPORT_REMOVE "\xf3\xb1\xb2\xbd"	// U+F1CBD
 #define ICON_MDI_PASTA "\xf3\xb1\x85\xa0"	// U+F1160
 #define ICON_MDI_PATIO_HEATER "\xf3\xb0\xbe\x80"	// U+F0F80
 #define ICON_MDI_PATREON "\xf3\xb0\xa2\x82"	// U+F0882
@@ -5236,6 +5290,7 @@
 #define ICON_MDI_PLUS_NETWORK_OUTLINE "\xf3\xb0\xb2\xba"	// U+F0CBA
 #define ICON_MDI_PLUS_OUTLINE "\xf3\xb0\x9c\x85"	// U+F0705
 #define ICON_MDI_PLUS_THICK "\xf3\xb1\x87\xac"	// U+F11EC
+#define ICON_MDI_POCKET "\xf3\xb1\xb2\xbe"	// U+F1CBE
 #define ICON_MDI_PODCAST "\xf3\xb0\xa6\x94"	// U+F0994
 #define ICON_MDI_PODIUM "\xf3\xb0\xb4\xa5"	// U+F0D25
 #define ICON_MDI_PODIUM_BRONZE "\xf3\xb0\xb4\xa6"	// U+F0D26
@@ -5418,6 +5473,7 @@
 #define ICON_MDI_QUALITY_HIGH "\xf3\xb0\x90\xb5"	// U+F0435
 #define ICON_MDI_QUALITY_LOW "\xf3\xb0\xa8\x8c"	// U+F0A0C
 #define ICON_MDI_QUALITY_MEDIUM "\xf3\xb0\xa8\x8d"	// U+F0A0D
+#define ICON_MDI_QUEUE_FIRST_IN_LAST_OUT "\xf3\xb1\xb2\xaf"	// U+F1CAF
 #define ICON_MDI_QUORA "\xf3\xb0\xb4\xa9"	// U+F0D29
 #define ICON_MDI_RABBIT "\xf3\xb0\xa4\x87"	// U+F0907
 #define ICON_MDI_RABBIT_VARIANT "\xf3\xb1\xa9\xa1"	// U+F1A61
@@ -5666,6 +5722,7 @@
 #define ICON_MDI_ROUNDED_CORNER "\xf3\xb0\x98\x87"	// U+F0607
 #define ICON_MDI_ROUTER "\xf3\xb1\x87\xa2"	// U+F11E2
 #define ICON_MDI_ROUTER_NETWORK "\xf3\xb1\x82\x87"	// U+F1087
+#define ICON_MDI_ROUTER_NETWORK_WIRELESS "\xf3\xb1\xb2\x97"	// U+F1C97
 #define ICON_MDI_ROUTER_WIRELESS "\xf3\xb0\x91\xa9"	// U+F0469
 #define ICON_MDI_ROUTER_WIRELESS_OFF "\xf3\xb1\x96\xa3"	// U+F15A3
 #define ICON_MDI_ROUTER_WIRELESS_SETTINGS "\xf3\xb0\xa9\xa9"	// U+F0A69
@@ -5810,10 +5867,14 @@
 #define ICON_MDI_SERIAL_PORT "\xf3\xb0\x99\x9c"	// U+F065C
 #define ICON_MDI_SERVER "\xf3\xb0\x92\x8b"	// U+F048B
 #define ICON_MDI_SERVER_MINUS "\xf3\xb0\x92\x8c"	// U+F048C
+#define ICON_MDI_SERVER_MINUS_OUTLINE "\xf3\xb1\xb2\x98"	// U+F1C98
 #define ICON_MDI_SERVER_NETWORK "\xf3\xb0\x92\x8d"	// U+F048D
 #define ICON_MDI_SERVER_NETWORK_OFF "\xf3\xb0\x92\x8e"	// U+F048E
+#define ICON_MDI_SERVER_NETWORK_OUTLINE "\xf3\xb1\xb2\x99"	// U+F1C99
 #define ICON_MDI_SERVER_OFF "\xf3\xb0\x92\x8f"	// U+F048F
+#define ICON_MDI_SERVER_OUTLINE "\xf3\xb1\xb2\x9a"	// U+F1C9A
 #define ICON_MDI_SERVER_PLUS "\xf3\xb0\x92\x90"	// U+F0490
+#define ICON_MDI_SERVER_PLUS_OUTLINE "\xf3\xb1\xb2\x9b"	// U+F1C9B
 #define ICON_MDI_SERVER_REMOVE "\xf3\xb0\x92\x91"	// U+F0491
 #define ICON_MDI_SERVER_SECURITY "\xf3\xb0\x92\x92"	// U+F0492
 #define ICON_MDI_SET_ALL "\xf3\xb0\x9d\xb8"	// U+F0778
@@ -6450,6 +6511,8 @@
 #define ICON_MDI_TAG_ARROW_UP_OUTLINE "\xf3\xb1\x9c\xb2"	// U+F1732
 #define ICON_MDI_TAG_CHECK "\xf3\xb1\xa9\xba"	// U+F1A7A
 #define ICON_MDI_TAG_CHECK_OUTLINE "\xf3\xb1\xa9\xbb"	// U+F1A7B
+#define ICON_MDI_TAG_EDIT "\xf3\xb1\xb2\x9c"	// U+F1C9C
+#define ICON_MDI_TAG_EDIT_OUTLINE "\xf3\xb1\xb2\x9d"	// U+F1C9D
 #define ICON_MDI_TAG_FACES "\xf3\xb0\x93\xba"	// U+F04FA
 #define ICON_MDI_TAG_HEART "\xf3\xb0\x9a\x8b"	// U+F068B
 #define ICON_MDI_TAG_HEART_OUTLINE "\xf3\xb0\xaf\x8f"	// U+F0BCF
@@ -6725,6 +6788,7 @@
 #define ICON_MDI_TRAFFIC_LIGHT "\xf3\xb0\x94\xab"	// U+F052B
 #define ICON_MDI_TRAFFIC_LIGHT_OUTLINE "\xf3\xb1\xa0\xaa"	// U+F182A
 #define ICON_MDI_TRAIN "\xf3\xb0\x94\xac"	// U+F052C
+#define ICON_MDI_TRAIN_BUS "\xf3\xb1\xb3\x87"	// U+F1CC7
 #define ICON_MDI_TRAIN_CAR "\xf3\xb0\xaf\x98"	// U+F0BD8
 #define ICON_MDI_TRAIN_CAR_AUTORACK "\xf3\xb1\xac\xad"	// U+F1B2D
 #define ICON_MDI_TRAIN_CAR_BOX "\xf3\xb1\xac\xae"	// U+F1B2E
@@ -6818,6 +6882,8 @@
 #define ICON_MDI_TRUCK_FLATBED "\xf3\xb1\xa2\x91"	// U+F1891
 #define ICON_MDI_TRUCK_MINUS "\xf3\xb1\xa6\xae"	// U+F19AE
 #define ICON_MDI_TRUCK_MINUS_OUTLINE "\xf3\xb1\xa6\xbd"	// U+F19BD
+#define ICON_MDI_TRUCK_OFF_ROAD "\xf3\xb1\xb2\x9e"	// U+F1C9E
+#define ICON_MDI_TRUCK_OFF_ROAD_OFF "\xf3\xb1\xb2\x9f"	// U+F1C9F
 #define ICON_MDI_TRUCK_OUTLINE "\xf3\xb1\x8a\x9d"	// U+F129D
 #define ICON_MDI_TRUCK_PLUS "\xf3\xb1\xa6\xad"	// U+F19AD
 #define ICON_MDI_TRUCK_PLUS_OUTLINE "\xf3\xb1\xa6\xbc"	// U+F19BC
@@ -6886,6 +6952,7 @@
 #define ICON_MDI_UPLOAD_OFF_OUTLINE "\xf3\xb1\x83\x87"	// U+F10C7
 #define ICON_MDI_UPLOAD_OUTLINE "\xf3\xb0\xb8\x87"	// U+F0E07
 #define ICON_MDI_USB "\xf3\xb0\x95\x93"	// U+F0553
+#define ICON_MDI_USB_C_PORT "\xf3\xb1\xb2\xbf"	// U+F1CBF
 #define ICON_MDI_USB_FLASH_DRIVE "\xf3\xb1\x8a\x9e"	// U+F129E
 #define ICON_MDI_USB_FLASH_DRIVE_OUTLINE "\xf3\xb1\x8a\x9f"	// U+F129F
 #define ICON_MDI_USB_PORT "\xf3\xb1\x87\xb0"	// U+F11F0
@@ -6970,6 +7037,7 @@
 #define ICON_MDI_VIDEO_PLUS "\xf3\xb0\xa6\xb3"	// U+F09B3
 #define ICON_MDI_VIDEO_PLUS_OUTLINE "\xf3\xb0\x87\x93"	// U+F01D3
 #define ICON_MDI_VIDEO_STABILIZATION "\xf3\xb0\xa4\x9b"	// U+F091B
+#define ICON_MDI_VIDEO_STANDARD_DEFINITION "\xf3\xb1\xb2\xa0"	// U+F1CA0
 #define ICON_MDI_VIDEO_SWITCH "\xf3\xb0\x95\xa9"	// U+F0569
 #define ICON_MDI_VIDEO_SWITCH_OUTLINE "\xf3\xb0\x9e\x90"	// U+F0790
 #define ICON_MDI_VIDEO_VINTAGE "\xf3\xb0\xa8\x9c"	// U+F0A1C
@@ -7120,6 +7188,9 @@
 #define ICON_MDI_WATERING_CAN_OUTLINE "\xf3\xb1\x92\x82"	// U+F1482
 #define ICON_MDI_WATERMARK "\xf3\xb0\x98\x92"	// U+F0612
 #define ICON_MDI_WAVE "\xf3\xb0\xbc\xae"	// U+F0F2E
+#define ICON_MDI_WAVE_ARROW_DOWN "\xf3\xb1\xb2\xb0"	// U+F1CB0
+#define ICON_MDI_WAVE_ARROW_UP "\xf3\xb1\xb2\xb1"	// U+F1CB1
+#define ICON_MDI_WAVE_UNDERCURRENT "\xf3\xb1\xb3\x80"	// U+F1CC0
 #define ICON_MDI_WAVEFORM "\xf3\xb1\x91\xbd"	// U+F147D
 #define ICON_MDI_WAVES "\xf3\xb0\x9e\x8d"	// U+F078D
 #define ICON_MDI_WAVES_ARROW_LEFT "\xf3\xb1\xa1\x99"	// U+F1859

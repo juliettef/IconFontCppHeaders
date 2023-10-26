@@ -10,7 +10,7 @@ var IconsMaterialDesignIcons = Font{
 	},
 	Min: 0xF68C,
 	Max16: 0xF68C,
-	Max: 0xF1C80,
+	Max: 0xF1CC7,
 	Icons: map[string]string{
 		"AbTesting":	"\xf3\xb0\x87\x89", 	// U+F01C9
 		"Abacus":	"\xf3\xb1\x9b\xa0", 	// U+F16E0
@@ -72,6 +72,10 @@ var IconsMaterialDesignIcons = Font{
 		"AccountEditOutline":	"\xf3\xb0\xbf\xbb", 	// U+F0FFB
 		"AccountEye":	"\xf3\xb0\x90\xa0", 	// U+F0420
 		"AccountEyeOutline":	"\xf3\xb1\x89\xbb", 	// U+F127B
+		"AccountFile":	"\xf3\xb1\xb2\xa7", 	// U+F1CA7
+		"AccountFileOutline":	"\xf3\xb1\xb2\xa8", 	// U+F1CA8
+		"AccountFileText":	"\xf3\xb1\xb2\xa9", 	// U+F1CA9
+		"AccountFileTextOutline":	"\xf3\xb1\xb2\xaa", 	// U+F1CAA
 		"AccountFilter":	"\xf3\xb0\xa4\xb6", 	// U+F0936
 		"AccountFilterOutline":	"\xf3\xb0\xbe\x9d", 	// U+F0F9D
 		"AccountGroup":	"\xf3\xb0\xa1\x89", 	// U+F0849
@@ -560,6 +564,8 @@ var IconsMaterialDesignIcons = Font{
 		"ArrowLeftThinCircleOutline":	"\xf3\xb1\x96\x9a", 	// U+F159A
 		"ArrowLeftTop":	"\xf3\xb1\x9e\xa7", 	// U+F17A7
 		"ArrowLeftTopBold":	"\xf3\xb1\x9e\xa8", 	// U+F17A8
+		"ArrowOscillating":	"\xf3\xb1\xb2\x91", 	// U+F1C91
+		"ArrowOscillatingOff":	"\xf3\xb1\xb2\x92", 	// U+F1C92
 		"ArrowProjectile":	"\xf3\xb1\xa1\x80", 	// U+F1840
 		"ArrowProjectileMultiple":	"\xf3\xb1\xa0\xbf", 	// U+F183F
 		"ArrowRight":	"\xf3\xb0\x81\x94", 	// U+F0054
@@ -731,6 +737,8 @@ var IconsMaterialDesignIcons = Font{
 		"BagPersonalOff":	"\xf3\xb0\xb8\x91", 	// U+F0E11
 		"BagPersonalOffOutline":	"\xf3\xb0\xb8\x92", 	// U+F0E12
 		"BagPersonalOutline":	"\xf3\xb0\xb8\x93", 	// U+F0E13
+		"BagPersonalPlus":	"\xf3\xb1\xb2\xa4", 	// U+F1CA4
+		"BagPersonalPlusOutline":	"\xf3\xb1\xb2\xa5", 	// U+F1CA5
 		"BagPersonalTag":	"\xf3\xb1\xac\x8c", 	// U+F1B0C
 		"BagPersonalTagOutline":	"\xf3\xb1\xac\x8d", 	// U+F1B0D
 		"BagSuitcase":	"\xf3\xb1\x96\x8b", 	// U+F158B
@@ -1230,9 +1238,11 @@ var IconsMaterialDesignIcons = Font{
 		"BusMultiple":	"\xf3\xb0\xbc\xbf", 	// U+F0F3F
 		"BusSchool":	"\xf3\xb0\x9e\x9f", 	// U+F079F
 		"BusSide":	"\xf3\xb0\x9e\xa0", 	// U+F07A0
+		"BusSign":	"\xf3\xb1\xb3\x81", 	// U+F1CC1
 		"BusStop":	"\xf3\xb1\x80\x92", 	// U+F1012
 		"BusStopCovered":	"\xf3\xb1\x80\x93", 	// U+F1013
 		"BusStopUncovered":	"\xf3\xb1\x80\x94", 	// U+F1014
+		"BusWrench":	"\xf3\xb1\xb3\x82", 	// U+F1CC2
 		"Butterfly":	"\xf3\xb1\x96\x89", 	// U+F1589
 		"ButterflyOutline":	"\xf3\xb1\x96\x8a", 	// U+F158A
 		"ButtonCursor":	"\xf3\xb1\xad\x8f", 	// U+F1B4F
@@ -1412,6 +1422,7 @@ var IconsMaterialDesignIcons = Font{
 		"CarDefrostRear":	"\xf3\xb0\xb5\xa2", 	// U+F0D62
 		"CarDoor":	"\xf3\xb0\xad\xab", 	// U+F0B6B
 		"CarDoorLock":	"\xf3\xb1\x82\x9d", 	// U+F109D
+		"CarDoorLockOpen":	"\xf3\xb1\xb2\x81", 	// U+F1C81
 		"CarElectric":	"\xf3\xb0\xad\xac", 	// U+F0B6C
 		"CarElectricOutline":	"\xf3\xb1\x96\xb5", 	// U+F15B5
 		"CarEmergency":	"\xf3\xb1\x98\x8f", 	// U+F160F
@@ -1530,6 +1541,7 @@ var IconsMaterialDesignIcons = Font{
 		"Cash100":	"\xf3\xb0\x84\x95", 	// U+F0115
 		"CashCheck":	"\xf3\xb1\x93\xae", 	// U+F14EE
 		"CashClock":	"\xf3\xb1\xaa\x91", 	// U+F1A91
+		"CashEdit":	"\xf3\xb1\xb2\xab", 	// U+F1CAB
 		"CashFast":	"\xf3\xb1\xa1\x9c", 	// U+F185C
 		"CashLock":	"\xf3\xb1\x93\xaa", 	// U+F14EA
 		"CashLockOpen":	"\xf3\xb1\x93\xab", 	// U+F14EB
@@ -1593,6 +1605,7 @@ var IconsMaterialDesignIcons = Font{
 		"ChairSchool":	"\xf3\xb0\x84\xa5", 	// U+F0125
 		"Chandelier":	"\xf3\xb1\x9e\x93", 	// U+F1793
 		"Charity":	"\xf3\xb0\xb1\x8f", 	// U+F0C4F
+		"CharitySearch":	"\xf3\xb1\xb2\x82", 	// U+F1C82
 		"ChartArc":	"\xf3\xb0\x84\xa6", 	// U+F0126
 		"ChartAreaspline":	"\xf3\xb0\x84\xa7", 	// U+F0127
 		"ChartAreasplineVariant":	"\xf3\xb0\xba\x91", 	// U+F0E91
@@ -1917,6 +1930,8 @@ var IconsMaterialDesignIcons = Font{
 		"CloudCogOutline":	"\xf3\xb1\xaf\xb1", 	// U+F1BF1
 		"CloudDownload":	"\xf3\xb0\x85\xa2", 	// U+F0162
 		"CloudDownloadOutline":	"\xf3\xb0\xad\xbd", 	// U+F0B7D
+		"CloudKey":	"\xf3\xb1\xb2\xa1", 	// U+F1CA1
+		"CloudKeyOutline":	"\xf3\xb1\xb2\xa2", 	// U+F1CA2
 		"CloudLock":	"\xf3\xb1\x87\xb1", 	// U+F11F1
 		"CloudLockOpen":	"\xf3\xb1\xaf\xb2", 	// U+F1BF2
 		"CloudLockOpenOutline":	"\xf3\xb1\xaf\xb3", 	// U+F1BF3
@@ -1954,6 +1969,10 @@ var IconsMaterialDesignIcons = Font{
 		"CoachLampVariant":	"\xf3\xb1\xa8\xb7", 	// U+F1A37
 		"CoatRack":	"\xf3\xb1\x82\x9e", 	// U+F109E
 		"CodeArray":	"\xf3\xb0\x85\xa8", 	// U+F0168
+		"CodeBlockBraces":	"\xf3\xb1\xb2\x83", 	// U+F1C83
+		"CodeBlockBrackets":	"\xf3\xb1\xb2\x84", 	// U+F1C84
+		"CodeBlockParentheses":	"\xf3\xb1\xb2\x85", 	// U+F1C85
+		"CodeBlockTags":	"\xf3\xb1\xb2\x86", 	// U+F1C86
 		"CodeBraces":	"\xf3\xb0\x85\xa9", 	// U+F0169
 		"CodeBracesBox":	"\xf3\xb1\x83\x96", 	// U+F10D6
 		"CodeBrackets":	"\xf3\xb0\x85\xaa", 	// U+F016A
@@ -2475,6 +2494,7 @@ var IconsMaterialDesignIcons = Font{
 		"Donkey":	"\xf3\xb0\x9f\x82", 	// U+F07C2
 		"Door":	"\xf3\xb0\xa0\x9a", 	// U+F081A
 		"DoorClosed":	"\xf3\xb0\xa0\x9b", 	// U+F081B
+		"DoorClosedCancel":	"\xf3\xb1\xb2\x93", 	// U+F1C93
 		"DoorClosedLock":	"\xf3\xb1\x82\xaf", 	// U+F10AF
 		"DoorOpen":	"\xf3\xb0\xa0\x9c", 	// U+F081C
 		"DoorSliding":	"\xf3\xb1\xa0\x9e", 	// U+F181E
@@ -2534,7 +2554,10 @@ var IconsMaterialDesignIcons = Font{
 		"EarbudsOffOutline":	"\xf3\xb1\xa1\x91", 	// U+F1851
 		"EarbudsOutline":	"\xf3\xb1\xa1\x92", 	// U+F1852
 		"Earth":	"\xf3\xb0\x87\xa7", 	// U+F01E7
+		"EarthArrowDown":	"\xf3\xb1\xb2\x87", 	// U+F1C87
+		"EarthArrowLeft":	"\xf3\xb1\xb2\x88", 	// U+F1C88
 		"EarthArrowRight":	"\xf3\xb1\x8c\x91", 	// U+F1311
+		"EarthArrowUp":	"\xf3\xb1\xb2\x89", 	// U+F1C89
 		"EarthBox":	"\xf3\xb0\x9b\x8d", 	// U+F06CD
 		"EarthBoxMinus":	"\xf3\xb1\x90\x87", 	// U+F1407
 		"EarthBoxOff":	"\xf3\xb0\x9b\x8e", 	// U+F06CE
@@ -2638,11 +2661,17 @@ var IconsMaterialDesignIcons = Font{
 		"EmoticonKissOutline":	"\xf3\xb0\xb1\xb3", 	// U+F0C73
 		"EmoticonLol":	"\xf3\xb1\x88\x94", 	// U+F1214
 		"EmoticonLolOutline":	"\xf3\xb1\x88\x95", 	// U+F1215
+		"EmoticonMinus":	"\xf3\xb1\xb2\xb2", 	// U+F1CB2
+		"EmoticonMinusOutline":	"\xf3\xb1\xb2\xb3", 	// U+F1CB3
 		"EmoticonNeutral":	"\xf3\xb0\xb1\xb4", 	// U+F0C74
 		"EmoticonNeutralOutline":	"\xf3\xb0\x87\xb6", 	// U+F01F6
 		"EmoticonOutline":	"\xf3\xb0\x87\xb2", 	// U+F01F2
+		"EmoticonPlus":	"\xf3\xb1\xb2\xb4", 	// U+F1CB4
+		"EmoticonPlusOutline":	"\xf3\xb1\xb2\xb5", 	// U+F1CB5
 		"EmoticonPoop":	"\xf3\xb0\x87\xb7", 	// U+F01F7
 		"EmoticonPoopOutline":	"\xf3\xb0\xb1\xb5", 	// U+F0C75
+		"EmoticonRemove":	"\xf3\xb1\xb2\xb6", 	// U+F1CB6
+		"EmoticonRemoveOutline":	"\xf3\xb1\xb2\xb7", 	// U+F1CB7
 		"EmoticonSad":	"\xf3\xb0\xb1\xb6", 	// U+F0C76
 		"EmoticonSadOutline":	"\xf3\xb0\x87\xb8", 	// U+F01F8
 		"EmoticonSick":	"\xf3\xb1\x95\xbc", 	// U+F157C
@@ -2702,6 +2731,7 @@ var IconsMaterialDesignIcons = Font{
 		"EyeCheckOutline":	"\xf3\xb0\xb4\x85", 	// U+F0D05
 		"EyeCircle":	"\xf3\xb0\xae\x94", 	// U+F0B94
 		"EyeCircleOutline":	"\xf3\xb0\xae\x95", 	// U+F0B95
+		"EyeClosed":	"\xf3\xb1\xb2\xa3", 	// U+F1CA3
 		"EyeLock":	"\xf3\xb1\xb0\x86", 	// U+F1C06
 		"EyeLockOpen":	"\xf3\xb1\xb0\x87", 	// U+F1C07
 		"EyeLockOpenOutline":	"\xf3\xb1\xb0\x88", 	// U+F1C08
@@ -2981,6 +3011,7 @@ var IconsMaterialDesignIcons = Font{
 		"FireHydrantAlert":	"\xf3\xb1\x84\xb8", 	// U+F1138
 		"FireHydrantOff":	"\xf3\xb1\x84\xb9", 	// U+F1139
 		"FireOff":	"\xf3\xb1\x9c\xa2", 	// U+F1722
+		"FireStation":	"\xf3\xb1\xb3\x83", 	// U+F1CC3
 		"FireTruck":	"\xf3\xb0\xa2\xab", 	// U+F08AB
 		"Firebase":	"\xf3\xb0\xa5\xa7", 	// U+F0967
 		"Firefox":	"\xf3\xb0\x88\xb9", 	// U+F0239
@@ -3422,6 +3453,8 @@ var IconsMaterialDesignIcons = Font{
 		"GasBurner":	"\xf3\xb1\xa8\x9b", 	// U+F1A1B
 		"GasCylinder":	"\xf3\xb0\x99\x87", 	// U+F0647
 		"GasStation":	"\xf3\xb0\x8a\x98", 	// U+F0298
+		"GasStationInUse":	"\xf3\xb1\xb3\x84", 	// U+F1CC4
+		"GasStationInUseOutline":	"\xf3\xb1\xb3\x85", 	// U+F1CC5
 		"GasStationOff":	"\xf3\xb1\x90\x89", 	// U+F1409
 		"GasStationOffOutline":	"\xf3\xb1\x90\x8a", 	// U+F140A
 		"GasStationOutline":	"\xf3\xb0\xba\xb8", 	// U+F0EB8
@@ -3450,6 +3483,9 @@ var IconsMaterialDesignIcons = Font{
 		"GenderMaleFemaleVariant":	"\xf3\xb1\x84\xbf", 	// U+F113F
 		"GenderNonBinary":	"\xf3\xb1\x85\x80", 	// U+F1140
 		"GenderTransgender":	"\xf3\xb0\x8a\x9f", 	// U+F029F
+		"GeneratorMobile":	"\xf3\xb1\xb2\x8a", 	// U+F1C8A
+		"GeneratorPortable":	"\xf3\xb1\xb2\x8b", 	// U+F1C8B
+		"GeneratorStationary":	"\xf3\xb1\xb2\x8c", 	// U+F1C8C
 		"Gentoo":	"\xf3\xb0\xa3\xa8", 	// U+F08E8
 		"Gesture":	"\xf3\xb0\x9f\x8b", 	// U+F07CB
 		"GestureDoubleTap":	"\xf3\xb0\x9c\xbc", 	// U+F073C
@@ -3685,6 +3721,7 @@ var IconsMaterialDesignIcons = Font{
 		"HeartPulse":	"\xf3\xb0\x97\xb6", 	// U+F05F6
 		"HeartRemove":	"\xf3\xb1\x90\xb0", 	// U+F1430
 		"HeartRemoveOutline":	"\xf3\xb1\x90\xb3", 	// U+F1433
+		"HeartSearch":	"\xf3\xb1\xb2\x8d", 	// U+F1C8D
 		"HeartSettings":	"\xf3\xb1\x99\xa5", 	// U+F1665
 		"HeartSettingsOutline":	"\xf3\xb1\x99\xa6", 	// U+F1666
 		"HeatPump":	"\xf3\xb1\xa9\x83", 	// U+F1A43
@@ -3809,7 +3846,10 @@ var IconsMaterialDesignIcons = Font{
 		"HospitalBuilding":	"\xf3\xb0\x8b\xa1", 	// U+F02E1
 		"HospitalMarker":	"\xf3\xb0\x8b\xa2", 	// U+F02E2
 		"HotTub":	"\xf3\xb0\xa0\xa8", 	// U+F0828
+		"Hours12":	"\xf3\xb1\xb2\x94", 	// U+F1C94
 		"Hours24":	"\xf3\xb1\x91\xb8", 	// U+F1478
+		"Hub":	"\xf3\xb1\xb2\x95", 	// U+F1C95
+		"HubOutline":	"\xf3\xb1\xb2\x96", 	// U+F1C96
 		"Hubspot":	"\xf3\xb0\xb4\x97", 	// U+F0D17
 		"Hulu":	"\xf3\xb0\xa0\xa9", 	// U+F0829
 		"Human":	"\xf3\xb0\x8b\xa6", 	// U+F02E6
@@ -3824,6 +3864,7 @@ var IconsMaterialDesignIcons = Font{
 		"HumanFemaleBoy":	"\xf3\xb0\xa9\x99", 	// U+F0A59
 		"HumanFemaleDance":	"\xf3\xb1\x97\x89", 	// U+F15C9
 		"HumanFemaleFemale":	"\xf3\xb0\xa9\x9a", 	// U+F0A5A
+		"HumanFemaleFemaleChild":	"\xf3\xb1\xb2\x8e", 	// U+F1C8E
 		"HumanFemaleGirl":	"\xf3\xb0\xa9\x9b", 	// U+F0A5B
 		"HumanGreeting":	"\xf3\xb1\x9f\x84", 	// U+F17C4
 		"HumanGreetingProximity":	"\xf3\xb1\x96\x9d", 	// U+F159D
@@ -3841,6 +3882,7 @@ var IconsMaterialDesignIcons = Font{
 		"HumanMaleHeight":	"\xf3\xb0\xbb\xbb", 	// U+F0EFB
 		"HumanMaleHeightVariant":	"\xf3\xb0\xbb\xbc", 	// U+F0EFC
 		"HumanMaleMale":	"\xf3\xb0\xa9\x9e", 	// U+F0A5E
+		"HumanMaleMaleChild":	"\xf3\xb1\xb2\x8f", 	// U+F1C8F
 		"HumanNonBinary":	"\xf3\xb1\xa1\x88", 	// U+F1848
 		"HumanPregnant":	"\xf3\xb0\x97\x8f", 	// U+F05CF
 		"HumanQueue":	"\xf3\xb1\x95\xb1", 	// U+F1571
@@ -3964,6 +4006,7 @@ var IconsMaterialDesignIcons = Font{
 		"IronBoard":	"\xf3\xb1\xa0\xb8", 	// U+F1838
 		"IronOutline":	"\xf3\xb1\xa0\xa5", 	// U+F1825
 		"Island":	"\xf3\xb1\x81\x8f", 	// U+F104F
+		"IslandVariant":	"\xf3\xb1\xb3\x86", 	// U+F1CC6
 		"IvBag":	"\xf3\xb1\x82\xb9", 	// U+F10B9
 		"Jabber":	"\xf3\xb0\xb7\x95", 	// U+F0DD5
 		"Jeepney":	"\xf3\xb0\x8c\x82", 	// U+F0302
@@ -4204,6 +4247,9 @@ var IconsMaterialDesignIcons = Font{
 		"LinkBoxOutline":	"\xf3\xb0\xb4\x9b", 	// U+F0D1B
 		"LinkBoxVariant":	"\xf3\xb0\xb4\x9c", 	// U+F0D1C
 		"LinkBoxVariantOutline":	"\xf3\xb0\xb4\x9d", 	// U+F0D1D
+		"LinkCircle":	"\xf3\xb1\xb2\xac", 	// U+F1CAC
+		"LinkCircleOutline":	"\xf3\xb1\xb2\xad", 	// U+F1CAD
+		"LinkEdit":	"\xf3\xb1\xb2\xae", 	// U+F1CAE
 		"LinkLock":	"\xf3\xb1\x82\xba", 	// U+F10BA
 		"LinkOff":	"\xf3\xb0\x8c\xb8", 	// U+F0338
 		"LinkPlus":	"\xf3\xb0\xb2\x94", 	// U+F0C94
@@ -4378,9 +4424,11 @@ var IconsMaterialDesignIcons = Font{
 		"MedicationOutline":	"\xf3\xb1\xac\x95", 	// U+F1B15
 		"Meditation":	"\xf3\xb1\x85\xbb", 	// U+F117B
 		"Memory":	"\xf3\xb0\x8d\x9b", 	// U+F035B
+		"MemoryArrowDown":	"\xf3\xb1\xb2\xa6", 	// U+F1CA6
 		"Menorah":	"\xf3\xb1\x9f\x94", 	// U+F17D4
 		"MenorahFire":	"\xf3\xb1\x9f\x95", 	// U+F17D5
 		"Menu":	"\xf3\xb0\x8d\x9c", 	// U+F035C
+		"MenuClose":	"\xf3\xb1\xb2\x90", 	// U+F1C90
 		"MenuDown":	"\xf3\xb0\x8d\x9d", 	// U+F035D
 		"MenuDownOutline":	"\xf3\xb0\x9a\xb6", 	// U+F06B6
 		"MenuLeft":	"\xf3\xb0\x8d\x9e", 	// U+F035E
@@ -5030,7 +5078,13 @@ var IconsMaterialDesignIcons = Font{
 		"Parking":	"\xf3\xb0\x8f\xa3", 	// U+F03E3
 		"PartyPopper":	"\xf3\xb1\x81\x96", 	// U+F1056
 		"Passport":	"\xf3\xb0\x9f\xa3", 	// U+F07E3
+		"PassportAlert":	"\xf3\xb1\xb2\xb8", 	// U+F1CB8
 		"PassportBiometric":	"\xf3\xb0\xb7\xa1", 	// U+F0DE1
+		"PassportCancel":	"\xf3\xb1\xb2\xb9", 	// U+F1CB9
+		"PassportCheck":	"\xf3\xb1\xb2\xba", 	// U+F1CBA
+		"PassportMinus":	"\xf3\xb1\xb2\xbb", 	// U+F1CBB
+		"PassportPlus":	"\xf3\xb1\xb2\xbc", 	// U+F1CBC
+		"PassportRemove":	"\xf3\xb1\xb2\xbd", 	// U+F1CBD
 		"Pasta":	"\xf3\xb1\x85\xa0", 	// U+F1160
 		"PatioHeater":	"\xf3\xb0\xbe\x80", 	// U+F0F80
 		"Patreon":	"\xf3\xb0\xa2\x82", 	// U+F0882
@@ -5240,6 +5294,7 @@ var IconsMaterialDesignIcons = Font{
 		"PlusNetworkOutline":	"\xf3\xb0\xb2\xba", 	// U+F0CBA
 		"PlusOutline":	"\xf3\xb0\x9c\x85", 	// U+F0705
 		"PlusThick":	"\xf3\xb1\x87\xac", 	// U+F11EC
+		"Pocket":	"\xf3\xb1\xb2\xbe", 	// U+F1CBE
 		"Podcast":	"\xf3\xb0\xa6\x94", 	// U+F0994
 		"Podium":	"\xf3\xb0\xb4\xa5", 	// U+F0D25
 		"PodiumBronze":	"\xf3\xb0\xb4\xa6", 	// U+F0D26
@@ -5422,6 +5477,7 @@ var IconsMaterialDesignIcons = Font{
 		"QualityHigh":	"\xf3\xb0\x90\xb5", 	// U+F0435
 		"QualityLow":	"\xf3\xb0\xa8\x8c", 	// U+F0A0C
 		"QualityMedium":	"\xf3\xb0\xa8\x8d", 	// U+F0A0D
+		"QueueFirstInLastOut":	"\xf3\xb1\xb2\xaf", 	// U+F1CAF
 		"Quora":	"\xf3\xb0\xb4\xa9", 	// U+F0D29
 		"Rabbit":	"\xf3\xb0\xa4\x87", 	// U+F0907
 		"RabbitVariant":	"\xf3\xb1\xa9\xa1", 	// U+F1A61
@@ -5670,6 +5726,7 @@ var IconsMaterialDesignIcons = Font{
 		"RoundedCorner":	"\xf3\xb0\x98\x87", 	// U+F0607
 		"Router":	"\xf3\xb1\x87\xa2", 	// U+F11E2
 		"RouterNetwork":	"\xf3\xb1\x82\x87", 	// U+F1087
+		"RouterNetworkWireless":	"\xf3\xb1\xb2\x97", 	// U+F1C97
 		"RouterWireless":	"\xf3\xb0\x91\xa9", 	// U+F0469
 		"RouterWirelessOff":	"\xf3\xb1\x96\xa3", 	// U+F15A3
 		"RouterWirelessSettings":	"\xf3\xb0\xa9\xa9", 	// U+F0A69
@@ -5814,10 +5871,14 @@ var IconsMaterialDesignIcons = Font{
 		"SerialPort":	"\xf3\xb0\x99\x9c", 	// U+F065C
 		"Server":	"\xf3\xb0\x92\x8b", 	// U+F048B
 		"ServerMinus":	"\xf3\xb0\x92\x8c", 	// U+F048C
+		"ServerMinusOutline":	"\xf3\xb1\xb2\x98", 	// U+F1C98
 		"ServerNetwork":	"\xf3\xb0\x92\x8d", 	// U+F048D
 		"ServerNetworkOff":	"\xf3\xb0\x92\x8e", 	// U+F048E
+		"ServerNetworkOutline":	"\xf3\xb1\xb2\x99", 	// U+F1C99
 		"ServerOff":	"\xf3\xb0\x92\x8f", 	// U+F048F
+		"ServerOutline":	"\xf3\xb1\xb2\x9a", 	// U+F1C9A
 		"ServerPlus":	"\xf3\xb0\x92\x90", 	// U+F0490
+		"ServerPlusOutline":	"\xf3\xb1\xb2\x9b", 	// U+F1C9B
 		"ServerRemove":	"\xf3\xb0\x92\x91", 	// U+F0491
 		"ServerSecurity":	"\xf3\xb0\x92\x92", 	// U+F0492
 		"SetAll":	"\xf3\xb0\x9d\xb8", 	// U+F0778
@@ -6454,6 +6515,8 @@ var IconsMaterialDesignIcons = Font{
 		"TagArrowUpOutline":	"\xf3\xb1\x9c\xb2", 	// U+F1732
 		"TagCheck":	"\xf3\xb1\xa9\xba", 	// U+F1A7A
 		"TagCheckOutline":	"\xf3\xb1\xa9\xbb", 	// U+F1A7B
+		"TagEdit":	"\xf3\xb1\xb2\x9c", 	// U+F1C9C
+		"TagEditOutline":	"\xf3\xb1\xb2\x9d", 	// U+F1C9D
 		"TagFaces":	"\xf3\xb0\x93\xba", 	// U+F04FA
 		"TagHeart":	"\xf3\xb0\x9a\x8b", 	// U+F068B
 		"TagHeartOutline":	"\xf3\xb0\xaf\x8f", 	// U+F0BCF
@@ -6729,6 +6792,7 @@ var IconsMaterialDesignIcons = Font{
 		"TrafficLight":	"\xf3\xb0\x94\xab", 	// U+F052B
 		"TrafficLightOutline":	"\xf3\xb1\xa0\xaa", 	// U+F182A
 		"Train":	"\xf3\xb0\x94\xac", 	// U+F052C
+		"TrainBus":	"\xf3\xb1\xb3\x87", 	// U+F1CC7
 		"TrainCar":	"\xf3\xb0\xaf\x98", 	// U+F0BD8
 		"TrainCarAutorack":	"\xf3\xb1\xac\xad", 	// U+F1B2D
 		"TrainCarBox":	"\xf3\xb1\xac\xae", 	// U+F1B2E
@@ -6822,6 +6886,8 @@ var IconsMaterialDesignIcons = Font{
 		"TruckFlatbed":	"\xf3\xb1\xa2\x91", 	// U+F1891
 		"TruckMinus":	"\xf3\xb1\xa6\xae", 	// U+F19AE
 		"TruckMinusOutline":	"\xf3\xb1\xa6\xbd", 	// U+F19BD
+		"TruckOffRoad":	"\xf3\xb1\xb2\x9e", 	// U+F1C9E
+		"TruckOffRoadOff":	"\xf3\xb1\xb2\x9f", 	// U+F1C9F
 		"TruckOutline":	"\xf3\xb1\x8a\x9d", 	// U+F129D
 		"TruckPlus":	"\xf3\xb1\xa6\xad", 	// U+F19AD
 		"TruckPlusOutline":	"\xf3\xb1\xa6\xbc", 	// U+F19BC
@@ -6890,6 +6956,7 @@ var IconsMaterialDesignIcons = Font{
 		"UploadOffOutline":	"\xf3\xb1\x83\x87", 	// U+F10C7
 		"UploadOutline":	"\xf3\xb0\xb8\x87", 	// U+F0E07
 		"Usb":	"\xf3\xb0\x95\x93", 	// U+F0553
+		"UsbCPort":	"\xf3\xb1\xb2\xbf", 	// U+F1CBF
 		"UsbFlashDrive":	"\xf3\xb1\x8a\x9e", 	// U+F129E
 		"UsbFlashDriveOutline":	"\xf3\xb1\x8a\x9f", 	// U+F129F
 		"UsbPort":	"\xf3\xb1\x87\xb0", 	// U+F11F0
@@ -6974,6 +7041,7 @@ var IconsMaterialDesignIcons = Font{
 		"VideoPlus":	"\xf3\xb0\xa6\xb3", 	// U+F09B3
 		"VideoPlusOutline":	"\xf3\xb0\x87\x93", 	// U+F01D3
 		"VideoStabilization":	"\xf3\xb0\xa4\x9b", 	// U+F091B
+		"VideoStandardDefinition":	"\xf3\xb1\xb2\xa0", 	// U+F1CA0
 		"VideoSwitch":	"\xf3\xb0\x95\xa9", 	// U+F0569
 		"VideoSwitchOutline":	"\xf3\xb0\x9e\x90", 	// U+F0790
 		"VideoVintage":	"\xf3\xb0\xa8\x9c", 	// U+F0A1C
@@ -7124,6 +7192,9 @@ var IconsMaterialDesignIcons = Font{
 		"WateringCanOutline":	"\xf3\xb1\x92\x82", 	// U+F1482
 		"Watermark":	"\xf3\xb0\x98\x92", 	// U+F0612
 		"Wave":	"\xf3\xb0\xbc\xae", 	// U+F0F2E
+		"WaveArrowDown":	"\xf3\xb1\xb2\xb0", 	// U+F1CB0
+		"WaveArrowUp":	"\xf3\xb1\xb2\xb1", 	// U+F1CB1
+		"WaveUndercurrent":	"\xf3\xb1\xb3\x80", 	// U+F1CC0
 		"Waveform":	"\xf3\xb1\x91\xbd", 	// U+F147D
 		"Waves":	"\xf3\xb0\x9e\x8d", 	// U+F078D
 		"WavesArrowLeft":	"\xf3\xb1\xa1\x99", 	// U+F1859

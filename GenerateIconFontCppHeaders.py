@@ -651,11 +651,11 @@ class LanguageCSharp( Language ):
             icon_name += 'Icon'
 
         # "\u1234"
-        if len(icon_code) <= 4:
-            literal = '"\\u{code}"'.format(code = icon_code.rjust(4, '0'))
+        if len( icon_code ) <= 4:
+            literal = '"\\u{code}"'.format( code = icon_code.rjust( 4, '0' ))
         # "\U12345678"
         else:
-            literal = '"\\U{code}"'.format(code = icon_code.rjust(8, '0'))
+            literal = '"\\U{code}"'.format( code = icon_code.rjust( 8, '0' ))
         result = tmpl_line_icon.format( icon = icon_name, literal = literal )
         return result
 

@@ -907,7 +907,7 @@ namespace IconFonts
         public const string Gif_box = "\ue7a3";
         public const string Girl = "\ueb68";
         public const string Gite = "\ue58b";
-        public const string Goat = "\u10fffd";
+        public const string Goat = "\U0010fffd";
         public const string Golf_course = "\ueb45";
         public const string Gpp_bad = "\uf012";
         public const string Gpp_good = "\uf013";

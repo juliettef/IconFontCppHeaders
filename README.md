@@ -7,15 +7,15 @@ Support development of IconFontCppHeaders through [GitHub Sponsors](https://gith
 
 [https://github.com/juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders)
 
-C and C++ headers, C# and Python classes, Rust files and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design, Kenney game icons, Fontaudio, Codicons, Pictogrammers Material Design icons.
+C and C++ headers, C# and Python classes, Rust files and Go package for icon fonts Font Awesome, Fork Awesome, Google Material Design, Pictogrammers Material Design icons, Kenney game icons, Fontaudio, Codicons and Lucide.
 
 A set of header files and classes for using icon fonts in C, C++, C#, Python, Rust and Go, along with the python generator used to create the files.
 
-Each header contains defines for one font, with each icon code point defined as ICON_*, along with the min, max and max 16 bit code points for font loading purposes. The min excludes the ASCII characters code points. The max 16 bit is for use with libraries that only support 16 bit code points, for example Dear ImGui.
+Each header contains defines for one font, with each icon code point defined as `ICON_*`, along with the *min*, *max* and *max 16 bit* code points for font loading purposes. The min excludes the ASCII characters code points. The max 16 bit is for use with libraries that only support 16 bit code points, for example Dear ImGui.
 
 In addition the python script can be used to convert ttf font files to C and C++ headers. 
 Each ttf icon font file is converted to a C and C++ header file containing a single array of bytes. 
-To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2headerC = True'. 
+To enable conversion, run the `GenerateIconFontCppHeaders.py` script with `ttf2headerC = True`. 
 
 ## Icon Fonts
 
@@ -95,15 +95,15 @@ To enable conversion, run the GenerateIconFontCppHeaders.py script with 'ttf2hea
 #### Codepoints grouping
 Font Awesome 5 and 6 split the different styles of icons into different font files with identical codepoints for *light*, *regular* and *solid* styles, and a different set of codepoints for *brands*. We have put the brands into a separate header file.
 #### Generating Pro header files (Font Awesome 5)
-Download the Font Awesome Pro Web package from [fontawesome.com](https://fontawesome.com). To generate the headers, drop *icons.yml* in the same directory as *GenerateIconFontCppHeaders.py* before running the script. The file *icons.yml* is under *..\fontawesome-pro-n.n.n-web\metadata\icons.yml* where *n.n.n* is the version number.
+Download the Font Awesome Pro Web package from [fontawesome.com](https://fontawesome.com). To generate the headers, drop `icons.yml` in the same directory as `GenerateIconFontCppHeaders.py` before running the script. The file `icons.yml` is under `..\fontawesome-pro-n.n.n-web\metadata\icons.yml` where `n.n.n` is the version number.
 
 Icon files: 
 
-* ..\fontawesome-pro-n.n.n-web\metadata\icons.yml  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf  
-* ..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf
+* `..\fontawesome-pro-n.n.n-web\metadata\icons.yml`  
+* `..\fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf`  
+* `..\fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf`  
+* `..\fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf`  
+* `..\fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf`
 
 
 ## Example Code

@@ -1,5 +1,5 @@
-# Convert Font Awesome, Fork Awesome, Google Material Design, Pictogrammers Material Design Icons, Kenney Game, Fontaudio and Codicons
-# icon font parameters to C, C++, C#, Python, Rust and Go compatible formats.
+# Convert Font Awesome, Fork Awesome, Google Material Design, Pictogrammers Material Design Icons, Kenney Game, 
+# Fontaudio, Codicons and Lucide icon font parameters to C, C++, C#, Python, Rust and Go compatible formats.
 #
 #------------------------------------------------------------------------------
 #
@@ -54,6 +54,10 @@
 #   1.7 - Codicons
 #           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css
 #           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf
+#
+#   1.8 - Lucide
+#           https://unpkg.com/lucide-static@latest/font/lucide.css
+#           https://unpkg.com/lucide-static@latest/font/lucide.ttf
 #
 #
 #------------------------------------------------------------------------------

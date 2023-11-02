@@ -390,47 +390,6 @@ class FontMDI( Font ):               # Pictogrammers Material Design Icons
                                 'icons' : icons  })
         return icons_data
 
-class FontLucide( Font ):               # Lucide Icons
-    font_name = 'Lucide Icons'
-    font_abbr = 'Lucide'
-    font_data_prefix = '.icon-'
-    font_data = 'https://unpkg.com/lucide-static@latest/font/lucide.css'
-    ttfs = [[ font_abbr, 'lucide.ttf', 'https://unpkg.com/lucide-static@latest/font/lucide.ttf' ]]
-
-    @classmethod
-    def get_icons( cls, input_data ):
-        icons_data = {}
-        lines = str.split( input_data, '}\n' )
-        if lines:
-            font_min = '0x10ffff'
-            font_min_int = int( font_min, 16 )
-            font_max_16 = '0x0'   # 16 bit max
-            font_max_16_int = int( font_max_16, 16 )
-            font_max = '0x0'
-            font_max_int = int( font_max, 16 )
-            icons = []
-            for line in lines :
-                if cls.font_data_prefix in line and ':before' in line and 'content' in line:
-                    font_id = line.partition( cls.font_data_prefix )[ 2 ].partition( ':before' )[ 0 ]
-                    font_code = line.partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
-                    font_code_int = int( font_code, 16 )
-                    if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
-                        font_min = font_code
-                        font_min_int = font_code_int
-                    if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
-                        font_max_16 = font_code
-                        font_max_16_int = font_code_int
-                    if font_code_int > font_max_int:
-                        font_max = font_code
-                        font_max_int = font_code_int
-                    icons.append([ font_id, font_code ])
-            icons_data.update({ 'font_min' : font_min,
-                                'font_max_16' : font_max_16,
-                                'font_max' : font_max,
-                                'icons' : icons  })
-        return icons_data
-
-
 
 class FontKI( Font ):               # Kenney Game icons
     font_name = 'Kenney'
@@ -487,6 +446,14 @@ class FontCI( FontKI ):               # Codicons
     font_data_prefix = '.codicon-'
     font_data = 'https://raw.githubusercontent.com/microsoft/vscode-codicons/main/dist/codicon.css'
     ttfs = [[ font_abbr, 'codicon.ttf', 'https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf' ]]
+
+
+class FontLC( FontKI ):               # Lucide
+    font_name = 'Lucide'
+    font_abbr = 'LC'
+    font_data_prefix = '.icon-'
+    font_data = 'https://unpkg.com/lucide-static@latest/font/lucide.css'
+    ttfs = [[ font_abbr, 'lucide.ttf', 'https://unpkg.com/lucide-static@latest/font/lucide.ttf' ]]
 
 
 # Languages
@@ -847,7 +814,7 @@ class LanguageGo( Language ):
 # Main
 
 
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMDI, FontKI, FontFAD, FontCI, FontLucide ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

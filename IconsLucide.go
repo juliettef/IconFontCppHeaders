@@ -9,15 +9,15 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe559,
-	Max: 0xe559,
+	Max16: 0xe563,
+	Max: 0xe563,
 	Icons: map[string]string{
 		"Accessibility":	"\xee\x8a\x8c", 	// U+e28c
 		"ActivitySquare":	"\xee\x92\xb2", 	// U+e4b2
 		"Activity":	"\xee\x80\xb8", 	// U+e038
 		"AirVent":	"\xee\x8d\x86", 	// U+e346
 		"Airplay":	"\xee\x80\xb9", 	// U+e039
-		"AlarmCheck":	"\xee\x87\xa0", 	// U+e1e0
+		"AlarmClockCheck":	"\xee\x87\xa0", 	// U+e1e0
 		"AlarmClockOff":	"\xee\x88\xb0", 	// U+e230
 		"AlarmClock":	"\xee\x80\xba", 	// U+e03a
 		"AlarmMinus":	"\xee\x87\xa1", 	// U+e1e1
@@ -128,6 +128,8 @@ var IconsLucide = Font{
 		"Asterisk":	"\xee\x87\xa3", 	// U+e1e3
 		"AtSign":	"\xee\x81\x99", 	// U+e059
 		"Atom":	"\xee\x8f\x90", 	// U+e3d0
+		"AudioLines":	"\xee\x95\x9c", 	// U+e55c
+		"AudioWaveform":	"\xee\x95\x9d", 	// U+e55d
 		"Award":	"\xee\x81\x9a", 	// U+e05a
 		"Axe":	"\xee\x81\x9b", 	// U+e05b
 		"Axis3d":	"\xee\x8b\xb3", 	// U+e2f3
@@ -286,6 +288,7 @@ var IconsLucide = Font{
 		"CheckCheck":	"\xee\x8e\x87", 	// U+e387
 		"CheckCircle2":	"\xee\x88\x9b", 	// U+e21b
 		"CheckCircle":	"\xee\x81\xb5", 	// U+e075
+		"CheckSquare2":	"\xee\x95\x9a", 	// U+e55a
 		"CheckSquare":	"\xee\x81\xb6", 	// U+e076
 		"Check":	"\xee\x81\xb4", 	// U+e074
 		"ChefHat":	"\xee\x8a\xa1", 	// U+e2a1
@@ -325,6 +328,8 @@ var IconsLucide = Font{
 		"CircleOff":	"\xee\x8f\xbb", 	// U+e3fb
 		"CircleSlash2":	"\xee\x88\x88", 	// U+e208
 		"CircleSlash":	"\xee\x8f\xbc", 	// U+e3fc
+		"CircleUserRound":	"\xee\x91\xa0", 	// U+e460
+		"CircleUser":	"\xee\x91\x9f", 	// U+e45f
 		"Circle":	"\xee\x82\x80", 	// U+e080
 		"CircuitBoard":	"\xee\x8f\xbd", 	// U+e3fd
 		"Citrus":	"\xee\x8d\xae", 	// U+e36e
@@ -384,7 +389,7 @@ var IconsLucide = Font{
 		"ConciergeBell":	"\xee\x8d\xb1", 	// U+e371
 		"Cone":	"\xee\x94\xa5", 	// U+e525
 		"Construction":	"\xee\x8e\xad", 	// U+e3ad
-		"Contact2":	"\xee\x91\x9f", 	// U+e45f
+		"Contact2":	"\xee\x91\xa1", 	// U+e461
 		"Contact":	"\xee\x82\x95", 	// U+e095
 		"Container":	"\xee\x93\x97", 	// U+e4d7
 		"Contrast":	"\xee\x82\x96", 	// U+e096
@@ -434,6 +439,7 @@ var IconsLucide = Font{
 		"Diff":	"\xee\x8c\x81", 	// U+e301
 		"Disc2":	"\xee\x8f\xb0", 	// U+e3f0
 		"Disc3":	"\xee\x92\x92", 	// U+e492
+		"DiscAlbum":	"\xee\x95\x9e", 	// U+e55e
 		"Disc":	"\xee\x82\xa8", 	// U+e0a8
 		"DivideCircle":	"\xee\x82\xaa", 	// U+e0aa
 		"DivideSquare":	"\xee\x82\xab", 	// U+e0ab
@@ -453,6 +459,7 @@ var IconsLucide = Font{
 		"Dribbble":	"\xee\x82\xaf", 	// U+e0af
 		"Droplet":	"\xee\x82\xb0", 	// U+e0b0
 		"Droplets":	"\xee\x82\xb1", 	// U+e0b1
+		"Drum":	"\xee\x95\x9f", 	// U+e55f
 		"Drumstick":	"\xee\x89\x90", 	// U+e250
 		"Dumbbell":	"\xee\x8e\x9a", 	// U+e39a
 		"EarOff":	"\xee\x8d\xbc", 	// U+e37c
@@ -506,6 +513,7 @@ var IconsLucide = Font{
 		"FileLock":	"\xee\x8c\x95", 	// U+e315
 		"FileMinus2":	"\xee\x83\x81", 	// U+e0c1
 		"FileMinus":	"\xee\x83\x80", 	// U+e0c0
+		"FileMusic":	"\xee\x95\xa0", 	// U+e560
 		"FileOutput":	"\xee\x83\x82", 	// U+e0c2
 		"FilePieChart":	"\xee\x8c\x97", 	// U+e317
 		"FilePlus2":	"\xee\x83\x84", 	// U+e0c4
@@ -644,7 +652,8 @@ var IconsLucide = Font{
 		"GripHorizontal":	"\xee\x83\xa3", 	// U+e0e3
 		"GripVertical":	"\xee\x83\xa4", 	// U+e0e4
 		"Grip":	"\xee\x8e\xaa", 	// U+e3aa
-		"Group":	"\xee\x91\xa0", 	// U+e460
+		"Group":	"\xee\x91\xa2", 	// U+e462
+		"Guitar":	"\xee\x95\xa1", 	// U+e561
 		"Hammer":	"\xee\x83\xa5", 	// U+e0e5
 		"HandMetal":	"\xee\x88\xa1", 	// U+e221
 		"Hand":	"\xee\x87\x8b", 	// U+e1cb
@@ -703,6 +712,7 @@ var IconsLucide = Font{
 		"KeyRound":	"\xee\x92\xa1", 	// U+e4a1
 		"KeySquare":	"\xee\x92\xa2", 	// U+e4a2
 		"Key":	"\xee\x83\xb8", 	// U+e0f8
+		"KeyboardMusic":	"\xee\x95\xa2", 	// U+e562
 		"Keyboard":	"\xee\x89\xb9", 	// U+e279
 		"LampCeiling":	"\xee\x8b\x8e", 	// U+e2ce
 		"LampDesk":	"\xee\x8b\x8f", 	// U+e2cf
@@ -932,6 +942,7 @@ var IconsLucide = Font{
 		"Phone":	"\xee\x84\xb0", 	// U+e130
 		"PiSquare":	"\xee\x92\x86", 	// U+e486
 		"Pi":	"\xee\x91\xb0", 	// U+e470
+		"Piano":	"\xee\x95\xa3", 	// U+e563
 		"PictureInPicture2":	"\xee\x8e\xa8", 	// U+e3a8
 		"PictureInPicture":	"\xee\x8e\xa7", 	// U+e3a7
 		"PieChart":	"\xee\x84\xb7", 	// U+e137
@@ -1007,6 +1018,7 @@ var IconsLucide = Font{
 		"ReplyAll":	"\xee\x88\xa0", 	// U+e220
 		"Reply":	"\xee\x88\x9f", 	// U+e21f
 		"Rewind":	"\xee\x85\x88", 	// U+e148
+		"Ribbon":	"\xee\x95\x9b", 	// U+e55b
 		"Rocket":	"\xee\x89\xbb", 	// U+e27b
 		"RockingChair":	"\xee\x88\xa8", 	// U+e228
 		"RollerCoaster":	"\xee\x91\xbe", 	// U+e47e
@@ -1140,6 +1152,8 @@ var IconsLucide = Font{
 		"SquareEqual":	"\xee\x90\xa6", 	// U+e426
 		"SquareSlash":	"\xee\x90\xa7", 	// U+e427
 		"SquareStack":	"\xee\x92\xa0", 	// U+e4a0
+		"SquareUserRound":	"\xee\x91\xa4", 	// U+e464
+		"SquareUser":	"\xee\x91\xa3", 	// U+e463
 		"Square":	"\xee\x85\xa8", 	// U+e168
 		"Squirrel":	"\xee\x92\x9d", 	// U+e49d
 		"Stamp":	"\xee\x8e\xb4", 	// U+e3b4
@@ -1248,7 +1262,7 @@ var IconsLucide = Font{
 		"Undo":	"\xee\x86\x8a", 	// U+e18a
 		"UnfoldHorizontal":	"\xee\x90\xba", 	// U+e43a
 		"UnfoldVertical":	"\xee\x90\xbb", 	// U+e43b
-		"Ungroup":	"\xee\x91\xa1", 	// U+e461
+		"Ungroup":	"\xee\x91\xa5", 	// U+e465
 		"Unlink2":	"\xee\x86\x8c", 	// U+e18c
 		"Unlink":	"\xee\x86\x8b", 	// U+e18b
 		"UnlockKeyhole":	"\xee\x94\xb4", 	// U+e534
@@ -1257,23 +1271,19 @@ var IconsLucide = Font{
 		"UploadCloud":	"\xee\x86\x8f", 	// U+e18f
 		"Upload":	"\xee\x86\x8e", 	// U+e18e
 		"Usb":	"\xee\x8d\x8f", 	// U+e34f
-		"User2":	"\xee\x91\xa2", 	// U+e462
-		"UserCheck2":	"\xee\x91\xa3", 	// U+e463
 		"UserCheck":	"\xee\x86\x91", 	// U+e191
-		"UserCircle2":	"\xee\x91\xa5", 	// U+e465
-		"UserCircle":	"\xee\x91\xa4", 	// U+e464
-		"UserCog2":	"\xee\x91\xa6", 	// U+e466
 		"UserCog":	"\xee\x8c\xbb", 	// U+e33b
-		"UserMinus2":	"\xee\x91\xa7", 	// U+e467
 		"UserMinus":	"\xee\x86\x92", 	// U+e192
-		"UserPlus2":	"\xee\x91\xa8", 	// U+e468
 		"UserPlus":	"\xee\x86\x93", 	// U+e193
-		"UserSquare2":	"\xee\x91\xaa", 	// U+e46a
-		"UserSquare":	"\xee\x91\xa9", 	// U+e469
-		"UserX2":	"\xee\x91\xab", 	// U+e46b
+		"UserRoundCheck":	"\xee\x91\xa7", 	// U+e467
+		"UserRoundCog":	"\xee\x91\xa8", 	// U+e468
+		"UserRoundMinus":	"\xee\x91\xa9", 	// U+e469
+		"UserRoundPlus":	"\xee\x91\xaa", 	// U+e46a
+		"UserRoundX":	"\xee\x91\xab", 	// U+e46b
+		"UserRound":	"\xee\x91\xa6", 	// U+e466
 		"UserX":	"\xee\x86\x94", 	// U+e194
 		"User":	"\xee\x86\x90", 	// U+e190
-		"Users2":	"\xee\x91\xac", 	// U+e46c
+		"UsersRound":	"\xee\x91\xac", 	// U+e46c
 		"Users":	"\xee\x86\x95", 	// U+e195
 		"UtensilsCrossed":	"\xee\x8b\xac", 	// U+e2ec
 		"Utensils":	"\xee\x8b\xab", 	// U+e2eb

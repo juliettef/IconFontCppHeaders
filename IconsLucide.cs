@@ -10,14 +10,14 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe559;
-        public const int IconMax = 0xe559;
+        public const int IconMax16 = 0xe563;
+        public const int IconMax = 0xe563;
         public const string Accessibility = "\ue28c";
         public const string ActivitySquare = "\ue4b2";
         public const string Activity = "\ue038";
         public const string AirVent = "\ue346";
         public const string Airplay = "\ue039";
-        public const string AlarmCheck = "\ue1e0";
+        public const string AlarmClockCheck = "\ue1e0";
         public const string AlarmClockOff = "\ue230";
         public const string AlarmClock = "\ue03a";
         public const string AlarmMinus = "\ue1e1";
@@ -128,6 +128,8 @@ namespace IconFonts
         public const string Asterisk = "\ue1e3";
         public const string AtSign = "\ue059";
         public const string Atom = "\ue3d0";
+        public const string AudioLines = "\ue55c";
+        public const string AudioWaveform = "\ue55d";
         public const string Award = "\ue05a";
         public const string Axe = "\ue05b";
         public const string Axis3d = "\ue2f3";
@@ -286,6 +288,7 @@ namespace IconFonts
         public const string CheckCheck = "\ue387";
         public const string CheckCircle2 = "\ue21b";
         public const string CheckCircle = "\ue075";
+        public const string CheckSquare2 = "\ue55a";
         public const string CheckSquare = "\ue076";
         public const string Check = "\ue074";
         public const string ChefHat = "\ue2a1";
@@ -325,6 +328,8 @@ namespace IconFonts
         public const string CircleOff = "\ue3fb";
         public const string CircleSlash2 = "\ue208";
         public const string CircleSlash = "\ue3fc";
+        public const string CircleUserRound = "\ue460";
+        public const string CircleUser = "\ue45f";
         public const string Circle = "\ue080";
         public const string CircuitBoard = "\ue3fd";
         public const string Citrus = "\ue36e";
@@ -384,7 +389,7 @@ namespace IconFonts
         public const string ConciergeBell = "\ue371";
         public const string Cone = "\ue525";
         public const string Construction = "\ue3ad";
-        public const string Contact2 = "\ue45f";
+        public const string Contact2 = "\ue461";
         public const string Contact = "\ue095";
         public const string Container = "\ue4d7";
         public const string Contrast = "\ue096";
@@ -434,6 +439,7 @@ namespace IconFonts
         public const string Diff = "\ue301";
         public const string Disc2 = "\ue3f0";
         public const string Disc3 = "\ue492";
+        public const string DiscAlbum = "\ue55e";
         public const string Disc = "\ue0a8";
         public const string DivideCircle = "\ue0aa";
         public const string DivideSquare = "\ue0ab";
@@ -453,6 +459,7 @@ namespace IconFonts
         public const string Dribbble = "\ue0af";
         public const string Droplet = "\ue0b0";
         public const string Droplets = "\ue0b1";
+        public const string Drum = "\ue55f";
         public const string Drumstick = "\ue250";
         public const string Dumbbell = "\ue39a";
         public const string EarOff = "\ue37c";
@@ -506,6 +513,7 @@ namespace IconFonts
         public const string FileLock = "\ue315";
         public const string FileMinus2 = "\ue0c1";
         public const string FileMinus = "\ue0c0";
+        public const string FileMusic = "\ue560";
         public const string FileOutput = "\ue0c2";
         public const string FilePieChart = "\ue317";
         public const string FilePlus2 = "\ue0c4";
@@ -644,7 +652,8 @@ namespace IconFonts
         public const string GripHorizontal = "\ue0e3";
         public const string GripVertical = "\ue0e4";
         public const string Grip = "\ue3aa";
-        public const string Group = "\ue460";
+        public const string Group = "\ue462";
+        public const string Guitar = "\ue561";
         public const string Hammer = "\ue0e5";
         public const string HandMetal = "\ue221";
         public const string Hand = "\ue1cb";
@@ -703,6 +712,7 @@ namespace IconFonts
         public const string KeyRound = "\ue4a1";
         public const string KeySquare = "\ue4a2";
         public const string Key = "\ue0f8";
+        public const string KeyboardMusic = "\ue562";
         public const string Keyboard = "\ue279";
         public const string LampCeiling = "\ue2ce";
         public const string LampDesk = "\ue2cf";
@@ -932,6 +942,7 @@ namespace IconFonts
         public const string Phone = "\ue130";
         public const string PiSquare = "\ue486";
         public const string Pi = "\ue470";
+        public const string Piano = "\ue563";
         public const string PictureInPicture2 = "\ue3a8";
         public const string PictureInPicture = "\ue3a7";
         public const string PieChart = "\ue137";
@@ -1007,6 +1018,7 @@ namespace IconFonts
         public const string ReplyAll = "\ue220";
         public const string Reply = "\ue21f";
         public const string Rewind = "\ue148";
+        public const string Ribbon = "\ue55b";
         public const string Rocket = "\ue27b";
         public const string RockingChair = "\ue228";
         public const string RollerCoaster = "\ue47e";
@@ -1140,6 +1152,8 @@ namespace IconFonts
         public const string SquareEqual = "\ue426";
         public const string SquareSlash = "\ue427";
         public const string SquareStack = "\ue4a0";
+        public const string SquareUserRound = "\ue464";
+        public const string SquareUser = "\ue463";
         public const string Square = "\ue168";
         public const string Squirrel = "\ue49d";
         public const string Stamp = "\ue3b4";
@@ -1248,7 +1262,7 @@ namespace IconFonts
         public const string Undo = "\ue18a";
         public const string UnfoldHorizontal = "\ue43a";
         public const string UnfoldVertical = "\ue43b";
-        public const string Ungroup = "\ue461";
+        public const string Ungroup = "\ue465";
         public const string Unlink2 = "\ue18c";
         public const string Unlink = "\ue18b";
         public const string UnlockKeyhole = "\ue534";
@@ -1257,23 +1271,19 @@ namespace IconFonts
         public const string UploadCloud = "\ue18f";
         public const string Upload = "\ue18e";
         public const string Usb = "\ue34f";
-        public const string User2 = "\ue462";
-        public const string UserCheck2 = "\ue463";
         public const string UserCheck = "\ue191";
-        public const string UserCircle2 = "\ue465";
-        public const string UserCircle = "\ue464";
-        public const string UserCog2 = "\ue466";
         public const string UserCog = "\ue33b";
-        public const string UserMinus2 = "\ue467";
         public const string UserMinus = "\ue192";
-        public const string UserPlus2 = "\ue468";
         public const string UserPlus = "\ue193";
-        public const string UserSquare2 = "\ue46a";
-        public const string UserSquare = "\ue469";
-        public const string UserX2 = "\ue46b";
+        public const string UserRoundCheck = "\ue467";
+        public const string UserRoundCog = "\ue468";
+        public const string UserRoundMinus = "\ue469";
+        public const string UserRoundPlus = "\ue46a";
+        public const string UserRoundX = "\ue46b";
+        public const string UserRound = "\ue466";
         public const string UserX = "\ue194";
         public const string User = "\ue190";
-        public const string Users2 = "\ue46c";
+        public const string UsersRound = "\ue46c";
         public const string Users = "\ue195";
         public const string UtensilsCrossed = "\ue2ec";
         public const string Utensils = "\ue2eb";

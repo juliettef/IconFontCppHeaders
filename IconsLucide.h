@@ -6,14 +6,14 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe559
-#define ICON_MAX_LC 0xe559
+#define ICON_MAX_16_LC 0xe563
+#define ICON_MAX_LC 0xe563
 #define ICON_LC_ACCESSIBILITY "\xee\x8a\x8c"	// U+e28c
 #define ICON_LC_ACTIVITY_SQUARE "\xee\x92\xb2"	// U+e4b2
 #define ICON_LC_ACTIVITY "\xee\x80\xb8"	// U+e038
 #define ICON_LC_AIR_VENT "\xee\x8d\x86"	// U+e346
 #define ICON_LC_AIRPLAY "\xee\x80\xb9"	// U+e039
-#define ICON_LC_ALARM_CHECK "\xee\x87\xa0"	// U+e1e0
+#define ICON_LC_ALARM_CLOCK_CHECK "\xee\x87\xa0"	// U+e1e0
 #define ICON_LC_ALARM_CLOCK_OFF "\xee\x88\xb0"	// U+e230
 #define ICON_LC_ALARM_CLOCK "\xee\x80\xba"	// U+e03a
 #define ICON_LC_ALARM_MINUS "\xee\x87\xa1"	// U+e1e1
@@ -124,6 +124,8 @@
 #define ICON_LC_ASTERISK "\xee\x87\xa3"	// U+e1e3
 #define ICON_LC_AT_SIGN "\xee\x81\x99"	// U+e059
 #define ICON_LC_ATOM "\xee\x8f\x90"	// U+e3d0
+#define ICON_LC_AUDIO_LINES "\xee\x95\x9c"	// U+e55c
+#define ICON_LC_AUDIO_WAVEFORM "\xee\x95\x9d"	// U+e55d
 #define ICON_LC_AWARD "\xee\x81\x9a"	// U+e05a
 #define ICON_LC_AXE "\xee\x81\x9b"	// U+e05b
 #define ICON_LC_AXIS_3D "\xee\x8b\xb3"	// U+e2f3
@@ -282,6 +284,7 @@
 #define ICON_LC_CHECK_CHECK "\xee\x8e\x87"	// U+e387
 #define ICON_LC_CHECK_CIRCLE_2 "\xee\x88\x9b"	// U+e21b
 #define ICON_LC_CHECK_CIRCLE "\xee\x81\xb5"	// U+e075
+#define ICON_LC_CHECK_SQUARE_2 "\xee\x95\x9a"	// U+e55a
 #define ICON_LC_CHECK_SQUARE "\xee\x81\xb6"	// U+e076
 #define ICON_LC_CHECK "\xee\x81\xb4"	// U+e074
 #define ICON_LC_CHEF_HAT "\xee\x8a\xa1"	// U+e2a1
@@ -321,6 +324,8 @@
 #define ICON_LC_CIRCLE_OFF "\xee\x8f\xbb"	// U+e3fb
 #define ICON_LC_CIRCLE_SLASH_2 "\xee\x88\x88"	// U+e208
 #define ICON_LC_CIRCLE_SLASH "\xee\x8f\xbc"	// U+e3fc
+#define ICON_LC_CIRCLE_USER_ROUND "\xee\x91\xa0"	// U+e460
+#define ICON_LC_CIRCLE_USER "\xee\x91\x9f"	// U+e45f
 #define ICON_LC_CIRCLE "\xee\x82\x80"	// U+e080
 #define ICON_LC_CIRCUIT_BOARD "\xee\x8f\xbd"	// U+e3fd
 #define ICON_LC_CITRUS "\xee\x8d\xae"	// U+e36e
@@ -380,7 +385,7 @@
 #define ICON_LC_CONCIERGE_BELL "\xee\x8d\xb1"	// U+e371
 #define ICON_LC_CONE "\xee\x94\xa5"	// U+e525
 #define ICON_LC_CONSTRUCTION "\xee\x8e\xad"	// U+e3ad
-#define ICON_LC_CONTACT_2 "\xee\x91\x9f"	// U+e45f
+#define ICON_LC_CONTACT_2 "\xee\x91\xa1"	// U+e461
 #define ICON_LC_CONTACT "\xee\x82\x95"	// U+e095
 #define ICON_LC_CONTAINER "\xee\x93\x97"	// U+e4d7
 #define ICON_LC_CONTRAST "\xee\x82\x96"	// U+e096
@@ -430,6 +435,7 @@
 #define ICON_LC_DIFF "\xee\x8c\x81"	// U+e301
 #define ICON_LC_DISC_2 "\xee\x8f\xb0"	// U+e3f0
 #define ICON_LC_DISC_3 "\xee\x92\x92"	// U+e492
+#define ICON_LC_DISC_ALBUM "\xee\x95\x9e"	// U+e55e
 #define ICON_LC_DISC "\xee\x82\xa8"	// U+e0a8
 #define ICON_LC_DIVIDE_CIRCLE "\xee\x82\xaa"	// U+e0aa
 #define ICON_LC_DIVIDE_SQUARE "\xee\x82\xab"	// U+e0ab
@@ -449,6 +455,7 @@
 #define ICON_LC_DRIBBBLE "\xee\x82\xaf"	// U+e0af
 #define ICON_LC_DROPLET "\xee\x82\xb0"	// U+e0b0
 #define ICON_LC_DROPLETS "\xee\x82\xb1"	// U+e0b1
+#define ICON_LC_DRUM "\xee\x95\x9f"	// U+e55f
 #define ICON_LC_DRUMSTICK "\xee\x89\x90"	// U+e250
 #define ICON_LC_DUMBBELL "\xee\x8e\x9a"	// U+e39a
 #define ICON_LC_EAR_OFF "\xee\x8d\xbc"	// U+e37c
@@ -502,6 +509,7 @@
 #define ICON_LC_FILE_LOCK "\xee\x8c\x95"	// U+e315
 #define ICON_LC_FILE_MINUS_2 "\xee\x83\x81"	// U+e0c1
 #define ICON_LC_FILE_MINUS "\xee\x83\x80"	// U+e0c0
+#define ICON_LC_FILE_MUSIC "\xee\x95\xa0"	// U+e560
 #define ICON_LC_FILE_OUTPUT "\xee\x83\x82"	// U+e0c2
 #define ICON_LC_FILE_PIE_CHART "\xee\x8c\x97"	// U+e317
 #define ICON_LC_FILE_PLUS_2 "\xee\x83\x84"	// U+e0c4
@@ -640,7 +648,8 @@
 #define ICON_LC_GRIP_HORIZONTAL "\xee\x83\xa3"	// U+e0e3
 #define ICON_LC_GRIP_VERTICAL "\xee\x83\xa4"	// U+e0e4
 #define ICON_LC_GRIP "\xee\x8e\xaa"	// U+e3aa
-#define ICON_LC_GROUP "\xee\x91\xa0"	// U+e460
+#define ICON_LC_GROUP "\xee\x91\xa2"	// U+e462
+#define ICON_LC_GUITAR "\xee\x95\xa1"	// U+e561
 #define ICON_LC_HAMMER "\xee\x83\xa5"	// U+e0e5
 #define ICON_LC_HAND_METAL "\xee\x88\xa1"	// U+e221
 #define ICON_LC_HAND "\xee\x87\x8b"	// U+e1cb
@@ -699,6 +708,7 @@
 #define ICON_LC_KEY_ROUND "\xee\x92\xa1"	// U+e4a1
 #define ICON_LC_KEY_SQUARE "\xee\x92\xa2"	// U+e4a2
 #define ICON_LC_KEY "\xee\x83\xb8"	// U+e0f8
+#define ICON_LC_KEYBOARD_MUSIC "\xee\x95\xa2"	// U+e562
 #define ICON_LC_KEYBOARD "\xee\x89\xb9"	// U+e279
 #define ICON_LC_LAMP_CEILING "\xee\x8b\x8e"	// U+e2ce
 #define ICON_LC_LAMP_DESK "\xee\x8b\x8f"	// U+e2cf
@@ -928,6 +938,7 @@
 #define ICON_LC_PHONE "\xee\x84\xb0"	// U+e130
 #define ICON_LC_PI_SQUARE "\xee\x92\x86"	// U+e486
 #define ICON_LC_PI "\xee\x91\xb0"	// U+e470
+#define ICON_LC_PIANO "\xee\x95\xa3"	// U+e563
 #define ICON_LC_PICTURE_IN_PICTURE_2 "\xee\x8e\xa8"	// U+e3a8
 #define ICON_LC_PICTURE_IN_PICTURE "\xee\x8e\xa7"	// U+e3a7
 #define ICON_LC_PIE_CHART "\xee\x84\xb7"	// U+e137
@@ -1003,6 +1014,7 @@
 #define ICON_LC_REPLY_ALL "\xee\x88\xa0"	// U+e220
 #define ICON_LC_REPLY "\xee\x88\x9f"	// U+e21f
 #define ICON_LC_REWIND "\xee\x85\x88"	// U+e148
+#define ICON_LC_RIBBON "\xee\x95\x9b"	// U+e55b
 #define ICON_LC_ROCKET "\xee\x89\xbb"	// U+e27b
 #define ICON_LC_ROCKING_CHAIR "\xee\x88\xa8"	// U+e228
 #define ICON_LC_ROLLER_COASTER "\xee\x91\xbe"	// U+e47e
@@ -1136,6 +1148,8 @@
 #define ICON_LC_SQUARE_EQUAL "\xee\x90\xa6"	// U+e426
 #define ICON_LC_SQUARE_SLASH "\xee\x90\xa7"	// U+e427
 #define ICON_LC_SQUARE_STACK "\xee\x92\xa0"	// U+e4a0
+#define ICON_LC_SQUARE_USER_ROUND "\xee\x91\xa4"	// U+e464
+#define ICON_LC_SQUARE_USER "\xee\x91\xa3"	// U+e463
 #define ICON_LC_SQUARE "\xee\x85\xa8"	// U+e168
 #define ICON_LC_SQUIRREL "\xee\x92\x9d"	// U+e49d
 #define ICON_LC_STAMP "\xee\x8e\xb4"	// U+e3b4
@@ -1244,7 +1258,7 @@
 #define ICON_LC_UNDO "\xee\x86\x8a"	// U+e18a
 #define ICON_LC_UNFOLD_HORIZONTAL "\xee\x90\xba"	// U+e43a
 #define ICON_LC_UNFOLD_VERTICAL "\xee\x90\xbb"	// U+e43b
-#define ICON_LC_UNGROUP "\xee\x91\xa1"	// U+e461
+#define ICON_LC_UNGROUP "\xee\x91\xa5"	// U+e465
 #define ICON_LC_UNLINK_2 "\xee\x86\x8c"	// U+e18c
 #define ICON_LC_UNLINK "\xee\x86\x8b"	// U+e18b
 #define ICON_LC_UNLOCK_KEYHOLE "\xee\x94\xb4"	// U+e534
@@ -1253,23 +1267,19 @@
 #define ICON_LC_UPLOAD_CLOUD "\xee\x86\x8f"	// U+e18f
 #define ICON_LC_UPLOAD "\xee\x86\x8e"	// U+e18e
 #define ICON_LC_USB "\xee\x8d\x8f"	// U+e34f
-#define ICON_LC_USER_2 "\xee\x91\xa2"	// U+e462
-#define ICON_LC_USER_CHECK_2 "\xee\x91\xa3"	// U+e463
 #define ICON_LC_USER_CHECK "\xee\x86\x91"	// U+e191
-#define ICON_LC_USER_CIRCLE_2 "\xee\x91\xa5"	// U+e465
-#define ICON_LC_USER_CIRCLE "\xee\x91\xa4"	// U+e464
-#define ICON_LC_USER_COG_2 "\xee\x91\xa6"	// U+e466
 #define ICON_LC_USER_COG "\xee\x8c\xbb"	// U+e33b
-#define ICON_LC_USER_MINUS_2 "\xee\x91\xa7"	// U+e467
 #define ICON_LC_USER_MINUS "\xee\x86\x92"	// U+e192
-#define ICON_LC_USER_PLUS_2 "\xee\x91\xa8"	// U+e468
 #define ICON_LC_USER_PLUS "\xee\x86\x93"	// U+e193
-#define ICON_LC_USER_SQUARE_2 "\xee\x91\xaa"	// U+e46a
-#define ICON_LC_USER_SQUARE "\xee\x91\xa9"	// U+e469
-#define ICON_LC_USER_X_2 "\xee\x91\xab"	// U+e46b
+#define ICON_LC_USER_ROUND_CHECK "\xee\x91\xa7"	// U+e467
+#define ICON_LC_USER_ROUND_COG "\xee\x91\xa8"	// U+e468
+#define ICON_LC_USER_ROUND_MINUS "\xee\x91\xa9"	// U+e469
+#define ICON_LC_USER_ROUND_PLUS "\xee\x91\xaa"	// U+e46a
+#define ICON_LC_USER_ROUND_X "\xee\x91\xab"	// U+e46b
+#define ICON_LC_USER_ROUND "\xee\x91\xa6"	// U+e466
 #define ICON_LC_USER_X "\xee\x86\x94"	// U+e194
 #define ICON_LC_USER "\xee\x86\x90"	// U+e190
-#define ICON_LC_USERS_2 "\xee\x91\xac"	// U+e46c
+#define ICON_LC_USERS_ROUND "\xee\x91\xac"	// U+e46c
 #define ICON_LC_USERS "\xee\x86\x95"	// U+e195
 #define ICON_LC_UTENSILS_CROSSED "\xee\x8b\xac"	// U+e2ec
 #define ICON_LC_UTENSILS "\xee\x8b\xab"	// U+e2eb

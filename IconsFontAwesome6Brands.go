@@ -58,6 +58,8 @@ var IconsFontAwesome6Brands = Font{
 		"BluetoothB":	"\xef\x8a\x94", 	// U+f294
 		"Bootstrap":	"\xef\xa0\xb6", 	// U+f836
 		"Bots":	"\xee\x8d\x80", 	// U+e340
+		"Brave":	"\xee\x98\xbc", 	// U+e63c
+		"BraveReverse":	"\xee\x98\xbd", 	// U+e63d
 		"Btc":	"\xef\x85\x9a", 	// U+f15a
 		"Buffer":	"\xef\xa0\xb7", 	// U+f837
 		"Buromobelexperte":	"\xef\x8d\xbf", 	// U+f37f
@@ -195,6 +197,7 @@ var IconsFontAwesome6Brands = Font{
 		"GooglePlay":	"\xef\x8e\xab", 	// U+f3ab
 		"GooglePlus":	"\xef\x8a\xb3", 	// U+f2b3
 		"GooglePlusG":	"\xef\x83\x95", 	// U+f0d5
+		"GoogleScholar":	"\xee\x98\xbb", 	// U+e63b
 		"GoogleWallet":	"\xef\x87\xae", 	// U+f1ee
 		"Gratipay":	"\xef\x86\x84", 	// U+f184
 		"Grav":	"\xef\x8b\x96", 	// U+f2d6
@@ -243,6 +246,7 @@ var IconsFontAwesome6Brands = Font{
 		"Lastfm":	"\xef\x88\x82", 	// U+f202
 		"Leanpub":	"\xef\x88\x92", 	// U+f212
 		"Less":	"\xef\x90\x9d", 	// U+f41d
+		"Letterboxd":	"\xee\x98\xad", 	// U+e62d
 		"Line":	"\xef\x8f\x80", 	// U+f3c0
 		"Linkedin":	"\xef\x82\x8c", 	// U+f08c
 		"LinkedinIn":	"\xef\x83\xa1", 	// U+f0e1
@@ -265,6 +269,7 @@ var IconsFontAwesome6Brands = Font{
 		"Meta":	"\xee\x92\x9b", 	// U+e49b
 		"Microblog":	"\xee\x80\x9a", 	// U+e01a
 		"Microsoft":	"\xef\x8f\x8a", 	// U+f3ca
+		"Mintbit":	"\xee\x98\xaf", 	// U+e62f
 		"Mix":	"\xef\x8f\x8b", 	// U+f3cb
 		"Mixcloud":	"\xef\x8a\x89", 	// U+f289
 		"Mixer":	"\xee\x81\x96", 	// U+e056
@@ -287,6 +292,7 @@ var IconsFontAwesome6Brands = Font{
 		"OldRepublic":	"\xef\x94\x90", 	// U+f510
 		"Opencart":	"\xef\x88\xbd", 	// U+f23d
 		"Openid":	"\xef\x86\x9b", 	// U+f19b
+		"Opensuse":	"\xee\x98\xab", 	// U+e62b
 		"Opera":	"\xef\x89\xaa", 	// U+f26a
 		"OptinMonster":	"\xef\x88\xbc", 	// U+f23c
 		"Orcid":	"\xef\xa3\x92", 	// U+f8d2
@@ -310,6 +316,7 @@ var IconsFontAwesome6Brands = Font{
 		"Pinterest":	"\xef\x83\x92", 	// U+f0d2
 		"PinterestP":	"\xef\x88\xb1", 	// U+f231
 		"Pix":	"\xee\x90\xba", 	// U+e43a
+		"Pixiv":	"\xee\x99\x80", 	// U+e640
 		"Playstation":	"\xef\x8f\x9f", 	// U+f3df
 		"ProductHunt":	"\xef\x8a\x88", 	// U+f288
 		"Pushed":	"\xef\x8f\xa1", 	// U+f3e1
@@ -378,6 +385,7 @@ var IconsFontAwesome6Brands = Font{
 		"SquareInstagram":	"\xee\x81\x95", 	// U+e055
 		"SquareJs":	"\xef\x8e\xb9", 	// U+f3b9
 		"SquareLastfm":	"\xef\x88\x83", 	// U+f203
+		"SquareLetterboxd":	"\xee\x98\xae", 	// U+e62e
 		"SquareOdnoklassniki":	"\xef\x89\xa4", 	// U+f264
 		"SquarePiedPiper":	"\xee\x80\x9e", 	// U+e01e
 		"SquarePinterest":	"\xef\x83\x93", 	// U+f0d3
@@ -438,6 +446,7 @@ var IconsFontAwesome6Brands = Font{
 		"Unsplash":	"\xee\x81\xbc", 	// U+e07c
 		"Untappd":	"\xef\x90\x85", 	// U+f405
 		"Ups":	"\xef\x9f\xa0", 	// U+f7e0
+		"Upwork":	"\xee\x99\x81", 	// U+e641
 		"Usb":	"\xef\x8a\x87", 	// U+f287
 		"Usps":	"\xef\x9f\xa1", 	// U+f7e1
 		"Ussunnah":	"\xef\x90\x87", 	// U+f407

@@ -58,6 +58,8 @@ namespace IconFonts
         public const string BluetoothB = "\uf294";
         public const string Bootstrap = "\uf836";
         public const string Bots = "\ue340";
+        public const string Brave = "\ue63c";
+        public const string BraveReverse = "\ue63d";
         public const string Btc = "\uf15a";
         public const string Buffer = "\uf837";
         public const string Buromobelexperte = "\uf37f";
@@ -195,6 +197,7 @@ namespace IconFonts
         public const string GooglePlay = "\uf3ab";
         public const string GooglePlus = "\uf2b3";
         public const string GooglePlusG = "\uf0d5";
+        public const string GoogleScholar = "\ue63b";
         public const string GoogleWallet = "\uf1ee";
         public const string Gratipay = "\uf184";
         public const string Grav = "\uf2d6";
@@ -243,6 +246,7 @@ namespace IconFonts
         public const string Lastfm = "\uf202";
         public const string Leanpub = "\uf212";
         public const string Less = "\uf41d";
+        public const string Letterboxd = "\ue62d";
         public const string Line = "\uf3c0";
         public const string Linkedin = "\uf08c";
         public const string LinkedinIn = "\uf0e1";
@@ -265,6 +269,7 @@ namespace IconFonts
         public const string Meta = "\ue49b";
         public const string Microblog = "\ue01a";
         public const string Microsoft = "\uf3ca";
+        public const string Mintbit = "\ue62f";
         public const string Mix = "\uf3cb";
         public const string Mixcloud = "\uf289";
         public const string Mixer = "\ue056";
@@ -287,6 +292,7 @@ namespace IconFonts
         public const string OldRepublic = "\uf510";
         public const string Opencart = "\uf23d";
         public const string Openid = "\uf19b";
+        public const string Opensuse = "\ue62b";
         public const string Opera = "\uf26a";
         public const string OptinMonster = "\uf23c";
         public const string Orcid = "\uf8d2";
@@ -310,6 +316,7 @@ namespace IconFonts
         public const string Pinterest = "\uf0d2";
         public const string PinterestP = "\uf231";
         public const string Pix = "\ue43a";
+        public const string Pixiv = "\ue640";
         public const string Playstation = "\uf3df";
         public const string ProductHunt = "\uf288";
         public const string Pushed = "\uf3e1";
@@ -378,6 +385,7 @@ namespace IconFonts
         public const string SquareInstagram = "\ue055";
         public const string SquareJs = "\uf3b9";
         public const string SquareLastfm = "\uf203";
+        public const string SquareLetterboxd = "\ue62e";
         public const string SquareOdnoklassniki = "\uf264";
         public const string SquarePiedPiper = "\ue01e";
         public const string SquarePinterest = "\uf0d3";
@@ -438,6 +446,7 @@ namespace IconFonts
         public const string Unsplash = "\ue07c";
         public const string Untappd = "\uf405";
         public const string Ups = "\uf7e0";
+        public const string Upwork = "\ue641";
         public const string Usb = "\uf287";
         public const string Usps = "\uf7e1";
         public const string Ussunnah = "\uf407";

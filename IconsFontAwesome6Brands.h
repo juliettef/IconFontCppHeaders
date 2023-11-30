@@ -54,6 +54,8 @@
 #define ICON_FA_BLUETOOTH_B "\xef\x8a\x94"	// U+f294
 #define ICON_FA_BOOTSTRAP "\xef\xa0\xb6"	// U+f836
 #define ICON_FA_BOTS "\xee\x8d\x80"	// U+e340
+#define ICON_FA_BRAVE "\xee\x98\xbc"	// U+e63c
+#define ICON_FA_BRAVE_REVERSE "\xee\x98\xbd"	// U+e63d
 #define ICON_FA_BTC "\xef\x85\x9a"	// U+f15a
 #define ICON_FA_BUFFER "\xef\xa0\xb7"	// U+f837
 #define ICON_FA_BUROMOBELEXPERTE "\xef\x8d\xbf"	// U+f37f
@@ -191,6 +193,7 @@
 #define ICON_FA_GOOGLE_PLAY "\xef\x8e\xab"	// U+f3ab
 #define ICON_FA_GOOGLE_PLUS "\xef\x8a\xb3"	// U+f2b3
 #define ICON_FA_GOOGLE_PLUS_G "\xef\x83\x95"	// U+f0d5
+#define ICON_FA_GOOGLE_SCHOLAR "\xee\x98\xbb"	// U+e63b
 #define ICON_FA_GOOGLE_WALLET "\xef\x87\xae"	// U+f1ee
 #define ICON_FA_GRATIPAY "\xef\x86\x84"	// U+f184
 #define ICON_FA_GRAV "\xef\x8b\x96"	// U+f2d6
@@ -239,6 +242,7 @@
 #define ICON_FA_LASTFM "\xef\x88\x82"	// U+f202
 #define ICON_FA_LEANPUB "\xef\x88\x92"	// U+f212
 #define ICON_FA_LESS "\xef\x90\x9d"	// U+f41d
+#define ICON_FA_LETTERBOXD "\xee\x98\xad"	// U+e62d
 #define ICON_FA_LINE "\xef\x8f\x80"	// U+f3c0
 #define ICON_FA_LINKEDIN "\xef\x82\x8c"	// U+f08c
 #define ICON_FA_LINKEDIN_IN "\xef\x83\xa1"	// U+f0e1
@@ -261,6 +265,7 @@
 #define ICON_FA_META "\xee\x92\x9b"	// U+e49b
 #define ICON_FA_MICROBLOG "\xee\x80\x9a"	// U+e01a
 #define ICON_FA_MICROSOFT "\xef\x8f\x8a"	// U+f3ca
+#define ICON_FA_MINTBIT "\xee\x98\xaf"	// U+e62f
 #define ICON_FA_MIX "\xef\x8f\x8b"	// U+f3cb
 #define ICON_FA_MIXCLOUD "\xef\x8a\x89"	// U+f289
 #define ICON_FA_MIXER "\xee\x81\x96"	// U+e056
@@ -283,6 +288,7 @@
 #define ICON_FA_OLD_REPUBLIC "\xef\x94\x90"	// U+f510
 #define ICON_FA_OPENCART "\xef\x88\xbd"	// U+f23d
 #define ICON_FA_OPENID "\xef\x86\x9b"	// U+f19b
+#define ICON_FA_OPENSUSE "\xee\x98\xab"	// U+e62b
 #define ICON_FA_OPERA "\xef\x89\xaa"	// U+f26a
 #define ICON_FA_OPTIN_MONSTER "\xef\x88\xbc"	// U+f23c
 #define ICON_FA_ORCID "\xef\xa3\x92"	// U+f8d2
@@ -306,6 +312,7 @@
 #define ICON_FA_PINTEREST "\xef\x83\x92"	// U+f0d2
 #define ICON_FA_PINTEREST_P "\xef\x88\xb1"	// U+f231
 #define ICON_FA_PIX "\xee\x90\xba"	// U+e43a
+#define ICON_FA_PIXIV "\xee\x99\x80"	// U+e640
 #define ICON_FA_PLAYSTATION "\xef\x8f\x9f"	// U+f3df
 #define ICON_FA_PRODUCT_HUNT "\xef\x8a\x88"	// U+f288
 #define ICON_FA_PUSHED "\xef\x8f\xa1"	// U+f3e1
@@ -374,6 +381,7 @@
 #define ICON_FA_SQUARE_INSTAGRAM "\xee\x81\x95"	// U+e055
 #define ICON_FA_SQUARE_JS "\xef\x8e\xb9"	// U+f3b9
 #define ICON_FA_SQUARE_LASTFM "\xef\x88\x83"	// U+f203
+#define ICON_FA_SQUARE_LETTERBOXD "\xee\x98\xae"	// U+e62e
 #define ICON_FA_SQUARE_ODNOKLASSNIKI "\xef\x89\xa4"	// U+f264
 #define ICON_FA_SQUARE_PIED_PIPER "\xee\x80\x9e"	// U+e01e
 #define ICON_FA_SQUARE_PINTEREST "\xef\x83\x93"	// U+f0d3
@@ -434,6 +442,7 @@
 #define ICON_FA_UNSPLASH "\xee\x81\xbc"	// U+e07c
 #define ICON_FA_UNTAPPD "\xef\x90\x85"	// U+f405
 #define ICON_FA_UPS "\xef\x9f\xa0"	// U+f7e0
+#define ICON_FA_UPWORK "\xee\x99\x81"	// U+e641
 #define ICON_FA_USB "\xef\x8a\x87"	// U+f287
 #define ICON_FA_USPS "\xef\x9f\xa1"	// U+f7e1
 #define ICON_FA_USSUNNAH "\xef\x90\x87"	// U+f407

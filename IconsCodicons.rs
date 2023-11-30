@@ -4,8 +4,8 @@
 pub const FONT_ICON_FILE_NAME_CI: &str = "codicon.ttf";
 
 pub const ICON_MIN: char = '\u{ea60}';
-pub const ICON_MAX_16: char = '\u{ec1e}';
-pub const ICON_MAX: char = '\u{ec1e}';
+pub const ICON_MAX_16: char = '\u{ec23}';
+pub const ICON_MAX: char = '\u{ec23}';
 pub const ICON_ADD: char = '\u{ea60}';
 pub const ICON_PLUS: char = '\u{ea60}';
 pub const ICON_GIST_NEW: char = '\u{ea60}';
@@ -546,3 +546,8 @@ pub const ICON_MUSIC: char = '\u{ec1b}';
 pub const ICON_MIC_FILLED: char = '\u{ec1c}';
 pub const ICON_GIT_FETCH: char = '\u{ec1d}';
 pub const ICON_COPILOT: char = '\u{ec1e}';
+pub const ICON_LIGHTBULB_SPARKLE: char = '\u{ec1f}';
+pub const ICON_ROBOT: char = '\u{ec20}';
+pub const ICON_SPARKLE_FILLED: char = '\u{ec21}';
+pub const ICON_DIFF_SINGLE: char = '\u{ec22}';
+pub const ICON_DIFF_MULTIPLE: char = '\u{ec23}';

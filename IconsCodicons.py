@@ -5,8 +5,8 @@ class IconsCodicons:
     FONT_ICON_FILE_NAME_CI = 'codicon.ttf'
 
     ICON_MIN = 0xea60
-    ICON_MAX_16 = 0xec1e
-    ICON_MAX = 0xec1e
+    ICON_MAX_16 = 0xec23
+    ICON_MAX = 0xec23
     ICON_ADD = '\uea60'
     ICON_PLUS = '\uea60'
     ICON_GIST_NEW = '\uea60'
@@ -547,3 +547,8 @@ class IconsCodicons:
     ICON_MIC_FILLED = '\uec1c'
     ICON_GIT_FETCH = '\uec1d'
     ICON_COPILOT = '\uec1e'
+    ICON_LIGHTBULB_SPARKLE = '\uec1f'
+    ICON_ROBOT = '\uec20'
+    ICON_SPARKLE_FILLED = '\uec21'
+    ICON_DIFF_SINGLE = '\uec22'
+    ICON_DIFF_MULTIPLE = '\uec23'

@@ -9,8 +9,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xec1e,
-	Max: 0xec1e,
+	Max16: 0xec23,
+	Max: 0xec23,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -552,5 +552,10 @@ var IconsCodicons = Font{
 		"MicFilled":	"\xee\xb0\x9c", 	// U+ec1c
 		"GitFetch":	"\xee\xb0\x9d", 	// U+ec1d
 		"Copilot":	"\xee\xb0\x9e", 	// U+ec1e
+		"LightbulbSparkle":	"\xee\xb0\x9f", 	// U+ec1f
+		"Robot":	"\xee\xb0\xa0", 	// U+ec20
+		"SparkleFilled":	"\xee\xb0\xa1", 	// U+ec21
+		"DiffSingle":	"\xee\xb0\xa2", 	// U+ec22
+		"DiffMultiple":	"\xee\xb0\xa3", 	// U+ec23
 	},
 }

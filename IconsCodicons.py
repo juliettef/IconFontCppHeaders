@@ -5,8 +5,8 @@ class IconsCodicons:
     FONT_ICON_FILE_NAME_CI = 'codicon.ttf'
 
     ICON_MIN = 0xea60
-    ICON_MAX_16 = 0xec23
-    ICON_MAX = 0xec23
+    ICON_MAX_16 = 0xec25
+    ICON_MAX = 0xec25
     ICON_ADD = '\uea60'
     ICON_PLUS = '\uea60'
     ICON_GIST_NEW = '\uea60'
@@ -215,6 +215,7 @@ class IconsCodicons:
     ICON_DIFF_REMOVED = '\ueadf'
     ICON_DIFF_RENAMED = '\ueae0'
     ICON_DIFF = '\ueae1'
+    ICON_DIFF_SIDEBYSIDE = '\ueae1'
     ICON_DISCARD = '\ueae2'
     ICON_EDITOR_LAYOUT = '\ueae3'
     ICON_EMPTY_WINDOW = '\ueae4'
@@ -552,3 +553,5 @@ class IconsCodicons:
     ICON_SPARKLE_FILLED = '\uec21'
     ICON_DIFF_SINGLE = '\uec22'
     ICON_DIFF_MULTIPLE = '\uec23'
+    ICON_SURROUND_WITH = '\uec24'
+    ICON_SHARE = '\uec25'

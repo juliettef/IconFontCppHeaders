@@ -4,8 +4,8 @@
 pub const FONT_ICON_FILE_NAME_CI: &str = "codicon.ttf";
 
 pub const ICON_MIN: char = '\u{ea60}';
-pub const ICON_MAX_16: char = '\u{ec23}';
-pub const ICON_MAX: char = '\u{ec23}';
+pub const ICON_MAX_16: char = '\u{ec25}';
+pub const ICON_MAX: char = '\u{ec25}';
 pub const ICON_ADD: char = '\u{ea60}';
 pub const ICON_PLUS: char = '\u{ea60}';
 pub const ICON_GIST_NEW: char = '\u{ea60}';
@@ -214,6 +214,7 @@ pub const ICON_DIFF_MODIFIED: char = '\u{eade}';
 pub const ICON_DIFF_REMOVED: char = '\u{eadf}';
 pub const ICON_DIFF_RENAMED: char = '\u{eae0}';
 pub const ICON_DIFF: char = '\u{eae1}';
+pub const ICON_DIFF_SIDEBYSIDE: char = '\u{eae1}';
 pub const ICON_DISCARD: char = '\u{eae2}';
 pub const ICON_EDITOR_LAYOUT: char = '\u{eae3}';
 pub const ICON_EMPTY_WINDOW: char = '\u{eae4}';
@@ -551,3 +552,5 @@ pub const ICON_ROBOT: char = '\u{ec20}';
 pub const ICON_SPARKLE_FILLED: char = '\u{ec21}';
 pub const ICON_DIFF_SINGLE: char = '\u{ec22}';
 pub const ICON_DIFF_MULTIPLE: char = '\u{ec23}';
+pub const ICON_SURROUND_WITH: char = '\u{ec24}';
+pub const ICON_SHARE: char = '\u{ec25}';

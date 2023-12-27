@@ -9,8 +9,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xec23,
-	Max: 0xec23,
+	Max16: 0xec25,
+	Max: 0xec25,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -220,6 +220,7 @@ var IconsCodicons = Font{
 		"DiffRemoved":	"\xee\xab\x9f", 	// U+eadf
 		"DiffRenamed":	"\xee\xab\xa0", 	// U+eae0
 		"Diff":	"\xee\xab\xa1", 	// U+eae1
+		"DiffSidebyside":	"\xee\xab\xa1", 	// U+eae1
 		"Discard":	"\xee\xab\xa2", 	// U+eae2
 		"EditorLayout":	"\xee\xab\xa3", 	// U+eae3
 		"EmptyWindow":	"\xee\xab\xa4", 	// U+eae4
@@ -557,5 +558,7 @@ var IconsCodicons = Font{
 		"SparkleFilled":	"\xee\xb0\xa1", 	// U+ec21
 		"DiffSingle":	"\xee\xb0\xa2", 	// U+ec22
 		"DiffMultiple":	"\xee\xb0\xa3", 	// U+ec23
+		"SurroundWith":	"\xee\xb0\xa4", 	// U+ec24
+		"Share":	"\xee\xb0\xa5", 	// U+ec25
 	},
 }

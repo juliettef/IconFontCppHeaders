@@ -6,8 +6,8 @@
 #define FONT_ICON_FILE_NAME_CI "codicon.ttf"
 
 #define ICON_MIN_CI 0xea60
-#define ICON_MAX_16_CI 0xec23
-#define ICON_MAX_CI 0xec23
+#define ICON_MAX_16_CI 0xec25
+#define ICON_MAX_CI 0xec25
 #define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_GIST_NEW "\xee\xa9\xa0"	// U+ea60
@@ -216,6 +216,7 @@
 #define ICON_CI_DIFF_REMOVED "\xee\xab\x9f"	// U+eadf
 #define ICON_CI_DIFF_RENAMED "\xee\xab\xa0"	// U+eae0
 #define ICON_CI_DIFF "\xee\xab\xa1"	// U+eae1
+#define ICON_CI_DIFF_SIDEBYSIDE "\xee\xab\xa1"	// U+eae1
 #define ICON_CI_DISCARD "\xee\xab\xa2"	// U+eae2
 #define ICON_CI_EDITOR_LAYOUT "\xee\xab\xa3"	// U+eae3
 #define ICON_CI_EMPTY_WINDOW "\xee\xab\xa4"	// U+eae4
@@ -553,3 +554,5 @@
 #define ICON_CI_SPARKLE_FILLED "\xee\xb0\xa1"	// U+ec21
 #define ICON_CI_DIFF_SINGLE "\xee\xb0\xa2"	// U+ec22
 #define ICON_CI_DIFF_MULTIPLE "\xee\xb0\xa3"	// U+ec23
+#define ICON_CI_SURROUND_WITH "\xee\xb0\xa4"	// U+ec24
+#define ICON_CI_SHARE "\xee\xb0\xa5"	// U+ec25

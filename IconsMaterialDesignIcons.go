@@ -10,7 +10,7 @@ var IconsMaterialDesignIcons = Font{
 	},
 	Min: 0xF68C,
 	Max16: 0xF68C,
-	Max: 0xF1CC7,
+	Max: 0xF1D17,
 	Icons: map[string]string{
 		"AbTesting":	"\xf3\xb0\x87\x89", 	// U+F01C9
 		"Abacus":	"\xf3\xb1\x9b\xa0", 	// U+F16E0
@@ -40,9 +40,12 @@ var IconsMaterialDesignIcons = Font{
 		"AccountBadge":	"\xf3\xb1\xac\x8a", 	// U+F1B0A
 		"AccountBadgeOutline":	"\xf3\xb1\xac\x8b", 	// U+F1B0B
 		"AccountBox":	"\xf3\xb0\x80\x86", 	// U+F0006
+		"AccountBoxEditOutline":	"\xf3\xb1\xb3\x88", 	// U+F1CC8
+		"AccountBoxMinusOutline":	"\xf3\xb1\xb3\x89", 	// U+F1CC9
 		"AccountBoxMultiple":	"\xf3\xb0\xa4\xb4", 	// U+F0934
 		"AccountBoxMultipleOutline":	"\xf3\xb1\x80\x8a", 	// U+F100A
 		"AccountBoxOutline":	"\xf3\xb0\x80\x87", 	// U+F0007
+		"AccountBoxPlusOutline":	"\xf3\xb1\xb3\x8a", 	// U+F1CCA
 		"AccountCancel":	"\xf3\xb1\x8b\x9f", 	// U+F12DF
 		"AccountCancelOutline":	"\xf3\xb1\x8b\xa0", 	// U+F12E0
 		"AccountCard":	"\xf3\xb1\xae\xa4", 	// U+F1BA4
@@ -1044,10 +1047,12 @@ var IconsMaterialDesignIcons = Font{
 		"BookOffOutline":	"\xf3\xb1\x9a\x95", 	// U+F1695
 		"BookOpen":	"\xf3\xb0\x82\xbd", 	// U+F00BD
 		"BookOpenBlankVariant":	"\xf3\xb0\x82\xbe", 	// U+F00BE
+		"BookOpenBlankVariantOutline":	"\xf3\xb1\xb3\x8b", 	// U+F1CCB
 		"BookOpenOutline":	"\xf3\xb0\xad\xa3", 	// U+F0B63
 		"BookOpenPageVariant":	"\xf3\xb0\x97\x9a", 	// U+F05DA
 		"BookOpenPageVariantOutline":	"\xf3\xb1\x97\x96", 	// U+F15D6
 		"BookOpenVariant":	"\xf3\xb1\x93\xb7", 	// U+F14F7
+		"BookOpenVariantOutline":	"\xf3\xb1\xb3\x8c", 	// U+F1CCC
 		"BookOutline":	"\xf3\xb0\xad\xa4", 	// U+F0B64
 		"BookPlay":	"\xf3\xb0\xba\x82", 	// U+F0E82
 		"BookPlayOutline":	"\xf3\xb0\xba\x83", 	// U+F0E83
@@ -1614,6 +1619,8 @@ var IconsMaterialDesignIcons = Font{
 		"ChartBellCurve":	"\xf3\xb0\xb1\x90", 	// U+F0C50
 		"ChartBellCurveCumulative":	"\xf3\xb0\xbe\xa7", 	// U+F0FA7
 		"ChartBox":	"\xf3\xb1\x95\x8d", 	// U+F154D
+		"ChartBoxMultiple":	"\xf3\xb1\xb3\x8d", 	// U+F1CCD
+		"ChartBoxMultipleOutline":	"\xf3\xb1\xb3\x8e", 	// U+F1CCE
 		"ChartBoxOutline":	"\xf3\xb1\x95\x8e", 	// U+F154E
 		"ChartBoxPlusOutline":	"\xf3\xb1\x95\x8f", 	// U+F154F
 		"ChartBubble":	"\xf3\xb0\x97\xa3", 	// U+F05E3
@@ -2411,6 +2418,7 @@ var IconsMaterialDesignIcons = Font{
 		"Diamond":	"\xf3\xb0\xae\x8a", 	// U+F0B8A
 		"DiamondOutline":	"\xf3\xb0\xae\x8b", 	// U+F0B8B
 		"DiamondStone":	"\xf3\xb0\x87\x88", 	// U+F01C8
+		"DiaperOutline":	"\xf3\xb1\xb3\x8f", 	// U+F1CCF
 		"Dice1":	"\xf3\xb0\x87\x8a", 	// U+F01CA
 		"Dice1Outline":	"\xf3\xb1\x85\x8a", 	// U+F114A
 		"Dice2":	"\xf3\xb0\x87\x8b", 	// U+F01CB
@@ -2522,6 +2530,7 @@ var IconsMaterialDesignIcons = Font{
 		"DownloadLock":	"\xf3\xb1\x8c\xa0", 	// U+F1320
 		"DownloadLockOutline":	"\xf3\xb1\x8c\xa1", 	// U+F1321
 		"DownloadMultiple":	"\xf3\xb0\xa7\xa9", 	// U+F09E9
+		"DownloadMultipleOutline":	"\xf3\xb1\xb3\x90", 	// U+F1CD0
 		"DownloadNetwork":	"\xf3\xb0\x9b\xb4", 	// U+F06F4
 		"DownloadNetworkOutline":	"\xf3\xb0\xb1\xa6", 	// U+F0C66
 		"DownloadOff":	"\xf3\xb1\x82\xb0", 	// U+F10B0
@@ -2701,6 +2710,7 @@ var IconsMaterialDesignIcons = Font{
 		"Ethernet":	"\xf3\xb0\x88\x80", 	// U+F0200
 		"EthernetCable":	"\xf3\xb0\x88\x81", 	// U+F0201
 		"EthernetCableOff":	"\xf3\xb0\x88\x82", 	// U+F0202
+		"EthernetOff":	"\xf3\xb1\xb3\x91", 	// U+F1CD1
 		"EvPlugCcs1":	"\xf3\xb1\x94\x99", 	// U+F1519
 		"EvPlugCcs2":	"\xf3\xb1\x94\x9a", 	// U+F151A
 		"EvPlugChademo":	"\xf3\xb1\x94\x9b", 	// U+F151B
@@ -3996,6 +4006,59 @@ var IconsMaterialDesignIcons = Font{
 		"IntegratedCircuitChip":	"\xf3\xb1\xa4\x93", 	// U+F1913
 		"InvertColors":	"\xf3\xb0\x8c\x81", 	// U+F0301
 		"InvertColorsOff":	"\xf3\xb0\xb9\x8a", 	// U+F0E4A
+		"Invoice":	"\xf3\xb1\xb3\x92", 	// U+F1CD2
+		"InvoiceArrowLeft":	"\xf3\xb1\xb3\x93", 	// U+F1CD3
+		"InvoiceArrowLeftOutline":	"\xf3\xb1\xb3\x94", 	// U+F1CD4
+		"InvoiceArrowRight":	"\xf3\xb1\xb3\x95", 	// U+F1CD5
+		"InvoiceArrowRightOutline":	"\xf3\xb1\xb3\x96", 	// U+F1CD6
+		"InvoiceCheck":	"\xf3\xb1\xb3\x97", 	// U+F1CD7
+		"InvoiceCheckOutline":	"\xf3\xb1\xb3\x98", 	// U+F1CD8
+		"InvoiceClock":	"\xf3\xb1\xb3\x99", 	// U+F1CD9
+		"InvoiceClockOutline":	"\xf3\xb1\xb3\x9a", 	// U+F1CDA
+		"InvoiceEdit":	"\xf3\xb1\xb3\x9b", 	// U+F1CDB
+		"InvoiceEditOutline":	"\xf3\xb1\xb3\x9c", 	// U+F1CDC
+		"InvoiceExportOutline":	"\xf3\xb1\xb3\x9d", 	// U+F1CDD
+		"InvoiceFast":	"\xf3\xb1\xb3\x9e", 	// U+F1CDE
+		"InvoiceFastOutline":	"\xf3\xb1\xb3\x9f", 	// U+F1CDF
+		"InvoiceImport":	"\xf3\xb1\xb3\xa0", 	// U+F1CE0
+		"InvoiceImportOutline":	"\xf3\xb1\xb3\xa1", 	// U+F1CE1
+		"InvoiceList":	"\xf3\xb1\xb3\xa2", 	// U+F1CE2
+		"InvoiceListOutline":	"\xf3\xb1\xb3\xa3", 	// U+F1CE3
+		"InvoiceMinus":	"\xf3\xb1\xb3\xa4", 	// U+F1CE4
+		"InvoiceMinusOutline":	"\xf3\xb1\xb3\xa5", 	// U+F1CE5
+		"InvoiceMultiple":	"\xf3\xb1\xb3\xa6", 	// U+F1CE6
+		"InvoiceMultipleOutline":	"\xf3\xb1\xb3\xa7", 	// U+F1CE7
+		"InvoiceOutline":	"\xf3\xb1\xb3\xa8", 	// U+F1CE8
+		"InvoicePlus":	"\xf3\xb1\xb3\xa9", 	// U+F1CE9
+		"InvoicePlusOutline":	"\xf3\xb1\xb3\xaa", 	// U+F1CEA
+		"InvoiceRemove":	"\xf3\xb1\xb3\xab", 	// U+F1CEB
+		"InvoiceRemoveOutline":	"\xf3\xb1\xb3\xac", 	// U+F1CEC
+		"InvoiceSend":	"\xf3\xb1\xb3\xad", 	// U+F1CED
+		"InvoiceSendOutline":	"\xf3\xb1\xb3\xae", 	// U+F1CEE
+		"InvoiceText":	"\xf3\xb1\xb3\xaf", 	// U+F1CEF
+		"InvoiceTextArrowLeft":	"\xf3\xb1\xb3\xb0", 	// U+F1CF0
+		"InvoiceTextArrowLeftOutline":	"\xf3\xb1\xb3\xb1", 	// U+F1CF1
+		"InvoiceTextArrowRight":	"\xf3\xb1\xb3\xb2", 	// U+F1CF2
+		"InvoiceTextArrowRightOutline":	"\xf3\xb1\xb3\xb3", 	// U+F1CF3
+		"InvoiceTextCheck":	"\xf3\xb1\xb3\xb4", 	// U+F1CF4
+		"InvoiceTextCheckOutline":	"\xf3\xb1\xb3\xb5", 	// U+F1CF5
+		"InvoiceTextClock":	"\xf3\xb1\xb3\xb6", 	// U+F1CF6
+		"InvoiceTextClockOutline":	"\xf3\xb1\xb3\xb7", 	// U+F1CF7
+		"InvoiceTextEdit":	"\xf3\xb1\xb3\xb8", 	// U+F1CF8
+		"InvoiceTextEditOutline":	"\xf3\xb1\xb3\xb9", 	// U+F1CF9
+		"InvoiceTextFast":	"\xf3\xb1\xb3\xba", 	// U+F1CFA
+		"InvoiceTextFastOutline":	"\xf3\xb1\xb3\xbb", 	// U+F1CFB
+		"InvoiceTextMinus":	"\xf3\xb1\xb3\xbc", 	// U+F1CFC
+		"InvoiceTextMinusOutline":	"\xf3\xb1\xb3\xbd", 	// U+F1CFD
+		"InvoiceTextMultiple":	"\xf3\xb1\xb3\xbe", 	// U+F1CFE
+		"InvoiceTextMultipleOutline":	"\xf3\xb1\xb3\xbf", 	// U+F1CFF
+		"InvoiceTextOutline":	"\xf3\xb1\xb4\x80", 	// U+F1D00
+		"InvoiceTextPlus":	"\xf3\xb1\xb4\x81", 	// U+F1D01
+		"InvoiceTextPlusOutline":	"\xf3\xb1\xb4\x82", 	// U+F1D02
+		"InvoiceTextRemove":	"\xf3\xb1\xb4\x83", 	// U+F1D03
+		"InvoiceTextRemoveOutline":	"\xf3\xb1\xb4\x84", 	// U+F1D04
+		"InvoiceTextSend":	"\xf3\xb1\xb4\x85", 	// U+F1D05
+		"InvoiceTextSendOutline":	"\xf3\xb1\xb4\x86", 	// U+F1D06
 		"Iobroker":	"\xf3\xb1\x8b\xa8", 	// U+F12E8
 		"Ip":	"\xf3\xb0\xa9\x9f", 	// U+F0A5F
 		"IpNetwork":	"\xf3\xb0\xa9\xa0", 	// U+F0A60
@@ -4633,10 +4696,16 @@ var IconsMaterialDesignIcons = Font{
 		"MotorbikeOff":	"\xf3\xb1\xac\x96", 	// U+F1B16
 		"Mouse":	"\xf3\xb0\x8d\xbd", 	// U+F037D
 		"MouseBluetooth":	"\xf3\xb0\xa6\x8b", 	// U+F098B
+		"MouseLeftClick":	"\xf3\xb1\xb4\x87", 	// U+F1D07
+		"MouseLeftClickOutline":	"\xf3\xb1\xb4\x88", 	// U+F1D08
 		"MouseMoveDown":	"\xf3\xb1\x95\x90", 	// U+F1550
 		"MouseMoveUp":	"\xf3\xb1\x95\x91", 	// U+F1551
 		"MouseMoveVertical":	"\xf3\xb1\x95\x92", 	// U+F1552
 		"MouseOff":	"\xf3\xb0\x8d\xbe", 	// U+F037E
+		"MouseOutline":	"\xf3\xb1\xb4\x89", 	// U+F1D09
+		"MouseRightClick":	"\xf3\xb1\xb4\x8a", 	// U+F1D0A
+		"MouseRightClickOutline":	"\xf3\xb1\xb4\x8b", 	// U+F1D0B
+		"MouseScrollWheel":	"\xf3\xb1\xb4\x8c", 	// U+F1D0C
 		"MouseVariant":	"\xf3\xb0\x8d\xbf", 	// U+F037F
 		"MouseVariantOff":	"\xf3\xb0\x8e\x80", 	// U+F0380
 		"MoveResize":	"\xf3\xb0\x99\x95", 	// U+F0655
@@ -5424,6 +5493,7 @@ var IconsMaterialDesignIcons = Font{
 		"ProgressQuestion":	"\xf3\xb1\x94\xa2", 	// U+F1522
 		"ProgressStar":	"\xf3\xb1\x9e\x88", 	// U+F1788
 		"ProgressStarFourPoints":	"\xf3\xb1\xb0\xbd", 	// U+F1C3D
+		"ProgressTag":	"\xf3\xb1\xb4\x8d", 	// U+F1D0D
 		"ProgressUpload":	"\xf3\xb0\xa6\x98", 	// U+F0998
 		"ProgressWrench":	"\xf3\xb0\xb2\xbd", 	// U+F0CBD
 		"Projector":	"\xf3\xb0\x90\xae", 	// U+F042E
@@ -6418,6 +6488,7 @@ var IconsMaterialDesignIcons = Font{
 		"SwapHorizontalBold":	"\xf3\xb0\xaf\x8d", 	// U+F0BCD
 		"SwapHorizontalCircle":	"\xf3\xb0\xbf\xa1", 	// U+F0FE1
 		"SwapHorizontalCircleOutline":	"\xf3\xb0\xbf\xa2", 	// U+F0FE2
+		"SwapHorizontalHidden":	"\xf3\xb1\xb4\x8e", 	// U+F1D0E
 		"SwapHorizontalVariant":	"\xf3\xb0\xa3\x81", 	// U+F08C1
 		"SwapVertical":	"\xf3\xb0\x93\xa2", 	// U+F04E2
 		"SwapVerticalBold":	"\xf3\xb0\xaf\x8e", 	// U+F0BCE
@@ -6932,6 +7003,7 @@ var IconsMaterialDesignIcons = Font{
 		"UmbrellaClosedOutline":	"\xf3\xb1\x8f\xa2", 	// U+F13E2
 		"UmbrellaClosedVariant":	"\xf3\xb1\x8f\xa1", 	// U+F13E1
 		"UmbrellaOutline":	"\xf3\xb0\x95\x8b", 	// U+F054B
+		"UnderwearOutline":	"\xf3\xb1\xb4\x8f", 	// U+F1D0F
 		"Undo":	"\xf3\xb0\x95\x8c", 	// U+F054C
 		"UndoVariant":	"\xf3\xb0\x95\x8d", 	// U+F054D
 		"UnfoldLessHorizontal":	"\xf3\xb0\x95\x8e", 	// U+F054E
@@ -6947,9 +7019,14 @@ var IconsMaterialDesignIcons = Font{
 		"Unreal":	"\xf3\xb0\xa6\xb1", 	// U+F09B1
 		"Update":	"\xf3\xb0\x9a\xb0", 	// U+F06B0
 		"Upload":	"\xf3\xb0\x95\x92", 	// U+F0552
+		"UploadBox":	"\xf3\xb1\xb4\x90", 	// U+F1D10
+		"UploadBoxOutline":	"\xf3\xb1\xb4\x91", 	// U+F1D11
+		"UploadCircle":	"\xf3\xb1\xb4\x92", 	// U+F1D12
+		"UploadCircleOutline":	"\xf3\xb1\xb4\x93", 	// U+F1D13
 		"UploadLock":	"\xf3\xb1\x8d\xb3", 	// U+F1373
 		"UploadLockOutline":	"\xf3\xb1\x8d\xb4", 	// U+F1374
 		"UploadMultiple":	"\xf3\xb0\xa0\xbd", 	// U+F083D
+		"UploadMultipleOutline":	"\xf3\xb1\xb4\x94", 	// U+F1D14
 		"UploadNetwork":	"\xf3\xb0\x9b\xb6", 	// U+F06F6
 		"UploadNetworkOutline":	"\xf3\xb0\xb3\x98", 	// U+F0CD8
 		"UploadOff":	"\xf3\xb1\x83\x86", 	// U+F10C6
@@ -7213,6 +7290,9 @@ var IconsMaterialDesignIcons = Font{
 		"WeatherHurricaneOutline":	"\xf3\xb1\xb1\xb8", 	// U+F1C78
 		"WeatherLightning":	"\xf3\xb0\x96\x93", 	// U+F0593
 		"WeatherLightningRainy":	"\xf3\xb0\x99\xbe", 	// U+F067E
+		"WeatherMoonset":	"\xf3\xb1\xb4\x95", 	// U+F1D15
+		"WeatherMoonsetDown":	"\xf3\xb1\xb4\x96", 	// U+F1D16
+		"WeatherMoonsetUp":	"\xf3\xb1\xb4\x97", 	// U+F1D17
 		"WeatherNight":	"\xf3\xb0\x96\x94", 	// U+F0594
 		"WeatherNightPartlyCloudy":	"\xf3\xb0\xbc\xb1", 	// U+F0F31
 		"WeatherPartlyCloudy":	"\xf3\xb0\x96\x95", 	// U+F0595

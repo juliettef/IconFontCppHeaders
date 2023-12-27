@@ -354,8 +354,10 @@ namespace IconFonts
         public const string Sellsy = "\uf213";
         public const string Servicestack = "\uf3ec";
         public const string Shirtsinbulk = "\uf214";
+        public const string Shoelace = "\ue60c";
         public const string Shopify = "\ue057";
         public const string Shopware = "\uf5b5";
+        public const string SignalMessenger = "\ue663";
         public const string Simplybuilt = "\uf215";
         public const string Sistrix = "\uf3ee";
         public const string Sith = "\uf512";
@@ -462,6 +464,7 @@ namespace IconFonts
         public const string Vuejs = "\uf41f";
         public const string WatchmanMonitoring = "\ue087";
         public const string Waze = "\uf83f";
+        public const string Webflow = "\ue65c";
         public const string Weebly = "\uf5cc";
         public const string Weibo = "\uf18a";
         public const string Weixin = "\uf1d7";

@@ -350,8 +350,10 @@
 #define ICON_FA_SELLSY "\xef\x88\x93"	// U+f213
 #define ICON_FA_SERVICESTACK "\xef\x8f\xac"	// U+f3ec
 #define ICON_FA_SHIRTSINBULK "\xef\x88\x94"	// U+f214
+#define ICON_FA_SHOELACE "\xee\x98\x8c"	// U+e60c
 #define ICON_FA_SHOPIFY "\xee\x81\x97"	// U+e057
 #define ICON_FA_SHOPWARE "\xef\x96\xb5"	// U+f5b5
+#define ICON_FA_SIGNAL_MESSENGER "\xee\x99\xa3"	// U+e663
 #define ICON_FA_SIMPLYBUILT "\xef\x88\x95"	// U+f215
 #define ICON_FA_SISTRIX "\xef\x8f\xae"	// U+f3ee
 #define ICON_FA_SITH "\xef\x94\x92"	// U+f512
@@ -458,6 +460,7 @@
 #define ICON_FA_VUEJS "\xef\x90\x9f"	// U+f41f
 #define ICON_FA_WATCHMAN_MONITORING "\xee\x82\x87"	// U+e087
 #define ICON_FA_WAZE "\xef\xa0\xbf"	// U+f83f
+#define ICON_FA_WEBFLOW "\xee\x99\x9c"	// U+e65c
 #define ICON_FA_WEEBLY "\xef\x97\x8c"	// U+f5cc
 #define ICON_FA_WEIBO "\xef\x86\x8a"	// U+f18a
 #define ICON_FA_WEIXIN "\xef\x87\x97"	// U+f1d7

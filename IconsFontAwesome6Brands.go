@@ -354,8 +354,10 @@ var IconsFontAwesome6Brands = Font{
 		"Sellsy":	"\xef\x88\x93", 	// U+f213
 		"Servicestack":	"\xef\x8f\xac", 	// U+f3ec
 		"Shirtsinbulk":	"\xef\x88\x94", 	// U+f214
+		"Shoelace":	"\xee\x98\x8c", 	// U+e60c
 		"Shopify":	"\xee\x81\x97", 	// U+e057
 		"Shopware":	"\xef\x96\xb5", 	// U+f5b5
+		"SignalMessenger":	"\xee\x99\xa3", 	// U+e663
 		"Simplybuilt":	"\xef\x88\x95", 	// U+f215
 		"Sistrix":	"\xef\x8f\xae", 	// U+f3ee
 		"Sith":	"\xef\x94\x92", 	// U+f512
@@ -462,6 +464,7 @@ var IconsFontAwesome6Brands = Font{
 		"Vuejs":	"\xef\x90\x9f", 	// U+f41f
 		"WatchmanMonitoring":	"\xee\x82\x87", 	// U+e087
 		"Waze":	"\xef\xa0\xbf", 	// U+f83f
+		"Webflow":	"\xee\x99\x9c", 	// U+e65c
 		"Weebly":	"\xef\x97\x8c", 	// U+f5cc
 		"Weibo":	"\xef\x86\x8a", 	// U+f18a
 		"Weixin":	"\xef\x87\x97", 	// U+f1d7

@@ -9,8 +9,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xec25,
-	Max: 0xec25,
+	Max16: 0xf101,
+	Max: 0xf101,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -551,7 +551,7 @@ var IconsCodicons = Font{
 		"Piano":	"\xee\xb0\x9a", 	// U+ec1a
 		"Music":	"\xee\xb0\x9b", 	// U+ec1b
 		"MicFilled":	"\xee\xb0\x9c", 	// U+ec1c
-		"GitFetch":	"\xee\xb0\x9d", 	// U+ec1d
+		"RepoFetch":	"\xee\xb0\x9d", 	// U+ec1d
 		"Copilot":	"\xee\xb0\x9e", 	// U+ec1e
 		"LightbulbSparkle":	"\xee\xb0\x9f", 	// U+ec1f
 		"Robot":	"\xee\xb0\xa0", 	// U+ec20
@@ -560,5 +560,15 @@ var IconsCodicons = Font{
 		"DiffMultiple":	"\xee\xb0\xa3", 	// U+ec23
 		"SurroundWith":	"\xee\xb0\xa4", 	// U+ec24
 		"Share":	"\xee\xb0\xa5", 	// U+ec25
+		"GitStash":	"\xee\xb0\xa6", 	// U+ec26
+		"GitStashApply":	"\xee\xb0\xa7", 	// U+ec27
+		"GitStashPop":	"\xee\xb0\xa8", 	// U+ec28
+		"Vscode":	"\xee\xb0\xa9", 	// U+ec29
+		"VscodeInsiders":	"\xee\xb0\xaa", 	// U+ec2a
+		"CodeOss":	"\xee\xb0\xab", 	// U+ec2b
+		"RunCoverage":	"\xee\xb0\xac", 	// U+ec2c
+		"RunAllCoverage":	"\xee\xb0\xad", 	// U+ec2d
+		"Coverage":	"\xee\xb0\xae", 	// U+ec2e
+		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

@@ -5,8 +5,8 @@ class IconsCodicons:
     FONT_ICON_FILE_NAME_CI = 'codicon.ttf'
 
     ICON_MIN = 0xea60
-    ICON_MAX_16 = 0xec25
-    ICON_MAX = 0xec25
+    ICON_MAX_16 = 0xf101
+    ICON_MAX = 0xf101
     ICON_ADD = '\uea60'
     ICON_PLUS = '\uea60'
     ICON_GIST_NEW = '\uea60'
@@ -546,7 +546,7 @@ class IconsCodicons:
     ICON_PIANO = '\uec1a'
     ICON_MUSIC = '\uec1b'
     ICON_MIC_FILLED = '\uec1c'
-    ICON_GIT_FETCH = '\uec1d'
+    ICON_REPO_FETCH = '\uec1d'
     ICON_COPILOT = '\uec1e'
     ICON_LIGHTBULB_SPARKLE = '\uec1f'
     ICON_ROBOT = '\uec20'
@@ -555,3 +555,13 @@ class IconsCodicons:
     ICON_DIFF_MULTIPLE = '\uec23'
     ICON_SURROUND_WITH = '\uec24'
     ICON_SHARE = '\uec25'
+    ICON_GIT_STASH = '\uec26'
+    ICON_GIT_STASH_APPLY = '\uec27'
+    ICON_GIT_STASH_POP = '\uec28'
+    ICON_VSCODE = '\uec29'
+    ICON_VSCODE_INSIDERS = '\uec2a'
+    ICON_CODE_OSS = '\uec2b'
+    ICON_RUN_COVERAGE = '\uec2c'
+    ICON_RUN_ALL_COVERAGE = '\uec2d'
+    ICON_COVERAGE = '\uec2e'
+    ICON_GIT_FETCH = '\uf101'

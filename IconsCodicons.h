@@ -6,8 +6,8 @@
 #define FONT_ICON_FILE_NAME_CI "codicon.ttf"
 
 #define ICON_MIN_CI 0xea60
-#define ICON_MAX_16_CI 0xec25
-#define ICON_MAX_CI 0xec25
+#define ICON_MAX_16_CI 0xf101
+#define ICON_MAX_CI 0xf101
 #define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_GIST_NEW "\xee\xa9\xa0"	// U+ea60
@@ -547,7 +547,7 @@
 #define ICON_CI_PIANO "\xee\xb0\x9a"	// U+ec1a
 #define ICON_CI_MUSIC "\xee\xb0\x9b"	// U+ec1b
 #define ICON_CI_MIC_FILLED "\xee\xb0\x9c"	// U+ec1c
-#define ICON_CI_GIT_FETCH "\xee\xb0\x9d"	// U+ec1d
+#define ICON_CI_REPO_FETCH "\xee\xb0\x9d"	// U+ec1d
 #define ICON_CI_COPILOT "\xee\xb0\x9e"	// U+ec1e
 #define ICON_CI_LIGHTBULB_SPARKLE "\xee\xb0\x9f"	// U+ec1f
 #define ICON_CI_ROBOT "\xee\xb0\xa0"	// U+ec20
@@ -556,3 +556,13 @@
 #define ICON_CI_DIFF_MULTIPLE "\xee\xb0\xa3"	// U+ec23
 #define ICON_CI_SURROUND_WITH "\xee\xb0\xa4"	// U+ec24
 #define ICON_CI_SHARE "\xee\xb0\xa5"	// U+ec25
+#define ICON_CI_GIT_STASH "\xee\xb0\xa6"	// U+ec26
+#define ICON_CI_GIT_STASH_APPLY "\xee\xb0\xa7"	// U+ec27
+#define ICON_CI_GIT_STASH_POP "\xee\xb0\xa8"	// U+ec28
+#define ICON_CI_VSCODE "\xee\xb0\xa9"	// U+ec29
+#define ICON_CI_VSCODE_INSIDERS "\xee\xb0\xaa"	// U+ec2a
+#define ICON_CI_CODE_OSS "\xee\xb0\xab"	// U+ec2b
+#define ICON_CI_RUN_COVERAGE "\xee\xb0\xac"	// U+ec2c
+#define ICON_CI_RUN_ALL_COVERAGE "\xee\xb0\xad"	// U+ec2d
+#define ICON_CI_COVERAGE "\xee\xb0\xae"	// U+ec2e
+#define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

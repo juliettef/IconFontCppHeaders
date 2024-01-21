@@ -10,8 +10,8 @@ namespace IconFonts
         public const string FontIconFileNameCI = "codicon.ttf";
 
         public const int IconMin = 0xea60;
-        public const int IconMax16 = 0xec25;
-        public const int IconMax = 0xec25;
+        public const int IconMax16 = 0xf101;
+        public const int IconMax = 0xf101;
         public const string Add = "\uea60";
         public const string Plus = "\uea60";
         public const string GistNew = "\uea60";
@@ -551,7 +551,7 @@ namespace IconFonts
         public const string Piano = "\uec1a";
         public const string Music = "\uec1b";
         public const string MicFilled = "\uec1c";
-        public const string GitFetch = "\uec1d";
+        public const string RepoFetch = "\uec1d";
         public const string Copilot = "\uec1e";
         public const string LightbulbSparkle = "\uec1f";
         public const string Robot = "\uec20";
@@ -560,5 +560,15 @@ namespace IconFonts
         public const string DiffMultiple = "\uec23";
         public const string SurroundWith = "\uec24";
         public const string Share = "\uec25";
+        public const string GitStash = "\uec26";
+        public const string GitStashApply = "\uec27";
+        public const string GitStashPop = "\uec28";
+        public const string Vscode = "\uec29";
+        public const string VscodeInsiders = "\uec2a";
+        public const string CodeOss = "\uec2b";
+        public const string RunCoverage = "\uec2c";
+        public const string RunAllCoverage = "\uec2d";
+        public const string Coverage = "\uec2e";
+        public const string GitFetch = "\uf101";
     }
 }

@@ -6,8 +6,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe5b0
-#define ICON_MAX_LC 0xe5b0
+#define ICON_MAX_16_LC 0xe5be
+#define ICON_MAX_LC 0xe5be
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x89"	// U+e589
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8a"	// U+e58a
 #define ICON_LC_A_LARGE_SMALL "\xee\x96\x8b"	// U+e58b
@@ -272,9 +272,12 @@
 #define ICON_LC_CALENDAR_CHECK "\xee\x8a\xae"	// U+e2ae
 #define ICON_LC_CALENDAR_CLOCK "\xee\x8b\xbb"	// U+e2fb
 #define ICON_LC_CALENDAR_DAYS "\xee\x8a\xb0"	// U+e2b0
+#define ICON_LC_CALENDAR_FOLD "\xee\x96\xb8"	// U+e5b8
 #define ICON_LC_CALENDAR_HEART "\xee\x8b\xbc"	// U+e2fc
+#define ICON_LC_CALENDAR_MINUS_2 "\xee\x96\xb9"	// U+e5b9
 #define ICON_LC_CALENDAR_MINUS "\xee\x8a\xb1"	// U+e2b1
 #define ICON_LC_CALENDAR_OFF "\xee\x8a\xb2"	// U+e2b2
+#define ICON_LC_CALENDAR_PLUS_2 "\xee\x96\xba"	// U+e5ba
 #define ICON_LC_CALENDAR_PLUS "\xee\x8a\xb3"	// U+e2b3
 #define ICON_LC_CALENDAR_RANGE "\xee\x8a\xb4"	// U+e2b4
 #define ICON_LC_CALENDAR_SEARCH "\xee\x8b\xbd"	// U+e2fd
@@ -681,7 +684,11 @@
 #define ICON_LC_GROUP "\xee\x91\xa4"	// U+e464
 #define ICON_LC_GUITAR "\xee\x95\xa3"	// U+e563
 #define ICON_LC_HAMMER "\xee\x83\xa6"	// U+e0e6
+#define ICON_LC_HAND_COINS "\xee\x96\xbc"	// U+e5bc
+#define ICON_LC_HAND_HEART "\xee\x96\xbd"	// U+e5bd
+#define ICON_LC_HAND_HELPING "\xee\x8e\xb3"	// U+e3b3
 #define ICON_LC_HAND_METAL "\xee\x88\xa3"	// U+e223
+#define ICON_LC_HAND_PLATTER "\xee\x96\xbe"	// U+e5be
 #define ICON_LC_HAND "\xee\x87\x8d"	// U+e1cd
 #define ICON_LC_HARD_DRIVE_DOWNLOAD "\xee\x93\xa9"	// U+e4e9
 #define ICON_LC_HARD_DRIVE_UPLOAD "\xee\x93\xaa"	// U+e4ea
@@ -705,7 +712,6 @@
 #define ICON_LC_HEART "\xee\x83\xac"	// U+e0ec
 #define ICON_LC_HEATER "\xee\x96\x92"	// U+e592
 #define ICON_LC_HELP_CIRCLE "\xee\x83\xad"	// U+e0ed
-#define ICON_LC_HELPING_HAND "\xee\x8e\xb3"	// U+e3b3
 #define ICON_LC_HEXAGON "\xee\x83\xae"	// U+e0ee
 #define ICON_LC_HIGHLIGHTER "\xee\x83\xaf"	// U+e0ef
 #define ICON_LC_HISTORY "\xee\x87\xab"	// U+e1eb
@@ -1279,6 +1285,7 @@
 #define ICON_LC_TEXT_CURSOR_INPUT "\xee\x89\x9c"	// U+e25c
 #define ICON_LC_TEXT_CURSOR "\xee\x89\x9b"	// U+e25b
 #define ICON_LC_TEXT_QUOTE "\xee\x92\x9e"	// U+e49e
+#define ICON_LC_TEXT_SEARCH "\xee\x96\xb1"	// U+e5b1
 #define ICON_LC_TEXT_SELECT "\xee\x8f\x99"	// U+e3d9
 #define ICON_LC_TEXT "\xee\x8f\xa6"	// U+e3e6
 #define ICON_LC_THEATER "\xee\x94\xa6"	// U+e526
@@ -1287,6 +1294,12 @@
 #define ICON_LC_THERMOMETER "\xee\x85\xb8"	// U+e178
 #define ICON_LC_THUMBS_DOWN "\xee\x85\xbb"	// U+e17b
 #define ICON_LC_THUMBS_UP "\xee\x85\xbc"	// U+e17c
+#define ICON_LC_TICKET_CHECK "\xee\x96\xb2"	// U+e5b2
+#define ICON_LC_TICKET_MINUS "\xee\x96\xb3"	// U+e5b3
+#define ICON_LC_TICKET_PERCENT "\xee\x96\xb4"	// U+e5b4
+#define ICON_LC_TICKET_PLUS "\xee\x96\xb5"	// U+e5b5
+#define ICON_LC_TICKET_SLASH "\xee\x96\xb6"	// U+e5b6
+#define ICON_LC_TICKET_X "\xee\x96\xb7"	// U+e5b7
 #define ICON_LC_TICKET "\xee\x88\x85"	// U+e205
 #define ICON_LC_TIMER_OFF "\xee\x89\x80"	// U+e240
 #define ICON_LC_TIMER_RESET "\xee\x88\xad"	// U+e22d
@@ -1387,6 +1400,7 @@
 #define ICON_LC_WAVES "\xee\x89\xba"	// U+e27a
 #define ICON_LC_WAYPOINTS "\xee\x95\x86"	// U+e546
 #define ICON_LC_WEBCAM "\xee\x87\xbb"	// U+e1fb
+#define ICON_LC_WEBHOOK_OFF "\xee\x96\xbb"	// U+e5bb
 #define ICON_LC_WEBHOOK "\xee\x8d\xaf"	// U+e36f
 #define ICON_LC_WEIGHT "\xee\x94\xb4"	// U+e534
 #define ICON_LC_WHEAT_OFF "\xee\x8e\x9a"	// U+e39a

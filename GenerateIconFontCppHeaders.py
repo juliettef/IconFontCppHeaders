@@ -537,6 +537,7 @@ class LanguageC( Language ):
                   tmpl_line_minmax.format( minmax = 'MAX',
                                            abbr = abbreviation,
                                            val = cls.intermediate.get( 'font_max' ))
+        result += '\n'
         return result
 
     @classmethod
@@ -635,6 +636,7 @@ class LanguageCSharp( Language ):
                                            val = cls.intermediate.get( 'font_max_16' )) + \
                   tmpl_line_minmax.format( minmax = 'Max',
                                           val = cls.intermediate.get( 'font_max' ))
+        result += '\n'
         return result
 
     @classmethod
@@ -701,6 +703,7 @@ class LanguagePython( Language ):
                                            val = cls.intermediate.get( 'font_max_16' )) + \
                   tmpl_line_minmax.format( minmax = 'MAX',
                                            val = cls.intermediate.get( 'font_max' ))
+        result += '\n'
         return result
 
     @classmethod
@@ -740,6 +743,7 @@ class LanguageRust( Language ):
                                            val = cls.intermediate.get( 'font_max_16' )) + \
                   tmpl_line_minmax.format( minmax = 'MAX',
                                            val = cls.intermediate.get( 'font_max' ))
+        result += '\n'
         return result
 
     @classmethod

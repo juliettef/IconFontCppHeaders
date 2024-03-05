@@ -311,9 +311,9 @@ class FontFA6Brands( FontFA5Brands ):     # Font Awesome version 6 - Brand style
     ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf' ]]
 
 
-class FontMD( Font ):               # Google Material Design
-    font_name = 'Material Design'
-    font_abbr = 'MD'
+class FontGMDI( Font ):               # Google Material Design Icons
+    font_name = 'Google Material Design Icons'
+    font_abbr = 'GMDI'
     font_data = 'https://github.com/google/material-design-icons/raw/master/font/MaterialIcons-Regular.codepoints'
     ttfs = [[ font_abbr, 'MaterialIcons-Regular.ttf', 'https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf' ]]
 
@@ -347,6 +347,48 @@ class FontMD( Font ):               # Google Material Design
                             font_max = word_unicode
                             font_max_int = word_int
                         icons.append( words )
+            icons_data.update({ 'font_min' : font_min,
+                                'font_max_16' : font_max_16,
+                                'font_max' : font_max,
+                                'icons' : icons })
+        return icons_data
+
+
+class FontGMDS( Font ):               # Google Material Design Symbols
+    font_name = 'Google Material Design Symbols'
+    font_abbr = 'GMDS'
+    font_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints'
+    ttfs = [[ 'OUTLINE', 'MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf' ],
+            [ 'ROUNDED', 'MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsRounded%5BFILL,GRAD,opsz,wght%5D.ttf' ],
+            [ 'SHARP', 'MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsSharp%5BFILL,GRAD,opsz,wght%5D.ttf' ]]
+
+    @classmethod
+    def get_icons( cls, input_data ):
+        icons_data = {}
+        lines = str.split( input_data, '\n' )
+        if lines:
+            font_min = '0x10ffff'
+            font_min_int = int( font_min, 16 )
+            font_max_16 = '0x0'   # 16 bit max 
+            font_max_16_int = int( font_max_16, 16 )
+            font_max = '0x0'
+            font_max_int = int( font_max, 16 )
+            icons = []
+            for line in lines :
+                words = str.split(line)
+                if words and len( words ) >= 2:
+                    word_unicode = words[ 1 ].zfill( 4 )
+                    word_int = int( word_unicode, 16 )
+                    if word_int < font_min_int and word_int > 0x0127 :  # exclude ASCII characters code points
+                        font_min = word_unicode
+                        font_min_int = word_int
+                    if word_int > font_max_16_int and word_int <= 0xffff:   # exclude code points > 16 bits
+                        font_max_16 = word_unicode
+                        font_max_16_int = word_int
+                    if word_int > font_max_int:
+                        font_max = word_unicode
+                        font_max_int = word_int
+                    icons.append( words )
             icons_data.update({ 'font_min' : font_min,
                                 'font_max_16' : font_max_16,
                                 'font_max' : font_max,
@@ -818,7 +860,7 @@ class LanguageGo( Language ):
 # Main
 
 
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontGMDI, FontGMDS, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

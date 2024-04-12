@@ -175,6 +175,11 @@ Transistor level 6502 Hardware Simulation
 [floooh.github.io/visual6502remix](https://floooh.github.io/visual6502remix)  
 [github.com/floooh/v6502r](https://github.com/floooh/v6502r)  
 
+### Games
+- [Avatar: Frontiers of Pandora](https://www.mobygames.com/game/213552/avatar-frontiers-of-pandora/)
+- [Avoyd](https://www.avoyd.com)
+- [Wonder Boy: The Dragon's Trap](https://www.mobygames.com/game/87084/wonder-boy-the-dragons-trap/)
+
 ## Related Tools
 
 ### ImGuiFontStudio

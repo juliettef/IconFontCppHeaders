@@ -181,6 +181,14 @@ Transistor level 6502 Hardware Simulation
 Create font subsets  
 [github.com/aiekick/ImGuiFontStudio](https://github.com/aiekick/ImGuiFontStudio)  
 
+## Contributing
+
+Thanks to everyone who has contributed to IconFontCppHeaders so far. In order to make things easier please bear in mind the following:  
+- I regularly update the repository. If you urgently need an update and can't run the generator yourself, raise an issue specifying the icon set(s) you need updated.  
+  - Don't submit PRs for updating the defines (the output of the generator).  
+- Before submitting a PR, please raise an issue describing the problem or the enhancement you suggest. If you're able, propose an implementation.  
+- If you use IconFontCppHeaders and would like your project to be featured on this page, raise an issue or email me at juliette@enkisoftware.com.  
+
 ## Credits
 
 Development - [Juliette Foucaut](http://www.enkisoftware.com/about.html#juliette) - [@juliettef](https://github.com/juliettef)  

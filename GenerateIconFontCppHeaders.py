@@ -456,8 +456,8 @@ class FontLC( FontKI ):               # Lucide
     font_name = 'Lucide'
     font_abbr = 'LC'
     font_data_prefix = '.icon-'
-    font_data = 'https://unpkg.com/lucide-static@latest/font/lucide.css'
-    ttfs = [[ font_abbr, 'lucide.ttf', 'https://unpkg.com/lucide-static@latest/font/lucide.ttf' ]]
+    font_data = 'https://unpkg.com/lucide-static@latest/font/lucide.css'    # alt 'https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css'
+    ttfs = [[ font_abbr, 'lucide.ttf', 'https://unpkg.com/lucide-static@latest/font/lucide.ttf' ]]  # alt 'https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.ttf'
 
 
 # Languages

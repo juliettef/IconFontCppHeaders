@@ -448,8 +448,8 @@ class FontCI( FontKI ):               # Codicons
     font_name = 'Codicons'
     font_abbr = 'CI'
     font_data_prefix = '.codicon-'
-    font_data = 'https://raw.githubusercontent.com/microsoft/vscode-codicons/main/dist/codicon.css'
-    ttfs = [[ font_abbr, 'codicon.ttf', 'https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf' ]]
+    font_data = 'https://microsoft.github.io/vscode-codicons/dist/codicon.css'
+    ttfs = [[ font_abbr, 'codicon.ttf', 'https://microsoft.github.io/vscode-codicons/dist/codicon.ttf' ]]
 
 
 class FontLC( FontKI ):               # Lucide

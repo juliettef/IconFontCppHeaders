@@ -19,7 +19,7 @@ To enable conversion, run the `GenerateIconFontCppHeaders.py` script with `ttf2h
 
 ## Icon Fonts
 
-### Font Awesome
+### Font Awesome [ FA ]
 * [fontawesome.com](https://fontawesome.com)
 * [github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
@@ -48,31 +48,39 @@ To enable conversion, run the `GenerateIconFontCppHeaders.py` script with `ttf2h
 #### Font Awesome 6 pro
 * Commercial product, not supported but [generation should be similar to FA5 Pro](#notes-about-font-awesome-5-and-6), or see [@jakerieger's fork](https://github.com/jakerieger/IconFontCppHeaders)
 
-### Fork Awesome
-* [forkawesome.github.io/Fork-Awesome](https://forkawesome.github.io/Fork-Awesome)
+### Fork Awesome [ FK ]
+* [forkaweso.me/Fork-Awesome](https://forkaweso.me/Fork-Awesome)
 * [github.com/ForkAwesome/Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome)
 * [icons.yml](https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml)
 * [forkawesome-webfont.ttf](https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf)
 
-### Google Material Design
-* [design.google.com/icon](https://design.google.com/icons)
+### Google Material Design Icons [ MD ] and Material Symbols [ MS ]
+* [fonts.google.com/icons](https://fonts.google.com/icons)
 * [github.com/google/material-design-icons](https://github.com/google/material-design-icons)
-* [codepoints](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints)
+#### Material Design Icons [ MD ]
+* [fonts.google.com/icons?icon.set=Material+Icons](https://fonts.google.com/icons?icon.set=Material+Icons)
+* [Codepoints](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints)
 * [MaterialIcons-Regular.ttf](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf)
+#### Material Symbols [ MS ]
+* [fonts.google.com/icons?icon.set=Material+Symbols](https://fonts.google.com/icons?icon.set=Material+Symbols)
+* [Codepoints](https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints)
+* [MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf](https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf)
+* [MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf](https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf)
+* [MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf](https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf)
 
-### Pictogrammers Material Design icons
+### Pictogrammers Material Design Icons [ MDI ]
 * [pictogrammers.com/library/mdi](https://pictogrammers.com/library/mdi/)
 * [github.com/Templarian/MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
 * [materialdesignicons.css](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/css/materialdesignicons.css)
 * [materialdesignicons-webfont.ttf](https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf)  
 
-### Kenney Game icons and expansion 
+### Kenney Game Icons and Expansion [ KI ]
 * [kenney.nl/assets/game-icons](http://kenney.nl/assets/game-icons) and [kenney.nl/assets/game-icons-expansion](http://kenney.nl/assets/game-icons-expansion) 
 * [github.com/nicodinh/kenney-icon-font](https://github.com/nicodinh/kenney-icon-font)
 * [kenney-icons.css](https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css)
 * [kenney-icon-font.ttf](https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf)
 
-### Fontaudio
+### Fontaudio [ FAD ]
 * [github.com/fefanto/fontaudio](https://github.com/fefanto/fontaudio)
 * [fontaudio.css](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css)
 * [fontaudio.ttf](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf)
@@ -83,7 +91,7 @@ To enable conversion, run the `GenerateIconFontCppHeaders.py` script with `ttf2h
 * [codicon.css](https://microsoft.github.io/vscode-codicons/dist/codicon.css)
 * [codicon.ttf](https://microsoft.github.io/vscode-codicons/dist/codicon.ttf)
 
-### Lucide
+### Lucide [ LC ]
 * [lucide.dev](https://lucide.dev)
 * [github.com/lucide-icons/lucide](https://github.com/lucide-icons/lucide)
 * [lucide.css](https://unpkg.com/lucide-static@latest/font/lucide.css)

@@ -5,49 +5,73 @@
 #
 # 1 - Source material
 #
-#   1.1 - Font Awesome
+#   1.1 - Font Awesome [ FA ]
+#       https://fontawesome.com
+#       https://github.com/FortAwesome/Font-Awesome
 #
 #       1.1.1 - version 4
+#           https://github.com/FortAwesome/Font-Awesome/tree/4.x
 #           https://github.com/FortAwesome/Font-Awesome/blob/4.x/src/icons.yml
 #           https://github.com/FortAwesome/Font-Awesome/blob/4.x/fonts/fontawesome-webfont.ttf
 #
 #       1.1.2 - version 5 Free
+#           https://github.com/FortAwesome/Font-Awesome/tree/5.x
 #           https://github.com/FortAwesome/Font-Awesome/blob/5.x/metadata/icons.yml
-#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-brands-400.ttf [ FAB ]
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-regular-400.ttf [ FAR ]
+#           https://github.com/FortAwesome/Font-Awesome/blob/5.x/webfonts/fa-solid-900.ttf [ FAS ]
 #
 #       1.1.3 - version 5 Pro
 #           Download files from https://fontawesome.com
 #           \fontawesome-pro-n.n.n-web\metadata\icons.yml
-#           \fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf
-#           \fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf
-#           \fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf
-#           \fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf
+#           \fontawesome-pro-n.n.n-web\webfonts\fa-brands-400.ttf [ FAB ]
+#           \fontawesome-pro-n.n.n-web\webfonts\fa-light-300.ttf [ FAL ]
+#           \fontawesome-pro-n.n.n-web\webfonts\fa-regular-400.ttf [ FAR ]
+#           \fontawesome-pro-n.n.n-web\webfonts\fa-solid-900.ttf [ FAS ]
 #
 #       1.1.4 - version 6 Free
+#           https://github.com/FortAwesome/Font-Awesome/tree/6.x
 #           https://github.com/FortAwesome/Font-Awesome/blob/6.x/metadata/icons.yml
-#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-regular-400.ttf
-#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-solid-900.ttf
+#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf [ FAB ]
+#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-regular-400.ttf [ FAR ]
+#           https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-solid-900.ttf [ FAS ]
 #
-#   1.2 - Fork Awesome
+#   1.2 - Fork Awesome [ FK ]
+#           https://forkaweso.me/Fork-Awesome/
+#           https://github.com/ForkAwesome/Fork-Awesome
 #           https://github.com/ForkAwesome/Fork-Awesome/blob/master/src/icons/icons.yml
 #           https://github.com/ForkAwesome/Fork-Awesome/blob/master/fonts/forkawesome-webfont.ttf
 #
-#   1.3 - Google Material Design
+#   1.3 - Google Material Design Icons [ MD ] and Material Symbols [ MS ]
+#           https://fonts.google.com/icons
+#           https://github.com/google/material-design-icons
+#
+#       1.3.1 - Material Design Icons [ MD ]
+#           https://fonts.google.com/icons?icon.set=Material+Icons
 #           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints
 #           https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf
 #
-#   1.4 - Pictogrammers Material Design Icons
+#       1.3.2 - Material Symbols [ MS ]
+#           https://fonts.google.com/icons?icon.set=Material+Symbols
+#           https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints
+#           https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf [ MSO ]
+#           https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf [ MSR ]
+#           https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf [ MSS ]
+#
+#   1.4 - Pictogrammers Material Design Icons [ MDI ]
+#           https://pictogrammers.com/library/mdi/
+#           https://github.com/Templarian/MaterialDesign-Webfont
 #           https://github.com/Templarian/MaterialDesign-Webfont/blob/master/css/materialdesignicons.css
 #           https://github.com/Templarian/MaterialDesign-Webfont/blob/master/fonts/materialdesignicons-webfont.ttf
 #
-#   1.5 - Kenney Game icons
+#   1.5 - Kenney Game Icons and Expansion [ KI ]
+#           http://kenney.nl/assets/game-icons http://kenney.nl/assets/game-icons-expansion
+#           https://github.com/nicodinh/kenney-icon-font
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/css/kenney-icons.css
 #           https://github.com/nicodinh/kenney-icon-font/blob/master/fonts/kenney-icon-font.ttf
 #
-#   1.6 - Fontaudio
+#   1.6 - Fontaudio [ FAD ]
+#           https://github.com/fefanto/fontaudio
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #
@@ -57,7 +81,9 @@
 #           https://microsoft.github.io/vscode-codicons/dist/codicon.css
 #           https://microsoft.github.io/vscode-codicons/dist/codicon.ttf
 #
-#   1.8 - Lucide
+#   1.8 - Lucide [ LC ]
+#           https://lucide.dev
+#           https://github.com/lucide-icons/lucide
 #           https://unpkg.com/lucide-static@latest/font/lucide.css
 #           https://unpkg.com/lucide-static@latest/font/lucide.ttf
 #
@@ -313,9 +339,9 @@ class FontFA6Brands( FontFA5Brands ):     # Font Awesome version 6 - Brand style
     ttfs = [[ 'FAB', 'fa-brands-400.ttf', 'https://github.com/FortAwesome/Font-Awesome/blob/6.x/webfonts/fa-brands-400.ttf' ]]
 
 
-class FontGMDI( Font ):               # Google Material Design Icons
-    font_name = 'Google Material Design Icons'
-    font_abbr = 'GMDI'
+class FontMD( Font ):               # Google Material Design
+    font_name = 'Material Design'
+    font_abbr = 'MD'
     font_data = 'https://github.com/google/material-design-icons/raw/master/font/MaterialIcons-Regular.codepoints'
     ttfs = [[ font_abbr, 'MaterialIcons-Regular.ttf', 'https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf' ]]
 
@@ -356,13 +382,13 @@ class FontGMDI( Font ):               # Google Material Design Icons
         return icons_data
 
 
-class FontGMDS( Font ):               # Google Material Design Symbols
-    font_name = 'Google Material Design Symbols'
-    font_abbr = 'GMDS'
-    font_data = 'https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints'
-    ttfs = [[ 'OUTLINE', 'MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf' ],
-            [ 'ROUNDED', 'MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsRounded%5BFILL,GRAD,opsz,wght%5D.ttf' ],
-            [ 'SHARP', 'MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsSharp%5BFILL,GRAD,opsz,wght%5D.ttf' ]]
+class FontMS( Font ):               # Google Material Symbols
+    font_name = 'Material Symbols'
+    font_abbr = 'MS'
+    font_data = 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints'
+    ttfs = [[ 'MSO', 'MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf' ],
+            [ 'MSR', 'MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsRounded%5BFILL,GRAD,opsz,wght%5D.ttf' ],
+            [ 'MSS', 'MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf', 'https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsSharp%5BFILL,GRAD,opsz,wght%5D.ttf' ]]
 
     @classmethod
     def get_icons( cls, input_data ):
@@ -868,7 +894,7 @@ class LanguageGo( Language ):
 # Main
 
 
-fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontGMDI, FontGMDS, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
+fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMS, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 

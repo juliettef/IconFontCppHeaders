@@ -77,10 +77,11 @@ To enable conversion, run the `GenerateIconFontCppHeaders.py` script with `ttf2h
 * [fontaudio.css](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css)
 * [fontaudio.ttf](https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf)
 
-### Codicons
+### Codicons [ CI ]
+* [microsoft.github.io/vscode-codicons/dist/codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html)
 * [github.com/microsoft/vscode-codicons](https://github.com/microsoft/vscode-codicons)
-* [codicon.css](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css)
-* [codicon.ttf](https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf)
+* [codicon.css](https://microsoft.github.io/vscode-codicons/dist/codicon.css)
+* [codicon.ttf](https://microsoft.github.io/vscode-codicons/dist/codicon.ttf)
 
 ### Lucide
 * [lucide.dev](https://lucide.dev)

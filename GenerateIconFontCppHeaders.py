@@ -51,9 +51,11 @@
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.css
 #           https://github.com/fefanto/fontaudio/blob/master/font/fontaudio.ttf
 #
-#   1.7 - Codicons
-#           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.css
-#           https://github.com/microsoft/vscode-codicons/blob/main/dist/codicon.ttf
+#   1.7 - Codicons [ CI ]
+#           https://microsoft.github.io/vscode-codicons/dist/codicon.html
+#           https://github.com/microsoft/vscode-codicons
+#           https://microsoft.github.io/vscode-codicons/dist/codicon.css
+#           https://microsoft.github.io/vscode-codicons/dist/codicon.ttf
 #
 #   1.8 - Lucide
 #           https://unpkg.com/lucide-static@latest/font/lucide.css

@@ -898,7 +898,7 @@ fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
 ttf2headerC = False # convert ttf files to C and C++ headers
 
-logging.basicConfig( format='%(levelname)s : %(message)s', level = logging.INFO )
+logging.basicConfig( format='%(levelname)s : %(message)s', level = logging.WARNING )
 
 intermediates = []
 for font in fonts:

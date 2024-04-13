@@ -55,6 +55,7 @@ var IconsFontAwesome6Brands = Font{
 		"Blackberry":	"\xef\x8d\xbb", 	// U+f37b
 		"Blogger":	"\xef\x8d\xbc", 	// U+f37c
 		"BloggerB":	"\xef\x8d\xbd", 	// U+f37d
+		"Bluesky":	"\xee\x99\xb1", 	// U+e671
 		"Bluetooth":	"\xef\x8a\x93", 	// U+f293
 		"BluetoothB":	"\xef\x8a\x94", 	// U+f294
 		"Bootstrap":	"\xef\xa0\xb6", 	// U+f836
@@ -237,6 +238,7 @@ var IconsFontAwesome6Brands = Font{
 		"Joomla":	"\xef\x86\xaa", 	// U+f1aa
 		"Js":	"\xef\x8e\xb8", 	// U+f3b8
 		"Jsfiddle":	"\xef\x87\x8c", 	// U+f1cc
+		"Jxl":	"\xee\x99\xbb", 	// U+e67b
 		"Kaggle":	"\xef\x97\xba", 	// U+f5fa
 		"Keybase":	"\xef\x93\xb5", 	// U+f4f5
 		"Keycdn":	"\xef\x8e\xba", 	// U+f3ba
@@ -398,8 +400,11 @@ var IconsFontAwesome6Brands = Font{
 		"SquareThreads":	"\xee\x98\x99", 	// U+e619
 		"SquareTumblr":	"\xef\x85\xb4", 	// U+f174
 		"SquareTwitter":	"\xef\x82\x81", 	// U+f081
+		"SquareUpwork":	"\xee\x99\xbc", 	// U+e67c
 		"SquareViadeo":	"\xef\x8a\xaa", 	// U+f2aa
 		"SquareVimeo":	"\xef\x86\x94", 	// U+f194
+		"SquareWebAwesome":	"\xee\x9a\x83", 	// U+e683
+		"SquareWebAwesomeStroke":	"\xee\x9a\x84", 	// U+e684
 		"SquareWhatsapp":	"\xef\x90\x8c", 	// U+f40c
 		"SquareXTwitter":	"\xee\x98\x9a", 	// U+e61a
 		"SquareXing":	"\xef\x85\xa9", 	// U+f169
@@ -465,6 +470,7 @@ var IconsFontAwesome6Brands = Font{
 		"Vuejs":	"\xef\x90\x9f", 	// U+f41f
 		"WatchmanMonitoring":	"\xee\x82\x87", 	// U+e087
 		"Waze":	"\xef\xa0\xbf", 	// U+f83f
+		"WebAwesome":	"\xee\x9a\x82", 	// U+e682
 		"Webflow":	"\xee\x99\x9c", 	// U+e65c
 		"Weebly":	"\xef\x97\x8c", 	// U+f5cc
 		"Weibo":	"\xef\x86\x8a", 	// U+f18a

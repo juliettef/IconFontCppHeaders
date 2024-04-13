@@ -1200,7 +1200,9 @@ var IconsFontAwesome6 = Font{
 		"T":	"T", 	// U+0054
 		"Table":	"\xef\x83\x8e", 	// U+f0ce
 		"TableCells":	"\xef\x80\x8a", 	// U+f00a
+		"TableCellsColumnLock":	"\xee\x99\xb8", 	// U+e678
 		"TableCellsLarge":	"\xef\x80\x89", 	// U+f009
+		"TableCellsRowLock":	"\xee\x99\xba", 	// U+e67a
 		"TableColumns":	"\xef\x83\x9b", 	// U+f0db
 		"TableList":	"\xef\x80\x8b", 	// U+f00b
 		"TableTennisPaddleBall":	"\xef\x91\x9d", 	// U+f45d

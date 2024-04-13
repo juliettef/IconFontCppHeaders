@@ -10,6 +10,7 @@
 #define ICON_MIN_FAB 0xe007
 #define ICON_MAX_16_FAB 0xf8e8
 #define ICON_MAX_FAB 0xf8e8
+
 #define ICON_FA_42_GROUP "\xee\x82\x80"	// U+e080
 #define ICON_FA_500PX "\xef\x89\xae"	// U+f26e
 #define ICON_FA_ACCESSIBLE_ICON "\xef\x8d\xa8"	// U+f368
@@ -52,6 +53,7 @@
 #define ICON_FA_BLACKBERRY "\xef\x8d\xbb"	// U+f37b
 #define ICON_FA_BLOGGER "\xef\x8d\xbc"	// U+f37c
 #define ICON_FA_BLOGGER_B "\xef\x8d\xbd"	// U+f37d
+#define ICON_FA_BLUESKY "\xee\x99\xb1"	// U+e671
 #define ICON_FA_BLUETOOTH "\xef\x8a\x93"	// U+f293
 #define ICON_FA_BLUETOOTH_B "\xef\x8a\x94"	// U+f294
 #define ICON_FA_BOOTSTRAP "\xef\xa0\xb6"	// U+f836
@@ -234,6 +236,7 @@
 #define ICON_FA_JOOMLA "\xef\x86\xaa"	// U+f1aa
 #define ICON_FA_JS "\xef\x8e\xb8"	// U+f3b8
 #define ICON_FA_JSFIDDLE "\xef\x87\x8c"	// U+f1cc
+#define ICON_FA_JXL "\xee\x99\xbb"	// U+e67b
 #define ICON_FA_KAGGLE "\xef\x97\xba"	// U+f5fa
 #define ICON_FA_KEYBASE "\xef\x93\xb5"	// U+f4f5
 #define ICON_FA_KEYCDN "\xef\x8e\xba"	// U+f3ba
@@ -395,8 +398,11 @@
 #define ICON_FA_SQUARE_THREADS "\xee\x98\x99"	// U+e619
 #define ICON_FA_SQUARE_TUMBLR "\xef\x85\xb4"	// U+f174
 #define ICON_FA_SQUARE_TWITTER "\xef\x82\x81"	// U+f081
+#define ICON_FA_SQUARE_UPWORK "\xee\x99\xbc"	// U+e67c
 #define ICON_FA_SQUARE_VIADEO "\xef\x8a\xaa"	// U+f2aa
 #define ICON_FA_SQUARE_VIMEO "\xef\x86\x94"	// U+f194
+#define ICON_FA_SQUARE_WEB_AWESOME "\xee\x9a\x83"	// U+e683
+#define ICON_FA_SQUARE_WEB_AWESOME_STROKE "\xee\x9a\x84"	// U+e684
 #define ICON_FA_SQUARE_WHATSAPP "\xef\x90\x8c"	// U+f40c
 #define ICON_FA_SQUARE_X_TWITTER "\xee\x98\x9a"	// U+e61a
 #define ICON_FA_SQUARE_XING "\xef\x85\xa9"	// U+f169
@@ -462,6 +468,7 @@
 #define ICON_FA_VUEJS "\xef\x90\x9f"	// U+f41f
 #define ICON_FA_WATCHMAN_MONITORING "\xee\x82\x87"	// U+e087
 #define ICON_FA_WAZE "\xef\xa0\xbf"	// U+f83f
+#define ICON_FA_WEB_AWESOME "\xee\x9a\x82"	// U+e682
 #define ICON_FA_WEBFLOW "\xee\x99\x9c"	// U+e65c
 #define ICON_FA_WEEBLY "\xef\x97\x8c"	// U+f5cc
 #define ICON_FA_WEIBO "\xef\x86\x8a"	// U+f18a

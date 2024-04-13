@@ -1202,7 +1202,9 @@ namespace IconFonts
         public const string T = "\u0054";
         public const string Table = "\uf0ce";
         public const string TableCells = "\uf00a";
+        public const string TableCellsColumnLock = "\ue678";
         public const string TableCellsLarge = "\uf009";
+        public const string TableCellsRowLock = "\ue67a";
         public const string TableColumns = "\uf0db";
         public const string TableList = "\uf00b";
         public const string TableTennisPaddleBall = "\uf45d";

@@ -1198,7 +1198,9 @@
 #define ICON_FA_T "T"	// U+0054
 #define ICON_FA_TABLE "\xef\x83\x8e"	// U+f0ce
 #define ICON_FA_TABLE_CELLS "\xef\x80\x8a"	// U+f00a
+#define ICON_FA_TABLE_CELLS_COLUMN_LOCK "\xee\x99\xb8"	// U+e678
 #define ICON_FA_TABLE_CELLS_LARGE "\xef\x80\x89"	// U+f009
+#define ICON_FA_TABLE_CELLS_ROW_LOCK "\xee\x99\xba"	// U+e67a
 #define ICON_FA_TABLE_COLUMNS "\xef\x83\x9b"	// U+f0db
 #define ICON_FA_TABLE_LIST "\xef\x80\x8b"	// U+f00b
 #define ICON_FA_TABLE_TENNIS_PADDLE_BALL "\xef\x91\x9d"	// U+f45d

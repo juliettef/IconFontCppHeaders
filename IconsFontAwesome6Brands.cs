@@ -57,6 +57,7 @@ namespace IconFonts
         public const string Blackberry = "\uf37b";
         public const string Blogger = "\uf37c";
         public const string BloggerB = "\uf37d";
+        public const string Bluesky = "\ue671";
         public const string Bluetooth = "\uf293";
         public const string BluetoothB = "\uf294";
         public const string Bootstrap = "\uf836";
@@ -239,6 +240,7 @@ namespace IconFonts
         public const string Joomla = "\uf1aa";
         public const string Js = "\uf3b8";
         public const string Jsfiddle = "\uf1cc";
+        public const string Jxl = "\ue67b";
         public const string Kaggle = "\uf5fa";
         public const string Keybase = "\uf4f5";
         public const string Keycdn = "\uf3ba";
@@ -400,8 +402,11 @@ namespace IconFonts
         public const string SquareThreads = "\ue619";
         public const string SquareTumblr = "\uf174";
         public const string SquareTwitter = "\uf081";
+        public const string SquareUpwork = "\ue67c";
         public const string SquareViadeo = "\uf2aa";
         public const string SquareVimeo = "\uf194";
+        public const string SquareWebAwesome = "\ue683";
+        public const string SquareWebAwesomeStroke = "\ue684";
         public const string SquareWhatsapp = "\uf40c";
         public const string SquareXTwitter = "\ue61a";
         public const string SquareXing = "\uf169";
@@ -467,6 +472,7 @@ namespace IconFonts
         public const string Vuejs = "\uf41f";
         public const string WatchmanMonitoring = "\ue087";
         public const string Waze = "\uf83f";
+        public const string WebAwesome = "\ue682";
         public const string Webflow = "\ue65c";
         public const string Weebly = "\uf5cc";
         public const string Weibo = "\uf18a";

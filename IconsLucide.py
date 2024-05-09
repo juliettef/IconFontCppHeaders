@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe5e3
-    ICON_MAX = 0xe5e3
+    ICON_MAX_16 = 0xe5eb
+    ICON_MAX = 0xe5eb
 
     ICON_A_ARROW_DOWN = '\ue589'
     ICON_A_ARROW_UP = '\ue58a'
@@ -225,6 +225,7 @@ class IconsLucide:
     ICON_BOOKMARK = '\ue066'
     ICON_BOOM_BOX = '\ue4f2'
     ICON_BOT_MESSAGE_SQUARE = '\ue5d2'
+    ICON_BOT_OFF = '\ue5e4'
     ICON_BOT = '\ue1b9'
     ICON_BOX_SELECT = '\ue1ba'
     ICON_BOX = '\ue067'
@@ -457,7 +458,9 @@ class IconsLucide:
     ICON_DELETE = '\ue0af'
     ICON_DESSERT = '\ue4bf'
     ICON_DIAMETER = '\ue52a'
+    ICON_DIAMOND_MINUS = '\ue5e5'
     ICON_DIAMOND_PERCENT = '\ue51f'
+    ICON_DIAMOND_PLUS = '\ue5e6'
     ICON_DIAMOND = '\ue2d1'
     ICON_DICE_1 = '\ue286'
     ICON_DICE_2 = '\ue287'
@@ -680,6 +683,8 @@ class IconsLucide:
     ICON_GRAB = '\ue1e4'
     ICON_GRADUATION_CAP = '\ue233'
     ICON_GRAPE = '\ue355'
+    ICON_GRID_2X2_CHECK = '\ue5e8'
+    ICON_GRID_2X2_X = '\ue5e9'
     ICON_GRID_2X2 = '\ue503'
     ICON_GRID_3X3 = '\ue0e9'
     ICON_GRIP_HORIZONTAL = '\ue0ea'
@@ -810,6 +815,7 @@ class IconsLucide:
     ICON_LIST_X = '\ue23f'
     ICON_LIST = '\ue109'
     ICON_LOADER_CIRCLE = '\ue10b'
+    ICON_LOADER_PINWHEEL = '\ue5ea'
     ICON_LOADER = '\ue10a'
     ICON_LOCATE_FIXED = '\ue1d9'
     ICON_LOCATE_OFF = '\ue281'
@@ -904,6 +910,7 @@ class IconsLucide:
     ICON_MOUNTAIN = '\ue230'
     ICON_MOUSE_OFF = '\ue5df'
     ICON_MOUSE_POINTER_2 = '\ue1c2'
+    ICON_MOUSE_POINTER_BAN = '\ue5eb'
     ICON_MOUSE_POINTER_CLICK = '\ue121'
     ICON_MOUSE_POINTER = '\ue120'
     ICON_MOUSE = '\ue28d'
@@ -946,6 +953,7 @@ class IconsLucide:
     ICON_OCTAGON = '\ue127'
     ICON_OPTION = '\ue1f6'
     ICON_ORBIT = '\ue3ea'
+    ICON_ORIGAMI = '\ue5e7'
     ICON_PACKAGE_2 = '\ue343'
     ICON_PACKAGE_CHECK = '\ue265'
     ICON_PACKAGE_MINUS = '\ue266'

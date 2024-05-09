@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe5e3,
-	Max: 0xe5e3,
+	Max16: 0xe5eb,
+	Max: 0xe5eb,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x89", 	// U+e589
 		"AArrowUp":	"\xee\x96\x8a", 	// U+e58a
@@ -227,6 +227,7 @@ var IconsLucide = Font{
 		"Bookmark":	"\xee\x81\xa6", 	// U+e066
 		"BoomBox":	"\xee\x93\xb2", 	// U+e4f2
 		"BotMessageSquare":	"\xee\x97\x92", 	// U+e5d2
+		"BotOff":	"\xee\x97\xa4", 	// U+e5e4
 		"Bot":	"\xee\x86\xb9", 	// U+e1b9
 		"BoxSelect":	"\xee\x86\xba", 	// U+e1ba
 		"Box":	"\xee\x81\xa7", 	// U+e067
@@ -459,7 +460,9 @@ var IconsLucide = Font{
 		"Delete":	"\xee\x82\xaf", 	// U+e0af
 		"Dessert":	"\xee\x92\xbf", 	// U+e4bf
 		"Diameter":	"\xee\x94\xaa", 	// U+e52a
+		"DiamondMinus":	"\xee\x97\xa5", 	// U+e5e5
 		"DiamondPercent":	"\xee\x94\x9f", 	// U+e51f
+		"DiamondPlus":	"\xee\x97\xa6", 	// U+e5e6
 		"Diamond":	"\xee\x8b\x91", 	// U+e2d1
 		"Dice1":	"\xee\x8a\x86", 	// U+e286
 		"Dice2":	"\xee\x8a\x87", 	// U+e287
@@ -682,6 +685,8 @@ var IconsLucide = Font{
 		"Grab":	"\xee\x87\xa4", 	// U+e1e4
 		"GraduationCap":	"\xee\x88\xb3", 	// U+e233
 		"Grape":	"\xee\x8d\x95", 	// U+e355
+		"Grid2x2Check":	"\xee\x97\xa8", 	// U+e5e8
+		"Grid2x2X":	"\xee\x97\xa9", 	// U+e5e9
 		"Grid2x2":	"\xee\x94\x83", 	// U+e503
 		"Grid3x3":	"\xee\x83\xa9", 	// U+e0e9
 		"GripHorizontal":	"\xee\x83\xaa", 	// U+e0ea
@@ -812,6 +817,7 @@ var IconsLucide = Font{
 		"ListX":	"\xee\x88\xbf", 	// U+e23f
 		"List":	"\xee\x84\x89", 	// U+e109
 		"LoaderCircle":	"\xee\x84\x8b", 	// U+e10b
+		"LoaderPinwheel":	"\xee\x97\xaa", 	// U+e5ea
 		"Loader":	"\xee\x84\x8a", 	// U+e10a
 		"LocateFixed":	"\xee\x87\x99", 	// U+e1d9
 		"LocateOff":	"\xee\x8a\x81", 	// U+e281
@@ -906,6 +912,7 @@ var IconsLucide = Font{
 		"Mountain":	"\xee\x88\xb0", 	// U+e230
 		"MouseOff":	"\xee\x97\x9f", 	// U+e5df
 		"MousePointer2":	"\xee\x87\x82", 	// U+e1c2
+		"MousePointerBan":	"\xee\x97\xab", 	// U+e5eb
 		"MousePointerClick":	"\xee\x84\xa1", 	// U+e121
 		"MousePointer":	"\xee\x84\xa0", 	// U+e120
 		"Mouse":	"\xee\x8a\x8d", 	// U+e28d
@@ -948,6 +955,7 @@ var IconsLucide = Font{
 		"Octagon":	"\xee\x84\xa7", 	// U+e127
 		"Option":	"\xee\x87\xb6", 	// U+e1f6
 		"Orbit":	"\xee\x8f\xaa", 	// U+e3ea
+		"Origami":	"\xee\x97\xa7", 	// U+e5e7
 		"Package2":	"\xee\x8d\x83", 	// U+e343
 		"PackageCheck":	"\xee\x89\xa5", 	// U+e265
 		"PackageMinus":	"\xee\x89\xa6", 	// U+e266

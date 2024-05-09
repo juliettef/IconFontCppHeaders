@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe5e3
-#define ICON_MAX_LC 0xe5e3
+#define ICON_MAX_16_LC 0xe5eb
+#define ICON_MAX_LC 0xe5eb
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x89"	// U+e589
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8a"	// U+e58a
@@ -225,6 +225,7 @@
 #define ICON_LC_BOOKMARK "\xee\x81\xa6"	// U+e066
 #define ICON_LC_BOOM_BOX "\xee\x93\xb2"	// U+e4f2
 #define ICON_LC_BOT_MESSAGE_SQUARE "\xee\x97\x92"	// U+e5d2
+#define ICON_LC_BOT_OFF "\xee\x97\xa4"	// U+e5e4
 #define ICON_LC_BOT "\xee\x86\xb9"	// U+e1b9
 #define ICON_LC_BOX_SELECT "\xee\x86\xba"	// U+e1ba
 #define ICON_LC_BOX "\xee\x81\xa7"	// U+e067
@@ -457,7 +458,9 @@
 #define ICON_LC_DELETE "\xee\x82\xaf"	// U+e0af
 #define ICON_LC_DESSERT "\xee\x92\xbf"	// U+e4bf
 #define ICON_LC_DIAMETER "\xee\x94\xaa"	// U+e52a
+#define ICON_LC_DIAMOND_MINUS "\xee\x97\xa5"	// U+e5e5
 #define ICON_LC_DIAMOND_PERCENT "\xee\x94\x9f"	// U+e51f
+#define ICON_LC_DIAMOND_PLUS "\xee\x97\xa6"	// U+e5e6
 #define ICON_LC_DIAMOND "\xee\x8b\x91"	// U+e2d1
 #define ICON_LC_DICE_1 "\xee\x8a\x86"	// U+e286
 #define ICON_LC_DICE_2 "\xee\x8a\x87"	// U+e287
@@ -680,6 +683,8 @@
 #define ICON_LC_GRAB "\xee\x87\xa4"	// U+e1e4
 #define ICON_LC_GRADUATION_CAP "\xee\x88\xb3"	// U+e233
 #define ICON_LC_GRAPE "\xee\x8d\x95"	// U+e355
+#define ICON_LC_GRID_2X2_CHECK "\xee\x97\xa8"	// U+e5e8
+#define ICON_LC_GRID_2X2_X "\xee\x97\xa9"	// U+e5e9
 #define ICON_LC_GRID_2X2 "\xee\x94\x83"	// U+e503
 #define ICON_LC_GRID_3X3 "\xee\x83\xa9"	// U+e0e9
 #define ICON_LC_GRIP_HORIZONTAL "\xee\x83\xaa"	// U+e0ea
@@ -810,6 +815,7 @@
 #define ICON_LC_LIST_X "\xee\x88\xbf"	// U+e23f
 #define ICON_LC_LIST "\xee\x84\x89"	// U+e109
 #define ICON_LC_LOADER_CIRCLE "\xee\x84\x8b"	// U+e10b
+#define ICON_LC_LOADER_PINWHEEL "\xee\x97\xaa"	// U+e5ea
 #define ICON_LC_LOADER "\xee\x84\x8a"	// U+e10a
 #define ICON_LC_LOCATE_FIXED "\xee\x87\x99"	// U+e1d9
 #define ICON_LC_LOCATE_OFF "\xee\x8a\x81"	// U+e281
@@ -904,6 +910,7 @@
 #define ICON_LC_MOUNTAIN "\xee\x88\xb0"	// U+e230
 #define ICON_LC_MOUSE_OFF "\xee\x97\x9f"	// U+e5df
 #define ICON_LC_MOUSE_POINTER_2 "\xee\x87\x82"	// U+e1c2
+#define ICON_LC_MOUSE_POINTER_BAN "\xee\x97\xab"	// U+e5eb
 #define ICON_LC_MOUSE_POINTER_CLICK "\xee\x84\xa1"	// U+e121
 #define ICON_LC_MOUSE_POINTER "\xee\x84\xa0"	// U+e120
 #define ICON_LC_MOUSE "\xee\x8a\x8d"	// U+e28d
@@ -946,6 +953,7 @@
 #define ICON_LC_OCTAGON "\xee\x84\xa7"	// U+e127
 #define ICON_LC_OPTION "\xee\x87\xb6"	// U+e1f6
 #define ICON_LC_ORBIT "\xee\x8f\xaa"	// U+e3ea
+#define ICON_LC_ORIGAMI "\xee\x97\xa7"	// U+e5e7
 #define ICON_LC_PACKAGE_2 "\xee\x8d\x83"	// U+e343
 #define ICON_LC_PACKAGE_CHECK "\xee\x89\xa5"	// U+e265
 #define ICON_LC_PACKAGE_MINUS "\xee\x89\xa6"	// U+e266

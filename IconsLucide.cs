@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe5e3;
-        public const int IconMax = 0xe5e3;
+        public const int IconMax16 = 0xe5eb;
+        public const int IconMax = 0xe5eb;
 
         public const string AArrowDown = "\ue589";
         public const string AArrowUp = "\ue58a";
@@ -229,6 +229,7 @@ namespace IconFonts
         public const string Bookmark = "\ue066";
         public const string BoomBox = "\ue4f2";
         public const string BotMessageSquare = "\ue5d2";
+        public const string BotOff = "\ue5e4";
         public const string Bot = "\ue1b9";
         public const string BoxSelect = "\ue1ba";
         public const string Box = "\ue067";
@@ -461,7 +462,9 @@ namespace IconFonts
         public const string Delete = "\ue0af";
         public const string Dessert = "\ue4bf";
         public const string Diameter = "\ue52a";
+        public const string DiamondMinus = "\ue5e5";
         public const string DiamondPercent = "\ue51f";
+        public const string DiamondPlus = "\ue5e6";
         public const string Diamond = "\ue2d1";
         public const string Dice1 = "\ue286";
         public const string Dice2 = "\ue287";
@@ -684,6 +687,8 @@ namespace IconFonts
         public const string Grab = "\ue1e4";
         public const string GraduationCap = "\ue233";
         public const string Grape = "\ue355";
+        public const string Grid2x2Check = "\ue5e8";
+        public const string Grid2x2X = "\ue5e9";
         public const string Grid2x2 = "\ue503";
         public const string Grid3x3 = "\ue0e9";
         public const string GripHorizontal = "\ue0ea";
@@ -814,6 +819,7 @@ namespace IconFonts
         public const string ListX = "\ue23f";
         public const string List = "\ue109";
         public const string LoaderCircle = "\ue10b";
+        public const string LoaderPinwheel = "\ue5ea";
         public const string Loader = "\ue10a";
         public const string LocateFixed = "\ue1d9";
         public const string LocateOff = "\ue281";
@@ -908,6 +914,7 @@ namespace IconFonts
         public const string Mountain = "\ue230";
         public const string MouseOff = "\ue5df";
         public const string MousePointer2 = "\ue1c2";
+        public const string MousePointerBan = "\ue5eb";
         public const string MousePointerClick = "\ue121";
         public const string MousePointer = "\ue120";
         public const string Mouse = "\ue28d";
@@ -950,6 +957,7 @@ namespace IconFonts
         public const string Octagon = "\ue127";
         public const string Option = "\ue1f6";
         public const string Orbit = "\ue3ea";
+        public const string Origami = "\ue5e7";
         public const string Package2 = "\ue343";
         public const string PackageCheck = "\ue265";
         public const string PackageMinus = "\ue266";

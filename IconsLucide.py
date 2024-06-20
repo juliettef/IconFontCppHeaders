@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe5eb
-    ICON_MAX = 0xe5eb
+    ICON_MAX_16 = 0xe5f3
+    ICON_MAX = 0xe5f3
 
     ICON_A_ARROW_DOWN = '\ue589'
     ICON_A_ARROW_UP = '\ue58a'
@@ -178,6 +178,7 @@ class IconsLucide:
     ICON_BETWEEN_HORIZONTAL_START = '\ue596'
     ICON_BETWEEN_VERTICAL_END = '\ue597'
     ICON_BETWEEN_VERTICAL_START = '\ue598'
+    ICON_BICEPS_FLEXED = '\ue5ef'
     ICON_BIKE = '\ue1d0'
     ICON_BINARY = '\ue1f0'
     ICON_BIOHAZARD = '\ue445'
@@ -256,6 +257,7 @@ class IconsLucide:
     ICON_CALENDAR_CHECK_2 = '\ue2b7'
     ICON_CALENDAR_CHECK = '\ue2b6'
     ICON_CALENDAR_CLOCK = '\ue303'
+    ICON_CALENDAR_COG = '\ue5f1'
     ICON_CALENDAR_DAYS = '\ue2b8'
     ICON_CALENDAR_FOLD = '\ue5b8'
     ICON_CALENDAR_HEART = '\ue304'
@@ -788,6 +790,7 @@ class IconsLucide:
     ICON_LAYOUT_TEMPLATE = '\ue205'
     ICON_LEAF = '\ue2dd'
     ICON_LEAFY_GREEN = '\ue473'
+    ICON_LECTERN = '\ue5ed'
     ICON_LIBRARY_BIG = '\ue552'
     ICON_LIBRARY = '\ue103'
     ICON_LIFE_BUOY = '\ue104'
@@ -964,7 +967,7 @@ class IconsLucide:
     ICON_PACKAGE = '\ue12a'
     ICON_PAINT_BUCKET = '\ue2e5'
     ICON_PAINT_ROLLER = '\ue5a2'
-    ICON_PAINTBRUSH_2 = '\ue2e7'
+    ICON_PAINTBRUSH_VERTICAL = '\ue2e7'
     ICON_PAINTBRUSH = '\ue2e6'
     ICON_PALETTE = '\ue1db'
     ICON_PANEL_BOTTOM_CLOSE = '\ue431'
@@ -994,9 +997,11 @@ class IconsLucide:
     ICON_PAW_PRINT = '\ue4f9'
     ICON_PC_CASE = '\ue44a'
     ICON_PEN_LINE = '\ue131'
+    ICON_PEN_OFF = '\ue5f2'
     ICON_PEN_TOOL = '\ue132'
     ICON_PEN = '\ue130'
     ICON_PENCIL_LINE = '\ue4f4'
+    ICON_PENCIL_OFF = '\ue5f3'
     ICON_PENCIL_RULER = '\ue4f5'
     ICON_PENCIL = '\ue1f7'
     ICON_PENTAGON = '\ue52f'
@@ -1019,6 +1024,7 @@ class IconsLucide:
     ICON_PILCROW_LEFT = '\ue5e0'
     ICON_PILCROW_RIGHT = '\ue5e1'
     ICON_PILCROW = '\ue3a6'
+    ICON_PILL_BOTTLE = '\ue5ee'
     ICON_PILL = '\ue3c0'
     ICON_PIN_OFF = '\ue2b5'
     ICON_PIN = '\ue258'
@@ -1142,6 +1148,7 @@ class IconsLucide:
     ICON_SEARCH_SLASH = '\ue4b0'
     ICON_SEARCH_X = '\ue4b1'
     ICON_SEARCH = '\ue153'
+    ICON_SECTION = '\ue5ec'
     ICON_SEND_HORIZONTAL = '\ue4f6'
     ICON_SEND_TO_BACK = '\ue4f7'
     ICON_SEND = '\ue154'
@@ -1383,7 +1390,8 @@ class IconsLucide:
     ICON_TROPHY = '\ue376'
     ICON_TRUCK = '\ue192'
     ICON_TURTLE = '\ue4fd'
-    ICON_TV_2 = '\ue201'
+    ICON_TV_MINIMAL_PLAY = '\ue5f0'
+    ICON_TV_MINIMAL = '\ue201'
     ICON_TV = '\ue193'
     ICON_TWITCH = '\ue194'
     ICON_TWITTER = '\ue195'

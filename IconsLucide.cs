@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe5eb;
-        public const int IconMax = 0xe5eb;
+        public const int IconMax16 = 0xe5f3;
+        public const int IconMax = 0xe5f3;
 
         public const string AArrowDown = "\ue589";
         public const string AArrowUp = "\ue58a";
@@ -182,6 +182,7 @@ namespace IconFonts
         public const string BetweenHorizontalStart = "\ue596";
         public const string BetweenVerticalEnd = "\ue597";
         public const string BetweenVerticalStart = "\ue598";
+        public const string BicepsFlexed = "\ue5ef";
         public const string Bike = "\ue1d0";
         public const string Binary = "\ue1f0";
         public const string Biohazard = "\ue445";
@@ -260,6 +261,7 @@ namespace IconFonts
         public const string CalendarCheck2 = "\ue2b7";
         public const string CalendarCheck = "\ue2b6";
         public const string CalendarClock = "\ue303";
+        public const string CalendarCog = "\ue5f1";
         public const string CalendarDays = "\ue2b8";
         public const string CalendarFold = "\ue5b8";
         public const string CalendarHeart = "\ue304";
@@ -792,6 +794,7 @@ namespace IconFonts
         public const string LayoutTemplate = "\ue205";
         public const string Leaf = "\ue2dd";
         public const string LeafyGreen = "\ue473";
+        public const string Lectern = "\ue5ed";
         public const string LibraryBig = "\ue552";
         public const string Library = "\ue103";
         public const string LifeBuoy = "\ue104";
@@ -968,7 +971,7 @@ namespace IconFonts
         public const string Package = "\ue12a";
         public const string PaintBucket = "\ue2e5";
         public const string PaintRoller = "\ue5a2";
-        public const string Paintbrush2 = "\ue2e7";
+        public const string PaintbrushVertical = "\ue2e7";
         public const string Paintbrush = "\ue2e6";
         public const string Palette = "\ue1db";
         public const string PanelBottomClose = "\ue431";
@@ -998,9 +1001,11 @@ namespace IconFonts
         public const string PawPrint = "\ue4f9";
         public const string PcCase = "\ue44a";
         public const string PenLine = "\ue131";
+        public const string PenOff = "\ue5f2";
         public const string PenTool = "\ue132";
         public const string Pen = "\ue130";
         public const string PencilLine = "\ue4f4";
+        public const string PencilOff = "\ue5f3";
         public const string PencilRuler = "\ue4f5";
         public const string Pencil = "\ue1f7";
         public const string Pentagon = "\ue52f";
@@ -1023,6 +1028,7 @@ namespace IconFonts
         public const string PilcrowLeft = "\ue5e0";
         public const string PilcrowRight = "\ue5e1";
         public const string Pilcrow = "\ue3a6";
+        public const string PillBottle = "\ue5ee";
         public const string Pill = "\ue3c0";
         public const string PinOff = "\ue2b5";
         public const string Pin = "\ue258";
@@ -1146,6 +1152,7 @@ namespace IconFonts
         public const string SearchSlash = "\ue4b0";
         public const string SearchX = "\ue4b1";
         public const string Search = "\ue153";
+        public const string Section = "\ue5ec";
         public const string SendHorizontal = "\ue4f6";
         public const string SendToBack = "\ue4f7";
         public const string Send = "\ue154";
@@ -1387,7 +1394,8 @@ namespace IconFonts
         public const string Trophy = "\ue376";
         public const string Truck = "\ue192";
         public const string Turtle = "\ue4fd";
-        public const string Tv2 = "\ue201";
+        public const string TvMinimalPlay = "\ue5f0";
+        public const string TvMinimal = "\ue201";
         public const string Tv = "\ue193";
         public const string Twitch = "\ue194";
         public const string Twitter = "\ue195";

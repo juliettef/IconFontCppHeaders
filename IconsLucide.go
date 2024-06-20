@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe5eb,
-	Max: 0xe5eb,
+	Max16: 0xe5f3,
+	Max: 0xe5f3,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x89", 	// U+e589
 		"AArrowUp":	"\xee\x96\x8a", 	// U+e58a
@@ -180,6 +180,7 @@ var IconsLucide = Font{
 		"BetweenHorizontalStart":	"\xee\x96\x96", 	// U+e596
 		"BetweenVerticalEnd":	"\xee\x96\x97", 	// U+e597
 		"BetweenVerticalStart":	"\xee\x96\x98", 	// U+e598
+		"BicepsFlexed":	"\xee\x97\xaf", 	// U+e5ef
 		"Bike":	"\xee\x87\x90", 	// U+e1d0
 		"Binary":	"\xee\x87\xb0", 	// U+e1f0
 		"Biohazard":	"\xee\x91\x85", 	// U+e445
@@ -258,6 +259,7 @@ var IconsLucide = Font{
 		"CalendarCheck2":	"\xee\x8a\xb7", 	// U+e2b7
 		"CalendarCheck":	"\xee\x8a\xb6", 	// U+e2b6
 		"CalendarClock":	"\xee\x8c\x83", 	// U+e303
+		"CalendarCog":	"\xee\x97\xb1", 	// U+e5f1
 		"CalendarDays":	"\xee\x8a\xb8", 	// U+e2b8
 		"CalendarFold":	"\xee\x96\xb8", 	// U+e5b8
 		"CalendarHeart":	"\xee\x8c\x84", 	// U+e304
@@ -790,6 +792,7 @@ var IconsLucide = Font{
 		"LayoutTemplate":	"\xee\x88\x85", 	// U+e205
 		"Leaf":	"\xee\x8b\x9d", 	// U+e2dd
 		"LeafyGreen":	"\xee\x91\xb3", 	// U+e473
+		"Lectern":	"\xee\x97\xad", 	// U+e5ed
 		"LibraryBig":	"\xee\x95\x92", 	// U+e552
 		"Library":	"\xee\x84\x83", 	// U+e103
 		"LifeBuoy":	"\xee\x84\x84", 	// U+e104
@@ -966,7 +969,7 @@ var IconsLucide = Font{
 		"Package":	"\xee\x84\xaa", 	// U+e12a
 		"PaintBucket":	"\xee\x8b\xa5", 	// U+e2e5
 		"PaintRoller":	"\xee\x96\xa2", 	// U+e5a2
-		"Paintbrush2":	"\xee\x8b\xa7", 	// U+e2e7
+		"PaintbrushVertical":	"\xee\x8b\xa7", 	// U+e2e7
 		"Paintbrush":	"\xee\x8b\xa6", 	// U+e2e6
 		"Palette":	"\xee\x87\x9b", 	// U+e1db
 		"PanelBottomClose":	"\xee\x90\xb1", 	// U+e431
@@ -996,9 +999,11 @@ var IconsLucide = Font{
 		"PawPrint":	"\xee\x93\xb9", 	// U+e4f9
 		"PcCase":	"\xee\x91\x8a", 	// U+e44a
 		"PenLine":	"\xee\x84\xb1", 	// U+e131
+		"PenOff":	"\xee\x97\xb2", 	// U+e5f2
 		"PenTool":	"\xee\x84\xb2", 	// U+e132
 		"Pen":	"\xee\x84\xb0", 	// U+e130
 		"PencilLine":	"\xee\x93\xb4", 	// U+e4f4
+		"PencilOff":	"\xee\x97\xb3", 	// U+e5f3
 		"PencilRuler":	"\xee\x93\xb5", 	// U+e4f5
 		"Pencil":	"\xee\x87\xb7", 	// U+e1f7
 		"Pentagon":	"\xee\x94\xaf", 	// U+e52f
@@ -1021,6 +1026,7 @@ var IconsLucide = Font{
 		"PilcrowLeft":	"\xee\x97\xa0", 	// U+e5e0
 		"PilcrowRight":	"\xee\x97\xa1", 	// U+e5e1
 		"Pilcrow":	"\xee\x8e\xa6", 	// U+e3a6
+		"PillBottle":	"\xee\x97\xae", 	// U+e5ee
 		"Pill":	"\xee\x8f\x80", 	// U+e3c0
 		"PinOff":	"\xee\x8a\xb5", 	// U+e2b5
 		"Pin":	"\xee\x89\x98", 	// U+e258
@@ -1144,6 +1150,7 @@ var IconsLucide = Font{
 		"SearchSlash":	"\xee\x92\xb0", 	// U+e4b0
 		"SearchX":	"\xee\x92\xb1", 	// U+e4b1
 		"Search":	"\xee\x85\x93", 	// U+e153
+		"Section":	"\xee\x97\xac", 	// U+e5ec
 		"SendHorizontal":	"\xee\x93\xb6", 	// U+e4f6
 		"SendToBack":	"\xee\x93\xb7", 	// U+e4f7
 		"Send":	"\xee\x85\x94", 	// U+e154
@@ -1385,7 +1392,8 @@ var IconsLucide = Font{
 		"Trophy":	"\xee\x8d\xb6", 	// U+e376
 		"Truck":	"\xee\x86\x92", 	// U+e192
 		"Turtle":	"\xee\x93\xbd", 	// U+e4fd
-		"Tv2":	"\xee\x88\x81", 	// U+e201
+		"TvMinimalPlay":	"\xee\x97\xb0", 	// U+e5f0
+		"TvMinimal":	"\xee\x88\x81", 	// U+e201
 		"Tv":	"\xee\x86\x93", 	// U+e193
 		"Twitch":	"\xee\x86\x94", 	// U+e194
 		"Twitter":	"\xee\x86\x95", 	// U+e195

@@ -582,6 +582,7 @@ var IconsCodicons = Font{
 		"GoToSearch":	"\xee\xb0\xb2", 	// U+ec32
 		"Percentage":	"\xee\xb0\xb3", 	// U+ec33
 		"SortPercentage":	"\xee\xb0\xb3", 	// U+ec33
+		"Attach":	"\xee\xb0\xb4", 	// U+ec34
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

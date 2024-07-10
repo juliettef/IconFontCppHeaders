@@ -580,4 +580,5 @@ class IconsCodicons:
     ICON_GO_TO_SEARCH = '\uec32'
     ICON_PERCENTAGE = '\uec33'
     ICON_SORT_PERCENTAGE = '\uec33'
+    ICON_ATTACH = '\uec34'
     ICON_GIT_FETCH = '\uf101'

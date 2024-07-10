@@ -578,4 +578,5 @@ pub const ICON_FOLD_VERTICAL_FILLED: char = '\u{ec31}';
 pub const ICON_GO_TO_SEARCH: char = '\u{ec32}';
 pub const ICON_PERCENTAGE: char = '\u{ec33}';
 pub const ICON_SORT_PERCENTAGE: char = '\u{ec33}';
+pub const ICON_ATTACH: char = '\u{ec34}';
 pub const ICON_GIT_FETCH: char = '\u{f101}';

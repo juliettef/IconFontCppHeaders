@@ -580,4 +580,5 @@
 #define ICON_CI_GO_TO_SEARCH "\xee\xb0\xb2"	// U+ec32
 #define ICON_CI_PERCENTAGE "\xee\xb0\xb3"	// U+ec33
 #define ICON_CI_SORT_PERCENTAGE "\xee\xb0\xb3"	// U+ec33
+#define ICON_CI_ATTACH "\xee\xb0\xb4"	// U+ec34
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

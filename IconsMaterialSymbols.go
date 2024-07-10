@@ -120,6 +120,8 @@ var IconsMaterialSymbols = Font{
 		"Add_chart":	"\xee\xbc\xbc", 	// U+ef3c
 		"Add_circle":	"\xee\x8e\xba", 	// U+e3ba
 		"Add_circle_outline":	"\xee\x8e\xba", 	// U+e3ba
+		"Add_column_left":	"\xef\x90\xa5", 	// U+f425
+		"Add_column_right":	"\xef\x90\xa4", 	// U+f424
 		"Add_comment":	"\xee\x89\xa6", 	// U+e266
 		"Add_diamond":	"\xef\x92\x9c", 	// U+f49c
 		"Add_home":	"\xef\xa3\xab", 	// U+f8eb
@@ -133,6 +135,8 @@ var IconsMaterialSymbols = Font{
 		"Add_photo_alternate":	"\xee\x90\xbe", 	// U+e43e
 		"Add_reaction":	"\xee\x87\x93", 	// U+e1d3
 		"Add_road":	"\xee\xbc\xbb", 	// U+ef3b
+		"Add_row_above":	"\xef\x90\xa3", 	// U+f423
+		"Add_row_below":	"\xef\x90\xa2", 	// U+f422
 		"Add_shopping_cart":	"\xee\xa1\x94", 	// U+e854
 		"Add_task":	"\xef\x88\xba", 	// U+f23a
 		"Add_to_drive":	"\xee\x99\x9c", 	// U+e65c
@@ -247,6 +251,7 @@ var IconsMaterialSymbols = Font{
 		"Arming_countdown":	"\xee\x9e\x8a", 	// U+e78a
 		"Arrow_and_edge":	"\xef\x97\x97", 	// U+f5d7
 		"Arrow_back":	"\xee\x97\x84", 	// U+e5c4
+		"Arrow_back_2":	"\xef\x90\xba", 	// U+f43a
 		"Arrow_back_ios":	"\xee\x97\xa0", 	// U+e5e0
 		"Arrow_back_ios_new":	"\xee\x8b\xaa", 	// U+e2ea
 		"Arrow_circle_down":	"\xef\x86\x81", 	// U+f181
@@ -341,6 +346,7 @@ var IconsMaterialSymbols = Font{
 		"Auto_transmission":	"\xef\x94\xbf", 	// U+f53f
 		"Auto_videocam":	"\xef\x9b\x80", 	// U+f6c0
 		"Autofps_select":	"\xee\xbf\x9c", 	// U+efdc
+		"Automation":	"\xef\x90\xa1", 	// U+f421
 		"Autopause":	"\xef\x9a\xb6", 	// U+f6b6
 		"Autopay":	"\xef\xa1\x8b", 	// U+f84b
 		"Autoplay":	"\xef\x9a\xb5", 	// U+f6b5
@@ -622,6 +628,7 @@ var IconsMaterialSymbols = Font{
 		"Cast_warning":	"\xef\x97\xaf", 	// U+f5ef
 		"Castle":	"\xee\xaa\xb1", 	// U+eab1
 		"Category":	"\xee\x95\xb4", 	// U+e574
+		"Category_search":	"\xef\x90\xb7", 	// U+f437
 		"Celebration":	"\xee\xa9\xa5", 	// U+ea65
 		"Cell_merge":	"\xef\xa0\xae", 	// U+f82e
 		"Cell_tower":	"\xee\xae\xba", 	// U+ebba
@@ -730,6 +737,7 @@ var IconsMaterialSymbols = Font{
 		"Color_lens":	"\xee\x90\x8a", 	// U+e40a
 		"Colorize":	"\xee\x8e\xb8", 	// U+e3b8
 		"Colors":	"\xee\xa6\x97", 	// U+e997
+		"Combine_columns":	"\xef\x90\xa0", 	// U+f420
 		"Comedy_mask":	"\xef\x93\x96", 	// U+f4d6
 		"Comic_bubble":	"\xef\x97\x9d", 	// U+f5dd
 		"Comment":	"\xee\x89\x8c", 	// U+e24c
@@ -810,6 +818,7 @@ var IconsMaterialSymbols = Font{
 		"Create":	"\xef\x82\x97", 	// U+f097
 		"Create_new_folder":	"\xee\x8b\x8c", 	// U+e2cc
 		"Credit_card":	"\xee\xa2\xa1", 	// U+e8a1
+		"Credit_card_clock":	"\xef\x90\xb8", 	// U+f438
 		"Credit_card_gear":	"\xef\x94\xad", 	// U+f52d
 		"Credit_card_heart":	"\xef\x94\xac", 	// U+f52c
 		"Credit_card_off":	"\xee\x93\xb4", 	// U+e4f4
@@ -900,6 +909,7 @@ var IconsMaterialSymbols = Font{
 		"Deskphone":	"\xef\x9f\xba", 	// U+f7fa
 		"Desktop_access_disabled":	"\xee\xa6\x9d", 	// U+e99d
 		"Desktop_landscape":	"\xef\x91\x9e", 	// U+f45e
+		"Desktop_landscape_add":	"\xef\x90\xb9", 	// U+f439
 		"Desktop_mac":	"\xee\x8c\x8b", 	// U+e30b
 		"Desktop_portrait":	"\xef\x91\x9d", 	// U+f45d
 		"Desktop_windows":	"\xee\x8c\x8c", 	// U+e30c
@@ -929,6 +939,7 @@ var IconsMaterialSymbols = Font{
 		"Devices_wearables":	"\xef\x9a\xab", 	// U+f6ab
 		"Dew_point":	"\xef\xa1\xb9", 	// U+f879
 		"Diagnosis":	"\xee\x82\xa8", 	// U+e0a8
+		"Diagonal_line":	"\xef\x90\x9e", 	// U+f41e
 		"Dialer_sip":	"\xee\x82\xbb", 	// U+e0bb
 		"Dialogs":	"\xee\xa6\x9f", 	// U+e99f
 		"Dialpad":	"\xee\x82\xbc", 	// U+e0bc
@@ -1032,6 +1043,7 @@ var IconsMaterialSymbols = Font{
 		"Drawing_recognition":	"\xee\xac\x80", 	// U+eb00
 		"Dresser":	"\xee\x88\x90", 	// U+e210
 		"Drive_eta":	"\xee\xbf\xb7", 	// U+eff7
+		"Drive_export":	"\xef\x90\x9d", 	// U+f41d
 		"Drive_file_move":	"\xee\xa6\xa1", 	// U+e9a1
 		"Drive_file_move_outline":	"\xee\xa6\xa1", 	// U+e9a1
 		"Drive_file_move_rtl":	"\xee\xa6\xa1", 	// U+e9a1
@@ -1063,6 +1075,7 @@ var IconsMaterialSymbols = Font{
 		"Edgesensor_low":	"\xef\x80\x86", 	// U+f006
 		"Edit":	"\xef\x82\x97", 	// U+f097
 		"Edit_attributes":	"\xee\x95\xb8", 	// U+e578
+		"Edit_audio":	"\xef\x90\xad", 	// U+f42d
 		"Edit_calendar":	"\xee\x9d\x82", 	// U+e742
 		"Edit_document":	"\xef\xa2\x8c", 	// U+f88c
 		"Edit_location":	"\xee\x95\xa8", 	// U+e568
@@ -1110,6 +1123,10 @@ var IconsMaterialSymbols = Font{
 		"Empty_dashboard":	"\xef\xa1\x84", 	// U+f844
 		"Enable":	"\xef\x86\x88", 	// U+f188
 		"Encrypted":	"\xee\x96\x93", 	// U+e593
+		"Encrypted_add":	"\xef\x90\xa9", 	// U+f429
+		"Encrypted_add_circle":	"\xef\x90\xaa", 	// U+f42a
+		"Encrypted_minus_circle":	"\xef\x90\xa8", 	// U+f428
+		"Encrypted_off":	"\xef\x90\xa7", 	// U+f427
 		"Endocrinology":	"\xee\x82\xa9", 	// U+e0a9
 		"Energy":	"\xee\xa6\xa6", 	// U+e9a6
 		"Energy_program_saving":	"\xef\x85\x9f", 	// U+f15f
@@ -1938,6 +1955,7 @@ var IconsMaterialSymbols = Font{
 		"Markunread":	"\xee\x85\x99", 	// U+e159
 		"Markunread_mailbox":	"\xee\xa2\x9b", 	// U+e89b
 		"Masked_transitions":	"\xee\x9c\xae", 	// U+e72e
+		"Masked_transitions_add":	"\xef\x90\xab", 	// U+f42b
 		"Masks":	"\xef\x88\x98", 	// U+f218
 		"Match_case":	"\xef\x9b\xb1", 	// U+f6f1
 		"Match_word":	"\xef\x9b\xb0", 	// U+f6f0
@@ -2249,6 +2267,7 @@ var IconsMaterialSymbols = Font{
 		"Open_with":	"\xee\xa2\x9f", 	// U+e89f
 		"Ophthalmology":	"\xee\x84\x95", 	// U+e115
 		"Oral_disease":	"\xee\x84\x96", 	// U+e116
+		"Orbit":	"\xef\x90\xa6", 	// U+f426
 		"Order_approve":	"\xef\xa0\x92", 	// U+f812
 		"Order_play":	"\xef\xa0\x91", 	// U+f811
 		"Orders":	"\xee\xac\x94", 	// U+eb14
@@ -3466,6 +3485,7 @@ var IconsMaterialSymbols = Font{
 		"View_kanban":	"\xee\xad\xbf", 	// U+eb7f
 		"View_list":	"\xee\xa3\xaf", 	// U+e8ef
 		"View_module":	"\xee\xa3\xb0", 	// U+e8f0
+		"View_object_track":	"\xef\x90\xb2", 	// U+f432
 		"View_quilt":	"\xee\xa3\xb1", 	// U+e8f1
 		"View_real_size":	"\xef\x93\x82", 	// U+f4c2
 		"View_sidebar":	"\xef\x84\x94", 	// U+f114

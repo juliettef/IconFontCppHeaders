@@ -118,6 +118,8 @@
 #define ICON_MS_ADD_CHART "\xee\xbc\xbc"	// U+ef3c
 #define ICON_MS_ADD_CIRCLE "\xee\x8e\xba"	// U+e3ba
 #define ICON_MS_ADD_CIRCLE_OUTLINE "\xee\x8e\xba"	// U+e3ba
+#define ICON_MS_ADD_COLUMN_LEFT "\xef\x90\xa5"	// U+f425
+#define ICON_MS_ADD_COLUMN_RIGHT "\xef\x90\xa4"	// U+f424
 #define ICON_MS_ADD_COMMENT "\xee\x89\xa6"	// U+e266
 #define ICON_MS_ADD_DIAMOND "\xef\x92\x9c"	// U+f49c
 #define ICON_MS_ADD_HOME "\xef\xa3\xab"	// U+f8eb
@@ -131,6 +133,8 @@
 #define ICON_MS_ADD_PHOTO_ALTERNATE "\xee\x90\xbe"	// U+e43e
 #define ICON_MS_ADD_REACTION "\xee\x87\x93"	// U+e1d3
 #define ICON_MS_ADD_ROAD "\xee\xbc\xbb"	// U+ef3b
+#define ICON_MS_ADD_ROW_ABOVE "\xef\x90\xa3"	// U+f423
+#define ICON_MS_ADD_ROW_BELOW "\xef\x90\xa2"	// U+f422
 #define ICON_MS_ADD_SHOPPING_CART "\xee\xa1\x94"	// U+e854
 #define ICON_MS_ADD_TASK "\xef\x88\xba"	// U+f23a
 #define ICON_MS_ADD_TO_DRIVE "\xee\x99\x9c"	// U+e65c
@@ -245,6 +249,7 @@
 #define ICON_MS_ARMING_COUNTDOWN "\xee\x9e\x8a"	// U+e78a
 #define ICON_MS_ARROW_AND_EDGE "\xef\x97\x97"	// U+f5d7
 #define ICON_MS_ARROW_BACK "\xee\x97\x84"	// U+e5c4
+#define ICON_MS_ARROW_BACK_2 "\xef\x90\xba"	// U+f43a
 #define ICON_MS_ARROW_BACK_IOS "\xee\x97\xa0"	// U+e5e0
 #define ICON_MS_ARROW_BACK_IOS_NEW "\xee\x8b\xaa"	// U+e2ea
 #define ICON_MS_ARROW_CIRCLE_DOWN "\xef\x86\x81"	// U+f181
@@ -339,6 +344,7 @@
 #define ICON_MS_AUTO_TRANSMISSION "\xef\x94\xbf"	// U+f53f
 #define ICON_MS_AUTO_VIDEOCAM "\xef\x9b\x80"	// U+f6c0
 #define ICON_MS_AUTOFPS_SELECT "\xee\xbf\x9c"	// U+efdc
+#define ICON_MS_AUTOMATION "\xef\x90\xa1"	// U+f421
 #define ICON_MS_AUTOPAUSE "\xef\x9a\xb6"	// U+f6b6
 #define ICON_MS_AUTOPAY "\xef\xa1\x8b"	// U+f84b
 #define ICON_MS_AUTOPLAY "\xef\x9a\xb5"	// U+f6b5
@@ -620,6 +626,7 @@
 #define ICON_MS_CAST_WARNING "\xef\x97\xaf"	// U+f5ef
 #define ICON_MS_CASTLE "\xee\xaa\xb1"	// U+eab1
 #define ICON_MS_CATEGORY "\xee\x95\xb4"	// U+e574
+#define ICON_MS_CATEGORY_SEARCH "\xef\x90\xb7"	// U+f437
 #define ICON_MS_CELEBRATION "\xee\xa9\xa5"	// U+ea65
 #define ICON_MS_CELL_MERGE "\xef\xa0\xae"	// U+f82e
 #define ICON_MS_CELL_TOWER "\xee\xae\xba"	// U+ebba
@@ -728,6 +735,7 @@
 #define ICON_MS_COLOR_LENS "\xee\x90\x8a"	// U+e40a
 #define ICON_MS_COLORIZE "\xee\x8e\xb8"	// U+e3b8
 #define ICON_MS_COLORS "\xee\xa6\x97"	// U+e997
+#define ICON_MS_COMBINE_COLUMNS "\xef\x90\xa0"	// U+f420
 #define ICON_MS_COMEDY_MASK "\xef\x93\x96"	// U+f4d6
 #define ICON_MS_COMIC_BUBBLE "\xef\x97\x9d"	// U+f5dd
 #define ICON_MS_COMMENT "\xee\x89\x8c"	// U+e24c
@@ -808,6 +816,7 @@
 #define ICON_MS_CREATE "\xef\x82\x97"	// U+f097
 #define ICON_MS_CREATE_NEW_FOLDER "\xee\x8b\x8c"	// U+e2cc
 #define ICON_MS_CREDIT_CARD "\xee\xa2\xa1"	// U+e8a1
+#define ICON_MS_CREDIT_CARD_CLOCK "\xef\x90\xb8"	// U+f438
 #define ICON_MS_CREDIT_CARD_GEAR "\xef\x94\xad"	// U+f52d
 #define ICON_MS_CREDIT_CARD_HEART "\xef\x94\xac"	// U+f52c
 #define ICON_MS_CREDIT_CARD_OFF "\xee\x93\xb4"	// U+e4f4
@@ -898,6 +907,7 @@
 #define ICON_MS_DESKPHONE "\xef\x9f\xba"	// U+f7fa
 #define ICON_MS_DESKTOP_ACCESS_DISABLED "\xee\xa6\x9d"	// U+e99d
 #define ICON_MS_DESKTOP_LANDSCAPE "\xef\x91\x9e"	// U+f45e
+#define ICON_MS_DESKTOP_LANDSCAPE_ADD "\xef\x90\xb9"	// U+f439
 #define ICON_MS_DESKTOP_MAC "\xee\x8c\x8b"	// U+e30b
 #define ICON_MS_DESKTOP_PORTRAIT "\xef\x91\x9d"	// U+f45d
 #define ICON_MS_DESKTOP_WINDOWS "\xee\x8c\x8c"	// U+e30c
@@ -927,6 +937,7 @@
 #define ICON_MS_DEVICES_WEARABLES "\xef\x9a\xab"	// U+f6ab
 #define ICON_MS_DEW_POINT "\xef\xa1\xb9"	// U+f879
 #define ICON_MS_DIAGNOSIS "\xee\x82\xa8"	// U+e0a8
+#define ICON_MS_DIAGONAL_LINE "\xef\x90\x9e"	// U+f41e
 #define ICON_MS_DIALER_SIP "\xee\x82\xbb"	// U+e0bb
 #define ICON_MS_DIALOGS "\xee\xa6\x9f"	// U+e99f
 #define ICON_MS_DIALPAD "\xee\x82\xbc"	// U+e0bc
@@ -1030,6 +1041,7 @@
 #define ICON_MS_DRAWING_RECOGNITION "\xee\xac\x80"	// U+eb00
 #define ICON_MS_DRESSER "\xee\x88\x90"	// U+e210
 #define ICON_MS_DRIVE_ETA "\xee\xbf\xb7"	// U+eff7
+#define ICON_MS_DRIVE_EXPORT "\xef\x90\x9d"	// U+f41d
 #define ICON_MS_DRIVE_FILE_MOVE "\xee\xa6\xa1"	// U+e9a1
 #define ICON_MS_DRIVE_FILE_MOVE_OUTLINE "\xee\xa6\xa1"	// U+e9a1
 #define ICON_MS_DRIVE_FILE_MOVE_RTL "\xee\xa6\xa1"	// U+e9a1
@@ -1061,6 +1073,7 @@
 #define ICON_MS_EDGESENSOR_LOW "\xef\x80\x86"	// U+f006
 #define ICON_MS_EDIT "\xef\x82\x97"	// U+f097
 #define ICON_MS_EDIT_ATTRIBUTES "\xee\x95\xb8"	// U+e578
+#define ICON_MS_EDIT_AUDIO "\xef\x90\xad"	// U+f42d
 #define ICON_MS_EDIT_CALENDAR "\xee\x9d\x82"	// U+e742
 #define ICON_MS_EDIT_DOCUMENT "\xef\xa2\x8c"	// U+f88c
 #define ICON_MS_EDIT_LOCATION "\xee\x95\xa8"	// U+e568
@@ -1108,6 +1121,10 @@
 #define ICON_MS_EMPTY_DASHBOARD "\xef\xa1\x84"	// U+f844
 #define ICON_MS_ENABLE "\xef\x86\x88"	// U+f188
 #define ICON_MS_ENCRYPTED "\xee\x96\x93"	// U+e593
+#define ICON_MS_ENCRYPTED_ADD "\xef\x90\xa9"	// U+f429
+#define ICON_MS_ENCRYPTED_ADD_CIRCLE "\xef\x90\xaa"	// U+f42a
+#define ICON_MS_ENCRYPTED_MINUS_CIRCLE "\xef\x90\xa8"	// U+f428
+#define ICON_MS_ENCRYPTED_OFF "\xef\x90\xa7"	// U+f427
 #define ICON_MS_ENDOCRINOLOGY "\xee\x82\xa9"	// U+e0a9
 #define ICON_MS_ENERGY "\xee\xa6\xa6"	// U+e9a6
 #define ICON_MS_ENERGY_PROGRAM_SAVING "\xef\x85\x9f"	// U+f15f
@@ -1936,6 +1953,7 @@
 #define ICON_MS_MARKUNREAD "\xee\x85\x99"	// U+e159
 #define ICON_MS_MARKUNREAD_MAILBOX "\xee\xa2\x9b"	// U+e89b
 #define ICON_MS_MASKED_TRANSITIONS "\xee\x9c\xae"	// U+e72e
+#define ICON_MS_MASKED_TRANSITIONS_ADD "\xef\x90\xab"	// U+f42b
 #define ICON_MS_MASKS "\xef\x88\x98"	// U+f218
 #define ICON_MS_MATCH_CASE "\xef\x9b\xb1"	// U+f6f1
 #define ICON_MS_MATCH_WORD "\xef\x9b\xb0"	// U+f6f0
@@ -2247,6 +2265,7 @@
 #define ICON_MS_OPEN_WITH "\xee\xa2\x9f"	// U+e89f
 #define ICON_MS_OPHTHALMOLOGY "\xee\x84\x95"	// U+e115
 #define ICON_MS_ORAL_DISEASE "\xee\x84\x96"	// U+e116
+#define ICON_MS_ORBIT "\xef\x90\xa6"	// U+f426
 #define ICON_MS_ORDER_APPROVE "\xef\xa0\x92"	// U+f812
 #define ICON_MS_ORDER_PLAY "\xef\xa0\x91"	// U+f811
 #define ICON_MS_ORDERS "\xee\xac\x94"	// U+eb14
@@ -3464,6 +3483,7 @@
 #define ICON_MS_VIEW_KANBAN "\xee\xad\xbf"	// U+eb7f
 #define ICON_MS_VIEW_LIST "\xee\xa3\xaf"	// U+e8ef
 #define ICON_MS_VIEW_MODULE "\xee\xa3\xb0"	// U+e8f0
+#define ICON_MS_VIEW_OBJECT_TRACK "\xef\x90\xb2"	// U+f432
 #define ICON_MS_VIEW_QUILT "\xee\xa3\xb1"	// U+e8f1
 #define ICON_MS_VIEW_REAL_SIZE "\xef\x93\x82"	// U+f4c2
 #define ICON_MS_VIEW_SIDEBAR "\xef\x84\x94"	// U+f114

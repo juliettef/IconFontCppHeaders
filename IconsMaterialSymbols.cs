@@ -122,6 +122,8 @@ namespace IconFonts
         public const string Add_chart = "\uef3c";
         public const string Add_circle = "\ue3ba";
         public const string Add_circle_outline = "\ue3ba";
+        public const string Add_column_left = "\uf425";
+        public const string Add_column_right = "\uf424";
         public const string Add_comment = "\ue266";
         public const string Add_diamond = "\uf49c";
         public const string Add_home = "\uf8eb";
@@ -135,6 +137,8 @@ namespace IconFonts
         public const string Add_photo_alternate = "\ue43e";
         public const string Add_reaction = "\ue1d3";
         public const string Add_road = "\uef3b";
+        public const string Add_row_above = "\uf423";
+        public const string Add_row_below = "\uf422";
         public const string Add_shopping_cart = "\ue854";
         public const string Add_task = "\uf23a";
         public const string Add_to_drive = "\ue65c";
@@ -249,6 +253,7 @@ namespace IconFonts
         public const string Arming_countdown = "\ue78a";
         public const string Arrow_and_edge = "\uf5d7";
         public const string Arrow_back = "\ue5c4";
+        public const string Arrow_back_2 = "\uf43a";
         public const string Arrow_back_ios = "\ue5e0";
         public const string Arrow_back_ios_new = "\ue2ea";
         public const string Arrow_circle_down = "\uf181";
@@ -343,6 +348,7 @@ namespace IconFonts
         public const string Auto_transmission = "\uf53f";
         public const string Auto_videocam = "\uf6c0";
         public const string Autofps_select = "\uefdc";
+        public const string Automation = "\uf421";
         public const string Autopause = "\uf6b6";
         public const string Autopay = "\uf84b";
         public const string Autoplay = "\uf6b5";
@@ -624,6 +630,7 @@ namespace IconFonts
         public const string Cast_warning = "\uf5ef";
         public const string Castle = "\ueab1";
         public const string Category = "\ue574";
+        public const string Category_search = "\uf437";
         public const string Celebration = "\uea65";
         public const string Cell_merge = "\uf82e";
         public const string Cell_tower = "\uebba";
@@ -732,6 +739,7 @@ namespace IconFonts
         public const string Color_lens = "\ue40a";
         public const string Colorize = "\ue3b8";
         public const string Colors = "\ue997";
+        public const string Combine_columns = "\uf420";
         public const string Comedy_mask = "\uf4d6";
         public const string Comic_bubble = "\uf5dd";
         public const string Comment = "\ue24c";
@@ -812,6 +820,7 @@ namespace IconFonts
         public const string Create = "\uf097";
         public const string Create_new_folder = "\ue2cc";
         public const string Credit_card = "\ue8a1";
+        public const string Credit_card_clock = "\uf438";
         public const string Credit_card_gear = "\uf52d";
         public const string Credit_card_heart = "\uf52c";
         public const string Credit_card_off = "\ue4f4";
@@ -902,6 +911,7 @@ namespace IconFonts
         public const string Deskphone = "\uf7fa";
         public const string Desktop_access_disabled = "\ue99d";
         public const string Desktop_landscape = "\uf45e";
+        public const string Desktop_landscape_add = "\uf439";
         public const string Desktop_mac = "\ue30b";
         public const string Desktop_portrait = "\uf45d";
         public const string Desktop_windows = "\ue30c";
@@ -931,6 +941,7 @@ namespace IconFonts
         public const string Devices_wearables = "\uf6ab";
         public const string Dew_point = "\uf879";
         public const string Diagnosis = "\ue0a8";
+        public const string Diagonal_line = "\uf41e";
         public const string Dialer_sip = "\ue0bb";
         public const string Dialogs = "\ue99f";
         public const string Dialpad = "\ue0bc";
@@ -1034,6 +1045,7 @@ namespace IconFonts
         public const string Drawing_recognition = "\ueb00";
         public const string Dresser = "\ue210";
         public const string Drive_eta = "\ueff7";
+        public const string Drive_export = "\uf41d";
         public const string Drive_file_move = "\ue9a1";
         public const string Drive_file_move_outline = "\ue9a1";
         public const string Drive_file_move_rtl = "\ue9a1";
@@ -1065,6 +1077,7 @@ namespace IconFonts
         public const string Edgesensor_low = "\uf006";
         public const string Edit = "\uf097";
         public const string Edit_attributes = "\ue578";
+        public const string Edit_audio = "\uf42d";
         public const string Edit_calendar = "\ue742";
         public const string Edit_document = "\uf88c";
         public const string Edit_location = "\ue568";
@@ -1112,6 +1125,10 @@ namespace IconFonts
         public const string Empty_dashboard = "\uf844";
         public const string Enable = "\uf188";
         public const string Encrypted = "\ue593";
+        public const string Encrypted_add = "\uf429";
+        public const string Encrypted_add_circle = "\uf42a";
+        public const string Encrypted_minus_circle = "\uf428";
+        public const string Encrypted_off = "\uf427";
         public const string Endocrinology = "\ue0a9";
         public const string Energy = "\ue9a6";
         public const string Energy_program_saving = "\uf15f";
@@ -1940,6 +1957,7 @@ namespace IconFonts
         public const string Markunread = "\ue159";
         public const string Markunread_mailbox = "\ue89b";
         public const string Masked_transitions = "\ue72e";
+        public const string Masked_transitions_add = "\uf42b";
         public const string Masks = "\uf218";
         public const string Match_case = "\uf6f1";
         public const string Match_word = "\uf6f0";
@@ -2251,6 +2269,7 @@ namespace IconFonts
         public const string Open_with = "\ue89f";
         public const string Ophthalmology = "\ue115";
         public const string Oral_disease = "\ue116";
+        public const string Orbit = "\uf426";
         public const string Order_approve = "\uf812";
         public const string Order_play = "\uf811";
         public const string Orders = "\ueb14";
@@ -3468,6 +3487,7 @@ namespace IconFonts
         public const string View_kanban = "\ueb7f";
         public const string View_list = "\ue8ef";
         public const string View_module = "\ue8f0";
+        public const string View_object_track = "\uf432";
         public const string View_quilt = "\ue8f1";
         public const string View_real_size = "\uf4c2";
         public const string View_sidebar = "\uf114";

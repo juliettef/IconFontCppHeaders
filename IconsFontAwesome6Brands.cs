@@ -117,6 +117,7 @@ namespace IconFonts
         public const string DAndD = "\uf38d";
         public const string DAndDBeyond = "\uf6ca";
         public const string Dailymotion = "\ue052";
+        public const string DartLang = "\ue693";
         public const string Dashcube = "\uf210";
         public const string Debian = "\ue60b";
         public const string Deezer = "\ue077";
@@ -166,6 +167,7 @@ namespace IconFonts
         public const string Firstdraft = "\uf3a1";
         public const string Flickr = "\uf16e";
         public const string Flipboard = "\uf44d";
+        public const string Flutter = "\ue694";
         public const string Fly = "\uf417";
         public const string FontAwesome = "\uf2b4";
         public const string Fonticons = "\uf280";

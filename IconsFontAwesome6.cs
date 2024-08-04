@@ -1205,6 +1205,7 @@ namespace IconFonts
         public const string TableCellsColumnLock = "\ue678";
         public const string TableCellsLarge = "\uf009";
         public const string TableCellsRowLock = "\ue67a";
+        public const string TableCellsRowUnlock = "\ue691";
         public const string TableColumns = "\uf0db";
         public const string TableList = "\uf00b";
         public const string TableTennisPaddleBall = "\uf45d";
@@ -1245,6 +1246,7 @@ namespace IconFonts
         public const string ThumbsDown = "\uf165";
         public const string ThumbsUp = "\uf164";
         public const string Thumbtack = "\uf08d";
+        public const string ThumbtackSlash = "\ue68f";
         public const string Ticket = "\uf145";
         public const string TicketSimple = "\uf3ff";
         public const string Timeline = "\ue29c";
@@ -1382,6 +1384,7 @@ namespace IconFonts
         public const string Water = "\uf773";
         public const string WaterLadder = "\uf5c5";
         public const string WaveSquare = "\uf83e";
+        public const string WebAwesome = "\ue682";
         public const string WeightHanging = "\uf5cd";
         public const string WeightScale = "\uf496";
         public const string WheatAwn = "\ue2cd";

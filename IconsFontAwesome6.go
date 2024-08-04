@@ -1203,6 +1203,7 @@ var IconsFontAwesome6 = Font{
 		"TableCellsColumnLock":	"\xee\x99\xb8", 	// U+e678
 		"TableCellsLarge":	"\xef\x80\x89", 	// U+f009
 		"TableCellsRowLock":	"\xee\x99\xba", 	// U+e67a
+		"TableCellsRowUnlock":	"\xee\x9a\x91", 	// U+e691
 		"TableColumns":	"\xef\x83\x9b", 	// U+f0db
 		"TableList":	"\xef\x80\x8b", 	// U+f00b
 		"TableTennisPaddleBall":	"\xef\x91\x9d", 	// U+f45d
@@ -1243,6 +1244,7 @@ var IconsFontAwesome6 = Font{
 		"ThumbsDown":	"\xef\x85\xa5", 	// U+f165
 		"ThumbsUp":	"\xef\x85\xa4", 	// U+f164
 		"Thumbtack":	"\xef\x82\x8d", 	// U+f08d
+		"ThumbtackSlash":	"\xee\x9a\x8f", 	// U+e68f
 		"Ticket":	"\xef\x85\x85", 	// U+f145
 		"TicketSimple":	"\xef\x8f\xbf", 	// U+f3ff
 		"Timeline":	"\xee\x8a\x9c", 	// U+e29c
@@ -1380,6 +1382,7 @@ var IconsFontAwesome6 = Font{
 		"Water":	"\xef\x9d\xb3", 	// U+f773
 		"WaterLadder":	"\xef\x97\x85", 	// U+f5c5
 		"WaveSquare":	"\xef\xa0\xbe", 	// U+f83e
+		"WebAwesome":	"\xee\x9a\x82", 	// U+e682
 		"WeightHanging":	"\xef\x97\x8d", 	// U+f5cd
 		"WeightScale":	"\xef\x92\x96", 	// U+f496
 		"WheatAwn":	"\xee\x8b\x8d", 	// U+e2cd

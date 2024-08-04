@@ -113,6 +113,7 @@
 #define ICON_FA_D_AND_D "\xef\x8e\x8d"	// U+f38d
 #define ICON_FA_D_AND_D_BEYOND "\xef\x9b\x8a"	// U+f6ca
 #define ICON_FA_DAILYMOTION "\xee\x81\x92"	// U+e052
+#define ICON_FA_DART_LANG "\xee\x9a\x93"	// U+e693
 #define ICON_FA_DASHCUBE "\xef\x88\x90"	// U+f210
 #define ICON_FA_DEBIAN "\xee\x98\x8b"	// U+e60b
 #define ICON_FA_DEEZER "\xee\x81\xb7"	// U+e077
@@ -162,6 +163,7 @@
 #define ICON_FA_FIRSTDRAFT "\xef\x8e\xa1"	// U+f3a1
 #define ICON_FA_FLICKR "\xef\x85\xae"	// U+f16e
 #define ICON_FA_FLIPBOARD "\xef\x91\x8d"	// U+f44d
+#define ICON_FA_FLUTTER "\xee\x9a\x94"	// U+e694
 #define ICON_FA_FLY "\xef\x90\x97"	// U+f417
 #define ICON_FA_FONT_AWESOME "\xef\x8a\xb4"	// U+f2b4
 #define ICON_FA_FONTICONS "\xef\x8a\x80"	// U+f280

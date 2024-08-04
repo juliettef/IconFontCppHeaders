@@ -1201,6 +1201,7 @@
 #define ICON_FA_TABLE_CELLS_COLUMN_LOCK "\xee\x99\xb8"	// U+e678
 #define ICON_FA_TABLE_CELLS_LARGE "\xef\x80\x89"	// U+f009
 #define ICON_FA_TABLE_CELLS_ROW_LOCK "\xee\x99\xba"	// U+e67a
+#define ICON_FA_TABLE_CELLS_ROW_UNLOCK "\xee\x9a\x91"	// U+e691
 #define ICON_FA_TABLE_COLUMNS "\xef\x83\x9b"	// U+f0db
 #define ICON_FA_TABLE_LIST "\xef\x80\x8b"	// U+f00b
 #define ICON_FA_TABLE_TENNIS_PADDLE_BALL "\xef\x91\x9d"	// U+f45d
@@ -1241,6 +1242,7 @@
 #define ICON_FA_THUMBS_DOWN "\xef\x85\xa5"	// U+f165
 #define ICON_FA_THUMBS_UP "\xef\x85\xa4"	// U+f164
 #define ICON_FA_THUMBTACK "\xef\x82\x8d"	// U+f08d
+#define ICON_FA_THUMBTACK_SLASH "\xee\x9a\x8f"	// U+e68f
 #define ICON_FA_TICKET "\xef\x85\x85"	// U+f145
 #define ICON_FA_TICKET_SIMPLE "\xef\x8f\xbf"	// U+f3ff
 #define ICON_FA_TIMELINE "\xee\x8a\x9c"	// U+e29c
@@ -1378,6 +1380,7 @@
 #define ICON_FA_WATER "\xef\x9d\xb3"	// U+f773
 #define ICON_FA_WATER_LADDER "\xef\x97\x85"	// U+f5c5
 #define ICON_FA_WAVE_SQUARE "\xef\xa0\xbe"	// U+f83e
+#define ICON_FA_WEB_AWESOME "\xee\x9a\x82"	// U+e682
 #define ICON_FA_WEIGHT_HANGING "\xef\x97\x8d"	// U+f5cd
 #define ICON_FA_WEIGHT_SCALE "\xef\x92\x96"	// U+f496
 #define ICON_FA_WHEAT_AWN "\xee\x8b\x8d"	// U+e2cd

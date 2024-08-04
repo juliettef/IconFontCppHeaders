@@ -115,6 +115,7 @@ var IconsFontAwesome6Brands = Font{
 		"DAndD":	"\xef\x8e\x8d", 	// U+f38d
 		"DAndDBeyond":	"\xef\x9b\x8a", 	// U+f6ca
 		"Dailymotion":	"\xee\x81\x92", 	// U+e052
+		"DartLang":	"\xee\x9a\x93", 	// U+e693
 		"Dashcube":	"\xef\x88\x90", 	// U+f210
 		"Debian":	"\xee\x98\x8b", 	// U+e60b
 		"Deezer":	"\xee\x81\xb7", 	// U+e077
@@ -164,6 +165,7 @@ var IconsFontAwesome6Brands = Font{
 		"Firstdraft":	"\xef\x8e\xa1", 	// U+f3a1
 		"Flickr":	"\xef\x85\xae", 	// U+f16e
 		"Flipboard":	"\xef\x91\x8d", 	// U+f44d
+		"Flutter":	"\xee\x9a\x94", 	// U+e694
 		"Fly":	"\xef\x90\x97", 	// U+f417
 		"FontAwesome":	"\xef\x8a\xb4", 	// U+f2b4
 		"Fonticons":	"\xef\x8a\x80", 	// U+f280

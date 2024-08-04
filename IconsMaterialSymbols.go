@@ -794,6 +794,7 @@ var IconsMaterialSymbols = Font{
 		"Controller_gen":	"\xee\xa0\xbd", 	// U+e83d
 		"Conversion_path":	"\xef\x83\x81", 	// U+f0c1
 		"Conversion_path_off":	"\xef\x9e\xb4", 	// U+f7b4
+		"Convert_to_text":	"\xef\x90\x9f", 	// U+f41f
 		"Conveyor_belt":	"\xef\xa1\xa7", 	// U+f867
 		"Cookie":	"\xee\xaa\xac", 	// U+eaac
 		"Cookie_off":	"\xef\x9e\x9a", 	// U+f79a
@@ -876,6 +877,7 @@ var IconsMaterialSymbols = Font{
 		"Data_thresholding":	"\xee\xae\x9f", 	// U+eb9f
 		"Data_usage":	"\xee\xbf\xb2", 	// U+eff2
 		"Database":	"\xef\x88\x8e", 	// U+f20e
+		"Database_off":	"\xef\x90\x94", 	// U+f414
 		"Dataset":	"\xef\xa3\xae", 	// U+f8ee
 		"Dataset_linked":	"\xef\xa3\xaf", 	// U+f8ef
 		"Date_range":	"\xee\xa4\x96", 	// U+e916
@@ -1387,6 +1389,7 @@ var IconsMaterialSymbols = Font{
 		"Format_paint":	"\xee\x89\x83", 	// U+e243
 		"Format_paragraph":	"\xef\xa1\xa5", 	// U+f865
 		"Format_quote":	"\xee\x89\x84", 	// U+e244
+		"Format_quote_off":	"\xef\x90\x93", 	// U+f413
 		"Format_shapes":	"\xee\x89\x9e", 	// U+e25e
 		"Format_size":	"\xee\x89\x85", 	// U+e245
 		"Format_strikethrough":	"\xee\x89\x86", 	// U+e246
@@ -2092,6 +2095,7 @@ var IconsMaterialSymbols = Font{
 		"Mp":	"\xee\xa7\x83", 	// U+e9c3
 		"Multicooker":	"\xee\x8a\x93", 	// U+e293
 		"Multiline_chart":	"\xee\x9b\x9f", 	// U+e6df
+		"Multimodal_hand_eye":	"\xef\x90\x9b", 	// U+f41b
 		"Multiple_stop":	"\xef\x86\xb9", 	// U+f1b9
 		"Museum":	"\xee\xa8\xb6", 	// U+ea36
 		"Music_cast":	"\xee\xac\x9a", 	// U+eb1a
@@ -2499,6 +2503,7 @@ var IconsMaterialSymbols = Font{
 		"Power_input":	"\xee\x8c\xb6", 	// U+e336
 		"Power_off":	"\xee\x99\x86", 	// U+e646
 		"Power_rounded":	"\xef\xa3\x87", 	// U+f8c7
+		"Power_settings_circle":	"\xef\x90\x98", 	// U+f418
 		"Power_settings_new":	"\xef\xa3\x87", 	// U+f8c7
 		"Prayer_times":	"\xef\xa0\xb8", 	// U+f838
 		"Precision_manufacturing":	"\xef\x81\x89", 	// U+f049
@@ -2687,6 +2692,7 @@ var IconsMaterialSymbols = Font{
 		"Room_service":	"\xee\xad\x89", 	// U+eb49
 		"Rotate_90_degrees_ccw":	"\xee\x90\x98", 	// U+e418
 		"Rotate_90_degrees_cw":	"\xee\xaa\xab", 	// U+eaab
+		"Rotate_auto":	"\xef\x90\x97", 	// U+f417
 		"Rotate_left":	"\xee\x90\x99", 	// U+e419
 		"Rotate_right":	"\xee\x90\x9a", 	// U+e41a
 		"Roundabout_left":	"\xee\xae\x99", 	// U+eb99
@@ -3049,6 +3055,7 @@ var IconsMaterialSymbols = Font{
 		"Square_foot":	"\xee\xa9\x89", 	// U+ea49
 		"Ssid_chart":	"\xee\xad\xa6", 	// U+eb66
 		"Stack":	"\xef\x98\x89", 	// U+f609
+		"Stack_hexagon":	"\xef\x90\x9c", 	// U+f41c
 		"Stack_off":	"\xef\x98\x88", 	// U+f608
 		"Stack_star":	"\xef\x98\x87", 	// U+f607
 		"Stacked_bar_chart":	"\xee\xa7\xa6", 	// U+e9e6
@@ -3174,6 +3181,7 @@ var IconsMaterialSymbols = Font{
 		"Synagogue":	"\xee\xaa\xb0", 	// U+eab0
 		"Sync":	"\xee\x98\xa7", 	// U+e627
 		"Sync_alt":	"\xee\xa8\x98", 	// U+ea18
+		"Sync_desktop":	"\xef\x90\x9a", 	// U+f41a
 		"Sync_disabled":	"\xee\x98\xa8", 	// U+e628
 		"Sync_lock":	"\xee\xab\xae", 	// U+eaee
 		"Sync_problem":	"\xee\x98\xa9", 	// U+e629
@@ -3503,6 +3511,7 @@ var IconsMaterialSymbols = Font{
 		"Voice_chat":	"\xee\x98\xae", 	// U+e62e
 		"Voice_over_off":	"\xee\xa5\x8a", 	// U+e94a
 		"Voice_selection":	"\xef\x96\x8a", 	// U+f58a
+		"Voice_selection_off":	"\xef\x90\xac", 	// U+f42c
 		"Voicemail":	"\xee\x83\x99", 	// U+e0d9
 		"Volcano":	"\xee\xaf\x9a", 	// U+ebda
 		"Volume_down":	"\xee\x81\x8d", 	// U+e04d

@@ -796,6 +796,7 @@ namespace IconFonts
         public const string Controller_gen = "\ue83d";
         public const string Conversion_path = "\uf0c1";
         public const string Conversion_path_off = "\uf7b4";
+        public const string Convert_to_text = "\uf41f";
         public const string Conveyor_belt = "\uf867";
         public const string Cookie = "\ueaac";
         public const string Cookie_off = "\uf79a";
@@ -878,6 +879,7 @@ namespace IconFonts
         public const string Data_thresholding = "\ueb9f";
         public const string Data_usage = "\ueff2";
         public const string Database = "\uf20e";
+        public const string Database_off = "\uf414";
         public const string Dataset = "\uf8ee";
         public const string Dataset_linked = "\uf8ef";
         public const string Date_range = "\ue916";
@@ -1389,6 +1391,7 @@ namespace IconFonts
         public const string Format_paint = "\ue243";
         public const string Format_paragraph = "\uf865";
         public const string Format_quote = "\ue244";
+        public const string Format_quote_off = "\uf413";
         public const string Format_shapes = "\ue25e";
         public const string Format_size = "\ue245";
         public const string Format_strikethrough = "\ue246";
@@ -2094,6 +2097,7 @@ namespace IconFonts
         public const string Mp = "\ue9c3";
         public const string Multicooker = "\ue293";
         public const string Multiline_chart = "\ue6df";
+        public const string Multimodal_hand_eye = "\uf41b";
         public const string Multiple_stop = "\uf1b9";
         public const string Museum = "\uea36";
         public const string Music_cast = "\ueb1a";
@@ -2501,6 +2505,7 @@ namespace IconFonts
         public const string Power_input = "\ue336";
         public const string Power_off = "\ue646";
         public const string Power_rounded = "\uf8c7";
+        public const string Power_settings_circle = "\uf418";
         public const string Power_settings_new = "\uf8c7";
         public const string Prayer_times = "\uf838";
         public const string Precision_manufacturing = "\uf049";
@@ -2689,6 +2694,7 @@ namespace IconFonts
         public const string Room_service = "\ueb49";
         public const string Rotate_90_degrees_ccw = "\ue418";
         public const string Rotate_90_degrees_cw = "\ueaab";
+        public const string Rotate_auto = "\uf417";
         public const string Rotate_left = "\ue419";
         public const string Rotate_right = "\ue41a";
         public const string Roundabout_left = "\ueb99";
@@ -3051,6 +3057,7 @@ namespace IconFonts
         public const string Square_foot = "\uea49";
         public const string Ssid_chart = "\ueb66";
         public const string Stack = "\uf609";
+        public const string Stack_hexagon = "\uf41c";
         public const string Stack_off = "\uf608";
         public const string Stack_star = "\uf607";
         public const string Stacked_bar_chart = "\ue9e6";
@@ -3176,6 +3183,7 @@ namespace IconFonts
         public const string Synagogue = "\ueab0";
         public const string Sync = "\ue627";
         public const string Sync_alt = "\uea18";
+        public const string Sync_desktop = "\uf41a";
         public const string Sync_disabled = "\ue628";
         public const string Sync_lock = "\ueaee";
         public const string Sync_problem = "\ue629";
@@ -3505,6 +3513,7 @@ namespace IconFonts
         public const string Voice_chat = "\ue62e";
         public const string Voice_over_off = "\ue94a";
         public const string Voice_selection = "\uf58a";
+        public const string Voice_selection_off = "\uf42c";
         public const string Voicemail = "\ue0d9";
         public const string Volcano = "\uebda";
         public const string Volume_down = "\ue04d";

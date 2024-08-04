@@ -792,6 +792,7 @@
 #define ICON_MS_CONTROLLER_GEN "\xee\xa0\xbd"	// U+e83d
 #define ICON_MS_CONVERSION_PATH "\xef\x83\x81"	// U+f0c1
 #define ICON_MS_CONVERSION_PATH_OFF "\xef\x9e\xb4"	// U+f7b4
+#define ICON_MS_CONVERT_TO_TEXT "\xef\x90\x9f"	// U+f41f
 #define ICON_MS_CONVEYOR_BELT "\xef\xa1\xa7"	// U+f867
 #define ICON_MS_COOKIE "\xee\xaa\xac"	// U+eaac
 #define ICON_MS_COOKIE_OFF "\xef\x9e\x9a"	// U+f79a
@@ -874,6 +875,7 @@
 #define ICON_MS_DATA_THRESHOLDING "\xee\xae\x9f"	// U+eb9f
 #define ICON_MS_DATA_USAGE "\xee\xbf\xb2"	// U+eff2
 #define ICON_MS_DATABASE "\xef\x88\x8e"	// U+f20e
+#define ICON_MS_DATABASE_OFF "\xef\x90\x94"	// U+f414
 #define ICON_MS_DATASET "\xef\xa3\xae"	// U+f8ee
 #define ICON_MS_DATASET_LINKED "\xef\xa3\xaf"	// U+f8ef
 #define ICON_MS_DATE_RANGE "\xee\xa4\x96"	// U+e916
@@ -1385,6 +1387,7 @@
 #define ICON_MS_FORMAT_PAINT "\xee\x89\x83"	// U+e243
 #define ICON_MS_FORMAT_PARAGRAPH "\xef\xa1\xa5"	// U+f865
 #define ICON_MS_FORMAT_QUOTE "\xee\x89\x84"	// U+e244
+#define ICON_MS_FORMAT_QUOTE_OFF "\xef\x90\x93"	// U+f413
 #define ICON_MS_FORMAT_SHAPES "\xee\x89\x9e"	// U+e25e
 #define ICON_MS_FORMAT_SIZE "\xee\x89\x85"	// U+e245
 #define ICON_MS_FORMAT_STRIKETHROUGH "\xee\x89\x86"	// U+e246
@@ -2090,6 +2093,7 @@
 #define ICON_MS_MP "\xee\xa7\x83"	// U+e9c3
 #define ICON_MS_MULTICOOKER "\xee\x8a\x93"	// U+e293
 #define ICON_MS_MULTILINE_CHART "\xee\x9b\x9f"	// U+e6df
+#define ICON_MS_MULTIMODAL_HAND_EYE "\xef\x90\x9b"	// U+f41b
 #define ICON_MS_MULTIPLE_STOP "\xef\x86\xb9"	// U+f1b9
 #define ICON_MS_MUSEUM "\xee\xa8\xb6"	// U+ea36
 #define ICON_MS_MUSIC_CAST "\xee\xac\x9a"	// U+eb1a
@@ -2497,6 +2501,7 @@
 #define ICON_MS_POWER_INPUT "\xee\x8c\xb6"	// U+e336
 #define ICON_MS_POWER_OFF "\xee\x99\x86"	// U+e646
 #define ICON_MS_POWER_ROUNDED "\xef\xa3\x87"	// U+f8c7
+#define ICON_MS_POWER_SETTINGS_CIRCLE "\xef\x90\x98"	// U+f418
 #define ICON_MS_POWER_SETTINGS_NEW "\xef\xa3\x87"	// U+f8c7
 #define ICON_MS_PRAYER_TIMES "\xef\xa0\xb8"	// U+f838
 #define ICON_MS_PRECISION_MANUFACTURING "\xef\x81\x89"	// U+f049
@@ -2685,6 +2690,7 @@
 #define ICON_MS_ROOM_SERVICE "\xee\xad\x89"	// U+eb49
 #define ICON_MS_ROTATE_90_DEGREES_CCW "\xee\x90\x98"	// U+e418
 #define ICON_MS_ROTATE_90_DEGREES_CW "\xee\xaa\xab"	// U+eaab
+#define ICON_MS_ROTATE_AUTO "\xef\x90\x97"	// U+f417
 #define ICON_MS_ROTATE_LEFT "\xee\x90\x99"	// U+e419
 #define ICON_MS_ROTATE_RIGHT "\xee\x90\x9a"	// U+e41a
 #define ICON_MS_ROUNDABOUT_LEFT "\xee\xae\x99"	// U+eb99
@@ -3047,6 +3053,7 @@
 #define ICON_MS_SQUARE_FOOT "\xee\xa9\x89"	// U+ea49
 #define ICON_MS_SSID_CHART "\xee\xad\xa6"	// U+eb66
 #define ICON_MS_STACK "\xef\x98\x89"	// U+f609
+#define ICON_MS_STACK_HEXAGON "\xef\x90\x9c"	// U+f41c
 #define ICON_MS_STACK_OFF "\xef\x98\x88"	// U+f608
 #define ICON_MS_STACK_STAR "\xef\x98\x87"	// U+f607
 #define ICON_MS_STACKED_BAR_CHART "\xee\xa7\xa6"	// U+e9e6
@@ -3172,6 +3179,7 @@
 #define ICON_MS_SYNAGOGUE "\xee\xaa\xb0"	// U+eab0
 #define ICON_MS_SYNC "\xee\x98\xa7"	// U+e627
 #define ICON_MS_SYNC_ALT "\xee\xa8\x98"	// U+ea18
+#define ICON_MS_SYNC_DESKTOP "\xef\x90\x9a"	// U+f41a
 #define ICON_MS_SYNC_DISABLED "\xee\x98\xa8"	// U+e628
 #define ICON_MS_SYNC_LOCK "\xee\xab\xae"	// U+eaee
 #define ICON_MS_SYNC_PROBLEM "\xee\x98\xa9"	// U+e629
@@ -3501,6 +3509,7 @@
 #define ICON_MS_VOICE_CHAT "\xee\x98\xae"	// U+e62e
 #define ICON_MS_VOICE_OVER_OFF "\xee\xa5\x8a"	// U+e94a
 #define ICON_MS_VOICE_SELECTION "\xef\x96\x8a"	// U+f58a
+#define ICON_MS_VOICE_SELECTION_OFF "\xef\x90\xac"	// U+f42c
 #define ICON_MS_VOICEMAIL "\xee\x83\x99"	// U+e0d9
 #define ICON_MS_VOLCANO "\xee\xaf\x9a"	// U+ebda
 #define ICON_MS_VOLUME_DOWN "\xee\x81\x8d"	// U+e04d

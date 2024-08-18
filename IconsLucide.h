@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe621
-#define ICON_MAX_LC 0xe621
+#define ICON_MAX_16_LC 0xe628
+#define ICON_MAX_LC 0xe628
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x8a"	// U+e58a
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8b"	// U+e58b
@@ -141,6 +141,7 @@
 #define ICON_LC_BAGGAGE_CLAIM "\xee\x8b\x89"	// U+e2c9
 #define ICON_LC_BAN "\xee\x81\x95"	// U+e055
 #define ICON_LC_BANANA "\xee\x8d\x93"	// U+e353
+#define ICON_LC_BANDAGE "\xee\x98\xa2"	// U+e622
 #define ICON_LC_BANKNOTE "\xee\x81\x96"	// U+e056
 #define ICON_LC_BARCODE "\xee\x94\xb8"	// U+e538
 #define ICON_LC_BASELINE "\xee\x8a\x85"	// U+e285
@@ -174,6 +175,7 @@
 #define ICON_LC_BICEPS_FLEXED "\xee\x97\xb0"	// U+e5f0
 #define ICON_LC_BIKE "\xee\x87\x92"	// U+e1d2
 #define ICON_LC_BINARY "\xee\x87\xb2"	// U+e1f2
+#define ICON_LC_BINOCULARS "\xee\x98\xa6"	// U+e626
 #define ICON_LC_BIOHAZARD "\xee\x91\x86"	// U+e446
 #define ICON_LC_BIRD "\xee\x8f\x89"	// U+e3c9
 #define ICON_LC_BITCOIN "\xee\x81\x9f"	// U+e05f
@@ -321,6 +323,7 @@
 #define ICON_LC_CHEVRON_UP "\xee\x81\xb4"	// U+e074
 #define ICON_LC_CHEVRONS_DOWN_UP "\xee\x88\xa8"	// U+e228
 #define ICON_LC_CHEVRONS_DOWN "\xee\x81\xb5"	// U+e075
+#define ICON_LC_CHEVRONS_LEFT_RIGHT_ELLIPSIS "\xee\x98\xa4"	// U+e624
 #define ICON_LC_CHEVRONS_LEFT_RIGHT "\xee\x8a\x93"	// U+e293
 #define ICON_LC_CHEVRONS_LEFT "\xee\x81\xb6"	// U+e076
 #define ICON_LC_CHEVRONS_RIGHT_LEFT "\xee\x8a\x94"	// U+e294
@@ -529,6 +532,7 @@
 #define ICON_LC_EQUAL_NOT "\xee\x86\xbf"	// U+e1bf
 #define ICON_LC_EQUAL "\xee\x86\xbe"	// U+e1be
 #define ICON_LC_ERASER "\xee\x8a\x8f"	// U+e28f
+#define ICON_LC_ETHERNET_PORT "\xee\x98\xa5"	// U+e625
 #define ICON_LC_EURO "\xee\x82\xbc"	// U+e0bc
 #define ICON_LC_EXPAND "\xee\x88\x9a"	// U+e21a
 #define ICON_LC_EXTERNAL_LINK "\xee\x82\xbd"	// U+e0bd
@@ -1357,6 +1361,7 @@
 #define ICON_LC_TABLE_CELLS_MERGE "\xee\x97\x8c"	// U+e5cc
 #define ICON_LC_TABLE_CELLS_SPLIT "\xee\x97\x8d"	// U+e5cd
 #define ICON_LC_TABLE_COLUMNS_SPLIT "\xee\x97\x8e"	// U+e5ce
+#define ICON_LC_TABLE_OF_CONTENTS "\xee\x98\xa3"	// U+e623
 #define ICON_LC_TABLE_PROPERTIES "\xee\x93\xa0"	// U+e4e0
 #define ICON_LC_TABLE_ROWS_SPLIT "\xee\x97\x8f"	// U+e5cf
 #define ICON_LC_TABLE "\xee\x86\x81"	// U+e181
@@ -1398,6 +1403,8 @@
 #define ICON_LC_TICKET_SLASH "\xee\x96\xb7"	// U+e5b7
 #define ICON_LC_TICKET_X "\xee\x96\xb8"	// U+e5b8
 #define ICON_LC_TICKET "\xee\x88\x8f"	// U+e20f
+#define ICON_LC_TICKETS_PLANE "\xee\x98\xa8"	// U+e628
+#define ICON_LC_TICKETS "\xee\x98\xa7"	// U+e627
 #define ICON_LC_TIMER_OFF "\xee\x89\x89"	// U+e249
 #define ICON_LC_TIMER_RESET "\xee\x88\xb6"	// U+e236
 #define ICON_LC_TIMER "\xee\x87\xa0"	// U+e1e0

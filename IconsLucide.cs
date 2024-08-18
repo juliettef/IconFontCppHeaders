@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe621;
-        public const int IconMax = 0xe621;
+        public const int IconMax16 = 0xe628;
+        public const int IconMax = 0xe628;
 
         public const string AArrowDown = "\ue58a";
         public const string AArrowUp = "\ue58b";
@@ -145,6 +145,7 @@ namespace IconFonts
         public const string BaggageClaim = "\ue2c9";
         public const string Ban = "\ue055";
         public const string Banana = "\ue353";
+        public const string Bandage = "\ue622";
         public const string Banknote = "\ue056";
         public const string Barcode = "\ue538";
         public const string Baseline = "\ue285";
@@ -178,6 +179,7 @@ namespace IconFonts
         public const string BicepsFlexed = "\ue5f0";
         public const string Bike = "\ue1d2";
         public const string Binary = "\ue1f2";
+        public const string Binoculars = "\ue626";
         public const string Biohazard = "\ue446";
         public const string Bird = "\ue3c9";
         public const string Bitcoin = "\ue05f";
@@ -325,6 +327,7 @@ namespace IconFonts
         public const string ChevronUp = "\ue074";
         public const string ChevronsDownUp = "\ue228";
         public const string ChevronsDown = "\ue075";
+        public const string ChevronsLeftRightEllipsis = "\ue624";
         public const string ChevronsLeftRight = "\ue293";
         public const string ChevronsLeft = "\ue076";
         public const string ChevronsRightLeft = "\ue294";
@@ -533,6 +536,7 @@ namespace IconFonts
         public const string EqualNot = "\ue1bf";
         public const string Equal = "\ue1be";
         public const string Eraser = "\ue28f";
+        public const string EthernetPort = "\ue625";
         public const string Euro = "\ue0bc";
         public const string Expand = "\ue21a";
         public const string ExternalLink = "\ue0bd";
@@ -1361,6 +1365,7 @@ namespace IconFonts
         public const string TableCellsMerge = "\ue5cc";
         public const string TableCellsSplit = "\ue5cd";
         public const string TableColumnsSplit = "\ue5ce";
+        public const string TableOfContents = "\ue623";
         public const string TableProperties = "\ue4e0";
         public const string TableRowsSplit = "\ue5cf";
         public const string Table = "\ue181";
@@ -1402,6 +1407,8 @@ namespace IconFonts
         public const string TicketSlash = "\ue5b7";
         public const string TicketX = "\ue5b8";
         public const string Ticket = "\ue20f";
+        public const string TicketsPlane = "\ue628";
+        public const string Tickets = "\ue627";
         public const string TimerOff = "\ue249";
         public const string TimerReset = "\ue236";
         public const string Timer = "\ue1e0";

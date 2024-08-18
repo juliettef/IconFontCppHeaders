@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe621
-    ICON_MAX = 0xe621
+    ICON_MAX_16 = 0xe628
+    ICON_MAX = 0xe628
 
     ICON_A_ARROW_DOWN = '\ue58a'
     ICON_A_ARROW_UP = '\ue58b'
@@ -141,6 +141,7 @@ class IconsLucide:
     ICON_BAGGAGE_CLAIM = '\ue2c9'
     ICON_BAN = '\ue055'
     ICON_BANANA = '\ue353'
+    ICON_BANDAGE = '\ue622'
     ICON_BANKNOTE = '\ue056'
     ICON_BARCODE = '\ue538'
     ICON_BASELINE = '\ue285'
@@ -174,6 +175,7 @@ class IconsLucide:
     ICON_BICEPS_FLEXED = '\ue5f0'
     ICON_BIKE = '\ue1d2'
     ICON_BINARY = '\ue1f2'
+    ICON_BINOCULARS = '\ue626'
     ICON_BIOHAZARD = '\ue446'
     ICON_BIRD = '\ue3c9'
     ICON_BITCOIN = '\ue05f'
@@ -321,6 +323,7 @@ class IconsLucide:
     ICON_CHEVRON_UP = '\ue074'
     ICON_CHEVRONS_DOWN_UP = '\ue228'
     ICON_CHEVRONS_DOWN = '\ue075'
+    ICON_CHEVRONS_LEFT_RIGHT_ELLIPSIS = '\ue624'
     ICON_CHEVRONS_LEFT_RIGHT = '\ue293'
     ICON_CHEVRONS_LEFT = '\ue076'
     ICON_CHEVRONS_RIGHT_LEFT = '\ue294'
@@ -529,6 +532,7 @@ class IconsLucide:
     ICON_EQUAL_NOT = '\ue1bf'
     ICON_EQUAL = '\ue1be'
     ICON_ERASER = '\ue28f'
+    ICON_ETHERNET_PORT = '\ue625'
     ICON_EURO = '\ue0bc'
     ICON_EXPAND = '\ue21a'
     ICON_EXTERNAL_LINK = '\ue0bd'
@@ -1357,6 +1361,7 @@ class IconsLucide:
     ICON_TABLE_CELLS_MERGE = '\ue5cc'
     ICON_TABLE_CELLS_SPLIT = '\ue5cd'
     ICON_TABLE_COLUMNS_SPLIT = '\ue5ce'
+    ICON_TABLE_OF_CONTENTS = '\ue623'
     ICON_TABLE_PROPERTIES = '\ue4e0'
     ICON_TABLE_ROWS_SPLIT = '\ue5cf'
     ICON_TABLE = '\ue181'
@@ -1398,6 +1403,8 @@ class IconsLucide:
     ICON_TICKET_SLASH = '\ue5b7'
     ICON_TICKET_X = '\ue5b8'
     ICON_TICKET = '\ue20f'
+    ICON_TICKETS_PLANE = '\ue628'
+    ICON_TICKETS = '\ue627'
     ICON_TIMER_OFF = '\ue249'
     ICON_TIMER_RESET = '\ue236'
     ICON_TIMER = '\ue1e0'

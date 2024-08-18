@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe621,
-	Max: 0xe621,
+	Max16: 0xe628,
+	Max: 0xe628,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
 		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
@@ -143,6 +143,7 @@ var IconsLucide = Font{
 		"BaggageClaim":	"\xee\x8b\x89", 	// U+e2c9
 		"Ban":	"\xee\x81\x95", 	// U+e055
 		"Banana":	"\xee\x8d\x93", 	// U+e353
+		"Bandage":	"\xee\x98\xa2", 	// U+e622
 		"Banknote":	"\xee\x81\x96", 	// U+e056
 		"Barcode":	"\xee\x94\xb8", 	// U+e538
 		"Baseline":	"\xee\x8a\x85", 	// U+e285
@@ -176,6 +177,7 @@ var IconsLucide = Font{
 		"BicepsFlexed":	"\xee\x97\xb0", 	// U+e5f0
 		"Bike":	"\xee\x87\x92", 	// U+e1d2
 		"Binary":	"\xee\x87\xb2", 	// U+e1f2
+		"Binoculars":	"\xee\x98\xa6", 	// U+e626
 		"Biohazard":	"\xee\x91\x86", 	// U+e446
 		"Bird":	"\xee\x8f\x89", 	// U+e3c9
 		"Bitcoin":	"\xee\x81\x9f", 	// U+e05f
@@ -323,6 +325,7 @@ var IconsLucide = Font{
 		"ChevronUp":	"\xee\x81\xb4", 	// U+e074
 		"ChevronsDownUp":	"\xee\x88\xa8", 	// U+e228
 		"ChevronsDown":	"\xee\x81\xb5", 	// U+e075
+		"ChevronsLeftRightEllipsis":	"\xee\x98\xa4", 	// U+e624
 		"ChevronsLeftRight":	"\xee\x8a\x93", 	// U+e293
 		"ChevronsLeft":	"\xee\x81\xb6", 	// U+e076
 		"ChevronsRightLeft":	"\xee\x8a\x94", 	// U+e294
@@ -531,6 +534,7 @@ var IconsLucide = Font{
 		"EqualNot":	"\xee\x86\xbf", 	// U+e1bf
 		"Equal":	"\xee\x86\xbe", 	// U+e1be
 		"Eraser":	"\xee\x8a\x8f", 	// U+e28f
+		"EthernetPort":	"\xee\x98\xa5", 	// U+e625
 		"Euro":	"\xee\x82\xbc", 	// U+e0bc
 		"Expand":	"\xee\x88\x9a", 	// U+e21a
 		"ExternalLink":	"\xee\x82\xbd", 	// U+e0bd
@@ -1359,6 +1363,7 @@ var IconsLucide = Font{
 		"TableCellsMerge":	"\xee\x97\x8c", 	// U+e5cc
 		"TableCellsSplit":	"\xee\x97\x8d", 	// U+e5cd
 		"TableColumnsSplit":	"\xee\x97\x8e", 	// U+e5ce
+		"TableOfContents":	"\xee\x98\xa3", 	// U+e623
 		"TableProperties":	"\xee\x93\xa0", 	// U+e4e0
 		"TableRowsSplit":	"\xee\x97\x8f", 	// U+e5cf
 		"Table":	"\xee\x86\x81", 	// U+e181
@@ -1400,6 +1405,8 @@ var IconsLucide = Font{
 		"TicketSlash":	"\xee\x96\xb7", 	// U+e5b7
 		"TicketX":	"\xee\x96\xb8", 	// U+e5b8
 		"Ticket":	"\xee\x88\x8f", 	// U+e20f
+		"TicketsPlane":	"\xee\x98\xa8", 	// U+e628
+		"Tickets":	"\xee\x98\xa7", 	// U+e627
 		"TimerOff":	"\xee\x89\x89", 	// U+e249
 		"TimerReset":	"\xee\x88\xb6", 	// U+e236
 		"Timer":	"\xee\x87\xa0", 	// U+e1e0

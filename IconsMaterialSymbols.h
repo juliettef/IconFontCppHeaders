@@ -379,6 +379,7 @@
 #define ICON_MS_BALLOT "\xee\x85\xb2"	// U+e172
 #define ICON_MS_BAR_CHART "\xee\x89\xab"	// U+e26b
 #define ICON_MS_BAR_CHART_4_BARS "\xef\x9a\x81"	// U+f681
+#define ICON_MS_BAR_CHART_OFF "\xef\x90\x91"	// U+f411
 #define ICON_MS_BARCODE "\xee\x9c\x8b"	// U+e70b
 #define ICON_MS_BARCODE_READER "\xef\xa1\x9c"	// U+f85c
 #define ICON_MS_BARCODE_SCANNER "\xee\x9c\x8c"	// U+e70c
@@ -479,6 +480,7 @@
 #define ICON_MS_BOOKMARK "\xee\xa3\xa7"	// U+e8e7
 #define ICON_MS_BOOKMARK_ADD "\xee\x96\x98"	// U+e598
 #define ICON_MS_BOOKMARK_ADDED "\xee\x96\x99"	// U+e599
+#define ICON_MS_BOOKMARK_BAG "\xef\x90\x90"	// U+f410
 #define ICON_MS_BOOKMARK_BORDER "\xee\xa3\xa7"	// U+e8e7
 #define ICON_MS_BOOKMARK_CHECK "\xef\x91\x97"	// U+f457
 #define ICON_MS_BOOKMARK_FLAG "\xef\x91\x96"	// U+f456
@@ -499,6 +501,7 @@
 #define ICON_MS_BORDER_STYLE "\xee\x88\xb1"	// U+e231
 #define ICON_MS_BORDER_TOP "\xee\x88\xb2"	// U+e232
 #define ICON_MS_BORDER_VERTICAL "\xee\x88\xb3"	// U+e233
+#define ICON_MS_BORG "\xef\x90\x8d"	// U+f40d
 #define ICON_MS_BOTTOM_APP_BAR "\xee\x9c\xb0"	// U+e730
 #define ICON_MS_BOTTOM_DRAWER "\xee\x9c\xad"	// U+e72d
 #define ICON_MS_BOTTOM_NAVIGATION "\xee\xa6\x8c"	// U+e98c
@@ -1287,6 +1290,7 @@
 #define ICON_MS_FITNESS_CENTER "\xee\xad\x83"	// U+eb43
 #define ICON_MS_FITNESS_TRACKER "\xef\x91\xa3"	// U+f463
 #define ICON_MS_FLAG "\xef\x83\x86"	// U+f0c6
+#define ICON_MS_FLAG_2 "\xef\x90\x8f"	// U+f40f
 #define ICON_MS_FLAG_CIRCLE "\xee\xab\xb8"	// U+eaf8
 #define ICON_MS_FLAG_FILLED "\xef\x83\x86"	// U+f0c6
 #define ICON_MS_FLAKY "\xee\xbd\x90"	// U+ef50
@@ -1452,6 +1456,7 @@
 #define ICON_MS_GESTURE_SELECT "\xef\x99\x97"	// U+f657
 #define ICON_MS_GET_APP "\xef\x82\x90"	// U+f090
 #define ICON_MS_GIF "\xee\xa4\x88"	// U+e908
+#define ICON_MS_GIF_2 "\xef\x90\x8e"	// U+f40e
 #define ICON_MS_GIF_BOX "\xee\x9e\xa3"	// U+e7a3
 #define ICON_MS_GIRL "\xee\xad\xa8"	// U+eb68
 #define ICON_MS_GITE "\xee\x96\x8b"	// U+e58b
@@ -2060,6 +2065,7 @@
 #define ICON_MS_MOTION_PHOTOS_ON "\xee\xa7\x81"	// U+e9c1
 #define ICON_MS_MOTION_PHOTOS_PAUSE "\xef\x88\xa7"	// U+f227
 #define ICON_MS_MOTION_PHOTOS_PAUSED "\xef\x88\xa7"	// U+f227
+#define ICON_MS_MOTION_PLAY "\xef\x90\x8b"	// U+f40b
 #define ICON_MS_MOTION_SENSOR_ACTIVE "\xee\x9e\x92"	// U+e792
 #define ICON_MS_MOTION_SENSOR_ALERT "\xee\x9e\x84"	// U+e784
 #define ICON_MS_MOTION_SENSOR_IDLE "\xee\x9e\x83"	// U+e783
@@ -3460,6 +3466,7 @@
 #define ICON_MS_VIBRATION "\xee\x98\xad"	// U+e62d
 #define ICON_MS_VIDEO_CALL "\xee\x81\xb0"	// U+e070
 #define ICON_MS_VIDEO_CAMERA_BACK "\xef\x81\xbf"	// U+f07f
+#define ICON_MS_VIDEO_CAMERA_BACK_ADD "\xef\x90\x8c"	// U+f40c
 #define ICON_MS_VIDEO_CAMERA_FRONT "\xef\x82\x80"	// U+f080
 #define ICON_MS_VIDEO_CAMERA_FRONT_OFF "\xef\xa0\xbb"	// U+f83b
 #define ICON_MS_VIDEO_CHAT "\xef\xa2\xa0"	// U+f8a0

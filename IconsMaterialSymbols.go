@@ -381,6 +381,7 @@ var IconsMaterialSymbols = Font{
 		"Ballot":	"\xee\x85\xb2", 	// U+e172
 		"Bar_chart":	"\xee\x89\xab", 	// U+e26b
 		"Bar_chart_4_bars":	"\xef\x9a\x81", 	// U+f681
+		"Bar_chart_off":	"\xef\x90\x91", 	// U+f411
 		"Barcode":	"\xee\x9c\x8b", 	// U+e70b
 		"Barcode_reader":	"\xef\xa1\x9c", 	// U+f85c
 		"Barcode_scanner":	"\xee\x9c\x8c", 	// U+e70c
@@ -481,6 +482,7 @@ var IconsMaterialSymbols = Font{
 		"Bookmark":	"\xee\xa3\xa7", 	// U+e8e7
 		"Bookmark_add":	"\xee\x96\x98", 	// U+e598
 		"Bookmark_added":	"\xee\x96\x99", 	// U+e599
+		"Bookmark_bag":	"\xef\x90\x90", 	// U+f410
 		"Bookmark_border":	"\xee\xa3\xa7", 	// U+e8e7
 		"Bookmark_check":	"\xef\x91\x97", 	// U+f457
 		"Bookmark_flag":	"\xef\x91\x96", 	// U+f456
@@ -501,6 +503,7 @@ var IconsMaterialSymbols = Font{
 		"Border_style":	"\xee\x88\xb1", 	// U+e231
 		"Border_top":	"\xee\x88\xb2", 	// U+e232
 		"Border_vertical":	"\xee\x88\xb3", 	// U+e233
+		"Borg":	"\xef\x90\x8d", 	// U+f40d
 		"Bottom_app_bar":	"\xee\x9c\xb0", 	// U+e730
 		"Bottom_drawer":	"\xee\x9c\xad", 	// U+e72d
 		"Bottom_navigation":	"\xee\xa6\x8c", 	// U+e98c
@@ -1289,6 +1292,7 @@ var IconsMaterialSymbols = Font{
 		"Fitness_center":	"\xee\xad\x83", 	// U+eb43
 		"Fitness_tracker":	"\xef\x91\xa3", 	// U+f463
 		"Flag":	"\xef\x83\x86", 	// U+f0c6
+		"Flag_2":	"\xef\x90\x8f", 	// U+f40f
 		"Flag_circle":	"\xee\xab\xb8", 	// U+eaf8
 		"Flag_filled":	"\xef\x83\x86", 	// U+f0c6
 		"Flaky":	"\xee\xbd\x90", 	// U+ef50
@@ -1454,6 +1458,7 @@ var IconsMaterialSymbols = Font{
 		"Gesture_select":	"\xef\x99\x97", 	// U+f657
 		"Get_app":	"\xef\x82\x90", 	// U+f090
 		"Gif":	"\xee\xa4\x88", 	// U+e908
+		"Gif_2":	"\xef\x90\x8e", 	// U+f40e
 		"Gif_box":	"\xee\x9e\xa3", 	// U+e7a3
 		"Girl":	"\xee\xad\xa8", 	// U+eb68
 		"Gite":	"\xee\x96\x8b", 	// U+e58b
@@ -2062,6 +2067,7 @@ var IconsMaterialSymbols = Font{
 		"Motion_photos_on":	"\xee\xa7\x81", 	// U+e9c1
 		"Motion_photos_pause":	"\xef\x88\xa7", 	// U+f227
 		"Motion_photos_paused":	"\xef\x88\xa7", 	// U+f227
+		"Motion_play":	"\xef\x90\x8b", 	// U+f40b
 		"Motion_sensor_active":	"\xee\x9e\x92", 	// U+e792
 		"Motion_sensor_alert":	"\xee\x9e\x84", 	// U+e784
 		"Motion_sensor_idle":	"\xee\x9e\x83", 	// U+e783
@@ -3462,6 +3468,7 @@ var IconsMaterialSymbols = Font{
 		"Vibration":	"\xee\x98\xad", 	// U+e62d
 		"Video_call":	"\xee\x81\xb0", 	// U+e070
 		"Video_camera_back":	"\xef\x81\xbf", 	// U+f07f
+		"Video_camera_back_add":	"\xef\x90\x8c", 	// U+f40c
 		"Video_camera_front":	"\xef\x82\x80", 	// U+f080
 		"Video_camera_front_off":	"\xef\xa0\xbb", 	// U+f83b
 		"Video_chat":	"\xef\xa2\xa0", 	// U+f8a0

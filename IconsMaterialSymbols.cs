@@ -383,6 +383,7 @@ namespace IconFonts
         public const string Ballot = "\ue172";
         public const string Bar_chart = "\ue26b";
         public const string Bar_chart_4_bars = "\uf681";
+        public const string Bar_chart_off = "\uf411";
         public const string Barcode = "\ue70b";
         public const string Barcode_reader = "\uf85c";
         public const string Barcode_scanner = "\ue70c";
@@ -483,6 +484,7 @@ namespace IconFonts
         public const string Bookmark = "\ue8e7";
         public const string Bookmark_add = "\ue598";
         public const string Bookmark_added = "\ue599";
+        public const string Bookmark_bag = "\uf410";
         public const string Bookmark_border = "\ue8e7";
         public const string Bookmark_check = "\uf457";
         public const string Bookmark_flag = "\uf456";
@@ -503,6 +505,7 @@ namespace IconFonts
         public const string Border_style = "\ue231";
         public const string Border_top = "\ue232";
         public const string Border_vertical = "\ue233";
+        public const string Borg = "\uf40d";
         public const string Bottom_app_bar = "\ue730";
         public const string Bottom_drawer = "\ue72d";
         public const string Bottom_navigation = "\ue98c";
@@ -1291,6 +1294,7 @@ namespace IconFonts
         public const string Fitness_center = "\ueb43";
         public const string Fitness_tracker = "\uf463";
         public const string Flag = "\uf0c6";
+        public const string Flag_2 = "\uf40f";
         public const string Flag_circle = "\ueaf8";
         public const string Flag_filled = "\uf0c6";
         public const string Flaky = "\uef50";
@@ -1456,6 +1460,7 @@ namespace IconFonts
         public const string Gesture_select = "\uf657";
         public const string Get_app = "\uf090";
         public const string Gif = "\ue908";
+        public const string Gif_2 = "\uf40e";
         public const string Gif_box = "\ue7a3";
         public const string Girl = "\ueb68";
         public const string Gite = "\ue58b";
@@ -2064,6 +2069,7 @@ namespace IconFonts
         public const string Motion_photos_on = "\ue9c1";
         public const string Motion_photos_pause = "\uf227";
         public const string Motion_photos_paused = "\uf227";
+        public const string Motion_play = "\uf40b";
         public const string Motion_sensor_active = "\ue792";
         public const string Motion_sensor_alert = "\ue784";
         public const string Motion_sensor_idle = "\ue783";
@@ -3464,6 +3470,7 @@ namespace IconFonts
         public const string Vibration = "\ue62d";
         public const string Video_call = "\ue070";
         public const string Video_camera_back = "\uf07f";
+        public const string Video_camera_back_add = "\uf40c";
         public const string Video_camera_front = "\uf080";
         public const string Video_camera_front_off = "\uf83b";
         public const string Video_chat = "\uf8a0";

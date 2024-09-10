@@ -38,6 +38,7 @@ namespace IconFonts
         public const string Num21mp = "\ue95f";
         public const string Num22mp = "\ue960";
         public const string Num23mp = "\ue961";
+        public const string Num24fps_select = "\uf3f2";
         public const string Num24mp = "\ue962";
         public const string Num2d = "\uef37";
         public const string Num2k = "\ue963";
@@ -280,6 +281,8 @@ namespace IconFonts
         public const string Arrow_split = "\uea04";
         public const string Arrow_top_left = "\uf72e";
         public const string Arrow_top_right = "\uf72d";
+        public const string Arrow_upload_progress = "\uf3f4";
+        public const string Arrow_upload_ready = "\uf3f5";
         public const string Arrow_upward = "\ue5d8";
         public const string Arrow_upward_alt = "\ue986";
         public const string Arrow_warm_up = "\uf4b5";
@@ -868,6 +871,7 @@ namespace IconFonts
         public const string Dangerous = "\ue99a";
         public const string Dark_mode = "\ue51c";
         public const string Dashboard = "\ue871";
+        public const string Dashboard_2 = "\uf3ea";
         public const string Dashboard_customize = "\ue99b";
         public const string Data_alert = "\uf7f6";
         public const string Data_array = "\uead1";
@@ -941,6 +945,7 @@ namespace IconFonts
         public const string Device_unknown = "\ue339";
         public const string Devices = "\ue326";
         public const string Devices_fold = "\uebde";
+        public const string Devices_fold_2 = "\uf406";
         public const string Devices_off = "\uf7a5";
         public const string Devices_other = "\ue337";
         public const string Devices_wearables = "\uf6ab";
@@ -1146,6 +1151,11 @@ namespace IconFonts
         public const string Enterprise_off = "\ueb4d";
         public const string Equal = "\uf77b";
         public const string Equalizer = "\ue01d";
+        public const string Eraser_size_1 = "\uf3fc";
+        public const string Eraser_size_2 = "\uf3fb";
+        public const string Eraser_size_3 = "\uf3fa";
+        public const string Eraser_size_4 = "\uf3f9";
+        public const string Eraser_size_5 = "\uf3f8";
         public const string Error = "\uf8b6";
         public const string Error_circle_rounded = "\uf8b6";
         public const string Error_med = "\ue49b";
@@ -1202,9 +1212,15 @@ namespace IconFonts
         public const string Face_4 = "\uf8dc";
         public const string Face_5 = "\uf8dd";
         public const string Face_6 = "\uf8de";
+        public const string Face_down = "\uf402";
+        public const string Face_left = "\uf401";
+        public const string Face_nod = "\uf400";
         public const string Face_retouching_natural = "\uef4e";
         public const string Face_retouching_off = "\uf007";
+        public const string Face_right = "\uf3ff";
+        public const string Face_shake = "\uf3fe";
         public const string Face_unlock = "\uf008";
+        public const string Face_up = "\uf3fd";
         public const string Fact_check = "\uf0c5";
         public const string Factory = "\uebbc";
         public const string Falling = "\uf60d";
@@ -1517,6 +1533,7 @@ namespace IconFonts
         public const string Hallway = "\ue6f8";
         public const string Hand_bones = "\uf894";
         public const string Hand_gesture = "\uef9c";
+        public const string Hand_gesture_off = "\uf3f3";
         public const string Handheld_controller = "\uf4c6";
         public const string Handshake = "\uebcb";
         public const string Handwriting_recognition = "\ueb02";
@@ -2042,6 +2059,7 @@ namespace IconFonts
         public const string Model_training = "\uf0cf";
         public const string Monetization_on = "\ue263";
         public const string Money = "\ue57d";
+        public const string Money_bag = "\uf3ee";
         public const string Money_off = "\uf038";
         public const string Money_off_csred = "\uf038";
         public const string Monitor = "\uef5b";
@@ -2466,6 +2484,7 @@ namespace IconFonts
         public const string Pip = "\uf64d";
         public const string Pip_exit = "\uf70d";
         public const string Pivot_table_chart = "\ue9ce";
+        public const string Pixel_9_pro_fold = "\uf3f0";
         public const string Place = "\uf1db";
         public const string Place_item = "\uf1f0";
         public const string Plagiarism = "\uea5a";
@@ -2495,6 +2514,7 @@ namespace IconFonts
         public const string Point_scan = "\uf70c";
         public const string Poker_chip = "\uf49b";
         public const string Policy = "\uea17";
+        public const string Policy_alert = "\uf407";
         public const string Poll = "\uf0cc";
         public const string Polyline = "\uebbb";
         public const string Polymer = "\ue8ab";
@@ -2604,6 +2624,7 @@ namespace IconFonts
         public const string Rebase_edit = "\uf846";
         public const string Receipt = "\ue8b0";
         public const string Receipt_long = "\uef6e";
+        public const string Receipt_long_off = "\uf40a";
         public const string Recent_actors = "\ue03f";
         public const string Recent_patient = "\uf808";
         public const string Recenter = "\uf4c0";
@@ -2615,6 +2636,7 @@ namespace IconFonts
         public const string Redo = "\ue15a";
         public const string Reduce_capacity = "\uf21c";
         public const string Refresh = "\ue5d5";
+        public const string Reg_logo_ift = "\uf3ef";
         public const string Regular_expression = "\uf750";
         public const string Relax = "\uf6dc";
         public const string Release_alert = "\uf654";
@@ -3340,6 +3362,7 @@ namespace IconFonts
         public const string Tools_power_drill = "\ue1e9";
         public const string Tools_wrench = "\uf8cd";
         public const string Tooltip = "\ue9f8";
+        public const string Tooltip_2 = "\uf3ed";
         public const string Top_panel_close = "\uf733";
         public const string Top_panel_open = "\uf732";
         public const string Topic = "\uf1c8";
@@ -3354,6 +3377,8 @@ namespace IconFonts
         public const string Toys_fan = "\uf887";
         public const string Track_changes = "\ue8e1";
         public const string Trackpad_input = "\uf4c7";
+        public const string Trackpad_input_2 = "\uf409";
+        public const string Trackpad_input_3 = "\uf408";
         public const string Traffic = "\ue565";
         public const string Traffic_jam = "\uf46f";
         public const string Trail_length = "\ueb5e";
@@ -3366,6 +3391,7 @@ namespace IconFonts
         public const string Transform = "\ue428";
         public const string Transgender = "\ue58d";
         public const string Transit_enterexit = "\ue579";
+        public const string Transit_ticket = "\uf3f1";
         public const string Transition_chop = "\uf50e";
         public const string Transition_dissolve = "\uf50d";
         public const string Transition_fade = "\uf50c";
@@ -3400,8 +3426,10 @@ namespace IconFonts
         public const string Turned_in = "\ue8e7";
         public const string Turned_in_not = "\ue8e7";
         public const string Tv = "\ue63b";
+        public const string Tv_displays = "\uf3ec";
         public const string Tv_gen = "\ue830";
         public const string Tv_guide = "\ue1dc";
+        public const string Tv_next = "\uf3eb";
         public const string Tv_off = "\ue647";
         public const string Tv_options_edit_channels = "\ue1dd";
         public const string Tv_options_input_settings = "\ue1de";

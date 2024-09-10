@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe628
-    ICON_MAX = 0xe628
+    ICON_MAX_16 = 0xe62d
+    ICON_MAX = 0xe62d
 
     ICON_A_ARROW_DOWN = '\ue58a'
     ICON_A_ARROW_UP = '\ue58b'
@@ -301,6 +301,7 @@ class IconsLucide:
     ICON_CHART_COLUMN_INCREASING = '\ue2a4'
     ICON_CHART_COLUMN_STACKED = '\ue60f'
     ICON_CHART_COLUMN = '\ue2a3'
+    ICON_CHART_GANTT = '\ue629'
     ICON_CHART_LINE = '\ue2a5'
     ICON_CHART_NETWORK = '\ue610'
     ICON_CHART_NO_AXES_COLUMN_DECREASING = '\ue06d'
@@ -710,6 +711,7 @@ class IconsLucide:
     ICON_GRADUATION_CAP = '\ue234'
     ICON_GRAPE = '\ue356'
     ICON_GRID_2X2_CHECK = '\ue5e9'
+    ICON_GRID_2X2_PLUS = '\ue62d'
     ICON_GRID_2X2_X = '\ue5ea'
     ICON_GRID_2X2 = '\ue504'
     ICON_GRID_3X3 = '\ue0ec'
@@ -991,6 +993,7 @@ class IconsLucide:
     ICON_NUT_OFF = '\ue3a0'
     ICON_NUT = '\ue39f'
     ICON_OCTAGON_ALERT = '\ue12b'
+    ICON_OCTAGON_MINUS = '\ue62c'
     ICON_OCTAGON_PAUSE = '\ue21b'
     ICON_OCTAGON_X = '\ue12c'
     ICON_OCTAGON = '\ue12a'
@@ -1430,6 +1433,7 @@ class IconsLucide:
     ICON_TREES = '\ue2f5'
     ICON_TRELLO = '\ue18f'
     ICON_TRENDING_DOWN = '\ue190'
+    ICON_TRENDING_UP_DOWN = '\ue62a'
     ICON_TRENDING_UP = '\ue191'
     ICON_TRIANGLE_ALERT = '\ue193'
     ICON_TRIANGLE_RIGHT = '\ue4f2'
@@ -1493,6 +1497,7 @@ class IconsLucide:
     ICON_VOICEMAIL = '\ue1a8'
     ICON_VOLUME_1 = '\ue1aa'
     ICON_VOLUME_2 = '\ue1ab'
+    ICON_VOLUME_OFF = '\ue62b'
     ICON_VOLUME_X = '\ue1ac'
     ICON_VOLUME = '\ue1a9'
     ICON_VOTE = '\ue3b1'

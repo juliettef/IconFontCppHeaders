@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe628
-#define ICON_MAX_LC 0xe628
+#define ICON_MAX_16_LC 0xe62d
+#define ICON_MAX_LC 0xe62d
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x8a"	// U+e58a
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8b"	// U+e58b
@@ -301,6 +301,7 @@
 #define ICON_LC_CHART_COLUMN_INCREASING "\xee\x8a\xa4"	// U+e2a4
 #define ICON_LC_CHART_COLUMN_STACKED "\xee\x98\x8f"	// U+e60f
 #define ICON_LC_CHART_COLUMN "\xee\x8a\xa3"	// U+e2a3
+#define ICON_LC_CHART_GANTT "\xee\x98\xa9"	// U+e629
 #define ICON_LC_CHART_LINE "\xee\x8a\xa5"	// U+e2a5
 #define ICON_LC_CHART_NETWORK "\xee\x98\x90"	// U+e610
 #define ICON_LC_CHART_NO_AXES_COLUMN_DECREASING "\xee\x81\xad"	// U+e06d
@@ -710,6 +711,7 @@
 #define ICON_LC_GRADUATION_CAP "\xee\x88\xb4"	// U+e234
 #define ICON_LC_GRAPE "\xee\x8d\x96"	// U+e356
 #define ICON_LC_GRID_2X2_CHECK "\xee\x97\xa9"	// U+e5e9
+#define ICON_LC_GRID_2X2_PLUS "\xee\x98\xad"	// U+e62d
 #define ICON_LC_GRID_2X2_X "\xee\x97\xaa"	// U+e5ea
 #define ICON_LC_GRID_2X2 "\xee\x94\x84"	// U+e504
 #define ICON_LC_GRID_3X3 "\xee\x83\xac"	// U+e0ec
@@ -991,6 +993,7 @@
 #define ICON_LC_NUT_OFF "\xee\x8e\xa0"	// U+e3a0
 #define ICON_LC_NUT "\xee\x8e\x9f"	// U+e39f
 #define ICON_LC_OCTAGON_ALERT "\xee\x84\xab"	// U+e12b
+#define ICON_LC_OCTAGON_MINUS "\xee\x98\xac"	// U+e62c
 #define ICON_LC_OCTAGON_PAUSE "\xee\x88\x9b"	// U+e21b
 #define ICON_LC_OCTAGON_X "\xee\x84\xac"	// U+e12c
 #define ICON_LC_OCTAGON "\xee\x84\xaa"	// U+e12a
@@ -1430,6 +1433,7 @@
 #define ICON_LC_TREES "\xee\x8b\xb5"	// U+e2f5
 #define ICON_LC_TRELLO "\xee\x86\x8f"	// U+e18f
 #define ICON_LC_TRENDING_DOWN "\xee\x86\x90"	// U+e190
+#define ICON_LC_TRENDING_UP_DOWN "\xee\x98\xaa"	// U+e62a
 #define ICON_LC_TRENDING_UP "\xee\x86\x91"	// U+e191
 #define ICON_LC_TRIANGLE_ALERT "\xee\x86\x93"	// U+e193
 #define ICON_LC_TRIANGLE_RIGHT "\xee\x93\xb2"	// U+e4f2
@@ -1493,6 +1497,7 @@
 #define ICON_LC_VOICEMAIL "\xee\x86\xa8"	// U+e1a8
 #define ICON_LC_VOLUME_1 "\xee\x86\xaa"	// U+e1aa
 #define ICON_LC_VOLUME_2 "\xee\x86\xab"	// U+e1ab
+#define ICON_LC_VOLUME_OFF "\xee\x98\xab"	// U+e62b
 #define ICON_LC_VOLUME_X "\xee\x86\xac"	// U+e1ac
 #define ICON_LC_VOLUME "\xee\x86\xa9"	// U+e1a9
 #define ICON_LC_VOTE "\xee\x8e\xb1"	// U+e3b1

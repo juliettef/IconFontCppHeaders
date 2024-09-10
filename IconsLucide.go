@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe628,
-	Max: 0xe628,
+	Max16: 0xe62d,
+	Max: 0xe62d,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
 		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
@@ -303,6 +303,7 @@ var IconsLucide = Font{
 		"ChartColumnIncreasing":	"\xee\x8a\xa4", 	// U+e2a4
 		"ChartColumnStacked":	"\xee\x98\x8f", 	// U+e60f
 		"ChartColumn":	"\xee\x8a\xa3", 	// U+e2a3
+		"ChartGantt":	"\xee\x98\xa9", 	// U+e629
 		"ChartLine":	"\xee\x8a\xa5", 	// U+e2a5
 		"ChartNetwork":	"\xee\x98\x90", 	// U+e610
 		"ChartNoAxesColumnDecreasing":	"\xee\x81\xad", 	// U+e06d
@@ -712,6 +713,7 @@ var IconsLucide = Font{
 		"GraduationCap":	"\xee\x88\xb4", 	// U+e234
 		"Grape":	"\xee\x8d\x96", 	// U+e356
 		"Grid2x2Check":	"\xee\x97\xa9", 	// U+e5e9
+		"Grid2x2Plus":	"\xee\x98\xad", 	// U+e62d
 		"Grid2x2X":	"\xee\x97\xaa", 	// U+e5ea
 		"Grid2x2":	"\xee\x94\x84", 	// U+e504
 		"Grid3x3":	"\xee\x83\xac", 	// U+e0ec
@@ -993,6 +995,7 @@ var IconsLucide = Font{
 		"NutOff":	"\xee\x8e\xa0", 	// U+e3a0
 		"Nut":	"\xee\x8e\x9f", 	// U+e39f
 		"OctagonAlert":	"\xee\x84\xab", 	// U+e12b
+		"OctagonMinus":	"\xee\x98\xac", 	// U+e62c
 		"OctagonPause":	"\xee\x88\x9b", 	// U+e21b
 		"OctagonX":	"\xee\x84\xac", 	// U+e12c
 		"Octagon":	"\xee\x84\xaa", 	// U+e12a
@@ -1432,6 +1435,7 @@ var IconsLucide = Font{
 		"Trees":	"\xee\x8b\xb5", 	// U+e2f5
 		"Trello":	"\xee\x86\x8f", 	// U+e18f
 		"TrendingDown":	"\xee\x86\x90", 	// U+e190
+		"TrendingUpDown":	"\xee\x98\xaa", 	// U+e62a
 		"TrendingUp":	"\xee\x86\x91", 	// U+e191
 		"TriangleAlert":	"\xee\x86\x93", 	// U+e193
 		"TriangleRight":	"\xee\x93\xb2", 	// U+e4f2
@@ -1495,6 +1499,7 @@ var IconsLucide = Font{
 		"Voicemail":	"\xee\x86\xa8", 	// U+e1a8
 		"Volume1":	"\xee\x86\xaa", 	// U+e1aa
 		"Volume2":	"\xee\x86\xab", 	// U+e1ab
+		"VolumeOff":	"\xee\x98\xab", 	// U+e62b
 		"VolumeX":	"\xee\x86\xac", 	// U+e1ac
 		"Volume":	"\xee\x86\xa9", 	// U+e1a9
 		"Vote":	"\xee\x8e\xb1", 	// U+e3b1

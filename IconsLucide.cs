@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe628;
-        public const int IconMax = 0xe628;
+        public const int IconMax16 = 0xe62d;
+        public const int IconMax = 0xe62d;
 
         public const string AArrowDown = "\ue58a";
         public const string AArrowUp = "\ue58b";
@@ -305,6 +305,7 @@ namespace IconFonts
         public const string ChartColumnIncreasing = "\ue2a4";
         public const string ChartColumnStacked = "\ue60f";
         public const string ChartColumn = "\ue2a3";
+        public const string ChartGantt = "\ue629";
         public const string ChartLine = "\ue2a5";
         public const string ChartNetwork = "\ue610";
         public const string ChartNoAxesColumnDecreasing = "\ue06d";
@@ -714,6 +715,7 @@ namespace IconFonts
         public const string GraduationCap = "\ue234";
         public const string Grape = "\ue356";
         public const string Grid2x2Check = "\ue5e9";
+        public const string Grid2x2Plus = "\ue62d";
         public const string Grid2x2X = "\ue5ea";
         public const string Grid2x2 = "\ue504";
         public const string Grid3x3 = "\ue0ec";
@@ -995,6 +997,7 @@ namespace IconFonts
         public const string NutOff = "\ue3a0";
         public const string Nut = "\ue39f";
         public const string OctagonAlert = "\ue12b";
+        public const string OctagonMinus = "\ue62c";
         public const string OctagonPause = "\ue21b";
         public const string OctagonX = "\ue12c";
         public const string Octagon = "\ue12a";
@@ -1434,6 +1437,7 @@ namespace IconFonts
         public const string Trees = "\ue2f5";
         public const string Trello = "\ue18f";
         public const string TrendingDown = "\ue190";
+        public const string TrendingUpDown = "\ue62a";
         public const string TrendingUp = "\ue191";
         public const string TriangleAlert = "\ue193";
         public const string TriangleRight = "\ue4f2";
@@ -1497,6 +1501,7 @@ namespace IconFonts
         public const string Voicemail = "\ue1a8";
         public const string Volume1 = "\ue1aa";
         public const string Volume2 = "\ue1ab";
+        public const string VolumeOff = "\ue62b";
         public const string VolumeX = "\ue1ac";
         public const string Volume = "\ue1a9";
         public const string Vote = "\ue3b1";

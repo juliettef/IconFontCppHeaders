@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe62d,
-	Max: 0xe62d,
+	Max16: 0xe635,
+	Max: 0xe635,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
 		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
@@ -225,7 +225,6 @@ var IconsLucide = Font{
 		"BotMessageSquare":	"\xee\x97\x93", 	// U+e5d3
 		"BotOff":	"\xee\x97\xa5", 	// U+e5e5
 		"Bot":	"\xee\x86\xbb", 	// U+e1bb
-		"BoxSelect":	"\xee\x86\xbc", 	// U+e1bc
 		"Box":	"\xee\x81\xa5", 	// U+e065
 		"Boxes":	"\xee\x8b\x90", 	// U+e2d0
 		"Braces":	"\xee\x8d\xae", 	// U+e36e
@@ -235,6 +234,7 @@ var IconsLucide = Font{
 		"Brain":	"\xee\x8f\x8a", 	// U+e3ca
 		"BrickWall":	"\xee\x96\x86", 	// U+e586
 		"BriefcaseBusiness":	"\xee\x97\x9a", 	// U+e5da
+		"BriefcaseConveyorBelt":	"\xee\x98\xb0", 	// U+e630
 		"BriefcaseMedical":	"\xee\x97\x9b", 	// U+e5db
 		"Briefcase":	"\xee\x81\xa6", 	// U+e066
 		"BringToFront":	"\xee\x93\xb4", 	// U+e4f4
@@ -250,7 +250,8 @@ var IconsLucide = Font{
 		"Cable":	"\xee\x93\xa8", 	// U+e4e8
 		"CakeSlice":	"\xee\x92\xbe", 	// U+e4be
 		"Cake":	"\xee\x8d\x88", 	// U+e348
-		"Calculator":	"\xee\x86\xbd", 	// U+e1bd
+		"Calculator":	"\xee\x86\xbc", 	// U+e1bc
+		"Calendar1":	"\xee\x98\xb5", 	// U+e635
 		"CalendarArrowDown":	"\xee\x98\x83", 	// U+e603
 		"CalendarArrowUp":	"\xee\x98\x84", 	// U+e604
 		"CalendarCheck2":	"\xee\x8a\xb8", 	// U+e2b8
@@ -405,6 +406,7 @@ var IconsLucide = Font{
 		"Clock7":	"\xee\x89\x94", 	// U+e254
 		"Clock8":	"\xee\x89\x95", 	// U+e255
 		"Clock9":	"\xee\x89\x96", 	// U+e256
+		"ClockAlert":	"\xee\x98\xaf", 	// U+e62f
 		"ClockArrowDown":	"\xee\x98\x85", 	// U+e605
 		"ClockArrowUp":	"\xee\x98\x86", 	// U+e606
 		"Clock":	"\xee\x82\x8b", 	// U+e08b
@@ -532,13 +534,14 @@ var IconsLucide = Font{
 		"Egg":	"\xee\x89\x9d", 	// U+e25d
 		"EllipsisVertical":	"\xee\x82\xbb", 	// U+e0bb
 		"Ellipsis":	"\xee\x82\xba", 	// U+e0ba
-		"EqualNot":	"\xee\x86\xbf", 	// U+e1bf
-		"Equal":	"\xee\x86\xbe", 	// U+e1be
+		"EqualNot":	"\xee\x86\xbe", 	// U+e1be
+		"Equal":	"\xee\x86\xbd", 	// U+e1bd
 		"Eraser":	"\xee\x8a\x8f", 	// U+e28f
 		"EthernetPort":	"\xee\x98\xa5", 	// U+e625
 		"Euro":	"\xee\x82\xbc", 	// U+e0bc
 		"Expand":	"\xee\x88\x9a", 	// U+e21a
 		"ExternalLink":	"\xee\x82\xbd", 	// U+e0bd
+		"EyeClosed":	"\xee\x98\xb3", 	// U+e633
 		"EyeOff":	"\xee\x82\xbf", 	// U+e0bf
 		"Eye":	"\xee\x82\xbe", 	// U+e0be
 		"Facebook":	"\xee\x83\x80", 	// U+e0c0
@@ -599,6 +602,7 @@ var IconsLucide = Font{
 		"FileType2":	"\xee\x8d\xb1", 	// U+e371
 		"FileType":	"\xee\x8c\xaa", 	// U+e32a
 		"FileUp":	"\xee\x8c\xab", 	// U+e32b
+		"FileUser":	"\xee\x98\xb2", 	// U+e632
 		"FileVideo2":	"\xee\x8c\xad", 	// U+e32d
 		"FileVideo":	"\xee\x8c\xac", 	// U+e32c
 		"FileVolume2":	"\xee\x8c\xaf", 	// U+e32f
@@ -682,7 +686,7 @@ var IconsLucide = Font{
 		"GalleryVertical":	"\xee\x93\x96", 	// U+e4d6
 		"Gamepad2":	"\xee\x83\xa2", 	// U+e0e2
 		"Gamepad":	"\xee\x83\xa1", 	// U+e0e1
-		"Gauge":	"\xee\x87\x80", 	// U+e1c0
+		"Gauge":	"\xee\x86\xbf", 	// U+e1bf
 		"Gavel":	"\xee\x83\xa3", 	// U+e0e3
 		"Gem":	"\xee\x89\x82", 	// U+e242
 		"Ghost":	"\xee\x88\x8e", 	// U+e20e
@@ -745,6 +749,7 @@ var IconsLucide = Font{
 		"Heading5":	"\xee\x8e\x8d", 	// U+e38d
 		"Heading6":	"\xee\x8e\x8e", 	// U+e38e
 		"Heading":	"\xee\x8e\x88", 	// U+e388
+		"HeadphoneOff":	"\xee\x98\xae", 	// U+e62e
 		"Headphones":	"\xee\x83\xb4", 	// U+e0f4
 		"Headset":	"\xee\x97\x82", 	// U+e5c2
 		"HeartCrack":	"\xee\x8b\x96", 	// U+e2d6
@@ -769,7 +774,7 @@ var IconsLucide = Font{
 		"IdCard":	"\xee\x98\x9c", 	// U+e61c
 		"ImageDown":	"\xee\x95\x81", 	// U+e541
 		"ImageMinus":	"\xee\x87\xb6", 	// U+e1f6
-		"ImageOff":	"\xee\x87\x81", 	// U+e1c1
+		"ImageOff":	"\xee\x87\x80", 	// U+e1c0
 		"ImagePlay":	"\xee\x97\xa4", 	// U+e5e4
 		"ImagePlus":	"\xee\x87\xb7", 	// U+e1f7
 		"ImageUp":	"\xee\x97\x90", 	// U+e5d0
@@ -813,7 +818,7 @@ var IconsLucide = Font{
 		"Layers2":	"\xee\x94\xae", 	// U+e52e
 		"Layers3":	"\xee\x94\xaf", 	// U+e52f
 		"Layers":	"\xee\x84\x84", 	// U+e104
-		"LayoutDashboard":	"\xee\x87\x82", 	// U+e1c2
+		"LayoutDashboard":	"\xee\x87\x81", 	// U+e1c1
 		"LayoutGrid":	"\xee\x84\x85", 	// U+e105
 		"LayoutList":	"\xee\x87\x99", 	// U+e1d9
 		"LayoutPanelLeft":	"\xee\x91\xb5", 	// U+e475
@@ -828,7 +833,7 @@ var IconsLucide = Font{
 		"LifeBuoy":	"\xee\x84\x87", 	// U+e107
 		"Ligature":	"\xee\x90\xbf", 	// U+e43f
 		"LightbulbOff":	"\xee\x88\x88", 	// U+e208
-		"Lightbulb":	"\xee\x87\x83", 	// U+e1c3
+		"Lightbulb":	"\xee\x87\x82", 	// U+e1c2
 		"Link2Off":	"\xee\x84\x8a", 	// U+e10a
 		"Link2":	"\xee\x84\x89", 	// U+e109
 		"Link":	"\xee\x84\x88", 	// U+e108
@@ -915,6 +920,7 @@ var IconsLucide = Font{
 		"MessageSquareDiff":	"\xee\x95\xb2", 	// U+e572
 		"MessageSquareDot":	"\xee\x95\xb3", 	// U+e573
 		"MessageSquareHeart":	"\xee\x95\xb4", 	// U+e574
+		"MessageSquareLock":	"\xee\x98\xb1", 	// U+e631
 		"MessageSquareMore":	"\xee\x95\xb5", 	// U+e575
 		"MessageSquareOff":	"\xee\x95\xb6", 	// U+e576
 		"MessageSquarePlus":	"\xee\x90\x91", 	// U+e411
@@ -956,24 +962,24 @@ var IconsLucide = Font{
 		"MountainSnow":	"\xee\x88\xb2", 	// U+e232
 		"Mountain":	"\xee\x88\xb1", 	// U+e231
 		"MouseOff":	"\xee\x97\xa0", 	// U+e5e0
-		"MousePointer2":	"\xee\x87\x84", 	// U+e1c4
+		"MousePointer2":	"\xee\x87\x83", 	// U+e1c3
 		"MousePointerBan":	"\xee\x97\xac", 	// U+e5ec
 		"MousePointerClick":	"\xee\x84\xa4", 	// U+e124
 		"MousePointer":	"\xee\x84\xa3", 	// U+e123
 		"Mouse":	"\xee\x8a\x8e", 	// U+e28e
 		"Move3d":	"\xee\x8b\xa5", 	// U+e2e5
-		"MoveDiagonal2":	"\xee\x87\x86", 	// U+e1c6
-		"MoveDiagonal":	"\xee\x87\x85", 	// U+e1c5
+		"MoveDiagonal2":	"\xee\x87\x85", 	// U+e1c5
+		"MoveDiagonal":	"\xee\x87\x84", 	// U+e1c4
 		"MoveDownLeft":	"\xee\x92\x92", 	// U+e492
 		"MoveDownRight":	"\xee\x92\x93", 	// U+e493
 		"MoveDown":	"\xee\x92\x91", 	// U+e491
-		"MoveHorizontal":	"\xee\x87\x87", 	// U+e1c7
+		"MoveHorizontal":	"\xee\x87\x86", 	// U+e1c6
 		"MoveLeft":	"\xee\x92\x94", 	// U+e494
 		"MoveRight":	"\xee\x92\x95", 	// U+e495
 		"MoveUpLeft":	"\xee\x92\x97", 	// U+e497
 		"MoveUpRight":	"\xee\x92\x98", 	// U+e498
 		"MoveUp":	"\xee\x92\x96", 	// U+e496
-		"MoveVertical":	"\xee\x87\x88", 	// U+e1c8
+		"MoveVertical":	"\xee\x87\x87", 	// U+e1c7
 		"Move":	"\xee\x84\xa5", 	// U+e125
 		"Music2":	"\xee\x8d\x8e", 	// U+e34e
 		"Music3":	"\xee\x8d\x8f", 	// U+e34f
@@ -1199,8 +1205,8 @@ var IconsLucide = Font{
 		"SendHorizontal":	"\xee\x93\xb7", 	// U+e4f7
 		"SendToBack":	"\xee\x93\xb8", 	// U+e4f8
 		"Send":	"\xee\x85\x96", 	// U+e156
-		"SeparatorHorizontal":	"\xee\x87\x89", 	// U+e1c9
-		"SeparatorVertical":	"\xee\x87\x8a", 	// U+e1ca
+		"SeparatorHorizontal":	"\xee\x87\x88", 	// U+e1c8
+		"SeparatorVertical":	"\xee\x87\x89", 	// U+e1c9
 		"ServerCog":	"\xee\x8d\x85", 	// U+e345
 		"ServerCrash":	"\xee\x87\xa9", 	// U+e1e9
 		"ServerOff":	"\xee\x87\xaa", 	// U+e1ea
@@ -1225,7 +1231,7 @@ var IconsLucide = Font{
 		"Shield":	"\xee\x85\x9c", 	// U+e15c
 		"ShipWheel":	"\xee\x94\x87", 	// U+e507
 		"Ship":	"\xee\x8e\xbe", 	// U+e3be
-		"Shirt":	"\xee\x87\x8b", 	// U+e1cb
+		"Shirt":	"\xee\x87\x8a", 	// U+e1ca
 		"ShoppingBag":	"\xee\x85\x9f", 	// U+e15f
 		"ShoppingBasket":	"\xee\x93\xaf", 	// U+e4ef
 		"ShoppingCart":	"\xee\x85\xa0", 	// U+e160
@@ -1300,6 +1306,7 @@ var IconsLucide = Font{
 		"SquareDashedBottom":	"\xee\x93\x85", 	// U+e4c5
 		"SquareDashedKanban":	"\xee\x85\xb0", 	// U+e170
 		"SquareDashedMousePointer":	"\xee\x94\x8e", 	// U+e50e
+		"SquareDashed":	"\xee\x87\x8b", 	// U+e1cb
 		"SquareDivide":	"\xee\x85\xb1", 	// U+e171
 		"SquareDot":	"\xee\x85\xb2", 	// U+e172
 		"SquareEqual":	"\xee\x85\xb3", 	// U+e173
@@ -1497,6 +1504,7 @@ var IconsLucide = Font{
 		"Videotape":	"\xee\x93\x90", 	// U+e4d0
 		"View":	"\xee\x86\xa7", 	// U+e1a7
 		"Voicemail":	"\xee\x86\xa8", 	// U+e1a8
+		"Volleyball":	"\xee\x98\xb4", 	// U+e634
 		"Volume1":	"\xee\x86\xaa", 	// U+e1aa
 		"Volume2":	"\xee\x86\xab", 	// U+e1ab
 		"VolumeOff":	"\xee\x98\xab", 	// U+e62b

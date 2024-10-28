@@ -581,4 +581,7 @@ class IconsCodicons:
     ICON_PERCENTAGE = '\uec33'
     ICON_SORT_PERCENTAGE = '\uec33'
     ICON_ATTACH = '\uec34'
+    ICON_GO_TO_EDITING_SESSION = '\uec35'
+    ICON_EDIT_SESSION = '\uec36'
+    ICON_CODE_REVIEW = '\uec37'
     ICON_GIT_FETCH = '\uf101'

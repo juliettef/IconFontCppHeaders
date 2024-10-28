@@ -581,4 +581,7 @@
 #define ICON_CI_PERCENTAGE "\xee\xb0\xb3"	// U+ec33
 #define ICON_CI_SORT_PERCENTAGE "\xee\xb0\xb3"	// U+ec33
 #define ICON_CI_ATTACH "\xee\xb0\xb4"	// U+ec34
+#define ICON_CI_GO_TO_EDITING_SESSION "\xee\xb0\xb5"	// U+ec35
+#define ICON_CI_EDIT_SESSION "\xee\xb0\xb6"	// U+ec36
+#define ICON_CI_CODE_REVIEW "\xee\xb0\xb7"	// U+ec37
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

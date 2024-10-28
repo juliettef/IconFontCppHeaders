@@ -585,6 +585,9 @@ namespace IconFonts
         public const string Percentage = "\uec33";
         public const string SortPercentage = "\uec33";
         public const string Attach = "\uec34";
+        public const string GoToEditingSession = "\uec35";
+        public const string EditSession = "\uec36";
+        public const string CodeReview = "\uec37";
         public const string GitFetch = "\uf101";
     }
 }

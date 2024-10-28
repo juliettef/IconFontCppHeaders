@@ -583,6 +583,9 @@ var IconsCodicons = Font{
 		"Percentage":	"\xee\xb0\xb3", 	// U+ec33
 		"SortPercentage":	"\xee\xb0\xb3", 	// U+ec33
 		"Attach":	"\xee\xb0\xb4", 	// U+ec34
+		"GoToEditingSession":	"\xee\xb0\xb5", 	// U+ec35
+		"EditSession":	"\xee\xb0\xb6", 	// U+ec36
+		"CodeReview":	"\xee\xb0\xb7", 	// U+ec37
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

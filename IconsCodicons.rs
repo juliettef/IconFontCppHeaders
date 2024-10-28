@@ -579,4 +579,7 @@ pub const ICON_GO_TO_SEARCH: char = '\u{ec32}';
 pub const ICON_PERCENTAGE: char = '\u{ec33}';
 pub const ICON_SORT_PERCENTAGE: char = '\u{ec33}';
 pub const ICON_ATTACH: char = '\u{ec34}';
+pub const ICON_GO_TO_EDITING_SESSION: char = '\u{ec35}';
+pub const ICON_EDIT_SESSION: char = '\u{ec36}';
+pub const ICON_CODE_REVIEW: char = '\u{ec37}';
 pub const ICON_GIT_FETCH: char = '\u{f101}';

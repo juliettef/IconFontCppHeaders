@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe635,
-	Max: 0xe635,
+	Max16: 0xe636,
+	Max: 0xe636,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
 		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
@@ -1534,6 +1534,7 @@ var IconsLucide = Font{
 		"WifiOff":	"\xee\x86\xaf", 	// U+e1af
 		"WifiZero":	"\xee\x97\xbe", 	// U+e5fe
 		"Wifi":	"\xee\x86\xae", 	// U+e1ae
+		"WindArrowDown":	"\xee\x98\xb6", 	// U+e636
 		"Wind":	"\xee\x86\xb0", 	// U+e1b0
 		"WineOff":	"\xee\x8e\xa4", 	// U+e3a4
 		"Wine":	"\xee\x8b\xb8", 	// U+e2f8

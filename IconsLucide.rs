@@ -6,8 +6,8 @@
 pub const FONT_ICON_FILE_NAME_LC: &str = "lucide.ttf";
 
 pub const ICON_MIN: char = '\u{e038}';
-pub const ICON_MAX_16: char = '\u{e635}';
-pub const ICON_MAX: char = '\u{e635}';
+pub const ICON_MAX_16: char = '\u{e636}';
+pub const ICON_MAX: char = '\u{e636}';
 
 pub const ICON_A_ARROW_DOWN: char = '\u{e58a}';
 pub const ICON_A_ARROW_UP: char = '\u{e58b}';
@@ -1530,6 +1530,7 @@ pub const ICON_WIFI_LOW: char = '\u{e5fd}';
 pub const ICON_WIFI_OFF: char = '\u{e1af}';
 pub const ICON_WIFI_ZERO: char = '\u{e5fe}';
 pub const ICON_WIFI: char = '\u{e1ae}';
+pub const ICON_WIND_ARROW_DOWN: char = '\u{e636}';
 pub const ICON_WIND: char = '\u{e1b0}';
 pub const ICON_WINE_OFF: char = '\u{e3a4}';
 pub const ICON_WINE: char = '\u{e2f8}';

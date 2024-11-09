@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe635
-#define ICON_MAX_LC 0xe635
+#define ICON_MAX_16_LC 0xe636
+#define ICON_MAX_LC 0xe636
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x8a"	// U+e58a
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8b"	// U+e58b
@@ -1532,6 +1532,7 @@
 #define ICON_LC_WIFI_OFF "\xee\x86\xaf"	// U+e1af
 #define ICON_LC_WIFI_ZERO "\xee\x97\xbe"	// U+e5fe
 #define ICON_LC_WIFI "\xee\x86\xae"	// U+e1ae
+#define ICON_LC_WIND_ARROW_DOWN "\xee\x98\xb6"	// U+e636
 #define ICON_LC_WIND "\xee\x86\xb0"	// U+e1b0
 #define ICON_LC_WINE_OFF "\xee\x8e\xa4"	// U+e3a4
 #define ICON_LC_WINE "\xee\x8b\xb8"	// U+e2f8

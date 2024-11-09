@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe635;
-        public const int IconMax = 0xe635;
+        public const int IconMax16 = 0xe636;
+        public const int IconMax = 0xe636;
 
         public const string AArrowDown = "\ue58a";
         public const string AArrowUp = "\ue58b";
@@ -1536,6 +1536,7 @@ namespace IconFonts
         public const string WifiOff = "\ue1af";
         public const string WifiZero = "\ue5fe";
         public const string Wifi = "\ue1ae";
+        public const string WindArrowDown = "\ue636";
         public const string Wind = "\ue1b0";
         public const string WineOff = "\ue3a4";
         public const string Wine = "\ue2f8";

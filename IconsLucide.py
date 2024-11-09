@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe635
-    ICON_MAX = 0xe635
+    ICON_MAX_16 = 0xe636
+    ICON_MAX = 0xe636
 
     ICON_A_ARROW_DOWN = '\ue58a'
     ICON_A_ARROW_UP = '\ue58b'
@@ -1532,6 +1532,7 @@ class IconsLucide:
     ICON_WIFI_OFF = '\ue1af'
     ICON_WIFI_ZERO = '\ue5fe'
     ICON_WIFI = '\ue1ae'
+    ICON_WIND_ARROW_DOWN = '\ue636'
     ICON_WIND = '\ue1b0'
     ICON_WINE_OFF = '\ue3a4'
     ICON_WINE = '\ue2f8'

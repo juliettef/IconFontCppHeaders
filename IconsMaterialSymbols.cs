@@ -445,7 +445,7 @@ namespace IconFonts
         public const string Bedroom_baby = "\uefe0";
         public const string Bedroom_child = "\uefe1";
         public const string Bedroom_parent = "\uefe2";
-        public const string Bedtime = "\uef44";
+        public const string Bedtime = "\uf159";
         public const string Bedtime_off = "\ueb76";
         public const string Beenhere = "\ue52d";
         public const string Bento = "\uf1f4";
@@ -1531,7 +1531,7 @@ namespace IconFonts
         public const string Gps_fixed = "\ue55c";
         public const string Gps_not_fixed = "\ue1b7";
         public const string Gps_off = "\ue1b6";
-        public const string Grade = "\ue885";
+        public const string Grade = "\uf09a";
         public const string Gradient = "\ue3e9";
         public const string Grading = "\uea4f";
         public const string Grain = "\ue3ea";
@@ -1604,6 +1604,7 @@ namespace IconFonts
         public const string Heap_snapshot_thumbnail = "\uf76c";
         public const string Hearing = "\ue023";
         public const string Hearing_aid = "\uf464";
+        public const string Hearing_aid_disabled = "\uf3b0";
         public const string Hearing_disabled = "\uf104";
         public const string Heart_broken = "\ueac2";
         public const string Heart_check = "\uf60a";
@@ -2101,6 +2102,7 @@ namespace IconFonts
         public const string Mode_off_on = "\uf16f";
         public const string Mode_standby = "\uf037";
         public const string Model_training = "\uf0cf";
+        public const string Modeling = "\uf3aa";
         public const string Monetization_on = "\ue263";
         public const string Money = "\ue57d";
         public const string Money_bag = "\uf3ee";
@@ -2526,6 +2528,8 @@ namespace IconFonts
         public const string Pin_drop = "\ue55e";
         public const string Pin_end = "\ue767";
         public const string Pin_invoke = "\ue763";
+        public const string Pinboard = "\uf3ab";
+        public const string Pinboard_unread = "\uf3ac";
         public const string Pinch = "\ueb38";
         public const string Pinch_zoom_in = "\uf1fa";
         public const string Pinch_zoom_out = "\uf1fb";
@@ -2639,8 +2643,8 @@ namespace IconFonts
         public const string Quick_reference_all = "\uf801";
         public const string Quick_reorder = "\ueb15";
         public const string Quickreply = "\uef6c";
-        public const string Quiet_time = "\ue1f9";
-        public const string Quiet_time_active = "\ue291";
+        public const string Quiet_time = "\uf159";
+        public const string Quiet_time_active = "\ueb76";
         public const string Quiz = "\uf04c";
         public const string R_mobiledata = "\uf04d";
         public const string Radar = "\uf04e";

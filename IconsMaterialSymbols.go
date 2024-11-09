@@ -443,7 +443,7 @@ var IconsMaterialSymbols = Font{
 		"Bedroom_baby":	"\xee\xbf\xa0", 	// U+efe0
 		"Bedroom_child":	"\xee\xbf\xa1", 	// U+efe1
 		"Bedroom_parent":	"\xee\xbf\xa2", 	// U+efe2
-		"Bedtime":	"\xee\xbd\x84", 	// U+ef44
+		"Bedtime":	"\xef\x85\x99", 	// U+f159
 		"Bedtime_off":	"\xee\xad\xb6", 	// U+eb76
 		"Beenhere":	"\xee\x94\xad", 	// U+e52d
 		"Bento":	"\xef\x87\xb4", 	// U+f1f4
@@ -1529,7 +1529,7 @@ var IconsMaterialSymbols = Font{
 		"Gps_fixed":	"\xee\x95\x9c", 	// U+e55c
 		"Gps_not_fixed":	"\xee\x86\xb7", 	// U+e1b7
 		"Gps_off":	"\xee\x86\xb6", 	// U+e1b6
-		"Grade":	"\xee\xa2\x85", 	// U+e885
+		"Grade":	"\xef\x82\x9a", 	// U+f09a
 		"Gradient":	"\xee\x8f\xa9", 	// U+e3e9
 		"Grading":	"\xee\xa9\x8f", 	// U+ea4f
 		"Grain":	"\xee\x8f\xaa", 	// U+e3ea
@@ -1602,6 +1602,7 @@ var IconsMaterialSymbols = Font{
 		"Heap_snapshot_thumbnail":	"\xef\x9d\xac", 	// U+f76c
 		"Hearing":	"\xee\x80\xa3", 	// U+e023
 		"Hearing_aid":	"\xef\x91\xa4", 	// U+f464
+		"Hearing_aid_disabled":	"\xef\x8e\xb0", 	// U+f3b0
 		"Hearing_disabled":	"\xef\x84\x84", 	// U+f104
 		"Heart_broken":	"\xee\xab\x82", 	// U+eac2
 		"Heart_check":	"\xef\x98\x8a", 	// U+f60a
@@ -2099,6 +2100,7 @@ var IconsMaterialSymbols = Font{
 		"Mode_off_on":	"\xef\x85\xaf", 	// U+f16f
 		"Mode_standby":	"\xef\x80\xb7", 	// U+f037
 		"Model_training":	"\xef\x83\x8f", 	// U+f0cf
+		"Modeling":	"\xef\x8e\xaa", 	// U+f3aa
 		"Monetization_on":	"\xee\x89\xa3", 	// U+e263
 		"Money":	"\xee\x95\xbd", 	// U+e57d
 		"Money_bag":	"\xef\x8f\xae", 	// U+f3ee
@@ -2524,6 +2526,8 @@ var IconsMaterialSymbols = Font{
 		"Pin_drop":	"\xee\x95\x9e", 	// U+e55e
 		"Pin_end":	"\xee\x9d\xa7", 	// U+e767
 		"Pin_invoke":	"\xee\x9d\xa3", 	// U+e763
+		"Pinboard":	"\xef\x8e\xab", 	// U+f3ab
+		"Pinboard_unread":	"\xef\x8e\xac", 	// U+f3ac
 		"Pinch":	"\xee\xac\xb8", 	// U+eb38
 		"Pinch_zoom_in":	"\xef\x87\xba", 	// U+f1fa
 		"Pinch_zoom_out":	"\xef\x87\xbb", 	// U+f1fb
@@ -2637,8 +2641,8 @@ var IconsMaterialSymbols = Font{
 		"Quick_reference_all":	"\xef\xa0\x81", 	// U+f801
 		"Quick_reorder":	"\xee\xac\x95", 	// U+eb15
 		"Quickreply":	"\xee\xbd\xac", 	// U+ef6c
-		"Quiet_time":	"\xee\x87\xb9", 	// U+e1f9
-		"Quiet_time_active":	"\xee\x8a\x91", 	// U+e291
+		"Quiet_time":	"\xef\x85\x99", 	// U+f159
+		"Quiet_time_active":	"\xee\xad\xb6", 	// U+eb76
 		"Quiz":	"\xef\x81\x8c", 	// U+f04c
 		"R_mobiledata":	"\xef\x81\x8d", 	// U+f04d
 		"Radar":	"\xef\x81\x8e", 	// U+f04e

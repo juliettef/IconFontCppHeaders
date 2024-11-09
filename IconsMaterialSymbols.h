@@ -441,7 +441,7 @@
 #define ICON_MS_BEDROOM_BABY "\xee\xbf\xa0"	// U+efe0
 #define ICON_MS_BEDROOM_CHILD "\xee\xbf\xa1"	// U+efe1
 #define ICON_MS_BEDROOM_PARENT "\xee\xbf\xa2"	// U+efe2
-#define ICON_MS_BEDTIME "\xee\xbd\x84"	// U+ef44
+#define ICON_MS_BEDTIME "\xef\x85\x99"	// U+f159
 #define ICON_MS_BEDTIME_OFF "\xee\xad\xb6"	// U+eb76
 #define ICON_MS_BEENHERE "\xee\x94\xad"	// U+e52d
 #define ICON_MS_BENTO "\xef\x87\xb4"	// U+f1f4
@@ -1527,7 +1527,7 @@
 #define ICON_MS_GPS_FIXED "\xee\x95\x9c"	// U+e55c
 #define ICON_MS_GPS_NOT_FIXED "\xee\x86\xb7"	// U+e1b7
 #define ICON_MS_GPS_OFF "\xee\x86\xb6"	// U+e1b6
-#define ICON_MS_GRADE "\xee\xa2\x85"	// U+e885
+#define ICON_MS_GRADE "\xef\x82\x9a"	// U+f09a
 #define ICON_MS_GRADIENT "\xee\x8f\xa9"	// U+e3e9
 #define ICON_MS_GRADING "\xee\xa9\x8f"	// U+ea4f
 #define ICON_MS_GRAIN "\xee\x8f\xaa"	// U+e3ea
@@ -1600,6 +1600,7 @@
 #define ICON_MS_HEAP_SNAPSHOT_THUMBNAIL "\xef\x9d\xac"	// U+f76c
 #define ICON_MS_HEARING "\xee\x80\xa3"	// U+e023
 #define ICON_MS_HEARING_AID "\xef\x91\xa4"	// U+f464
+#define ICON_MS_HEARING_AID_DISABLED "\xef\x8e\xb0"	// U+f3b0
 #define ICON_MS_HEARING_DISABLED "\xef\x84\x84"	// U+f104
 #define ICON_MS_HEART_BROKEN "\xee\xab\x82"	// U+eac2
 #define ICON_MS_HEART_CHECK "\xef\x98\x8a"	// U+f60a
@@ -2097,6 +2098,7 @@
 #define ICON_MS_MODE_OFF_ON "\xef\x85\xaf"	// U+f16f
 #define ICON_MS_MODE_STANDBY "\xef\x80\xb7"	// U+f037
 #define ICON_MS_MODEL_TRAINING "\xef\x83\x8f"	// U+f0cf
+#define ICON_MS_MODELING "\xef\x8e\xaa"	// U+f3aa
 #define ICON_MS_MONETIZATION_ON "\xee\x89\xa3"	// U+e263
 #define ICON_MS_MONEY "\xee\x95\xbd"	// U+e57d
 #define ICON_MS_MONEY_BAG "\xef\x8f\xae"	// U+f3ee
@@ -2522,6 +2524,8 @@
 #define ICON_MS_PIN_DROP "\xee\x95\x9e"	// U+e55e
 #define ICON_MS_PIN_END "\xee\x9d\xa7"	// U+e767
 #define ICON_MS_PIN_INVOKE "\xee\x9d\xa3"	// U+e763
+#define ICON_MS_PINBOARD "\xef\x8e\xab"	// U+f3ab
+#define ICON_MS_PINBOARD_UNREAD "\xef\x8e\xac"	// U+f3ac
 #define ICON_MS_PINCH "\xee\xac\xb8"	// U+eb38
 #define ICON_MS_PINCH_ZOOM_IN "\xef\x87\xba"	// U+f1fa
 #define ICON_MS_PINCH_ZOOM_OUT "\xef\x87\xbb"	// U+f1fb
@@ -2635,8 +2639,8 @@
 #define ICON_MS_QUICK_REFERENCE_ALL "\xef\xa0\x81"	// U+f801
 #define ICON_MS_QUICK_REORDER "\xee\xac\x95"	// U+eb15
 #define ICON_MS_QUICKREPLY "\xee\xbd\xac"	// U+ef6c
-#define ICON_MS_QUIET_TIME "\xee\x87\xb9"	// U+e1f9
-#define ICON_MS_QUIET_TIME_ACTIVE "\xee\x8a\x91"	// U+e291
+#define ICON_MS_QUIET_TIME "\xef\x85\x99"	// U+f159
+#define ICON_MS_QUIET_TIME_ACTIVE "\xee\xad\xb6"	// U+eb76
 #define ICON_MS_QUIZ "\xef\x81\x8c"	// U+f04c
 #define ICON_MS_R_MOBILEDATA "\xef\x81\x8d"	// U+f04d
 #define ICON_MS_RADAR "\xef\x81\x8e"	// U+f04e

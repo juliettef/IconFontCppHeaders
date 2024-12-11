@@ -107,6 +107,7 @@
 #define ICON_FA_CREATIVE_COMMONS_SHARE "\xef\x93\xb2"	// U+f4f2
 #define ICON_FA_CREATIVE_COMMONS_ZERO "\xef\x93\xb3"	// U+f4f3
 #define ICON_FA_CRITICAL_ROLE "\xef\x9b\x89"	// U+f6c9
+#define ICON_FA_CSS "\xee\x9a\xa2"	// U+e6a2
 #define ICON_FA_CSS3 "\xef\x84\xbc"	// U+f13c
 #define ICON_FA_CSS3_ALT "\xef\x8e\x8b"	// U+f38b
 #define ICON_FA_CUTTLEFISH "\xef\x8e\x8c"	// U+f38c
@@ -156,6 +157,7 @@
 #define ICON_FA_FEDEX "\xef\x9e\x97"	// U+f797
 #define ICON_FA_FEDORA "\xef\x9e\x98"	// U+f798
 #define ICON_FA_FIGMA "\xef\x9e\x99"	// U+f799
+#define ICON_FA_FILES_PINWHEEL "\xee\x9a\x9f"	// U+e69f
 #define ICON_FA_FIREFOX "\xef\x89\xa9"	// U+f269
 #define ICON_FA_FIREFOX_BROWSER "\xee\x80\x87"	// U+e007
 #define ICON_FA_FIRST_ORDER "\xef\x8a\xb0"	// U+f2b0
@@ -378,6 +380,7 @@
 #define ICON_FA_SPEAKER_DECK "\xef\xa0\xbc"	// U+f83c
 #define ICON_FA_SPOTIFY "\xef\x86\xbc"	// U+f1bc
 #define ICON_FA_SQUARE_BEHANCE "\xef\x86\xb5"	// U+f1b5
+#define ICON_FA_SQUARE_BLUESKY "\xee\x9a\xa3"	// U+e6a3
 #define ICON_FA_SQUARE_DRIBBBLE "\xef\x8e\x97"	// U+f397
 #define ICON_FA_SQUARE_FACEBOOK "\xef\x82\x82"	// U+f082
 #define ICON_FA_SQUARE_FONT_AWESOME "\xee\x96\xad"	// U+e5ad

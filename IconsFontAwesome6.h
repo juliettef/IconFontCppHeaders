@@ -270,6 +270,7 @@
 #define ICON_FA_CHART_AREA "\xef\x87\xbe"	// U+f1fe
 #define ICON_FA_CHART_BAR "\xef\x82\x80"	// U+f080
 #define ICON_FA_CHART_COLUMN "\xee\x83\xa3"	// U+e0e3
+#define ICON_FA_CHART_DIAGRAM "\xee\x9a\x95"	// U+e695
 #define ICON_FA_CHART_GANTT "\xee\x83\xa4"	// U+e0e4
 #define ICON_FA_CHART_LINE "\xef\x88\x81"	// U+f201
 #define ICON_FA_CHART_PIE "\xef\x88\x80"	// U+f200
@@ -364,6 +365,7 @@
 #define ICON_FA_COMMENT_DOLLAR "\xef\x99\x91"	// U+f651
 #define ICON_FA_COMMENT_DOTS "\xef\x92\xad"	// U+f4ad
 #define ICON_FA_COMMENT_MEDICAL "\xef\x9f\xb5"	// U+f7f5
+#define ICON_FA_COMMENT_NODES "\xee\x9a\x96"	// U+e696
 #define ICON_FA_COMMENT_SLASH "\xef\x92\xb3"	// U+f4b3
 #define ICON_FA_COMMENT_SMS "\xef\x9f\x8d"	// U+f7cd
 #define ICON_FA_COMMENTS "\xef\x82\x86"	// U+f086
@@ -526,6 +528,8 @@
 #define ICON_FA_FILE_CSV "\xef\x9b\x9d"	// U+f6dd
 #define ICON_FA_FILE_EXCEL "\xef\x87\x83"	// U+f1c3
 #define ICON_FA_FILE_EXPORT "\xef\x95\xae"	// U+f56e
+#define ICON_FA_FILE_FRAGMENT "\xee\x9a\x97"	// U+e697
+#define ICON_FA_FILE_HALF_DASHED "\xee\x9a\x98"	// U+e698
 #define ICON_FA_FILE_IMAGE "\xef\x87\x85"	// U+f1c5
 #define ICON_FA_FILE_IMPORT "\xef\x95\xaf"	// U+f56f
 #define ICON_FA_FILE_INVOICE "\xef\x95\xb0"	// U+f570
@@ -676,6 +680,8 @@
 #define ICON_FA_HELICOPTER_SYMBOL "\xee\x94\x82"	// U+e502
 #define ICON_FA_HELMET_SAFETY "\xef\xa0\x87"	// U+f807
 #define ICON_FA_HELMET_UN "\xee\x94\x83"	// U+e503
+#define ICON_FA_HEXAGON_NODES "\xee\x9a\x99"	// U+e699
+#define ICON_FA_HEXAGON_NODES_BOLT "\xee\x9a\x9a"	// U+e69a
 #define ICON_FA_HIGHLIGHTER "\xef\x96\x91"	// U+f591
 #define ICON_FA_HILL_AVALANCHE "\xee\x94\x87"	// U+e507
 #define ICON_FA_HILL_ROCKSLIDE "\xee\x94\x88"	// U+e508
@@ -1141,6 +1147,7 @@
 #define ICON_FA_SPRAY_CAN_SPARKLES "\xef\x97\x90"	// U+f5d0
 #define ICON_FA_SQUARE "\xef\x83\x88"	// U+f0c8
 #define ICON_FA_SQUARE_ARROW_UP_RIGHT "\xef\x85\x8c"	// U+f14c
+#define ICON_FA_SQUARE_BINARY "\xee\x9a\x9b"	// U+e69b
 #define ICON_FA_SQUARE_CARET_DOWN "\xef\x85\x90"	// U+f150
 #define ICON_FA_SQUARE_CARET_LEFT "\xef\x86\x91"	// U+f191
 #define ICON_FA_SQUARE_CARET_RIGHT "\xef\x85\x92"	// U+f152

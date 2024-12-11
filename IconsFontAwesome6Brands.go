@@ -109,6 +109,7 @@ var IconsFontAwesome6Brands = Font{
 		"CreativeCommonsShare":	"\xef\x93\xb2", 	// U+f4f2
 		"CreativeCommonsZero":	"\xef\x93\xb3", 	// U+f4f3
 		"CriticalRole":	"\xef\x9b\x89", 	// U+f6c9
+		"Css":	"\xee\x9a\xa2", 	// U+e6a2
 		"Css3":	"\xef\x84\xbc", 	// U+f13c
 		"Css3Alt":	"\xef\x8e\x8b", 	// U+f38b
 		"Cuttlefish":	"\xef\x8e\x8c", 	// U+f38c
@@ -158,6 +159,7 @@ var IconsFontAwesome6Brands = Font{
 		"Fedex":	"\xef\x9e\x97", 	// U+f797
 		"Fedora":	"\xef\x9e\x98", 	// U+f798
 		"Figma":	"\xef\x9e\x99", 	// U+f799
+		"FilesPinwheel":	"\xee\x9a\x9f", 	// U+e69f
 		"Firefox":	"\xef\x89\xa9", 	// U+f269
 		"FirefoxBrowser":	"\xee\x80\x87", 	// U+e007
 		"FirstOrder":	"\xef\x8a\xb0", 	// U+f2b0
@@ -380,6 +382,7 @@ var IconsFontAwesome6Brands = Font{
 		"SpeakerDeck":	"\xef\xa0\xbc", 	// U+f83c
 		"Spotify":	"\xef\x86\xbc", 	// U+f1bc
 		"SquareBehance":	"\xef\x86\xb5", 	// U+f1b5
+		"SquareBluesky":	"\xee\x9a\xa3", 	// U+e6a3
 		"SquareDribbble":	"\xef\x8e\x97", 	// U+f397
 		"SquareFacebook":	"\xef\x82\x82", 	// U+f082
 		"SquareFontAwesome":	"\xee\x96\xad", 	// U+e5ad

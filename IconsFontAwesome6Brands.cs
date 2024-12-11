@@ -111,6 +111,7 @@ namespace IconFonts
         public const string CreativeCommonsShare = "\uf4f2";
         public const string CreativeCommonsZero = "\uf4f3";
         public const string CriticalRole = "\uf6c9";
+        public const string Css = "\ue6a2";
         public const string Css3 = "\uf13c";
         public const string Css3Alt = "\uf38b";
         public const string Cuttlefish = "\uf38c";
@@ -160,6 +161,7 @@ namespace IconFonts
         public const string Fedex = "\uf797";
         public const string Fedora = "\uf798";
         public const string Figma = "\uf799";
+        public const string FilesPinwheel = "\ue69f";
         public const string Firefox = "\uf269";
         public const string FirefoxBrowser = "\ue007";
         public const string FirstOrder = "\uf2b0";
@@ -382,6 +384,7 @@ namespace IconFonts
         public const string SpeakerDeck = "\uf83c";
         public const string Spotify = "\uf1bc";
         public const string SquareBehance = "\uf1b5";
+        public const string SquareBluesky = "\ue6a3";
         public const string SquareDribbble = "\uf397";
         public const string SquareFacebook = "\uf082";
         public const string SquareFontAwesome = "\ue5ad";

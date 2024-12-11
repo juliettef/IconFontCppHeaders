@@ -274,6 +274,7 @@ namespace IconFonts
         public const string ChartArea = "\uf1fe";
         public const string ChartBar = "\uf080";
         public const string ChartColumn = "\ue0e3";
+        public const string ChartDiagram = "\ue695";
         public const string ChartGantt = "\ue0e4";
         public const string ChartLine = "\uf201";
         public const string ChartPie = "\uf200";
@@ -368,6 +369,7 @@ namespace IconFonts
         public const string CommentDollar = "\uf651";
         public const string CommentDots = "\uf4ad";
         public const string CommentMedical = "\uf7f5";
+        public const string CommentNodes = "\ue696";
         public const string CommentSlash = "\uf4b3";
         public const string CommentSms = "\uf7cd";
         public const string Comments = "\uf086";
@@ -530,6 +532,8 @@ namespace IconFonts
         public const string FileCsv = "\uf6dd";
         public const string FileExcel = "\uf1c3";
         public const string FileExport = "\uf56e";
+        public const string FileFragment = "\ue697";
+        public const string FileHalfDashed = "\ue698";
         public const string FileImage = "\uf1c5";
         public const string FileImport = "\uf56f";
         public const string FileInvoice = "\uf570";
@@ -680,6 +684,8 @@ namespace IconFonts
         public const string HelicopterSymbol = "\ue502";
         public const string HelmetSafety = "\uf807";
         public const string HelmetUn = "\ue503";
+        public const string HexagonNodes = "\ue699";
+        public const string HexagonNodesBolt = "\ue69a";
         public const string Highlighter = "\uf591";
         public const string HillAvalanche = "\ue507";
         public const string HillRockslide = "\ue508";
@@ -1145,6 +1151,7 @@ namespace IconFonts
         public const string SprayCanSparkles = "\uf5d0";
         public const string Square = "\uf0c8";
         public const string SquareArrowUpRight = "\uf14c";
+        public const string SquareBinary = "\ue69b";
         public const string SquareCaretDown = "\uf150";
         public const string SquareCaretLeft = "\uf191";
         public const string SquareCaretRight = "\uf152";

@@ -272,6 +272,7 @@ var IconsFontAwesome6 = Font{
 		"ChartArea":	"\xef\x87\xbe", 	// U+f1fe
 		"ChartBar":	"\xef\x82\x80", 	// U+f080
 		"ChartColumn":	"\xee\x83\xa3", 	// U+e0e3
+		"ChartDiagram":	"\xee\x9a\x95", 	// U+e695
 		"ChartGantt":	"\xee\x83\xa4", 	// U+e0e4
 		"ChartLine":	"\xef\x88\x81", 	// U+f201
 		"ChartPie":	"\xef\x88\x80", 	// U+f200
@@ -366,6 +367,7 @@ var IconsFontAwesome6 = Font{
 		"CommentDollar":	"\xef\x99\x91", 	// U+f651
 		"CommentDots":	"\xef\x92\xad", 	// U+f4ad
 		"CommentMedical":	"\xef\x9f\xb5", 	// U+f7f5
+		"CommentNodes":	"\xee\x9a\x96", 	// U+e696
 		"CommentSlash":	"\xef\x92\xb3", 	// U+f4b3
 		"CommentSms":	"\xef\x9f\x8d", 	// U+f7cd
 		"Comments":	"\xef\x82\x86", 	// U+f086
@@ -528,6 +530,8 @@ var IconsFontAwesome6 = Font{
 		"FileCsv":	"\xef\x9b\x9d", 	// U+f6dd
 		"FileExcel":	"\xef\x87\x83", 	// U+f1c3
 		"FileExport":	"\xef\x95\xae", 	// U+f56e
+		"FileFragment":	"\xee\x9a\x97", 	// U+e697
+		"FileHalfDashed":	"\xee\x9a\x98", 	// U+e698
 		"FileImage":	"\xef\x87\x85", 	// U+f1c5
 		"FileImport":	"\xef\x95\xaf", 	// U+f56f
 		"FileInvoice":	"\xef\x95\xb0", 	// U+f570
@@ -678,6 +682,8 @@ var IconsFontAwesome6 = Font{
 		"HelicopterSymbol":	"\xee\x94\x82", 	// U+e502
 		"HelmetSafety":	"\xef\xa0\x87", 	// U+f807
 		"HelmetUn":	"\xee\x94\x83", 	// U+e503
+		"HexagonNodes":	"\xee\x9a\x99", 	// U+e699
+		"HexagonNodesBolt":	"\xee\x9a\x9a", 	// U+e69a
 		"Highlighter":	"\xef\x96\x91", 	// U+f591
 		"HillAvalanche":	"\xee\x94\x87", 	// U+e507
 		"HillRockslide":	"\xee\x94\x88", 	// U+e508
@@ -1143,6 +1149,7 @@ var IconsFontAwesome6 = Font{
 		"SprayCanSparkles":	"\xef\x97\x90", 	// U+f5d0
 		"Square":	"\xef\x83\x88", 	// U+f0c8
 		"SquareArrowUpRight":	"\xef\x85\x8c", 	// U+f14c
+		"SquareBinary":	"\xee\x9a\x9b", 	// U+e69b
 		"SquareCaretDown":	"\xef\x85\x90", 	// U+f150
 		"SquareCaretLeft":	"\xef\x86\x91", 	// U+f191
 		"SquareCaretRight":	"\xef\x85\x92", 	// U+f152

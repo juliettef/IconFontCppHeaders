@@ -588,6 +588,10 @@ namespace IconFonts
         public const string GoToEditingSession = "\uec35";
         public const string EditSession = "\uec36";
         public const string CodeReview = "\uec37";
+        public const string CopilotWarning = "\uec38";
+        public const string Python = "\uec39";
+        public const string CopilotLarge = "\uec3a";
+        public const string CopilotWarningLarge = "\uec3b";
         public const string GitFetch = "\uf101";
     }
 }

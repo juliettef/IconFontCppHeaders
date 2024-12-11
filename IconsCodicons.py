@@ -584,4 +584,8 @@ class IconsCodicons:
     ICON_GO_TO_EDITING_SESSION = '\uec35'
     ICON_EDIT_SESSION = '\uec36'
     ICON_CODE_REVIEW = '\uec37'
+    ICON_COPILOT_WARNING = '\uec38'
+    ICON_PYTHON = '\uec39'
+    ICON_COPILOT_LARGE = '\uec3a'
+    ICON_COPILOT_WARNING_LARGE = '\uec3b'
     ICON_GIT_FETCH = '\uf101'

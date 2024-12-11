@@ -586,6 +586,10 @@ var IconsCodicons = Font{
 		"GoToEditingSession":	"\xee\xb0\xb5", 	// U+ec35
 		"EditSession":	"\xee\xb0\xb6", 	// U+ec36
 		"CodeReview":	"\xee\xb0\xb7", 	// U+ec37
+		"CopilotWarning":	"\xee\xb0\xb8", 	// U+ec38
+		"Python":	"\xee\xb0\xb9", 	// U+ec39
+		"CopilotLarge":	"\xee\xb0\xba", 	// U+ec3a
+		"CopilotWarningLarge":	"\xee\xb0\xbb", 	// U+ec3b
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

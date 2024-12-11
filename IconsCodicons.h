@@ -584,4 +584,8 @@
 #define ICON_CI_GO_TO_EDITING_SESSION "\xee\xb0\xb5"	// U+ec35
 #define ICON_CI_EDIT_SESSION "\xee\xb0\xb6"	// U+ec36
 #define ICON_CI_CODE_REVIEW "\xee\xb0\xb7"	// U+ec37
+#define ICON_CI_COPILOT_WARNING "\xee\xb0\xb8"	// U+ec38
+#define ICON_CI_PYTHON "\xee\xb0\xb9"	// U+ec39
+#define ICON_CI_COPILOT_LARGE "\xee\xb0\xba"	// U+ec3a
+#define ICON_CI_COPILOT_WARNING_LARGE "\xee\xb0\xbb"	// U+ec3b
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

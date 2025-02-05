@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe63f
-#define ICON_MAX_LC 0xe63f
+#define ICON_MAX_16_LC 0xe643
+#define ICON_MAX_LC 0xe643
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x89"	// U+e589
 #define ICON_LC_A_ARROW_UP "\xee\x96\x8a"	// U+e58a
@@ -150,6 +150,7 @@
 #define ICON_LC_BATTERY_FULL "\xee\x81\x99"	// U+e059
 #define ICON_LC_BATTERY_LOW "\xee\x81\x9a"	// U+e05a
 #define ICON_LC_BATTERY_MEDIUM "\xee\x81\x9b"	// U+e05b
+#define ICON_LC_BATTERY_PLUS "\xee\x99\x82"	// U+e642
 #define ICON_LC_BATTERY_WARNING "\xee\x8e\xaf"	// U+e3af
 #define ICON_LC_BATTERY "\xee\x81\x97"	// U+e057
 #define ICON_LC_BEAKER "\xee\x81\x9c"	// U+e05c
@@ -770,6 +771,7 @@
 #define ICON_LC_HOURGLASS "\xee\x8a\x95"	// U+e295
 #define ICON_LC_HOUSE_PLUG "\xee\x97\xb4"	// U+e5f4
 #define ICON_LC_HOUSE_PLUS "\xee\x97\xb5"	// U+e5f5
+#define ICON_LC_HOUSE_WIFI "\xee\x99\x80"	// U+e640
 #define ICON_LC_HOUSE "\xee\x83\xb8"	// U+e0f8
 #define ICON_LC_ICE_CREAM_BOWL "\xee\x8e\xaa"	// U+e3aa
 #define ICON_LC_ICE_CREAM_CONE "\xee\x8d\x96"	// U+e356
@@ -897,6 +899,7 @@
 #define ICON_LC_MAP_PIN_X "\xee\x98\x99"	// U+e619
 #define ICON_LC_MAP_PIN "\xee\x84\x94"	// U+e114
 #define ICON_LC_MAP_PINNED "\xee\x95\x81"	// U+e541
+#define ICON_LC_MAP_PLUS "\xee\x99\x83"	// U+e643
 #define ICON_LC_MAP "\xee\x84\x93"	// U+e113
 #define ICON_LC_MARTINI "\xee\x8b\xa2"	// U+e2e2
 #define ICON_LC_MAXIMIZE_2 "\xee\x84\x96"	// U+e116
@@ -1451,6 +1454,7 @@
 #define ICON_LC_TRENDING_UP_DOWN "\xee\x98\xa9"	// U+e629
 #define ICON_LC_TRENDING_UP "\xee\x86\x90"	// U+e190
 #define ICON_LC_TRIANGLE_ALERT "\xee\x86\x92"	// U+e192
+#define ICON_LC_TRIANGLE_DASHED "\xee\x99\x81"	// U+e641
 #define ICON_LC_TRIANGLE_RIGHT "\xee\x93\xb1"	// U+e4f1
 #define ICON_LC_TRIANGLE "\xee\x86\x91"	// U+e191
 #define ICON_LC_TROPHY "\xee\x8d\xb6"	// U+e376

@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe63f,
-	Max: 0xe63f,
+	Max16: 0xe643,
+	Max: 0xe643,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x89", 	// U+e589
 		"AArrowUp":	"\xee\x96\x8a", 	// U+e58a
@@ -152,6 +152,7 @@ var IconsLucide = Font{
 		"BatteryFull":	"\xee\x81\x99", 	// U+e059
 		"BatteryLow":	"\xee\x81\x9a", 	// U+e05a
 		"BatteryMedium":	"\xee\x81\x9b", 	// U+e05b
+		"BatteryPlus":	"\xee\x99\x82", 	// U+e642
 		"BatteryWarning":	"\xee\x8e\xaf", 	// U+e3af
 		"Battery":	"\xee\x81\x97", 	// U+e057
 		"Beaker":	"\xee\x81\x9c", 	// U+e05c
@@ -772,6 +773,7 @@ var IconsLucide = Font{
 		"Hourglass":	"\xee\x8a\x95", 	// U+e295
 		"HousePlug":	"\xee\x97\xb4", 	// U+e5f4
 		"HousePlus":	"\xee\x97\xb5", 	// U+e5f5
+		"HouseWifi":	"\xee\x99\x80", 	// U+e640
 		"House":	"\xee\x83\xb8", 	// U+e0f8
 		"IceCreamBowl":	"\xee\x8e\xaa", 	// U+e3aa
 		"IceCreamCone":	"\xee\x8d\x96", 	// U+e356
@@ -899,6 +901,7 @@ var IconsLucide = Font{
 		"MapPinX":	"\xee\x98\x99", 	// U+e619
 		"MapPin":	"\xee\x84\x94", 	// U+e114
 		"MapPinned":	"\xee\x95\x81", 	// U+e541
+		"MapPlus":	"\xee\x99\x83", 	// U+e643
 		"Map":	"\xee\x84\x93", 	// U+e113
 		"Martini":	"\xee\x8b\xa2", 	// U+e2e2
 		"Maximize2":	"\xee\x84\x96", 	// U+e116
@@ -1453,6 +1456,7 @@ var IconsLucide = Font{
 		"TrendingUpDown":	"\xee\x98\xa9", 	// U+e629
 		"TrendingUp":	"\xee\x86\x90", 	// U+e190
 		"TriangleAlert":	"\xee\x86\x92", 	// U+e192
+		"TriangleDashed":	"\xee\x99\x81", 	// U+e641
 		"TriangleRight":	"\xee\x93\xb1", 	// U+e4f1
 		"Triangle":	"\xee\x86\x91", 	// U+e191
 		"Trophy":	"\xee\x8d\xb6", 	// U+e376

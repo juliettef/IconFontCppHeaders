@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe63f;
-        public const int IconMax = 0xe63f;
+        public const int IconMax16 = 0xe643;
+        public const int IconMax = 0xe643;
 
         public const string AArrowDown = "\ue589";
         public const string AArrowUp = "\ue58a";
@@ -154,6 +154,7 @@ namespace IconFonts
         public const string BatteryFull = "\ue059";
         public const string BatteryLow = "\ue05a";
         public const string BatteryMedium = "\ue05b";
+        public const string BatteryPlus = "\ue642";
         public const string BatteryWarning = "\ue3af";
         public const string Battery = "\ue057";
         public const string Beaker = "\ue05c";
@@ -774,6 +775,7 @@ namespace IconFonts
         public const string Hourglass = "\ue295";
         public const string HousePlug = "\ue5f4";
         public const string HousePlus = "\ue5f5";
+        public const string HouseWifi = "\ue640";
         public const string House = "\ue0f8";
         public const string IceCreamBowl = "\ue3aa";
         public const string IceCreamCone = "\ue356";
@@ -901,6 +903,7 @@ namespace IconFonts
         public const string MapPinX = "\ue619";
         public const string MapPin = "\ue114";
         public const string MapPinned = "\ue541";
+        public const string MapPlus = "\ue643";
         public const string Map = "\ue113";
         public const string Martini = "\ue2e2";
         public const string Maximize2 = "\ue116";
@@ -1455,6 +1458,7 @@ namespace IconFonts
         public const string TrendingUpDown = "\ue629";
         public const string TrendingUp = "\ue190";
         public const string TriangleAlert = "\ue192";
+        public const string TriangleDashed = "\ue641";
         public const string TriangleRight = "\ue4f1";
         public const string Triangle = "\ue191";
         public const string Trophy = "\ue376";

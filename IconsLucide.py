@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe63f
-    ICON_MAX = 0xe63f
+    ICON_MAX_16 = 0xe643
+    ICON_MAX = 0xe643
 
     ICON_A_ARROW_DOWN = '\ue589'
     ICON_A_ARROW_UP = '\ue58a'
@@ -150,6 +150,7 @@ class IconsLucide:
     ICON_BATTERY_FULL = '\ue059'
     ICON_BATTERY_LOW = '\ue05a'
     ICON_BATTERY_MEDIUM = '\ue05b'
+    ICON_BATTERY_PLUS = '\ue642'
     ICON_BATTERY_WARNING = '\ue3af'
     ICON_BATTERY = '\ue057'
     ICON_BEAKER = '\ue05c'
@@ -770,6 +771,7 @@ class IconsLucide:
     ICON_HOURGLASS = '\ue295'
     ICON_HOUSE_PLUG = '\ue5f4'
     ICON_HOUSE_PLUS = '\ue5f5'
+    ICON_HOUSE_WIFI = '\ue640'
     ICON_HOUSE = '\ue0f8'
     ICON_ICE_CREAM_BOWL = '\ue3aa'
     ICON_ICE_CREAM_CONE = '\ue356'
@@ -897,6 +899,7 @@ class IconsLucide:
     ICON_MAP_PIN_X = '\ue619'
     ICON_MAP_PIN = '\ue114'
     ICON_MAP_PINNED = '\ue541'
+    ICON_MAP_PLUS = '\ue643'
     ICON_MAP = '\ue113'
     ICON_MARTINI = '\ue2e2'
     ICON_MAXIMIZE_2 = '\ue116'
@@ -1451,6 +1454,7 @@ class IconsLucide:
     ICON_TRENDING_UP_DOWN = '\ue629'
     ICON_TRENDING_UP = '\ue190'
     ICON_TRIANGLE_ALERT = '\ue192'
+    ICON_TRIANGLE_DASHED = '\ue641'
     ICON_TRIANGLE_RIGHT = '\ue4f1'
     ICON_TRIANGLE = '\ue191'
     ICON_TROPHY = '\ue376'

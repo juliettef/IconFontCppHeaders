@@ -177,6 +177,7 @@
 #define ICON_MS_ALARM_ADD "\xee\xa1\x96"	// U+e856
 #define ICON_MS_ALARM_OFF "\xee\xa1\x97"	// U+e857
 #define ICON_MS_ALARM_ON "\xee\xa1\x98"	// U+e858
+#define ICON_MS_ALARM_PAUSE "\xef\x8d\x9b"	// U+f35b
 #define ICON_MS_ALARM_SMART_WAKE "\xef\x9a\xb0"	// U+f6b0
 #define ICON_MS_ALBUM "\xee\x80\x99"	// U+e019
 #define ICON_MS_ALIGN_CENTER "\xee\x8d\x96"	// U+e356
@@ -292,6 +293,7 @@
 #define ICON_MS_ARROWS_OUTWARD "\xef\x9c\xac"	// U+f72c
 #define ICON_MS_ART_TRACK "\xee\x81\xa0"	// U+e060
 #define ICON_MS_ARTICLE "\xee\xbd\x82"	// U+ef42
+#define ICON_MS_ARTICLE_PERSON "\xef\x8d\xa8"	// U+f368
 #define ICON_MS_ARTICLE_SHORTCUT "\xef\x96\x87"	// U+f587
 #define ICON_MS_ARTIST "\xee\x80\x9a"	// U+e01a
 #define ICON_MS_ASPECT_RATIO "\xee\xa1\x9b"	// U+e85b
@@ -1532,6 +1534,7 @@
 #define ICON_MS_GLOBE "\xee\x99\x8c"	// U+e64c
 #define ICON_MS_GLOBE_ASIA "\xef\x9e\x99"	// U+f799
 #define ICON_MS_GLOBE_BOOK "\xef\x8f\x89"	// U+f3c9
+#define ICON_MS_GLOBE_LOCATION_PIN "\xef\x8d\x9d"	// U+f35d
 #define ICON_MS_GLOBE_UK "\xef\x9e\x98"	// U+f798
 #define ICON_MS_GLUCOSE "\xee\x92\xa0"	// U+e4a0
 #define ICON_MS_GLYPHS "\xef\xa2\xa3"	// U+f8a3
@@ -1747,6 +1750,9 @@
 #define ICON_MS_INBOX "\xee\x85\x96"	// U+e156
 #define ICON_MS_INBOX_CUSTOMIZE "\xef\xa1\x99"	// U+f859
 #define ICON_MS_INBOX_TEXT "\xef\x8e\x99"	// U+f399
+#define ICON_MS_INBOX_TEXT_ASTERISK "\xef\x8d\xa0"	// U+f360
+#define ICON_MS_INBOX_TEXT_PERSON "\xef\x8d\x9e"	// U+f35e
+#define ICON_MS_INBOX_TEXT_SHARE "\xef\x8d\x9c"	// U+f35c
 #define ICON_MS_INCOMPLETE_CIRCLE "\xee\x9e\x9b"	// U+e79b
 #define ICON_MS_INDETERMINATE_CHECK_BOX "\xee\xa4\x89"	// U+e909
 #define ICON_MS_INDETERMINATE_QUESTION_BOX "\xef\x95\xad"	// U+f56d
@@ -1987,6 +1993,7 @@
 #define ICON_MS_LOCK "\xee\xa2\x99"	// U+e899
 #define ICON_MS_LOCK_CLOCK "\xee\xbd\x97"	// U+ef57
 #define ICON_MS_LOCK_OPEN "\xee\xa2\x98"	// U+e898
+#define ICON_MS_LOCK_OPEN_CIRCLE "\xef\x8d\xa1"	// U+f361
 #define ICON_MS_LOCK_OPEN_RIGHT "\xef\x99\x96"	// U+f656
 #define ICON_MS_LOCK_OUTLINE "\xee\xa2\x99"	// U+e899
 #define ICON_MS_LOCK_PERSON "\xef\xa3\xb3"	// U+f8f3
@@ -2298,6 +2305,7 @@
 #define ICON_MS_NEXT_PLAN "\xee\xbd\x9d"	// U+ef5d
 #define ICON_MS_NEXT_WEEK "\xee\x85\xaa"	// U+e16a
 #define ICON_MS_NFC "\xee\x86\xbb"	// U+e1bb
+#define ICON_MS_NFC_OFF "\xef\x8d\xa9"	// U+f369
 #define ICON_MS_NIGHT_SHELTER "\xef\x87\xb1"	// U+f1f1
 #define ICON_MS_NIGHT_SIGHT_AUTO "\xef\x87\x97"	// U+f1d7
 #define ICON_MS_NIGHT_SIGHT_AUTO_OFF "\xef\x87\xb9"	// U+f1f9
@@ -2344,6 +2352,7 @@
 #define ICON_MS_NOTIFICATION_ADD "\xee\x8e\x99"	// U+e399
 #define ICON_MS_NOTIFICATION_IMPORTANT "\xee\x80\x84"	// U+e004
 #define ICON_MS_NOTIFICATION_MULTIPLE "\xee\x9b\x82"	// U+e6c2
+#define ICON_MS_NOTIFICATION_SETTINGS "\xef\x8d\xa7"	// U+f367
 #define ICON_MS_NOTIFICATIONS "\xee\x9f\xb5"	// U+e7f5
 #define ICON_MS_NOTIFICATIONS_ACTIVE "\xee\x9f\xb7"	// U+e7f7
 #define ICON_MS_NOTIFICATIONS_NONE "\xee\x9f\xb5"	// U+e7f5
@@ -2590,6 +2599,7 @@
 #define ICON_MS_PLAYLIST_ADD_CIRCLE "\xee\x9f\xa5"	// U+e7e5
 #define ICON_MS_PLAYLIST_PLAY "\xee\x81\x9f"	// U+e05f
 #define ICON_MS_PLAYLIST_REMOVE "\xee\xae\x80"	// U+eb80
+#define ICON_MS_PLUG_CONNECT "\xef\x8d\x9a"	// U+f35a
 #define ICON_MS_PLUMBING "\xef\x84\x87"	// U+f107
 #define ICON_MS_PLUS_ONE "\xee\xa0\x80"	// U+e800
 #define ICON_MS_PODCASTS "\xef\x81\x88"	// U+f048
@@ -3184,6 +3194,7 @@
 #define ICON_MS_SQUARE_FOOT "\xee\xa9\x89"	// U+ea49
 #define ICON_MS_SSID_CHART "\xee\xad\xa6"	// U+eb66
 #define ICON_MS_STACK "\xef\x98\x89"	// U+f609
+#define ICON_MS_STACK_GROUP "\xef\x8d\x99"	// U+f359
 #define ICON_MS_STACK_HEXAGON "\xef\x90\x9c"	// U+f41c
 #define ICON_MS_STACK_OFF "\xef\x98\x88"	// U+f608
 #define ICON_MS_STACK_STAR "\xef\x98\x87"	// U+f607
@@ -3252,8 +3263,13 @@
 #define ICON_MS_STYLE "\xee\x90\x9d"	// U+e41d
 #define ICON_MS_STYLER "\xee\x89\xb3"	// U+e273
 #define ICON_MS_STYLUS "\xef\x98\x84"	// U+f604
+#define ICON_MS_STYLUS_BRUSH "\xef\x8d\xa6"	// U+f366
+#define ICON_MS_STYLUS_FOUNTAIN_PEN "\xef\x8d\xa5"	// U+f365
+#define ICON_MS_STYLUS_HIGHLIGHTER "\xef\x8d\xa4"	// U+f364
 #define ICON_MS_STYLUS_LASER_POINTER "\xef\x9d\x87"	// U+f747
 #define ICON_MS_STYLUS_NOTE "\xef\x98\x83"	// U+f603
+#define ICON_MS_STYLUS_PEN "\xef\x8d\xa3"	// U+f363
+#define ICON_MS_STYLUS_PENCIL "\xef\x8d\xa2"	// U+f362
 #define ICON_MS_SUBDIRECTORY_ARROW_LEFT "\xee\x97\x99"	// U+e5d9
 #define ICON_MS_SUBDIRECTORY_ARROW_RIGHT "\xee\x97\x9a"	// U+e5da
 #define ICON_MS_SUBHEADER "\xee\xa7\xaa"	// U+e9ea

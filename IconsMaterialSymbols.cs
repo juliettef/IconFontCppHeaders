@@ -181,6 +181,7 @@ namespace IconFonts
         public const string Alarm_add = "\ue856";
         public const string Alarm_off = "\ue857";
         public const string Alarm_on = "\ue858";
+        public const string Alarm_pause = "\uf35b";
         public const string Alarm_smart_wake = "\uf6b0";
         public const string Album = "\ue019";
         public const string Align_center = "\ue356";
@@ -296,6 +297,7 @@ namespace IconFonts
         public const string Arrows_outward = "\uf72c";
         public const string Art_track = "\ue060";
         public const string Article = "\uef42";
+        public const string Article_person = "\uf368";
         public const string Article_shortcut = "\uf587";
         public const string Artist = "\ue01a";
         public const string Aspect_ratio = "\ue85b";
@@ -1536,6 +1538,7 @@ namespace IconFonts
         public const string Globe = "\ue64c";
         public const string Globe_asia = "\uf799";
         public const string Globe_book = "\uf3c9";
+        public const string Globe_location_pin = "\uf35d";
         public const string Globe_uk = "\uf798";
         public const string Glucose = "\ue4a0";
         public const string Glyphs = "\uf8a3";
@@ -1751,6 +1754,9 @@ namespace IconFonts
         public const string Inbox = "\ue156";
         public const string Inbox_customize = "\uf859";
         public const string Inbox_text = "\uf399";
+        public const string Inbox_text_asterisk = "\uf360";
+        public const string Inbox_text_person = "\uf35e";
+        public const string Inbox_text_share = "\uf35c";
         public const string Incomplete_circle = "\ue79b";
         public const string Indeterminate_check_box = "\ue909";
         public const string Indeterminate_question_box = "\uf56d";
@@ -1991,6 +1997,7 @@ namespace IconFonts
         public const string Lock = "\ue899";
         public const string Lock_clock = "\uef57";
         public const string Lock_open = "\ue898";
+        public const string Lock_open_circle = "\uf361";
         public const string Lock_open_right = "\uf656";
         public const string Lock_outline = "\ue899";
         public const string Lock_person = "\uf8f3";
@@ -2302,6 +2309,7 @@ namespace IconFonts
         public const string Next_plan = "\uef5d";
         public const string Next_week = "\ue16a";
         public const string Nfc = "\ue1bb";
+        public const string Nfc_off = "\uf369";
         public const string Night_shelter = "\uf1f1";
         public const string Night_sight_auto = "\uf1d7";
         public const string Night_sight_auto_off = "\uf1f9";
@@ -2348,6 +2356,7 @@ namespace IconFonts
         public const string Notification_add = "\ue399";
         public const string Notification_important = "\ue004";
         public const string Notification_multiple = "\ue6c2";
+        public const string Notification_settings = "\uf367";
         public const string Notifications = "\ue7f5";
         public const string Notifications_active = "\ue7f7";
         public const string Notifications_none = "\ue7f5";
@@ -2594,6 +2603,7 @@ namespace IconFonts
         public const string Playlist_add_circle = "\ue7e5";
         public const string Playlist_play = "\ue05f";
         public const string Playlist_remove = "\ueb80";
+        public const string Plug_connect = "\uf35a";
         public const string Plumbing = "\uf107";
         public const string Plus_one = "\ue800";
         public const string Podcasts = "\uf048";
@@ -3188,6 +3198,7 @@ namespace IconFonts
         public const string Square_foot = "\uea49";
         public const string Ssid_chart = "\ueb66";
         public const string Stack = "\uf609";
+        public const string Stack_group = "\uf359";
         public const string Stack_hexagon = "\uf41c";
         public const string Stack_off = "\uf608";
         public const string Stack_star = "\uf607";
@@ -3256,8 +3267,13 @@ namespace IconFonts
         public const string Style = "\ue41d";
         public const string Styler = "\ue273";
         public const string Stylus = "\uf604";
+        public const string Stylus_brush = "\uf366";
+        public const string Stylus_fountain_pen = "\uf365";
+        public const string Stylus_highlighter = "\uf364";
         public const string Stylus_laser_pointer = "\uf747";
         public const string Stylus_note = "\uf603";
+        public const string Stylus_pen = "\uf363";
+        public const string Stylus_pencil = "\uf362";
         public const string Subdirectory_arrow_left = "\ue5d9";
         public const string Subdirectory_arrow_right = "\ue5da";
         public const string Subheader = "\ue9ea";

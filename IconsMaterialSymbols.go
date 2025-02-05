@@ -179,6 +179,7 @@ var IconsMaterialSymbols = Font{
 		"Alarm_add":	"\xee\xa1\x96", 	// U+e856
 		"Alarm_off":	"\xee\xa1\x97", 	// U+e857
 		"Alarm_on":	"\xee\xa1\x98", 	// U+e858
+		"Alarm_pause":	"\xef\x8d\x9b", 	// U+f35b
 		"Alarm_smart_wake":	"\xef\x9a\xb0", 	// U+f6b0
 		"Album":	"\xee\x80\x99", 	// U+e019
 		"Align_center":	"\xee\x8d\x96", 	// U+e356
@@ -294,6 +295,7 @@ var IconsMaterialSymbols = Font{
 		"Arrows_outward":	"\xef\x9c\xac", 	// U+f72c
 		"Art_track":	"\xee\x81\xa0", 	// U+e060
 		"Article":	"\xee\xbd\x82", 	// U+ef42
+		"Article_person":	"\xef\x8d\xa8", 	// U+f368
 		"Article_shortcut":	"\xef\x96\x87", 	// U+f587
 		"Artist":	"\xee\x80\x9a", 	// U+e01a
 		"Aspect_ratio":	"\xee\xa1\x9b", 	// U+e85b
@@ -1534,6 +1536,7 @@ var IconsMaterialSymbols = Font{
 		"Globe":	"\xee\x99\x8c", 	// U+e64c
 		"Globe_asia":	"\xef\x9e\x99", 	// U+f799
 		"Globe_book":	"\xef\x8f\x89", 	// U+f3c9
+		"Globe_location_pin":	"\xef\x8d\x9d", 	// U+f35d
 		"Globe_uk":	"\xef\x9e\x98", 	// U+f798
 		"Glucose":	"\xee\x92\xa0", 	// U+e4a0
 		"Glyphs":	"\xef\xa2\xa3", 	// U+f8a3
@@ -1749,6 +1752,9 @@ var IconsMaterialSymbols = Font{
 		"Inbox":	"\xee\x85\x96", 	// U+e156
 		"Inbox_customize":	"\xef\xa1\x99", 	// U+f859
 		"Inbox_text":	"\xef\x8e\x99", 	// U+f399
+		"Inbox_text_asterisk":	"\xef\x8d\xa0", 	// U+f360
+		"Inbox_text_person":	"\xef\x8d\x9e", 	// U+f35e
+		"Inbox_text_share":	"\xef\x8d\x9c", 	// U+f35c
 		"Incomplete_circle":	"\xee\x9e\x9b", 	// U+e79b
 		"Indeterminate_check_box":	"\xee\xa4\x89", 	// U+e909
 		"Indeterminate_question_box":	"\xef\x95\xad", 	// U+f56d
@@ -1989,6 +1995,7 @@ var IconsMaterialSymbols = Font{
 		"Lock":	"\xee\xa2\x99", 	// U+e899
 		"Lock_clock":	"\xee\xbd\x97", 	// U+ef57
 		"Lock_open":	"\xee\xa2\x98", 	// U+e898
+		"Lock_open_circle":	"\xef\x8d\xa1", 	// U+f361
 		"Lock_open_right":	"\xef\x99\x96", 	// U+f656
 		"Lock_outline":	"\xee\xa2\x99", 	// U+e899
 		"Lock_person":	"\xef\xa3\xb3", 	// U+f8f3
@@ -2300,6 +2307,7 @@ var IconsMaterialSymbols = Font{
 		"Next_plan":	"\xee\xbd\x9d", 	// U+ef5d
 		"Next_week":	"\xee\x85\xaa", 	// U+e16a
 		"Nfc":	"\xee\x86\xbb", 	// U+e1bb
+		"Nfc_off":	"\xef\x8d\xa9", 	// U+f369
 		"Night_shelter":	"\xef\x87\xb1", 	// U+f1f1
 		"Night_sight_auto":	"\xef\x87\x97", 	// U+f1d7
 		"Night_sight_auto_off":	"\xef\x87\xb9", 	// U+f1f9
@@ -2346,6 +2354,7 @@ var IconsMaterialSymbols = Font{
 		"Notification_add":	"\xee\x8e\x99", 	// U+e399
 		"Notification_important":	"\xee\x80\x84", 	// U+e004
 		"Notification_multiple":	"\xee\x9b\x82", 	// U+e6c2
+		"Notification_settings":	"\xef\x8d\xa7", 	// U+f367
 		"Notifications":	"\xee\x9f\xb5", 	// U+e7f5
 		"Notifications_active":	"\xee\x9f\xb7", 	// U+e7f7
 		"Notifications_none":	"\xee\x9f\xb5", 	// U+e7f5
@@ -2592,6 +2601,7 @@ var IconsMaterialSymbols = Font{
 		"Playlist_add_circle":	"\xee\x9f\xa5", 	// U+e7e5
 		"Playlist_play":	"\xee\x81\x9f", 	// U+e05f
 		"Playlist_remove":	"\xee\xae\x80", 	// U+eb80
+		"Plug_connect":	"\xef\x8d\x9a", 	// U+f35a
 		"Plumbing":	"\xef\x84\x87", 	// U+f107
 		"Plus_one":	"\xee\xa0\x80", 	// U+e800
 		"Podcasts":	"\xef\x81\x88", 	// U+f048
@@ -3186,6 +3196,7 @@ var IconsMaterialSymbols = Font{
 		"Square_foot":	"\xee\xa9\x89", 	// U+ea49
 		"Ssid_chart":	"\xee\xad\xa6", 	// U+eb66
 		"Stack":	"\xef\x98\x89", 	// U+f609
+		"Stack_group":	"\xef\x8d\x99", 	// U+f359
 		"Stack_hexagon":	"\xef\x90\x9c", 	// U+f41c
 		"Stack_off":	"\xef\x98\x88", 	// U+f608
 		"Stack_star":	"\xef\x98\x87", 	// U+f607
@@ -3254,8 +3265,13 @@ var IconsMaterialSymbols = Font{
 		"Style":	"\xee\x90\x9d", 	// U+e41d
 		"Styler":	"\xee\x89\xb3", 	// U+e273
 		"Stylus":	"\xef\x98\x84", 	// U+f604
+		"Stylus_brush":	"\xef\x8d\xa6", 	// U+f366
+		"Stylus_fountain_pen":	"\xef\x8d\xa5", 	// U+f365
+		"Stylus_highlighter":	"\xef\x8d\xa4", 	// U+f364
 		"Stylus_laser_pointer":	"\xef\x9d\x87", 	// U+f747
 		"Stylus_note":	"\xef\x98\x83", 	// U+f603
+		"Stylus_pen":	"\xef\x8d\xa3", 	// U+f363
+		"Stylus_pencil":	"\xef\x8d\xa2", 	// U+f362
 		"Subdirectory_arrow_left":	"\xee\x97\x99", 	// U+e5d9
 		"Subdirectory_arrow_right":	"\xee\x97\x9a", 	// U+e5da
 		"Subheader":	"\xee\xa7\xaa", 	// U+e9ea

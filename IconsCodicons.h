@@ -588,4 +588,5 @@
 #define ICON_CI_PYTHON "\xee\xb0\xb9"	// U+ec39
 #define ICON_CI_COPILOT_LARGE "\xee\xb0\xba"	// U+ec3a
 #define ICON_CI_COPILOT_WARNING_LARGE "\xee\xb0\xbb"	// U+ec3b
+#define ICON_CI_KEYBOARD_TAB "\xee\xb0\xbc"	// U+ec3c
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

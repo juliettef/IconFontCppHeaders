@@ -592,6 +592,7 @@ namespace IconFonts
         public const string Python = "\uec39";
         public const string CopilotLarge = "\uec3a";
         public const string CopilotWarningLarge = "\uec3b";
+        public const string KeyboardTab = "\uec3c";
         public const string GitFetch = "\uf101";
     }
 }

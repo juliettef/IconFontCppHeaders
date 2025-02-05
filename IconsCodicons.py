@@ -588,4 +588,5 @@ class IconsCodicons:
     ICON_PYTHON = '\uec39'
     ICON_COPILOT_LARGE = '\uec3a'
     ICON_COPILOT_WARNING_LARGE = '\uec3b'
+    ICON_KEYBOARD_TAB = '\uec3c'
     ICON_GIT_FETCH = '\uf101'

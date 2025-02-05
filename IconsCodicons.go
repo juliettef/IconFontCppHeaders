@@ -590,6 +590,7 @@ var IconsCodicons = Font{
 		"Python":	"\xee\xb0\xb9", 	// U+ec39
 		"CopilotLarge":	"\xee\xb0\xba", 	// U+ec3a
 		"CopilotWarningLarge":	"\xee\xb0\xbb", 	// U+ec3b
+		"KeyboardTab":	"\xee\xb0\xbc", 	// U+ec3c
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

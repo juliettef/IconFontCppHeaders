@@ -587,4 +587,6 @@ pub const ICON_PYTHON: char = '\u{ec39}';
 pub const ICON_COPILOT_LARGE: char = '\u{ec3a}';
 pub const ICON_COPILOT_WARNING_LARGE: char = '\u{ec3b}';
 pub const ICON_KEYBOARD_TAB: char = '\u{ec3c}';
+pub const ICON_COPILOT_BLOCKED: char = '\u{ec3d}';
+pub const ICON_COPILOT_NOT_CONNECTED: char = '\u{ec3e}';
 pub const ICON_GIT_FETCH: char = '\u{f101}';

@@ -593,6 +593,8 @@ namespace IconFonts
         public const string CopilotLarge = "\uec3a";
         public const string CopilotWarningLarge = "\uec3b";
         public const string KeyboardTab = "\uec3c";
+        public const string CopilotBlocked = "\uec3d";
+        public const string CopilotNotConnected = "\uec3e";
         public const string GitFetch = "\uf101";
     }
 }

@@ -591,6 +591,8 @@ var IconsCodicons = Font{
 		"CopilotLarge":	"\xee\xb0\xba", 	// U+ec3a
 		"CopilotWarningLarge":	"\xee\xb0\xbb", 	// U+ec3b
 		"KeyboardTab":	"\xee\xb0\xbc", 	// U+ec3c
+		"CopilotBlocked":	"\xee\xb0\xbd", 	// U+ec3d
+		"CopilotNotConnected":	"\xee\xb0\xbe", 	// U+ec3e
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

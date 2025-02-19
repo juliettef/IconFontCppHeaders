@@ -589,4 +589,6 @@ class IconsCodicons:
     ICON_COPILOT_LARGE = '\uec3a'
     ICON_COPILOT_WARNING_LARGE = '\uec3b'
     ICON_KEYBOARD_TAB = '\uec3c'
+    ICON_COPILOT_BLOCKED = '\uec3d'
+    ICON_COPILOT_NOT_CONNECTED = '\uec3e'
     ICON_GIT_FETCH = '\uf101'

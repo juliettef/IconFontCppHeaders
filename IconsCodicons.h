@@ -589,4 +589,6 @@
 #define ICON_CI_COPILOT_LARGE "\xee\xb0\xba"	// U+ec3a
 #define ICON_CI_COPILOT_WARNING_LARGE "\xee\xb0\xbb"	// U+ec3b
 #define ICON_CI_KEYBOARD_TAB "\xee\xb0\xbc"	// U+ec3c
+#define ICON_CI_COPILOT_BLOCKED "\xee\xb0\xbd"	// U+ec3d
+#define ICON_CI_COPILOT_NOT_CONNECTED "\xee\xb0\xbe"	// U+ec3e
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

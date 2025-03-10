@@ -591,4 +591,7 @@ class IconsCodicons:
     ICON_KEYBOARD_TAB = '\uec3c'
     ICON_COPILOT_BLOCKED = '\uec3d'
     ICON_COPILOT_NOT_CONNECTED = '\uec3e'
+    ICON_FLAG = '\uec3f'
+    ICON_LIGHTBULB_EMPTY = '\uec40'
+    ICON_SYMBOL_METHOD_ARROW = '\uec41'
     ICON_GIT_FETCH = '\uf101'

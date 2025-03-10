@@ -595,6 +595,9 @@ namespace IconFonts
         public const string KeyboardTab = "\uec3c";
         public const string CopilotBlocked = "\uec3d";
         public const string CopilotNotConnected = "\uec3e";
+        public const string Flag = "\uec3f";
+        public const string LightbulbEmpty = "\uec40";
+        public const string SymbolMethodArrow = "\uec41";
         public const string GitFetch = "\uf101";
     }
 }

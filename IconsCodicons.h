@@ -591,4 +591,7 @@
 #define ICON_CI_KEYBOARD_TAB "\xee\xb0\xbc"	// U+ec3c
 #define ICON_CI_COPILOT_BLOCKED "\xee\xb0\xbd"	// U+ec3d
 #define ICON_CI_COPILOT_NOT_CONNECTED "\xee\xb0\xbe"	// U+ec3e
+#define ICON_CI_FLAG "\xee\xb0\xbf"	// U+ec3f
+#define ICON_CI_LIGHTBULB_EMPTY "\xee\xb1\x80"	// U+ec40
+#define ICON_CI_SYMBOL_METHOD_ARROW "\xee\xb1\x81"	// U+ec41
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

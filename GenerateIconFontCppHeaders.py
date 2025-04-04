@@ -561,6 +561,23 @@ class Language:
         for icon in cls.intermediate.get( 'icons' ):
             line_icon = cls.line_icon( icon )
             result += line_icon
+
+        abbr = cls.intermediate.get( 'font_abbr' )
+        result += f'\nconst char* icon_{abbr}_names[] = {{\n'
+        for icon in cls.intermediate.get( 'icons' ):
+            result += cls.line_icon_name( icon )
+        result += '    nullptr\n};\n\n'
+
+        result += f'const char* icon_{abbr}_codes[] = {{\n'
+        for icon in cls.intermediate.get( 'icons' ):
+            result += cls.line_icon_code( icon )
+        result += '    nullptr\n};\n\n'
+
+        result += f'const unsigned int icon_{abbr}_unicodes[] = {{\n'
+        for icon in cls.intermediate.get( 'icons' ):
+            result += cls.line_icon_unicode( icon )
+        result += '    0\n};\n\n'
+
         result += cls.epilogue()
         logging.info( 'Converted - {!s} for {!s}'.format( cls.intermediate.get( 'font_name' ), cls.language_name ))
         return result
@@ -612,13 +629,36 @@ class LanguageC( Language ):
 
     @classmethod
     def line_icon( cls, icon ):
-        tmpl_line_icon = '#define ICON_{abbr}_{icon} "{code}"\t// U+{unicode}\n'
+        tmpl_line_icon = '#define ICON_{abbr}_{icon:<40} {code:<15} // U+{unicode:<4}\n'
         icon_name = str.upper( icon[ 0 ]).replace( '-', '_' )
-        icon_code = repr( chr( int( icon[ 1 ], 16 )).encode( 'utf-8' ))[ 2:-1 ]
+        icon_code = '"' + repr( chr( int( icon[ 1 ], 16 )).encode( 'utf-8' ))[ 2:-1 ] + '"'
         result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ),
                                         icon = icon_name,
                                         code = icon_code,
                                         unicode =icon[ 1 ] )
+        return result
+
+    @classmethod
+    def line_icon_name( cls, icon ):
+        tmpl_line_icon = '    "ICON_{abbr}_{icon}",\n'
+        icon_name = str.upper( icon[ 0 ]).replace( '-', '_' )
+        result = tmpl_line_icon.format( abbr = cls.intermediate.get( 'font_abbr' ),
+                                        icon = icon_name )
+        return result
+
+    @classmethod
+    def line_icon_code( cls, icon ):
+        #tmpl_line_icon = '    0x{unicode},\n'
+        #result = tmpl_line_icon.format(unicode = icon[ 1 ])
+        tmpl_line_code = '    "{code}",\n'
+        icon_code = repr( chr( int( icon[ 1 ], 16 )).encode( 'utf-8' ))[ 2:-1 ]
+        result = tmpl_line_code.format( code = icon_code )
+        return result
+
+    @classmethod
+    def line_icon_unicode( cls, icon ):
+        tmpl_line_icon = '    0x{unicode},\n'
+        result = tmpl_line_icon.format(unicode = icon[ 1 ])
         return result
 
     @classmethod

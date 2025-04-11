@@ -596,6 +596,10 @@ var IconsCodicons = Font{
 		"Flag":	"\xee\xb0\xbf", 	// U+ec3f
 		"LightbulbEmpty":	"\xee\xb1\x80", 	// U+ec40
 		"SymbolMethodArrow":	"\xee\xb1\x81", 	// U+ec41
+		"CopilotUnavailable":	"\xee\xb1\x82", 	// U+ec42
+		"RepoPinned":	"\xee\xb1\x83", 	// U+ec43
+		"KeyboardTabAbove":	"\xee\xb1\x84", 	// U+ec44
+		"KeyboardTabBelow":	"\xee\xb1\x85", 	// U+ec45
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

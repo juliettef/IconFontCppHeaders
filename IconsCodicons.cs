@@ -598,6 +598,10 @@ namespace IconFonts
         public const string Flag = "\uec3f";
         public const string LightbulbEmpty = "\uec40";
         public const string SymbolMethodArrow = "\uec41";
+        public const string CopilotUnavailable = "\uec42";
+        public const string RepoPinned = "\uec43";
+        public const string KeyboardTabAbove = "\uec44";
+        public const string KeyboardTabBelow = "\uec45";
         public const string GitFetch = "\uf101";
     }
 }

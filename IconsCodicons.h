@@ -594,4 +594,8 @@
 #define ICON_CI_FLAG "\xee\xb0\xbf"	// U+ec3f
 #define ICON_CI_LIGHTBULB_EMPTY "\xee\xb1\x80"	// U+ec40
 #define ICON_CI_SYMBOL_METHOD_ARROW "\xee\xb1\x81"	// U+ec41
+#define ICON_CI_COPILOT_UNAVAILABLE "\xee\xb1\x82"	// U+ec42
+#define ICON_CI_REPO_PINNED "\xee\xb1\x83"	// U+ec43
+#define ICON_CI_KEYBOARD_TAB_ABOVE "\xee\xb1\x84"	// U+ec44
+#define ICON_CI_KEYBOARD_TAB_BELOW "\xee\xb1\x85"	// U+ec45
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101

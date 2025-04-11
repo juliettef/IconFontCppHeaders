@@ -594,4 +594,8 @@ class IconsCodicons:
     ICON_FLAG = '\uec3f'
     ICON_LIGHTBULB_EMPTY = '\uec40'
     ICON_SYMBOL_METHOD_ARROW = '\uec41'
+    ICON_COPILOT_UNAVAILABLE = '\uec42'
+    ICON_REPO_PINNED = '\uec43'
+    ICON_KEYBOARD_TAB_ABOVE = '\uec44'
+    ICON_KEYBOARD_TAB_BELOW = '\uec45'
     ICON_GIT_FETCH = '\uf101'

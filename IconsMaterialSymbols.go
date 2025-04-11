@@ -45,6 +45,7 @@ var IconsMaterialSymbols = Font{
 		"30fps":	"\xee\xbf\x8e", 	// U+efce
 		"30fps_select":	"\xee\xbf\x8f", 	// U+efcf
 		"360":	"\xee\x95\xb7", 	// U+e577
+		"3d":	"\xee\xb4\xb8", 	// U+ed38
 		"3d_rotation":	"\xee\xa1\x8d", 	// U+e84d
 		"3g_mobiledata":	"\xee\xbf\x90", 	// U+efd0
 		"3g_mobiledata_badge":	"\xef\x9f\xb0", 	// U+f7f0
@@ -417,6 +418,20 @@ var IconsMaterialSymbols = Font{
 		"Battery_80":	"\xef\x82\xa0", 	// U+f0a0
 		"Battery_90":	"\xef\x82\xa1", 	// U+f0a1
 		"Battery_alert":	"\xee\x86\x9c", 	// U+e19c
+		"Battery_android_0":	"\xef\x8c\x8d", 	// U+f30d
+		"Battery_android_1":	"\xef\x8c\x8c", 	// U+f30c
+		"Battery_android_2":	"\xef\x8c\x8b", 	// U+f30b
+		"Battery_android_3":	"\xef\x8c\x8a", 	// U+f30a
+		"Battery_android_4":	"\xef\x8c\x89", 	// U+f309
+		"Battery_android_5":	"\xef\x8c\x88", 	// U+f308
+		"Battery_android_6":	"\xef\x8c\x87", 	// U+f307
+		"Battery_android_alert":	"\xef\x8c\x86", 	// U+f306
+		"Battery_android_bolt":	"\xef\x8c\x85", 	// U+f305
+		"Battery_android_full":	"\xef\x8c\x84", 	// U+f304
+		"Battery_android_plus":	"\xef\x8c\x83", 	// U+f303
+		"Battery_android_question":	"\xef\x8c\x82", 	// U+f302
+		"Battery_android_share":	"\xef\x8c\x81", 	// U+f301
+		"Battery_android_shield":	"\xef\x8c\x80", 	// U+f300
 		"Battery_change":	"\xef\x9f\xab", 	// U+f7eb
 		"Battery_charging_20":	"\xef\x82\xa2", 	// U+f0a2
 		"Battery_charging_30":	"\xef\x82\xa3", 	// U+f0a3
@@ -490,7 +505,6 @@ var IconsMaterialSymbols = Font{
 		"Book_2":	"\xef\x94\xbe", 	// U+f53e
 		"Book_3":	"\xef\x94\xbd", 	// U+f53d
 		"Book_4":	"\xef\x94\xbc", 	// U+f53c
-		"Book_4_spark":	"\xef\x8f\xa0", 	// U+f3e0
 		"Book_5":	"\xef\x94\xbb", 	// U+f53b
 		"Book_6":	"\xef\x8f\x9f", 	// U+f3df
 		"Book_online":	"\xef\x88\x97", 	// U+f217
@@ -624,6 +638,7 @@ var IconsMaterialSymbols = Font{
 		"Cancel_schedule_send":	"\xee\xa8\xb9", 	// U+ea39
 		"Candle":	"\xef\x96\x88", 	// U+f588
 		"Candlestick_chart":	"\xee\xab\x94", 	// U+ead4
+		"Cannabis":	"\xef\x8b\xb3", 	// U+f2f3
 		"Captive_portal":	"\xef\x9c\xa8", 	// U+f728
 		"Capture":	"\xef\x9c\xa7", 	// U+f727
 		"Car_crash":	"\xee\xaf\xb2", 	// U+ebf2
@@ -802,6 +817,8 @@ var IconsMaterialSymbols = Font{
 		"Compost":	"\xee\x9d\xa1", 	// U+e761
 		"Compress":	"\xee\xa5\x8d", 	// U+e94d
 		"Computer":	"\xee\x8c\x9e", 	// U+e31e
+		"Computer_arrow_up":	"\xef\x8b\xb7", 	// U+f2f7
+		"Computer_cancel":	"\xef\x8b\xb6", 	// U+f2f6
 		"Concierge":	"\xef\x95\xa1", 	// U+f561
 		"Conditions":	"\xee\x82\xa0", 	// U+e0a0
 		"Confirmation_number":	"\xee\x98\xb8", 	// U+e638
@@ -986,6 +1003,7 @@ var IconsMaterialSymbols = Font{
 		"Developer_guide":	"\xee\xa6\x9e", 	// U+e99e
 		"Developer_mode":	"\xee\x86\xb0", 	// U+e1b0
 		"Developer_mode_tv":	"\xee\xa1\xb4", 	// U+e874
+		"Device_band":	"\xef\x8b\xb5", 	// U+f2f5
 		"Device_hub":	"\xee\x8c\xb5", 	// U+e335
 		"Device_reset":	"\xee\xa2\xb3", 	// U+e8b3
 		"Device_thermostat":	"\xee\x87\xbf", 	// U+e1ff
@@ -1125,7 +1143,11 @@ var IconsMaterialSymbols = Font{
 		"E_mobiledata":	"\xef\x80\x82", 	// U+f002
 		"E_mobiledata_badge":	"\xef\x9f\xa3", 	// U+f7e3
 		"Ear_sound":	"\xef\x8d\x96", 	// U+f356
+		"Earbud_case":	"\xef\x8c\xa7", 	// U+f327
+		"Earbud_left":	"\xef\x8c\xa6", 	// U+f326
+		"Earbud_right":	"\xef\x8c\xa5", 	// U+f325
 		"Earbuds":	"\xef\x80\x83", 	// U+f003
+		"Earbuds_2":	"\xef\x8c\xa4", 	// U+f324
 		"Earbuds_battery":	"\xef\x80\x84", 	// U+f004
 		"Early_on":	"\xee\x8a\xba", 	// U+e2ba
 		"Earthquake":	"\xef\x99\x8f", 	// U+f64f
@@ -1763,6 +1785,7 @@ var IconsMaterialSymbols = Font{
 		"Iframe":	"\xef\x9c\x9b", 	// U+f71b
 		"Iframe_off":	"\xef\x9c\x9c", 	// U+f71c
 		"Image":	"\xee\x8f\xb4", 	// U+e3f4
+		"Image_arrow_up":	"\xef\x8c\x97", 	// U+f317
 		"Image_aspect_ratio":	"\xee\x8f\xb5", 	// U+e3f5
 		"Image_not_supported":	"\xef\x84\x96", 	// U+f116
 		"Image_search":	"\xee\x90\xbf", 	// U+e43f
@@ -1888,6 +1911,7 @@ var IconsMaterialSymbols = Font{
 		"Lan":	"\xee\xac\xaf", 	// U+eb2f
 		"Landscape":	"\xee\x95\xa4", 	// U+e564
 		"Landscape_2":	"\xef\x93\x84", 	// U+f4c4
+		"Landscape_2_edit":	"\xef\x8c\x90", 	// U+f310
 		"Landscape_2_off":	"\xef\x93\x83", 	// U+f4c3
 		"Landslide":	"\xee\xaf\x97", 	// U+ebd7
 		"Language":	"\xee\xa2\x94", 	// U+e894
@@ -2145,8 +2169,16 @@ var IconsMaterialSymbols = Font{
 		"Mixture_med":	"\xee\x93\x88", 	// U+e4c8
 		"Mms":	"\xee\x98\x98", 	// U+e618
 		"Mobile_friendly":	"\xee\x88\x80", 	// U+e200
+		"Mobile_hand":	"\xef\x8c\xa3", 	// U+f323
+		"Mobile_hand_left":	"\xef\x8c\x93", 	// U+f313
+		"Mobile_hand_left_off":	"\xef\x8c\x92", 	// U+f312
+		"Mobile_hand_off":	"\xef\x8c\x94", 	// U+f314
+		"Mobile_loupe":	"\xef\x8c\xa2", 	// U+f322
 		"Mobile_off":	"\xee\x88\x81", 	// U+e201
 		"Mobile_screen_share":	"\xee\x83\xa7", 	// U+e0e7
+		"Mobile_screensaver":	"\xef\x8c\xa1", 	// U+f321
+		"Mobile_sound_2":	"\xef\x8c\x98", 	// U+f318
+		"Mobile_speaker":	"\xef\x8c\xa0", 	// U+f320
 		"Mobiledata_off":	"\xef\x80\xb4", 	// U+f034
 		"Mode":	"\xef\x82\x97", 	// U+f097
 		"Mode_comment":	"\xee\x89\x93", 	// U+e253
@@ -2532,6 +2564,7 @@ var IconsMaterialSymbols = Font{
 		"Person_raised_hand":	"\xef\x96\x9a", 	// U+f59a
 		"Person_remove":	"\xee\xbd\xa6", 	// U+ef66
 		"Person_search":	"\xef\x84\x86", 	// U+f106
+		"Person_shield":	"\xee\x8e\x84", 	// U+e384
 		"Personal_bag":	"\xee\xac\x8e", 	// U+eb0e
 		"Personal_bag_off":	"\xee\xac\x8f", 	// U+eb0f
 		"Personal_bag_question":	"\xee\xac\x90", 	// U+eb10
@@ -2854,6 +2887,7 @@ var IconsMaterialSymbols = Font{
 		"Rounded_corner":	"\xee\xa4\xa0", 	// U+e920
 		"Route":	"\xee\xab\x8d", 	// U+eacd
 		"Router":	"\xee\x8c\xa8", 	// U+e328
+		"Router_off":	"\xef\x8b\xb4", 	// U+f2f4
 		"Routine":	"\xee\x88\x8c", 	// U+e20c
 		"Rowing":	"\xee\xa4\xa1", 	// U+e921
 		"Rss_feed":	"\xee\x83\xa5", 	// U+e0e5
@@ -3035,6 +3069,7 @@ var IconsMaterialSymbols = Font{
 		"Shield_moon":	"\xee\xaa\xa9", 	// U+eaa9
 		"Shield_person":	"\xef\x99\x90", 	// U+f650
 		"Shield_question":	"\xef\x94\xa9", 	// U+f529
+		"Shield_watch":	"\xef\x8c\x8f", 	// U+f30f
 		"Shield_with_heart":	"\xee\x9e\x8f", 	// U+e78f
 		"Shield_with_house":	"\xee\x9e\x8d", 	// U+e78d
 		"Shift":	"\xee\x97\xb2", 	// U+e5f2
@@ -3190,6 +3225,10 @@ var IconsMaterialSymbols = Font{
 		"Speed_camera":	"\xef\x91\xb0", 	// U+f470
 		"Spellcheck":	"\xee\xa3\x8e", 	// U+e8ce
 		"Split_scene":	"\xef\x8e\xbf", 	// U+f3bf
+		"Split_scene_down":	"\xef\x8b\xbf", 	// U+f2ff
+		"Split_scene_left":	"\xef\x8b\xbe", 	// U+f2fe
+		"Split_scene_right":	"\xef\x8b\xbd", 	// U+f2fd
+		"Split_scene_up":	"\xef\x8b\xbc", 	// U+f2fc
 		"Splitscreen":	"\xef\x81\xad", 	// U+f06d
 		"Splitscreen_add":	"\xef\x93\xbd", 	// U+f4fd
 		"Splitscreen_bottom":	"\xef\x99\xb6", 	// U+f676
@@ -3250,7 +3289,9 @@ var IconsMaterialSymbols = Font{
 		"Star_purple500":	"\xef\x82\x9a", 	// U+f09a
 		"Star_rate":	"\xef\x83\xac", 	// U+f0ec
 		"Star_rate_half":	"\xee\xb1\x85", 	// U+ec45
+		"Star_shine":	"\xef\x8c\x9d", 	// U+f31d
 		"Stars":	"\xee\xa3\x90", 	// U+e8d0
+		"Stars_2":	"\xef\x8c\x9c", 	// U+f31c
 		"Start":	"\xee\x82\x89", 	// U+e089
 		"Stat_0":	"\xee\x9a\x97", 	// U+e697
 		"Stat_1":	"\xee\x9a\x98", 	// U+e698
@@ -3387,6 +3428,7 @@ var IconsMaterialSymbols = Font{
 		"Tab_move":	"\xef\x9d\x82", 	// U+f742
 		"Tab_new_right":	"\xef\x9d\x81", 	// U+f741
 		"Tab_recent":	"\xef\x9d\x80", 	// U+f740
+		"Tab_search":	"\xef\x8b\xb2", 	// U+f2f2
 		"Tab_unselected":	"\xee\xa3\x99", 	// U+e8d9
 		"Table":	"\xef\x86\x91", 	// U+f191
 		"Table_bar":	"\xee\xab\x92", 	// U+ead2
@@ -3659,6 +3701,7 @@ var IconsMaterialSymbols = Font{
 		"Variables":	"\xef\xa1\x91", 	// U+f851
 		"Ventilator":	"\xee\x84\xb9", 	// U+e139
 		"Verified":	"\xee\xbd\xb6", 	// U+ef76
+		"Verified_off":	"\xef\x8c\x8e", 	// U+f30e
 		"Verified_user":	"\xef\x80\x93", 	// U+f013
 		"Vertical_align_bottom":	"\xee\x89\x98", 	// U+e258
 		"Vertical_align_center":	"\xee\x89\x99", 	// U+e259
@@ -3746,6 +3789,8 @@ var IconsMaterialSymbols = Font{
 		"Wallet":	"\xef\xa3\xbf", 	// U+f8ff
 		"Wallpaper":	"\xee\x86\xbc", 	// U+e1bc
 		"Wallpaper_slideshow":	"\xef\x99\xb2", 	// U+f672
+		"Wand_shine":	"\xef\x8c\x9f", 	// U+f31f
+		"Wand_stars":	"\xef\x8c\x9e", 	// U+f31e
 		"Ward":	"\xee\x84\xbc", 	// U+e13c
 		"Warehouse":	"\xee\xae\xb8", 	// U+ebb8
 		"Warning":	"\xef\x82\x83", 	// U+f083

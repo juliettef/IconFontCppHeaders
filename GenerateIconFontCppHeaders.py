@@ -163,6 +163,7 @@ import yaml
 import os
 import sys
 import logging
+import re
 
 if sys.version_info[0] < 3:
     raise Exception( "Python 3 or a more recent version is required." )
@@ -738,7 +739,7 @@ class LanguageCSharp( Language ):
 
     @classmethod
     def to_camelcase( cls, text ):
-        parts = text.split( '-' )
+        parts = re.split('[-_]', text)  # Split the text using either '-' or '_' as separators
         for i in range( len( parts ) ):
             p = parts[i]
             parts[ i ] = p[ 0 ].upper() + p[ 1: ].lower()

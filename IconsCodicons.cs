@@ -602,6 +602,8 @@ namespace IconFonts
         public const string RepoPinned = "\uec43";
         public const string KeyboardTabAbove = "\uec44";
         public const string KeyboardTabBelow = "\uec45";
+        public const string GitPullRequestDone = "\uec46";
+        public const string Mcp = "\uec47";
         public const string GitFetch = "\uf101";
     }
 }

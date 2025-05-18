@@ -598,4 +598,6 @@ class IconsCodicons:
     ICON_REPO_PINNED = '\uec43'
     ICON_KEYBOARD_TAB_ABOVE = '\uec44'
     ICON_KEYBOARD_TAB_BELOW = '\uec45'
+    ICON_GIT_PULL_REQUEST_DONE = '\uec46'
+    ICON_MCP = '\uec47'
     ICON_GIT_FETCH = '\uf101'

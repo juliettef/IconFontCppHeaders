@@ -600,6 +600,8 @@ var IconsCodicons = Font{
 		"RepoPinned":	"\xee\xb1\x83", 	// U+ec43
 		"KeyboardTabAbove":	"\xee\xb1\x84", 	// U+ec44
 		"KeyboardTabBelow":	"\xee\xb1\x85", 	// U+ec45
+		"GitPullRequestDone":	"\xee\xb1\x86", 	// U+ec46
+		"Mcp":	"\xee\xb1\x87", 	// U+ec47
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 	},
 }

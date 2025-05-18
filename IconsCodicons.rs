@@ -596,4 +596,6 @@ pub const ICON_COPILOT_UNAVAILABLE: char = '\u{ec42}';
 pub const ICON_REPO_PINNED: char = '\u{ec43}';
 pub const ICON_KEYBOARD_TAB_ABOVE: char = '\u{ec44}';
 pub const ICON_KEYBOARD_TAB_BELOW: char = '\u{ec45}';
+pub const ICON_GIT_PULL_REQUEST_DONE: char = '\u{ec46}';
+pub const ICON_MCP: char = '\u{ec47}';
 pub const ICON_GIT_FETCH: char = '\u{f101}';

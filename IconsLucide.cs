@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe668;
-        public const int IconMax = 0xe668;
+        public const int IconMax16 = 0xe671;
+        public const int IconMax = 0xe671;
 
         public const string AArrowDown = "\ue58a";
         public const string AArrowUp = "\ue58b";
@@ -246,6 +246,7 @@ namespace IconFonts
         public const string BriefcaseMedical = "\ue5db";
         public const string Briefcase = "\ue066";
         public const string BringToFront = "\ue4f4";
+        public const string BrushCleaning = "\ue66b";
         public const string Brush = "\ue1d3";
         public const string Bubbles = "\ue659";
         public const string BugOff = "\ue512";
@@ -326,6 +327,7 @@ namespace IconFonts
         public const string ChartScatter = "\ue48f";
         public const string ChartSpline = "\ue612";
         public const string CheckCheck = "\ue392";
+        public const string CheckLine = "\ue670";
         public const string Check = "\ue070";
         public const string ChefHat = "\ue2ac";
         public const string Cherry = "\ue354";
@@ -421,6 +423,7 @@ namespace IconFonts
         public const string ClockArrowDown = "\ue605";
         public const string ClockArrowUp = "\ue606";
         public const string ClockFading = "\ue64f";
+        public const string ClockPlus = "\ue66c";
         public const string Clock = "\ue08b";
         public const string CloudAlert = "\ue638";
         public const string CloudCog = "\ue30a";
@@ -527,6 +530,7 @@ namespace IconFonts
         public const string Dog = "\ue391";
         public const string DollarSign = "\ue0b5";
         public const string Donut = "\ue4c1";
+        public const string DoorClosedLocked = "\ue669";
         public const string DoorClosed = "\ue3d9";
         public const string DoorOpen = "\ue3da";
         public const string Dot = "\ue454";
@@ -732,6 +736,7 @@ namespace IconFonts
         public const string GlobeLock = "\ue5d2";
         public const string Globe = "\ue0ec";
         public const string Goal = "\ue4aa";
+        public const string Gpu = "\ue66f";
         public const string Grab = "\ue1e6";
         public const string GraduationCap = "\ue234";
         public const string Grape = "\ue356";
@@ -746,6 +751,7 @@ namespace IconFonts
         public const string Group = "\ue469";
         public const string Guitar = "\ue564";
         public const string Ham = "\ue5dc";
+        public const string Hamburger = "\ue66a";
         public const string Hammer = "\ue0f0";
         public const string HandCoins = "\ue5bd";
         public const string HandHeart = "\ue5be";
@@ -1051,6 +1057,7 @@ namespace IconFonts
         public const string PaintbrushVertical = "\ue2e8";
         public const string Paintbrush = "\ue2e7";
         public const string Palette = "\ue1dd";
+        public const string Panda = "\ue66d";
         public const string PanelBottomClose = "\ue432";
         public const string PanelBottomDashed = "\ue433";
         public const string PanelBottomOpen = "\ue434";
@@ -1302,6 +1309,7 @@ namespace IconFonts
         public const string Smile = "\ue168";
         public const string Snail = "\ue4fd";
         public const string Snowflake = "\ue169";
+        public const string SoapDispenserDroplet = "\ue66e";
         public const string Sofa = "\ue2c4";
         public const string Soup = "\ue3ae";
         public const string Space = "\ue3e1";
@@ -1344,6 +1352,7 @@ namespace IconFonts
         public const string SquareDashedBottom = "\ue4c5";
         public const string SquareDashedKanban = "\ue170";
         public const string SquareDashedMousePointer = "\ue50e";
+        public const string SquareDashedTopSolid = "\ue671";
         public const string SquareDashed = "\ue1cb";
         public const string SquareDivide = "\ue171";
         public const string SquareDot = "\ue172";

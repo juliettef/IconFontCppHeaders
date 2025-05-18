@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe668,
-	Max: 0xe668,
+	Max16: 0xe671,
+	Max: 0xe671,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
 		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
@@ -244,6 +244,7 @@ var IconsLucide = Font{
 		"BriefcaseMedical":	"\xee\x97\x9b", 	// U+e5db
 		"Briefcase":	"\xee\x81\xa6", 	// U+e066
 		"BringToFront":	"\xee\x93\xb4", 	// U+e4f4
+		"BrushCleaning":	"\xee\x99\xab", 	// U+e66b
 		"Brush":	"\xee\x87\x93", 	// U+e1d3
 		"Bubbles":	"\xee\x99\x99", 	// U+e659
 		"BugOff":	"\xee\x94\x92", 	// U+e512
@@ -324,6 +325,7 @@ var IconsLucide = Font{
 		"ChartScatter":	"\xee\x92\x8f", 	// U+e48f
 		"ChartSpline":	"\xee\x98\x92", 	// U+e612
 		"CheckCheck":	"\xee\x8e\x92", 	// U+e392
+		"CheckLine":	"\xee\x99\xb0", 	// U+e670
 		"Check":	"\xee\x81\xb0", 	// U+e070
 		"ChefHat":	"\xee\x8a\xac", 	// U+e2ac
 		"Cherry":	"\xee\x8d\x94", 	// U+e354
@@ -419,6 +421,7 @@ var IconsLucide = Font{
 		"ClockArrowDown":	"\xee\x98\x85", 	// U+e605
 		"ClockArrowUp":	"\xee\x98\x86", 	// U+e606
 		"ClockFading":	"\xee\x99\x8f", 	// U+e64f
+		"ClockPlus":	"\xee\x99\xac", 	// U+e66c
 		"Clock":	"\xee\x82\x8b", 	// U+e08b
 		"CloudAlert":	"\xee\x98\xb8", 	// U+e638
 		"CloudCog":	"\xee\x8c\x8a", 	// U+e30a
@@ -525,6 +528,7 @@ var IconsLucide = Font{
 		"Dog":	"\xee\x8e\x91", 	// U+e391
 		"DollarSign":	"\xee\x82\xb5", 	// U+e0b5
 		"Donut":	"\xee\x93\x81", 	// U+e4c1
+		"DoorClosedLocked":	"\xee\x99\xa9", 	// U+e669
 		"DoorClosed":	"\xee\x8f\x99", 	// U+e3d9
 		"DoorOpen":	"\xee\x8f\x9a", 	// U+e3da
 		"Dot":	"\xee\x91\x94", 	// U+e454
@@ -730,6 +734,7 @@ var IconsLucide = Font{
 		"GlobeLock":	"\xee\x97\x92", 	// U+e5d2
 		"Globe":	"\xee\x83\xac", 	// U+e0ec
 		"Goal":	"\xee\x92\xaa", 	// U+e4aa
+		"Gpu":	"\xee\x99\xaf", 	// U+e66f
 		"Grab":	"\xee\x87\xa6", 	// U+e1e6
 		"GraduationCap":	"\xee\x88\xb4", 	// U+e234
 		"Grape":	"\xee\x8d\x96", 	// U+e356
@@ -744,6 +749,7 @@ var IconsLucide = Font{
 		"Group":	"\xee\x91\xa9", 	// U+e469
 		"Guitar":	"\xee\x95\xa4", 	// U+e564
 		"Ham":	"\xee\x97\x9c", 	// U+e5dc
+		"Hamburger":	"\xee\x99\xaa", 	// U+e66a
 		"Hammer":	"\xee\x83\xb0", 	// U+e0f0
 		"HandCoins":	"\xee\x96\xbd", 	// U+e5bd
 		"HandHeart":	"\xee\x96\xbe", 	// U+e5be
@@ -1049,6 +1055,7 @@ var IconsLucide = Font{
 		"PaintbrushVertical":	"\xee\x8b\xa8", 	// U+e2e8
 		"Paintbrush":	"\xee\x8b\xa7", 	// U+e2e7
 		"Palette":	"\xee\x87\x9d", 	// U+e1dd
+		"Panda":	"\xee\x99\xad", 	// U+e66d
 		"PanelBottomClose":	"\xee\x90\xb2", 	// U+e432
 		"PanelBottomDashed":	"\xee\x90\xb3", 	// U+e433
 		"PanelBottomOpen":	"\xee\x90\xb4", 	// U+e434
@@ -1300,6 +1307,7 @@ var IconsLucide = Font{
 		"Smile":	"\xee\x85\xa8", 	// U+e168
 		"Snail":	"\xee\x93\xbd", 	// U+e4fd
 		"Snowflake":	"\xee\x85\xa9", 	// U+e169
+		"SoapDispenserDroplet":	"\xee\x99\xae", 	// U+e66e
 		"Sofa":	"\xee\x8b\x84", 	// U+e2c4
 		"Soup":	"\xee\x8e\xae", 	// U+e3ae
 		"Space":	"\xee\x8f\xa1", 	// U+e3e1
@@ -1342,6 +1350,7 @@ var IconsLucide = Font{
 		"SquareDashedBottom":	"\xee\x93\x85", 	// U+e4c5
 		"SquareDashedKanban":	"\xee\x85\xb0", 	// U+e170
 		"SquareDashedMousePointer":	"\xee\x94\x8e", 	// U+e50e
+		"SquareDashedTopSolid":	"\xee\x99\xb1", 	// U+e671
 		"SquareDashed":	"\xee\x87\x8b", 	// U+e1cb
 		"SquareDivide":	"\xee\x85\xb1", 	// U+e171
 		"SquareDot":	"\xee\x85\xb2", 	// U+e172

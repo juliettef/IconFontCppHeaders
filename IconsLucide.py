@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe668
-    ICON_MAX = 0xe668
+    ICON_MAX_16 = 0xe671
+    ICON_MAX = 0xe671
 
     ICON_A_ARROW_DOWN = '\ue58a'
     ICON_A_ARROW_UP = '\ue58b'
@@ -242,6 +242,7 @@ class IconsLucide:
     ICON_BRIEFCASE_MEDICAL = '\ue5db'
     ICON_BRIEFCASE = '\ue066'
     ICON_BRING_TO_FRONT = '\ue4f4'
+    ICON_BRUSH_CLEANING = '\ue66b'
     ICON_BRUSH = '\ue1d3'
     ICON_BUBBLES = '\ue659'
     ICON_BUG_OFF = '\ue512'
@@ -322,6 +323,7 @@ class IconsLucide:
     ICON_CHART_SCATTER = '\ue48f'
     ICON_CHART_SPLINE = '\ue612'
     ICON_CHECK_CHECK = '\ue392'
+    ICON_CHECK_LINE = '\ue670'
     ICON_CHECK = '\ue070'
     ICON_CHEF_HAT = '\ue2ac'
     ICON_CHERRY = '\ue354'
@@ -417,6 +419,7 @@ class IconsLucide:
     ICON_CLOCK_ARROW_DOWN = '\ue605'
     ICON_CLOCK_ARROW_UP = '\ue606'
     ICON_CLOCK_FADING = '\ue64f'
+    ICON_CLOCK_PLUS = '\ue66c'
     ICON_CLOCK = '\ue08b'
     ICON_CLOUD_ALERT = '\ue638'
     ICON_CLOUD_COG = '\ue30a'
@@ -523,6 +526,7 @@ class IconsLucide:
     ICON_DOG = '\ue391'
     ICON_DOLLAR_SIGN = '\ue0b5'
     ICON_DONUT = '\ue4c1'
+    ICON_DOOR_CLOSED_LOCKED = '\ue669'
     ICON_DOOR_CLOSED = '\ue3d9'
     ICON_DOOR_OPEN = '\ue3da'
     ICON_DOT = '\ue454'
@@ -728,6 +732,7 @@ class IconsLucide:
     ICON_GLOBE_LOCK = '\ue5d2'
     ICON_GLOBE = '\ue0ec'
     ICON_GOAL = '\ue4aa'
+    ICON_GPU = '\ue66f'
     ICON_GRAB = '\ue1e6'
     ICON_GRADUATION_CAP = '\ue234'
     ICON_GRAPE = '\ue356'
@@ -742,6 +747,7 @@ class IconsLucide:
     ICON_GROUP = '\ue469'
     ICON_GUITAR = '\ue564'
     ICON_HAM = '\ue5dc'
+    ICON_HAMBURGER = '\ue66a'
     ICON_HAMMER = '\ue0f0'
     ICON_HAND_COINS = '\ue5bd'
     ICON_HAND_HEART = '\ue5be'
@@ -1047,6 +1053,7 @@ class IconsLucide:
     ICON_PAINTBRUSH_VERTICAL = '\ue2e8'
     ICON_PAINTBRUSH = '\ue2e7'
     ICON_PALETTE = '\ue1dd'
+    ICON_PANDA = '\ue66d'
     ICON_PANEL_BOTTOM_CLOSE = '\ue432'
     ICON_PANEL_BOTTOM_DASHED = '\ue433'
     ICON_PANEL_BOTTOM_OPEN = '\ue434'
@@ -1298,6 +1305,7 @@ class IconsLucide:
     ICON_SMILE = '\ue168'
     ICON_SNAIL = '\ue4fd'
     ICON_SNOWFLAKE = '\ue169'
+    ICON_SOAP_DISPENSER_DROPLET = '\ue66e'
     ICON_SOFA = '\ue2c4'
     ICON_SOUP = '\ue3ae'
     ICON_SPACE = '\ue3e1'
@@ -1340,6 +1348,7 @@ class IconsLucide:
     ICON_SQUARE_DASHED_BOTTOM = '\ue4c5'
     ICON_SQUARE_DASHED_KANBAN = '\ue170'
     ICON_SQUARE_DASHED_MOUSE_POINTER = '\ue50e'
+    ICON_SQUARE_DASHED_TOP_SOLID = '\ue671'
     ICON_SQUARE_DASHED = '\ue1cb'
     ICON_SQUARE_DIVIDE = '\ue171'
     ICON_SQUARE_DOT = '\ue172'

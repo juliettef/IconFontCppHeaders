@@ -163,6 +163,7 @@ import yaml
 import os
 import sys
 import logging
+import argparse
 
 if sys.version_info[0] < 3:
     raise Exception( "Python 3 or a more recent version is required." )
@@ -896,7 +897,17 @@ class LanguageGo( Language ):
 
 fonts = [ FontFA4, FontFA5, FontFA5Brands, FontFA5Pro, FontFA5ProBrands, FontFA6, FontFA6Brands, FontFK, FontMD, FontMS, FontMDI, FontKI, FontFAD, FontCI, FontLC ]
 languages = [ LanguageC, LanguageCSharp, LanguagePython, LanguageRust, LanguageGo ]
-ttf2headerC = False # convert ttf files to C and C++ headers
+
+parser = argparse.ArgumentParser(description="""
+    Convert Font Awesome, Fork Awesome, Google Material Design, Pictogrammers Material Design Icons,
+    Kenney Game, Fontaudio, Codicons and Lucide icon font parameters to C, C++, C#, Python, Rust and Go compatible formats.
+""")
+parser.add_argument(
+    "--ttf2headerC",
+    action="store_true",
+    help="Enable conversion of TTF files to C/C++ headers"
+)
+args = parser.parse_args()
 
 logging.basicConfig( format='%(levelname)s : %(message)s', level = logging.WARNING )
 
@@ -914,7 +925,7 @@ if intermediates:
         for lang in languages:
             if lang:
                 lang.save_to_file()
-                if ttf2headerC and lang == LanguageC:
+                if args.ttf2headerC and lang == LanguageC:
                     try:
                         lang.convert_ttf_to_header()
                     except Exception as e:

@@ -10,39 +10,35 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe695,
-	Max: 0xe695,
+	Max16: 0xe6a7,
+	Max: 0xe6a7,
 	Icons: map[string]string{
-		"AArrowDown":	"\xee\x96\x8a", 	// U+e58a
-		"AArrowUp":	"\xee\x96\x8b", 	// U+e58b
-		"ALargeSmall":	"\xee\x96\x8c", 	// U+e58c
+		"AArrowDown":	"\xee\x96\x85", 	// U+e585
+		"AArrowUp":	"\xee\x96\x86", 	// U+e586
+		"ALargeSmall":	"\xee\x96\x87", 	// U+e587
 		"Accessibility":	"\xee\x8a\x97", 	// U+e297
 		"Activity":	"\xee\x80\xb8", 	// U+e038
-		"AirVent":	"\xee\x8d\x91", 	// U+e351
+		"AirVent":	"\xee\x8d\x8d", 	// U+e34d
 		"Airplay":	"\xee\x80\xb9", 	// U+e039
 		"AlarmClockCheck":	"\xee\x87\xac", 	// U+e1ec
 		"AlarmClockMinus":	"\xee\x87\xad", 	// U+e1ed
 		"AlarmClockOff":	"\xee\x88\xbb", 	// U+e23b
 		"AlarmClockPlus":	"\xee\x87\xae", 	// U+e1ee
 		"AlarmClock":	"\xee\x80\xba", 	// U+e03a
-		"AlarmSmoke":	"\xee\x96\x80", 	// U+e580
+		"AlarmSmoke":	"\xee\x95\xbb", 	// U+e57b
 		"Album":	"\xee\x80\xbb", 	// U+e03b
 		"AlignCenterHorizontal":	"\xee\x89\xac", 	// U+e26c
 		"AlignCenterVertical":	"\xee\x89\xad", 	// U+e26d
-		"AlignCenter":	"\xee\x80\xbc", 	// U+e03c
 		"AlignEndHorizontal":	"\xee\x89\xae", 	// U+e26e
 		"AlignEndVertical":	"\xee\x89\xaf", 	// U+e26f
-		"AlignHorizontalDistributeCenter":	"\xee\x80\xbd", 	// U+e03d
-		"AlignHorizontalDistributeEnd":	"\xee\x80\xbe", 	// U+e03e
-		"AlignHorizontalDistributeStart":	"\xee\x80\xbf", 	// U+e03f
+		"AlignHorizontalDistributeCenter":	"\xee\x80\xbc", 	// U+e03c
+		"AlignHorizontalDistributeEnd":	"\xee\x80\xbd", 	// U+e03d
+		"AlignHorizontalDistributeStart":	"\xee\x80\xbe", 	// U+e03e
 		"AlignHorizontalJustifyCenter":	"\xee\x89\xb2", 	// U+e272
 		"AlignHorizontalJustifyEnd":	"\xee\x89\xb3", 	// U+e273
 		"AlignHorizontalJustifyStart":	"\xee\x89\xb4", 	// U+e274
 		"AlignHorizontalSpaceAround":	"\xee\x89\xb5", 	// U+e275
 		"AlignHorizontalSpaceBetween":	"\xee\x89\xb6", 	// U+e276
-		"AlignJustify":	"\xee\x81\x80", 	// U+e040
-		"AlignLeft":	"\xee\x81\x81", 	// U+e041
-		"AlignRight":	"\xee\x81\x82", 	// U+e042
 		"AlignStartHorizontal":	"\xee\x89\xb0", 	// U+e270
 		"AlignStartVertical":	"\xee\x89\xb1", 	// U+e271
 		"AlignVerticalDistributeCenter":	"\xee\x89\xbe", 	// U+e27e
@@ -53,367 +49,375 @@ var IconsLucide = Font{
 		"AlignVerticalJustifyStart":	"\xee\x89\xb9", 	// U+e279
 		"AlignVerticalSpaceAround":	"\xee\x89\xba", 	// U+e27a
 		"AlignVerticalSpaceBetween":	"\xee\x89\xbb", 	// U+e27b
-		"Ambulance":	"\xee\x97\x80", 	// U+e5c0
-		"Ampersand":	"\xee\x92\xa1", 	// U+e4a1
-		"Ampersands":	"\xee\x92\xa2", 	// U+e4a2
-		"Amphora":	"\xee\x98\xa0", 	// U+e620
-		"Anchor":	"\xee\x81\x83", 	// U+e043
+		"Ambulance":	"\xee\x96\xbb", 	// U+e5bb
+		"Ampersand":	"\xee\x92\x9c", 	// U+e49c
+		"Ampersands":	"\xee\x92\x9d", 	// U+e49d
+		"Amphora":	"\xee\x98\x9b", 	// U+e61b
+		"Anchor":	"\xee\x80\xbf", 	// U+e03f
 		"Angry":	"\xee\x8b\xbc", 	// U+e2fc
 		"Annoyed":	"\xee\x8b\xbd", 	// U+e2fd
-		"Antenna":	"\xee\x93\xa7", 	// U+e4e7
-		"Anvil":	"\xee\x96\x85", 	// U+e585
-		"Aperture":	"\xee\x81\x84", 	// U+e044
-		"AppWindowMac":	"\xee\x97\x97", 	// U+e5d7
-		"AppWindow":	"\xee\x90\xab", 	// U+e42b
-		"Apple":	"\xee\x8d\x92", 	// U+e352
+		"Antenna":	"\xee\x93\xa2", 	// U+e4e2
+		"Anvil":	"\xee\x96\x80", 	// U+e580
+		"Aperture":	"\xee\x81\x80", 	// U+e040
+		"AppWindowMac":	"\xee\x97\x92", 	// U+e5d2
+		"AppWindow":	"\xee\x90\xa6", 	// U+e426
+		"Apple":	"\xee\x8d\x8e", 	// U+e34e
 		"ArchiveRestore":	"\xee\x8b\x8d", 	// U+e2cd
-		"ArchiveX":	"\xee\x94\x91", 	// U+e511
-		"Archive":	"\xee\x81\x85", 	// U+e045
+		"ArchiveX":	"\xee\x94\x8c", 	// U+e50c
+		"Archive":	"\xee\x81\x81", 	// U+e041
 		"Armchair":	"\xee\x8b\x80", 	// U+e2c0
-		"ArrowBigDownDash":	"\xee\x90\xa2", 	// U+e422
+		"ArrowBigDownDash":	"\xee\x90\x9d", 	// U+e41d
 		"ArrowBigDown":	"\xee\x87\xa1", 	// U+e1e1
-		"ArrowBigLeftDash":	"\xee\x90\xa3", 	// U+e423
+		"ArrowBigLeftDash":	"\xee\x90\x9e", 	// U+e41e
 		"ArrowBigLeft":	"\xee\x87\xa2", 	// U+e1e2
-		"ArrowBigRightDash":	"\xee\x90\xa4", 	// U+e424
+		"ArrowBigRightDash":	"\xee\x90\x9f", 	// U+e41f
 		"ArrowBigRight":	"\xee\x87\xa3", 	// U+e1e3
-		"ArrowBigUpDash":	"\xee\x90\xa5", 	// U+e425
+		"ArrowBigUpDash":	"\xee\x90\xa0", 	// U+e420
 		"ArrowBigUp":	"\xee\x87\xa4", 	// U+e1e4
-		"ArrowDown01":	"\xee\x90\x98", 	// U+e418
-		"ArrowDown10":	"\xee\x90\x99", 	// U+e419
-		"ArrowDownAZ":	"\xee\x90\x9a", 	// U+e41a
-		"ArrowDownFromLine":	"\xee\x91\x99", 	// U+e459
-		"ArrowDownLeft":	"\xee\x81\x87", 	// U+e047
-		"ArrowDownNarrowWide":	"\xee\x81\x88", 	// U+e048
-		"ArrowDownRight":	"\xee\x81\x89", 	// U+e049
-		"ArrowDownToDot":	"\xee\x91\x92", 	// U+e452
-		"ArrowDownToLine":	"\xee\x91\x9a", 	// U+e45a
-		"ArrowDownUp":	"\xee\x81\x8a", 	// U+e04a
-		"ArrowDownWideNarrow":	"\xee\x81\x8b", 	// U+e04b
-		"ArrowDownZA":	"\xee\x90\x9b", 	// U+e41b
-		"ArrowDown":	"\xee\x81\x86", 	// U+e046
-		"ArrowLeftFromLine":	"\xee\x91\x9b", 	// U+e45b
+		"ArrowDown01":	"\xee\x90\x93", 	// U+e413
+		"ArrowDown10":	"\xee\x90\x94", 	// U+e414
+		"ArrowDownAZ":	"\xee\x90\x95", 	// U+e415
+		"ArrowDownFromLine":	"\xee\x91\x94", 	// U+e454
+		"ArrowDownLeft":	"\xee\x81\x83", 	// U+e043
+		"ArrowDownNarrowWide":	"\xee\x81\x84", 	// U+e044
+		"ArrowDownRight":	"\xee\x81\x85", 	// U+e045
+		"ArrowDownToDot":	"\xee\x91\x8d", 	// U+e44d
+		"ArrowDownToLine":	"\xee\x91\x95", 	// U+e455
+		"ArrowDownUp":	"\xee\x81\x86", 	// U+e046
+		"ArrowDownWideNarrow":	"\xee\x81\x87", 	// U+e047
+		"ArrowDownZA":	"\xee\x90\x96", 	// U+e416
+		"ArrowDown":	"\xee\x81\x82", 	// U+e042
+		"ArrowLeftFromLine":	"\xee\x91\x96", 	// U+e456
 		"ArrowLeftRight":	"\xee\x89\x8a", 	// U+e24a
-		"ArrowLeftToLine":	"\xee\x91\x9c", 	// U+e45c
-		"ArrowLeft":	"\xee\x81\x8c", 	// U+e04c
-		"ArrowRightFromLine":	"\xee\x91\x9d", 	// U+e45d
-		"ArrowRightLeft":	"\xee\x90\x9c", 	// U+e41c
-		"ArrowRightToLine":	"\xee\x91\x9e", 	// U+e45e
-		"ArrowRight":	"\xee\x81\x8d", 	// U+e04d
-		"ArrowUp01":	"\xee\x90\x9d", 	// U+e41d
-		"ArrowUp10":	"\xee\x90\x9e", 	// U+e41e
-		"ArrowUpAZ":	"\xee\x90\x9f", 	// U+e41f
-		"ArrowUpDown":	"\xee\x8e\x81", 	// U+e381
-		"ArrowUpFromDot":	"\xee\x91\x93", 	// U+e453
-		"ArrowUpFromLine":	"\xee\x91\x9f", 	// U+e45f
-		"ArrowUpLeft":	"\xee\x81\x8f", 	// U+e04f
-		"ArrowUpNarrowWide":	"\xee\x81\x90", 	// U+e050
-		"ArrowUpRight":	"\xee\x81\x91", 	// U+e051
-		"ArrowUpToLine":	"\xee\x91\xa0", 	// U+e460
-		"ArrowUpWideNarrow":	"\xee\x90\xa0", 	// U+e420
-		"ArrowUpZA":	"\xee\x90\xa1", 	// U+e421
-		"ArrowUp":	"\xee\x81\x8e", 	// U+e04e
-		"ArrowsUpFromLine":	"\xee\x93\x99", 	// U+e4d9
+		"ArrowLeftToLine":	"\xee\x91\x97", 	// U+e457
+		"ArrowLeft":	"\xee\x81\x88", 	// U+e048
+		"ArrowRightFromLine":	"\xee\x91\x98", 	// U+e458
+		"ArrowRightLeft":	"\xee\x90\x97", 	// U+e417
+		"ArrowRightToLine":	"\xee\x91\x99", 	// U+e459
+		"ArrowRight":	"\xee\x81\x89", 	// U+e049
+		"ArrowUp01":	"\xee\x90\x98", 	// U+e418
+		"ArrowUp10":	"\xee\x90\x99", 	// U+e419
+		"ArrowUpAZ":	"\xee\x90\x9a", 	// U+e41a
+		"ArrowUpDown":	"\xee\x8d\xbd", 	// U+e37d
+		"ArrowUpFromDot":	"\xee\x91\x8e", 	// U+e44e
+		"ArrowUpFromLine":	"\xee\x91\x9a", 	// U+e45a
+		"ArrowUpLeft":	"\xee\x81\x8b", 	// U+e04b
+		"ArrowUpNarrowWide":	"\xee\x81\x8c", 	// U+e04c
+		"ArrowUpRight":	"\xee\x81\x8d", 	// U+e04d
+		"ArrowUpToLine":	"\xee\x91\x9b", 	// U+e45b
+		"ArrowUpWideNarrow":	"\xee\x90\x9b", 	// U+e41b
+		"ArrowUpZA":	"\xee\x90\x9c", 	// U+e41c
+		"ArrowUp":	"\xee\x81\x8a", 	// U+e04a
+		"ArrowsUpFromLine":	"\xee\x93\x94", 	// U+e4d4
 		"Asterisk":	"\xee\x87\xaf", 	// U+e1ef
-		"AtSign":	"\xee\x81\x92", 	// U+e052
-		"Atom":	"\xee\x8f\x9b", 	// U+e3db
-		"AudioLines":	"\xee\x95\x9f", 	// U+e55f
-		"AudioWaveform":	"\xee\x95\xa0", 	// U+e560
-		"Award":	"\xee\x81\x93", 	// U+e053
-		"Axe":	"\xee\x81\x94", 	// U+e054
+		"AtSign":	"\xee\x81\x8e", 	// U+e04e
+		"Atom":	"\xee\x8f\x97", 	// U+e3d7
+		"AudioLines":	"\xee\x95\x9a", 	// U+e55a
+		"AudioWaveform":	"\xee\x95\x9b", 	// U+e55b
+		"Award":	"\xee\x81\x8f", 	// U+e04f
+		"Axe":	"\xee\x81\x90", 	// U+e050
 		"Axis3d":	"\xee\x8b\xbe", 	// U+e2fe
 		"Baby":	"\xee\x8b\x8e", 	// U+e2ce
 		"Backpack":	"\xee\x8b\x88", 	// U+e2c8
-		"BadgeAlert":	"\xee\x91\xba", 	// U+e47a
-		"BadgeCent":	"\xee\x94\x94", 	// U+e514
+		"BadgeAlert":	"\xee\x91\xb5", 	// U+e475
+		"BadgeCent":	"\xee\x94\x8f", 	// U+e50f
 		"BadgeCheck":	"\xee\x89\x81", 	// U+e241
-		"BadgeDollarSign":	"\xee\x91\xbb", 	// U+e47b
-		"BadgeEuro":	"\xee\x94\x95", 	// U+e515
-		"BadgeIndianRupee":	"\xee\x94\x96", 	// U+e516
-		"BadgeInfo":	"\xee\x91\xbc", 	// U+e47c
-		"BadgeJapaneseYen":	"\xee\x94\x97", 	// U+e517
-		"BadgeMinus":	"\xee\x91\xbd", 	// U+e47d
-		"BadgePercent":	"\xee\x91\xbe", 	// U+e47e
-		"BadgePlus":	"\xee\x91\xbf", 	// U+e47f
-		"BadgePoundSterling":	"\xee\x94\x98", 	// U+e518
-		"BadgeQuestionMark":	"\xee\x92\x80", 	// U+e480
-		"BadgeRussianRuble":	"\xee\x94\x99", 	// U+e519
-		"BadgeSwissFranc":	"\xee\x94\x9a", 	// U+e51a
-		"BadgeTurkishLira":	"\xee\x9a\x83", 	// U+e683
-		"BadgeX":	"\xee\x92\x81", 	// U+e481
-		"Badge":	"\xee\x91\xb9", 	// U+e479
+		"BadgeDollarSign":	"\xee\x91\xb6", 	// U+e476
+		"BadgeEuro":	"\xee\x94\x90", 	// U+e510
+		"BadgeIndianRupee":	"\xee\x94\x91", 	// U+e511
+		"BadgeInfo":	"\xee\x91\xb7", 	// U+e477
+		"BadgeJapaneseYen":	"\xee\x94\x92", 	// U+e512
+		"BadgeMinus":	"\xee\x91\xb8", 	// U+e478
+		"BadgePercent":	"\xee\x91\xb9", 	// U+e479
+		"BadgePlus":	"\xee\x91\xba", 	// U+e47a
+		"BadgePoundSterling":	"\xee\x94\x93", 	// U+e513
+		"BadgeQuestionMark":	"\xee\x91\xbb", 	// U+e47b
+		"BadgeRussianRuble":	"\xee\x94\x94", 	// U+e514
+		"BadgeSwissFranc":	"\xee\x94\x95", 	// U+e515
+		"BadgeTurkishLira":	"\xee\x99\xbe", 	// U+e67e
+		"BadgeX":	"\xee\x91\xbc", 	// U+e47c
+		"Badge":	"\xee\x91\xb4", 	// U+e474
 		"BaggageClaim":	"\xee\x8b\x89", 	// U+e2c9
-		"Ban":	"\xee\x81\x95", 	// U+e055
-		"Banana":	"\xee\x8d\x93", 	// U+e353
-		"Bandage":	"\xee\x98\xa2", 	// U+e622
-		"BanknoteArrowDown":	"\xee\x99\x91", 	// U+e651
-		"BanknoteArrowUp":	"\xee\x99\x92", 	// U+e652
-		"BanknoteX":	"\xee\x99\x93", 	// U+e653
-		"Banknote":	"\xee\x81\x96", 	// U+e056
-		"Barcode":	"\xee\x94\xb8", 	// U+e538
-		"Barrel":	"\xee\x99\xba", 	// U+e67a
+		"Ban":	"\xee\x81\x91", 	// U+e051
+		"Banana":	"\xee\x8d\x8f", 	// U+e34f
+		"Bandage":	"\xee\x98\x9d", 	// U+e61d
+		"BanknoteArrowDown":	"\xee\x99\x8c", 	// U+e64c
+		"BanknoteArrowUp":	"\xee\x99\x8d", 	// U+e64d
+		"BanknoteX":	"\xee\x99\x8e", 	// U+e64e
+		"Banknote":	"\xee\x81\x92", 	// U+e052
+		"Barcode":	"\xee\x94\xb3", 	// U+e533
+		"Barrel":	"\xee\x99\xb5", 	// U+e675
 		"Baseline":	"\xee\x8a\x85", 	// U+e285
 		"Bath":	"\xee\x8a\xab", 	// U+e2ab
-		"BatteryCharging":	"\xee\x81\x98", 	// U+e058
-		"BatteryFull":	"\xee\x81\x99", 	// U+e059
-		"BatteryLow":	"\xee\x81\x9a", 	// U+e05a
-		"BatteryMedium":	"\xee\x81\x9b", 	// U+e05b
-		"BatteryPlus":	"\xee\x99\x83", 	// U+e643
-		"BatteryWarning":	"\xee\x8e\xb0", 	// U+e3b0
-		"Battery":	"\xee\x81\x97", 	// U+e057
-		"Beaker":	"\xee\x81\x9c", 	// U+e05c
-		"BeanOff":	"\xee\x8e\x94", 	// U+e394
-		"Bean":	"\xee\x8e\x93", 	// U+e393
+		"BatteryCharging":	"\xee\x81\x94", 	// U+e054
+		"BatteryFull":	"\xee\x81\x95", 	// U+e055
+		"BatteryLow":	"\xee\x81\x96", 	// U+e056
+		"BatteryMedium":	"\xee\x81\x97", 	// U+e057
+		"BatteryPlus":	"\xee\x98\xbe", 	// U+e63e
+		"BatteryWarning":	"\xee\x8e\xac", 	// U+e3ac
+		"Battery":	"\xee\x81\x93", 	// U+e053
+		"Beaker":	"\xee\x81\x98", 	// U+e058
+		"BeanOff":	"\xee\x8e\x90", 	// U+e390
+		"Bean":	"\xee\x8e\x8f", 	// U+e38f
 		"BedDouble":	"\xee\x8b\x82", 	// U+e2c2
 		"BedSingle":	"\xee\x8b\x83", 	// U+e2c3
 		"Bed":	"\xee\x8b\x81", 	// U+e2c1
-		"Beef":	"\xee\x8e\xa9", 	// U+e3a9
-		"BeerOff":	"\xee\x97\x9e", 	// U+e5de
+		"Beef":	"\xee\x8e\xa5", 	// U+e3a5
+		"BeerOff":	"\xee\x97\x99", 	// U+e5d9
 		"Beer":	"\xee\x8b\x8f", 	// U+e2cf
-		"BellDot":	"\xee\x90\xb0", 	// U+e430
-		"BellElectric":	"\xee\x96\x81", 	// U+e581
+		"BellDot":	"\xee\x90\xab", 	// U+e42b
+		"BellElectric":	"\xee\x95\xbc", 	// U+e57c
 		"BellMinus":	"\xee\x87\xb0", 	// U+e1f0
-		"BellOff":	"\xee\x81\x9e", 	// U+e05e
+		"BellOff":	"\xee\x81\x9a", 	// U+e05a
 		"BellPlus":	"\xee\x87\xb1", 	// U+e1f1
 		"BellRing":	"\xee\x88\xa4", 	// U+e224
-		"Bell":	"\xee\x81\x9d", 	// U+e05d
-		"BetweenHorizontalEnd":	"\xee\x96\x96", 	// U+e596
-		"BetweenHorizontalStart":	"\xee\x96\x97", 	// U+e597
-		"BetweenVerticalEnd":	"\xee\x96\x98", 	// U+e598
-		"BetweenVerticalStart":	"\xee\x96\x99", 	// U+e599
-		"BicepsFlexed":	"\xee\x97\xb0", 	// U+e5f0
+		"Bell":	"\xee\x81\x99", 	// U+e059
+		"BetweenHorizontalEnd":	"\xee\x96\x91", 	// U+e591
+		"BetweenHorizontalStart":	"\xee\x96\x92", 	// U+e592
+		"BetweenVerticalEnd":	"\xee\x96\x93", 	// U+e593
+		"BetweenVerticalStart":	"\xee\x96\x94", 	// U+e594
+		"BicepsFlexed":	"\xee\x97\xab", 	// U+e5eb
 		"Bike":	"\xee\x87\x92", 	// U+e1d2
 		"Binary":	"\xee\x87\xb2", 	// U+e1f2
-		"Binoculars":	"\xee\x98\xa6", 	// U+e626
-		"Biohazard":	"\xee\x91\x86", 	// U+e446
-		"Bird":	"\xee\x8f\x89", 	// U+e3c9
-		"Bitcoin":	"\xee\x81\x9f", 	// U+e05f
-		"Blend":	"\xee\x96\xa1", 	// U+e5a1
-		"Blinds":	"\xee\x8f\x84", 	// U+e3c4
-		"Blocks":	"\xee\x93\xbf", 	// U+e4ff
+		"Binoculars":	"\xee\x98\xa1", 	// U+e621
+		"Biohazard":	"\xee\x91\x81", 	// U+e441
+		"Bird":	"\xee\x8f\x85", 	// U+e3c5
+		"Birdhouse":	"\xee\x9a\x9a", 	// U+e69a
+		"Bitcoin":	"\xee\x81\x9b", 	// U+e05b
+		"Blend":	"\xee\x96\x9c", 	// U+e59c
+		"Blinds":	"\xee\x8f\x80", 	// U+e3c0
+		"Blocks":	"\xee\x93\xba", 	// U+e4fa
 		"BluetoothConnected":	"\xee\x86\xb8", 	// U+e1b8
 		"BluetoothOff":	"\xee\x86\xb9", 	// U+e1b9
 		"BluetoothSearching":	"\xee\x86\xba", 	// U+e1ba
-		"Bluetooth":	"\xee\x81\xa0", 	// U+e060
-		"Bold":	"\xee\x81\xa1", 	// U+e061
-		"Bolt":	"\xee\x96\x91", 	// U+e591
+		"Bluetooth":	"\xee\x81\x9c", 	// U+e05c
+		"Bold":	"\xee\x81\x9d", 	// U+e05d
+		"Bolt":	"\xee\x96\x8c", 	// U+e58c
 		"Bomb":	"\xee\x8b\xbf", 	// U+e2ff
-		"Bone":	"\xee\x8d\x9c", 	// U+e35c
-		"BookA":	"\xee\x95\x89", 	// U+e549
-		"BookAlert":	"\xee\x99\xb7", 	// U+e677
-		"BookAudio":	"\xee\x95\x8a", 	// U+e54a
-		"BookCheck":	"\xee\x95\x8b", 	// U+e54b
-		"BookCopy":	"\xee\x8f\xb1", 	// U+e3f1
-		"BookDashed":	"\xee\x8f\xb2", 	// U+e3f2
-		"BookDown":	"\xee\x8f\xb3", 	// U+e3f3
-		"BookHeadphones":	"\xee\x95\x8c", 	// U+e54c
-		"BookHeart":	"\xee\x95\x8d", 	// U+e54d
-		"BookImage":	"\xee\x95\x8e", 	// U+e54e
-		"BookKey":	"\xee\x8f\xb4", 	// U+e3f4
-		"BookLock":	"\xee\x8f\xb5", 	// U+e3f5
-		"BookMarked":	"\xee\x8f\xb6", 	// U+e3f6
-		"BookMinus":	"\xee\x8f\xb7", 	// U+e3f7
-		"BookOpenCheck":	"\xee\x8e\x85", 	// U+e385
-		"BookOpenText":	"\xee\x95\x8f", 	// U+e54f
-		"BookOpen":	"\xee\x81\xa3", 	// U+e063
-		"BookPlus":	"\xee\x8f\xb8", 	// U+e3f8
-		"BookText":	"\xee\x95\x90", 	// U+e550
-		"BookType":	"\xee\x95\x91", 	// U+e551
-		"BookUp2":	"\xee\x92\xab", 	// U+e4ab
-		"BookUp":	"\xee\x8f\xb9", 	// U+e3f9
-		"BookUser":	"\xee\x95\x92", 	// U+e552
-		"BookX":	"\xee\x8f\xba", 	// U+e3fa
-		"Book":	"\xee\x81\xa2", 	// U+e062
-		"BookmarkCheck":	"\xee\x94\xa4", 	// U+e524
+		"Bone":	"\xee\x8d\x98", 	// U+e358
+		"BookA":	"\xee\x95\x84", 	// U+e544
+		"BookAlert":	"\xee\x99\xb2", 	// U+e672
+		"BookAudio":	"\xee\x95\x85", 	// U+e545
+		"BookCheck":	"\xee\x95\x86", 	// U+e546
+		"BookCopy":	"\xee\x8f\xac", 	// U+e3ec
+		"BookDashed":	"\xee\x8f\xad", 	// U+e3ed
+		"BookDown":	"\xee\x8f\xae", 	// U+e3ee
+		"BookHeadphones":	"\xee\x95\x87", 	// U+e547
+		"BookHeart":	"\xee\x95\x88", 	// U+e548
+		"BookImage":	"\xee\x95\x89", 	// U+e549
+		"BookKey":	"\xee\x8f\xaf", 	// U+e3ef
+		"BookLock":	"\xee\x8f\xb0", 	// U+e3f0
+		"BookMarked":	"\xee\x8f\xb1", 	// U+e3f1
+		"BookMinus":	"\xee\x8f\xb2", 	// U+e3f2
+		"BookOpenCheck":	"\xee\x8e\x81", 	// U+e381
+		"BookOpenText":	"\xee\x95\x8a", 	// U+e54a
+		"BookOpen":	"\xee\x81\x9f", 	// U+e05f
+		"BookPlus":	"\xee\x8f\xb3", 	// U+e3f3
+		"BookText":	"\xee\x95\x8b", 	// U+e54b
+		"BookType":	"\xee\x95\x8c", 	// U+e54c
+		"BookUp2":	"\xee\x92\xa6", 	// U+e4a6
+		"BookUp":	"\xee\x8f\xb4", 	// U+e3f4
+		"BookUser":	"\xee\x95\x8d", 	// U+e54d
+		"BookX":	"\xee\x8f\xb5", 	// U+e3f5
+		"Book":	"\xee\x81\x9e", 	// U+e05e
+		"BookmarkCheck":	"\xee\x94\x9f", 	// U+e51f
 		"BookmarkMinus":	"\xee\x88\xbc", 	// U+e23c
 		"BookmarkPlus":	"\xee\x88\xbd", 	// U+e23d
-		"BookmarkX":	"\xee\x94\xa5", 	// U+e525
-		"Bookmark":	"\xee\x81\xa4", 	// U+e064
-		"BoomBox":	"\xee\x93\xb3", 	// U+e4f3
-		"BotMessageSquare":	"\xee\x97\x93", 	// U+e5d3
-		"BotOff":	"\xee\x97\xa5", 	// U+e5e5
+		"BookmarkX":	"\xee\x94\xa0", 	// U+e520
+		"Bookmark":	"\xee\x81\xa0", 	// U+e060
+		"BoomBox":	"\xee\x93\xae", 	// U+e4ee
+		"BotMessageSquare":	"\xee\x97\x8e", 	// U+e5ce
+		"BotOff":	"\xee\x97\xa0", 	// U+e5e0
 		"Bot":	"\xee\x86\xbb", 	// U+e1bb
-		"BottleWine":	"\xee\x9a\x80", 	// U+e680
-		"BowArrow":	"\xee\x99\xa3", 	// U+e663
-		"Box":	"\xee\x81\xa5", 	// U+e065
+		"BottleWine":	"\xee\x99\xbb", 	// U+e67b
+		"BowArrow":	"\xee\x99\x9e", 	// U+e65e
+		"Box":	"\xee\x81\xa1", 	// U+e061
 		"Boxes":	"\xee\x8b\x90", 	// U+e2d0
-		"Braces":	"\xee\x8d\xae", 	// U+e36e
-		"Brackets":	"\xee\x91\x88", 	// U+e448
-		"BrainCircuit":	"\xee\x8f\x8b", 	// U+e3cb
-		"BrainCog":	"\xee\x8f\x8c", 	// U+e3cc
-		"Brain":	"\xee\x8f\x8a", 	// U+e3ca
-		"BrickWallFire":	"\xee\x99\x98", 	// U+e658
-		"BrickWallShield":	"\xee\x9a\x95", 	// U+e695
-		"BrickWall":	"\xee\x96\x86", 	// U+e586
-		"BriefcaseBusiness":	"\xee\x97\x9a", 	// U+e5da
-		"BriefcaseConveyorBelt":	"\xee\x98\xb0", 	// U+e630
-		"BriefcaseMedical":	"\xee\x97\x9b", 	// U+e5db
-		"Briefcase":	"\xee\x81\xa6", 	// U+e066
-		"BringToFront":	"\xee\x93\xb4", 	// U+e4f4
-		"BrushCleaning":	"\xee\x99\xab", 	// U+e66b
+		"Braces":	"\xee\x8d\xaa", 	// U+e36a
+		"Brackets":	"\xee\x91\x83", 	// U+e443
+		"BrainCircuit":	"\xee\x8f\x87", 	// U+e3c7
+		"BrainCog":	"\xee\x8f\x88", 	// U+e3c8
+		"Brain":	"\xee\x8f\x86", 	// U+e3c6
+		"BrickWallFire":	"\xee\x99\x93", 	// U+e653
+		"BrickWallShield":	"\xee\x9a\x90", 	// U+e690
+		"BrickWall":	"\xee\x96\x81", 	// U+e581
+		"BriefcaseBusiness":	"\xee\x97\x95", 	// U+e5d5
+		"BriefcaseConveyorBelt":	"\xee\x98\xab", 	// U+e62b
+		"BriefcaseMedical":	"\xee\x97\x96", 	// U+e5d6
+		"Briefcase":	"\xee\x81\xa2", 	// U+e062
+		"BringToFront":	"\xee\x93\xaf", 	// U+e4ef
+		"BrushCleaning":	"\xee\x99\xa6", 	// U+e666
 		"Brush":	"\xee\x87\x93", 	// U+e1d3
-		"Bubbles":	"\xee\x99\x99", 	// U+e659
-		"BugOff":	"\xee\x94\x92", 	// U+e512
-		"BugPlay":	"\xee\x94\x93", 	// U+e513
+		"Bubbles":	"\xee\x99\x94", 	// U+e654
+		"BugOff":	"\xee\x94\x8d", 	// U+e50d
+		"BugPlay":	"\xee\x94\x8e", 	// U+e50e
 		"Bug":	"\xee\x88\x8c", 	// U+e20c
 		"Building2":	"\xee\x8a\x90", 	// U+e290
 		"Building":	"\xee\x87\x8c", 	// U+e1cc
-		"BusFront":	"\xee\x94\x80", 	// U+e500
+		"BusFront":	"\xee\x93\xbb", 	// U+e4fb
 		"Bus":	"\xee\x87\x94", 	// U+e1d4
-		"CableCar":	"\xee\x94\x81", 	// U+e501
-		"Cable":	"\xee\x93\xa8", 	// U+e4e8
-		"CakeSlice":	"\xee\x92\xbe", 	// U+e4be
-		"Cake":	"\xee\x8d\x88", 	// U+e348
+		"CableCar":	"\xee\x93\xbc", 	// U+e4fc
+		"Cable":	"\xee\x93\xa3", 	// U+e4e3
+		"CakeSlice":	"\xee\x92\xb9", 	// U+e4b9
+		"Cake":	"\xee\x8d\x84", 	// U+e344
 		"Calculator":	"\xee\x86\xbc", 	// U+e1bc
-		"Calendar1":	"\xee\x98\xb5", 	// U+e635
-		"CalendarArrowDown":	"\xee\x98\x83", 	// U+e603
-		"CalendarArrowUp":	"\xee\x98\x84", 	// U+e604
+		"Calendar1":	"\xee\x98\xb0", 	// U+e630
+		"CalendarArrowDown":	"\xee\x97\xbe", 	// U+e5fe
+		"CalendarArrowUp":	"\xee\x97\xbf", 	// U+e5ff
 		"CalendarCheck2":	"\xee\x8a\xb8", 	// U+e2b8
 		"CalendarCheck":	"\xee\x8a\xb7", 	// U+e2b7
 		"CalendarClock":	"\xee\x8c\x84", 	// U+e304
-		"CalendarCog":	"\xee\x97\xb2", 	// U+e5f2
+		"CalendarCog":	"\xee\x97\xad", 	// U+e5ed
 		"CalendarDays":	"\xee\x8a\xb9", 	// U+e2b9
-		"CalendarFold":	"\xee\x96\xb9", 	// U+e5b9
+		"CalendarFold":	"\xee\x96\xb4", 	// U+e5b4
 		"CalendarHeart":	"\xee\x8c\x85", 	// U+e305
-		"CalendarMinus2":	"\xee\x96\xba", 	// U+e5ba
+		"CalendarMinus2":	"\xee\x96\xb5", 	// U+e5b5
 		"CalendarMinus":	"\xee\x8a\xba", 	// U+e2ba
 		"CalendarOff":	"\xee\x8a\xbb", 	// U+e2bb
-		"CalendarPlus2":	"\xee\x96\xbb", 	// U+e5bb
+		"CalendarPlus2":	"\xee\x96\xb6", 	// U+e5b6
 		"CalendarPlus":	"\xee\x8a\xbc", 	// U+e2bc
 		"CalendarRange":	"\xee\x8a\xbd", 	// U+e2bd
 		"CalendarSearch":	"\xee\x8c\x86", 	// U+e306
-		"CalendarSync":	"\xee\x98\xbb", 	// U+e63b
+		"CalendarSync":	"\xee\x98\xb6", 	// U+e636
 		"CalendarX2":	"\xee\x8a\xbf", 	// U+e2bf
 		"CalendarX":	"\xee\x8a\xbe", 	// U+e2be
-		"Calendar":	"\xee\x81\xa7", 	// U+e067
-		"CameraOff":	"\xee\x81\xa9", 	// U+e069
-		"Camera":	"\xee\x81\xa8", 	// U+e068
-		"CandyCane":	"\xee\x92\xbf", 	// U+e4bf
-		"CandyOff":	"\xee\x8e\x96", 	// U+e396
-		"Candy":	"\xee\x8e\x95", 	// U+e395
-		"Cannabis":	"\xee\x97\x99", 	// U+e5d9
-		"CaptionsOff":	"\xee\x97\x86", 	// U+e5c6
-		"Captions":	"\xee\x8e\xa8", 	// U+e3a8
-		"CarFront":	"\xee\x94\x82", 	// U+e502
-		"CarTaxiFront":	"\xee\x94\x83", 	// U+e503
+		"Calendar":	"\xee\x81\xa3", 	// U+e063
+		"Calendars":	"\xee\x9a\xa7", 	// U+e6a7
+		"CameraOff":	"\xee\x81\xa5", 	// U+e065
+		"Camera":	"\xee\x81\xa4", 	// U+e064
+		"CandyCane":	"\xee\x92\xba", 	// U+e4ba
+		"CandyOff":	"\xee\x8e\x92", 	// U+e392
+		"Candy":	"\xee\x8e\x91", 	// U+e391
+		"Cannabis":	"\xee\x97\x94", 	// U+e5d4
+		"CaptionsOff":	"\xee\x97\x81", 	// U+e5c1
+		"Captions":	"\xee\x8e\xa4", 	// U+e3a4
+		"CarFront":	"\xee\x93\xbd", 	// U+e4fd
+		"CarTaxiFront":	"\xee\x93\xbe", 	// U+e4fe
 		"Car":	"\xee\x87\x95", 	// U+e1d5
-		"Caravan":	"\xee\x94\xbe", 	// U+e53e
-		"CardSim":	"\xee\x99\xb6", 	// U+e676
+		"Caravan":	"\xee\x94\xb9", 	// U+e539
+		"CardSim":	"\xee\x99\xb1", 	// U+e671
 		"Carrot":	"\xee\x89\x9a", 	// U+e25a
-		"CaseLower":	"\xee\x8f\x9c", 	// U+e3dc
-		"CaseSensitive":	"\xee\x8f\x9d", 	// U+e3dd
-		"CaseUpper":	"\xee\x8f\x9e", 	// U+e3de
-		"CassetteTape":	"\xee\x93\x8f", 	// U+e4cf
-		"Cast":	"\xee\x81\xaa", 	// U+e06a
-		"Castle":	"\xee\x8f\xa4", 	// U+e3e4
-		"Cat":	"\xee\x8e\x90", 	// U+e390
-		"Cctv":	"\xee\x96\x82", 	// U+e582
-		"ChartArea":	"\xee\x93\x98", 	// U+e4d8
-		"ChartBarBig":	"\xee\x92\xac", 	// U+e4ac
-		"ChartBarDecreasing":	"\xee\x98\x8c", 	// U+e60c
-		"ChartBarIncreasing":	"\xee\x98\x8d", 	// U+e60d
-		"ChartBarStacked":	"\xee\x98\x8e", 	// U+e60e
+		"CaseLower":	"\xee\x8f\x98", 	// U+e3d8
+		"CaseSensitive":	"\xee\x8f\x99", 	// U+e3d9
+		"CaseUpper":	"\xee\x8f\x9a", 	// U+e3da
+		"CassetteTape":	"\xee\x93\x8a", 	// U+e4ca
+		"Cast":	"\xee\x81\xa6", 	// U+e066
+		"Castle":	"\xee\x8f\xa0", 	// U+e3e0
+		"Cat":	"\xee\x8e\x8c", 	// U+e38c
+		"Cctv":	"\xee\x95\xbd", 	// U+e57d
+		"ChartArea":	"\xee\x93\x93", 	// U+e4d3
+		"ChartBarBig":	"\xee\x92\xa7", 	// U+e4a7
+		"ChartBarDecreasing":	"\xee\x98\x87", 	// U+e607
+		"ChartBarIncreasing":	"\xee\x98\x88", 	// U+e608
+		"ChartBarStacked":	"\xee\x98\x89", 	// U+e609
 		"ChartBar":	"\xee\x8a\xa2", 	// U+e2a2
-		"ChartCandlestick":	"\xee\x92\xad", 	// U+e4ad
-		"ChartColumnBig":	"\xee\x92\xae", 	// U+e4ae
-		"ChartColumnDecreasing":	"\xee\x81\xab", 	// U+e06b
+		"ChartCandlestick":	"\xee\x92\xa8", 	// U+e4a8
+		"ChartColumnBig":	"\xee\x92\xa9", 	// U+e4a9
+		"ChartColumnDecreasing":	"\xee\x81\xa7", 	// U+e067
 		"ChartColumnIncreasing":	"\xee\x8a\xa4", 	// U+e2a4
-		"ChartColumnStacked":	"\xee\x98\x8f", 	// U+e60f
+		"ChartColumnStacked":	"\xee\x98\x8a", 	// U+e60a
 		"ChartColumn":	"\xee\x8a\xa3", 	// U+e2a3
-		"ChartGantt":	"\xee\x98\xa9", 	// U+e629
+		"ChartGantt":	"\xee\x98\xa4", 	// U+e624
 		"ChartLine":	"\xee\x8a\xa5", 	// U+e2a5
-		"ChartNetwork":	"\xee\x98\x90", 	// U+e610
-		"ChartNoAxesColumnDecreasing":	"\xee\x81\xad", 	// U+e06d
-		"ChartNoAxesColumnIncreasing":	"\xee\x81\xae", 	// U+e06e
-		"ChartNoAxesColumn":	"\xee\x81\xac", 	// U+e06c
-		"ChartNoAxesCombined":	"\xee\x98\x91", 	// U+e611
-		"ChartNoAxesGantt":	"\xee\x93\x89", 	// U+e4c9
-		"ChartPie":	"\xee\x81\xaf", 	// U+e06f
-		"ChartScatter":	"\xee\x92\x8f", 	// U+e48f
-		"ChartSpline":	"\xee\x98\x92", 	// U+e612
-		"CheckCheck":	"\xee\x8e\x92", 	// U+e392
-		"CheckLine":	"\xee\x99\xb0", 	// U+e670
-		"Check":	"\xee\x81\xb0", 	// U+e070
+		"ChartNetwork":	"\xee\x98\x8b", 	// U+e60b
+		"ChartNoAxesColumnDecreasing":	"\xee\x81\xa9", 	// U+e069
+		"ChartNoAxesColumnIncreasing":	"\xee\x81\xaa", 	// U+e06a
+		"ChartNoAxesColumn":	"\xee\x81\xa8", 	// U+e068
+		"ChartNoAxesCombined":	"\xee\x98\x8c", 	// U+e60c
+		"ChartNoAxesGantt":	"\xee\x93\x84", 	// U+e4c4
+		"ChartPie":	"\xee\x81\xab", 	// U+e06b
+		"ChartScatter":	"\xee\x92\x8a", 	// U+e48a
+		"ChartSpline":	"\xee\x98\x8d", 	// U+e60d
+		"CheckCheck":	"\xee\x8e\x8e", 	// U+e38e
+		"CheckLine":	"\xee\x99\xab", 	// U+e66b
+		"Check":	"\xee\x81\xac", 	// U+e06c
 		"ChefHat":	"\xee\x8a\xac", 	// U+e2ac
-		"Cherry":	"\xee\x8d\x94", 	// U+e354
-		"ChevronDown":	"\xee\x81\xb1", 	// U+e071
+		"Cherry":	"\xee\x8d\x90", 	// U+e350
+		"ChessBishop":	"\xee\x9a\xa0", 	// U+e6a0
+		"ChessKing":	"\xee\x9a\xa1", 	// U+e6a1
+		"ChessKnight":	"\xee\x9a\xa2", 	// U+e6a2
+		"ChessPawn":	"\xee\x9a\xa3", 	// U+e6a3
+		"ChessQueen":	"\xee\x9a\xa4", 	// U+e6a4
+		"ChessRook":	"\xee\x9a\xa5", 	// U+e6a5
+		"ChevronDown":	"\xee\x81\xad", 	// U+e06d
 		"ChevronFirst":	"\xee\x89\x83", 	// U+e243
 		"ChevronLast":	"\xee\x89\x84", 	// U+e244
-		"ChevronLeft":	"\xee\x81\xb2", 	// U+e072
-		"ChevronRight":	"\xee\x81\xb3", 	// U+e073
-		"ChevronUp":	"\xee\x81\xb4", 	// U+e074
+		"ChevronLeft":	"\xee\x81\xae", 	// U+e06e
+		"ChevronRight":	"\xee\x81\xaf", 	// U+e06f
+		"ChevronUp":	"\xee\x81\xb0", 	// U+e070
 		"ChevronsDownUp":	"\xee\x88\xa8", 	// U+e228
-		"ChevronsDown":	"\xee\x81\xb5", 	// U+e075
-		"ChevronsLeftRightEllipsis":	"\xee\x98\xa4", 	// U+e624
+		"ChevronsDown":	"\xee\x81\xb1", 	// U+e071
+		"ChevronsLeftRightEllipsis":	"\xee\x98\x9f", 	// U+e61f
 		"ChevronsLeftRight":	"\xee\x8a\x93", 	// U+e293
-		"ChevronsLeft":	"\xee\x81\xb6", 	// U+e076
+		"ChevronsLeft":	"\xee\x81\xb2", 	// U+e072
 		"ChevronsRightLeft":	"\xee\x8a\x94", 	// U+e294
-		"ChevronsRight":	"\xee\x81\xb7", 	// U+e077
+		"ChevronsRight":	"\xee\x81\xb3", 	// U+e073
 		"ChevronsUpDown":	"\xee\x88\x91", 	// U+e211
-		"ChevronsUp":	"\xee\x81\xb8", 	// U+e078
-		"Chrome":	"\xee\x81\xb9", 	// U+e079
-		"Church":	"\xee\x8f\xa5", 	// U+e3e5
+		"ChevronsUp":	"\xee\x81\xb4", 	// U+e074
+		"Chromium":	"\xee\x81\xb5", 	// U+e075
+		"Church":	"\xee\x8f\xa1", 	// U+e3e1
 		"CigaretteOff":	"\xee\x8b\x87", 	// U+e2c7
 		"Cigarette":	"\xee\x8b\x86", 	// U+e2c6
-		"CircleAlert":	"\xee\x81\xbb", 	// U+e07b
-		"CircleArrowDown":	"\xee\x81\xbc", 	// U+e07c
-		"CircleArrowLeft":	"\xee\x81\xbd", 	// U+e07d
-		"CircleArrowOutDownLeft":	"\xee\x8f\xbc", 	// U+e3fc
-		"CircleArrowOutDownRight":	"\xee\x8f\xbd", 	// U+e3fd
-		"CircleArrowOutUpLeft":	"\xee\x8f\xbe", 	// U+e3fe
-		"CircleArrowOutUpRight":	"\xee\x8f\xbf", 	// U+e3ff
-		"CircleArrowRight":	"\xee\x81\xbe", 	// U+e07e
-		"CircleArrowUp":	"\xee\x81\xbf", 	// U+e07f
-		"CircleCheckBig":	"\xee\x82\x80", 	// U+e080
+		"CircleAlert":	"\xee\x81\xb7", 	// U+e077
+		"CircleArrowDown":	"\xee\x81\xb8", 	// U+e078
+		"CircleArrowLeft":	"\xee\x81\xb9", 	// U+e079
+		"CircleArrowOutDownLeft":	"\xee\x8f\xb7", 	// U+e3f7
+		"CircleArrowOutDownRight":	"\xee\x8f\xb8", 	// U+e3f8
+		"CircleArrowOutUpLeft":	"\xee\x8f\xb9", 	// U+e3f9
+		"CircleArrowOutUpRight":	"\xee\x8f\xba", 	// U+e3fa
+		"CircleArrowRight":	"\xee\x81\xba", 	// U+e07a
+		"CircleArrowUp":	"\xee\x81\xbb", 	// U+e07b
+		"CircleCheckBig":	"\xee\x81\xbc", 	// U+e07c
 		"CircleCheck":	"\xee\x88\xa6", 	// U+e226
-		"CircleChevronDown":	"\xee\x93\xa2", 	// U+e4e2
-		"CircleChevronLeft":	"\xee\x93\xa3", 	// U+e4e3
-		"CircleChevronRight":	"\xee\x93\xa4", 	// U+e4e4
-		"CircleChevronUp":	"\xee\x93\xa5", 	// U+e4e5
-		"CircleDashed":	"\xee\x92\xb5", 	// U+e4b5
-		"CircleDivide":	"\xee\x82\x81", 	// U+e081
-		"CircleDollarSign":	"\xee\x92\x82", 	// U+e482
-		"CircleDotDashed":	"\xee\x92\xb6", 	// U+e4b6
-		"CircleDot":	"\xee\x8d\x89", 	// U+e349
-		"CircleEllipsis":	"\xee\x8d\x8a", 	// U+e34a
-		"CircleEqual":	"\xee\x90\x85", 	// U+e405
-		"CircleFadingArrowUp":	"\xee\x98\x9d", 	// U+e61d
-		"CircleFadingPlus":	"\xee\x97\x81", 	// U+e5c1
-		"CircleGauge":	"\xee\x93\xa6", 	// U+e4e6
-		"CircleMinus":	"\xee\x82\x82", 	// U+e082
-		"CircleOff":	"\xee\x90\x86", 	// U+e406
-		"CircleParkingOff":	"\xee\x8f\x8e", 	// U+e3ce
-		"CircleParking":	"\xee\x8f\x8d", 	// U+e3cd
-		"CirclePause":	"\xee\x82\x83", 	// U+e083
-		"CirclePercent":	"\xee\x94\x9f", 	// U+e51f
-		"CirclePlay":	"\xee\x82\x84", 	// U+e084
-		"CirclePlus":	"\xee\x82\x85", 	// U+e085
-		"CirclePoundSterling":	"\xee\x99\xb2", 	// U+e672
-		"CirclePower":	"\xee\x95\x95", 	// U+e555
-		"CircleQuestionMark":	"\xee\x82\x86", 	// U+e086
+		"CircleChevronDown":	"\xee\x93\x9d", 	// U+e4dd
+		"CircleChevronLeft":	"\xee\x93\x9e", 	// U+e4de
+		"CircleChevronRight":	"\xee\x93\x9f", 	// U+e4df
+		"CircleChevronUp":	"\xee\x93\xa0", 	// U+e4e0
+		"CircleDashed":	"\xee\x92\xb0", 	// U+e4b0
+		"CircleDivide":	"\xee\x81\xbd", 	// U+e07d
+		"CircleDollarSign":	"\xee\x91\xbd", 	// U+e47d
+		"CircleDotDashed":	"\xee\x92\xb1", 	// U+e4b1
+		"CircleDot":	"\xee\x8d\x85", 	// U+e345
+		"CircleEllipsis":	"\xee\x8d\x86", 	// U+e346
+		"CircleEqual":	"\xee\x90\x80", 	// U+e400
+		"CircleFadingArrowUp":	"\xee\x98\x98", 	// U+e618
+		"CircleFadingPlus":	"\xee\x96\xbc", 	// U+e5bc
+		"CircleGauge":	"\xee\x93\xa1", 	// U+e4e1
+		"CircleMinus":	"\xee\x81\xbe", 	// U+e07e
+		"CircleOff":	"\xee\x90\x81", 	// U+e401
+		"CircleParkingOff":	"\xee\x8f\x8a", 	// U+e3ca
+		"CircleParking":	"\xee\x8f\x89", 	// U+e3c9
+		"CirclePause":	"\xee\x81\xbf", 	// U+e07f
+		"CirclePercent":	"\xee\x94\x9a", 	// U+e51a
+		"CirclePlay":	"\xee\x82\x80", 	// U+e080
+		"CirclePlus":	"\xee\x82\x81", 	// U+e081
+		"CirclePoundSterling":	"\xee\x99\xad", 	// U+e66d
+		"CirclePower":	"\xee\x95\x90", 	// U+e550
+		"CircleQuestionMark":	"\xee\x82\x82", 	// U+e082
 		"CircleSlash2":	"\xee\x88\x93", 	// U+e213
-		"CircleSlash":	"\xee\x90\x87", 	// U+e407
-		"CircleSmall":	"\xee\x99\x85", 	// U+e645
-		"CircleStar":	"\xee\x9a\x92", 	// U+e692
-		"CircleStop":	"\xee\x82\x87", 	// U+e087
-		"CircleUserRound":	"\xee\x91\xa7", 	// U+e467
-		"CircleUser":	"\xee\x91\xa6", 	// U+e466
-		"CircleX":	"\xee\x82\x88", 	// U+e088
-		"Circle":	"\xee\x81\xba", 	// U+e07a
-		"CircuitBoard":	"\xee\x90\x88", 	// U+e408
-		"Citrus":	"\xee\x8d\xb9", 	// U+e379
+		"CircleSlash":	"\xee\x90\x82", 	// U+e402
+		"CircleSmall":	"\xee\x99\x80", 	// U+e640
+		"CircleStar":	"\xee\x9a\x8d", 	// U+e68d
+		"CircleStop":	"\xee\x82\x83", 	// U+e083
+		"CircleUserRound":	"\xee\x91\xa2", 	// U+e462
+		"CircleUser":	"\xee\x91\xa1", 	// U+e461
+		"CircleX":	"\xee\x82\x84", 	// U+e084
+		"Circle":	"\xee\x81\xb6", 	// U+e076
+		"CircuitBoard":	"\xee\x90\x83", 	// U+e403
+		"Citrus":	"\xee\x8d\xb5", 	// U+e375
 		"Clapperboard":	"\xee\x8a\x9b", 	// U+e29b
 		"ClipboardCheck":	"\xee\x88\x99", 	// U+e219
-		"ClipboardClock":	"\xee\x9a\x8d", 	// U+e68d
+		"ClipboardClock":	"\xee\x9a\x88", 	// U+e688
 		"ClipboardCopy":	"\xee\x88\xa5", 	// U+e225
-		"ClipboardList":	"\xee\x82\x8a", 	// U+e08a
-		"ClipboardMinus":	"\xee\x97\x83", 	// U+e5c3
-		"ClipboardPaste":	"\xee\x8f\xac", 	// U+e3ec
+		"ClipboardList":	"\xee\x82\x86", 	// U+e086
+		"ClipboardMinus":	"\xee\x96\xbe", 	// U+e5be
+		"ClipboardPaste":	"\xee\x8f\xa8", 	// U+e3e8
 		"ClipboardPenLine":	"\xee\x8c\x88", 	// U+e308
 		"ClipboardPen":	"\xee\x8c\x87", 	// U+e307
-		"ClipboardPlus":	"\xee\x97\x84", 	// U+e5c4
+		"ClipboardPlus":	"\xee\x96\xbf", 	// U+e5bf
 		"ClipboardType":	"\xee\x8c\x89", 	// U+e309
 		"ClipboardX":	"\xee\x88\xa2", 	// U+e222
-		"Clipboard":	"\xee\x82\x89", 	// U+e089
+		"Clipboard":	"\xee\x82\x85", 	// U+e085
 		"Clock1":	"\xee\x89\x8b", 	// U+e24b
 		"Clock10":	"\xee\x89\x8c", 	// U+e24c
 		"Clock11":	"\xee\x89\x8d", 	// U+e24d
@@ -426,99 +430,100 @@ var IconsLucide = Font{
 		"Clock7":	"\xee\x89\x94", 	// U+e254
 		"Clock8":	"\xee\x89\x95", 	// U+e255
 		"Clock9":	"\xee\x89\x96", 	// U+e256
-		"ClockAlert":	"\xee\x98\xaf", 	// U+e62f
-		"ClockArrowDown":	"\xee\x98\x85", 	// U+e605
-		"ClockArrowUp":	"\xee\x98\x86", 	// U+e606
-		"ClockFading":	"\xee\x99\x8f", 	// U+e64f
-		"ClockPlus":	"\xee\x99\xac", 	// U+e66c
-		"Clock":	"\xee\x82\x8b", 	// U+e08b
-		"ClosedCaption":	"\xee\x9a\x8f", 	// U+e68f
-		"CloudAlert":	"\xee\x98\xb8", 	// U+e638
-		"CloudCheck":	"\xee\x99\xb3", 	// U+e673
+		"ClockAlert":	"\xee\x98\xaa", 	// U+e62a
+		"ClockArrowDown":	"\xee\x98\x80", 	// U+e600
+		"ClockArrowUp":	"\xee\x98\x81", 	// U+e601
+		"ClockCheck":	"\xee\x9a\x9e", 	// U+e69e
+		"ClockFading":	"\xee\x99\x8a", 	// U+e64a
+		"ClockPlus":	"\xee\x99\xa7", 	// U+e667
+		"Clock":	"\xee\x82\x87", 	// U+e087
+		"ClosedCaption":	"\xee\x9a\x8a", 	// U+e68a
+		"CloudAlert":	"\xee\x98\xb3", 	// U+e633
+		"CloudCheck":	"\xee\x99\xae", 	// U+e66e
 		"CloudCog":	"\xee\x8c\x8a", 	// U+e30a
-		"CloudDownload":	"\xee\x82\x8d", 	// U+e08d
-		"CloudDrizzle":	"\xee\x82\x8e", 	// U+e08e
+		"CloudDownload":	"\xee\x82\x89", 	// U+e089
+		"CloudDrizzle":	"\xee\x82\x8a", 	// U+e08a
 		"CloudFog":	"\xee\x88\x94", 	// U+e214
-		"CloudHail":	"\xee\x82\x8f", 	// U+e08f
-		"CloudLightning":	"\xee\x82\x90", 	// U+e090
+		"CloudHail":	"\xee\x82\x8b", 	// U+e08b
+		"CloudLightning":	"\xee\x82\x8c", 	// U+e08c
 		"CloudMoonRain":	"\xee\x8b\xba", 	// U+e2fa
 		"CloudMoon":	"\xee\x88\x95", 	// U+e215
-		"CloudOff":	"\xee\x82\x91", 	// U+e091
-		"CloudRainWind":	"\xee\x82\x93", 	// U+e093
-		"CloudRain":	"\xee\x82\x92", 	// U+e092
-		"CloudSnow":	"\xee\x82\x94", 	// U+e094
+		"CloudOff":	"\xee\x82\x8d", 	// U+e08d
+		"CloudRainWind":	"\xee\x82\x8f", 	// U+e08f
+		"CloudRain":	"\xee\x82\x8e", 	// U+e08e
+		"CloudSnow":	"\xee\x82\x90", 	// U+e090
 		"CloudSunRain":	"\xee\x8b\xbb", 	// U+e2fb
 		"CloudSun":	"\xee\x88\x96", 	// U+e216
-		"CloudUpload":	"\xee\x82\x95", 	// U+e095
-		"Cloud":	"\xee\x82\x8c", 	// U+e08c
+		"CloudUpload":	"\xee\x82\x91", 	// U+e091
+		"Cloud":	"\xee\x82\x88", 	// U+e088
 		"Cloudy":	"\xee\x88\x97", 	// U+e217
-		"Clover":	"\xee\x82\x96", 	// U+e096
-		"Club":	"\xee\x92\x9b", 	// U+e49b
+		"Clover":	"\xee\x82\x92", 	// U+e092
+		"Club":	"\xee\x92\x96", 	// U+e496
 		"CodeXml":	"\xee\x88\x86", 	// U+e206
-		"Code":	"\xee\x82\x97", 	// U+e097
-		"Codepen":	"\xee\x82\x98", 	// U+e098
-		"Codesandbox":	"\xee\x82\x99", 	// U+e099
-		"Coffee":	"\xee\x82\x9a", 	// U+e09a
+		"Code":	"\xee\x82\x93", 	// U+e093
+		"Codepen":	"\xee\x82\x94", 	// U+e094
+		"Codesandbox":	"\xee\x82\x95", 	// U+e095
+		"Coffee":	"\xee\x82\x96", 	// U+e096
 		"Cog":	"\xee\x8c\x8b", 	// U+e30b
-		"Coins":	"\xee\x82\x9b", 	// U+e09b
-		"Columns2":	"\xee\x82\x9c", 	// U+e09c
-		"Columns3Cog":	"\xee\x99\xa6", 	// U+e666
-		"Columns3":	"\xee\x82\x9d", 	// U+e09d
-		"Columns4":	"\xee\x96\x8e", 	// U+e58e
-		"Combine":	"\xee\x91\x91", 	// U+e451
-		"Command":	"\xee\x82\x9e", 	// U+e09e
-		"Compass":	"\xee\x82\x9f", 	// U+e09f
+		"Coins":	"\xee\x82\x97", 	// U+e097
+		"Columns2":	"\xee\x82\x98", 	// U+e098
+		"Columns3Cog":	"\xee\x99\xa1", 	// U+e661
+		"Columns3":	"\xee\x82\x99", 	// U+e099
+		"Columns4":	"\xee\x96\x89", 	// U+e589
+		"Combine":	"\xee\x91\x8c", 	// U+e44c
+		"Command":	"\xee\x82\x9a", 	// U+e09a
+		"Compass":	"\xee\x82\x9b", 	// U+e09b
 		"Component":	"\xee\x8a\xad", 	// U+e2ad
-		"Computer":	"\xee\x93\xa9", 	// U+e4e9
-		"ConciergeBell":	"\xee\x8d\xbc", 	// U+e37c
-		"Cone":	"\xee\x94\xa8", 	// U+e528
-		"Construction":	"\xee\x8e\xb8", 	// U+e3b8
-		"ContactRound":	"\xee\x91\xa8", 	// U+e468
-		"Contact":	"\xee\x82\xa0", 	// U+e0a0
-		"Container":	"\xee\x93\x9a", 	// U+e4da
-		"Contrast":	"\xee\x82\xa1", 	// U+e0a1
+		"Computer":	"\xee\x93\xa4", 	// U+e4e4
+		"ConciergeBell":	"\xee\x8d\xb8", 	// U+e378
+		"Cone":	"\xee\x94\xa3", 	// U+e523
+		"Construction":	"\xee\x8e\xb4", 	// U+e3b4
+		"ContactRound":	"\xee\x91\xa3", 	// U+e463
+		"Contact":	"\xee\x82\x9c", 	// U+e09c
+		"Container":	"\xee\x93\x95", 	// U+e4d5
+		"Contrast":	"\xee\x82\x9d", 	// U+e09d
 		"Cookie":	"\xee\x89\xab", 	// U+e26b
-		"CookingPot":	"\xee\x96\x89", 	// U+e589
-		"CopyCheck":	"\xee\x90\x80", 	// U+e400
-		"CopyMinus":	"\xee\x90\x81", 	// U+e401
-		"CopyPlus":	"\xee\x90\x82", 	// U+e402
-		"CopySlash":	"\xee\x90\x83", 	// U+e403
-		"CopyX":	"\xee\x90\x84", 	// U+e404
-		"Copy":	"\xee\x82\xa2", 	// U+e0a2
-		"Copyleft":	"\xee\x82\xa3", 	// U+e0a3
-		"Copyright":	"\xee\x82\xa4", 	// U+e0a4
-		"CornerDownLeft":	"\xee\x82\xa5", 	// U+e0a5
-		"CornerDownRight":	"\xee\x82\xa6", 	// U+e0a6
-		"CornerLeftDown":	"\xee\x82\xa7", 	// U+e0a7
-		"CornerLeftUp":	"\xee\x82\xa8", 	// U+e0a8
-		"CornerRightDown":	"\xee\x82\xa9", 	// U+e0a9
-		"CornerRightUp":	"\xee\x82\xaa", 	// U+e0aa
-		"CornerUpLeft":	"\xee\x82\xab", 	// U+e0ab
-		"CornerUpRight":	"\xee\x82\xac", 	// U+e0ac
-		"Cpu":	"\xee\x82\xad", 	// U+e0ad
-		"CreativeCommons":	"\xee\x8e\xb6", 	// U+e3b6
-		"CreditCard":	"\xee\x82\xae", 	// U+e0ae
+		"CookingPot":	"\xee\x96\x84", 	// U+e584
+		"CopyCheck":	"\xee\x8f\xbb", 	// U+e3fb
+		"CopyMinus":	"\xee\x8f\xbc", 	// U+e3fc
+		"CopyPlus":	"\xee\x8f\xbd", 	// U+e3fd
+		"CopySlash":	"\xee\x8f\xbe", 	// U+e3fe
+		"CopyX":	"\xee\x8f\xbf", 	// U+e3ff
+		"Copy":	"\xee\x82\x9e", 	// U+e09e
+		"Copyleft":	"\xee\x82\x9f", 	// U+e09f
+		"Copyright":	"\xee\x82\xa0", 	// U+e0a0
+		"CornerDownLeft":	"\xee\x82\xa1", 	// U+e0a1
+		"CornerDownRight":	"\xee\x82\xa2", 	// U+e0a2
+		"CornerLeftDown":	"\xee\x82\xa3", 	// U+e0a3
+		"CornerLeftUp":	"\xee\x82\xa4", 	// U+e0a4
+		"CornerRightDown":	"\xee\x82\xa5", 	// U+e0a5
+		"CornerRightUp":	"\xee\x82\xa6", 	// U+e0a6
+		"CornerUpLeft":	"\xee\x82\xa7", 	// U+e0a7
+		"CornerUpRight":	"\xee\x82\xa8", 	// U+e0a8
+		"Cpu":	"\xee\x82\xa9", 	// U+e0a9
+		"CreativeCommons":	"\xee\x8e\xb2", 	// U+e3b2
+		"CreditCard":	"\xee\x82\xaa", 	// U+e0aa
 		"Croissant":	"\xee\x8a\xae", 	// U+e2ae
-		"Crop":	"\xee\x82\xaf", 	// U+e0af
+		"Crop":	"\xee\x82\xab", 	// U+e0ab
 		"Cross":	"\xee\x87\xa5", 	// U+e1e5
-		"Crosshair":	"\xee\x82\xb0", 	// U+e0b0
+		"Crosshair":	"\xee\x82\xac", 	// U+e0ac
 		"Crown":	"\xee\x87\x96", 	// U+e1d6
-		"Cuboid":	"\xee\x94\xa9", 	// U+e529
+		"Cuboid":	"\xee\x94\xa4", 	// U+e524
 		"CupSoda":	"\xee\x8b\x91", 	// U+e2d1
 		"Currency":	"\xee\x88\xb0", 	// U+e230
-		"Cylinder":	"\xee\x94\xaa", 	// U+e52a
-		"Dam":	"\xee\x98\x8b", 	// U+e60b
-		"DatabaseBackup":	"\xee\x8e\xaf", 	// U+e3af
-		"DatabaseZap":	"\xee\x94\x90", 	// U+e510
-		"Database":	"\xee\x82\xb1", 	// U+e0b1
-		"DecimalsArrowLeft":	"\xee\x99\xa1", 	// U+e661
-		"DecimalsArrowRight":	"\xee\x99\xa2", 	// U+e662
-		"Delete":	"\xee\x82\xb2", 	// U+e0b2
-		"Dessert":	"\xee\x93\x80", 	// U+e4c0
-		"Diameter":	"\xee\x94\xab", 	// U+e52b
-		"DiamondMinus":	"\xee\x97\xa6", 	// U+e5e6
-		"DiamondPercent":	"\xee\x94\xa0", 	// U+e520
-		"DiamondPlus":	"\xee\x97\xa7", 	// U+e5e7
+		"Cylinder":	"\xee\x94\xa5", 	// U+e525
+		"Dam":	"\xee\x98\x86", 	// U+e606
+		"DatabaseBackup":	"\xee\x8e\xab", 	// U+e3ab
+		"DatabaseZap":	"\xee\x94\x8b", 	// U+e50b
+		"Database":	"\xee\x82\xad", 	// U+e0ad
+		"DecimalsArrowLeft":	"\xee\x99\x9c", 	// U+e65c
+		"DecimalsArrowRight":	"\xee\x99\x9d", 	// U+e65d
+		"Delete":	"\xee\x82\xae", 	// U+e0ae
+		"Dessert":	"\xee\x92\xbb", 	// U+e4bb
+		"Diameter":	"\xee\x94\xa6", 	// U+e526
+		"DiamondMinus":	"\xee\x97\xa1", 	// U+e5e1
+		"DiamondPercent":	"\xee\x94\x9b", 	// U+e51b
+		"DiamondPlus":	"\xee\x97\xa2", 	// U+e5e2
 		"Diamond":	"\xee\x8b\x92", 	// U+e2d2
 		"Dice1":	"\xee\x8a\x87", 	// U+e287
 		"Dice2":	"\xee\x8a\x88", 	// U+e288
@@ -528,324 +533,323 @@ var IconsLucide = Font{
 		"Dice6":	"\xee\x8a\x8c", 	// U+e28c
 		"Dices":	"\xee\x8b\x85", 	// U+e2c5
 		"Diff":	"\xee\x8c\x8c", 	// U+e30c
-		"Disc2":	"\xee\x8f\xbb", 	// U+e3fb
-		"Disc3":	"\xee\x92\x99", 	// U+e499
-		"DiscAlbum":	"\xee\x95\xa1", 	// U+e561
-		"Disc":	"\xee\x82\xb3", 	// U+e0b3
-		"Divide":	"\xee\x82\xb4", 	// U+e0b4
-		"DnaOff":	"\xee\x8e\x98", 	// U+e398
-		"Dna":	"\xee\x8e\x97", 	// U+e397
-		"Dock":	"\xee\x97\x98", 	// U+e5d8
-		"Dog":	"\xee\x8e\x91", 	// U+e391
-		"DollarSign":	"\xee\x82\xb5", 	// U+e0b5
-		"Donut":	"\xee\x93\x81", 	// U+e4c1
-		"DoorClosedLocked":	"\xee\x99\xa9", 	// U+e669
-		"DoorClosed":	"\xee\x8f\x99", 	// U+e3d9
-		"DoorOpen":	"\xee\x8f\x9a", 	// U+e3da
-		"Dot":	"\xee\x91\x94", 	// U+e454
-		"Download":	"\xee\x82\xb6", 	// U+e0b6
-		"DraftingCompass":	"\xee\x94\xac", 	// U+e52c
-		"Drama":	"\xee\x94\xa6", 	// U+e526
-		"Dribbble":	"\xee\x82\xb7", 	// U+e0b7
-		"Drill":	"\xee\x96\x92", 	// U+e592
-		"Drone":	"\xee\x99\xbb", 	// U+e67b
-		"DropletOff":	"\xee\x98\xbd", 	// U+e63d
-		"Droplet":	"\xee\x82\xb8", 	// U+e0b8
-		"Droplets":	"\xee\x82\xb9", 	// U+e0b9
-		"Drum":	"\xee\x95\xa2", 	// U+e562
+		"Disc2":	"\xee\x8f\xb6", 	// U+e3f6
+		"Disc3":	"\xee\x92\x94", 	// U+e494
+		"DiscAlbum":	"\xee\x95\x9c", 	// U+e55c
+		"Disc":	"\xee\x82\xaf", 	// U+e0af
+		"Divide":	"\xee\x82\xb0", 	// U+e0b0
+		"DnaOff":	"\xee\x8e\x94", 	// U+e394
+		"Dna":	"\xee\x8e\x93", 	// U+e393
+		"Dock":	"\xee\x97\x93", 	// U+e5d3
+		"Dog":	"\xee\x8e\x8d", 	// U+e38d
+		"DollarSign":	"\xee\x82\xb1", 	// U+e0b1
+		"Donut":	"\xee\x92\xbc", 	// U+e4bc
+		"DoorClosedLocked":	"\xee\x99\xa4", 	// U+e664
+		"DoorClosed":	"\xee\x8f\x95", 	// U+e3d5
+		"DoorOpen":	"\xee\x8f\x96", 	// U+e3d6
+		"Dot":	"\xee\x91\x8f", 	// U+e44f
+		"Download":	"\xee\x82\xb2", 	// U+e0b2
+		"DraftingCompass":	"\xee\x94\xa7", 	// U+e527
+		"Drama":	"\xee\x94\xa1", 	// U+e521
+		"Dribbble":	"\xee\x82\xb3", 	// U+e0b3
+		"Drill":	"\xee\x96\x8d", 	// U+e58d
+		"Drone":	"\xee\x99\xb6", 	// U+e676
+		"DropletOff":	"\xee\x98\xb8", 	// U+e638
+		"Droplet":	"\xee\x82\xb4", 	// U+e0b4
+		"Droplets":	"\xee\x82\xb5", 	// U+e0b5
+		"Drum":	"\xee\x95\x9d", 	// U+e55d
 		"Drumstick":	"\xee\x89\x9b", 	// U+e25b
-		"Dumbbell":	"\xee\x8e\xa5", 	// U+e3a5
-		"EarOff":	"\xee\x8e\x87", 	// U+e387
-		"Ear":	"\xee\x8e\x86", 	// U+e386
-		"EarthLock":	"\xee\x97\x91", 	// U+e5d1
+		"Dumbbell":	"\xee\x8e\xa1", 	// U+e3a1
+		"EarOff":	"\xee\x8e\x83", 	// U+e383
+		"Ear":	"\xee\x8e\x82", 	// U+e382
+		"EarthLock":	"\xee\x97\x8c", 	// U+e5cc
 		"Earth":	"\xee\x87\xb3", 	// U+e1f3
-		"Eclipse":	"\xee\x96\xa2", 	// U+e5a2
-		"EggFried":	"\xee\x8d\x95", 	// U+e355
-		"EggOff":	"\xee\x8e\x99", 	// U+e399
+		"Eclipse":	"\xee\x96\x9d", 	// U+e59d
+		"EggFried":	"\xee\x8d\x91", 	// U+e351
+		"EggOff":	"\xee\x8e\x95", 	// U+e395
 		"Egg":	"\xee\x89\x9d", 	// U+e25d
-		"EllipsisVertical":	"\xee\x82\xbb", 	// U+e0bb
-		"Ellipsis":	"\xee\x82\xba", 	// U+e0ba
-		"EqualApproximately":	"\xee\x98\xb9", 	// U+e639
+		"EllipsisVertical":	"\xee\x82\xb7", 	// U+e0b7
+		"Ellipsis":	"\xee\x82\xb6", 	// U+e0b6
+		"EqualApproximately":	"\xee\x98\xb4", 	// U+e634
 		"EqualNot":	"\xee\x86\xbe", 	// U+e1be
 		"Equal":	"\xee\x86\xbd", 	// U+e1bd
 		"Eraser":	"\xee\x8a\x8f", 	// U+e28f
-		"EthernetPort":	"\xee\x98\xa5", 	// U+e625
-		"Euro":	"\xee\x82\xbc", 	// U+e0bc
+		"EthernetPort":	"\xee\x98\xa0", 	// U+e620
+		"Euro":	"\xee\x82\xb8", 	// U+e0b8
+		"EvCharger":	"\xee\x9a\x97", 	// U+e697
 		"Expand":	"\xee\x88\x9a", 	// U+e21a
-		"ExternalLink":	"\xee\x82\xbd", 	// U+e0bd
-		"EyeClosed":	"\xee\x98\xb3", 	// U+e633
-		"EyeOff":	"\xee\x82\xbf", 	// U+e0bf
-		"Eye":	"\xee\x82\xbe", 	// U+e0be
-		"Facebook":	"\xee\x83\x80", 	// U+e0c0
+		"ExternalLink":	"\xee\x82\xb9", 	// U+e0b9
+		"EyeClosed":	"\xee\x98\xae", 	// U+e62e
+		"EyeOff":	"\xee\x82\xbb", 	// U+e0bb
+		"Eye":	"\xee\x82\xba", 	// U+e0ba
+		"Facebook":	"\xee\x82\xbc", 	// U+e0bc
 		"Factory":	"\xee\x8a\x9f", 	// U+e29f
-		"Fan":	"\xee\x8d\xbd", 	// U+e37d
-		"FastForward":	"\xee\x83\x81", 	// U+e0c1
-		"Feather":	"\xee\x83\x82", 	// U+e0c2
-		"Fence":	"\xee\x96\x87", 	// U+e587
-		"FerrisWheel":	"\xee\x92\x84", 	// U+e484
-		"Figma":	"\xee\x83\x83", 	// U+e0c3
+		"Fan":	"\xee\x8d\xb9", 	// U+e379
+		"FastForward":	"\xee\x82\xbd", 	// U+e0bd
+		"Feather":	"\xee\x82\xbe", 	// U+e0be
+		"Fence":	"\xee\x96\x82", 	// U+e582
+		"FerrisWheel":	"\xee\x91\xbf", 	// U+e47f
+		"Figma":	"\xee\x82\xbf", 	// U+e0bf
 		"FileArchive":	"\xee\x8c\x8d", 	// U+e30d
-		"FileAudio2":	"\xee\x8c\x8f", 	// U+e30f
-		"FileAudio":	"\xee\x8c\x8e", 	// U+e30e
-		"FileAxis3d":	"\xee\x8c\x90", 	// U+e310
-		"FileBadge2":	"\xee\x8c\x92", 	// U+e312
-		"FileBadge":	"\xee\x8c\x91", 	// U+e311
-		"FileBox":	"\xee\x8c\x93", 	// U+e313
-		"FileChartColumnIncreasing":	"\xee\x8c\x95", 	// U+e315
-		"FileChartColumn":	"\xee\x8c\x94", 	// U+e314
-		"FileChartLine":	"\xee\x8c\x96", 	// U+e316
-		"FileChartPie":	"\xee\x8c\x97", 	// U+e317
-		"FileCheck2":	"\xee\x83\x86", 	// U+e0c6
-		"FileCheck":	"\xee\x83\x85", 	// U+e0c5
-		"FileClock":	"\xee\x8c\x98", 	// U+e318
-		"FileCode2":	"\xee\x91\xa3", 	// U+e463
-		"FileCode":	"\xee\x83\x87", 	// U+e0c7
-		"FileCog":	"\xee\x8c\x99", 	// U+e319
-		"FileDiff":	"\xee\x8c\x9a", 	// U+e31a
-		"FileDigit":	"\xee\x83\x88", 	// U+e0c8
-		"FileDown":	"\xee\x8c\x9b", 	// U+e31b
-		"FileHeart":	"\xee\x8c\x9c", 	// U+e31c
-		"FileImage":	"\xee\x8c\x9d", 	// U+e31d
-		"FileInput":	"\xee\x83\x89", 	// U+e0c9
-		"FileJson2":	"\xee\x8d\xb0", 	// U+e370
-		"FileJson":	"\xee\x8d\xaf", 	// U+e36f
-		"FileKey2":	"\xee\x8c\x9f", 	// U+e31f
-		"FileKey":	"\xee\x8c\x9e", 	// U+e31e
-		"FileLock2":	"\xee\x8c\xa1", 	// U+e321
-		"FileLock":	"\xee\x8c\xa0", 	// U+e320
-		"FileMinus2":	"\xee\x83\x8b", 	// U+e0cb
-		"FileMinus":	"\xee\x83\x8a", 	// U+e0ca
-		"FileMusic":	"\xee\x95\xa3", 	// U+e563
-		"FileOutput":	"\xee\x83\x8c", 	// U+e0cc
-		"FilePenLine":	"\xee\x8c\xa3", 	// U+e323
-		"FilePen":	"\xee\x8c\xa2", 	// U+e322
-		"FilePlay":	"\xee\x8c\xa4", 	// U+e324
-		"FilePlus2":	"\xee\x83\x8e", 	// U+e0ce
-		"FilePlus":	"\xee\x83\x8d", 	// U+e0cd
-		"FileQuestionMark":	"\xee\x8c\xa5", 	// U+e325
-		"FileScan":	"\xee\x8c\xa6", 	// U+e326
-		"FileSearch2":	"\xee\x8c\xa7", 	// U+e327
-		"FileSearch":	"\xee\x83\x8f", 	// U+e0cf
-		"FileSliders":	"\xee\x96\xa5", 	// U+e5a5
-		"FileSpreadsheet":	"\xee\x8c\xa8", 	// U+e328
-		"FileStack":	"\xee\x92\xa6", 	// U+e4a6
-		"FileSymlink":	"\xee\x8c\xa9", 	// U+e329
-		"FileTerminal":	"\xee\x8c\xaa", 	// U+e32a
-		"FileText":	"\xee\x83\x90", 	// U+e0d0
-		"FileType2":	"\xee\x8d\xb1", 	// U+e371
-		"FileType":	"\xee\x8c\xab", 	// U+e32b
-		"FileUp":	"\xee\x8c\xac", 	// U+e32c
-		"FileUser":	"\xee\x98\xb2", 	// U+e632
-		"FileVideoCamera":	"\xee\x8c\xad", 	// U+e32d
-		"FileVolume2":	"\xee\x8c\xaf", 	// U+e32f
-		"FileVolume":	"\xee\x8c\xae", 	// U+e32e
-		"FileWarning":	"\xee\x8c\xb0", 	// U+e330
-		"FileX2":	"\xee\x83\x92", 	// U+e0d2
-		"FileX":	"\xee\x83\x91", 	// U+e0d1
-		"File":	"\xee\x83\x84", 	// U+e0c4
-		"Files":	"\xee\x83\x93", 	// U+e0d3
-		"Film":	"\xee\x83\x94", 	// U+e0d4
-		"Fingerprint":	"\xee\x8b\x8b", 	// U+e2cb
-		"FireExtinguisher":	"\xee\x96\x83", 	// U+e583
-		"FishOff":	"\xee\x8e\xb4", 	// U+e3b4
-		"FishSymbol":	"\xee\x93\xb9", 	// U+e4f9
-		"Fish":	"\xee\x8e\xaa", 	// U+e3aa
+		"FileAxis3d":	"\xee\x8c\x8e", 	// U+e30e
+		"FileBadge":	"\xee\x8c\x8f", 	// U+e30f
+		"FileBox":	"\xee\x8c\x90", 	// U+e310
+		"FileBracesCorner":	"\xee\x8d\xac", 	// U+e36c
+		"FileBraces":	"\xee\x8d\xab", 	// U+e36b
+		"FileChartColumnIncreasing":	"\xee\x8c\x92", 	// U+e312
+		"FileChartColumn":	"\xee\x8c\x91", 	// U+e311
+		"FileChartLine":	"\xee\x8c\x93", 	// U+e313
+		"FileChartPie":	"\xee\x8c\x94", 	// U+e314
+		"FileCheckCorner":	"\xee\x83\x82", 	// U+e0c2
+		"FileCheck":	"\xee\x83\x81", 	// U+e0c1
+		"FileClock":	"\xee\x8c\x95", 	// U+e315
+		"FileCodeCorner":	"\xee\x91\x9e", 	// U+e45e
+		"FileCode":	"\xee\x83\x83", 	// U+e0c3
+		"FileCog":	"\xee\x8c\x96", 	// U+e316
+		"FileDiff":	"\xee\x8c\x97", 	// U+e317
+		"FileDigit":	"\xee\x83\x84", 	// U+e0c4
+		"FileDown":	"\xee\x8c\x98", 	// U+e318
+		"FileExclamationPoint":	"\xee\x8c\x99", 	// U+e319
+		"FileHeadphone":	"\xee\x8c\x9a", 	// U+e31a
+		"FileHeart":	"\xee\x8c\x9b", 	// U+e31b
+		"FileImage":	"\xee\x8c\x9c", 	// U+e31c
+		"FileInput":	"\xee\x83\x85", 	// U+e0c5
+		"FileKey":	"\xee\x8c\x9d", 	// U+e31d
+		"FileLock":	"\xee\x8c\x9e", 	// U+e31e
+		"FileMinusCorner":	"\xee\x83\x87", 	// U+e0c7
+		"FileMinus":	"\xee\x83\x86", 	// U+e0c6
+		"FileMusic":	"\xee\x95\x9e", 	// U+e55e
+		"FileOutput":	"\xee\x83\x88", 	// U+e0c8
+		"FilePenLine":	"\xee\x8c\xa0", 	// U+e320
+		"FilePen":	"\xee\x8c\x9f", 	// U+e31f
+		"FilePlay":	"\xee\x8c\xa1", 	// U+e321
+		"FilePlusCorner":	"\xee\x83\x8a", 	// U+e0ca
+		"FilePlus":	"\xee\x83\x89", 	// U+e0c9
+		"FileQuestionMark":	"\xee\x8c\xa2", 	// U+e322
+		"FileScan":	"\xee\x8c\xa3", 	// U+e323
+		"FileSearchCorner":	"\xee\x8c\xa4", 	// U+e324
+		"FileSearch":	"\xee\x83\x8b", 	// U+e0cb
+		"FileSignal":	"\xee\x8c\xa5", 	// U+e325
+		"FileSliders":	"\xee\x96\xa0", 	// U+e5a0
+		"FileSpreadsheet":	"\xee\x8c\xa6", 	// U+e326
+		"FileStack":	"\xee\x92\xa1", 	// U+e4a1
+		"FileSymlink":	"\xee\x8c\xa7", 	// U+e327
+		"FileTerminal":	"\xee\x8c\xa8", 	// U+e328
+		"FileText":	"\xee\x83\x8c", 	// U+e0cc
+		"FileTypeCorner":	"\xee\x8d\xad", 	// U+e36d
+		"FileType":	"\xee\x8c\xa9", 	// U+e329
+		"FileUp":	"\xee\x8c\xaa", 	// U+e32a
+		"FileUser":	"\xee\x98\xad", 	// U+e62d
+		"FileVideoCamera":	"\xee\x8c\xab", 	// U+e32b
+		"FileVolume":	"\xee\x8c\xac", 	// U+e32c
+		"FileXCorner":	"\xee\x83\x8e", 	// U+e0ce
+		"FileX":	"\xee\x83\x8d", 	// U+e0cd
+		"File":	"\xee\x83\x80", 	// U+e0c0
+		"Files":	"\xee\x83\x8f", 	// U+e0cf
+		"Film":	"\xee\x83\x90", 	// U+e0d0
+		"FingerprintPattern":	"\xee\x8b\x8b", 	// U+e2cb
+		"FireExtinguisher":	"\xee\x95\xbe", 	// U+e57e
+		"FishOff":	"\xee\x8e\xb0", 	// U+e3b0
+		"FishSymbol":	"\xee\x93\xb4", 	// U+e4f4
+		"Fish":	"\xee\x8e\xa6", 	// U+e3a6
 		"FlagOff":	"\xee\x8a\x92", 	// U+e292
 		"FlagTriangleLeft":	"\xee\x88\xb7", 	// U+e237
 		"FlagTriangleRight":	"\xee\x88\xb8", 	// U+e238
-		"Flag":	"\xee\x83\x95", 	// U+e0d5
-		"FlameKindling":	"\xee\x94\xbf", 	// U+e53f
-		"Flame":	"\xee\x83\x96", 	// U+e0d6
-		"FlashlightOff":	"\xee\x83\x98", 	// U+e0d8
-		"Flashlight":	"\xee\x83\x97", 	// U+e0d7
-		"FlaskConicalOff":	"\xee\x8e\x9a", 	// U+e39a
-		"FlaskConical":	"\xee\x83\x99", 	// U+e0d9
-		"FlaskRound":	"\xee\x83\x9a", 	// U+e0da
-		"FlipHorizontal2":	"\xee\x8d\xa2", 	// U+e362
-		"FlipHorizontal":	"\xee\x8d\xa1", 	// U+e361
-		"FlipVertical2":	"\xee\x8d\xa4", 	// U+e364
-		"FlipVertical":	"\xee\x8d\xa3", 	// U+e363
+		"Flag":	"\xee\x83\x91", 	// U+e0d1
+		"FlameKindling":	"\xee\x94\xba", 	// U+e53a
+		"Flame":	"\xee\x83\x92", 	// U+e0d2
+		"FlashlightOff":	"\xee\x83\x94", 	// U+e0d4
+		"Flashlight":	"\xee\x83\x93", 	// U+e0d3
+		"FlaskConicalOff":	"\xee\x8e\x96", 	// U+e396
+		"FlaskConical":	"\xee\x83\x95", 	// U+e0d5
+		"FlaskRound":	"\xee\x83\x96", 	// U+e0d6
+		"FlipHorizontal2":	"\xee\x8d\x9e", 	// U+e35e
+		"FlipHorizontal":	"\xee\x8d\x9d", 	// U+e35d
+		"FlipVertical2":	"\xee\x8d\xa0", 	// U+e360
+		"FlipVertical":	"\xee\x8d\x9f", 	// U+e35f
 		"Flower2":	"\xee\x8b\x94", 	// U+e2d4
 		"Flower":	"\xee\x8b\x93", 	// U+e2d3
 		"Focus":	"\xee\x8a\x9e", 	// U+e29e
-		"FoldHorizontal":	"\xee\x91\x80", 	// U+e440
-		"FoldVertical":	"\xee\x91\x81", 	// U+e441
-		"FolderArchive":	"\xee\x8c\xb1", 	// U+e331
-		"FolderCheck":	"\xee\x8c\xb2", 	// U+e332
-		"FolderClock":	"\xee\x8c\xb3", 	// U+e333
-		"FolderClosed":	"\xee\x8c\xb4", 	// U+e334
-		"FolderCode":	"\xee\x98\x80", 	// U+e600
-		"FolderCog":	"\xee\x8c\xb5", 	// U+e335
-		"FolderDot":	"\xee\x93\x8a", 	// U+e4ca
-		"FolderDown":	"\xee\x8c\xb6", 	// U+e336
-		"FolderGit2":	"\xee\x90\x8f", 	// U+e40f
-		"FolderGit":	"\xee\x90\x8e", 	// U+e40e
-		"FolderHeart":	"\xee\x8c\xb7", 	// U+e337
-		"FolderInput":	"\xee\x8c\xb8", 	// U+e338
-		"FolderKanban":	"\xee\x93\x8b", 	// U+e4cb
-		"FolderKey":	"\xee\x8c\xb9", 	// U+e339
-		"FolderLock":	"\xee\x8c\xba", 	// U+e33a
-		"FolderMinus":	"\xee\x83\x9c", 	// U+e0dc
-		"FolderOpenDot":	"\xee\x93\x8c", 	// U+e4cc
+		"FoldHorizontal":	"\xee\x90\xbb", 	// U+e43b
+		"FoldVertical":	"\xee\x90\xbc", 	// U+e43c
+		"FolderArchive":	"\xee\x8c\xad", 	// U+e32d
+		"FolderCheck":	"\xee\x8c\xae", 	// U+e32e
+		"FolderClock":	"\xee\x8c\xaf", 	// U+e32f
+		"FolderClosed":	"\xee\x8c\xb0", 	// U+e330
+		"FolderCode":	"\xee\x97\xbb", 	// U+e5fb
+		"FolderCog":	"\xee\x8c\xb1", 	// U+e331
+		"FolderDot":	"\xee\x93\x85", 	// U+e4c5
+		"FolderDown":	"\xee\x8c\xb2", 	// U+e332
+		"FolderGit2":	"\xee\x90\x8a", 	// U+e40a
+		"FolderGit":	"\xee\x90\x89", 	// U+e409
+		"FolderHeart":	"\xee\x8c\xb3", 	// U+e333
+		"FolderInput":	"\xee\x8c\xb4", 	// U+e334
+		"FolderKanban":	"\xee\x93\x86", 	// U+e4c6
+		"FolderKey":	"\xee\x8c\xb5", 	// U+e335
+		"FolderLock":	"\xee\x8c\xb6", 	// U+e336
+		"FolderMinus":	"\xee\x83\x98", 	// U+e0d8
+		"FolderOpenDot":	"\xee\x93\x87", 	// U+e4c7
 		"FolderOpen":	"\xee\x89\x87", 	// U+e247
-		"FolderOutput":	"\xee\x8c\xbb", 	// U+e33b
-		"FolderPen":	"\xee\x8c\xbc", 	// U+e33c
-		"FolderPlus":	"\xee\x83\x9d", 	// U+e0dd
-		"FolderRoot":	"\xee\x93\x8d", 	// U+e4cd
-		"FolderSearch2":	"\xee\x8c\xbe", 	// U+e33e
-		"FolderSearch":	"\xee\x8c\xbd", 	// U+e33d
-		"FolderSymlink":	"\xee\x8c\xbf", 	// U+e33f
-		"FolderSync":	"\xee\x93\x8e", 	// U+e4ce
-		"FolderTree":	"\xee\x8d\x80", 	// U+e340
-		"FolderUp":	"\xee\x8d\x81", 	// U+e341
-		"FolderX":	"\xee\x8d\x82", 	// U+e342
-		"Folder":	"\xee\x83\x9b", 	// U+e0db
-		"Folders":	"\xee\x8d\x83", 	// U+e343
-		"Footprints":	"\xee\x8e\xbd", 	// U+e3bd
-		"Forklift":	"\xee\x8f\x85", 	// U+e3c5
+		"FolderOutput":	"\xee\x8c\xb7", 	// U+e337
+		"FolderPen":	"\xee\x8c\xb8", 	// U+e338
+		"FolderPlus":	"\xee\x83\x99", 	// U+e0d9
+		"FolderRoot":	"\xee\x93\x88", 	// U+e4c8
+		"FolderSearch2":	"\xee\x8c\xba", 	// U+e33a
+		"FolderSearch":	"\xee\x8c\xb9", 	// U+e339
+		"FolderSymlink":	"\xee\x8c\xbb", 	// U+e33b
+		"FolderSync":	"\xee\x93\x89", 	// U+e4c9
+		"FolderTree":	"\xee\x8c\xbc", 	// U+e33c
+		"FolderUp":	"\xee\x8c\xbd", 	// U+e33d
+		"FolderX":	"\xee\x8c\xbe", 	// U+e33e
+		"Folder":	"\xee\x83\x97", 	// U+e0d7
+		"Folders":	"\xee\x8c\xbf", 	// U+e33f
+		"Footprints":	"\xee\x8e\xb9", 	// U+e3b9
+		"Forklift":	"\xee\x8f\x81", 	// U+e3c1
 		"Forward":	"\xee\x88\xa9", 	// U+e229
 		"Frame":	"\xee\x8a\x91", 	// U+e291
-		"Framer":	"\xee\x83\x9e", 	// U+e0de
-		"Frown":	"\xee\x83\x9f", 	// U+e0df
+		"Framer":	"\xee\x83\x9a", 	// U+e0da
+		"Frown":	"\xee\x83\x9b", 	// U+e0db
 		"Fuel":	"\xee\x8a\xaf", 	// U+e2af
-		"Fullscreen":	"\xee\x94\xb9", 	// U+e539
-		"FunnelPlus":	"\xee\x83\xa1", 	// U+e0e1
-		"FunnelX":	"\xee\x8e\xb9", 	// U+e3b9
-		"Funnel":	"\xee\x83\xa0", 	// U+e0e0
-		"GalleryHorizontalEnd":	"\xee\x93\x94", 	// U+e4d4
-		"GalleryHorizontal":	"\xee\x93\x93", 	// U+e4d3
-		"GalleryThumbnails":	"\xee\x93\x95", 	// U+e4d5
-		"GalleryVerticalEnd":	"\xee\x93\x97", 	// U+e4d7
-		"GalleryVertical":	"\xee\x93\x96", 	// U+e4d6
-		"Gamepad2":	"\xee\x83\xa3", 	// U+e0e3
-		"Gamepad":	"\xee\x83\xa2", 	// U+e0e2
+		"Fullscreen":	"\xee\x94\xb4", 	// U+e534
+		"FunnelPlus":	"\xee\x83\x9d", 	// U+e0dd
+		"FunnelX":	"\xee\x8e\xb5", 	// U+e3b5
+		"Funnel":	"\xee\x83\x9c", 	// U+e0dc
+		"GalleryHorizontalEnd":	"\xee\x93\x8f", 	// U+e4cf
+		"GalleryHorizontal":	"\xee\x93\x8e", 	// U+e4ce
+		"GalleryThumbnails":	"\xee\x93\x90", 	// U+e4d0
+		"GalleryVerticalEnd":	"\xee\x93\x92", 	// U+e4d2
+		"GalleryVertical":	"\xee\x93\x91", 	// U+e4d1
+		"Gamepad2":	"\xee\x83\x9f", 	// U+e0df
+		"GamepadDirectional":	"\xee\x9a\x9b", 	// U+e69b
+		"Gamepad":	"\xee\x83\x9e", 	// U+e0de
 		"Gauge":	"\xee\x86\xbf", 	// U+e1bf
-		"Gavel":	"\xee\x83\xa4", 	// U+e0e4
+		"Gavel":	"\xee\x83\xa0", 	// U+e0e0
 		"Gem":	"\xee\x89\x82", 	// U+e242
-		"GeorgianLari":	"\xee\x99\xbd", 	// U+e67d
+		"GeorgianLari":	"\xee\x99\xb8", 	// U+e678
 		"Ghost":	"\xee\x88\x8e", 	// U+e20e
-		"Gift":	"\xee\x83\xa5", 	// U+e0e5
+		"Gift":	"\xee\x83\xa1", 	// U+e0e1
+		"GitBranchMinus":	"\xee\x9a\x9c", 	// U+e69c
 		"GitBranchPlus":	"\xee\x87\xb4", 	// U+e1f4
-		"GitBranch":	"\xee\x83\xa6", 	// U+e0e6
-		"GitCommitHorizontal":	"\xee\x83\xa7", 	// U+e0e7
-		"GitCommitVertical":	"\xee\x95\x97", 	// U+e557
-		"GitCompareArrows":	"\xee\x95\x98", 	// U+e558
-		"GitCompare":	"\xee\x8d\x9d", 	// U+e35d
+		"GitBranch":	"\xee\x83\xa2", 	// U+e0e2
+		"GitCommitHorizontal":	"\xee\x83\xa3", 	// U+e0e3
+		"GitCommitVertical":	"\xee\x95\x92", 	// U+e552
+		"GitCompareArrows":	"\xee\x95\x93", 	// U+e553
+		"GitCompare":	"\xee\x8d\x99", 	// U+e359
 		"GitFork":	"\xee\x8a\x8d", 	// U+e28d
-		"GitGraph":	"\xee\x95\x99", 	// U+e559
-		"GitMerge":	"\xee\x83\xa8", 	// U+e0e8
-		"GitPullRequestArrow":	"\xee\x95\x9a", 	// U+e55a
-		"GitPullRequestClosed":	"\xee\x8d\x9e", 	// U+e35e
-		"GitPullRequestCreateArrow":	"\xee\x95\x9c", 	// U+e55c
-		"GitPullRequestCreate":	"\xee\x95\x9b", 	// U+e55b
-		"GitPullRequestDraft":	"\xee\x8d\x9f", 	// U+e35f
-		"GitPullRequest":	"\xee\x83\xa9", 	// U+e0e9
-		"Github":	"\xee\x83\xaa", 	// U+e0ea
-		"Gitlab":	"\xee\x83\xab", 	// U+e0eb
+		"GitGraph":	"\xee\x95\x94", 	// U+e554
+		"GitMerge":	"\xee\x83\xa4", 	// U+e0e4
+		"GitPullRequestArrow":	"\xee\x95\x95", 	// U+e555
+		"GitPullRequestClosed":	"\xee\x8d\x9a", 	// U+e35a
+		"GitPullRequestCreateArrow":	"\xee\x95\x97", 	// U+e557
+		"GitPullRequestCreate":	"\xee\x95\x96", 	// U+e556
+		"GitPullRequestDraft":	"\xee\x8d\x9b", 	// U+e35b
+		"GitPullRequest":	"\xee\x83\xa5", 	// U+e0e5
+		"Github":	"\xee\x83\xa6", 	// U+e0e6
+		"Gitlab":	"\xee\x83\xa7", 	// U+e0e7
 		"GlassWater":	"\xee\x8b\x95", 	// U+e2d5
 		"Glasses":	"\xee\x88\x8d", 	// U+e20d
-		"GlobeLock":	"\xee\x97\x92", 	// U+e5d2
-		"Globe":	"\xee\x83\xac", 	// U+e0ec
-		"Goal":	"\xee\x92\xaa", 	// U+e4aa
-		"Gpu":	"\xee\x99\xaf", 	// U+e66f
+		"GlobeLock":	"\xee\x97\x8d", 	// U+e5cd
+		"Globe":	"\xee\x83\xa8", 	// U+e0e8
+		"Goal":	"\xee\x92\xa5", 	// U+e4a5
+		"Gpu":	"\xee\x99\xaa", 	// U+e66a
 		"GraduationCap":	"\xee\x88\xb4", 	// U+e234
-		"Grape":	"\xee\x8d\x96", 	// U+e356
-		"Grid2x2Check":	"\xee\x97\xa9", 	// U+e5e9
-		"Grid2x2Plus":	"\xee\x98\xad", 	// U+e62d
-		"Grid2x2X":	"\xee\x97\xaa", 	// U+e5ea
-		"Grid2x2":	"\xee\x94\x84", 	// U+e504
-		"Grid3x2":	"\xee\x99\xb4", 	// U+e674
-		"Grid3x3":	"\xee\x83\xad", 	// U+e0ed
-		"GripHorizontal":	"\xee\x83\xae", 	// U+e0ee
-		"GripVertical":	"\xee\x83\xaf", 	// U+e0ef
-		"Grip":	"\xee\x8e\xb5", 	// U+e3b5
-		"Group":	"\xee\x91\xa9", 	// U+e469
-		"Guitar":	"\xee\x95\xa4", 	// U+e564
-		"Ham":	"\xee\x97\x9c", 	// U+e5dc
-		"Hamburger":	"\xee\x99\xaa", 	// U+e66a
-		"Hammer":	"\xee\x83\xb0", 	// U+e0f0
-		"HandCoins":	"\xee\x96\xbd", 	// U+e5bd
-		"HandFist":	"\xee\x9a\x90", 	// U+e690
+		"Grape":	"\xee\x8d\x92", 	// U+e352
+		"Grid2x2Check":	"\xee\x97\xa4", 	// U+e5e4
+		"Grid2x2Plus":	"\xee\x98\xa8", 	// U+e628
+		"Grid2x2X":	"\xee\x97\xa5", 	// U+e5e5
+		"Grid2x2":	"\xee\x93\xbf", 	// U+e4ff
+		"Grid3x2":	"\xee\x99\xaf", 	// U+e66f
+		"Grid3x3":	"\xee\x83\xa9", 	// U+e0e9
+		"GripHorizontal":	"\xee\x83\xaa", 	// U+e0ea
+		"GripVertical":	"\xee\x83\xab", 	// U+e0eb
+		"Grip":	"\xee\x8e\xb1", 	// U+e3b1
+		"Group":	"\xee\x91\xa4", 	// U+e464
+		"Guitar":	"\xee\x95\x9f", 	// U+e55f
+		"Ham":	"\xee\x97\x97", 	// U+e5d7
+		"Hamburger":	"\xee\x99\xa5", 	// U+e665
+		"Hammer":	"\xee\x83\xac", 	// U+e0ec
+		"HandCoins":	"\xee\x96\xb8", 	// U+e5b8
+		"HandFist":	"\xee\x9a\x8b", 	// U+e68b
 		"HandGrab":	"\xee\x87\xa6", 	// U+e1e6
-		"HandHeart":	"\xee\x96\xbe", 	// U+e5be
-		"HandHelping":	"\xee\x8e\xbc", 	// U+e3bc
+		"HandHeart":	"\xee\x96\xb9", 	// U+e5b9
+		"HandHelping":	"\xee\x8e\xb8", 	// U+e3b8
 		"HandMetal":	"\xee\x88\xac", 	// U+e22c
-		"HandPlatter":	"\xee\x96\xbf", 	// U+e5bf
+		"HandPlatter":	"\xee\x96\xba", 	// U+e5ba
 		"Hand":	"\xee\x87\x97", 	// U+e1d7
-		"Handbag":	"\xee\x9a\x8e", 	// U+e68e
-		"Handshake":	"\xee\x97\x85", 	// U+e5c5
-		"HardDriveDownload":	"\xee\x93\xaa", 	// U+e4ea
-		"HardDriveUpload":	"\xee\x93\xab", 	// U+e4eb
-		"HardDrive":	"\xee\x83\xb1", 	// U+e0f1
-		"HardHat":	"\xee\x83\xb2", 	// U+e0f2
-		"Hash":	"\xee\x83\xb3", 	// U+e0f3
-		"HatGlasses":	"\xee\x9a\x88", 	// U+e688
-		"Haze":	"\xee\x83\xb4", 	// U+e0f4
-		"HdmiPort":	"\xee\x93\xac", 	// U+e4ec
-		"Heading1":	"\xee\x8e\x89", 	// U+e389
-		"Heading2":	"\xee\x8e\x8a", 	// U+e38a
-		"Heading3":	"\xee\x8e\x8b", 	// U+e38b
-		"Heading4":	"\xee\x8e\x8c", 	// U+e38c
-		"Heading5":	"\xee\x8e\x8d", 	// U+e38d
-		"Heading6":	"\xee\x8e\x8e", 	// U+e38e
-		"Heading":	"\xee\x8e\x88", 	// U+e388
-		"HeadphoneOff":	"\xee\x98\xae", 	// U+e62e
-		"Headphones":	"\xee\x83\xb5", 	// U+e0f5
-		"Headset":	"\xee\x97\x82", 	// U+e5c2
+		"Handbag":	"\xee\x9a\x89", 	// U+e689
+		"Handshake":	"\xee\x97\x80", 	// U+e5c0
+		"HardDriveDownload":	"\xee\x93\xa5", 	// U+e4e5
+		"HardDriveUpload":	"\xee\x93\xa6", 	// U+e4e6
+		"HardDrive":	"\xee\x83\xad", 	// U+e0ed
+		"HardHat":	"\xee\x83\xae", 	// U+e0ee
+		"Hash":	"\xee\x83\xaf", 	// U+e0ef
+		"HatGlasses":	"\xee\x9a\x83", 	// U+e683
+		"Haze":	"\xee\x83\xb0", 	// U+e0f0
+		"HdmiPort":	"\xee\x93\xa7", 	// U+e4e7
+		"Heading1":	"\xee\x8e\x85", 	// U+e385
+		"Heading2":	"\xee\x8e\x86", 	// U+e386
+		"Heading3":	"\xee\x8e\x87", 	// U+e387
+		"Heading4":	"\xee\x8e\x88", 	// U+e388
+		"Heading5":	"\xee\x8e\x89", 	// U+e389
+		"Heading6":	"\xee\x8e\x8a", 	// U+e38a
+		"Heading":	"\xee\x8e\x84", 	// U+e384
+		"HeadphoneOff":	"\xee\x98\xa9", 	// U+e629
+		"Headphones":	"\xee\x83\xb1", 	// U+e0f1
+		"Headset":	"\xee\x96\xbd", 	// U+e5bd
 		"HeartCrack":	"\xee\x8b\x96", 	// U+e2d6
 		"HeartHandshake":	"\xee\x8b\x97", 	// U+e2d7
-		"HeartMinus":	"\xee\x99\x96", 	// U+e656
+		"HeartMinus":	"\xee\x99\x91", 	// U+e651
 		"HeartOff":	"\xee\x8a\x95", 	// U+e295
-		"HeartPlus":	"\xee\x99\x97", 	// U+e657
-		"HeartPulse":	"\xee\x8d\xb2", 	// U+e372
-		"Heart":	"\xee\x83\xb6", 	// U+e0f6
-		"Heater":	"\xee\x96\x93", 	// U+e593
-		"Hexagon":	"\xee\x83\xb7", 	// U+e0f7
-		"Highlighter":	"\xee\x83\xb8", 	// U+e0f8
+		"HeartPlus":	"\xee\x99\x92", 	// U+e652
+		"HeartPulse":	"\xee\x8d\xae", 	// U+e36e
+		"Heart":	"\xee\x83\xb2", 	// U+e0f2
+		"Heater":	"\xee\x96\x8e", 	// U+e58e
+		"Helicopter":	"\xee\x9a\x9d", 	// U+e69d
+		"Hexagon":	"\xee\x83\xb3", 	// U+e0f3
+		"Highlighter":	"\xee\x83\xb4", 	// U+e0f4
 		"History":	"\xee\x87\xb5", 	// U+e1f5
-		"HopOff":	"\xee\x8e\x9c", 	// U+e39c
-		"Hop":	"\xee\x8e\x9b", 	// U+e39b
-		"Hospital":	"\xee\x97\x9d", 	// U+e5dd
-		"Hotel":	"\xee\x8f\xa6", 	// U+e3e6
+		"HopOff":	"\xee\x8e\x98", 	// U+e398
+		"Hop":	"\xee\x8e\x97", 	// U+e397
+		"Hospital":	"\xee\x97\x98", 	// U+e5d8
+		"Hotel":	"\xee\x8f\xa2", 	// U+e3e2
 		"Hourglass":	"\xee\x8a\x96", 	// U+e296
-		"HousePlug":	"\xee\x97\xb5", 	// U+e5f5
-		"HousePlus":	"\xee\x97\xb6", 	// U+e5f6
-		"HouseWifi":	"\xee\x99\x81", 	// U+e641
-		"House":	"\xee\x83\xb9", 	// U+e0f9
-		"IceCreamBowl":	"\xee\x8e\xab", 	// U+e3ab
-		"IceCreamCone":	"\xee\x8d\x97", 	// U+e357
-		"IdCardLanyard":	"\xee\x99\xb5", 	// U+e675
-		"IdCard":	"\xee\x98\x9c", 	// U+e61c
-		"ImageDown":	"\xee\x95\x81", 	// U+e541
+		"HouseHeart":	"\xee\x9a\x95", 	// U+e695
+		"HousePlug":	"\xee\x97\xb0", 	// U+e5f0
+		"HousePlus":	"\xee\x97\xb1", 	// U+e5f1
+		"HouseWifi":	"\xee\x98\xbc", 	// U+e63c
+		"House":	"\xee\x83\xb5", 	// U+e0f5
+		"IceCreamBowl":	"\xee\x8e\xa7", 	// U+e3a7
+		"IceCreamCone":	"\xee\x8d\x93", 	// U+e353
+		"IdCardLanyard":	"\xee\x99\xb0", 	// U+e670
+		"IdCard":	"\xee\x98\x97", 	// U+e617
+		"ImageDown":	"\xee\x94\xbc", 	// U+e53c
 		"ImageMinus":	"\xee\x87\xb6", 	// U+e1f6
 		"ImageOff":	"\xee\x87\x80", 	// U+e1c0
-		"ImagePlay":	"\xee\x97\xa4", 	// U+e5e4
+		"ImagePlay":	"\xee\x97\x9f", 	// U+e5df
 		"ImagePlus":	"\xee\x87\xb7", 	// U+e1f7
-		"ImageUp":	"\xee\x97\x90", 	// U+e5d0
-		"ImageUpscale":	"\xee\x98\xbc", 	// U+e63c
-		"Image":	"\xee\x83\xba", 	// U+e0fa
-		"Images":	"\xee\x97\x89", 	// U+e5c9
+		"ImageUp":	"\xee\x97\x8b", 	// U+e5cb
+		"ImageUpscale":	"\xee\x98\xb7", 	// U+e637
+		"Image":	"\xee\x83\xb6", 	// U+e0f6
+		"Images":	"\xee\x97\x84", 	// U+e5c4
 		"Import":	"\xee\x88\xaf", 	// U+e22f
-		"Inbox":	"\xee\x83\xbb", 	// U+e0fb
-		"IndentDecrease":	"\xee\x83\xbc", 	// U+e0fc
-		"IndentIncrease":	"\xee\x83\xbd", 	// U+e0fd
-		"IndianRupee":	"\xee\x83\xbe", 	// U+e0fe
+		"Inbox":	"\xee\x83\xb7", 	// U+e0f7
+		"IndianRupee":	"\xee\x83\xb8", 	// U+e0f8
 		"Infinity":	"\xee\x87\xa7", 	// U+e1e7
-		"Info":	"\xee\x83\xbf", 	// U+e0ff
-		"InspectionPanel":	"\xee\x96\x88", 	// U+e588
-		"Instagram":	"\xee\x84\x80", 	// U+e100
-		"Italic":	"\xee\x84\x81", 	// U+e101
-		"IterationCcw":	"\xee\x90\xa8", 	// U+e428
-		"IterationCw":	"\xee\x90\xa9", 	// U+e429
-		"JapaneseYen":	"\xee\x84\x82", 	// U+e102
-		"Joystick":	"\xee\x8d\x99", 	// U+e359
-		"Kanban":	"\xee\x93\xa1", 	// U+e4e1
-		"Kayak":	"\xee\x9a\x94", 	// U+e694
-		"KeyRound":	"\xee\x92\xa8", 	// U+e4a8
-		"KeySquare":	"\xee\x92\xa9", 	// U+e4a9
-		"Key":	"\xee\x84\x83", 	// U+e103
-		"KeyboardMusic":	"\xee\x95\xa5", 	// U+e565
-		"KeyboardOff":	"\xee\x97\xa3", 	// U+e5e3
+		"Info":	"\xee\x83\xb9", 	// U+e0f9
+		"InspectionPanel":	"\xee\x96\x83", 	// U+e583
+		"Instagram":	"\xee\x83\xba", 	// U+e0fa
+		"Italic":	"\xee\x83\xbb", 	// U+e0fb
+		"IterationCcw":	"\xee\x90\xa3", 	// U+e423
+		"IterationCw":	"\xee\x90\xa4", 	// U+e424
+		"JapaneseYen":	"\xee\x83\xbc", 	// U+e0fc
+		"Joystick":	"\xee\x8d\x95", 	// U+e355
+		"Kanban":	"\xee\x93\x9c", 	// U+e4dc
+		"Kayak":	"\xee\x9a\x8f", 	// U+e68f
+		"KeyRound":	"\xee\x92\xa3", 	// U+e4a3
+		"KeySquare":	"\xee\x92\xa4", 	// U+e4a4
+		"Key":	"\xee\x83\xbd", 	// U+e0fd
+		"KeyboardMusic":	"\xee\x95\xa0", 	// U+e560
+		"KeyboardOff":	"\xee\x97\x9e", 	// U+e5de
 		"Keyboard":	"\xee\x8a\x84", 	// U+e284
 		"LampCeiling":	"\xee\x8b\x99", 	// U+e2d9
 		"LampDesk":	"\xee\x8b\x9a", 	// U+e2da
@@ -853,669 +857,684 @@ var IconsLucide = Font{
 		"LampWallDown":	"\xee\x8b\x9c", 	// U+e2dc
 		"LampWallUp":	"\xee\x8b\x9d", 	// U+e2dd
 		"Lamp":	"\xee\x8b\x98", 	// U+e2d8
-		"LandPlot":	"\xee\x94\xad", 	// U+e52d
+		"LandPlot":	"\xee\x94\xa8", 	// U+e528
 		"Landmark":	"\xee\x88\xba", 	// U+e23a
-		"Languages":	"\xee\x84\x84", 	// U+e104
-		"LaptopMinimalCheck":	"\xee\x98\xb7", 	// U+e637
+		"Languages":	"\xee\x83\xbe", 	// U+e0fe
+		"LaptopMinimalCheck":	"\xee\x98\xb2", 	// U+e632
 		"LaptopMinimal":	"\xee\x87\x98", 	// U+e1d8
 		"Laptop":	"\xee\x87\x8d", 	// U+e1cd
 		"LassoSelect":	"\xee\x87\x8f", 	// U+e1cf
 		"Lasso":	"\xee\x87\x8e", 	// U+e1ce
 		"Laugh":	"\xee\x8c\x80", 	// U+e300
-		"Layers2":	"\xee\x94\xaf", 	// U+e52f
-		"Layers":	"\xee\x94\xae", 	// U+e52e
+		"Layers2":	"\xee\x94\xaa", 	// U+e52a
+		"Layers":	"\xee\x94\xa9", 	// U+e529
 		"LayoutDashboard":	"\xee\x87\x81", 	// U+e1c1
-		"LayoutGrid":	"\xee\x84\x85", 	// U+e105
+		"LayoutGrid":	"\xee\x83\xbf", 	// U+e0ff
 		"LayoutList":	"\xee\x87\x99", 	// U+e1d9
-		"LayoutPanelLeft":	"\xee\x91\xb5", 	// U+e475
-		"LayoutPanelTop":	"\xee\x91\xb6", 	// U+e476
+		"LayoutPanelLeft":	"\xee\x91\xb0", 	// U+e470
+		"LayoutPanelTop":	"\xee\x91\xb1", 	// U+e471
 		"LayoutTemplate":	"\xee\x88\x87", 	// U+e207
 		"Leaf":	"\xee\x8b\x9e", 	// U+e2de
-		"LeafyGreen":	"\xee\x91\xb4", 	// U+e474
-		"Lectern":	"\xee\x97\xae", 	// U+e5ee
-		"LetterText":	"\xee\x98\x8a", 	// U+e60a
-		"LibraryBig":	"\xee\x95\x93", 	// U+e553
-		"Library":	"\xee\x84\x86", 	// U+e106
-		"LifeBuoy":	"\xee\x84\x87", 	// U+e107
-		"Ligature":	"\xee\x90\xbf", 	// U+e43f
+		"LeafyGreen":	"\xee\x91\xaf", 	// U+e46f
+		"Lectern":	"\xee\x97\xa9", 	// U+e5e9
+		"LibraryBig":	"\xee\x95\x8e", 	// U+e54e
+		"Library":	"\xee\x84\x80", 	// U+e100
+		"LifeBuoy":	"\xee\x84\x81", 	// U+e101
+		"Ligature":	"\xee\x90\xba", 	// U+e43a
 		"LightbulbOff":	"\xee\x88\x88", 	// U+e208
 		"Lightbulb":	"\xee\x87\x82", 	// U+e1c2
-		"LineSquiggle":	"\xee\x99\xbf", 	// U+e67f
-		"Link2Off":	"\xee\x84\x8a", 	// U+e10a
-		"Link2":	"\xee\x84\x89", 	// U+e109
-		"Link":	"\xee\x84\x88", 	// U+e108
-		"Linkedin":	"\xee\x84\x8b", 	// U+e10b
-		"ListCheck":	"\xee\x97\xbf", 	// U+e5ff
+		"LineSquiggle":	"\xee\x99\xba", 	// U+e67a
+		"Link2Off":	"\xee\x84\x84", 	// U+e104
+		"Link2":	"\xee\x84\x83", 	// U+e103
+		"Link":	"\xee\x84\x82", 	// U+e102
+		"Linkedin":	"\xee\x84\x85", 	// U+e105
+		"ListCheck":	"\xee\x97\xba", 	// U+e5fa
 		"ListChecks":	"\xee\x87\x90", 	// U+e1d0
-		"ListCollapse":	"\xee\x96\xa0", 	// U+e5a0
+		"ListChevronsDownUp":	"\xee\x9a\x94", 	// U+e694
+		"ListChevronsUpDown":	"\xee\x9a\x96", 	// U+e696
+		"ListCollapse":	"\xee\x96\x9b", 	// U+e59b
 		"ListEnd":	"\xee\x8b\x9f", 	// U+e2df
-		"ListFilterPlus":	"\xee\x98\xbe", 	// U+e63e
-		"ListFilter":	"\xee\x91\xa5", 	// U+e465
+		"ListFilterPlus":	"\xee\x98\xb9", 	// U+e639
+		"ListFilter":	"\xee\x91\xa0", 	// U+e460
+		"ListIndentDecrease":	"\xee\x84\x87", 	// U+e107
+		"ListIndentIncrease":	"\xee\x84\x88", 	// U+e108
 		"ListMinus":	"\xee\x88\xbe", 	// U+e23e
 		"ListMusic":	"\xee\x8b\xa0", 	// U+e2e0
 		"ListOrdered":	"\xee\x87\x91", 	// U+e1d1
 		"ListPlus":	"\xee\x88\xbf", 	// U+e23f
-		"ListRestart":	"\xee\x91\x97", 	// U+e457
+		"ListRestart":	"\xee\x91\x92", 	// U+e452
 		"ListStart":	"\xee\x8b\xa1", 	// U+e2e1
-		"ListTodo":	"\xee\x93\x88", 	// U+e4c8
-		"ListTree":	"\xee\x90\x8d", 	// U+e40d
+		"ListTodo":	"\xee\x93\x83", 	// U+e4c3
+		"ListTree":	"\xee\x90\x88", 	// U+e408
 		"ListVideo":	"\xee\x8b\xa2", 	// U+e2e2
 		"ListX":	"\xee\x89\x80", 	// U+e240
-		"List":	"\xee\x84\x8c", 	// U+e10c
-		"LoaderCircle":	"\xee\x84\x8e", 	// U+e10e
-		"LoaderPinwheel":	"\xee\x97\xab", 	// U+e5eb
-		"Loader":	"\xee\x84\x8d", 	// U+e10d
+		"List":	"\xee\x84\x86", 	// U+e106
+		"LoaderCircle":	"\xee\x84\x8a", 	// U+e10a
+		"LoaderPinwheel":	"\xee\x97\xa6", 	// U+e5e6
+		"Loader":	"\xee\x84\x89", 	// U+e109
 		"LocateFixed":	"\xee\x87\x9b", 	// U+e1db
 		"LocateOff":	"\xee\x8a\x82", 	// U+e282
 		"Locate":	"\xee\x87\x9a", 	// U+e1da
-		"LockKeyholeOpen":	"\xee\x94\xb7", 	// U+e537
-		"LockKeyhole":	"\xee\x94\xb6", 	// U+e536
-		"LockOpen":	"\xee\x84\x90", 	// U+e110
-		"Lock":	"\xee\x84\x8f", 	// U+e10f
-		"LogIn":	"\xee\x84\x91", 	// U+e111
-		"LogOut":	"\xee\x84\x92", 	// U+e112
-		"Logs":	"\xee\x97\xb9", 	// U+e5f9
-		"Lollipop":	"\xee\x93\x82", 	// U+e4c2
+		"LockKeyholeOpen":	"\xee\x94\xb2", 	// U+e532
+		"LockKeyhole":	"\xee\x94\xb1", 	// U+e531
+		"LockOpen":	"\xee\x84\x8c", 	// U+e10c
+		"Lock":	"\xee\x84\x8b", 	// U+e10b
+		"LogIn":	"\xee\x84\x8d", 	// U+e10d
+		"LogOut":	"\xee\x84\x8e", 	// U+e10e
+		"Logs":	"\xee\x97\xb4", 	// U+e5f4
+		"Lollipop":	"\xee\x92\xbd", 	// U+e4bd
 		"Luggage":	"\xee\x8b\x8a", 	// U+e2ca
 		"Magnet":	"\xee\x8a\xb5", 	// U+e2b5
-		"MailCheck":	"\xee\x8d\xa5", 	// U+e365
-		"MailMinus":	"\xee\x8d\xa6", 	// U+e366
-		"MailOpen":	"\xee\x8d\xa7", 	// U+e367
-		"MailPlus":	"\xee\x8d\xa8", 	// U+e368
-		"MailQuestionMark":	"\xee\x8d\xa9", 	// U+e369
-		"MailSearch":	"\xee\x8d\xaa", 	// U+e36a
-		"MailWarning":	"\xee\x8d\xab", 	// U+e36b
-		"MailX":	"\xee\x8d\xac", 	// U+e36c
-		"Mail":	"\xee\x84\x93", 	// U+e113
-		"Mailbox":	"\xee\x8f\x98", 	// U+e3d8
-		"Mails":	"\xee\x8d\xad", 	// U+e36d
-		"MapMinus":	"\xee\x9a\x8b", 	// U+e68b
-		"MapPinCheckInside":	"\xee\x98\x95", 	// U+e615
-		"MapPinCheck":	"\xee\x98\x94", 	// U+e614
-		"MapPinHouse":	"\xee\x98\xa1", 	// U+e621
-		"MapPinMinusInside":	"\xee\x98\x97", 	// U+e617
-		"MapPinMinus":	"\xee\x98\x96", 	// U+e616
+		"MailCheck":	"\xee\x8d\xa1", 	// U+e361
+		"MailMinus":	"\xee\x8d\xa2", 	// U+e362
+		"MailOpen":	"\xee\x8d\xa3", 	// U+e363
+		"MailPlus":	"\xee\x8d\xa4", 	// U+e364
+		"MailQuestionMark":	"\xee\x8d\xa5", 	// U+e365
+		"MailSearch":	"\xee\x8d\xa6", 	// U+e366
+		"MailWarning":	"\xee\x8d\xa7", 	// U+e367
+		"MailX":	"\xee\x8d\xa8", 	// U+e368
+		"Mail":	"\xee\x84\x8f", 	// U+e10f
+		"Mailbox":	"\xee\x8f\x94", 	// U+e3d4
+		"Mails":	"\xee\x8d\xa9", 	// U+e369
+		"MapMinus":	"\xee\x9a\x86", 	// U+e686
+		"MapPinCheckInside":	"\xee\x98\x90", 	// U+e610
+		"MapPinCheck":	"\xee\x98\x8f", 	// U+e60f
+		"MapPinHouse":	"\xee\x98\x9c", 	// U+e61c
+		"MapPinMinusInside":	"\xee\x98\x92", 	// U+e612
+		"MapPinMinus":	"\xee\x98\x91", 	// U+e611
 		"MapPinOff":	"\xee\x8a\xa6", 	// U+e2a6
-		"MapPinPen":	"\xee\x99\x9a", 	// U+e65a
-		"MapPinPlusInside":	"\xee\x98\x99", 	// U+e619
-		"MapPinPlus":	"\xee\x98\x98", 	// U+e618
-		"MapPinXInside":	"\xee\x98\x9b", 	// U+e61b
-		"MapPinX":	"\xee\x98\x9a", 	// U+e61a
-		"MapPin":	"\xee\x84\x95", 	// U+e115
-		"MapPinned":	"\xee\x95\x82", 	// U+e542
-		"MapPlus":	"\xee\x99\x84", 	// U+e644
-		"Map":	"\xee\x84\x94", 	// U+e114
-		"MarsStroke":	"\xee\x99\x87", 	// U+e647
-		"Mars":	"\xee\x99\x86", 	// U+e646
+		"MapPinPen":	"\xee\x99\x95", 	// U+e655
+		"MapPinPlusInside":	"\xee\x98\x94", 	// U+e614
+		"MapPinPlus":	"\xee\x98\x93", 	// U+e613
+		"MapPinXInside":	"\xee\x98\x96", 	// U+e616
+		"MapPinX":	"\xee\x98\x95", 	// U+e615
+		"MapPin":	"\xee\x84\x91", 	// U+e111
+		"MapPinned":	"\xee\x94\xbd", 	// U+e53d
+		"MapPlus":	"\xee\x98\xbf", 	// U+e63f
+		"Map":	"\xee\x84\x90", 	// U+e110
+		"MarsStroke":	"\xee\x99\x82", 	// U+e642
+		"Mars":	"\xee\x99\x81", 	// U+e641
 		"Martini":	"\xee\x8b\xa3", 	// U+e2e3
-		"Maximize2":	"\xee\x84\x97", 	// U+e117
-		"Maximize":	"\xee\x84\x96", 	// U+e116
-		"Medal":	"\xee\x8d\xb3", 	// U+e373
-		"MegaphoneOff":	"\xee\x8d\xb4", 	// U+e374
+		"Maximize2":	"\xee\x84\x93", 	// U+e113
+		"Maximize":	"\xee\x84\x92", 	// U+e112
+		"Medal":	"\xee\x8d\xaf", 	// U+e36f
+		"MegaphoneOff":	"\xee\x8d\xb0", 	// U+e370
 		"Megaphone":	"\xee\x88\xb5", 	// U+e235
-		"Meh":	"\xee\x84\x98", 	// U+e118
-		"MemoryStick":	"\xee\x91\x8a", 	// U+e44a
-		"Menu":	"\xee\x84\x99", 	// U+e119
-		"Merge":	"\xee\x91\x84", 	// U+e444
-		"MessageCircleCode":	"\xee\x95\xa7", 	// U+e567
-		"MessageCircleDashed":	"\xee\x95\xa8", 	// U+e568
-		"MessageCircleHeart":	"\xee\x95\xa9", 	// U+e569
-		"MessageCircleMore":	"\xee\x95\xaa", 	// U+e56a
-		"MessageCircleOff":	"\xee\x95\xab", 	// U+e56b
-		"MessageCirclePlus":	"\xee\x95\xac", 	// U+e56c
-		"MessageCircleQuestionMark":	"\xee\x95\xad", 	// U+e56d
-		"MessageCircleReply":	"\xee\x95\xae", 	// U+e56e
-		"MessageCircleWarning":	"\xee\x95\xaf", 	// U+e56f
-		"MessageCircleX":	"\xee\x95\xb0", 	// U+e570
-		"MessageCircle":	"\xee\x84\x9a", 	// U+e11a
-		"MessageSquareCode":	"\xee\x95\xb1", 	// U+e571
-		"MessageSquareDashed":	"\xee\x90\x90", 	// U+e410
-		"MessageSquareDiff":	"\xee\x95\xb2", 	// U+e572
-		"MessageSquareDot":	"\xee\x95\xb3", 	// U+e573
-		"MessageSquareHeart":	"\xee\x95\xb4", 	// U+e574
-		"MessageSquareLock":	"\xee\x98\xb1", 	// U+e631
-		"MessageSquareMore":	"\xee\x95\xb5", 	// U+e575
-		"MessageSquareOff":	"\xee\x95\xb6", 	// U+e576
-		"MessageSquarePlus":	"\xee\x90\x91", 	// U+e411
-		"MessageSquareQuote":	"\xee\x95\xb7", 	// U+e577
-		"MessageSquareReply":	"\xee\x95\xb8", 	// U+e578
-		"MessageSquareShare":	"\xee\x95\xb9", 	// U+e579
-		"MessageSquareText":	"\xee\x95\xba", 	// U+e57a
-		"MessageSquareWarning":	"\xee\x95\xbb", 	// U+e57b
-		"MessageSquareX":	"\xee\x95\xbc", 	// U+e57c
-		"MessageSquare":	"\xee\x84\x9b", 	// U+e11b
-		"MessagesSquare":	"\xee\x90\x92", 	// U+e412
-		"MicOff":	"\xee\x84\x9d", 	// U+e11d
-		"MicVocal":	"\xee\x8d\x8d", 	// U+e34d
-		"Mic":	"\xee\x84\x9c", 	// U+e11c
-		"Microchip":	"\xee\x98\x9f", 	// U+e61f
+		"Meh":	"\xee\x84\x94", 	// U+e114
+		"MemoryStick":	"\xee\x91\x85", 	// U+e445
+		"Menu":	"\xee\x84\x95", 	// U+e115
+		"Merge":	"\xee\x90\xbf", 	// U+e43f
+		"MessageCircleCode":	"\xee\x95\xa2", 	// U+e562
+		"MessageCircleDashed":	"\xee\x95\xa3", 	// U+e563
+		"MessageCircleHeart":	"\xee\x95\xa4", 	// U+e564
+		"MessageCircleMore":	"\xee\x95\xa5", 	// U+e565
+		"MessageCircleOff":	"\xee\x95\xa6", 	// U+e566
+		"MessageCirclePlus":	"\xee\x95\xa7", 	// U+e567
+		"MessageCircleQuestionMark":	"\xee\x95\xa8", 	// U+e568
+		"MessageCircleReply":	"\xee\x95\xa9", 	// U+e569
+		"MessageCircleWarning":	"\xee\x95\xaa", 	// U+e56a
+		"MessageCircleX":	"\xee\x95\xab", 	// U+e56b
+		"MessageCircle":	"\xee\x84\x96", 	// U+e116
+		"MessageSquareCode":	"\xee\x95\xac", 	// U+e56c
+		"MessageSquareDashed":	"\xee\x90\x8b", 	// U+e40b
+		"MessageSquareDiff":	"\xee\x95\xad", 	// U+e56d
+		"MessageSquareDot":	"\xee\x95\xae", 	// U+e56e
+		"MessageSquareHeart":	"\xee\x95\xaf", 	// U+e56f
+		"MessageSquareLock":	"\xee\x98\xac", 	// U+e62c
+		"MessageSquareMore":	"\xee\x95\xb0", 	// U+e570
+		"MessageSquareOff":	"\xee\x95\xb1", 	// U+e571
+		"MessageSquarePlus":	"\xee\x90\x8c", 	// U+e40c
+		"MessageSquareQuote":	"\xee\x95\xb2", 	// U+e572
+		"MessageSquareReply":	"\xee\x95\xb3", 	// U+e573
+		"MessageSquareShare":	"\xee\x95\xb4", 	// U+e574
+		"MessageSquareText":	"\xee\x95\xb5", 	// U+e575
+		"MessageSquareWarning":	"\xee\x95\xb6", 	// U+e576
+		"MessageSquareX":	"\xee\x95\xb7", 	// U+e577
+		"MessageSquare":	"\xee\x84\x97", 	// U+e117
+		"MessagesSquare":	"\xee\x90\x8d", 	// U+e40d
+		"MicOff":	"\xee\x84\x99", 	// U+e119
+		"MicVocal":	"\xee\x8d\x89", 	// U+e349
+		"Mic":	"\xee\x84\x98", 	// U+e118
+		"Microchip":	"\xee\x98\x9a", 	// U+e61a
 		"Microscope":	"\xee\x8b\xa4", 	// U+e2e4
-		"Microwave":	"\xee\x8d\xbe", 	// U+e37e
+		"Microwave":	"\xee\x8d\xba", 	// U+e37a
 		"Milestone":	"\xee\x8a\x98", 	// U+e298
-		"MilkOff":	"\xee\x8e\x9e", 	// U+e39e
-		"Milk":	"\xee\x8e\x9d", 	// U+e39d
-		"Minimize2":	"\xee\x84\x9f", 	// U+e11f
-		"Minimize":	"\xee\x84\x9e", 	// U+e11e
-		"Minus":	"\xee\x84\xa0", 	// U+e120
-		"MonitorCheck":	"\xee\x92\x87", 	// U+e487
-		"MonitorCog":	"\xee\x98\x88", 	// U+e608
-		"MonitorDot":	"\xee\x92\x88", 	// U+e488
-		"MonitorDown":	"\xee\x90\xa6", 	// U+e426
+		"MilkOff":	"\xee\x8e\x9a", 	// U+e39a
+		"Milk":	"\xee\x8e\x99", 	// U+e399
+		"Minimize2":	"\xee\x84\x9b", 	// U+e11b
+		"Minimize":	"\xee\x84\x9a", 	// U+e11a
+		"Minus":	"\xee\x84\x9c", 	// U+e11c
+		"MonitorCheck":	"\xee\x92\x82", 	// U+e482
+		"MonitorCloud":	"\xee\x9a\x99", 	// U+e699
+		"MonitorCog":	"\xee\x98\x83", 	// U+e603
+		"MonitorDot":	"\xee\x92\x83", 	// U+e483
+		"MonitorDown":	"\xee\x90\xa1", 	// U+e421
 		"MonitorOff":	"\xee\x87\x9c", 	// U+e1dc
-		"MonitorPause":	"\xee\x92\x89", 	// U+e489
-		"MonitorPlay":	"\xee\x92\x8a", 	// U+e48a
-		"MonitorSmartphone":	"\xee\x8e\xa6", 	// U+e3a6
+		"MonitorPause":	"\xee\x92\x84", 	// U+e484
+		"MonitorPlay":	"\xee\x92\x85", 	// U+e485
+		"MonitorSmartphone":	"\xee\x8e\xa2", 	// U+e3a2
 		"MonitorSpeaker":	"\xee\x88\x90", 	// U+e210
-		"MonitorStop":	"\xee\x92\x8b", 	// U+e48b
-		"MonitorUp":	"\xee\x90\xa7", 	// U+e427
-		"MonitorX":	"\xee\x92\x8c", 	// U+e48c
-		"Monitor":	"\xee\x84\xa1", 	// U+e121
-		"MoonStar":	"\xee\x90\x95", 	// U+e415
-		"Moon":	"\xee\x84\xa2", 	// U+e122
+		"MonitorStop":	"\xee\x92\x86", 	// U+e486
+		"MonitorUp":	"\xee\x90\xa2", 	// U+e422
+		"MonitorX":	"\xee\x92\x87", 	// U+e487
+		"Monitor":	"\xee\x84\x9d", 	// U+e11d
+		"MoonStar":	"\xee\x90\x90", 	// U+e410
+		"Moon":	"\xee\x84\x9e", 	// U+e11e
+		"Motorbike":	"\xee\x9a\x98", 	// U+e698
 		"MountainSnow":	"\xee\x88\xb2", 	// U+e232
 		"Mountain":	"\xee\x88\xb1", 	// U+e231
-		"MouseOff":	"\xee\x97\xa0", 	// U+e5e0
+		"MouseOff":	"\xee\x97\x9b", 	// U+e5db
+		"MousePointer2Off":	"\xee\x9a\xa6", 	// U+e6a6
 		"MousePointer2":	"\xee\x87\x83", 	// U+e1c3
-		"MousePointerBan":	"\xee\x97\xac", 	// U+e5ec
-		"MousePointerClick":	"\xee\x84\xa4", 	// U+e124
-		"MousePointer":	"\xee\x84\xa3", 	// U+e123
+		"MousePointerBan":	"\xee\x97\xa7", 	// U+e5e7
+		"MousePointerClick":	"\xee\x84\xa0", 	// U+e120
+		"MousePointer":	"\xee\x84\x9f", 	// U+e11f
 		"Mouse":	"\xee\x8a\x8e", 	// U+e28e
 		"Move3d":	"\xee\x8b\xa5", 	// U+e2e5
 		"MoveDiagonal2":	"\xee\x87\x85", 	// U+e1c5
 		"MoveDiagonal":	"\xee\x87\x84", 	// U+e1c4
-		"MoveDownLeft":	"\xee\x92\x92", 	// U+e492
-		"MoveDownRight":	"\xee\x92\x93", 	// U+e493
-		"MoveDown":	"\xee\x92\x91", 	// U+e491
+		"MoveDownLeft":	"\xee\x92\x8d", 	// U+e48d
+		"MoveDownRight":	"\xee\x92\x8e", 	// U+e48e
+		"MoveDown":	"\xee\x92\x8c", 	// U+e48c
 		"MoveHorizontal":	"\xee\x87\x86", 	// U+e1c6
-		"MoveLeft":	"\xee\x92\x94", 	// U+e494
-		"MoveRight":	"\xee\x92\x95", 	// U+e495
-		"MoveUpLeft":	"\xee\x92\x97", 	// U+e497
-		"MoveUpRight":	"\xee\x92\x98", 	// U+e498
-		"MoveUp":	"\xee\x92\x96", 	// U+e496
+		"MoveLeft":	"\xee\x92\x8f", 	// U+e48f
+		"MoveRight":	"\xee\x92\x90", 	// U+e490
+		"MoveUpLeft":	"\xee\x92\x92", 	// U+e492
+		"MoveUpRight":	"\xee\x92\x93", 	// U+e493
+		"MoveUp":	"\xee\x92\x91", 	// U+e491
 		"MoveVertical":	"\xee\x87\x87", 	// U+e1c7
-		"Move":	"\xee\x84\xa5", 	// U+e125
-		"Music2":	"\xee\x8d\x8e", 	// U+e34e
-		"Music3":	"\xee\x8d\x8f", 	// U+e34f
-		"Music4":	"\xee\x8d\x90", 	// U+e350
-		"Music":	"\xee\x84\xa6", 	// U+e126
+		"Move":	"\xee\x84\xa1", 	// U+e121
+		"Music2":	"\xee\x8d\x8a", 	// U+e34a
+		"Music3":	"\xee\x8d\x8b", 	// U+e34b
+		"Music4":	"\xee\x8d\x8c", 	// U+e34c
+		"Music":	"\xee\x84\xa2", 	// U+e122
 		"Navigation2Off":	"\xee\x8a\xa7", 	// U+e2a7
-		"Navigation2":	"\xee\x84\xa8", 	// U+e128
+		"Navigation2":	"\xee\x84\xa4", 	// U+e124
 		"NavigationOff":	"\xee\x8a\xa8", 	// U+e2a8
-		"Navigation":	"\xee\x84\xa7", 	// U+e127
-		"Network":	"\xee\x84\xa9", 	// U+e129
-		"Newspaper":	"\xee\x8d\x8c", 	// U+e34c
-		"Nfc":	"\xee\x8f\x87", 	// U+e3c7
-		"NonBinary":	"\xee\x99\x88", 	// U+e648
-		"NotebookPen":	"\xee\x96\x9b", 	// U+e59b
-		"NotebookTabs":	"\xee\x96\x9c", 	// U+e59c
-		"NotebookText":	"\xee\x96\x9d", 	// U+e59d
-		"Notebook":	"\xee\x96\x9a", 	// U+e59a
-		"NotepadTextDashed":	"\xee\x96\x9f", 	// U+e59f
-		"NotepadText":	"\xee\x96\x9e", 	// U+e59e
-		"NutOff":	"\xee\x8e\xa0", 	// U+e3a0
-		"Nut":	"\xee\x8e\x9f", 	// U+e39f
-		"OctagonAlert":	"\xee\x84\xab", 	// U+e12b
-		"OctagonMinus":	"\xee\x98\xac", 	// U+e62c
+		"Navigation":	"\xee\x84\xa3", 	// U+e123
+		"Network":	"\xee\x84\xa5", 	// U+e125
+		"Newspaper":	"\xee\x8d\x88", 	// U+e348
+		"Nfc":	"\xee\x8f\x83", 	// U+e3c3
+		"NonBinary":	"\xee\x99\x83", 	// U+e643
+		"NotebookPen":	"\xee\x96\x96", 	// U+e596
+		"NotebookTabs":	"\xee\x96\x97", 	// U+e597
+		"NotebookText":	"\xee\x96\x98", 	// U+e598
+		"Notebook":	"\xee\x96\x95", 	// U+e595
+		"NotepadTextDashed":	"\xee\x96\x9a", 	// U+e59a
+		"NotepadText":	"\xee\x96\x99", 	// U+e599
+		"NutOff":	"\xee\x8e\x9c", 	// U+e39c
+		"Nut":	"\xee\x8e\x9b", 	// U+e39b
+		"OctagonAlert":	"\xee\x84\xa7", 	// U+e127
+		"OctagonMinus":	"\xee\x98\xa7", 	// U+e627
 		"OctagonPause":	"\xee\x88\x9b", 	// U+e21b
-		"OctagonX":	"\xee\x84\xac", 	// U+e12c
-		"Octagon":	"\xee\x84\xaa", 	// U+e12a
-		"Omega":	"\xee\x98\x9e", 	// U+e61e
+		"OctagonX":	"\xee\x84\xa8", 	// U+e128
+		"Octagon":	"\xee\x84\xa6", 	// U+e126
+		"Omega":	"\xee\x98\x99", 	// U+e619
 		"Option":	"\xee\x87\xb8", 	// U+e1f8
-		"Orbit":	"\xee\x8f\xab", 	// U+e3eb
-		"Origami":	"\xee\x97\xa8", 	// U+e5e8
-		"Package2":	"\xee\x8d\x84", 	// U+e344
+		"Orbit":	"\xee\x8f\xa7", 	// U+e3e7
+		"Origami":	"\xee\x97\xa3", 	// U+e5e3
+		"Package2":	"\xee\x8d\x80", 	// U+e340
 		"PackageCheck":	"\xee\x89\xa6", 	// U+e266
 		"PackageMinus":	"\xee\x89\xa7", 	// U+e267
 		"PackageOpen":	"\xee\x8b\x8c", 	// U+e2cc
 		"PackagePlus":	"\xee\x89\xa8", 	// U+e268
 		"PackageSearch":	"\xee\x89\xa9", 	// U+e269
 		"PackageX":	"\xee\x89\xaa", 	// U+e26a
-		"Package":	"\xee\x84\xad", 	// U+e12d
+		"Package":	"\xee\x84\xa9", 	// U+e129
 		"PaintBucket":	"\xee\x8b\xa6", 	// U+e2e6
-		"PaintRoller":	"\xee\x96\xa3", 	// U+e5a3
+		"PaintRoller":	"\xee\x96\x9e", 	// U+e59e
 		"PaintbrushVertical":	"\xee\x8b\xa8", 	// U+e2e8
 		"Paintbrush":	"\xee\x8b\xa7", 	// U+e2e7
 		"Palette":	"\xee\x87\x9d", 	// U+e1dd
-		"Panda":	"\xee\x99\xad", 	// U+e66d
-		"PanelBottomClose":	"\xee\x90\xb2", 	// U+e432
-		"PanelBottomDashed":	"\xee\x90\xb3", 	// U+e433
-		"PanelBottomOpen":	"\xee\x90\xb4", 	// U+e434
-		"PanelBottom":	"\xee\x90\xb1", 	// U+e431
+		"Panda":	"\xee\x99\xa8", 	// U+e668
+		"PanelBottomClose":	"\xee\x90\xad", 	// U+e42d
+		"PanelBottomDashed":	"\xee\x90\xae", 	// U+e42e
+		"PanelBottomOpen":	"\xee\x90\xaf", 	// U+e42f
+		"PanelBottom":	"\xee\x90\xac", 	// U+e42c
 		"PanelLeftClose":	"\xee\x88\x9c", 	// U+e21c
-		"PanelLeftDashed":	"\xee\x90\xb5", 	// U+e435
+		"PanelLeftDashed":	"\xee\x90\xb0", 	// U+e430
 		"PanelLeftOpen":	"\xee\x88\x9d", 	// U+e21d
-		"PanelLeft":	"\xee\x84\xae", 	// U+e12e
-		"PanelRightClose":	"\xee\x90\xb7", 	// U+e437
-		"PanelRightDashed":	"\xee\x90\xb8", 	// U+e438
-		"PanelRightOpen":	"\xee\x90\xb9", 	// U+e439
-		"PanelRight":	"\xee\x90\xb6", 	// U+e436
-		"PanelTopClose":	"\xee\x90\xbb", 	// U+e43b
-		"PanelTopDashed":	"\xee\x90\xbc", 	// U+e43c
-		"PanelTopOpen":	"\xee\x90\xbd", 	// U+e43d
-		"PanelTop":	"\xee\x90\xba", 	// U+e43a
-		"PanelsLeftBottom":	"\xee\x84\xaf", 	// U+e12f
-		"PanelsRightBottom":	"\xee\x96\x8d", 	// U+e58d
-		"PanelsTopLeft":	"\xee\x84\xb0", 	// U+e130
-		"Paperclip":	"\xee\x84\xb1", 	// U+e131
-		"Parentheses":	"\xee\x91\x89", 	// U+e449
-		"ParkingMeter":	"\xee\x94\x85", 	// U+e505
-		"PartyPopper":	"\xee\x8d\x87", 	// U+e347
-		"Pause":	"\xee\x84\xb2", 	// U+e132
-		"PawPrint":	"\xee\x93\xba", 	// U+e4fa
-		"PcCase":	"\xee\x91\x8b", 	// U+e44b
-		"PenLine":	"\xee\x84\xb4", 	// U+e134
-		"PenOff":	"\xee\x97\xb3", 	// U+e5f3
-		"PenTool":	"\xee\x84\xb5", 	// U+e135
-		"Pen":	"\xee\x84\xb3", 	// U+e133
-		"PencilLine":	"\xee\x93\xb5", 	// U+e4f5
-		"PencilOff":	"\xee\x97\xb4", 	// U+e5f4
-		"PencilRuler":	"\xee\x93\xb6", 	// U+e4f6
+		"PanelLeftRightDashed":	"\xee\x9a\x92", 	// U+e692
+		"PanelLeft":	"\xee\x84\xaa", 	// U+e12a
+		"PanelRightClose":	"\xee\x90\xb2", 	// U+e432
+		"PanelRightDashed":	"\xee\x90\xb3", 	// U+e433
+		"PanelRightOpen":	"\xee\x90\xb4", 	// U+e434
+		"PanelRight":	"\xee\x90\xb1", 	// U+e431
+		"PanelTopBottomDashed":	"\xee\x9a\x93", 	// U+e693
+		"PanelTopClose":	"\xee\x90\xb6", 	// U+e436
+		"PanelTopDashed":	"\xee\x90\xb7", 	// U+e437
+		"PanelTopOpen":	"\xee\x90\xb8", 	// U+e438
+		"PanelTop":	"\xee\x90\xb5", 	// U+e435
+		"PanelsLeftBottom":	"\xee\x84\xab", 	// U+e12b
+		"PanelsRightBottom":	"\xee\x96\x88", 	// U+e588
+		"PanelsTopLeft":	"\xee\x84\xac", 	// U+e12c
+		"Paperclip":	"\xee\x84\xad", 	// U+e12d
+		"Parentheses":	"\xee\x91\x84", 	// U+e444
+		"ParkingMeter":	"\xee\x94\x80", 	// U+e500
+		"PartyPopper":	"\xee\x8d\x83", 	// U+e343
+		"Pause":	"\xee\x84\xae", 	// U+e12e
+		"PawPrint":	"\xee\x93\xb5", 	// U+e4f5
+		"PcCase":	"\xee\x91\x86", 	// U+e446
+		"PenLine":	"\xee\x84\xb0", 	// U+e130
+		"PenOff":	"\xee\x97\xae", 	// U+e5ee
+		"PenTool":	"\xee\x84\xb1", 	// U+e131
+		"Pen":	"\xee\x84\xaf", 	// U+e12f
+		"PencilLine":	"\xee\x93\xb0", 	// U+e4f0
+		"PencilOff":	"\xee\x97\xaf", 	// U+e5ef
+		"PencilRuler":	"\xee\x93\xb1", 	// U+e4f1
 		"Pencil":	"\xee\x87\xb9", 	// U+e1f9
-		"Pentagon":	"\xee\x94\xb0", 	// U+e530
-		"Percent":	"\xee\x84\xb6", 	// U+e136
+		"Pentagon":	"\xee\x94\xab", 	// U+e52b
+		"Percent":	"\xee\x84\xb2", 	// U+e132
 		"PersonStanding":	"\xee\x88\x9e", 	// U+e21e
-		"PhilippinePeso":	"\xee\x98\x89", 	// U+e609
-		"PhoneCall":	"\xee\x84\xb8", 	// U+e138
-		"PhoneForwarded":	"\xee\x84\xb9", 	// U+e139
-		"PhoneIncoming":	"\xee\x84\xba", 	// U+e13a
-		"PhoneMissed":	"\xee\x84\xbb", 	// U+e13b
-		"PhoneOff":	"\xee\x84\xbc", 	// U+e13c
-		"PhoneOutgoing":	"\xee\x84\xbd", 	// U+e13d
-		"Phone":	"\xee\x84\xb7", 	// U+e137
-		"Pi":	"\xee\x91\xb7", 	// U+e477
-		"Piano":	"\xee\x95\xa6", 	// U+e566
-		"Pickaxe":	"\xee\x97\x8b", 	// U+e5cb
-		"PictureInPicture2":	"\xee\x8e\xb3", 	// U+e3b3
-		"PictureInPicture":	"\xee\x8e\xb2", 	// U+e3b2
-		"PiggyBank":	"\xee\x84\xbe", 	// U+e13e
-		"PilcrowLeft":	"\xee\x97\xa1", 	// U+e5e1
-		"PilcrowRight":	"\xee\x97\xa2", 	// U+e5e2
-		"Pilcrow":	"\xee\x8e\xa7", 	// U+e3a7
-		"PillBottle":	"\xee\x97\xaf", 	// U+e5ef
-		"Pill":	"\xee\x8f\x81", 	// U+e3c1
+		"PhilippinePeso":	"\xee\x98\x84", 	// U+e604
+		"PhoneCall":	"\xee\x84\xb4", 	// U+e134
+		"PhoneForwarded":	"\xee\x84\xb5", 	// U+e135
+		"PhoneIncoming":	"\xee\x84\xb6", 	// U+e136
+		"PhoneMissed":	"\xee\x84\xb7", 	// U+e137
+		"PhoneOff":	"\xee\x84\xb8", 	// U+e138
+		"PhoneOutgoing":	"\xee\x84\xb9", 	// U+e139
+		"Phone":	"\xee\x84\xb3", 	// U+e133
+		"Pi":	"\xee\x91\xb2", 	// U+e472
+		"Piano":	"\xee\x95\xa1", 	// U+e561
+		"Pickaxe":	"\xee\x97\x86", 	// U+e5c6
+		"PictureInPicture2":	"\xee\x8e\xaf", 	// U+e3af
+		"PictureInPicture":	"\xee\x8e\xae", 	// U+e3ae
+		"PiggyBank":	"\xee\x84\xba", 	// U+e13a
+		"PilcrowLeft":	"\xee\x97\x9c", 	// U+e5dc
+		"PilcrowRight":	"\xee\x97\x9d", 	// U+e5dd
+		"Pilcrow":	"\xee\x8e\xa3", 	// U+e3a3
+		"PillBottle":	"\xee\x97\xaa", 	// U+e5ea
+		"Pill":	"\xee\x8e\xbd", 	// U+e3bd
 		"PinOff":	"\xee\x8a\xb6", 	// U+e2b6
 		"Pin":	"\xee\x89\x99", 	// U+e259
-		"Pipette":	"\xee\x84\xbf", 	// U+e13f
-		"Pizza":	"\xee\x8d\x98", 	// U+e358
-		"PlaneLanding":	"\xee\x8f\x91", 	// U+e3d1
-		"PlaneTakeoff":	"\xee\x8f\x92", 	// U+e3d2
+		"Pipette":	"\xee\x84\xbb", 	// U+e13b
+		"Pizza":	"\xee\x8d\x94", 	// U+e354
+		"PlaneLanding":	"\xee\x8f\x8d", 	// U+e3cd
+		"PlaneTakeoff":	"\xee\x8f\x8e", 	// U+e3ce
 		"Plane":	"\xee\x87\x9e", 	// U+e1de
-		"Play":	"\xee\x85\x80", 	// U+e140
-		"Plug2":	"\xee\x8e\x84", 	// U+e384
-		"PlugZap":	"\xee\x91\xa1", 	// U+e461
-		"Plug":	"\xee\x8e\x83", 	// U+e383
-		"Plus":	"\xee\x85\x81", 	// U+e141
-		"PocketKnife":	"\xee\x92\xa5", 	// U+e4a5
-		"Pocket":	"\xee\x85\x82", 	// U+e142
+		"Play":	"\xee\x84\xbc", 	// U+e13c
+		"Plug2":	"\xee\x8e\x80", 	// U+e380
+		"PlugZap":	"\xee\x91\x9c", 	// U+e45c
+		"Plug":	"\xee\x8d\xbf", 	// U+e37f
+		"Plus":	"\xee\x84\xbd", 	// U+e13d
+		"PocketKnife":	"\xee\x92\xa0", 	// U+e4a0
+		"Pocket":	"\xee\x84\xbe", 	// U+e13e
 		"Podcast":	"\xee\x87\xba", 	// U+e1fa
-		"PointerOff":	"\xee\x96\x84", 	// U+e584
+		"PointerOff":	"\xee\x95\xbf", 	// U+e57f
 		"Pointer":	"\xee\x87\xa8", 	// U+e1e8
-		"Popcorn":	"\xee\x93\x83", 	// U+e4c3
-		"Popsicle":	"\xee\x93\x84", 	// U+e4c4
-		"PoundSterling":	"\xee\x85\x83", 	// U+e143
+		"Popcorn":	"\xee\x92\xbe", 	// U+e4be
+		"Popsicle":	"\xee\x92\xbf", 	// U+e4bf
+		"PoundSterling":	"\xee\x84\xbf", 	// U+e13f
 		"PowerOff":	"\xee\x88\x89", 	// U+e209
-		"Power":	"\xee\x85\x84", 	// U+e144
-		"Presentation":	"\xee\x92\xb3", 	// U+e4b3
-		"PrinterCheck":	"\xee\x97\xba", 	// U+e5fa
-		"Printer":	"\xee\x85\x85", 	// U+e145
-		"Projector":	"\xee\x92\xb4", 	// U+e4b4
-		"Proportions":	"\xee\x97\x94", 	// U+e5d4
+		"Power":	"\xee\x85\x80", 	// U+e140
+		"Presentation":	"\xee\x92\xae", 	// U+e4ae
+		"PrinterCheck":	"\xee\x97\xb5", 	// U+e5f5
+		"Printer":	"\xee\x85\x81", 	// U+e141
+		"Projector":	"\xee\x92\xaf", 	// U+e4af
+		"Proportions":	"\xee\x97\x8f", 	// U+e5cf
 		"Puzzle":	"\xee\x8a\x9c", 	// U+e29c
-		"Pyramid":	"\xee\x94\xb1", 	// U+e531
+		"Pyramid":	"\xee\x94\xac", 	// U+e52c
 		"QrCode":	"\xee\x87\x9f", 	// U+e1df
 		"Quote":	"\xee\x88\xb9", 	// U+e239
-		"Rabbit":	"\xee\x93\xbb", 	// U+e4fb
-		"Radar":	"\xee\x92\x9c", 	// U+e49c
-		"Radiation":	"\xee\x91\x87", 	// U+e447
-		"Radical":	"\xee\x97\x87", 	// U+e5c7
+		"Rabbit":	"\xee\x93\xb6", 	// U+e4f6
+		"Radar":	"\xee\x92\x97", 	// U+e497
+		"Radiation":	"\xee\x91\x82", 	// U+e442
+		"Radical":	"\xee\x97\x82", 	// U+e5c2
 		"RadioReceiver":	"\xee\x87\xbb", 	// U+e1fb
-		"RadioTower":	"\xee\x90\x89", 	// U+e409
-		"Radio":	"\xee\x85\x86", 	// U+e146
-		"Radius":	"\xee\x94\xb2", 	// U+e532
-		"RailSymbol":	"\xee\x94\x86", 	// U+e506
-		"Rainbow":	"\xee\x93\x87", 	// U+e4c7
-		"Rat":	"\xee\x8f\xb0", 	// U+e3f0
-		"Ratio":	"\xee\x93\xad", 	// U+e4ed
-		"ReceiptCent":	"\xee\x96\xaa", 	// U+e5aa
-		"ReceiptEuro":	"\xee\x96\xab", 	// U+e5ab
-		"ReceiptIndianRupee":	"\xee\x96\xac", 	// U+e5ac
-		"ReceiptJapaneseYen":	"\xee\x96\xad", 	// U+e5ad
-		"ReceiptPoundSterling":	"\xee\x96\xae", 	// U+e5ae
-		"ReceiptRussianRuble":	"\xee\x96\xaf", 	// U+e5af
-		"ReceiptSwissFranc":	"\xee\x96\xb0", 	// U+e5b0
-		"ReceiptText":	"\xee\x96\xb1", 	// U+e5b1
-		"ReceiptTurkishLira":	"\xee\x9a\x84", 	// U+e684
-		"Receipt":	"\xee\x8f\x97", 	// U+e3d7
-		"RectangleCircle":	"\xee\x99\xb8", 	// U+e678
+		"RadioTower":	"\xee\x90\x84", 	// U+e404
+		"Radio":	"\xee\x85\x82", 	// U+e142
+		"Radius":	"\xee\x94\xad", 	// U+e52d
+		"RailSymbol":	"\xee\x94\x81", 	// U+e501
+		"Rainbow":	"\xee\x93\x82", 	// U+e4c2
+		"Rat":	"\xee\x8f\xab", 	// U+e3eb
+		"Ratio":	"\xee\x93\xa8", 	// U+e4e8
+		"ReceiptCent":	"\xee\x96\xa5", 	// U+e5a5
+		"ReceiptEuro":	"\xee\x96\xa6", 	// U+e5a6
+		"ReceiptIndianRupee":	"\xee\x96\xa7", 	// U+e5a7
+		"ReceiptJapaneseYen":	"\xee\x96\xa8", 	// U+e5a8
+		"ReceiptPoundSterling":	"\xee\x96\xa9", 	// U+e5a9
+		"ReceiptRussianRuble":	"\xee\x96\xaa", 	// U+e5aa
+		"ReceiptSwissFranc":	"\xee\x96\xab", 	// U+e5ab
+		"ReceiptText":	"\xee\x96\xac", 	// U+e5ac
+		"ReceiptTurkishLira":	"\xee\x99\xbf", 	// U+e67f
+		"Receipt":	"\xee\x8f\x93", 	// U+e3d3
+		"RectangleCircle":	"\xee\x99\xb3", 	// U+e673
 		"RectangleEllipsis":	"\xee\x88\x9f", 	// U+e21f
-		"RectangleGoggles":	"\xee\x99\x9b", 	// U+e65b
-		"RectangleHorizontal":	"\xee\x8d\xba", 	// U+e37a
-		"RectangleVertical":	"\xee\x8d\xbb", 	// U+e37b
+		"RectangleGoggles":	"\xee\x99\x96", 	// U+e656
+		"RectangleHorizontal":	"\xee\x8d\xb6", 	// U+e376
+		"RectangleVertical":	"\xee\x8d\xb7", 	// U+e377
 		"Recycle":	"\xee\x8b\xa9", 	// U+e2e9
 		"Redo2":	"\xee\x8a\xa0", 	// U+e2a0
-		"RedoDot":	"\xee\x91\x95", 	// U+e455
-		"Redo":	"\xee\x85\x87", 	// U+e147
-		"RefreshCcwDot":	"\xee\x92\xb7", 	// U+e4b7
-		"RefreshCcw":	"\xee\x85\x88", 	// U+e148
-		"RefreshCwOff":	"\xee\x92\x9d", 	// U+e49d
-		"RefreshCw":	"\xee\x85\x89", 	// U+e149
-		"Refrigerator":	"\xee\x8d\xbf", 	// U+e37f
+		"RedoDot":	"\xee\x91\x90", 	// U+e450
+		"Redo":	"\xee\x85\x83", 	// U+e143
+		"RefreshCcwDot":	"\xee\x92\xb2", 	// U+e4b2
+		"RefreshCcw":	"\xee\x85\x84", 	// U+e144
+		"RefreshCwOff":	"\xee\x92\x98", 	// U+e498
+		"RefreshCw":	"\xee\x85\x85", 	// U+e145
+		"Refrigerator":	"\xee\x8d\xbb", 	// U+e37b
 		"Regex":	"\xee\x87\xbc", 	// U+e1fc
-		"RemoveFormatting":	"\xee\x8e\xb7", 	// U+e3b7
+		"RemoveFormatting":	"\xee\x8e\xb3", 	// U+e3b3
 		"Repeat1":	"\xee\x87\xbd", 	// U+e1fd
-		"Repeat2":	"\xee\x90\x96", 	// U+e416
-		"Repeat":	"\xee\x85\x8a", 	// U+e14a
-		"ReplaceAll":	"\xee\x8f\xa0", 	// U+e3e0
-		"Replace":	"\xee\x8f\x9f", 	// U+e3df
+		"Repeat2":	"\xee\x90\x91", 	// U+e411
+		"Repeat":	"\xee\x85\x86", 	// U+e146
+		"ReplaceAll":	"\xee\x8f\x9c", 	// U+e3dc
+		"Replace":	"\xee\x8f\x9b", 	// U+e3db
 		"ReplyAll":	"\xee\x88\xab", 	// U+e22b
 		"Reply":	"\xee\x88\xaa", 	// U+e22a
-		"Rewind":	"\xee\x85\x8b", 	// U+e14b
-		"Ribbon":	"\xee\x95\x9d", 	// U+e55d
+		"Rewind":	"\xee\x85\x87", 	// U+e147
+		"Ribbon":	"\xee\x95\x98", 	// U+e558
 		"Rocket":	"\xee\x8a\x86", 	// U+e286
 		"RockingChair":	"\xee\x88\xb3", 	// U+e233
-		"RollerCoaster":	"\xee\x92\x85", 	// U+e485
+		"RollerCoaster":	"\xee\x92\x80", 	// U+e480
+		"Rose":	"\xee\x9a\x91", 	// U+e691
 		"Rotate3d":	"\xee\x8b\xaa", 	// U+e2ea
-		"RotateCcwKey":	"\xee\x99\x95", 	// U+e655
-		"RotateCcwSquare":	"\xee\x97\x95", 	// U+e5d5
-		"RotateCcw":	"\xee\x85\x8c", 	// U+e14c
-		"RotateCwSquare":	"\xee\x97\x96", 	// U+e5d6
-		"RotateCw":	"\xee\x85\x8d", 	// U+e14d
-		"RouteOff":	"\xee\x95\x84", 	// U+e544
-		"Route":	"\xee\x95\x83", 	// U+e543
-		"Router":	"\xee\x8f\x83", 	// U+e3c3
-		"Rows2":	"\xee\x90\xbe", 	// U+e43e
-		"Rows3":	"\xee\x96\x8f", 	// U+e58f
-		"Rows4":	"\xee\x96\x90", 	// U+e590
-		"Rss":	"\xee\x85\x8e", 	// U+e14e
-		"RulerDimensionLine":	"\xee\x99\xa7", 	// U+e667
-		"Ruler":	"\xee\x85\x8f", 	// U+e14f
-		"RussianRuble":	"\xee\x85\x90", 	// U+e150
-		"Sailboat":	"\xee\x8e\x82", 	// U+e382
-		"Salad":	"\xee\x8e\xac", 	// U+e3ac
-		"Sandwich":	"\xee\x8e\xad", 	// U+e3ad
-		"SatelliteDish":	"\xee\x91\x8d", 	// U+e44d
-		"Satellite":	"\xee\x91\x8c", 	// U+e44c
-		"SaudiRiyal":	"\xee\x99\x90", 	// U+e650
-		"SaveAll":	"\xee\x90\x94", 	// U+e414
-		"SaveOff":	"\xee\x97\xb8", 	// U+e5f8
-		"Save":	"\xee\x85\x91", 	// U+e151
+		"RotateCcwKey":	"\xee\x99\x90", 	// U+e650
+		"RotateCcwSquare":	"\xee\x97\x90", 	// U+e5d0
+		"RotateCcw":	"\xee\x85\x88", 	// U+e148
+		"RotateCwSquare":	"\xee\x97\x91", 	// U+e5d1
+		"RotateCw":	"\xee\x85\x89", 	// U+e149
+		"RouteOff":	"\xee\x94\xbf", 	// U+e53f
+		"Route":	"\xee\x94\xbe", 	// U+e53e
+		"Router":	"\xee\x8e\xbf", 	// U+e3bf
+		"Rows2":	"\xee\x90\xb9", 	// U+e439
+		"Rows3":	"\xee\x96\x8a", 	// U+e58a
+		"Rows4":	"\xee\x96\x8b", 	// U+e58b
+		"Rss":	"\xee\x85\x8a", 	// U+e14a
+		"RulerDimensionLine":	"\xee\x99\xa2", 	// U+e662
+		"Ruler":	"\xee\x85\x8b", 	// U+e14b
+		"RussianRuble":	"\xee\x85\x8c", 	// U+e14c
+		"Sailboat":	"\xee\x8d\xbe", 	// U+e37e
+		"Salad":	"\xee\x8e\xa8", 	// U+e3a8
+		"Sandwich":	"\xee\x8e\xa9", 	// U+e3a9
+		"SatelliteDish":	"\xee\x91\x88", 	// U+e448
+		"Satellite":	"\xee\x91\x87", 	// U+e447
+		"SaudiRiyal":	"\xee\x99\x8b", 	// U+e64b
+		"SaveAll":	"\xee\x90\x8f", 	// U+e40f
+		"SaveOff":	"\xee\x97\xb3", 	// U+e5f3
+		"Save":	"\xee\x85\x8d", 	// U+e14d
 		"Scale3d":	"\xee\x8b\xab", 	// U+e2eb
 		"Scale":	"\xee\x88\x92", 	// U+e212
 		"Scaling":	"\xee\x8b\xac", 	// U+e2ec
-		"ScanBarcode":	"\xee\x94\xba", 	// U+e53a
-		"ScanEye":	"\xee\x94\xbb", 	// U+e53b
-		"ScanFace":	"\xee\x8d\xb5", 	// U+e375
-		"ScanHeart":	"\xee\x98\xbf", 	// U+e63f
+		"ScanBarcode":	"\xee\x94\xb5", 	// U+e535
+		"ScanEye":	"\xee\x94\xb6", 	// U+e536
+		"ScanFace":	"\xee\x8d\xb1", 	// U+e371
+		"ScanHeart":	"\xee\x98\xba", 	// U+e63a
 		"ScanLine":	"\xee\x89\x98", 	// U+e258
-		"ScanQrCode":	"\xee\x97\xbb", 	// U+e5fb
-		"ScanSearch":	"\xee\x94\xbc", 	// U+e53c
-		"ScanText":	"\xee\x94\xbd", 	// U+e53d
+		"ScanQrCode":	"\xee\x97\xb6", 	// U+e5f6
+		"ScanSearch":	"\xee\x94\xb7", 	// U+e537
+		"ScanText":	"\xee\x94\xb8", 	// U+e538
 		"Scan":	"\xee\x89\x97", 	// U+e257
-		"School":	"\xee\x8f\xa7", 	// U+e3e7
-		"ScissorsLineDashed":	"\xee\x93\xae", 	// U+e4ee
-		"Scissors":	"\xee\x85\x92", 	// U+e152
-		"ScreenShareOff":	"\xee\x85\x94", 	// U+e154
-		"ScreenShare":	"\xee\x85\x93", 	// U+e153
-		"ScrollText":	"\xee\x91\xa4", 	// U+e464
+		"School":	"\xee\x8f\xa3", 	// U+e3e3
+		"ScissorsLineDashed":	"\xee\x93\xa9", 	// U+e4e9
+		"Scissors":	"\xee\x85\x8e", 	// U+e14e
+		"ScreenShareOff":	"\xee\x85\x90", 	// U+e150
+		"ScreenShare":	"\xee\x85\x8f", 	// U+e14f
+		"ScrollText":	"\xee\x91\x9f", 	// U+e45f
 		"Scroll":	"\xee\x8b\xad", 	// U+e2ed
-		"SearchCheck":	"\xee\x92\xaf", 	// U+e4af
-		"SearchCode":	"\xee\x92\xb0", 	// U+e4b0
-		"SearchSlash":	"\xee\x92\xb1", 	// U+e4b1
-		"SearchX":	"\xee\x92\xb2", 	// U+e4b2
-		"Search":	"\xee\x85\x95", 	// U+e155
-		"Section":	"\xee\x97\xad", 	// U+e5ed
-		"SendHorizontal":	"\xee\x93\xb7", 	// U+e4f7
-		"SendToBack":	"\xee\x93\xb8", 	// U+e4f8
-		"Send":	"\xee\x85\x96", 	// U+e156
+		"SearchCheck":	"\xee\x92\xaa", 	// U+e4aa
+		"SearchCode":	"\xee\x92\xab", 	// U+e4ab
+		"SearchSlash":	"\xee\x92\xac", 	// U+e4ac
+		"SearchX":	"\xee\x92\xad", 	// U+e4ad
+		"Search":	"\xee\x85\x91", 	// U+e151
+		"Section":	"\xee\x97\xa8", 	// U+e5e8
+		"SendHorizontal":	"\xee\x93\xb2", 	// U+e4f2
+		"SendToBack":	"\xee\x93\xb3", 	// U+e4f3
+		"Send":	"\xee\x85\x92", 	// U+e152
 		"SeparatorHorizontal":	"\xee\x87\x88", 	// U+e1c8
 		"SeparatorVertical":	"\xee\x87\x89", 	// U+e1c9
-		"ServerCog":	"\xee\x8d\x85", 	// U+e345
+		"ServerCog":	"\xee\x8d\x81", 	// U+e341
 		"ServerCrash":	"\xee\x87\xa9", 	// U+e1e9
 		"ServerOff":	"\xee\x87\xaa", 	// U+e1ea
-		"Server":	"\xee\x85\x97", 	// U+e157
+		"Server":	"\xee\x85\x93", 	// U+e153
 		"Settings2":	"\xee\x89\x85", 	// U+e245
-		"Settings":	"\xee\x85\x98", 	// U+e158
-		"Shapes":	"\xee\x92\xb8", 	// U+e4b8
-		"Share2":	"\xee\x85\x9a", 	// U+e15a
-		"Share":	"\xee\x85\x99", 	// U+e159
-		"Sheet":	"\xee\x85\x9b", 	// U+e15b
-		"Shell":	"\xee\x93\xbc", 	// U+e4fc
+		"Settings":	"\xee\x85\x94", 	// U+e154
+		"Shapes":	"\xee\x92\xb3", 	// U+e4b3
+		"Share2":	"\xee\x85\x96", 	// U+e156
+		"Share":	"\xee\x85\x95", 	// U+e155
+		"Sheet":	"\xee\x85\x97", 	// U+e157
+		"Shell":	"\xee\x93\xb7", 	// U+e4f7
 		"ShieldAlert":	"\xee\x87\xbe", 	// U+e1fe
-		"ShieldBan":	"\xee\x85\x9d", 	// U+e15d
+		"ShieldBan":	"\xee\x85\x99", 	// U+e159
 		"ShieldCheck":	"\xee\x87\xbf", 	// U+e1ff
-		"ShieldEllipsis":	"\xee\x94\x9b", 	// U+e51b
-		"ShieldHalf":	"\xee\x94\x9c", 	// U+e51c
-		"ShieldMinus":	"\xee\x94\x9d", 	// U+e51d
-		"ShieldOff":	"\xee\x85\x9e", 	// U+e15e
-		"ShieldPlus":	"\xee\x94\x9e", 	// U+e51e
-		"ShieldQuestionMark":	"\xee\x90\x93", 	// U+e413
-		"ShieldUser":	"\xee\x99\x8c", 	// U+e64c
+		"ShieldEllipsis":	"\xee\x94\x96", 	// U+e516
+		"ShieldHalf":	"\xee\x94\x97", 	// U+e517
+		"ShieldMinus":	"\xee\x94\x98", 	// U+e518
+		"ShieldOff":	"\xee\x85\x9a", 	// U+e15a
+		"ShieldPlus":	"\xee\x94\x99", 	// U+e519
+		"ShieldQuestionMark":	"\xee\x90\x8e", 	// U+e40e
+		"ShieldUser":	"\xee\x99\x87", 	// U+e647
 		"ShieldX":	"\xee\x88\x80", 	// U+e200
-		"Shield":	"\xee\x85\x9c", 	// U+e15c
-		"ShipWheel":	"\xee\x94\x87", 	// U+e507
-		"Ship":	"\xee\x8e\xbe", 	// U+e3be
+		"Shield":	"\xee\x85\x98", 	// U+e158
+		"ShipWheel":	"\xee\x94\x82", 	// U+e502
+		"Ship":	"\xee\x8e\xba", 	// U+e3ba
 		"Shirt":	"\xee\x87\x8a", 	// U+e1ca
-		"ShoppingBag":	"\xee\x85\x9f", 	// U+e15f
-		"ShoppingBasket":	"\xee\x93\xaf", 	// U+e4ef
-		"ShoppingCart":	"\xee\x85\xa0", 	// U+e160
-		"Shovel":	"\xee\x85\xa1", 	// U+e161
-		"ShowerHead":	"\xee\x8e\x80", 	// U+e380
-		"Shredder":	"\xee\x99\xa0", 	// U+e660
-		"Shrimp":	"\xee\x99\x8e", 	// U+e64e
+		"ShoppingBag":	"\xee\x85\x9b", 	// U+e15b
+		"ShoppingBasket":	"\xee\x93\xaa", 	// U+e4ea
+		"ShoppingCart":	"\xee\x85\x9c", 	// U+e15c
+		"Shovel":	"\xee\x85\x9d", 	// U+e15d
+		"ShowerHead":	"\xee\x8d\xbc", 	// U+e37c
+		"Shredder":	"\xee\x99\x9b", 	// U+e65b
+		"Shrimp":	"\xee\x99\x89", 	// U+e649
 		"Shrink":	"\xee\x88\xa0", 	// U+e220
 		"Shrub":	"\xee\x8b\xae", 	// U+e2ee
-		"Shuffle":	"\xee\x85\xa2", 	// U+e162
+		"Shuffle":	"\xee\x85\x9e", 	// U+e15e
 		"Sigma":	"\xee\x88\x81", 	// U+e201
 		"SignalHigh":	"\xee\x89\xa0", 	// U+e260
 		"SignalLow":	"\xee\x89\xa1", 	// U+e261
 		"SignalMedium":	"\xee\x89\xa2", 	// U+e262
 		"SignalZero":	"\xee\x89\xa3", 	// U+e263
 		"Signal":	"\xee\x89\x9f", 	// U+e25f
-		"Signature":	"\xee\x97\xb7", 	// U+e5f7
-		"SignpostBig":	"\xee\x95\x86", 	// U+e546
-		"Signpost":	"\xee\x95\x85", 	// U+e545
+		"Signature":	"\xee\x97\xb2", 	// U+e5f2
+		"SignpostBig":	"\xee\x95\x81", 	// U+e541
+		"Signpost":	"\xee\x95\x80", 	// U+e540
 		"Siren":	"\xee\x8b\xaf", 	// U+e2ef
-		"SkipBack":	"\xee\x85\xa3", 	// U+e163
-		"SkipForward":	"\xee\x85\xa4", 	// U+e164
+		"SkipBack":	"\xee\x85\x9f", 	// U+e15f
+		"SkipForward":	"\xee\x85\xa0", 	// U+e160
 		"Skull":	"\xee\x88\xa1", 	// U+e221
-		"Slack":	"\xee\x85\xa5", 	// U+e165
-		"Slash":	"\xee\x94\xa2", 	// U+e522
+		"Slack":	"\xee\x85\xa1", 	// U+e161
+		"Slash":	"\xee\x94\x9d", 	// U+e51d
 		"Slice":	"\xee\x8b\xb0", 	// U+e2f0
 		"SlidersHorizontal":	"\xee\x8a\x9a", 	// U+e29a
-		"SlidersVertical":	"\xee\x85\xa6", 	// U+e166
+		"SlidersVertical":	"\xee\x85\xa2", 	// U+e162
 		"SmartphoneCharging":	"\xee\x88\xae", 	// U+e22e
-		"SmartphoneNfc":	"\xee\x8f\x88", 	// U+e3c8
-		"Smartphone":	"\xee\x85\xa7", 	// U+e167
+		"SmartphoneNfc":	"\xee\x8f\x84", 	// U+e3c4
+		"Smartphone":	"\xee\x85\xa3", 	// U+e163
 		"SmilePlus":	"\xee\x8c\x81", 	// U+e301
-		"Smile":	"\xee\x85\xa8", 	// U+e168
-		"Snail":	"\xee\x93\xbd", 	// U+e4fd
-		"Snowflake":	"\xee\x85\xa9", 	// U+e169
-		"SoapDispenserDroplet":	"\xee\x99\xae", 	// U+e66e
+		"Smile":	"\xee\x85\xa4", 	// U+e164
+		"Snail":	"\xee\x93\xb8", 	// U+e4f8
+		"Snowflake":	"\xee\x85\xa5", 	// U+e165
+		"SoapDispenserDroplet":	"\xee\x99\xa9", 	// U+e669
 		"Sofa":	"\xee\x8b\x84", 	// U+e2c4
-		"Soup":	"\xee\x8e\xae", 	// U+e3ae
-		"Space":	"\xee\x8f\xa1", 	// U+e3e1
-		"Spade":	"\xee\x92\x9e", 	// U+e49e
-		"Sparkle":	"\xee\x92\x83", 	// U+e483
-		"Sparkles":	"\xee\x90\x97", 	// U+e417
-		"Speaker":	"\xee\x85\xaa", 	// U+e16a
-		"Speech":	"\xee\x94\xa3", 	// U+e523
-		"SpellCheck2":	"\xee\x92\xa0", 	// U+e4a0
-		"SpellCheck":	"\xee\x92\x9f", 	// U+e49f
-		"SplinePointer":	"\xee\x99\x94", 	// U+e654
-		"Spline":	"\xee\x8e\x8f", 	// U+e38f
-		"Split":	"\xee\x91\x85", 	// U+e445
-		"Spool":	"\xee\x99\xbc", 	// U+e67c
-		"Spotlight":	"\xee\x9a\x87", 	// U+e687
-		"SprayCan":	"\xee\x92\x9a", 	// U+e49a
+		"SolarPanel":	"\xee\x9a\x9f", 	// U+e69f
+		"Soup":	"\xee\x8e\xaa", 	// U+e3aa
+		"Space":	"\xee\x8f\x9d", 	// U+e3dd
+		"Spade":	"\xee\x92\x99", 	// U+e499
+		"Sparkle":	"\xee\x91\xbe", 	// U+e47e
+		"Sparkles":	"\xee\x90\x92", 	// U+e412
+		"Speaker":	"\xee\x85\xa6", 	// U+e166
+		"Speech":	"\xee\x94\x9e", 	// U+e51e
+		"SpellCheck2":	"\xee\x92\x9b", 	// U+e49b
+		"SpellCheck":	"\xee\x92\x9a", 	// U+e49a
+		"SplinePointer":	"\xee\x99\x8f", 	// U+e64f
+		"Spline":	"\xee\x8e\x8b", 	// U+e38b
+		"Split":	"\xee\x91\x80", 	// U+e440
+		"Spool":	"\xee\x99\xb7", 	// U+e677
+		"Spotlight":	"\xee\x9a\x82", 	// U+e682
+		"SprayCan":	"\xee\x92\x95", 	// U+e495
 		"Sprout":	"\xee\x87\xab", 	// U+e1eb
-		"SquareActivity":	"\xee\x92\xb9", 	// U+e4b9
-		"SquareArrowDownLeft":	"\xee\x92\xba", 	// U+e4ba
-		"SquareArrowDownRight":	"\xee\x92\xbb", 	// U+e4bb
-		"SquareArrowDown":	"\xee\x90\xac", 	// U+e42c
-		"SquareArrowLeft":	"\xee\x90\xad", 	// U+e42d
-		"SquareArrowOutDownLeft":	"\xee\x96\xa6", 	// U+e5a6
-		"SquareArrowOutDownRight":	"\xee\x96\xa7", 	// U+e5a7
-		"SquareArrowOutUpLeft":	"\xee\x96\xa8", 	// U+e5a8
-		"SquareArrowOutUpRight":	"\xee\x96\xa9", 	// U+e5a9
-		"SquareArrowRight":	"\xee\x90\xae", 	// U+e42e
-		"SquareArrowUpLeft":	"\xee\x92\xbc", 	// U+e4bc
-		"SquareArrowUpRight":	"\xee\x92\xbd", 	// U+e4bd
-		"SquareArrowUp":	"\xee\x90\xaf", 	// U+e42f
-		"SquareAsterisk":	"\xee\x85\xac", 	// U+e16c
-		"SquareBottomDashedScissors":	"\xee\x93\xb0", 	// U+e4f0
-		"SquareChartGantt":	"\xee\x85\xad", 	// U+e16d
-		"SquareCheckBig":	"\xee\x85\xae", 	// U+e16e
-		"SquareCheck":	"\xee\x95\x9e", 	// U+e55e
-		"SquareChevronDown":	"\xee\x8f\x93", 	// U+e3d3
-		"SquareChevronLeft":	"\xee\x8f\x94", 	// U+e3d4
-		"SquareChevronRight":	"\xee\x8f\x95", 	// U+e3d5
-		"SquareChevronUp":	"\xee\x8f\x96", 	// U+e3d6
-		"SquareCode":	"\xee\x85\xaf", 	// U+e16f
-		"SquareDashedBottomCode":	"\xee\x93\x86", 	// U+e4c6
-		"SquareDashedBottom":	"\xee\x93\x85", 	// U+e4c5
-		"SquareDashedKanban":	"\xee\x85\xb0", 	// U+e170
-		"SquareDashedMousePointer":	"\xee\x94\x8e", 	// U+e50e
-		"SquareDashedTopSolid":	"\xee\x99\xb1", 	// U+e671
+		"SquareActivity":	"\xee\x92\xb4", 	// U+e4b4
+		"SquareArrowDownLeft":	"\xee\x92\xb5", 	// U+e4b5
+		"SquareArrowDownRight":	"\xee\x92\xb6", 	// U+e4b6
+		"SquareArrowDown":	"\xee\x90\xa7", 	// U+e427
+		"SquareArrowLeft":	"\xee\x90\xa8", 	// U+e428
+		"SquareArrowOutDownLeft":	"\xee\x96\xa1", 	// U+e5a1
+		"SquareArrowOutDownRight":	"\xee\x96\xa2", 	// U+e5a2
+		"SquareArrowOutUpLeft":	"\xee\x96\xa3", 	// U+e5a3
+		"SquareArrowOutUpRight":	"\xee\x96\xa4", 	// U+e5a4
+		"SquareArrowRight":	"\xee\x90\xa9", 	// U+e429
+		"SquareArrowUpLeft":	"\xee\x92\xb7", 	// U+e4b7
+		"SquareArrowUpRight":	"\xee\x92\xb8", 	// U+e4b8
+		"SquareArrowUp":	"\xee\x90\xaa", 	// U+e42a
+		"SquareAsterisk":	"\xee\x85\xa8", 	// U+e168
+		"SquareBottomDashedScissors":	"\xee\x93\xab", 	// U+e4eb
+		"SquareChartGantt":	"\xee\x85\xa9", 	// U+e169
+		"SquareCheckBig":	"\xee\x85\xaa", 	// U+e16a
+		"SquareCheck":	"\xee\x95\x99", 	// U+e559
+		"SquareChevronDown":	"\xee\x8f\x8f", 	// U+e3cf
+		"SquareChevronLeft":	"\xee\x8f\x90", 	// U+e3d0
+		"SquareChevronRight":	"\xee\x8f\x91", 	// U+e3d1
+		"SquareChevronUp":	"\xee\x8f\x92", 	// U+e3d2
+		"SquareCode":	"\xee\x85\xab", 	// U+e16b
+		"SquareDashedBottomCode":	"\xee\x93\x81", 	// U+e4c1
+		"SquareDashedBottom":	"\xee\x93\x80", 	// U+e4c0
+		"SquareDashedKanban":	"\xee\x85\xac", 	// U+e16c
+		"SquareDashedMousePointer":	"\xee\x94\x89", 	// U+e509
+		"SquareDashedTopSolid":	"\xee\x99\xac", 	// U+e66c
 		"SquareDashed":	"\xee\x87\x8b", 	// U+e1cb
-		"SquareDivide":	"\xee\x85\xb1", 	// U+e171
-		"SquareDot":	"\xee\x85\xb2", 	// U+e172
-		"SquareEqual":	"\xee\x85\xb3", 	// U+e173
+		"SquareDivide":	"\xee\x85\xad", 	// U+e16d
+		"SquareDot":	"\xee\x85\xae", 	// U+e16e
+		"SquareEqual":	"\xee\x85\xaf", 	// U+e16f
 		"SquareFunction":	"\xee\x88\xad", 	// U+e22d
-		"SquareKanban":	"\xee\x85\xb4", 	// U+e174
-		"SquareLibrary":	"\xee\x95\x94", 	// U+e554
-		"SquareM":	"\xee\x94\x88", 	// U+e508
-		"SquareMenu":	"\xee\x91\x98", 	// U+e458
-		"SquareMinus":	"\xee\x85\xb5", 	// U+e175
+		"SquareKanban":	"\xee\x85\xb0", 	// U+e170
+		"SquareLibrary":	"\xee\x95\x8f", 	// U+e54f
+		"SquareM":	"\xee\x94\x83", 	// U+e503
+		"SquareMenu":	"\xee\x91\x93", 	// U+e453
+		"SquareMinus":	"\xee\x85\xb1", 	// U+e171
 		"SquareMousePointer":	"\xee\x88\x82", 	// U+e202
-		"SquareParkingOff":	"\xee\x8f\x90", 	// U+e3d0
-		"SquareParking":	"\xee\x8f\x8f", 	// U+e3cf
-		"SquarePause":	"\xee\x9a\x89", 	// U+e689
-		"SquarePen":	"\xee\x85\xb6", 	// U+e176
-		"SquarePercent":	"\xee\x94\xa1", 	// U+e521
-		"SquarePi":	"\xee\x92\x8d", 	// U+e48d
-		"SquarePilcrow":	"\xee\x92\x90", 	// U+e490
-		"SquarePlay":	"\xee\x92\x86", 	// U+e486
-		"SquarePlus":	"\xee\x85\xb7", 	// U+e177
-		"SquarePower":	"\xee\x95\x96", 	// U+e556
-		"SquareRadical":	"\xee\x97\x88", 	// U+e5c8
-		"SquareRoundCorner":	"\xee\x99\x8d", 	// U+e64d
-		"SquareScissors":	"\xee\x93\xb1", 	// U+e4f1
-		"SquareSigma":	"\xee\x92\x8e", 	// U+e48e
-		"SquareSlash":	"\xee\x85\xb8", 	// U+e178
-		"SquareSplitHorizontal":	"\xee\x8e\xba", 	// U+e3ba
-		"SquareSplitVertical":	"\xee\x8e\xbb", 	// U+e3bb
-		"SquareSquare":	"\xee\x98\x93", 	// U+e613
-		"SquareStack":	"\xee\x92\xa7", 	// U+e4a7
-		"SquareStar":	"\xee\x9a\x93", 	// U+e693
-		"SquareStop":	"\xee\x9a\x8a", 	// U+e68a
+		"SquareParkingOff":	"\xee\x8f\x8c", 	// U+e3cc
+		"SquareParking":	"\xee\x8f\x8b", 	// U+e3cb
+		"SquarePause":	"\xee\x9a\x84", 	// U+e684
+		"SquarePen":	"\xee\x85\xb2", 	// U+e172
+		"SquarePercent":	"\xee\x94\x9c", 	// U+e51c
+		"SquarePi":	"\xee\x92\x88", 	// U+e488
+		"SquarePilcrow":	"\xee\x92\x8b", 	// U+e48b
+		"SquarePlay":	"\xee\x92\x81", 	// U+e481
+		"SquarePlus":	"\xee\x85\xb3", 	// U+e173
+		"SquarePower":	"\xee\x95\x91", 	// U+e551
+		"SquareRadical":	"\xee\x97\x83", 	// U+e5c3
+		"SquareRoundCorner":	"\xee\x99\x88", 	// U+e648
+		"SquareScissors":	"\xee\x93\xac", 	// U+e4ec
+		"SquareSigma":	"\xee\x92\x89", 	// U+e489
+		"SquareSlash":	"\xee\x85\xb4", 	// U+e174
+		"SquareSplitHorizontal":	"\xee\x8e\xb6", 	// U+e3b6
+		"SquareSplitVertical":	"\xee\x8e\xb7", 	// U+e3b7
+		"SquareSquare":	"\xee\x98\x8e", 	// U+e60e
+		"SquareStack":	"\xee\x92\xa2", 	// U+e4a2
+		"SquareStar":	"\xee\x9a\x8e", 	// U+e68e
+		"SquareStop":	"\xee\x9a\x85", 	// U+e685
 		"SquareTerminal":	"\xee\x88\x8a", 	// U+e20a
-		"SquareUserRound":	"\xee\x91\xab", 	// U+e46b
-		"SquareUser":	"\xee\x91\xaa", 	// U+e46a
-		"SquareX":	"\xee\x85\xb9", 	// U+e179
-		"Square":	"\xee\x85\xab", 	// U+e16b
-		"SquaresExclude":	"\xee\x99\x9c", 	// U+e65c
-		"SquaresIntersect":	"\xee\x99\x9d", 	// U+e65d
-		"SquaresSubtract":	"\xee\x99\x9e", 	// U+e65e
-		"SquaresUnite":	"\xee\x99\x9f", 	// U+e65f
-		"SquircleDashed":	"\xee\x99\xbe", 	// U+e67e
-		"Squircle":	"\xee\x95\xbf", 	// U+e57f
-		"Squirrel":	"\xee\x92\xa4", 	// U+e4a4
-		"Stamp":	"\xee\x8e\xbf", 	// U+e3bf
+		"SquareUserRound":	"\xee\x91\xa6", 	// U+e466
+		"SquareUser":	"\xee\x91\xa5", 	// U+e465
+		"SquareX":	"\xee\x85\xb5", 	// U+e175
+		"Square":	"\xee\x85\xa7", 	// U+e167
+		"SquaresExclude":	"\xee\x99\x97", 	// U+e657
+		"SquaresIntersect":	"\xee\x99\x98", 	// U+e658
+		"SquaresSubtract":	"\xee\x99\x99", 	// U+e659
+		"SquaresUnite":	"\xee\x99\x9a", 	// U+e65a
+		"SquircleDashed":	"\xee\x99\xb9", 	// U+e679
+		"Squircle":	"\xee\x95\xba", 	// U+e57a
+		"Squirrel":	"\xee\x92\x9f", 	// U+e49f
+		"Stamp":	"\xee\x8e\xbb", 	// U+e3bb
 		"StarHalf":	"\xee\x88\x8b", 	// U+e20b
 		"StarOff":	"\xee\x8a\xb0", 	// U+e2b0
-		"Star":	"\xee\x85\xba", 	// U+e17a
-		"StepBack":	"\xee\x8f\xad", 	// U+e3ed
-		"StepForward":	"\xee\x8f\xae", 	// U+e3ee
+		"Star":	"\xee\x85\xb6", 	// U+e176
+		"StepBack":	"\xee\x8f\xa9", 	// U+e3e9
+		"StepForward":	"\xee\x8f\xaa", 	// U+e3ea
 		"Stethoscope":	"\xee\x8b\xb1", 	// U+e2f1
 		"Sticker":	"\xee\x8c\x82", 	// U+e302
 		"StickyNote":	"\xee\x8c\x83", 	// U+e303
-		"Store":	"\xee\x8f\xa8", 	// U+e3e8
+		"Store":	"\xee\x8f\xa4", 	// U+e3e4
 		"StretchHorizontal":	"\xee\x89\xbc", 	// U+e27c
 		"StretchVertical":	"\xee\x89\xbd", 	// U+e27d
-		"Strikethrough":	"\xee\x85\xbb", 	// U+e17b
+		"Strikethrough":	"\xee\x85\xb7", 	// U+e177
 		"Subscript":	"\xee\x89\x9c", 	// U+e25c
 		"SunDim":	"\xee\x8a\x99", 	// U+e299
 		"SunMedium":	"\xee\x8a\xb1", 	// U+e2b1
 		"SunMoon":	"\xee\x8a\xb2", 	// U+e2b2
-		"SunSnow":	"\xee\x8d\xb6", 	// U+e376
-		"Sun":	"\xee\x85\xbc", 	// U+e17c
-		"Sunrise":	"\xee\x85\xbd", 	// U+e17d
-		"Sunset":	"\xee\x85\xbe", 	// U+e17e
+		"SunSnow":	"\xee\x8d\xb2", 	// U+e372
+		"Sun":	"\xee\x85\xb8", 	// U+e178
+		"Sunrise":	"\xee\x85\xb9", 	// U+e179
+		"Sunset":	"\xee\x85\xba", 	// U+e17a
 		"Superscript":	"\xee\x89\x9e", 	// U+e25e
-		"SwatchBook":	"\xee\x96\xa4", 	// U+e5a4
-		"SwissFranc":	"\xee\x85\xbf", 	// U+e17f
-		"SwitchCamera":	"\xee\x86\x80", 	// U+e180
+		"SwatchBook":	"\xee\x96\x9f", 	// U+e59f
+		"SwissFranc":	"\xee\x85\xbb", 	// U+e17b
+		"SwitchCamera":	"\xee\x85\xbc", 	// U+e17c
 		"Sword":	"\xee\x8a\xb3", 	// U+e2b3
 		"Swords":	"\xee\x8a\xb4", 	// U+e2b4
 		"Syringe":	"\xee\x8b\xb2", 	// U+e2f2
 		"Table2":	"\xee\x8b\xb9", 	// U+e2f9
-		"TableCellsMerge":	"\xee\x97\x8c", 	// U+e5cc
-		"TableCellsSplit":	"\xee\x97\x8d", 	// U+e5cd
-		"TableColumnsSplit":	"\xee\x97\x8e", 	// U+e5ce
-		"TableOfContents":	"\xee\x98\xa3", 	// U+e623
-		"TableProperties":	"\xee\x93\xa0", 	// U+e4e0
-		"TableRowsSplit":	"\xee\x97\x8f", 	// U+e5cf
-		"Table":	"\xee\x86\x81", 	// U+e181
-		"TabletSmartphone":	"\xee\x94\x8f", 	// U+e50f
-		"Tablet":	"\xee\x86\x82", 	// U+e182
-		"Tablets":	"\xee\x8f\x82", 	// U+e3c2
-		"Tag":	"\xee\x86\x83", 	// U+e183
-		"Tags":	"\xee\x8d\xa0", 	// U+e360
-		"Tally1":	"\xee\x93\x9b", 	// U+e4db
-		"Tally2":	"\xee\x93\x9c", 	// U+e4dc
-		"Tally3":	"\xee\x93\x9d", 	// U+e4dd
-		"Tally4":	"\xee\x93\x9e", 	// U+e4de
-		"Tally5":	"\xee\x93\x9f", 	// U+e4df
-		"Tangent":	"\xee\x94\xb3", 	// U+e533
-		"Target":	"\xee\x86\x84", 	// U+e184
-		"Telescope":	"\xee\x97\x8a", 	// U+e5ca
-		"TentTree":	"\xee\x95\x80", 	// U+e540
+		"TableCellsMerge":	"\xee\x97\x87", 	// U+e5c7
+		"TableCellsSplit":	"\xee\x97\x88", 	// U+e5c8
+		"TableColumnsSplit":	"\xee\x97\x89", 	// U+e5c9
+		"TableOfContents":	"\xee\x98\x9e", 	// U+e61e
+		"TableProperties":	"\xee\x93\x9b", 	// U+e4db
+		"TableRowsSplit":	"\xee\x97\x8a", 	// U+e5ca
+		"Table":	"\xee\x85\xbd", 	// U+e17d
+		"TabletSmartphone":	"\xee\x94\x8a", 	// U+e50a
+		"Tablet":	"\xee\x85\xbe", 	// U+e17e
+		"Tablets":	"\xee\x8e\xbe", 	// U+e3be
+		"Tag":	"\xee\x85\xbf", 	// U+e17f
+		"Tags":	"\xee\x8d\x9c", 	// U+e35c
+		"Tally1":	"\xee\x93\x96", 	// U+e4d6
+		"Tally2":	"\xee\x93\x97", 	// U+e4d7
+		"Tally3":	"\xee\x93\x98", 	// U+e4d8
+		"Tally4":	"\xee\x93\x99", 	// U+e4d9
+		"Tally5":	"\xee\x93\x9a", 	// U+e4da
+		"Tangent":	"\xee\x94\xae", 	// U+e52e
+		"Target":	"\xee\x86\x80", 	// U+e180
+		"Telescope":	"\xee\x97\x85", 	// U+e5c5
+		"TentTree":	"\xee\x94\xbb", 	// U+e53b
 		"Tent":	"\xee\x88\xa7", 	// U+e227
-		"Terminal":	"\xee\x86\x85", 	// U+e185
-		"TestTubeDiagonal":	"\xee\x90\x8b", 	// U+e40b
-		"TestTube":	"\xee\x90\x8a", 	// U+e40a
-		"TestTubes":	"\xee\x90\x8c", 	// U+e40c
+		"Terminal":	"\xee\x86\x81", 	// U+e181
+		"TestTubeDiagonal":	"\xee\x90\x86", 	// U+e406
+		"TestTube":	"\xee\x90\x85", 	// U+e405
+		"TestTubes":	"\xee\x90\x87", 	// U+e407
+		"TextAlignCenter":	"\xee\x86\x82", 	// U+e182
+		"TextAlignEnd":	"\xee\x86\x83", 	// U+e183
+		"TextAlignJustify":	"\xee\x86\x84", 	// U+e184
+		"TextAlignStart":	"\xee\x86\x85", 	// U+e185
 		"TextCursorInput":	"\xee\x89\xa5", 	// U+e265
 		"TextCursor":	"\xee\x89\xa4", 	// U+e264
-		"TextQuote":	"\xee\x92\xa3", 	// U+e4a3
-		"TextSearch":	"\xee\x96\xb2", 	// U+e5b2
-		"TextSelect":	"\xee\x8f\xa2", 	// U+e3e2
-		"Text":	"\xee\x8f\xaf", 	// U+e3ef
-		"Theater":	"\xee\x94\xa7", 	// U+e527
+		"TextInitial":	"\xee\x98\x85", 	// U+e605
+		"TextQuote":	"\xee\x92\x9e", 	// U+e49e
+		"TextSearch":	"\xee\x96\xad", 	// U+e5ad
+		"TextSelect":	"\xee\x8f\x9e", 	// U+e3de
+		"TextWrap":	"\xee\x89\x88", 	// U+e248
+		"Theater":	"\xee\x94\xa2", 	// U+e522
 		"ThermometerSnowflake":	"\xee\x86\x87", 	// U+e187
 		"ThermometerSun":	"\xee\x86\x88", 	// U+e188
 		"Thermometer":	"\xee\x86\x86", 	// U+e186
 		"ThumbsDown":	"\xee\x86\x89", 	// U+e189
 		"ThumbsUp":	"\xee\x86\x8a", 	// U+e18a
-		"TicketCheck":	"\xee\x96\xb3", 	// U+e5b3
-		"TicketMinus":	"\xee\x96\xb4", 	// U+e5b4
-		"TicketPercent":	"\xee\x96\xb5", 	// U+e5b5
-		"TicketPlus":	"\xee\x96\xb6", 	// U+e5b6
-		"TicketSlash":	"\xee\x96\xb7", 	// U+e5b7
-		"TicketX":	"\xee\x96\xb8", 	// U+e5b8
+		"TicketCheck":	"\xee\x96\xae", 	// U+e5ae
+		"TicketMinus":	"\xee\x96\xaf", 	// U+e5af
+		"TicketPercent":	"\xee\x96\xb0", 	// U+e5b0
+		"TicketPlus":	"\xee\x96\xb1", 	// U+e5b1
+		"TicketSlash":	"\xee\x96\xb2", 	// U+e5b2
+		"TicketX":	"\xee\x96\xb3", 	// U+e5b3
 		"Ticket":	"\xee\x88\x8f", 	// U+e20f
-		"TicketsPlane":	"\xee\x98\xa8", 	// U+e628
-		"Tickets":	"\xee\x98\xa7", 	// U+e627
+		"TicketsPlane":	"\xee\x98\xa3", 	// U+e623
+		"Tickets":	"\xee\x98\xa2", 	// U+e622
 		"TimerOff":	"\xee\x89\x89", 	// U+e249
 		"TimerReset":	"\xee\x88\xb6", 	// U+e236
 		"Timer":	"\xee\x87\xa0", 	// U+e1e0
 		"ToggleLeft":	"\xee\x86\x8b", 	// U+e18b
 		"ToggleRight":	"\xee\x86\x8c", 	// U+e18c
-		"Toilet":	"\xee\x98\xba", 	// U+e63a
-		"ToolCase":	"\xee\x9a\x82", 	// U+e682
+		"Toilet":	"\xee\x98\xb5", 	// U+e635
+		"ToolCase":	"\xee\x99\xbd", 	// U+e67d
 		"Tornado":	"\xee\x88\x98", 	// U+e218
-		"Torus":	"\xee\x94\xb4", 	// U+e534
-		"TouchpadOff":	"\xee\x91\x8f", 	// U+e44f
-		"Touchpad":	"\xee\x91\x8e", 	// U+e44e
-		"TowerControl":	"\xee\x8f\x80", 	// U+e3c0
-		"ToyBrick":	"\xee\x8d\x8b", 	// U+e34b
-		"Tractor":	"\xee\x94\x89", 	// U+e509
-		"TrafficCone":	"\xee\x94\x8a", 	// U+e50a
-		"TrainFrontTunnel":	"\xee\x94\x8c", 	// U+e50c
-		"TrainFront":	"\xee\x94\x8b", 	// U+e50b
-		"TrainTrack":	"\xee\x94\x8d", 	// U+e50d
+		"Torus":	"\xee\x94\xaf", 	// U+e52f
+		"TouchpadOff":	"\xee\x91\x8a", 	// U+e44a
+		"Touchpad":	"\xee\x91\x89", 	// U+e449
+		"TowerControl":	"\xee\x8e\xbc", 	// U+e3bc
+		"ToyBrick":	"\xee\x8d\x87", 	// U+e347
+		"Tractor":	"\xee\x94\x84", 	// U+e504
+		"TrafficCone":	"\xee\x94\x85", 	// U+e505
+		"TrainFrontTunnel":	"\xee\x94\x87", 	// U+e507
+		"TrainFront":	"\xee\x94\x86", 	// U+e506
+		"TrainTrack":	"\xee\x94\x88", 	// U+e508
 		"TramFront":	"\xee\x8a\xa9", 	// U+e2a9
-		"Transgender":	"\xee\x99\x89", 	// U+e649
+		"Transgender":	"\xee\x99\x84", 	// U+e644
 		"Trash2":	"\xee\x86\x8e", 	// U+e18e
 		"Trash":	"\xee\x86\x8d", 	// U+e18d
 		"TreeDeciduous":	"\xee\x8b\xb3", 	// U+e2f3
@@ -1524,118 +1543,117 @@ var IconsLucide = Font{
 		"Trees":	"\xee\x8b\xb5", 	// U+e2f5
 		"Trello":	"\xee\x86\x8f", 	// U+e18f
 		"TrendingDown":	"\xee\x86\x90", 	// U+e190
-		"TrendingUpDown":	"\xee\x98\xaa", 	// U+e62a
+		"TrendingUpDown":	"\xee\x98\xa5", 	// U+e625
 		"TrendingUp":	"\xee\x86\x91", 	// U+e191
 		"TriangleAlert":	"\xee\x86\x93", 	// U+e193
-		"TriangleDashed":	"\xee\x99\x82", 	// U+e642
-		"TriangleRight":	"\xee\x93\xb2", 	// U+e4f2
+		"TriangleDashed":	"\xee\x98\xbd", 	// U+e63d
+		"TriangleRight":	"\xee\x93\xad", 	// U+e4ed
 		"Triangle":	"\xee\x86\x92", 	// U+e192
-		"Trophy":	"\xee\x8d\xb7", 	// U+e377
-		"TruckElectric":	"\xee\x99\xa4", 	// U+e664
+		"Trophy":	"\xee\x8d\xb3", 	// U+e373
+		"TruckElectric":	"\xee\x99\x9f", 	// U+e65f
 		"Truck":	"\xee\x86\x94", 	// U+e194
-		"TurkishLira":	"\xee\x9a\x85", 	// U+e685
-		"Turntable":	"\xee\x9a\x91", 	// U+e691
-		"Turtle":	"\xee\x93\xbe", 	// U+e4fe
-		"TvMinimalPlay":	"\xee\x97\xb1", 	// U+e5f1
+		"TurkishLira":	"\xee\x9a\x80", 	// U+e680
+		"Turntable":	"\xee\x9a\x8c", 	// U+e68c
+		"Turtle":	"\xee\x93\xb9", 	// U+e4f9
+		"TvMinimalPlay":	"\xee\x97\xac", 	// U+e5ec
 		"TvMinimal":	"\xee\x88\x83", 	// U+e203
 		"Tv":	"\xee\x86\x95", 	// U+e195
 		"Twitch":	"\xee\x86\x96", 	// U+e196
 		"Twitter":	"\xee\x86\x97", 	// U+e197
-		"TypeOutline":	"\xee\x98\x87", 	// U+e607
+		"TypeOutline":	"\xee\x98\x82", 	// U+e602
 		"Type":	"\xee\x86\x98", 	// U+e198
-		"UmbrellaOff":	"\xee\x95\x88", 	// U+e548
+		"UmbrellaOff":	"\xee\x95\x83", 	// U+e543
 		"Umbrella":	"\xee\x86\x99", 	// U+e199
 		"Underline":	"\xee\x86\x9a", 	// U+e19a
 		"Undo2":	"\xee\x8a\xa1", 	// U+e2a1
-		"UndoDot":	"\xee\x91\x96", 	// U+e456
+		"UndoDot":	"\xee\x91\x91", 	// U+e451
 		"Undo":	"\xee\x86\x9b", 	// U+e19b
-		"UnfoldHorizontal":	"\xee\x91\x82", 	// U+e442
-		"UnfoldVertical":	"\xee\x91\x83", 	// U+e443
-		"Ungroup":	"\xee\x91\xac", 	// U+e46c
-		"University":	"\xee\x8f\xa9", 	// U+e3e9
+		"UnfoldHorizontal":	"\xee\x90\xbd", 	// U+e43d
+		"UnfoldVertical":	"\xee\x90\xbe", 	// U+e43e
+		"Ungroup":	"\xee\x91\xa7", 	// U+e467
+		"University":	"\xee\x8f\xa5", 	// U+e3e5
 		"Unlink2":	"\xee\x86\x9d", 	// U+e19d
 		"Unlink":	"\xee\x86\x9c", 	// U+e19c
-		"Unplug":	"\xee\x91\xa2", 	// U+e462
+		"Unplug":	"\xee\x91\x9d", 	// U+e45d
 		"Upload":	"\xee\x86\x9e", 	// U+e19e
-		"Usb":	"\xee\x8d\x9a", 	// U+e35a
+		"Usb":	"\xee\x8d\x96", 	// U+e356
 		"UserCheck":	"\xee\x86\xa0", 	// U+e1a0
-		"UserCog":	"\xee\x8d\x86", 	// U+e346
-		"UserLock":	"\xee\x99\xa5", 	// U+e665
+		"UserCog":	"\xee\x8d\x82", 	// U+e342
+		"UserLock":	"\xee\x99\xa0", 	// U+e660
 		"UserMinus":	"\xee\x86\xa1", 	// U+e1a1
-		"UserPen":	"\xee\x98\x81", 	// U+e601
+		"UserPen":	"\xee\x97\xbc", 	// U+e5fc
 		"UserPlus":	"\xee\x86\xa2", 	// U+e1a2
-		"UserRoundCheck":	"\xee\x91\xae", 	// U+e46e
-		"UserRoundCog":	"\xee\x91\xaf", 	// U+e46f
-		"UserRoundMinus":	"\xee\x91\xb0", 	// U+e470
-		"UserRoundPen":	"\xee\x98\x82", 	// U+e602
-		"UserRoundPlus":	"\xee\x91\xb1", 	// U+e471
-		"UserRoundSearch":	"\xee\x95\xbd", 	// U+e57d
-		"UserRoundX":	"\xee\x91\xb2", 	// U+e472
-		"UserRound":	"\xee\x91\xad", 	// U+e46d
-		"UserSearch":	"\xee\x95\xbe", 	// U+e57e
-		"UserStar":	"\xee\x9a\x8c", 	// U+e68c
+		"UserRoundCheck":	"\xee\x91\xa9", 	// U+e469
+		"UserRoundCog":	"\xee\x91\xaa", 	// U+e46a
+		"UserRoundMinus":	"\xee\x91\xab", 	// U+e46b
+		"UserRoundPen":	"\xee\x97\xbd", 	// U+e5fd
+		"UserRoundPlus":	"\xee\x91\xac", 	// U+e46c
+		"UserRoundSearch":	"\xee\x95\xb8", 	// U+e578
+		"UserRoundX":	"\xee\x91\xad", 	// U+e46d
+		"UserRound":	"\xee\x91\xa8", 	// U+e468
+		"UserSearch":	"\xee\x95\xb9", 	// U+e579
+		"UserStar":	"\xee\x9a\x87", 	// U+e687
 		"UserX":	"\xee\x86\xa3", 	// U+e1a3
 		"User":	"\xee\x86\x9f", 	// U+e19f
-		"UsersRound":	"\xee\x91\xb3", 	// U+e473
+		"UsersRound":	"\xee\x91\xae", 	// U+e46e
 		"Users":	"\xee\x86\xa4", 	// U+e1a4
 		"UtensilsCrossed":	"\xee\x8b\xb7", 	// U+e2f7
 		"Utensils":	"\xee\x8b\xb6", 	// U+e2f6
-		"UtilityPole":	"\xee\x8f\x86", 	// U+e3c6
-		"Variable":	"\xee\x91\xb8", 	// U+e478
-		"Vault":	"\xee\x96\x94", 	// U+e594
-		"VectorSquare":	"\xee\x9a\x81", 	// U+e681
-		"Vegan":	"\xee\x8e\xa1", 	// U+e3a1
+		"UtilityPole":	"\xee\x8f\x82", 	// U+e3c2
+		"Variable":	"\xee\x91\xb3", 	// U+e473
+		"Vault":	"\xee\x96\x8f", 	// U+e58f
+		"VectorSquare":	"\xee\x99\xbc", 	// U+e67c
+		"Vegan":	"\xee\x8e\x9d", 	// U+e39d
 		"VenetianMask":	"\xee\x8a\xaa", 	// U+e2aa
-		"VenusAndMars":	"\xee\x99\x8b", 	// U+e64b
-		"Venus":	"\xee\x99\x8a", 	// U+e64a
+		"VenusAndMars":	"\xee\x99\x86", 	// U+e646
+		"Venus":	"\xee\x99\x85", 	// U+e645
 		"VibrateOff":	"\xee\x8a\x9d", 	// U+e29d
 		"Vibrate":	"\xee\x88\xa3", 	// U+e223
 		"VideoOff":	"\xee\x86\xa6", 	// U+e1a6
 		"Video":	"\xee\x86\xa5", 	// U+e1a5
-		"Videotape":	"\xee\x93\x90", 	// U+e4d0
+		"Videotape":	"\xee\x93\x8b", 	// U+e4cb
 		"View":	"\xee\x86\xa7", 	// U+e1a7
 		"Voicemail":	"\xee\x86\xa8", 	// U+e1a8
-		"Volleyball":	"\xee\x98\xb4", 	// U+e634
+		"Volleyball":	"\xee\x98\xaf", 	// U+e62f
 		"Volume1":	"\xee\x86\xaa", 	// U+e1aa
 		"Volume2":	"\xee\x86\xab", 	// U+e1ab
-		"VolumeOff":	"\xee\x98\xab", 	// U+e62b
+		"VolumeOff":	"\xee\x98\xa6", 	// U+e626
 		"VolumeX":	"\xee\x86\xac", 	// U+e1ac
 		"Volume":	"\xee\x86\xa9", 	// U+e1a9
-		"Vote":	"\xee\x8e\xb1", 	// U+e3b1
-		"WalletCards":	"\xee\x93\x91", 	// U+e4d1
-		"WalletMinimal":	"\xee\x93\x92", 	// U+e4d2
+		"Vote":	"\xee\x8e\xad", 	// U+e3ad
+		"WalletCards":	"\xee\x93\x8c", 	// U+e4cc
+		"WalletMinimal":	"\xee\x93\x8d", 	// U+e4cd
 		"Wallet":	"\xee\x88\x84", 	// U+e204
-		"Wallpaper":	"\xee\x91\x90", 	// U+e450
-		"WandSparkles":	"\xee\x8d\x9b", 	// U+e35b
+		"Wallpaper":	"\xee\x91\x8b", 	// U+e44b
+		"WandSparkles":	"\xee\x8d\x97", 	// U+e357
 		"Wand":	"\xee\x89\x86", 	// U+e246
-		"Warehouse":	"\xee\x8f\xaa", 	// U+e3ea
-		"WashingMachine":	"\xee\x96\x95", 	// U+e595
+		"Warehouse":	"\xee\x8f\xa6", 	// U+e3e6
+		"WashingMachine":	"\xee\x96\x90", 	// U+e590
 		"Watch":	"\xee\x86\xad", 	// U+e1ad
-		"WavesLadder":	"\xee\x99\x80", 	// U+e640
+		"WavesLadder":	"\xee\x98\xbb", 	// U+e63b
 		"Waves":	"\xee\x8a\x83", 	// U+e283
-		"Waypoints":	"\xee\x95\x87", 	// U+e547
+		"Waypoints":	"\xee\x95\x82", 	// U+e542
 		"Webcam":	"\xee\x88\x85", 	// U+e205
-		"WebhookOff":	"\xee\x96\xbc", 	// U+e5bc
-		"Webhook":	"\xee\x8d\xb8", 	// U+e378
-		"Weight":	"\xee\x94\xb5", 	// U+e535
-		"WheatOff":	"\xee\x8e\xa3", 	// U+e3a3
-		"Wheat":	"\xee\x8e\xa2", 	// U+e3a2
-		"WholeWord":	"\xee\x8f\xa3", 	// U+e3e3
-		"WifiCog":	"\xee\x99\xb9", 	// U+e679
-		"WifiHigh":	"\xee\x97\xbc", 	// U+e5fc
-		"WifiLow":	"\xee\x97\xbd", 	// U+e5fd
+		"WebhookOff":	"\xee\x96\xb7", 	// U+e5b7
+		"Webhook":	"\xee\x8d\xb4", 	// U+e374
+		"Weight":	"\xee\x94\xb0", 	// U+e530
+		"WheatOff":	"\xee\x8e\x9f", 	// U+e39f
+		"Wheat":	"\xee\x8e\x9e", 	// U+e39e
+		"WholeWord":	"\xee\x8f\x9f", 	// U+e3df
+		"WifiCog":	"\xee\x99\xb4", 	// U+e674
+		"WifiHigh":	"\xee\x97\xb7", 	// U+e5f7
+		"WifiLow":	"\xee\x97\xb8", 	// U+e5f8
 		"WifiOff":	"\xee\x86\xaf", 	// U+e1af
-		"WifiPen":	"\xee\x99\xa8", 	// U+e668
-		"WifiSync":	"\xee\x9a\x86", 	// U+e686
-		"WifiZero":	"\xee\x97\xbe", 	// U+e5fe
+		"WifiPen":	"\xee\x99\xa3", 	// U+e663
+		"WifiSync":	"\xee\x9a\x81", 	// U+e681
+		"WifiZero":	"\xee\x97\xb9", 	// U+e5f9
 		"Wifi":	"\xee\x86\xae", 	// U+e1ae
-		"WindArrowDown":	"\xee\x98\xb6", 	// U+e636
+		"WindArrowDown":	"\xee\x98\xb1", 	// U+e631
 		"Wind":	"\xee\x86\xb0", 	// U+e1b0
-		"WineOff":	"\xee\x8e\xa4", 	// U+e3a4
+		"WineOff":	"\xee\x8e\xa0", 	// U+e3a0
 		"Wine":	"\xee\x8b\xb8", 	// U+e2f8
-		"Workflow":	"\xee\x90\xaa", 	// U+e42a
-		"Worm":	"\xee\x97\x9f", 	// U+e5df
-		"WrapText":	"\xee\x89\x88", 	// U+e248
+		"Workflow":	"\xee\x90\xa5", 	// U+e425
+		"Worm":	"\xee\x97\x9a", 	// U+e5da
 		"Wrench":	"\xee\x86\xb1", 	// U+e1b1
 		"X":	"\xee\x86\xb2", 	// U+e1b2
 		"Youtube":	"\xee\x86\xb3", 	// U+e1b3

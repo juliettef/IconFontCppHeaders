@@ -335,6 +335,7 @@ var IconsMaterialSymbols = Font{
 		"Assessment":	"\xef\x83\x8c", 	// U+f0cc
 		"Assignment":	"\xee\xa1\x9d", 	// U+e85d
 		"Assignment_add":	"\xef\xa1\x88", 	// U+f848
+		"Assignment_globe":	"\xee\xbb\xac", 	// U+eeec
 		"Assignment_ind":	"\xee\xa1\x9e", 	// U+e85e
 		"Assignment_late":	"\xee\xa1\x9f", 	// U+e85f
 		"Assignment_return":	"\xee\xa1\xa0", 	// U+e860
@@ -763,6 +764,7 @@ var IconsMaterialSymbols = Font{
 		"Chat_apps_script":	"\xef\x82\xbd", 	// U+f0bd
 		"Chat_bubble":	"\xee\x83\x8b", 	// U+e0cb
 		"Chat_bubble_outline":	"\xee\x83\x8b", 	// U+e0cb
+		"Chat_dashed":	"\xee\xbb\xad", 	// U+eeed
 		"Chat_error":	"\xef\x9e\xac", 	// U+f7ac
 		"Chat_info":	"\xef\x94\xab", 	// U+f52b
 		"Chat_paste_go":	"\xef\x9a\xbd", 	// U+f6bd
@@ -1382,6 +1384,7 @@ var IconsMaterialSymbols = Font{
 		"Factory":	"\xee\xae\xbc", 	// U+ebbc
 		"Falling":	"\xef\x98\x8d", 	// U+f60d
 		"Familiar_face_and_zone":	"\xee\x88\x9c", 	// U+e21c
+		"Family_group":	"\xee\xbb\xb2", 	// U+eef2
 		"Family_history":	"\xee\x82\xad", 	// U+e0ad
 		"Family_home":	"\xee\xac\xa6", 	// U+eb26
 		"Family_link":	"\xee\xac\x99", 	// U+eb19
@@ -1476,6 +1479,7 @@ var IconsMaterialSymbols = Font{
 		"Fit_width":	"\xef\x9d\xb9", 	// U+f779
 		"Fitness_center":	"\xee\xad\x83", 	// U+eb43
 		"Fitness_tracker":	"\xef\x91\xa3", 	// U+f463
+		"Fitness_trackers":	"\xee\xbb\xb1", 	// U+eef1
 		"Flag":	"\xef\x83\x86", 	// U+f0c6
 		"Flag_2":	"\xef\x90\x8f", 	// U+f40f
 		"Flag_check":	"\xef\x8f\x98", 	// U+f3d8
@@ -1612,6 +1616,8 @@ var IconsMaterialSymbols = Font{
 		"Forward_to_inbox":	"\xef\x86\x87", 	// U+f187
 		"Foundation":	"\xef\x88\x80", 	// U+f200
 		"Fragrance":	"\xef\x8d\x85", 	// U+f345
+		"Frame_bug":	"\xee\xbb\xaf", 	// U+eeef
+		"Frame_exclamation":	"\xee\xbb\xae", 	// U+eeee
 		"Frame_inspect":	"\xef\x9d\xb2", 	// U+f772
 		"Frame_person":	"\xef\xa2\xa6", 	// U+f8a6
 		"Frame_person_mic":	"\xef\x93\x95", 	// U+f4d5
@@ -2176,6 +2182,7 @@ var IconsMaterialSymbols = Font{
 		"Magnify_docked":	"\xef\x9f\x96", 	// U+f7d6
 		"Magnify_fullscreen":	"\xef\x9f\x95", 	// U+f7d5
 		"Mail":	"\xee\x85\x99", 	// U+e159
+		"Mail_asterisk":	"\xee\xbb\xb4", 	// U+eef4
 		"Mail_lock":	"\xee\xb0\x8a", 	// U+ec0a
 		"Mail_off":	"\xef\x92\x8b", 	// U+f48b
 		"Mail_outline":	"\xee\x85\x99", 	// U+e159
@@ -2316,6 +2323,7 @@ var IconsMaterialSymbols = Font{
 		"Mobile_speaker":	"\xef\x8c\xa0", 	// U+f320
 		"Mobile_text":	"\xef\x8b\xab", 	// U+f2eb
 		"Mobile_text_2":	"\xef\x8b\xa6", 	// U+f2e6
+		"Mobile_theft":	"\xef\x8a\xa9", 	// U+f2a9
 		"Mobile_ticket":	"\xef\x8b\xa4", 	// U+f2e4
 		"Mobile_vibrate":	"\xef\x8b\x8b", 	// U+f2cb
 		"Mobile_wrench":	"\xef\x8a\xb0", 	// U+f2b0
@@ -2523,7 +2531,7 @@ var IconsMaterialSymbols = Font{
 		"Nightlife":	"\xee\xa9\xa2", 	// U+ea62
 		"Nightlight":	"\xef\x80\xbd", 	// U+f03d
 		"Nightlight_round":	"\xef\x80\xbd", 	// U+f03d
-		"Nights_stay":	"\xee\xa9\x86", 	// U+ea46
+		"Nights_stay":	"\xef\x85\xb4", 	// U+f174
 		"No_accounts":	"\xef\x80\xbe", 	// U+f03e
 		"No_adult_content":	"\xef\xa3\xbe", 	// U+f8fe
 		"No_backpack":	"\xef\x88\xb7", 	// U+f237

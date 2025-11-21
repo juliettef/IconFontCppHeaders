@@ -333,6 +333,7 @@
 #define ICON_MS_ASSESSMENT "\xef\x83\x8c"	// U+f0cc
 #define ICON_MS_ASSIGNMENT "\xee\xa1\x9d"	// U+e85d
 #define ICON_MS_ASSIGNMENT_ADD "\xef\xa1\x88"	// U+f848
+#define ICON_MS_ASSIGNMENT_GLOBE "\xee\xbb\xac"	// U+eeec
 #define ICON_MS_ASSIGNMENT_IND "\xee\xa1\x9e"	// U+e85e
 #define ICON_MS_ASSIGNMENT_LATE "\xee\xa1\x9f"	// U+e85f
 #define ICON_MS_ASSIGNMENT_RETURN "\xee\xa1\xa0"	// U+e860
@@ -761,6 +762,7 @@
 #define ICON_MS_CHAT_APPS_SCRIPT "\xef\x82\xbd"	// U+f0bd
 #define ICON_MS_CHAT_BUBBLE "\xee\x83\x8b"	// U+e0cb
 #define ICON_MS_CHAT_BUBBLE_OUTLINE "\xee\x83\x8b"	// U+e0cb
+#define ICON_MS_CHAT_DASHED "\xee\xbb\xad"	// U+eeed
 #define ICON_MS_CHAT_ERROR "\xef\x9e\xac"	// U+f7ac
 #define ICON_MS_CHAT_INFO "\xef\x94\xab"	// U+f52b
 #define ICON_MS_CHAT_PASTE_GO "\xef\x9a\xbd"	// U+f6bd
@@ -1380,6 +1382,7 @@
 #define ICON_MS_FACTORY "\xee\xae\xbc"	// U+ebbc
 #define ICON_MS_FALLING "\xef\x98\x8d"	// U+f60d
 #define ICON_MS_FAMILIAR_FACE_AND_ZONE "\xee\x88\x9c"	// U+e21c
+#define ICON_MS_FAMILY_GROUP "\xee\xbb\xb2"	// U+eef2
 #define ICON_MS_FAMILY_HISTORY "\xee\x82\xad"	// U+e0ad
 #define ICON_MS_FAMILY_HOME "\xee\xac\xa6"	// U+eb26
 #define ICON_MS_FAMILY_LINK "\xee\xac\x99"	// U+eb19
@@ -1474,6 +1477,7 @@
 #define ICON_MS_FIT_WIDTH "\xef\x9d\xb9"	// U+f779
 #define ICON_MS_FITNESS_CENTER "\xee\xad\x83"	// U+eb43
 #define ICON_MS_FITNESS_TRACKER "\xef\x91\xa3"	// U+f463
+#define ICON_MS_FITNESS_TRACKERS "\xee\xbb\xb1"	// U+eef1
 #define ICON_MS_FLAG "\xef\x83\x86"	// U+f0c6
 #define ICON_MS_FLAG_2 "\xef\x90\x8f"	// U+f40f
 #define ICON_MS_FLAG_CHECK "\xef\x8f\x98"	// U+f3d8
@@ -1610,6 +1614,8 @@
 #define ICON_MS_FORWARD_TO_INBOX "\xef\x86\x87"	// U+f187
 #define ICON_MS_FOUNDATION "\xef\x88\x80"	// U+f200
 #define ICON_MS_FRAGRANCE "\xef\x8d\x85"	// U+f345
+#define ICON_MS_FRAME_BUG "\xee\xbb\xaf"	// U+eeef
+#define ICON_MS_FRAME_EXCLAMATION "\xee\xbb\xae"	// U+eeee
 #define ICON_MS_FRAME_INSPECT "\xef\x9d\xb2"	// U+f772
 #define ICON_MS_FRAME_PERSON "\xef\xa2\xa6"	// U+f8a6
 #define ICON_MS_FRAME_PERSON_MIC "\xef\x93\x95"	// U+f4d5
@@ -2174,6 +2180,7 @@
 #define ICON_MS_MAGNIFY_DOCKED "\xef\x9f\x96"	// U+f7d6
 #define ICON_MS_MAGNIFY_FULLSCREEN "\xef\x9f\x95"	// U+f7d5
 #define ICON_MS_MAIL "\xee\x85\x99"	// U+e159
+#define ICON_MS_MAIL_ASTERISK "\xee\xbb\xb4"	// U+eef4
 #define ICON_MS_MAIL_LOCK "\xee\xb0\x8a"	// U+ec0a
 #define ICON_MS_MAIL_OFF "\xef\x92\x8b"	// U+f48b
 #define ICON_MS_MAIL_OUTLINE "\xee\x85\x99"	// U+e159
@@ -2314,6 +2321,7 @@
 #define ICON_MS_MOBILE_SPEAKER "\xef\x8c\xa0"	// U+f320
 #define ICON_MS_MOBILE_TEXT "\xef\x8b\xab"	// U+f2eb
 #define ICON_MS_MOBILE_TEXT_2 "\xef\x8b\xa6"	// U+f2e6
+#define ICON_MS_MOBILE_THEFT "\xef\x8a\xa9"	// U+f2a9
 #define ICON_MS_MOBILE_TICKET "\xef\x8b\xa4"	// U+f2e4
 #define ICON_MS_MOBILE_VIBRATE "\xef\x8b\x8b"	// U+f2cb
 #define ICON_MS_MOBILE_WRENCH "\xef\x8a\xb0"	// U+f2b0
@@ -2521,7 +2529,7 @@
 #define ICON_MS_NIGHTLIFE "\xee\xa9\xa2"	// U+ea62
 #define ICON_MS_NIGHTLIGHT "\xef\x80\xbd"	// U+f03d
 #define ICON_MS_NIGHTLIGHT_ROUND "\xef\x80\xbd"	// U+f03d
-#define ICON_MS_NIGHTS_STAY "\xee\xa9\x86"	// U+ea46
+#define ICON_MS_NIGHTS_STAY "\xef\x85\xb4"	// U+f174
 #define ICON_MS_NO_ACCOUNTS "\xef\x80\xbe"	// U+f03e
 #define ICON_MS_NO_ADULT_CONTENT "\xef\xa3\xbe"	// U+f8fe
 #define ICON_MS_NO_BACKPACK "\xef\x88\xb7"	// U+f237

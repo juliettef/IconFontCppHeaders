@@ -10,8 +10,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xf101,
-	Max: 0xf101,
+	Max16: 0xf102,
+	Max: 0xf102,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -35,9 +35,6 @@ var IconsCodicons = Font{
 		"PersonFollow":	"\xee\xa9\xa7", 	// U+ea67
 		"PersonOutline":	"\xee\xa9\xa7", 	// U+ea67
 		"PersonFilled":	"\xee\xa9\xa7", 	// U+ea67
-		"GitBranch":	"\xee\xa9\xa8", 	// U+ea68
-		"GitBranchCreate":	"\xee\xa9\xa8", 	// U+ea68
-		"GitBranchDelete":	"\xee\xa9\xa8", 	// U+ea68
 		"SourceControl":	"\xee\xa9\xa8", 	// U+ea68
 		"Mirror":	"\xee\xa9\xa9", 	// U+ea69
 		"MirrorPublic":	"\xee\xa9\xa9", 	// U+ea69
@@ -86,7 +83,6 @@ var IconsCodicons = Font{
 		"Vm":	"\xee\xa9\xba", 	// U+ea7a
 		"DeviceDesktop":	"\xee\xa9\xba", 	// U+ea7a
 		"File":	"\xee\xa9\xbb", 	// U+ea7b
-		"FileText":	"\xee\xa9\xbb", 	// U+ea7b
 		"More":	"\xee\xa9\xbc", 	// U+ea7c
 		"Ellipsis":	"\xee\xa9\xbc", 	// U+ea7c
 		"KebabHorizontal":	"\xee\xa9\xbc", 	// U+ea7c
@@ -606,6 +602,50 @@ var IconsCodicons = Font{
 		"LayoutPanelDock":	"\xee\xb1\x89", 	// U+ec49
 		"LayoutSidebarLeftDock":	"\xee\xb1\x8a", 	// U+ec4a
 		"LayoutSidebarRightDock":	"\xee\xb1\x8b", 	// U+ec4b
+		"CopilotInProgress":	"\xee\xb1\x8c", 	// U+ec4c
+		"CopilotError":	"\xee\xb1\x8d", 	// U+ec4d
+		"CopilotSuccess":	"\xee\xb1\x8e", 	// U+ec4e
+		"ChatSparkle":	"\xee\xb1\x8f", 	// U+ec4f
+		"SearchSparkle":	"\xee\xb1\x90", 	// U+ec50
+		"EditSparkle":	"\xee\xb1\x91", 	// U+ec51
+		"CopilotSnooze":	"\xee\xb1\x92", 	// U+ec52
+		"SendToRemoteAgent":	"\xee\xb1\x93", 	// U+ec53
+		"CommentDiscussionSparkle":	"\xee\xb1\x94", 	// U+ec54
+		"ChatSparkleWarning":	"\xee\xb1\x95", 	// U+ec55
+		"ChatSparkleError":	"\xee\xb1\x96", 	// U+ec56
+		"Collection":	"\xee\xb1\x97", 	// U+ec57
+		"NewCollection":	"\xee\xb1\x98", 	// U+ec58
+		"Thinking":	"\xee\xb1\x99", 	// U+ec59
+		"Build":	"\xee\xb1\x9a", 	// U+ec5a
+		"CommentDiscussionQuote":	"\xee\xb1\x9b", 	// U+ec5b
+		"Cursor":	"\xee\xb1\x9c", 	// U+ec5c
+		"Eraser":	"\xee\xb1\x9d", 	// U+ec5d
+		"FileText":	"\xee\xb1\x9e", 	// U+ec5e
+		"GitLens":	"\xee\xb1\x9f", 	// U+ec5f
+		"Quotes":	"\xee\xb1\xa0", 	// U+ec60
+		"Rename":	"\xee\xb1\xa1", 	// U+ec61
+		"RunWithDeps":	"\xee\xb1\xa2", 	// U+ec62
+		"DebugConnected":	"\xee\xb1\xa3", 	// U+ec63
+		"Strikethrough":	"\xee\xb1\xa4", 	// U+ec64
+		"OpenInProduct":	"\xee\xb1\xa5", 	// U+ec65
+		"IndexZero":	"\xee\xb1\xa6", 	// U+ec66
+		"Agent":	"\xee\xb1\xa7", 	// U+ec67
+		"EditCode":	"\xee\xb1\xa8", 	// U+ec68
+		"RepoSelected":	"\xee\xb1\xa9", 	// U+ec69
+		"Skip":	"\xee\xb1\xaa", 	// U+ec6a
+		"MergeInto":	"\xee\xb1\xab", 	// U+ec6b
+		"GitBranchChanges":	"\xee\xb1\xac", 	// U+ec6c
+		"GitBranchStagedChanges":	"\xee\xb1\xad", 	// U+ec6d
+		"GitBranchConflicts":	"\xee\xb1\xae", 	// U+ec6e
+		"GitBranch":	"\xee\xb1\xaf", 	// U+ec6f
+		"GitBranchCreate":	"\xee\xb1\xaf", 	// U+ec6f
+		"GitBranchDelete":	"\xee\xb1\xaf", 	// U+ec6f
+		"SearchLarge":	"\xee\xb1\xb0", 	// U+ec70
+		"TerminalGitBash":	"\xee\xb1\xb1", 	// U+ec71
+		"WindowActive":	"\xee\xb1\xb2", 	// U+ec72
+		"Forward":	"\xee\xb1\xb3", 	// U+ec73
+		"Download":	"\xee\xb1\xb4", 	// U+ec74
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
+		"VmPending":	"\xef\x84\x82", 	// U+f102
 	},
 }

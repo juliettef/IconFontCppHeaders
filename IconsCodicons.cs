@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameCI = "codicon.ttf";
 
         public const int IconMin = 0xea60;
-        public const int IconMax16 = 0xf101;
-        public const int IconMax = 0xf101;
+        public const int IconMax16 = 0xf102;
+        public const int IconMax = 0xf102;
 
         public const string Add = "\uea60";
         public const string Plus = "\uea60";
@@ -37,9 +37,6 @@ namespace IconFonts
         public const string PersonFollow = "\uea67";
         public const string PersonOutline = "\uea67";
         public const string PersonFilled = "\uea67";
-        public const string GitBranch = "\uea68";
-        public const string GitBranchCreate = "\uea68";
-        public const string GitBranchDelete = "\uea68";
         public const string SourceControl = "\uea68";
         public const string Mirror = "\uea69";
         public const string MirrorPublic = "\uea69";
@@ -88,7 +85,6 @@ namespace IconFonts
         public const string Vm = "\uea7a";
         public const string DeviceDesktop = "\uea7a";
         public const string File = "\uea7b";
-        public const string FileText = "\uea7b";
         public const string More = "\uea7c";
         public const string Ellipsis = "\uea7c";
         public const string KebabHorizontal = "\uea7c";
@@ -608,6 +604,50 @@ namespace IconFonts
         public const string LayoutPanelDock = "\uec49";
         public const string LayoutSidebarLeftDock = "\uec4a";
         public const string LayoutSidebarRightDock = "\uec4b";
+        public const string CopilotInProgress = "\uec4c";
+        public const string CopilotError = "\uec4d";
+        public const string CopilotSuccess = "\uec4e";
+        public const string ChatSparkle = "\uec4f";
+        public const string SearchSparkle = "\uec50";
+        public const string EditSparkle = "\uec51";
+        public const string CopilotSnooze = "\uec52";
+        public const string SendToRemoteAgent = "\uec53";
+        public const string CommentDiscussionSparkle = "\uec54";
+        public const string ChatSparkleWarning = "\uec55";
+        public const string ChatSparkleError = "\uec56";
+        public const string Collection = "\uec57";
+        public const string NewCollection = "\uec58";
+        public const string Thinking = "\uec59";
+        public const string Build = "\uec5a";
+        public const string CommentDiscussionQuote = "\uec5b";
+        public const string Cursor = "\uec5c";
+        public const string Eraser = "\uec5d";
+        public const string FileText = "\uec5e";
+        public const string GitLens = "\uec5f";
+        public const string Quotes = "\uec60";
+        public const string Rename = "\uec61";
+        public const string RunWithDeps = "\uec62";
+        public const string DebugConnected = "\uec63";
+        public const string Strikethrough = "\uec64";
+        public const string OpenInProduct = "\uec65";
+        public const string IndexZero = "\uec66";
+        public const string Agent = "\uec67";
+        public const string EditCode = "\uec68";
+        public const string RepoSelected = "\uec69";
+        public const string Skip = "\uec6a";
+        public const string MergeInto = "\uec6b";
+        public const string GitBranchChanges = "\uec6c";
+        public const string GitBranchStagedChanges = "\uec6d";
+        public const string GitBranchConflicts = "\uec6e";
+        public const string GitBranch = "\uec6f";
+        public const string GitBranchCreate = "\uec6f";
+        public const string GitBranchDelete = "\uec6f";
+        public const string SearchLarge = "\uec70";
+        public const string TerminalGitBash = "\uec71";
+        public const string WindowActive = "\uec72";
+        public const string Forward = "\uec73";
+        public const string Download = "\uec74";
         public const string GitFetch = "\uf101";
+        public const string VmPending = "\uf102";
     }
 }

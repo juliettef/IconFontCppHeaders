@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_CI "codicon.ttf"
 
 #define ICON_MIN_CI 0xea60
-#define ICON_MAX_16_CI 0xf101
-#define ICON_MAX_CI 0xf101
+#define ICON_MAX_16_CI 0xf102
+#define ICON_MAX_CI 0xf102
 
 #define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
@@ -33,9 +33,6 @@
 #define ICON_CI_PERSON_FOLLOW "\xee\xa9\xa7"	// U+ea67
 #define ICON_CI_PERSON_OUTLINE "\xee\xa9\xa7"	// U+ea67
 #define ICON_CI_PERSON_FILLED "\xee\xa9\xa7"	// U+ea67
-#define ICON_CI_GIT_BRANCH "\xee\xa9\xa8"	// U+ea68
-#define ICON_CI_GIT_BRANCH_CREATE "\xee\xa9\xa8"	// U+ea68
-#define ICON_CI_GIT_BRANCH_DELETE "\xee\xa9\xa8"	// U+ea68
 #define ICON_CI_SOURCE_CONTROL "\xee\xa9\xa8"	// U+ea68
 #define ICON_CI_MIRROR "\xee\xa9\xa9"	// U+ea69
 #define ICON_CI_MIRROR_PUBLIC "\xee\xa9\xa9"	// U+ea69
@@ -84,7 +81,6 @@
 #define ICON_CI_VM "\xee\xa9\xba"	// U+ea7a
 #define ICON_CI_DEVICE_DESKTOP "\xee\xa9\xba"	// U+ea7a
 #define ICON_CI_FILE "\xee\xa9\xbb"	// U+ea7b
-#define ICON_CI_FILE_TEXT "\xee\xa9\xbb"	// U+ea7b
 #define ICON_CI_MORE "\xee\xa9\xbc"	// U+ea7c
 #define ICON_CI_ELLIPSIS "\xee\xa9\xbc"	// U+ea7c
 #define ICON_CI_KEBAB_HORIZONTAL "\xee\xa9\xbc"	// U+ea7c
@@ -604,4 +600,48 @@
 #define ICON_CI_LAYOUT_PANEL_DOCK "\xee\xb1\x89"	// U+ec49
 #define ICON_CI_LAYOUT_SIDEBAR_LEFT_DOCK "\xee\xb1\x8a"	// U+ec4a
 #define ICON_CI_LAYOUT_SIDEBAR_RIGHT_DOCK "\xee\xb1\x8b"	// U+ec4b
+#define ICON_CI_COPILOT_IN_PROGRESS "\xee\xb1\x8c"	// U+ec4c
+#define ICON_CI_COPILOT_ERROR "\xee\xb1\x8d"	// U+ec4d
+#define ICON_CI_COPILOT_SUCCESS "\xee\xb1\x8e"	// U+ec4e
+#define ICON_CI_CHAT_SPARKLE "\xee\xb1\x8f"	// U+ec4f
+#define ICON_CI_SEARCH_SPARKLE "\xee\xb1\x90"	// U+ec50
+#define ICON_CI_EDIT_SPARKLE "\xee\xb1\x91"	// U+ec51
+#define ICON_CI_COPILOT_SNOOZE "\xee\xb1\x92"	// U+ec52
+#define ICON_CI_SEND_TO_REMOTE_AGENT "\xee\xb1\x93"	// U+ec53
+#define ICON_CI_COMMENT_DISCUSSION_SPARKLE "\xee\xb1\x94"	// U+ec54
+#define ICON_CI_CHAT_SPARKLE_WARNING "\xee\xb1\x95"	// U+ec55
+#define ICON_CI_CHAT_SPARKLE_ERROR "\xee\xb1\x96"	// U+ec56
+#define ICON_CI_COLLECTION "\xee\xb1\x97"	// U+ec57
+#define ICON_CI_NEW_COLLECTION "\xee\xb1\x98"	// U+ec58
+#define ICON_CI_THINKING "\xee\xb1\x99"	// U+ec59
+#define ICON_CI_BUILD "\xee\xb1\x9a"	// U+ec5a
+#define ICON_CI_COMMENT_DISCUSSION_QUOTE "\xee\xb1\x9b"	// U+ec5b
+#define ICON_CI_CURSOR "\xee\xb1\x9c"	// U+ec5c
+#define ICON_CI_ERASER "\xee\xb1\x9d"	// U+ec5d
+#define ICON_CI_FILE_TEXT "\xee\xb1\x9e"	// U+ec5e
+#define ICON_CI_GIT_LENS "\xee\xb1\x9f"	// U+ec5f
+#define ICON_CI_QUOTES "\xee\xb1\xa0"	// U+ec60
+#define ICON_CI_RENAME "\xee\xb1\xa1"	// U+ec61
+#define ICON_CI_RUN_WITH_DEPS "\xee\xb1\xa2"	// U+ec62
+#define ICON_CI_DEBUG_CONNECTED "\xee\xb1\xa3"	// U+ec63
+#define ICON_CI_STRIKETHROUGH "\xee\xb1\xa4"	// U+ec64
+#define ICON_CI_OPEN_IN_PRODUCT "\xee\xb1\xa5"	// U+ec65
+#define ICON_CI_INDEX_ZERO "\xee\xb1\xa6"	// U+ec66
+#define ICON_CI_AGENT "\xee\xb1\xa7"	// U+ec67
+#define ICON_CI_EDIT_CODE "\xee\xb1\xa8"	// U+ec68
+#define ICON_CI_REPO_SELECTED "\xee\xb1\xa9"	// U+ec69
+#define ICON_CI_SKIP "\xee\xb1\xaa"	// U+ec6a
+#define ICON_CI_MERGE_INTO "\xee\xb1\xab"	// U+ec6b
+#define ICON_CI_GIT_BRANCH_CHANGES "\xee\xb1\xac"	// U+ec6c
+#define ICON_CI_GIT_BRANCH_STAGED_CHANGES "\xee\xb1\xad"	// U+ec6d
+#define ICON_CI_GIT_BRANCH_CONFLICTS "\xee\xb1\xae"	// U+ec6e
+#define ICON_CI_GIT_BRANCH "\xee\xb1\xaf"	// U+ec6f
+#define ICON_CI_GIT_BRANCH_CREATE "\xee\xb1\xaf"	// U+ec6f
+#define ICON_CI_GIT_BRANCH_DELETE "\xee\xb1\xaf"	// U+ec6f
+#define ICON_CI_SEARCH_LARGE "\xee\xb1\xb0"	// U+ec70
+#define ICON_CI_TERMINAL_GIT_BASH "\xee\xb1\xb1"	// U+ec71
+#define ICON_CI_WINDOW_ACTIVE "\xee\xb1\xb2"	// U+ec72
+#define ICON_CI_FORWARD "\xee\xb1\xb3"	// U+ec73
+#define ICON_CI_DOWNLOAD "\xee\xb1\xb4"	// U+ec74
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101
+#define ICON_CI_VM_PENDING "\xef\x84\x82"	// U+f102

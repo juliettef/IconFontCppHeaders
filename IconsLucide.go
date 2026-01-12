@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe6a7,
-	Max: 0xe6a7,
+	Max16: 0xe6b9,
+	Max: 0xe6b9,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x85", 	// U+e585
 		"AArrowUp":	"\xee\x96\x86", 	// U+e586
@@ -138,6 +138,7 @@ var IconsLucide = Font{
 		"BadgeX":	"\xee\x91\xbc", 	// U+e47c
 		"Badge":	"\xee\x91\xb4", 	// U+e474
 		"BaggageClaim":	"\xee\x8b\x89", 	// U+e2c9
+		"Balloon":	"\xee\x9a\xaf", 	// U+e6af
 		"Ban":	"\xee\x81\x91", 	// U+e051
 		"Banana":	"\xee\x8d\x8f", 	// U+e34f
 		"Bandage":	"\xee\x98\x9d", 	// U+e61d
@@ -213,6 +214,7 @@ var IconsLucide = Font{
 		"BookOpenText":	"\xee\x95\x8a", 	// U+e54a
 		"BookOpen":	"\xee\x81\x9f", 	// U+e05f
 		"BookPlus":	"\xee\x8f\xb3", 	// U+e3f3
+		"BookSearch":	"\xee\x9a\xab", 	// U+e6ab
 		"BookText":	"\xee\x95\x8b", 	// U+e54b
 		"BookType":	"\xee\x95\x8c", 	// U+e54c
 		"BookUp2":	"\xee\x92\xa6", 	// U+e4a6
@@ -288,6 +290,7 @@ var IconsLucide = Font{
 		"CandyCane":	"\xee\x92\xba", 	// U+e4ba
 		"CandyOff":	"\xee\x8e\x92", 	// U+e392
 		"Candy":	"\xee\x8e\x91", 	// U+e391
+		"CannabisOff":	"\xee\x9a\xb7", 	// U+e6b7
 		"Cannabis":	"\xee\x97\x94", 	// U+e5d4
 		"CaptionsOff":	"\xee\x97\x81", 	// U+e5c1
 		"Captions":	"\xee\x8e\xa4", 	// U+e3a4
@@ -389,6 +392,7 @@ var IconsLucide = Font{
 		"CircleParking":	"\xee\x8f\x89", 	// U+e3c9
 		"CirclePause":	"\xee\x81\xbf", 	// U+e07f
 		"CirclePercent":	"\xee\x94\x9a", 	// U+e51a
+		"CirclePile":	"\xee\x9a\xb0", 	// U+e6b0
 		"CirclePlay":	"\xee\x82\x80", 	// U+e080
 		"CirclePlus":	"\xee\x82\x81", 	// U+e081
 		"CirclePoundSterling":	"\xee\x99\xad", 	// U+e66d
@@ -439,6 +443,7 @@ var IconsLucide = Font{
 		"Clock":	"\xee\x82\x87", 	// U+e087
 		"ClosedCaption":	"\xee\x9a\x8a", 	// U+e68a
 		"CloudAlert":	"\xee\x98\xb3", 	// U+e633
+		"CloudBackup":	"\xee\x9a\xb1", 	// U+e6b1
 		"CloudCheck":	"\xee\x99\xae", 	// U+e66e
 		"CloudCog":	"\xee\x8c\x8a", 	// U+e30a
 		"CloudDownload":	"\xee\x82\x89", 	// U+e089
@@ -454,6 +459,7 @@ var IconsLucide = Font{
 		"CloudSnow":	"\xee\x82\x90", 	// U+e090
 		"CloudSunRain":	"\xee\x8b\xbb", 	// U+e2fb
 		"CloudSun":	"\xee\x88\x96", 	// U+e216
+		"CloudSync":	"\xee\x9a\xb2", 	// U+e6b2
 		"CloudUpload":	"\xee\x82\x91", 	// U+e091
 		"Cloud":	"\xee\x82\x88", 	// U+e088
 		"Cloudy":	"\xee\x88\x97", 	// U+e217
@@ -652,6 +658,7 @@ var IconsLucide = Font{
 		"FishOff":	"\xee\x8e\xb0", 	// U+e3b0
 		"FishSymbol":	"\xee\x93\xb4", 	// U+e4f4
 		"Fish":	"\xee\x8e\xa6", 	// U+e3a6
+		"FishingHook":	"\xee\x9a\xb6", 	// U+e6b6
 		"FlagOff":	"\xee\x8a\x92", 	// U+e292
 		"FlagTriangleLeft":	"\xee\x88\xb7", 	// U+e237
 		"FlagTriangleRight":	"\xee\x88\xb8", 	// U+e238
@@ -705,6 +712,7 @@ var IconsLucide = Font{
 		"Folders":	"\xee\x8c\xbf", 	// U+e33f
 		"Footprints":	"\xee\x8e\xb9", 	// U+e3b9
 		"Forklift":	"\xee\x8f\x81", 	// U+e3c1
+		"Form":	"\xee\x9a\xa8", 	// U+e6a8
 		"Forward":	"\xee\x88\xa9", 	// U+e229
 		"Frame":	"\xee\x8a\x91", 	// U+e291
 		"Framer":	"\xee\x83\x9a", 	// U+e0da
@@ -785,6 +793,7 @@ var IconsLucide = Font{
 		"Hash":	"\xee\x83\xaf", 	// U+e0ef
 		"HatGlasses":	"\xee\x9a\x83", 	// U+e683
 		"Haze":	"\xee\x83\xb0", 	// U+e0f0
+		"Hd":	"\xee\x9a\xb5", 	// U+e6b5
 		"HdmiPort":	"\xee\x93\xa7", 	// U+e4e7
 		"Heading1":	"\xee\x8e\x85", 	// U+e385
 		"Heading2":	"\xee\x8e\x86", 	// U+e386
@@ -867,6 +876,7 @@ var IconsLucide = Font{
 		"Lasso":	"\xee\x87\x8e", 	// U+e1ce
 		"Laugh":	"\xee\x8c\x80", 	// U+e300
 		"Layers2":	"\xee\x94\xaa", 	// U+e52a
+		"LayersPlus":	"\xee\x9a\xb3", 	// U+e6b3
 		"Layers":	"\xee\x94\xa9", 	// U+e529
 		"LayoutDashboard":	"\xee\x87\x81", 	// U+e1c1
 		"LayoutGrid":	"\xee\x83\xbf", 	// U+e0ff
@@ -1267,10 +1277,12 @@ var IconsLucide = Font{
 		"School":	"\xee\x8f\xa3", 	// U+e3e3
 		"ScissorsLineDashed":	"\xee\x93\xa9", 	// U+e4e9
 		"Scissors":	"\xee\x85\x8e", 	// U+e14e
+		"Scooter":	"\xee\x9a\xac", 	// U+e6ac
 		"ScreenShareOff":	"\xee\x85\x90", 	// U+e150
 		"ScreenShare":	"\xee\x85\x8f", 	// U+e14f
 		"ScrollText":	"\xee\x91\x9f", 	// U+e45f
 		"Scroll":	"\xee\x8b\xad", 	// U+e2ed
+		"SearchAlert":	"\xee\x9a\xb4", 	// U+e6b4
 		"SearchCheck":	"\xee\x92\xaa", 	// U+e4aa
 		"SearchCode":	"\xee\x92\xab", 	// U+e4ab
 		"SearchSlash":	"\xee\x92\xac", 	// U+e4ac
@@ -1443,6 +1455,7 @@ var IconsLucide = Font{
 		"Stethoscope":	"\xee\x8b\xb1", 	// U+e2f1
 		"Sticker":	"\xee\x8c\x82", 	// U+e302
 		"StickyNote":	"\xee\x8c\x83", 	// U+e303
+		"Stone":	"\xee\x9a\xb8", 	// U+e6b8
 		"Store":	"\xee\x8f\xa4", 	// U+e3e4
 		"StretchHorizontal":	"\xee\x89\xbc", 	// U+e27c
 		"StretchVertical":	"\xee\x89\xbd", 	// U+e27d
@@ -1522,6 +1535,7 @@ var IconsLucide = Font{
 		"ToggleRight":	"\xee\x86\x8c", 	// U+e18c
 		"Toilet":	"\xee\x98\xb5", 	// U+e635
 		"ToolCase":	"\xee\x99\xbd", 	// U+e67d
+		"Toolbox":	"\xee\x9a\xb9", 	// U+e6b9
 		"Tornado":	"\xee\x88\x98", 	// U+e218
 		"Torus":	"\xee\x94\xaf", 	// U+e52f
 		"TouchpadOff":	"\xee\x91\x8a", 	// U+e44a
@@ -1600,6 +1614,7 @@ var IconsLucide = Font{
 		"UtensilsCrossed":	"\xee\x8b\xb7", 	// U+e2f7
 		"Utensils":	"\xee\x8b\xb6", 	// U+e2f6
 		"UtilityPole":	"\xee\x8f\x82", 	// U+e3c2
+		"Van":	"\xee\x9a\xad", 	// U+e6ad
 		"Variable":	"\xee\x91\xb3", 	// U+e473
 		"Vault":	"\xee\x96\x8f", 	// U+e58f
 		"VectorSquare":	"\xee\x99\xbc", 	// U+e67c
@@ -1630,12 +1645,15 @@ var IconsLucide = Font{
 		"Warehouse":	"\xee\x8f\xa6", 	// U+e3e6
 		"WashingMachine":	"\xee\x96\x90", 	// U+e590
 		"Watch":	"\xee\x86\xad", 	// U+e1ad
+		"WavesArrowDown":	"\xee\x9a\xa9", 	// U+e6a9
+		"WavesArrowUp":	"\xee\x9a\xaa", 	// U+e6aa
 		"WavesLadder":	"\xee\x98\xbb", 	// U+e63b
 		"Waves":	"\xee\x8a\x83", 	// U+e283
 		"Waypoints":	"\xee\x95\x82", 	// U+e542
 		"Webcam":	"\xee\x88\x85", 	// U+e205
 		"WebhookOff":	"\xee\x96\xb7", 	// U+e5b7
 		"Webhook":	"\xee\x8d\xb4", 	// U+e374
+		"WeightTilde":	"\xee\x9a\xae", 	// U+e6ae
 		"Weight":	"\xee\x94\xb0", 	// U+e530
 		"WheatOff":	"\xee\x8e\x9f", 	// U+e39f
 		"Wheat":	"\xee\x8e\x9e", 	// U+e39e

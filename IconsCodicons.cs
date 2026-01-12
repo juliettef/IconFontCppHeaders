@@ -266,6 +266,7 @@ namespace IconFonts
         public const string Italic = "\ueb0d";
         public const string Jersey = "\ueb0e";
         public const string Json = "\ueb0f";
+        public const string Bracket = "\ueb0f";
         public const string KebabVertical = "\ueb10";
         public const string Key = "\ueb11";
         public const string Law = "\ueb12";
@@ -492,7 +493,6 @@ namespace IconFonts
         public const string GraphLine = "\uebe2";
         public const string GraphScatter = "\uebe3";
         public const string PieChart = "\uebe4";
-        public const string Bracket = "\ueb0f";
         public const string BracketDot = "\uebe5";
         public const string BracketError = "\uebe6";
         public const string LockSmall = "\uebe7";
@@ -623,7 +623,6 @@ namespace IconFonts
         public const string Cursor = "\uec5c";
         public const string Eraser = "\uec5d";
         public const string FileText = "\uec5e";
-        public const string GitLens = "\uec5f";
         public const string Quotes = "\uec60";
         public const string Rename = "\uec61";
         public const string RunWithDeps = "\uec62";
@@ -647,6 +646,16 @@ namespace IconFonts
         public const string WindowActive = "\uec72";
         public const string Forward = "\uec73";
         public const string Download = "\uec74";
+        public const string Clockface = "\uec75";
+        public const string Unarchive = "\uec76";
+        public const string SessionInProgress = "\uec77";
+        public const string CollectionSmall = "\uec78";
+        public const string VmSmall = "\uec79";
+        public const string CloudSmall = "\uec7a";
+        public const string AddSmall = "\uec7b";
+        public const string RemoveSmall = "\uec7c";
+        public const string WorktreeSmall = "\uec7d";
+        public const string Worktree = "\uec7e";
         public const string GitFetch = "\uf101";
         public const string VmPending = "\uf102";
     }

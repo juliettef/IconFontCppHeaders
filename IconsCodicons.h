@@ -262,6 +262,7 @@
 #define ICON_CI_ITALIC "\xee\xac\x8d"	// U+eb0d
 #define ICON_CI_JERSEY "\xee\xac\x8e"	// U+eb0e
 #define ICON_CI_JSON "\xee\xac\x8f"	// U+eb0f
+#define ICON_CI_BRACKET "\xee\xac\x8f"	// U+eb0f
 #define ICON_CI_KEBAB_VERTICAL "\xee\xac\x90"	// U+eb10
 #define ICON_CI_KEY "\xee\xac\x91"	// U+eb11
 #define ICON_CI_LAW "\xee\xac\x92"	// U+eb12
@@ -488,7 +489,6 @@
 #define ICON_CI_GRAPH_LINE "\xee\xaf\xa2"	// U+ebe2
 #define ICON_CI_GRAPH_SCATTER "\xee\xaf\xa3"	// U+ebe3
 #define ICON_CI_PIE_CHART "\xee\xaf\xa4"	// U+ebe4
-#define ICON_CI_BRACKET "\xee\xac\x8f"	// U+eb0f
 #define ICON_CI_BRACKET_DOT "\xee\xaf\xa5"	// U+ebe5
 #define ICON_CI_BRACKET_ERROR "\xee\xaf\xa6"	// U+ebe6
 #define ICON_CI_LOCK_SMALL "\xee\xaf\xa7"	// U+ebe7
@@ -619,7 +619,6 @@
 #define ICON_CI_CURSOR "\xee\xb1\x9c"	// U+ec5c
 #define ICON_CI_ERASER "\xee\xb1\x9d"	// U+ec5d
 #define ICON_CI_FILE_TEXT "\xee\xb1\x9e"	// U+ec5e
-#define ICON_CI_GIT_LENS "\xee\xb1\x9f"	// U+ec5f
 #define ICON_CI_QUOTES "\xee\xb1\xa0"	// U+ec60
 #define ICON_CI_RENAME "\xee\xb1\xa1"	// U+ec61
 #define ICON_CI_RUN_WITH_DEPS "\xee\xb1\xa2"	// U+ec62
@@ -643,5 +642,15 @@
 #define ICON_CI_WINDOW_ACTIVE "\xee\xb1\xb2"	// U+ec72
 #define ICON_CI_FORWARD "\xee\xb1\xb3"	// U+ec73
 #define ICON_CI_DOWNLOAD "\xee\xb1\xb4"	// U+ec74
+#define ICON_CI_CLOCKFACE "\xee\xb1\xb5"	// U+ec75
+#define ICON_CI_UNARCHIVE "\xee\xb1\xb6"	// U+ec76
+#define ICON_CI_SESSION_IN_PROGRESS "\xee\xb1\xb7"	// U+ec77
+#define ICON_CI_COLLECTION_SMALL "\xee\xb1\xb8"	// U+ec78
+#define ICON_CI_VM_SMALL "\xee\xb1\xb9"	// U+ec79
+#define ICON_CI_CLOUD_SMALL "\xee\xb1\xba"	// U+ec7a
+#define ICON_CI_ADD_SMALL "\xee\xb1\xbb"	// U+ec7b
+#define ICON_CI_REMOVE_SMALL "\xee\xb1\xbc"	// U+ec7c
+#define ICON_CI_WORKTREE_SMALL "\xee\xb1\xbd"	// U+ec7d
+#define ICON_CI_WORKTREE "\xee\xb1\xbe"	// U+ec7e
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101
 #define ICON_CI_VM_PENDING "\xef\x84\x82"	// U+f102

@@ -264,6 +264,7 @@ var IconsCodicons = Font{
 		"Italic":	"\xee\xac\x8d", 	// U+eb0d
 		"Jersey":	"\xee\xac\x8e", 	// U+eb0e
 		"Json":	"\xee\xac\x8f", 	// U+eb0f
+		"Bracket":	"\xee\xac\x8f", 	// U+eb0f
 		"KebabVertical":	"\xee\xac\x90", 	// U+eb10
 		"Key":	"\xee\xac\x91", 	// U+eb11
 		"Law":	"\xee\xac\x92", 	// U+eb12
@@ -490,7 +491,6 @@ var IconsCodicons = Font{
 		"GraphLine":	"\xee\xaf\xa2", 	// U+ebe2
 		"GraphScatter":	"\xee\xaf\xa3", 	// U+ebe3
 		"PieChart":	"\xee\xaf\xa4", 	// U+ebe4
-		"Bracket":	"\xee\xac\x8f", 	// U+eb0f
 		"BracketDot":	"\xee\xaf\xa5", 	// U+ebe5
 		"BracketError":	"\xee\xaf\xa6", 	// U+ebe6
 		"LockSmall":	"\xee\xaf\xa7", 	// U+ebe7
@@ -621,7 +621,6 @@ var IconsCodicons = Font{
 		"Cursor":	"\xee\xb1\x9c", 	// U+ec5c
 		"Eraser":	"\xee\xb1\x9d", 	// U+ec5d
 		"FileText":	"\xee\xb1\x9e", 	// U+ec5e
-		"GitLens":	"\xee\xb1\x9f", 	// U+ec5f
 		"Quotes":	"\xee\xb1\xa0", 	// U+ec60
 		"Rename":	"\xee\xb1\xa1", 	// U+ec61
 		"RunWithDeps":	"\xee\xb1\xa2", 	// U+ec62
@@ -645,6 +644,16 @@ var IconsCodicons = Font{
 		"WindowActive":	"\xee\xb1\xb2", 	// U+ec72
 		"Forward":	"\xee\xb1\xb3", 	// U+ec73
 		"Download":	"\xee\xb1\xb4", 	// U+ec74
+		"Clockface":	"\xee\xb1\xb5", 	// U+ec75
+		"Unarchive":	"\xee\xb1\xb6", 	// U+ec76
+		"SessionInProgress":	"\xee\xb1\xb7", 	// U+ec77
+		"CollectionSmall":	"\xee\xb1\xb8", 	// U+ec78
+		"VmSmall":	"\xee\xb1\xb9", 	// U+ec79
+		"CloudSmall":	"\xee\xb1\xba", 	// U+ec7a
+		"AddSmall":	"\xee\xb1\xbb", 	// U+ec7b
+		"RemoveSmall":	"\xee\xb1\xbc", 	// U+ec7c
+		"WorktreeSmall":	"\xee\xb1\xbd", 	// U+ec7d
+		"Worktree":	"\xee\xb1\xbe", 	// U+ec7e
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 		"VmPending":	"\xef\x84\x82", 	// U+f102
 	},

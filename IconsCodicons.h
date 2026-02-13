@@ -652,5 +652,9 @@
 #define ICON_CI_REMOVE_SMALL "\xee\xb1\xbc"	// U+ec7c
 #define ICON_CI_WORKTREE_SMALL "\xee\xb1\xbd"	// U+ec7d
 #define ICON_CI_WORKTREE "\xee\xb1\xbe"	// U+ec7e
+#define ICON_CI_SCREEN_CUT "\xee\xb1\xbf"	// U+ec7f
+#define ICON_CI_ASK "\xee\xb2\x80"	// U+ec80
+#define ICON_CI_OPENAI "\xee\xb2\x81"	// U+ec81
+#define ICON_CI_CLAUDE "\xee\xb2\x82"	// U+ec82
 #define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101
 #define ICON_CI_VM_PENDING "\xef\x84\x82"	// U+f102

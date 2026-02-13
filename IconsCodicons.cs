@@ -656,6 +656,10 @@ namespace IconFonts
         public const string RemoveSmall = "\uec7c";
         public const string WorktreeSmall = "\uec7d";
         public const string Worktree = "\uec7e";
+        public const string ScreenCut = "\uec7f";
+        public const string Ask = "\uec80";
+        public const string Openai = "\uec81";
+        public const string Claude = "\uec82";
         public const string GitFetch = "\uf101";
         public const string VmPending = "\uf102";
     }

@@ -654,6 +654,10 @@ var IconsCodicons = Font{
 		"RemoveSmall":	"\xee\xb1\xbc", 	// U+ec7c
 		"WorktreeSmall":	"\xee\xb1\xbd", 	// U+ec7d
 		"Worktree":	"\xee\xb1\xbe", 	// U+ec7e
+		"ScreenCut":	"\xee\xb1\xbf", 	// U+ec7f
+		"Ask":	"\xee\xb2\x80", 	// U+ec80
+		"Openai":	"\xee\xb2\x81", 	// U+ec81
+		"Claude":	"\xee\xb2\x82", 	// U+ec82
 		"GitFetch":	"\xef\x84\x81", 	// U+f101
 		"VmPending":	"\xef\x84\x82", 	// U+f102
 	},

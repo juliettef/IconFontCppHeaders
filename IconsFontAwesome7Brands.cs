@@ -37,6 +37,7 @@ namespace IconFonts
         public const string Apper = "\uf371";
         public const string Apple = "\uf179";
         public const string ApplePay = "\uf415";
+        public const string ArchLinux = "\ue867";
         public const string Artstation = "\uf77a";
         public const string Asymmetrik = "\uf372";
         public const string Atlassian = "\uf77b";
@@ -60,6 +61,7 @@ namespace IconFonts
         public const string Bluesky = "\ue671";
         public const string Bluetooth = "\uf293";
         public const string BluetoothB = "\uf294";
+        public const string BoardGameGeek = "\ue855";
         public const string Bootstrap = "\uf836";
         public const string Bots = "\ue340";
         public const string Brave = "\ue63c";
@@ -85,6 +87,8 @@ namespace IconFonts
         public const string Centos = "\uf789";
         public const string Chrome = "\uf268";
         public const string Chromecast = "\uf838";
+        public const string CircleZulip = "\ue851";
+        public const string Claude = "\ue861";
         public const string Cloudflare = "\ue07d";
         public const string Cloudscale = "\uf383";
         public const string Cloudsmith = "\uf384";
@@ -163,6 +167,7 @@ namespace IconFonts
         public const string FacebookMessenger = "\uf39f";
         public const string FantasyFlightGames = "\uf6dc";
         public const string Fedex = "\uf797";
+        public const string Fediverse = "\ue865";
         public const string Fedora = "\uf798";
         public const string Figma = "\uf799";
         public const string FilesPinwheel = "\ue69f";
@@ -178,6 +183,7 @@ namespace IconFonts
         public const string FontAwesome = "\uf2b4";
         public const string Fonticons = "\uf280";
         public const string FonticonsFi = "\uf3a2";
+        public const string Forgejo = "\ue860";
         public const string FortAwesome = "\uf286";
         public const string FortAwesomeAlt = "\uf3a3";
         public const string Forumbee = "\uf211";
@@ -192,6 +198,7 @@ namespace IconFonts
         public const string GgCircle = "\uf261";
         public const string Git = "\uf1d3";
         public const string GitAlt = "\uf841";
+        public const string Gitee = "\ue863";
         public const string Github = "\uf09b";
         public const string GithubAlt = "\uf113";
         public const string Gitkraken = "\uf3a6";
@@ -199,6 +206,7 @@ namespace IconFonts
         public const string Gitter = "\uf426";
         public const string Glide = "\uf2a5";
         public const string GlideG = "\uf2a6";
+        public const string Globaleaks = "\ue85d";
         public const string Gofore = "\uf3a7";
         public const string Golang = "\ue40f";
         public const string Goodreads = "\uf3a8";
@@ -229,6 +237,7 @@ namespace IconFonts
         public const string Houzz = "\uf27c";
         public const string Html5 = "\uf13b";
         public const string Hubspot = "\uf3b2";
+        public const string HuggingFace = "\ue869";
         public const string Ideal = "\ue013";
         public const string Imdb = "\uf2d8";
         public const string Instagram = "\uf16d";
@@ -248,6 +257,7 @@ namespace IconFonts
         public const string Joomla = "\uf1aa";
         public const string Js = "\uf3b8";
         public const string Jsfiddle = "\uf1cc";
+        public const string Julia = "\ue852";
         public const string Jxl = "\ue67b";
         public const string Kaggle = "\uf5fa";
         public const string KakaoTalk = "\ue7d7";
@@ -255,10 +265,13 @@ namespace IconFonts
         public const string Keycdn = "\uf3ba";
         public const string Kickstarter = "\uf3bb";
         public const string KickstarterK = "\uf3bc";
+        public const string KoFi = "\ue856";
         public const string Korvue = "\uf42f";
+        public const string Kubernetes = "\ue857";
         public const string Laravel = "\uf3bd";
         public const string Lastfm = "\uf202";
         public const string Leanpub = "\uf212";
+        public const string Leetcode = "\ue86a";
         public const string Less = "\uf41d";
         public const string Letterboxd = "\ue62d";
         public const string Line = "\uf3c0";
@@ -304,6 +317,7 @@ namespace IconFonts
         public const string Npm = "\uf3d4";
         public const string Ns8 = "\uf3d5";
         public const string Nutritionix = "\uf3d6";
+        public const string Obsidian = "\ue879";
         public const string OctopusDeploy = "\ue082";
         public const string Odnoklassniki = "\uf263";
         public const string Odysee = "\ue5c6";
@@ -311,6 +325,7 @@ namespace IconFonts
         public const string Openai = "\ue7cf";
         public const string Opencart = "\uf23d";
         public const string Openid = "\uf19b";
+        public const string Openstreetmap = "\ue86b";
         public const string Opensuse = "\ue62b";
         public const string Opera = "\uf26a";
         public const string OptinMonster = "\uf23c";
@@ -339,6 +354,7 @@ namespace IconFonts
         public const string Pixelfed = "\ue7db";
         public const string Pixiv = "\ue640";
         public const string Playstation = "\uf3df";
+        public const string Postgresql = "\ue858";
         public const string ProductHunt = "\uf288";
         public const string Pushed = "\uf3e1";
         public const string Python = "\uf3e2";
@@ -367,6 +383,7 @@ namespace IconFonts
         public const string Safari = "\uf267";
         public const string Salesforce = "\uf83b";
         public const string Sass = "\uf41e";
+        public const string Scaleway = "\ue859";
         public const string Schlix = "\uf3ea";
         public const string Screenpal = "\ue570";
         public const string Scribd = "\uf28a";
@@ -389,6 +406,7 @@ namespace IconFonts
         public const string Slack = "\uf198";
         public const string Slideshare = "\uf1e7";
         public const string Snapchat = "\uf2ab";
+        public const string Solana = "\ue85e";
         public const string Soundcloud = "\uf1be";
         public const string Sourcetree = "\uf7d3";
         public const string SpaceAwesome = "\ue5ac";
@@ -397,6 +415,7 @@ namespace IconFonts
         public const string Spotify = "\uf1bc";
         public const string SquareBehance = "\uf1b5";
         public const string SquareBluesky = "\ue6a3";
+        public const string SquareDeskpro = "\ue844";
         public const string SquareDribbble = "\uf397";
         public const string SquareFacebook = "\uf082";
         public const string SquareFigma = "\ue7e4";
@@ -447,9 +466,13 @@ namespace IconFonts
         public const string StumbleuponCircle = "\uf1a3";
         public const string Superpowers = "\uf2dd";
         public const string Supple = "\uf3f9";
+        public const string Supportnow = "\ue833";
         public const string Suse = "\uf7d6";
+        public const string Svelte = "\ue868";
         public const string Swift = "\uf8e1";
         public const string Symfony = "\uf83d";
+        public const string Symfonycasts = "\ue8ab";
+        public const string TailwindCss = "\ue866";
         public const string Teamspeak = "\uf4f9";
         public const string Telegram = "\uf2c6";
         public const string TencentWeibo = "\uf1d5";
@@ -459,21 +482,29 @@ namespace IconFonts
         public const string Themeisle = "\uf2b2";
         public const string ThinkPeaks = "\uf731";
         public const string Threads = "\ue618";
+        public const string Threema = "\ue85f";
         public const string Tidal = "\ue7dc";
         public const string Tiktok = "\ue07b";
+        public const string TorBrowser = "\ue838";
         public const string TradeFederation = "\uf513";
         public const string Trello = "\uf181";
         public const string Tumblr = "\uf173";
         public const string Twitch = "\uf1e8";
         public const string Twitter = "\uf099";
+        public const string Typescript = "\ue840";
         public const string Typo3 = "\uf42b";
         public const string Uber = "\uf402";
         public const string Ubuntu = "\uf7df";
         public const string Uikit = "\uf403";
+        public const string Ultralytics = "\ue86d";
+        public const string UltralyticsHub = "\ue86e";
+        public const string UltralyticsYolo = "\ue86f";
         public const string Umbraco = "\uf8e8";
         public const string Uncharted = "\ue084";
         public const string Uniregistry = "\uf404";
+        public const string Unison = "\ue854";
         public const string Unity = "\ue049";
+        public const string UnrealEngine = "\ue85c";
         public const string Unsplash = "\ue07c";
         public const string Untappd = "\uf405";
         public const string Ups = "\uf7e0";
@@ -482,9 +513,12 @@ namespace IconFonts
         public const string Usps = "\uf7e1";
         public const string Ussunnah = "\uf407";
         public const string Vaadin = "\uf408";
+        public const string Venmo = "\ue85a";
+        public const string VenmoV = "\ue85b";
         public const string Viacoin = "\uf237";
         public const string Viadeo = "\uf2a9";
         public const string Viber = "\uf409";
+        public const string Vim = "\ue88a";
         public const string Vimeo = "\uf40a";
         public const string VimeoV = "\uf27d";
         public const string Vine = "\uf1ca";
@@ -518,6 +552,7 @@ namespace IconFonts
         public const string XTwitter = "\ue61b";
         public const string Xbox = "\uf412";
         public const string Xing = "\uf168";
+        public const string Xmpp = "\ue864";
         public const string YCombinator = "\uf23b";
         public const string Yahoo = "\uf19e";
         public const string Yammer = "\uf840";
@@ -528,5 +563,7 @@ namespace IconFonts
         public const string Yoast = "\uf2b1";
         public const string Youtube = "\uf167";
         public const string Zhihu = "\uf63f";
+        public const string Zoom = "\ue87b";
+        public const string Zulip = "\ue853";
     }
 }

@@ -35,6 +35,7 @@ var IconsFontAwesome7Brands = Font{
 		"Apper":	"\xef\x8d\xb1", 	// U+f371
 		"Apple":	"\xef\x85\xb9", 	// U+f179
 		"ApplePay":	"\xef\x90\x95", 	// U+f415
+		"ArchLinux":	"\xee\xa1\xa7", 	// U+e867
 		"Artstation":	"\xef\x9d\xba", 	// U+f77a
 		"Asymmetrik":	"\xef\x8d\xb2", 	// U+f372
 		"Atlassian":	"\xef\x9d\xbb", 	// U+f77b
@@ -58,6 +59,7 @@ var IconsFontAwesome7Brands = Font{
 		"Bluesky":	"\xee\x99\xb1", 	// U+e671
 		"Bluetooth":	"\xef\x8a\x93", 	// U+f293
 		"BluetoothB":	"\xef\x8a\x94", 	// U+f294
+		"BoardGameGeek":	"\xee\xa1\x95", 	// U+e855
 		"Bootstrap":	"\xef\xa0\xb6", 	// U+f836
 		"Bots":	"\xee\x8d\x80", 	// U+e340
 		"Brave":	"\xee\x98\xbc", 	// U+e63c
@@ -83,6 +85,8 @@ var IconsFontAwesome7Brands = Font{
 		"Centos":	"\xef\x9e\x89", 	// U+f789
 		"Chrome":	"\xef\x89\xa8", 	// U+f268
 		"Chromecast":	"\xef\xa0\xb8", 	// U+f838
+		"CircleZulip":	"\xee\xa1\x91", 	// U+e851
+		"Claude":	"\xee\xa1\xa1", 	// U+e861
 		"Cloudflare":	"\xee\x81\xbd", 	// U+e07d
 		"Cloudscale":	"\xef\x8e\x83", 	// U+f383
 		"Cloudsmith":	"\xef\x8e\x84", 	// U+f384
@@ -161,6 +165,7 @@ var IconsFontAwesome7Brands = Font{
 		"FacebookMessenger":	"\xef\x8e\x9f", 	// U+f39f
 		"FantasyFlightGames":	"\xef\x9b\x9c", 	// U+f6dc
 		"Fedex":	"\xef\x9e\x97", 	// U+f797
+		"Fediverse":	"\xee\xa1\xa5", 	// U+e865
 		"Fedora":	"\xef\x9e\x98", 	// U+f798
 		"Figma":	"\xef\x9e\x99", 	// U+f799
 		"FilesPinwheel":	"\xee\x9a\x9f", 	// U+e69f
@@ -176,6 +181,7 @@ var IconsFontAwesome7Brands = Font{
 		"FontAwesome":	"\xef\x8a\xb4", 	// U+f2b4
 		"Fonticons":	"\xef\x8a\x80", 	// U+f280
 		"FonticonsFi":	"\xef\x8e\xa2", 	// U+f3a2
+		"Forgejo":	"\xee\xa1\xa0", 	// U+e860
 		"FortAwesome":	"\xef\x8a\x86", 	// U+f286
 		"FortAwesomeAlt":	"\xef\x8e\xa3", 	// U+f3a3
 		"Forumbee":	"\xef\x88\x91", 	// U+f211
@@ -190,6 +196,7 @@ var IconsFontAwesome7Brands = Font{
 		"GgCircle":	"\xef\x89\xa1", 	// U+f261
 		"Git":	"\xef\x87\x93", 	// U+f1d3
 		"GitAlt":	"\xef\xa1\x81", 	// U+f841
+		"Gitee":	"\xee\xa1\xa3", 	// U+e863
 		"Github":	"\xef\x82\x9b", 	// U+f09b
 		"GithubAlt":	"\xef\x84\x93", 	// U+f113
 		"Gitkraken":	"\xef\x8e\xa6", 	// U+f3a6
@@ -197,6 +204,7 @@ var IconsFontAwesome7Brands = Font{
 		"Gitter":	"\xef\x90\xa6", 	// U+f426
 		"Glide":	"\xef\x8a\xa5", 	// U+f2a5
 		"GlideG":	"\xef\x8a\xa6", 	// U+f2a6
+		"Globaleaks":	"\xee\xa1\x9d", 	// U+e85d
 		"Gofore":	"\xef\x8e\xa7", 	// U+f3a7
 		"Golang":	"\xee\x90\x8f", 	// U+e40f
 		"Goodreads":	"\xef\x8e\xa8", 	// U+f3a8
@@ -227,6 +235,7 @@ var IconsFontAwesome7Brands = Font{
 		"Houzz":	"\xef\x89\xbc", 	// U+f27c
 		"Html5":	"\xef\x84\xbb", 	// U+f13b
 		"Hubspot":	"\xef\x8e\xb2", 	// U+f3b2
+		"HuggingFace":	"\xee\xa1\xa9", 	// U+e869
 		"Ideal":	"\xee\x80\x93", 	// U+e013
 		"Imdb":	"\xef\x8b\x98", 	// U+f2d8
 		"Instagram":	"\xef\x85\xad", 	// U+f16d
@@ -246,6 +255,7 @@ var IconsFontAwesome7Brands = Font{
 		"Joomla":	"\xef\x86\xaa", 	// U+f1aa
 		"Js":	"\xef\x8e\xb8", 	// U+f3b8
 		"Jsfiddle":	"\xef\x87\x8c", 	// U+f1cc
+		"Julia":	"\xee\xa1\x92", 	// U+e852
 		"Jxl":	"\xee\x99\xbb", 	// U+e67b
 		"Kaggle":	"\xef\x97\xba", 	// U+f5fa
 		"KakaoTalk":	"\xee\x9f\x97", 	// U+e7d7
@@ -253,10 +263,13 @@ var IconsFontAwesome7Brands = Font{
 		"Keycdn":	"\xef\x8e\xba", 	// U+f3ba
 		"Kickstarter":	"\xef\x8e\xbb", 	// U+f3bb
 		"KickstarterK":	"\xef\x8e\xbc", 	// U+f3bc
+		"KoFi":	"\xee\xa1\x96", 	// U+e856
 		"Korvue":	"\xef\x90\xaf", 	// U+f42f
+		"Kubernetes":	"\xee\xa1\x97", 	// U+e857
 		"Laravel":	"\xef\x8e\xbd", 	// U+f3bd
 		"Lastfm":	"\xef\x88\x82", 	// U+f202
 		"Leanpub":	"\xef\x88\x92", 	// U+f212
+		"Leetcode":	"\xee\xa1\xaa", 	// U+e86a
 		"Less":	"\xef\x90\x9d", 	// U+f41d
 		"Letterboxd":	"\xee\x98\xad", 	// U+e62d
 		"Line":	"\xef\x8f\x80", 	// U+f3c0
@@ -302,6 +315,7 @@ var IconsFontAwesome7Brands = Font{
 		"Npm":	"\xef\x8f\x94", 	// U+f3d4
 		"Ns8":	"\xef\x8f\x95", 	// U+f3d5
 		"Nutritionix":	"\xef\x8f\x96", 	// U+f3d6
+		"Obsidian":	"\xee\xa1\xb9", 	// U+e879
 		"OctopusDeploy":	"\xee\x82\x82", 	// U+e082
 		"Odnoklassniki":	"\xef\x89\xa3", 	// U+f263
 		"Odysee":	"\xee\x97\x86", 	// U+e5c6
@@ -309,6 +323,7 @@ var IconsFontAwesome7Brands = Font{
 		"Openai":	"\xee\x9f\x8f", 	// U+e7cf
 		"Opencart":	"\xef\x88\xbd", 	// U+f23d
 		"Openid":	"\xef\x86\x9b", 	// U+f19b
+		"Openstreetmap":	"\xee\xa1\xab", 	// U+e86b
 		"Opensuse":	"\xee\x98\xab", 	// U+e62b
 		"Opera":	"\xef\x89\xaa", 	// U+f26a
 		"OptinMonster":	"\xef\x88\xbc", 	// U+f23c
@@ -337,6 +352,7 @@ var IconsFontAwesome7Brands = Font{
 		"Pixelfed":	"\xee\x9f\x9b", 	// U+e7db
 		"Pixiv":	"\xee\x99\x80", 	// U+e640
 		"Playstation":	"\xef\x8f\x9f", 	// U+f3df
+		"Postgresql":	"\xee\xa1\x98", 	// U+e858
 		"ProductHunt":	"\xef\x8a\x88", 	// U+f288
 		"Pushed":	"\xef\x8f\xa1", 	// U+f3e1
 		"Python":	"\xef\x8f\xa2", 	// U+f3e2
@@ -365,6 +381,7 @@ var IconsFontAwesome7Brands = Font{
 		"Safari":	"\xef\x89\xa7", 	// U+f267
 		"Salesforce":	"\xef\xa0\xbb", 	// U+f83b
 		"Sass":	"\xef\x90\x9e", 	// U+f41e
+		"Scaleway":	"\xee\xa1\x99", 	// U+e859
 		"Schlix":	"\xef\x8f\xaa", 	// U+f3ea
 		"Screenpal":	"\xee\x95\xb0", 	// U+e570
 		"Scribd":	"\xef\x8a\x8a", 	// U+f28a
@@ -387,6 +404,7 @@ var IconsFontAwesome7Brands = Font{
 		"Slack":	"\xef\x86\x98", 	// U+f198
 		"Slideshare":	"\xef\x87\xa7", 	// U+f1e7
 		"Snapchat":	"\xef\x8a\xab", 	// U+f2ab
+		"Solana":	"\xee\xa1\x9e", 	// U+e85e
 		"Soundcloud":	"\xef\x86\xbe", 	// U+f1be
 		"Sourcetree":	"\xef\x9f\x93", 	// U+f7d3
 		"SpaceAwesome":	"\xee\x96\xac", 	// U+e5ac
@@ -395,6 +413,7 @@ var IconsFontAwesome7Brands = Font{
 		"Spotify":	"\xef\x86\xbc", 	// U+f1bc
 		"SquareBehance":	"\xef\x86\xb5", 	// U+f1b5
 		"SquareBluesky":	"\xee\x9a\xa3", 	// U+e6a3
+		"SquareDeskpro":	"\xee\xa1\x84", 	// U+e844
 		"SquareDribbble":	"\xef\x8e\x97", 	// U+f397
 		"SquareFacebook":	"\xef\x82\x82", 	// U+f082
 		"SquareFigma":	"\xee\x9f\xa4", 	// U+e7e4
@@ -445,9 +464,13 @@ var IconsFontAwesome7Brands = Font{
 		"StumbleuponCircle":	"\xef\x86\xa3", 	// U+f1a3
 		"Superpowers":	"\xef\x8b\x9d", 	// U+f2dd
 		"Supple":	"\xef\x8f\xb9", 	// U+f3f9
+		"Supportnow":	"\xee\xa0\xb3", 	// U+e833
 		"Suse":	"\xef\x9f\x96", 	// U+f7d6
+		"Svelte":	"\xee\xa1\xa8", 	// U+e868
 		"Swift":	"\xef\xa3\xa1", 	// U+f8e1
 		"Symfony":	"\xef\xa0\xbd", 	// U+f83d
+		"Symfonycasts":	"\xee\xa2\xab", 	// U+e8ab
+		"TailwindCss":	"\xee\xa1\xa6", 	// U+e866
 		"Teamspeak":	"\xef\x93\xb9", 	// U+f4f9
 		"Telegram":	"\xef\x8b\x86", 	// U+f2c6
 		"TencentWeibo":	"\xef\x87\x95", 	// U+f1d5
@@ -457,21 +480,29 @@ var IconsFontAwesome7Brands = Font{
 		"Themeisle":	"\xef\x8a\xb2", 	// U+f2b2
 		"ThinkPeaks":	"\xef\x9c\xb1", 	// U+f731
 		"Threads":	"\xee\x98\x98", 	// U+e618
+		"Threema":	"\xee\xa1\x9f", 	// U+e85f
 		"Tidal":	"\xee\x9f\x9c", 	// U+e7dc
 		"Tiktok":	"\xee\x81\xbb", 	// U+e07b
+		"TorBrowser":	"\xee\xa0\xb8", 	// U+e838
 		"TradeFederation":	"\xef\x94\x93", 	// U+f513
 		"Trello":	"\xef\x86\x81", 	// U+f181
 		"Tumblr":	"\xef\x85\xb3", 	// U+f173
 		"Twitch":	"\xef\x87\xa8", 	// U+f1e8
 		"Twitter":	"\xef\x82\x99", 	// U+f099
+		"Typescript":	"\xee\xa1\x80", 	// U+e840
 		"Typo3":	"\xef\x90\xab", 	// U+f42b
 		"Uber":	"\xef\x90\x82", 	// U+f402
 		"Ubuntu":	"\xef\x9f\x9f", 	// U+f7df
 		"Uikit":	"\xef\x90\x83", 	// U+f403
+		"Ultralytics":	"\xee\xa1\xad", 	// U+e86d
+		"UltralyticsHub":	"\xee\xa1\xae", 	// U+e86e
+		"UltralyticsYolo":	"\xee\xa1\xaf", 	// U+e86f
 		"Umbraco":	"\xef\xa3\xa8", 	// U+f8e8
 		"Uncharted":	"\xee\x82\x84", 	// U+e084
 		"Uniregistry":	"\xef\x90\x84", 	// U+f404
+		"Unison":	"\xee\xa1\x94", 	// U+e854
 		"Unity":	"\xee\x81\x89", 	// U+e049
+		"UnrealEngine":	"\xee\xa1\x9c", 	// U+e85c
 		"Unsplash":	"\xee\x81\xbc", 	// U+e07c
 		"Untappd":	"\xef\x90\x85", 	// U+f405
 		"Ups":	"\xef\x9f\xa0", 	// U+f7e0
@@ -480,9 +511,12 @@ var IconsFontAwesome7Brands = Font{
 		"Usps":	"\xef\x9f\xa1", 	// U+f7e1
 		"Ussunnah":	"\xef\x90\x87", 	// U+f407
 		"Vaadin":	"\xef\x90\x88", 	// U+f408
+		"Venmo":	"\xee\xa1\x9a", 	// U+e85a
+		"VenmoV":	"\xee\xa1\x9b", 	// U+e85b
 		"Viacoin":	"\xef\x88\xb7", 	// U+f237
 		"Viadeo":	"\xef\x8a\xa9", 	// U+f2a9
 		"Viber":	"\xef\x90\x89", 	// U+f409
+		"Vim":	"\xee\xa2\x8a", 	// U+e88a
 		"Vimeo":	"\xef\x90\x8a", 	// U+f40a
 		"VimeoV":	"\xef\x89\xbd", 	// U+f27d
 		"Vine":	"\xef\x87\x8a", 	// U+f1ca
@@ -516,6 +550,7 @@ var IconsFontAwesome7Brands = Font{
 		"XTwitter":	"\xee\x98\x9b", 	// U+e61b
 		"Xbox":	"\xef\x90\x92", 	// U+f412
 		"Xing":	"\xef\x85\xa8", 	// U+f168
+		"Xmpp":	"\xee\xa1\xa4", 	// U+e864
 		"YCombinator":	"\xef\x88\xbb", 	// U+f23b
 		"Yahoo":	"\xef\x86\x9e", 	// U+f19e
 		"Yammer":	"\xef\xa1\x80", 	// U+f840
@@ -526,5 +561,7 @@ var IconsFontAwesome7Brands = Font{
 		"Yoast":	"\xef\x8a\xb1", 	// U+f2b1
 		"Youtube":	"\xef\x85\xa7", 	// U+f167
 		"Zhihu":	"\xef\x98\xbf", 	// U+f63f
+		"Zoom":	"\xee\xa1\xbb", 	// U+e87b
+		"Zulip":	"\xee\xa1\x93", 	// U+e853
 	},
 }

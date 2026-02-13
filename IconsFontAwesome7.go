@@ -47,7 +47,9 @@ var IconsFontAwesome7 = Font{
 		"AnglesUp":	"\xef\x84\x82", 	// U+f102
 		"Ankh":	"\xef\x99\x84", 	// U+f644
 		"AppleWhole":	"\xef\x97\x91", 	// U+f5d1
+		"Aquarius":	"\xee\xa1\x85", 	// U+e845
 		"Archway":	"\xef\x95\x97", 	// U+f557
+		"Aries":	"\xee\xa1\x86", 	// U+e846
 		"ArrowDown":	"\xef\x81\xa3", 	// U+f063
 		"ArrowDown19":	"\xef\x85\xa2", 	// U+f162
 		"ArrowDown91":	"\xef\xa2\x86", 	// U+f886
@@ -240,8 +242,10 @@ var IconsFontAwesome7 = Font{
 		"CameraRetro":	"\xef\x82\x83", 	// U+f083
 		"CameraRotate":	"\xee\x83\x98", 	// U+e0d8
 		"Campground":	"\xef\x9a\xbb", 	// U+f6bb
+		"Cancer":	"\xee\xa1\x87", 	// U+e847
 		"CandyCane":	"\xef\x9e\x86", 	// U+f786
 		"Cannabis":	"\xef\x95\x9f", 	// U+f55f
+		"Capricorn":	"\xee\xa1\x88", 	// U+e848
 		"Capsules":	"\xef\x91\xab", 	// U+f46b
 		"Car":	"\xef\x86\xb9", 	// U+f1b9
 		"CarBattery":	"\xef\x97\x9f", 	// U+f5df
@@ -343,6 +347,7 @@ var IconsFontAwesome7 = Font{
 		"ClockRotateLeft":	"\xef\x87\x9a", 	// U+f1da
 		"Clone":	"\xef\x89\x8d", 	// U+f24d
 		"ClosedCaptioning":	"\xef\x88\x8a", 	// U+f20a
+		"ClosedCaptioningSlash":	"\xee\x84\xb5", 	// U+e135
 		"Cloud":	"\xef\x83\x82", 	// U+f0c2
 		"CloudArrowDown":	"\xef\x83\xad", 	// U+f0ed
 		"CloudArrowUp":	"\xef\x83\xae", 	// U+f0ee
@@ -597,6 +602,7 @@ var IconsFontAwesome7 = Font{
 		"Gear":	"\xef\x80\x93", 	// U+f013
 		"Gears":	"\xef\x82\x85", 	// U+f085
 		"Gem":	"\xef\x8e\xa5", 	// U+f3a5
+		"Gemini":	"\xee\xa1\x89", 	// U+e849
 		"Genderless":	"\xef\x88\xad", 	// U+f22d
 		"Ghost":	"\xef\x9b\xa2", 	// U+f6e2
 		"Gift":	"\xef\x81\xab", 	// U+f06b
@@ -779,8 +785,10 @@ var IconsFontAwesome7 = Font{
 		"LeftLong":	"\xef\x8c\x8a", 	// U+f30a
 		"LeftRight":	"\xef\x8c\xb7", 	// U+f337
 		"Lemon":	"\xef\x82\x94", 	// U+f094
+		"Leo":	"\xee\xa1\x8a", 	// U+e84a
 		"LessThan":	"<", 	// U+003c
 		"LessThanEqual":	"\xef\x94\xb7", 	// U+f537
+		"Libra":	"\xee\xa1\x8b", 	// U+e84b
 		"LifeRing":	"\xef\x87\x8d", 	// U+f1cd
 		"Lightbulb":	"\xef\x83\xab", 	// U+f0eb
 		"LinesLeaning":	"\xee\x94\x9e", 	// U+e51e
@@ -984,8 +992,10 @@ var IconsFontAwesome7 = Font{
 		"PhoneSlash":	"\xef\x8f\x9d", 	// U+f3dd
 		"PhoneVolume":	"\xef\x8a\xa0", 	// U+f2a0
 		"PhotoFilm":	"\xef\xa1\xbc", 	// U+f87c
+		"PictureInPicture":	"\xee\xa0\x8b", 	// U+e80b
 		"PiggyBank":	"\xef\x93\x93", 	// U+f4d3
 		"Pills":	"\xef\x92\x84", 	// U+f484
+		"Pisces":	"\xee\xa1\x8c", 	// U+e84c
 		"PizzaSlice":	"\xef\xa0\x98", 	// U+f818
 		"PlaceOfWorship":	"\xef\x99\xbf", 	// U+f67f
 		"Plane":	"\xef\x81\xb2", 	// U+f072
@@ -1076,6 +1086,7 @@ var IconsFontAwesome7 = Font{
 		"S":	"S", 	// U+0053
 		"SackDollar":	"\xef\xa0\x9d", 	// U+f81d
 		"SackXmark":	"\xee\x95\xaa", 	// U+e56a
+		"Sagittarius":	"\xee\xa1\x8d", 	// U+e84d
 		"Sailboat":	"\xee\x91\x85", 	// U+e445
 		"Satellite":	"\xef\x9e\xbf", 	// U+f7bf
 		"SatelliteDish":	"\xef\x9f\x80", 	// U+f7c0
@@ -1089,6 +1100,7 @@ var IconsFontAwesome7 = Font{
 		"SchoolFlag":	"\xee\x95\xae", 	// U+e56e
 		"SchoolLock":	"\xee\x95\xaf", 	// U+e56f
 		"Scissors":	"\xef\x83\x84", 	// U+f0c4
+		"Scorpio":	"\xee\xa1\x8e", 	// U+e84e
 		"Screwdriver":	"\xef\x95\x8a", 	// U+f54a
 		"ScrewdriverWrench":	"\xef\x9f\x99", 	// U+f7d9
 		"Scroll":	"\xef\x9c\x8e", 	// U+f70e
@@ -1232,6 +1244,7 @@ var IconsFontAwesome7 = Font{
 		"Tape":	"\xef\x93\x9b", 	// U+f4db
 		"Tarp":	"\xee\x95\xbb", 	// U+e57b
 		"TarpDroplet":	"\xee\x95\xbc", 	// U+e57c
+		"Taurus":	"\xee\xa1\x8f", 	// U+e84f
 		"Taxi":	"\xef\x86\xba", 	// U+f1ba
 		"Teeth":	"\xef\x98\xae", 	// U+f62e
 		"TeethOpen":	"\xef\x98\xaf", 	// U+f62f
@@ -1371,6 +1384,7 @@ var IconsFontAwesome7 = Font{
 		"Video":	"\xef\x80\xbd", 	// U+f03d
 		"VideoSlash":	"\xef\x93\xa2", 	// U+f4e2
 		"Vihara":	"\xef\x9a\xa7", 	// U+f6a7
+		"Virgo":	"\xee\xa1\x90", 	// U+e850
 		"Virus":	"\xee\x81\xb4", 	// U+e074
 		"VirusCovid":	"\xee\x92\xa8", 	// U+e4a8
 		"VirusCovidSlash":	"\xee\x92\xa9", 	// U+e4a9
@@ -1379,6 +1393,7 @@ var IconsFontAwesome7 = Font{
 		"Voicemail":	"\xef\xa2\x97", 	// U+f897
 		"Volcano":	"\xef\x9d\xb0", 	// U+f770
 		"Volleyball":	"\xef\x91\x9f", 	// U+f45f
+		"Volume":	"\xef\x9a\xa8", 	// U+f6a8
 		"VolumeHigh":	"\xef\x80\xa8", 	// U+f028
 		"VolumeLow":	"\xef\x80\xa7", 	// U+f027
 		"VolumeOff":	"\xef\x80\xa6", 	// U+f026

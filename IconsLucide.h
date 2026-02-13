@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_LC "lucide.ttf"
 
 #define ICON_MIN_LC 0xe038
-#define ICON_MAX_16_LC 0xe6b9
-#define ICON_MAX_LC 0xe6b9
+#define ICON_MAX_16_LC 0xe6bb
+#define ICON_MAX_LC 0xe6bb
 
 #define ICON_LC_A_ARROW_DOWN "\xee\x96\x85"	// U+e585
 #define ICON_LC_A_ARROW_UP "\xee\x96\x86"	// U+e586
@@ -755,6 +755,7 @@
 #define ICON_LC_GLASS_WATER "\xee\x8b\x95"	// U+e2d5
 #define ICON_LC_GLASSES "\xee\x88\x8d"	// U+e20d
 #define ICON_LC_GLOBE_LOCK "\xee\x97\x8d"	// U+e5cd
+#define ICON_LC_GLOBE_X "\xee\x9a\xba"	// U+e6ba
 #define ICON_LC_GLOBE "\xee\x83\xa8"	// U+e0e8
 #define ICON_LC_GOAL "\xee\x92\xa5"	// U+e4a5
 #define ICON_LC_GPU "\xee\x99\xaa"	// U+e66a
@@ -1177,6 +1178,7 @@
 #define ICON_LC_POWER "\xee\x85\x80"	// U+e140
 #define ICON_LC_PRESENTATION "\xee\x92\xae"	// U+e4ae
 #define ICON_LC_PRINTER_CHECK "\xee\x97\xb5"	// U+e5f5
+#define ICON_LC_PRINTER_X "\xee\x9a\xbb"	// U+e6bb
 #define ICON_LC_PRINTER "\xee\x85\x81"	// U+e141
 #define ICON_LC_PROJECTOR "\xee\x92\xaf"	// U+e4af
 #define ICON_LC_PROPORTIONS "\xee\x97\x8f"	// U+e5cf

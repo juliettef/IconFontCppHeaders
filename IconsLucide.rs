@@ -6,8 +6,8 @@
 pub const FONT_ICON_FILE_NAME_LC: &str = "lucide.ttf";
 
 pub const ICON_MIN: char = '\u{e038}';
-pub const ICON_MAX_16: char = '\u{e6b9}';
-pub const ICON_MAX: char = '\u{e6b9}';
+pub const ICON_MAX_16: char = '\u{e6bb}';
+pub const ICON_MAX: char = '\u{e6bb}';
 
 pub const ICON_A_ARROW_DOWN: char = '\u{e585}';
 pub const ICON_A_ARROW_UP: char = '\u{e586}';
@@ -753,6 +753,7 @@ pub const ICON_GITLAB: char = '\u{e0e7}';
 pub const ICON_GLASS_WATER: char = '\u{e2d5}';
 pub const ICON_GLASSES: char = '\u{e20d}';
 pub const ICON_GLOBE_LOCK: char = '\u{e5cd}';
+pub const ICON_GLOBE_X: char = '\u{e6ba}';
 pub const ICON_GLOBE: char = '\u{e0e8}';
 pub const ICON_GOAL: char = '\u{e4a5}';
 pub const ICON_GPU: char = '\u{e66a}';
@@ -1175,6 +1176,7 @@ pub const ICON_POWER_OFF: char = '\u{e209}';
 pub const ICON_POWER: char = '\u{e140}';
 pub const ICON_PRESENTATION: char = '\u{e4ae}';
 pub const ICON_PRINTER_CHECK: char = '\u{e5f5}';
+pub const ICON_PRINTER_X: char = '\u{e6bb}';
 pub const ICON_PRINTER: char = '\u{e141}';
 pub const ICON_PROJECTOR: char = '\u{e4af}';
 pub const ICON_PROPORTIONS: char = '\u{e5cf}';

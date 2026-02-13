@@ -10,8 +10,8 @@ var IconsLucide = Font{
 		{"LC", "lucide.ttf"},
 	},
 	Min: 0xe038,
-	Max16: 0xe6b9,
-	Max: 0xe6b9,
+	Max16: 0xe6bb,
+	Max: 0xe6bb,
 	Icons: map[string]string{
 		"AArrowDown":	"\xee\x96\x85", 	// U+e585
 		"AArrowUp":	"\xee\x96\x86", 	// U+e586
@@ -757,6 +757,7 @@ var IconsLucide = Font{
 		"GlassWater":	"\xee\x8b\x95", 	// U+e2d5
 		"Glasses":	"\xee\x88\x8d", 	// U+e20d
 		"GlobeLock":	"\xee\x97\x8d", 	// U+e5cd
+		"GlobeX":	"\xee\x9a\xba", 	// U+e6ba
 		"Globe":	"\xee\x83\xa8", 	// U+e0e8
 		"Goal":	"\xee\x92\xa5", 	// U+e4a5
 		"Gpu":	"\xee\x99\xaa", 	// U+e66a
@@ -1179,6 +1180,7 @@ var IconsLucide = Font{
 		"Power":	"\xee\x85\x80", 	// U+e140
 		"Presentation":	"\xee\x92\xae", 	// U+e4ae
 		"PrinterCheck":	"\xee\x97\xb5", 	// U+e5f5
+		"PrinterX":	"\xee\x9a\xbb", 	// U+e6bb
 		"Printer":	"\xee\x85\x81", 	// U+e141
 		"Projector":	"\xee\x92\xaf", 	// U+e4af
 		"Proportions":	"\xee\x97\x8f", 	// U+e5cf

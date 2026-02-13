@@ -8,8 +8,8 @@ class IconsLucide:
     FONT_ICON_FILE_NAME_LC = 'lucide.ttf'
 
     ICON_MIN = 0xe038
-    ICON_MAX_16 = 0xe6b9
-    ICON_MAX = 0xe6b9
+    ICON_MAX_16 = 0xe6bb
+    ICON_MAX = 0xe6bb
 
     ICON_A_ARROW_DOWN = '\ue585'
     ICON_A_ARROW_UP = '\ue586'
@@ -755,6 +755,7 @@ class IconsLucide:
     ICON_GLASS_WATER = '\ue2d5'
     ICON_GLASSES = '\ue20d'
     ICON_GLOBE_LOCK = '\ue5cd'
+    ICON_GLOBE_X = '\ue6ba'
     ICON_GLOBE = '\ue0e8'
     ICON_GOAL = '\ue4a5'
     ICON_GPU = '\ue66a'
@@ -1177,6 +1178,7 @@ class IconsLucide:
     ICON_POWER = '\ue140'
     ICON_PRESENTATION = '\ue4ae'
     ICON_PRINTER_CHECK = '\ue5f5'
+    ICON_PRINTER_X = '\ue6bb'
     ICON_PRINTER = '\ue141'
     ICON_PROJECTOR = '\ue4af'
     ICON_PROPORTIONS = '\ue5cf'

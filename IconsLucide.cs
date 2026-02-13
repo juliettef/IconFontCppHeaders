@@ -12,8 +12,8 @@ namespace IconFonts
         public const string FontIconFileNameLC = "lucide.ttf";
 
         public const int IconMin = 0xe038;
-        public const int IconMax16 = 0xe6b9;
-        public const int IconMax = 0xe6b9;
+        public const int IconMax16 = 0xe6bb;
+        public const int IconMax = 0xe6bb;
 
         public const string AArrowDown = "\ue585";
         public const string AArrowUp = "\ue586";
@@ -759,6 +759,7 @@ namespace IconFonts
         public const string GlassWater = "\ue2d5";
         public const string Glasses = "\ue20d";
         public const string GlobeLock = "\ue5cd";
+        public const string GlobeX = "\ue6ba";
         public const string Globe = "\ue0e8";
         public const string Goal = "\ue4a5";
         public const string Gpu = "\ue66a";
@@ -1181,6 +1182,7 @@ namespace IconFonts
         public const string Power = "\ue140";
         public const string Presentation = "\ue4ae";
         public const string PrinterCheck = "\ue5f5";
+        public const string PrinterX = "\ue6bb";
         public const string Printer = "\ue141";
         public const string Projector = "\ue4af";
         public const string Proportions = "\ue5cf";

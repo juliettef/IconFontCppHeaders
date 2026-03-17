@@ -244,7 +244,7 @@ class FontFA4( Font ):              # legacy Font Awesome version 4
         for item in data[ 'icons' ]:
             item_unicode = item[ 'unicode' ].zfill( 4 )
             item_int = int( item_unicode, 16 )
-            if item_int < font_min_int and item_int > 0x0127 :  # exclude ASCII characters code points
+            if item_int < font_min_int and item_int > 127 :  # exclude ASCII characters code points
                 font_min = item_unicode
                 font_min_int = item_int
             if item_int > font_max_16_int and item_int <= 0xffff:   # exclude code points > 16 bits
@@ -295,7 +295,7 @@ class FontFA5( Font ):              # Font Awesome version 5 - Regular and Solid
                         item_unicode = item[ 'unicode' ].zfill( 4 )
                         if [ key, item_unicode ] not in icons:
                             item_int = int( item_unicode, 16 )
-                            if item_int < font_min_int and item_int > 0x0127 :  # exclude ASCII characters code points
+                            if item_int < font_min_int and item_int > 127 :  # exclude ASCII characters code points
                                 font_min = item_unicode
                                 font_min_int = item_int
                             if item_int > font_max_16_int and item_int <= 0xffff:   # exclude code points > 16 bits
@@ -386,7 +386,7 @@ class FontMD( Font ):               # Google Material Design
                     if words and len( words ) >= 2:
                         word_unicode = words[ 1 ].zfill( 4 )
                         word_int = int( word_unicode, 16 )
-                        if word_int < font_min_int and word_int > 0x0127 :  # exclude ASCII characters code points
+                        if word_int < font_min_int and word_int > 127 :  # exclude ASCII characters code points
                             font_min = word_unicode
                             font_min_int = word_int
                         if word_int > font_max_16_int and word_int <= 0xffff:   # exclude code points > 16 bits
@@ -428,7 +428,7 @@ class FontMS( Font ):               # Google Material Symbols
                 if words and len( words ) >= 2:
                     word_unicode = words[ 1 ].zfill( 4 )
                     word_int = int( word_unicode, 16 )
-                    if word_int < font_min_int and word_int > 0x0127 :  # exclude ASCII characters code points
+                    if word_int < font_min_int and word_int > 127 :  # exclude ASCII characters code points
                         font_min = word_unicode
                         font_min_int = word_int
                     if word_int > font_max_16_int and word_int <= 0xffff:   # exclude code points > 16 bits
@@ -469,7 +469,7 @@ class FontMDI( Font ):               # Pictogrammers Material Design Icons
                     font_id = line.partition( cls.font_data_prefix )[ 2 ].partition( '::before' )[ 0 ]
                     font_code = line.partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
                     font_code_int = int( font_code, 16 )
-                    if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
+                    if font_code_int < font_min_int and font_code_int > 127 :  # exclude ASCII characters code points
                         font_min = font_code
                         font_min_int = font_code_int
                     if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits
@@ -510,7 +510,7 @@ class FontKI( Font ):               # Kenney Game icons
                     font_id = line.partition( cls.font_data_prefix )[ 2 ].partition( ':before' )[ 0 ]
                     font_code = line.partition( '"\\' )[ 2 ].partition( '"' )[ 0 ].zfill( 4 )
                     font_code_int = int( font_code, 16 )
-                    if font_code_int < font_min_int and font_code_int > 0x0127 :  # exclude ASCII characters code points
+                    if font_code_int < font_min_int and font_code_int > 127 :  # exclude ASCII characters code points
                         font_min = font_code
                         font_min_int = font_code_int
                     if font_code_int > font_max_16_int and font_code_int <= 0xffff:   # exclude code points > 16 bits

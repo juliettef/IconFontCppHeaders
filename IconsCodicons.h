@@ -656,5 +656,10 @@
 #define ICON_CI_ASK "\xee\xb2\x80"	// U+ec80
 #define ICON_CI_OPENAI "\xee\xb2\x81"	// U+ec81
 #define ICON_CI_CLAUDE "\xee\xb2\x82"	// U+ec82
-#define ICON_CI_GIT_FETCH "\xef\x84\x81"	// U+f101
-#define ICON_CI_VM_PENDING "\xef\x84\x82"	// U+f102
+#define ICON_CI_OPEN_IN_WINDOW "\xee\xb2\x83"	// U+ec83
+#define ICON_CI_NEW_SESSION "\xee\xb2\x84"	// U+ec84
+#define ICON_CI_TERMINAL_SECURE "\xee\xb2\x85"	// U+ec85
+#define ICON_CI_CHAT_IMPORT "\xee\xb2\x86"	// U+ec86
+#define ICON_CI_CHAT_EXPORT "\xee\xb2\x87"	// U+ec87
+#define ICON_CI_VM_PENDING "\xef\x84\x81"	// U+f101
+#define ICON_CI_GIT_FETCH "\xef\x84\x82"	// U+f102

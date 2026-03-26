@@ -658,7 +658,12 @@ var IconsCodicons = Font{
 		"Ask":	"\xee\xb2\x80", 	// U+ec80
 		"Openai":	"\xee\xb2\x81", 	// U+ec81
 		"Claude":	"\xee\xb2\x82", 	// U+ec82
-		"GitFetch":	"\xef\x84\x81", 	// U+f101
-		"VmPending":	"\xef\x84\x82", 	// U+f102
+		"OpenInWindow":	"\xee\xb2\x83", 	// U+ec83
+		"NewSession":	"\xee\xb2\x84", 	// U+ec84
+		"TerminalSecure":	"\xee\xb2\x85", 	// U+ec85
+		"ChatImport":	"\xee\xb2\x86", 	// U+ec86
+		"ChatExport":	"\xee\xb2\x87", 	// U+ec87
+		"VmPending":	"\xef\x84\x81", 	// U+f101
+		"GitFetch":	"\xef\x84\x82", 	// U+f102
 	},
 }

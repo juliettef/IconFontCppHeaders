@@ -660,7 +660,12 @@ namespace IconFonts
         public const string Ask = "\uec80";
         public const string Openai = "\uec81";
         public const string Claude = "\uec82";
-        public const string GitFetch = "\uf101";
-        public const string VmPending = "\uf102";
+        public const string OpenInWindow = "\uec83";
+        public const string NewSession = "\uec84";
+        public const string TerminalSecure = "\uec85";
+        public const string ChatImport = "\uec86";
+        public const string ChatExport = "\uec87";
+        public const string VmPending = "\uf101";
+        public const string GitFetch = "\uf102";
     }
 }
